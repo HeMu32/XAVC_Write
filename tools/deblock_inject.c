@@ -194,17 +194,17 @@ int main(int argc, char **argv) {
     if (argc < 3) { fprintf(stderr,"Usage: %s <input.mp4> <output.mp4>\n",argv[0]); return 1; }
 
     FILE *f = fopen(argv[1],"rb"); if(!f) die("open");
-    fseek(f,0,SEEK_END); long fsz=ftell(f); fseek(f,0,SEEK_SET);
+    _fseeki64(f,0,SEEK_END); int64_t fsz=_ftelli64(f); _fseeki64(f,0,SEEK_SET);
     logmsg("File opened"); 
-    uint8_t *buf = malloc(fsz);
+    uint8_t *buf = malloc((size_t)fsz);
     if(!buf) die("malloc");
-    fread(buf,1,fsz,f); fclose(f);
-    {char tmp[128]; sprintf(tmp,"Read %ld bytes",fsz); logmsg(tmp);}
+    fread(buf,1,(size_t)fsz,f); fclose(f);
+    {char tmp[128]; sprintf(tmp,"Read %lld bytes",(long long)fsz); logmsg(tmp);}
 
     /* Find top-level boxes */
-    long moov_pos=-1, mdat_pos=-1; uint64_t moov_sz=0, mdat_sz=0;
+    int64_t moov_pos=-1, mdat_pos=-1; uint64_t moov_sz=0, mdat_sz=0;
     {
-        long p=0;
+        int64_t p=0;
         while(p+8<=fsz) {
             uint32_t s=r32(buf+p);
             if(s==1) { uint64_t ls=((uint64_t)r32(buf+p+8)<<32)|r32(buf+p+12);
@@ -217,15 +217,15 @@ int main(int argc, char **argv) {
         }
     }
     if(mdat_pos<0) die("no mdat");
-    {char t[128]; sprintf(t,"moov=%ld mdat=%ld",moov_pos,mdat_pos); logmsg(t);}
+    {char t[128]; sprintf(t,"moov=%lld mdat=%lld",(long long)moov_pos,(long long)mdat_pos); logmsg(t);}
     int mdat_hdr = (r32(buf+mdat_pos)==1)?16:8;
-    long mdat_pl = mdat_pos + mdat_hdr;
+    int64_t mdat_pl = mdat_pos + mdat_hdr;
 
     /* Find video stbl in moov */
     /* Walk: moov > trak(vide) > mdia > minf > stbl */
     /* For simplicity, search for "avcC" to locate the video stsd */
-    long avcc_pos=-1;
-    for(long i=moov_pos;i<moov_pos+moov_sz-4;i++)
+    int64_t avcc_pos=-1;
+    for(int64_t i=moov_pos;i<moov_pos+(int64_t)moov_sz-4;i++)
         if(!memcmp(buf+i,"avcC",4)){avcc_pos=i;break;}
     if(avcc_pos<0) die("no avcC");
     logmsg("Found avcC");
@@ -243,8 +243,8 @@ int main(int argc, char **argv) {
 
     /* Find video stsz, stco, stsc, stss */
     /* Search within moov for these boxes */
-    long stsz_pos=-1, stco_pos=-1;
-    for(long i=moov_pos;i<moov_pos+moov_sz-8;i++) {
+    int64_t stsz_pos=-1, stco_pos=-1;
+    for(int64_t i=moov_pos;i<moov_pos+(int64_t)moov_sz-8;i++) {
         if(!memcmp(buf+i+4,"stsz",4) && stsz_pos<0) stsz_pos=i;
         if(!memcmp(buf+i+4,"stco",4) && stco_pos<0) stco_pos=i;
     }
@@ -260,7 +260,7 @@ int main(int argc, char **argv) {
     uint32_t sample_size = r32(buf+stsz_pos+stsz_hdr+4);  /* skip version+flags */
     uint32_t sample_count = r32(buf+stsz_pos+stsz_hdr+8);
     fprintf(stderr,"stsz: uniform=%u count=%u\n",sample_size,sample_count);
-    {char t[128]; sprintf(t,"stsz_pos=%ld uniform=%u count=%u",stsz_pos,sample_size,sample_count); logmsg(t);}
+    {char t[128]; sprintf(t,"stsz_pos=%lld uniform=%u count=%u",(long long)stsz_pos,sample_size,sample_count); logmsg(t);}
 
     /* For each sample, find it in mdat and process */
     /* We need stco to get chunk offsets, and stsc for samples-per-chunk */
@@ -271,20 +271,20 @@ int main(int argc, char **argv) {
     int stco_hdr = (r32(buf+stco_pos)==1)?16:8;
     uint32_t stco_count = r32(buf+stco_pos+stco_hdr+4);  /* skip version+flags */
     fprintf(stderr,"stco: %u chunks\n",stco_count);
-    {char t[128]; sprintf(t,"stco_pos=%ld count=%u",stco_pos,stco_count); logmsg(t);}
+    {char t[128]; sprintf(t,"stco_pos=%lld count=%u",(long long)stco_pos,stco_count); logmsg(t);}
 
     /* Parse stsc (search for it) */
-    long stsc_pos=-1;
-    for(long i=moov_pos;i<moov_pos+(long)moov_sz-8;i++)
+    int64_t stsc_pos=-1;
+    for(int64_t i=moov_pos;i<moov_pos+(int64_t)moov_sz-8;i++)
         if(!memcmp(buf+i+4,"stsc",4)){stsc_pos=i;break;}
     if(stsc_pos<0) { logmsg("stsc NOT FOUND - searching wider"); 
         /* search entire file */
-        for(long i=0;i<fsz-8;i++)
+        for(int64_t i=0;i<fsz-8;i++)
             if(!memcmp(buf+i+4,"stsc",4)){stsc_pos=i;break;}
-        {char t[128];sprintf(t,"stsc found at %ld",stsc_pos);logmsg(t);}
+        {char t[128];sprintf(t,"stsc found at %lld",(long long)stsc_pos);logmsg(t);}
     }
     if(stsc_pos<0) die("no stsc");
-    {char t[128];sprintf(t,"stsc_pos=%ld",stsc_pos);logmsg(t);}
+    {char t[128];sprintf(t,"stsc_pos=%lld",(long long)stsc_pos);logmsg(t);}
     int stsc_hdr = (r32(buf+stsc_pos)==1)?16:8;
     uint32_t stsc_count = r32(buf+stsc_pos+stsc_hdr+4);  /* skip version+flags */
     {char t[128];sprintf(t,"stsc: hdr=%d count=%u",stsc_hdr,stsc_count);logmsg(t);}
@@ -331,9 +331,9 @@ int main(int argc, char **argv) {
     int modified=0;
 
     for(uint32_t si=0; si<sample_count; si++) {
-        long off = sample_offsets[si];
+        int64_t off = sample_offsets[si];
         int sz = sample_sizes[si];
-        if(si%200==0 || si>=1170) {char t[128];sprintf(t,"sample %u: off=%ld sz=%d",si,off,sz);logmsg(t);}
+        if(si%200==0 || si>=1170)         {char t[128];sprintf(t,"sample %u: off=%lld sz=%d",si,(long long)off,sz);logmsg(t);}
         if(off+sz > fsz) { fprintf(stderr,"sample %u out of bounds\n",si); continue; }
 
         /* Process ALL NALs in this sample, modifying every slice */
@@ -449,9 +449,9 @@ int main(int argc, char **argv) {
         fprintf(stderr,"Patched PPS deblocking flag\n");
 
         FILE *of=fopen(argv[2],"wb");
-        fwrite(buf,1,fsz,of); fclose(of);
+        fwrite(buf,1,(size_t)fsz,of); fclose(of);
         logmsg("File written");
-        fprintf(stderr,"Output: %s (%ld bytes, same size)\n",argv[2],fsz);
+        fprintf(stderr,"Output: %s (%lld bytes, same size)\n",argv[2],(long long)fsz);
     } else {
         /* Sizes changed �?need to rebuild mdat and update stco/stsz */
         /* This is more complex. For now, just rebuild the whole file. */
@@ -464,20 +464,20 @@ int main(int argc, char **argv) {
 
         /* New mdat: copy everything except video samples, replace video samples */
         /* Build new mdat by walking the original mdat and replacing video samples */
-        long mdat_end = mdat_pos + (long)mdat_sz;
+        int64_t mdat_end = mdat_pos + (int64_t)mdat_sz;
         uint8_t *new_mdat = malloc((size_t)mdat_sz + total_delta + 1);
         if(!new_mdat) die("malloc new_mdat");
         logmsg("Allocated new mdat");
 
-        long src = mdat_pl;
-        long dst = 0;
+        int64_t src = mdat_pl;
+        int64_t dst = 0;
         for(uint32_t si=0; si<sample_count; si++) {
-            if(si%200==0){char t[128];sprintf(t,"rebuild si=%u dst=%ld src=%ld",si,dst,src);logmsg(t);}
-            long vstart = sample_offsets[si];
-            long vend = vstart + sample_sizes[si];
+            if(si%200==0){char t[128];sprintf(t,"rebuild si=%u dst=%lld src=%lld",si,(long long)dst,(long long)src);logmsg(t);}
+            int64_t vstart = sample_offsets[si];
+            int64_t vend = vstart + sample_sizes[si];
             /* Copy gap before this video sample using memcpy */
             if(vstart > src) {
-                long gap = vstart - src;
+                int64_t gap = vstart - src;
                 memcpy(new_mdat+dst, buf+src, gap);
                 dst += gap; src += gap;
             }
@@ -491,8 +491,8 @@ int main(int argc, char **argv) {
             memcpy(new_mdat+dst, buf+src, mdat_end - src);
             dst += mdat_end - src;
         }
-        {char t[64];sprintf(t,"new mdat built: %ld bytes",dst);logmsg(t);}
-        int new_mdat_sz = dst;
+        {char t[64];sprintf(t,"new mdat built: %lld bytes",(long long)dst);logmsg(t);}
+        int64_t new_mdat_sz = dst;
 
         /* Now rebuild the file: ftyp + PROF + new_mdat + new_moov */
         /* For moov, update: stsz, stco, avcC(PPS patch), and all box sizes */
@@ -521,7 +521,7 @@ int main(int argc, char **argv) {
         /* Build new sample offset map (video stco) */
         {
             uint32_t s=0;
-            long cur_delta=0;
+            int64_t cur_delta=0;
             for(uint32_t ch=0;ch<stco_count;ch++) {
                 uint32_t old_off = r32(buf+stco_pos+stco_hdr+8+ch*4);
                 uint32_t new_off = old_off + cur_delta;
@@ -541,17 +541,17 @@ int main(int argc, char **argv) {
         /* Update ALL other stco boxes in moov (audio, rtmd) */
         /* For each stco entry, compute shift = cumulative video delta before that offset */
         {
-            long mdat_start = mdat_pl;
-            for(long p = moov_pos+8; p < moov_pos+(long)moov_sz - 16; p++) {
+            int64_t mdat_start = mdat_pl;
+            for(int64_t p = moov_pos+8; p < moov_pos+(int64_t)moov_sz - 16; p++) {
                 if(memcmp(buf+p+4, "stco", 4) != 0) continue;
                 if(p == stco_pos) continue; /* already updated */
                 int hdr = (r32(buf+p)==1)?16:8;
                 uint32_t cnt = r32(buf+p+hdr+4);
-                fprintf(stderr,"Updating stco at 0x%lX: %u entries\n",(long)p,cnt);
+                fprintf(stderr,"Updating stco at 0x%llX: %u entries\n",(unsigned long long)p,cnt);
                 for(uint32_t i=0;i<cnt;i++) {
                     uint32_t off = r32(buf+p+hdr+8+i*4);
                     /* Compute cumulative video delta before this offset */
-                    long delta = 0;
+                    int64_t delta = 0;
                     for(uint32_t s=0; s<sample_count; s++) {
                         if(sample_offsets[s] >= off) break;
                         delta += new_sizes[s] - sample_sizes[s];
@@ -605,8 +605,8 @@ int main(int argc, char **argv) {
         /* TODO: properly handle audio/rtmd stco */
 
         /* Write output: everything before mdat + new mdat + everything after */
-        long new_fsz = mdat_pos + new_mdat_total + (fsz - mdat_end);
-        uint8_t *out = malloc(new_fsz > fsz ? new_fsz : fsz);
+        int64_t new_fsz = mdat_pos + new_mdat_total + (fsz - mdat_end);
+        uint8_t *out = malloc((size_t)(new_fsz > fsz ? new_fsz : fsz));
         memcpy(out, buf, mdat_pos); /* ftyp + PROF */
         /* Write new mdat header + data */
         if(mdat_hdr==16) {
@@ -623,8 +623,8 @@ int main(int argc, char **argv) {
         memcpy(out+mdat_pos+new_mdat_total, buf+mdat_end, fsz-mdat_end);
 
         FILE *of=fopen(argv[2],"wb");
-        fwrite(out,1,new_fsz,of); fclose(of);
-        fprintf(stderr,"Output: %s (%ld bytes, delta %+d)\n",argv[2],new_fsz,total_delta);
+        fwrite(out,1,(size_t)new_fsz,of); fclose(of);
+        fprintf(stderr,"Output: %s (%lld bytes, delta %+d)\n",argv[2],(long long)new_fsz,total_delta);
         free(out);
     }
 
