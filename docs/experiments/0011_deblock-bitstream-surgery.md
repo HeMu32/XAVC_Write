@@ -162,4 +162,34 @@ ffmpeg -y -i <input.mp4> -map 0:v:0 -frames:v 1 -s 1280x720 -q:v 2 -update 1 <K:
 
 ## 缩略图显示问题
 
-截至当前，C0004 和 C0005 的缩略图（ffmpeg 生成的 1280×720 JPEG）均未被相机正常显示。相机直出的缩略图（C6359T01.JPG 等）能正常显示。差异可能在 EXIF 元数据或 JPEG 编码参数。此问题待后续研究，不影响片段播放。
+截至当前，C0004 和 C0005 的缩略图（ffmpeg 生成的 1280×720 JPEG）均未被相机正常显示。相机直出的缩略图（C6359T01.JPG 等）能正常显示。
+
+### 差异分析
+
+| 属性 | 相机缩略图（C6359） | ffmpeg 生成（原始） |
+|------|-------------------|-------------------|
+| EXIF 头 | 有（FFE1, APP1） | 无（JFIF, APP0） |
+| Make | SONY | 无 |
+| Model | ILCE-7M4 | 无 |
+| ExifVersion | 0232 | 无 |
+| ColorSpace | sRGB | 无 |
+| YCbCrSubSampling | 4:2:2 (2 1) | 4:2:0 (2 2) |
+| ExifImageWidth/Height | 1280/720 | 无 |
+| 嵌入式缩略图 | 有（~4-5KB） | 无 |
+| InteropIndex | R98 | 无 |
+
+### 修复方法
+
+```
+# 1. 用 ffmpeg 生成 4:2:2 色度采样的 JPEG
+ffmpeg -y -i <input.mp4> -map 0:v:0 -frames:v 1 -s 1280x720 -pix_fmt yuvj422p -q:v 2 -update 1 <output.jpg>
+
+# 2. 用 exiftool 从相机缩略图复制全部 EXIF 元数据
+exiftool -overwrite_original -TagsFromFile <camera_thumb.jpg> -all:all <output.jpg>
+```
+
+修复后的缩略图在 EXIF 结构上与相机直出一致。注意：嵌入式 EXIF 缩略图（~4KB）的内容来自源相机缩略图，不是目标片段的实际画面。主 JPEG 图像是目标片段的首帧。
+
+此问题是否完全解决待相机验证。
+
+本方案没有解决问题, 后续修正见0012号记录. 

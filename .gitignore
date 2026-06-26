@@ -1,0 +1,7 @@
+**/*.exe
+
+**/*.mp4
+
+include/**
+
+backup/**
