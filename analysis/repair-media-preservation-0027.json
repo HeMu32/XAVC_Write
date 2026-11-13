@@ -1,0 +1,4508 @@
+{
+  "schema": 1,
+  "generated_utc": "2026-11-13T06:47:00.756646+00:00",
+  "scope": "Whole-file media preservation cross-check, not post-repair camera acceptance",
+  "card_access_by_join_tool": false,
+  "card_writes": false,
+  "card_media_rehashed": false,
+  "snapshot_attempt_before_analysis": "unavailable_not_a_sony_m4root_card_no_output_created",
+  "snapshot_fallback": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T135646",
+  "post_hash_completed_utc": "2026-11-13T06:10:03.666097+00:00",
+  "post_report_valid_and_snapshot_manifest_bound": true,
+  "post_report_normalized_paths_unique": true,
+  "pre_repair_ledger_state_preserved_as_recorded": "BASELINE_CAPTURED_AWAITING_USER_CAMERA_REPAIR",
+  "coverage": {
+    "total": 141,
+    "matched": 31,
+    "uncovered": 110,
+    "percent_files": 21.9858,
+    "total_bytes": 7592389992,
+    "matched_bytes": 4206881832,
+    "percent_bytes": 55.4092
+  },
+  "priority_coverage": {
+    "total": 11,
+    "matched": 11,
+    "uncovered": 0,
+    "percent_files": 100.0,
+    "total_bytes": 3762317765,
+    "matched_bytes": 3762317765,
+    "percent_bytes": 100.0
+  },
+  "coverage_by_extension": {
+    ".ARW": {
+      "total": 15,
+      "matched": 0,
+      "uncovered": 15,
+      "percent_files": 0.0,
+      "total_bytes": 535269376,
+      "matched_bytes": 0,
+      "percent_bytes": 0.0
+    },
+    ".JPG": {
+      "total": 74,
+      "matched": 14,
+      "uncovered": 60,
+      "percent_files": 18.9189,
+      "total_bytes": 49148025,
+      "matched_bytes": 5009845,
+      "percent_bytes": 10.1934
+    },
+    ".MP4": {
+      "total": 52,
+      "matched": 17,
+      "uncovered": 35,
+      "percent_files": 32.6923,
+      "total_bytes": 7007972591,
+      "matched_bytes": 4201871987,
+      "percent_bytes": 59.9585
+    }
+  },
+  "coverage_by_evidence_kind": {
+    "deployment_readback": {
+      "total": 141,
+      "matched": 26,
+      "uncovered": 115,
+      "percent_files": 18.4397,
+      "total_bytes": 7592389992,
+      "matched_bytes": 2628700095,
+      "percent_bytes": 34.6228
+    },
+    "historical_pair_comparison": {
+      "total": 141,
+      "matched": 4,
+      "uncovered": 137,
+      "percent_files": 2.8369,
+      "total_bytes": 7592389992,
+      "matched_bytes": 349960290,
+      "percent_bytes": 4.6094
+    },
+    "historical_reference": {
+      "total": 141,
+      "matched": 3,
+      "uncovered": 138,
+      "percent_files": 2.1277,
+      "total_bytes": 7592389992,
+      "matched_bytes": 1510801546,
+      "percent_bytes": 19.8989
+    },
+    "historical_round": {
+      "total": 141,
+      "matched": 12,
+      "uncovered": 129,
+      "percent_files": 8.5106,
+      "total_bytes": 7592389992,
+      "matched_bytes": 3870167075,
+      "percent_bytes": 50.9743
+    },
+    "package_build": {
+      "total": 141,
+      "matched": 17,
+      "uncovered": 124,
+      "percent_files": 12.0567,
+      "total_bytes": 7592389992,
+      "matched_bytes": 4134746675,
+      "percent_bytes": 54.4591
+    },
+    "package_verification": {
+      "total": 141,
+      "matched": 26,
+      "uncovered": 115,
+      "percent_files": 18.4397,
+      "total_bytes": 7592389992,
+      "matched_bytes": 2628700095,
+      "percent_bytes": 34.6228
+    },
+    "pre_repair_ledger": {
+      "total": 141,
+      "matched": 3,
+      "uncovered": 138,
+      "percent_files": 2.1277,
+      "total_bytes": 7592389992,
+      "matched_bytes": 455102828,
+      "percent_bytes": 5.9942
+    }
+  },
+  "direct_pre_repair_media_hashes": 3,
+  "direct_pre_repair_hash_mismatches": [],
+  "inventory": {
+    "before_count": 141,
+    "after_count": 141,
+    "added_paths": [],
+    "removed_paths": [],
+    "size_mtime_matches": 141,
+    "warning": "Size/mtime equality is not proof of byte equality."
+  },
+  "priority": [
+    {
+      "clip": "C6507",
+      "sha256": "87e49bcb2d8f79536413dcc22498c780587d550cbd7fc98e23e545812afa3764",
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 6,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "REJECTED_USER_REPORTED",
+      "historical_playback_source": "analysis/camera_observations_20261112_233331.json",
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clip": "C6509",
+      "sha256": "abab47d3650607fcb185b57b1e1b1cca313b8b4d4f38f4161ac0b1c0be48b781",
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 4,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "REJECTED_USER_REPORTED",
+      "historical_playback_source": "analysis/camera_observations_20261112_233331.json",
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clip": "C6511",
+      "sha256": "8a03d292450ad6c0710f7b8fc97933038336f51f5f2793ccc91c0252578f0e3e",
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 6,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "SUCCESS_USER_REPORTED",
+      "historical_playback_source": "analysis/camera-observations-0025-result.json",
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clip": "C6512",
+      "sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 7,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "REJECTED_USER_REPORTED",
+      "historical_playback_source": "analysis/camera-observations-0025-result.json",
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clip": "C6513",
+      "sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 7,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "REJECTED_USER_REPORTED",
+      "historical_playback_source": "analysis/camera-observations-0025-result.json",
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clip": "C6514",
+      "sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375",
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 7,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "SUCCESS_USER_REPORTED",
+      "historical_playback_source": "analysis/camera-observations-0025-result.json",
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clip": "C6515",
+      "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+      "status": "DIRECT_PRE_REPAIR_SHA256_EQUAL",
+      "matched_source_artifact_count": 10,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "SUCCESS_USER_REPORTED",
+      "historical_playback_source": "analysis/camera-observations-0025-result.json",
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clip": "C6517",
+      "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+      "status": "DIRECT_PRE_REPAIR_SHA256_EQUAL",
+      "matched_source_artifact_count": 7,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "SUCCESS_USER_REPORTED",
+      "historical_playback_source": "analysis/camera-observations-0026-result.json",
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clip": "C6518",
+      "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+      "status": "DIRECT_PRE_REPAIR_SHA256_EQUAL",
+      "matched_source_artifact_count": 7,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "SUCCESS_USER_REPORTED",
+      "historical_playback_source": "analysis/camera-observations-0026-result.json",
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clip": "C0007",
+      "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 10,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "USER_RECONFIRMED_CONTINUOUSLY_NORMAL_NOT_A_SEPARATE_FRESH_RETEST",
+      "historical_playback_source": "analysis/camera-observations-0025-result.json",
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clip": "C6359",
+      "sha256": "50b110211712a816677f9bef60eb882baf0e5365135b8d4c07aa76260dda21ee",
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 1,
+      "pre_repair_size_mtime_match": true,
+      "historical_pre_repair_playback": "NOT_ESTABLISHED",
+      "historical_playback_source": null,
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    }
+  ],
+  "three_vs_four_byte_pairs": [
+    {
+      "clips": [
+        "C6512",
+        "C6515"
+      ],
+      "historical_nal_length_bytes": [
+        3,
+        4
+      ],
+      "historical_pre_repair_playback": [
+        "REJECTED_USER_REPORTED",
+        "SUCCESS_USER_REPORTED"
+      ],
+      "historical_playback_source": "analysis/camera-observations-0025-result.json",
+      "historical_pair_comparison_source": "analysis/reframe-C6512-C6515-0025.json",
+      "comparison_passed": true,
+      "comparison_checks": {
+        "three_track_layouts_match": true,
+        "avcc_identical_except_declared_length_width": true,
+        "all_track_counts_cadence_composition_sync_and_duration_match": true,
+        "audio_and_metadata_payloads_exact": true,
+        "audio_and_metadata_sample_boundaries_exact": true,
+        "every_sample_ordered_nals_exact_including_all_sei": true,
+        "sample_size_delta_exactly_matches_nal_prefix_change": true
+      },
+      "both_post_hashes_equal_pair_inputs": true,
+      "whole_media_bytes_preserved_relative_to_historical_pair": true,
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    },
+    {
+      "clips": [
+        "C6513",
+        "C6514"
+      ],
+      "historical_nal_length_bytes": [
+        3,
+        4
+      ],
+      "historical_pre_repair_playback": [
+        "REJECTED_USER_REPORTED",
+        "SUCCESS_USER_REPORTED"
+      ],
+      "historical_playback_source": "analysis/camera-observations-0025-result.json",
+      "historical_pair_comparison_source": "analysis/reframe-C6513-C6514-0025.json",
+      "comparison_passed": true,
+      "comparison_checks": {
+        "three_track_layouts_match": true,
+        "avcc_identical_except_declared_length_width": true,
+        "all_track_counts_cadence_composition_sync_and_duration_match": true,
+        "audio_and_metadata_payloads_exact": true,
+        "audio_and_metadata_sample_boundaries_exact": true,
+        "every_sample_ordered_nals_exact_including_all_sei": true,
+        "sample_size_delta_exactly_matches_nal_prefix_change": true
+      },
+      "both_post_hashes_equal_pair_inputs": true,
+      "whole_media_bytes_preserved_relative_to_historical_pair": true,
+      "post_repair_playback": "NOT_ESTABLISHED_BY_THIS_HASH_JOIN"
+    }
+  ],
+  "local_reference_rehashes": [
+    {
+      "clip": "C0001",
+      "path": "analysis/C0001-reference-0026.MP4",
+      "sha256": "927fb7c9a622943bfbde54a976a89b05da5de28740012e2d4b93b1c7b857d8bd",
+      "size": 22086323,
+      "last_write_time_ns": 1782271238000000000,
+      "stable_during_hash": true,
+      "matches_post_repair": true,
+      "matches_prior_independent_record": true,
+      "scope": "Current LOCAL reference rehash; not a new pre-repair card observation"
+    },
+    {
+      "clip": "C0007",
+      "path": "analysis/C0007-reference-0023.MP4",
+      "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+      "size": 1421462765,
+      "last_write_time_ns": 1782402982000000000,
+      "stable_during_hash": true,
+      "matches_post_repair": true,
+      "matches_prior_independent_record": true,
+      "scope": "Current LOCAL reference rehash; not a new pre-repair card observation"
+    },
+    {
+      "clip": "C6359",
+      "path": "analysis/C6359-reference-0023.MP4",
+      "sha256": "50b110211712a816677f9bef60eb882baf0e5365135b8d4c07aa76260dda21ee",
+      "size": 67252458,
+      "last_write_time_ns": 1782377694000000000,
+      "stable_during_hash": true,
+      "matches_post_repair": true,
+      "matches_prior_independent_record": true,
+      "scope": "Current LOCAL reference rehash; not a new pre-repair card observation"
+    }
+  ],
+  "source_artifacts": {
+    "analysis/repair-media-hashes-0027.json": {
+      "kind": "post_repair_hash_report",
+      "sha256": "639453fb7ad5868d89d9bb8570b7d68a4d2c7bd5d7e8c3bff2caa178eb74dfcf",
+      "size": 33152,
+      "last_write_time_ns": 1794550203668099200,
+      "independent_of_post_hash_report": false
+    },
+    "analysis/camera-database-repair-0027.json": {
+      "kind": "pre_repair_ledger",
+      "sha256": "43071e7029b36e3a73c12c82b33a41896add9d8148254c1b7f4b78b56e8e2287",
+      "size": 1961,
+      "last_write_time_ns": 1794549186509713800,
+      "independent_of_post_hash_report": true
+    },
+    "backup/snap_20261113T135135/_snapshot.json": {
+      "kind": "pre_repair_inventory",
+      "sha256": "7b49410a9a0cfada1c30e50addc371f5d65f4216abd9fe6854bab21327b9932a",
+      "size": 174,
+      "last_write_time_ns": 1794549096390808500,
+      "independent_of_post_hash_report": true
+    },
+    "backup/snap_20261113T135135/_skipped_media_manifest.csv": {
+      "kind": "pre_repair_inventory",
+      "sha256": "dde1ce98ade4955495064606960031a3966b81ebe2b4ce37137dc338df79d8c3",
+      "size": 17874,
+      "last_write_time_ns": 1794549096389807500,
+      "independent_of_post_hash_report": true
+    },
+    "backup/snap_20261113T135646/_snapshot.json": {
+      "kind": "post_repair_inventory",
+      "sha256": "775902cf7b006bdb3dade493c22e22f80c29ef6a1c8d10214de5b5ff9b6573cb",
+      "size": 174,
+      "last_write_time_ns": 1794549406457116600,
+      "independent_of_post_hash_report": true
+    },
+    "backup/snap_20261113T135646/_skipped_media_manifest.csv": {
+      "kind": "post_repair_inventory",
+      "sha256": "dde1ce98ade4955495064606960031a3966b81ebe2b4ce37137dc338df79d8c3",
+      "size": 17874,
+      "last_write_time_ns": 1794549406456115700,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-25m/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "059570b46e0e811f68e016765b5cc48d8e9c419cd9d47b26aa41a8c3f5ce9b2c",
+      "size": 1053,
+      "last_write_time_ns": 1794469126605164600,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-25m/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "1ad0b9ebb27664a7b8b0cd69601e2c370a917e01db1fd330a6b338058f45b33c",
+      "size": 841,
+      "last_write_time_ns": 1794467486508591100,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-25m/verification.json": {
+      "kind": "package_verification",
+      "sha256": "1d62c8e4005df99a230b6bd55cc726217205fab0824ca9e1fd3c5aa9c64afcff",
+      "size": 1345,
+      "last_write_time_ns": 1794469093886354300,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-25m-coherent/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "de1c5bfcb9910eefed2c23d549b59a93731bf9cdba5fc4a4e84daf9b8f829937",
+      "size": 1131,
+      "last_write_time_ns": 1794470020973147900,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-25m-coherent/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "ab996f3251af07a7d0f665722d98367c1579b9f496e6e80b5ff1d78e12972122",
+      "size": 841,
+      "last_write_time_ns": 1794469866162717000,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-25m-coherent/verification.json": {
+      "kind": "package_verification",
+      "sha256": "215b657c3ae51758ec320c7d982752e8584c0bf8e506a752f47454bb12627505",
+      "size": 1437,
+      "last_write_time_ns": 1794477775384065100,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-25m-hrd/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "8b66740e3078f1ed8344941850d761a297a248d36a590d461187156c58daf879",
+      "size": 1053,
+      "last_write_time_ns": 1794481081172923700,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-25m-hrd/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "fae2a4f9da38bb1ae317a0a92b1eb6ae1a7f67d9ae9a305c109fb2b2718e4b03",
+      "size": 20564,
+      "last_write_time_ns": 1794479991496571700,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-25m-hrd/verification.json": {
+      "kind": "package_verification",
+      "sha256": "1ee896ab1765be257f0e9e78bf04295509dc77eb902b04b70e5b4e68a77c329b",
+      "size": 5071,
+      "last_write_time_ns": 1794482442693903800,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-aligned3-C6513/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "b392d55ddc136638064620ef08c79b3094cd77c8923643af380cc64a4fcc1291",
+      "size": 1053,
+      "last_write_time_ns": 1794505001385629800,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-aligned3-C6513/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "9e2a50bbb1a9610dfffbfed885f70bd5c9a1d27ff6ad8dd9043051f7f019ea00",
+      "size": 21795,
+      "last_write_time_ns": 1794504860352450800,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-aligned3-C6513/verification.json": {
+      "kind": "package_verification",
+      "sha256": "393eb4b1c7f6512868f3b5398a4c31007ee6251188c9f4992e074ab56ed7aded",
+      "size": 6313,
+      "last_write_time_ns": 1794504906549012100,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-aligned4-C6514/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "018211a9c2df996fa6aa5ab2f93525103f85b027f061cee35f7054ebdb69af35",
+      "size": 1053,
+      "last_write_time_ns": 1794505157920476600,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-aligned4-C6514/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "171ec3f360225945e0897182e3954e3c9182e94591eff8333f15af0dbffdd994",
+      "size": 21743,
+      "last_write_time_ns": 1794503353281877300,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-aligned4-C6514/verification.json": {
+      "kind": "package_verification",
+      "sha256": "e447b179d0885cb0e23c7cb68d57078c772cee7334afd3e808c162872397dcd1",
+      "size": 6203,
+      "last_write_time_ns": 1794505066768271700,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-compact-C6512/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "8c85372b468e01c9db54c614cee052e9f4566a75014e10522a223f996b680e92",
+      "size": 1053,
+      "last_write_time_ns": 1794504260287219300,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-compact-C6512/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "53b1f7371a0a4b565e5853fc936981796432c8e41ae2cf6f5713bea54d86cba3",
+      "size": 21691,
+      "last_write_time_ns": 1794504860352450800,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-compact-C6512/verification.json": {
+      "kind": "package_verification",
+      "sha256": "3b0f1a5334704674aa22f04d84a4ef214fca14a8df694598bd6ecc520ffcdddd",
+      "size": 6340,
+      "last_write_time_ns": 1794504907763255900,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-compact4-C6515/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "faebc4c266e45afdba4583dad2f474364705d706dd0532b61a17b35d3990be28",
+      "size": 1053,
+      "last_write_time_ns": 1794505312584538100,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-compact4-C6515/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "c250526ce3fcfb986dac11a1c33747c248ca0b273ceb242f3391904afa2a2631",
+      "size": 21739,
+      "last_write_time_ns": 1794503354514759700,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-compact4-C6515/verification.json": {
+      "kind": "package_verification",
+      "sha256": "e2d09d7750b69d0ec67c5d09cd40a001433524ac0b04ff719123949a0e560571",
+      "size": 6203,
+      "last_write_time_ns": 1794505222645898300,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-minimal-C6510/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "1457f6716768befd44e8582a1762b835e85b4e31bdf2a1d3d756f2537ff382a0",
+      "size": 1053,
+      "last_write_time_ns": 1794497285193973100,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-minimal-C6510/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "6af19cf3d3c92c0f7fe4e6082db3c29a924865f0383e1fa463fc72c71b825ca9",
+      "size": 21183,
+      "last_write_time_ns": 1794496831718772600,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-minimal-C6510/verification.json": {
+      "kind": "package_verification",
+      "sha256": "b098628ae976fe59a6d116a0d0645395fb70258cb533d98f1deccdc871240c7a",
+      "size": 5957,
+      "last_write_time_ns": 1794497226649836200,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-rec709-C6508/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "f0a1738697f344a3af08310c77a99502193367c4d07cd4766d0589f8970514f7",
+      "size": 1053,
+      "last_write_time_ns": 1794488858931586000,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-rec709-C6508/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "cb91babe8e6432ff493de7cb81013d8ca0a9a521abea3a09731cae6422fb6275",
+      "size": 21183,
+      "last_write_time_ns": 1794488137292718900,
+      "independent_of_post_hash_report": true
+    },
+    "output/cat-rec709-C6508/verification.json": {
+      "kind": "package_verification",
+      "sha256": "a361cb8aeca795ebe688b9f9a06a34c4c4024ed32be4b5f9277f99163e74aec6",
+      "size": 5572,
+      "last_write_time_ns": 1794489038402791500,
+      "independent_of_post_hash_report": true
+    },
+    "output/native-control-C6507/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "07b870edae75c6f144ddd44b1eb2b66a8f16bc5abf3521dca617b854b6ba12b4",
+      "size": 1053,
+      "last_write_time_ns": 1794488175459333000,
+      "independent_of_post_hash_report": true
+    },
+    "output/native-control-C6507/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "1d273635fd56c00c77c178b1b5dabd021e8cc31eb5eeef25a2ac6233b88b4668",
+      "size": 1351,
+      "last_write_time_ns": 1794487739771086400,
+      "independent_of_post_hash_report": true
+    },
+    "output/native-control-C6507/verification.json": {
+      "kind": "package_verification",
+      "sha256": "8f8d2c8d684fff40d91077c97985a6ddb4aec42e2bc3e68f7d7376e6d224608f",
+      "size": 3822,
+      "last_write_time_ns": 1794488375585069500,
+      "independent_of_post_hash_report": true
+    },
+    "output/native-minimal-C6509/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "d240c860aced3d2f8d48e8130a081d9d3b6193ef545ef9ecc578040f914c37f7",
+      "size": 1053,
+      "last_write_time_ns": 1794497165909126100,
+      "independent_of_post_hash_report": true
+    },
+    "output/native-minimal-C6509/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "a4e18fe04b06e7026edaf3c239da112ca158e05f0b580a961c538d81ccf099f6",
+      "size": 1351,
+      "last_write_time_ns": 1794496831858900700,
+      "independent_of_post_hash_report": true
+    },
+    "output/native-minimal-C6509/verification.json": {
+      "kind": "package_verification",
+      "sha256": "d3346a2a5de35e0f25cef05876227ab5ff119e94a9d8e491fa12e16db944efcc",
+      "size": 4234,
+      "last_write_time_ns": 1794497150430926700,
+      "independent_of_post_hash_report": true
+    },
+    "output/profiles-0026-deploy/C6517/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "1998f904da613a3ebddb7f89c22f9574b3e84bf7146bd424edf1b2ece7438e92",
+      "size": 1053,
+      "last_write_time_ns": 1794548288595573300,
+      "independent_of_post_hash_report": true
+    },
+    "output/profiles-0026-deploy/C6517/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "1e5e28a62b262577f0a7f9d4e3ae3da748cdacb39143e18e809c68a5e2538d76",
+      "size": 22539,
+      "last_write_time_ns": 1794546894588198900,
+      "independent_of_post_hash_report": true
+    },
+    "output/profiles-0026-deploy/C6517/verification.json": {
+      "kind": "package_verification",
+      "sha256": "1eda00691f6e10f5b7023d5de842bd2284219121be46fd0b2761b8d70e2176fa",
+      "size": 7736,
+      "last_write_time_ns": 1794548170088296800,
+      "independent_of_post_hash_report": true
+    },
+    "output/profiles-0026-deploy/C6518/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "ffe02be4118ac771b97f7ecf9d0bd6b476d16557c87b71c09f893634caef3cbf",
+      "size": 1053,
+      "last_write_time_ns": 1794548444436559200,
+      "independent_of_post_hash_report": true
+    },
+    "output/profiles-0026-deploy/C6518/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "21285ef00bd037b2d15fed3d21f034a0d7671ad25d9bb2df6a2dfbf13117ebc7",
+      "size": 22532,
+      "last_write_time_ns": 1794546893818778300,
+      "independent_of_post_hash_report": true
+    },
+    "output/profiles-0026-deploy/C6518/verification.json": {
+      "kind": "package_verification",
+      "sha256": "6dbdb49b7ac6e47e8bfd2f55dd9637df2c9fb80fa0f7a3046a58e7b3082ee5cc",
+      "size": 7739,
+      "last_write_time_ns": 1794548373284839300,
+      "independent_of_post_hash_report": true
+    },
+    "output/source-control-C6511/deployment.json": {
+      "kind": "deployment_readback",
+      "sha256": "0297afbba72da33fce081b24f463c9fe2290fcd79ff424b9f403f2c250f62e13",
+      "size": 1053,
+      "last_write_time_ns": 1794504085010544500,
+      "independent_of_post_hash_report": true
+    },
+    "output/source-control-C6511/build-manifest.json": {
+      "kind": "package_build",
+      "sha256": "f6edab096e382731cee07b00b08c73b93e38faa2174875e72ec4f3c68a089be0",
+      "size": 3143,
+      "last_write_time_ns": 1794503494586210500,
+      "independent_of_post_hash_report": true
+    },
+    "output/source-control-C6511/verification.json": {
+      "kind": "package_verification",
+      "sha256": "89ca7de0144ed694400c155fa3d30f4c36b0f52f50cb5f689df0c16110c4feda",
+      "size": 4736,
+      "last_write_time_ns": 1794503678647015400,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/C6507-C6508-card-audit.json": {
+      "kind": "historical_round",
+      "sha256": "95b0e2182b2327cb75099f889b6ed45bc2e00314d01c10bdc6fb53de3c7b9a97",
+      "size": 2367,
+      "last_write_time_ns": 1794489209392908100,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/C6509-C6510-card-audit.json": {
+      "kind": "historical_round",
+      "sha256": "a7606441e9b79149a70d2a57be0046a71d91b6ec58b09bd5411850b2ef6dd7ad",
+      "size": 2368,
+      "last_write_time_ns": 1794497297660709300,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/sd-test-round-0025.json": {
+      "kind": "historical_round",
+      "sha256": "d9d927a1ae6c83c8baad01f7d4cc0bb13e502315566f7869b67ff4639038efa5",
+      "size": 4074,
+      "last_write_time_ns": 1794505335176869800,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/sd-test-round-0026.json": {
+      "kind": "historical_round",
+      "sha256": "436f4f1a8d53f735c22769a55009ecb908d74440b9ea76693ae994246e6b1c08",
+      "size": 2401,
+      "last_write_time_ns": 1794548462243816000,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/camera-test-round-0025.json": {
+      "kind": "historical_round",
+      "sha256": "7899f229d79d737f2d38a034b2b36ebebc8dcf0e11a9b6cc0fc5d5f1649272a6",
+      "size": 5370,
+      "last_write_time_ns": 1794536965075622700,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/camera-test-round-0026.json": {
+      "kind": "historical_round",
+      "sha256": "9245625b20966a1f75e6197cc0cc558868b90b461f6eefe953bd33e0dc7d7305",
+      "size": 5076,
+      "last_write_time_ns": 1794548804635651000,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/camera-observations-0025-result.json": {
+      "kind": "historical_round",
+      "sha256": "d07fde30cda2221e7d8e9f869722c4fb5e6bf15a95041fef21664ff9209c8877",
+      "size": 4190,
+      "last_write_time_ns": 1794536965074621700,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/camera-observations-0026-result.json": {
+      "kind": "historical_round",
+      "sha256": "77573d5e85c402ff92f8bbbc2c5a529cbc38567aa9c1304c1d6891c040afc83c",
+      "size": 3546,
+      "last_write_time_ns": 1794548804633649100,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/historical-playback-C0007-0025.json": {
+      "kind": "historical_round",
+      "sha256": "75a7941fa211b0f26bf69ea1711badab03bf5a293b9d3917e81f2a3cfca78aac",
+      "size": 1107,
+      "last_write_time_ns": 1794502594197007600,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/xavc-reader-C0007-0023.json": {
+      "kind": "historical_reference",
+      "sha256": "6242352a78b7b5bac59a7c4a78ff41bd1f5e180779df462f2e1c968b6243b5c4",
+      "size": 11422,
+      "last_write_time_ns": 1794499008121198200,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/xavc-reader-C6359-0023.json": {
+      "kind": "historical_reference",
+      "sha256": "b58ab96acc261fc9b517c7fbc751cacb71a740cd560dbd01c0bb10b6de425b5e",
+      "size": 9265,
+      "last_write_time_ns": 1794498666072291900,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/rtmd-reference-0026-hd25_5994.json": {
+      "kind": "historical_reference",
+      "sha256": "571ceacb7a5486d48f43427c0b4ce77172b45e7fcfd77054558692e690df17b4",
+      "size": 5498,
+      "last_write_time_ns": 1794546666606492500,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/rtmd-reference-0026-hd50_5994.json": {
+      "kind": "historical_reference",
+      "sha256": "6bab198ea9ff7118a3954cabbc64098362fc6a0bf54a1b11b8784f560fefabbb",
+      "size": 5498,
+      "last_write_time_ns": 1794546635943544200,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/rtmd-reference-0026-uhd60_2997.json": {
+      "kind": "historical_reference",
+      "sha256": "db6caf0b623826bad2645b6201306dc30274fde3836fdffa9ff76519fbece1e8",
+      "size": 4774,
+      "last_write_time_ns": 1794546634048950900,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/reframe-C6512-C6515-0025.json": {
+      "kind": "historical_pair_comparison",
+      "sha256": "5f78d125c349353922cf6008de5aeacbced8a5b00e0021b30d2ef2e1ec0429b8",
+      "size": 1199,
+      "last_write_time_ns": 1794504046901874200,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/reframe-C6513-C6514-0025.json": {
+      "kind": "historical_pair_comparison",
+      "sha256": "6106cbb2e7f98e40113f46c51d5ee4f97fb7172d818ffe44a1f01a77c0443c85",
+      "size": 1200,
+      "last_write_time_ns": 1794504047535519400,
+      "independent_of_post_hash_report": true
+    },
+    "analysis/camera_observations_20261112_233331.json": {
+      "kind": "historical_camera_observation",
+      "sha256": "219931a925bb2a386b4f4944233ecb876fd3b2c4b0b9d92cf2c7ac99a1fd0e59",
+      "size": 2734,
+      "last_write_time_ns": 1794499660403785600,
+      "independent_of_post_hash_report": true
+    }
+  },
+  "source_independence": [
+    "All historical digest assertions above come from files other than the post-repair report.",
+    "Repeated fields in one artifact and copied build/verification/round records are NOT independent experiments.",
+    "matched_source_artifact_count counts distinct files, not statistically independent observations.",
+    "Only the ledger's direct hashes give immediate pre/post card content equality; other matches bind older known bytes.",
+    "Only exact path/clip identities and whole-file SHA256 fields are joined; firmware, payload, RTMD and decoded-frame hashes are excluded."
+  ],
+  "historical_version_differences": [
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C0008.MP4",
+      "post_sha256": "27ebf88812469b9d5156e32acbfdd189b234ff2712f358d463447792984716b2",
+      "different_evidence": [
+        {
+          "source": "output/cat-25m/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "b51cc325bb72e88b3b4d5825f8117ece7f15fec69bd3341c807177602a2c39c9",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": false
+        },
+        {
+          "source": "output/cat-25m/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "b51cc325bb72e88b3b4d5825f8117ece7f15fec69bd3341c807177602a2c39c9",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": false
+        },
+        {
+          "source": "output/cat-25m/verification.json",
+          "json_pointer": "/package_hashes/C0008.MP4",
+          "sha256": "b51cc325bb72e88b3b4d5825f8117ece7f15fec69bd3341c807177602a2c39c9",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": false
+        }
+      ],
+      "interpretation": "Older or alternate package bytes, not alone evidence of repair mutation; inspect each deployment lineage."
+    }
+  ],
+  "explicit_historical_deployment_revision_lineages": [
+    {
+      "source": "output/cat-25m-coherent/deployment.json",
+      "json_pointer": "/previous_deployment",
+      "previous_deployment": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-25m\\deployment.json",
+      "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261112T155339",
+      "clip": "C0008",
+      "media_updates": [
+        {
+          "path": "PRIVATE/M4ROOT/CLIP/C0008.MP4",
+          "sha256": "27ebf88812469b9d5156e32acbfdd189b234ff2712f358d463447792984716b2"
+        },
+        {
+          "path": "PRIVATE/M4ROOT/THMBNL/C0008T01.JPG",
+          "sha256": "96c4e0bb30f69db260dba042b4a24bbb48035fdb0e6953763b01bc1a5c1f6e10"
+        }
+      ],
+      "interpretation": "Explicit historical revision linkage, not a repair-time change."
+    }
+  ],
+  "ignored_explicit_media_hashes_not_in_post_inventory": 44,
+  "hash_tool_findings": [
+    {
+      "id": "normalized_inventory_aliases_are_not_deduplicated",
+      "severity": "P2",
+      "tool": "tools/hash_snapshot_media.py",
+      "tool_sha256_at_test": "e6908425378a537bf0af3ad72e5f7cfa751936768bd02bc4e00e26ac8dffb6a8",
+      "affected_check": "relative in seen; seen.add(relative)",
+      "reproductions": [
+        "test_known_bug_normalized_alias_duplicate_should_be_rejected",
+        "test_known_bug_case_alias_duplicate_should_be_rejected_on_windows"
+      ],
+      "observed": "Both tests reproduce passed=true and duplicated file/byte counts for one physical file using distinct path strings.",
+      "tests_marked_expected_failure": true,
+      "hash_tool_modified": false,
+      "impact_on_this_report": "None detected: all 141 saved report paths are unique after Windows normcase/normpath normalization.",
+      "suggested_fix_for_main_agent": "Deduplicate resolved, case-normalized file paths, not raw manifest strings; keep card containment validation."
+    }
+  ],
+  "uncovered_paths": [
+    "DCIM/100MSDCF/DSC00001.JPG",
+    "DCIM/100MSDCF/DSC00002.JPG",
+    "DCIM/100MSDCF/DSC00003.JPG",
+    "DCIM/100MSDCF/DSC00004.JPG",
+    "DCIM/100MSDCF/DSC00005.JPG",
+    "DCIM/100MSDCF/DSC00006.JPG",
+    "DCIM/100MSDCF/DSC00007.JPG",
+    "DCIM/100MSDCF/DSC00008.ARW",
+    "DCIM/100MSDCF/DSC00008.JPG",
+    "DCIM/100MSDCF/DSC00009.ARW",
+    "DCIM/100MSDCF/DSC00009.JPG",
+    "DCIM/100MSDCF/DSC00010.ARW",
+    "DCIM/100MSDCF/DSC00010.JPG",
+    "DCIM/100MSDCF/DSC00011.ARW",
+    "DCIM/100MSDCF/DSC00011.JPG",
+    "DCIM/100MSDCF/DSC00012.ARW",
+    "DCIM/100MSDCF/DSC00012.JPG",
+    "DCIM/100MSDCF/DSC00013.ARW",
+    "DCIM/100MSDCF/DSC00013.JPG",
+    "DCIM/100MSDCF/DSC00014.ARW",
+    "DCIM/100MSDCF/DSC00014.JPG",
+    "DCIM/100MSDCF/DSC00015.ARW",
+    "DCIM/100MSDCF/DSC00015.JPG",
+    "DCIM/100MSDCF/DSC00016.ARW",
+    "DCIM/100MSDCF/DSC00016.JPG",
+    "DCIM/100MSDCF/DSC00017.ARW",
+    "DCIM/100MSDCF/DSC00017.JPG",
+    "DCIM/100MSDCF/DSC00018.ARW",
+    "DCIM/100MSDCF/DSC00018.JPG",
+    "DCIM/100MSDCF/DSC00019.ARW",
+    "DCIM/100MSDCF/DSC00019.JPG",
+    "DCIM/100MSDCF/DSC00020.JPG",
+    "DCIM/103MSDCF/DSC00001.ARW",
+    "DCIM/103MSDCF/DSC00001.JPG",
+    "DCIM/103MSDCF/DSC00002.ARW",
+    "DCIM/103MSDCF/DSC00002.JPG",
+    "DCIM/103MSDCF/DSC00003.ARW",
+    "DCIM/103MSDCF/DSC00003.JPG",
+    "PRIVATE/M4ROOT/CLIP/C0004.MP4",
+    "PRIVATE/M4ROOT/CLIP/C0005.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5850.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5852.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5853.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5854.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5855.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5856.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5857.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5858.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5859.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5860.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5861.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5862.MP4",
+    "PRIVATE/M4ROOT/CLIP/C5865.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6347.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6348.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6349.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6350.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6351.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6352.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6353.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6354.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6355.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6356.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6357.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6358.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6499.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6500.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6501.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6502.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6504.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6505.MP4",
+    "PRIVATE/M4ROOT/CLIP/C6506.MP4",
+    "PRIVATE/M4ROOT/SUB/C6352S03.MP4",
+    "PRIVATE/M4ROOT/THMBNL/C0001T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C0004T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C0005T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5850T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5852T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5853T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5854T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5855T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5856T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5857T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5858T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5859T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5860T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5861T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5862T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C5865T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6347T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6348T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6349T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6350T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6351T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6352T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6353T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6354T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6355T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6356T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6357T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6358T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6359T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6499T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6500T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6501T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6502T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6503T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6504T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6505T01.JPG",
+    "PRIVATE/M4ROOT/THMBNL/C6506T01.JPG"
+  ],
+  "limitations": [
+    "No whole-card pre-repair content hash exists; unmatched photos, raw files, thumbnails, native clips and proxy files cannot be declared byte-preserved.",
+    "The existing post-report establishes hashes only at its recorded completion time, not the current card state.",
+    "Snapshot attempt status is recorded separately; this join reads saved local artifacts, not live card state.",
+    "Historical failure/success observations remain pre-repair observations; matching media does not establish post-repair listing, thumbnails, decoder admission or playback.",
+    "No local package media are rehashed. Optional current local reference rehashes supplement, but never replace, independent historical digest records.",
+    "Only deployed-package build/verification files, enumerated historical rounds/reference checks and matched-pair records are searched. Unparsed logs or other reports may contain additional evidence.",
+    "Same size and mtime do not exclude same-length edits with restored timestamps; filesystem timestamps are not trusted chronology.",
+    "C6507/C6509 historical failures do not disappear because their unchanged bytes still match; their cause and post-repair behavior remain unresolved."
+  ],
+  "entries": [
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00001.JPG",
+      "size": 2210604,
+      "last_write_time_ns": 1723883246000000000,
+      "sha256": "14897f5e5c94cb3ddbe090815642de68d9c7e0513be738163738c1ebac4f6ebd",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/0/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00002.JPG",
+      "size": 1632411,
+      "last_write_time_ns": 1723883246000000000,
+      "sha256": "24b54bef561d6e369453308e9485d56897523d19681eee7279d969b53098c129",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/1/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00003.JPG",
+      "size": 447280,
+      "last_write_time_ns": 1723883246000000000,
+      "sha256": "700b3321df26756a8f964897a6940d6a49559d984f5e2709ba3a5b478172b11f",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/2/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00004.JPG",
+      "size": 3738986,
+      "last_write_time_ns": 1723883246000000000,
+      "sha256": "1bc3798fa4e1ee61daf4b2284fe541bdc88f611ae3ec80d4dc485ee5ab9c3e07",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/3/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00005.JPG",
+      "size": 3729044,
+      "last_write_time_ns": 1723883246000000000,
+      "sha256": "f3d9ffc4bbf060911a1edbebf89f4730fdec6b184260a24b0da60946c074192d",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/4/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00006.JPG",
+      "size": 3728132,
+      "last_write_time_ns": 1723883246000000000,
+      "sha256": "a00709a80abe2b51d97ec2ca3eb853f260762baa680a9687f0b9939eb7a43b90",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/5/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00007.JPG",
+      "size": 3723231,
+      "last_write_time_ns": 1723883248000000000,
+      "sha256": "76490f8391981c55c1c20b59286bd22cd39d73be72699ed73f467ac039681041",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/6/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00008.ARW",
+      "size": 35704832,
+      "last_write_time_ns": 1728116654000000000,
+      "sha256": "8c2d3d03623b96ed9dd5dc50e50e7b5f131d3953afbc3c8da98c79ab5b3dab2e",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/7/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00008.JPG",
+      "size": 1220796,
+      "last_write_time_ns": 1728116654000000000,
+      "sha256": "aab70d74765684cd2b955af3c2f0bbc8ea24913e7290eb80c38e6e95e496a0c2",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/8/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00009.ARW",
+      "size": 35696640,
+      "last_write_time_ns": 1728116654000000000,
+      "sha256": "be418978fa07eb273847844cfdeb52fa2608c495e340d8dd729c30874857f7f3",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/9/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00009.JPG",
+      "size": 1209122,
+      "last_write_time_ns": 1728116654000000000,
+      "sha256": "2a1c63d1a58598ee399b3585d3c40e13396a1e5520bec6e7495b70f84d865b28",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/10/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00010.ARW",
+      "size": 36151296,
+      "last_write_time_ns": 1728116656000000000,
+      "sha256": "24090c6ba029b33d2fdfc612903bc548a823df869bbdf9da58ccb3b480afaf32",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/11/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00010.JPG",
+      "size": 1551617,
+      "last_write_time_ns": 1728116656000000000,
+      "sha256": "69bc6c406376e946770e9e80a190a1245d36b3ce22a9d84d0305085dad89cd42",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/12/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00011.ARW",
+      "size": 36052992,
+      "last_write_time_ns": 1728116656000000000,
+      "sha256": "26aa1390c27d87dac114f9aeb8aa9268393880e01682386283ff6d4a22472717",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/13/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00011.JPG",
+      "size": 1466054,
+      "last_write_time_ns": 1728116656000000000,
+      "sha256": "83e567942f61d39df067166e6dcc3151e433579f035fa71bd3b6e995a09b1e72",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/14/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00012.ARW",
+      "size": 35610624,
+      "last_write_time_ns": 1728116658000000000,
+      "sha256": "aac5a1042319b98574f59bb8e890776328775ba6cf03c966410fe85fd560c490",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/15/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00012.JPG",
+      "size": 1234161,
+      "last_write_time_ns": 1728116656000000000,
+      "sha256": "35f8d34aca6a7208a3bf8f16b7022a7dd09d4edf2f61cd1153125ba7812b9dab",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/16/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00013.ARW",
+      "size": 35651584,
+      "last_write_time_ns": 1728116658000000000,
+      "sha256": "374be5e392d49bd76f2812332035de3e6121d91f3221743b8d82a1805e7e35f9",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/17/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00013.JPG",
+      "size": 1257441,
+      "last_write_time_ns": 1728116658000000000,
+      "sha256": "8469ed331672b9888af271950926eeaf600944a20cb8953053dcb12981c6054e",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/18/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00014.ARW",
+      "size": 35655680,
+      "last_write_time_ns": 1728116658000000000,
+      "sha256": "5bc5de3de2b7a6cf40568df14414ffa90895ba005cff42f75a914c3fc5b5d489",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/19/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00014.JPG",
+      "size": 1256374,
+      "last_write_time_ns": 1728116658000000000,
+      "sha256": "436f422cefe27e72182d02f473b59dd1bc02e0a51d9655f707aa0b99c5a0d7b6",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/20/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00015.ARW",
+      "size": 35606528,
+      "last_write_time_ns": 1728116660000000000,
+      "sha256": "9711a23924612100a1079a5a44511b6f838260f7a5cdd1a14c1de46a47c6ae3b",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/21/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00015.JPG",
+      "size": 1214709,
+      "last_write_time_ns": 1728116660000000000,
+      "sha256": "52b0190a630d686a34a6a6b81164b825d4b49d9faec5c2903fac0f8a658d9d05",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/22/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00016.ARW",
+      "size": 35438592,
+      "last_write_time_ns": 1728116976000000000,
+      "sha256": "e3fa82cc58658da8819bbcdd103397155dcb5119827d9bbf7865e3ed493d5946",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/23/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00016.JPG",
+      "size": 1136142,
+      "last_write_time_ns": 1728116976000000000,
+      "sha256": "898fb85d986ed10ebdd0329a095d8ee4cc4b88a04b04d2bd75511ad8aa510576",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/24/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00017.ARW",
+      "size": 35438592,
+      "last_write_time_ns": 1728116978000000000,
+      "sha256": "e2594db209da25763d5a44d707779b1ecea32a912999fd84d55e7f8240ee6b7d",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/25/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00017.JPG",
+      "size": 1136234,
+      "last_write_time_ns": 1728116976000000000,
+      "sha256": "167c901e28c8922aa1c7a41c3830e9d9312729829650889fe3c72700763ba329",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/26/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00018.ARW",
+      "size": 35454976,
+      "last_write_time_ns": 1728116978000000000,
+      "sha256": "beae85c85c46114bc9949eff5e8d31f0c3df66322c6ba2345583d11717a5d824",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/27/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00018.JPG",
+      "size": 1146312,
+      "last_write_time_ns": 1728116978000000000,
+      "sha256": "871f129d6a40ddbfb734c3b3dfbc54e0d36f2e6e49d14181a3c316e7011c0e18",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/28/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00019.ARW",
+      "size": 35454976,
+      "last_write_time_ns": 1728116980000000000,
+      "sha256": "901a73c861eaa2a9fa581ec6665f9fe721dda5c5ac86e8c1ca11ead263e14699",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/29/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00019.JPG",
+      "size": 1146125,
+      "last_write_time_ns": 1728116978000000000,
+      "sha256": "92cc71a231992a8a86d74b490c61c1ec9f553eb8c49bb677aa8609f9cb750a6a",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/30/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/100MSDCF/DSC00020.JPG",
+      "size": 1703296,
+      "last_write_time_ns": 1752420440000000000,
+      "sha256": "300a49e498299b6f253f1343ef7bbed9ca9edd3634ddd8db6e306c75b98b0b45",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/31/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/103MSDCF/DSC00001.ARW",
+      "size": 35790848,
+      "last_write_time_ns": 1782119126000000000,
+      "sha256": "85298abee6b335854ad961b5c0be4d9d78fa65ec3ca3f2c5b1dd41a596aa7127",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/32/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/103MSDCF/DSC00001.JPG",
+      "size": 1168959,
+      "last_write_time_ns": 1782119126000000000,
+      "sha256": "249b617a96858f6cf8dd5fb6a1b4cadec7289d372446685ee70c433a9dd0efa4",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/33/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/103MSDCF/DSC00002.ARW",
+      "size": 35778560,
+      "last_write_time_ns": 1782119126000000000,
+      "sha256": "27a031b744cade1f46a0b8020b89f5413acdca60bfa0071c92532678093127f5",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/34/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/103MSDCF/DSC00002.JPG",
+      "size": 1164744,
+      "last_write_time_ns": 1782119126000000000,
+      "sha256": "076f02a3e9f62c85ecf8621426b23286fe25ba4cfa4a5838e210fa5ff504a9ac",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/35/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/103MSDCF/DSC00003.ARW",
+      "size": 35782656,
+      "last_write_time_ns": 1782119126000000000,
+      "sha256": "3a4a7168933f7bf27c4f4e780fab0626f9c514de5e44d7c4ab29b5e36e0730ea",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/36/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "DCIM/103MSDCF/DSC00003.JPG",
+      "size": 1165032,
+      "last_write_time_ns": 1782119126000000000,
+      "sha256": "e53006ec6232acec974a6023c1e6da11072372c010d989d3bb4df3c7d93dc8a8",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/37/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C0001.MP4",
+      "size": 22086323,
+      "last_write_time_ns": 1782271238000000000,
+      "sha256": "927fb7c9a622943bfbde54a976a89b05da5de28740012e2d4b93b1c7b857d8bd",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/38/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/profiles-0026-deploy/C6518/build-manifest.json",
+          "json_pointer": "/structure_template_sha256",
+          "sha256": "927fb7c9a622943bfbde54a976a89b05da5de28740012e2d4b93b1c7b857d8bd",
+          "basis": "build_input_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/rtmd-reference-0026-uhd60_2997.json",
+          "json_pointer": "/reference_file_sha256",
+          "sha256": "927fb7c9a622943bfbde54a976a89b05da5de28740012e2d4b93b1c7b857d8bd",
+          "basis": "historical_full_reference_hash",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C0004.MP4",
+      "size": 122020558,
+      "last_write_time_ns": 1782391044000000000,
+      "sha256": "ad648f1eb427323f5f845cca0414d0eab118d6a1adb4164d0154599d1629e809",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/39/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C0005.MP4",
+      "size": 515068578,
+      "last_write_time_ns": 1782392342000000000,
+      "sha256": "9c8d991498255c25284d34a52fe6080228541cc2ae47d5f7581b49a5c2ffc9e3",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/40/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C0007.MP4",
+      "size": 1421462765,
+      "last_write_time_ns": 1782402982000000000,
+      "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/41/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 10,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-compact-C6512/build-manifest.json",
+          "json_pointer": "/structure_template_sha256",
+          "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+          "basis": "build_input_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-compact4-C6515/build-manifest.json",
+          "json_pointer": "/structure_template_sha256",
+          "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+          "basis": "build_input_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6517/build-manifest.json",
+          "json_pointer": "/structure_template_sha256",
+          "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+          "basis": "build_input_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/source-control-C6511/build-manifest.json",
+          "json_pointer": "/source_sha256",
+          "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+          "basis": "build_input_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-test-round-0025.json",
+          "json_pointer": "/preservation/card_C0007_final_sha256",
+          "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+          "basis": "historical_card_control_rehash",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-test-round-0026.json",
+          "json_pointer": "/existing_control_hashes_checked_before_deployment/C0007",
+          "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+          "basis": "historical_card_control_rehash",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/historical-playback-C0007-0025.json",
+          "json_pointer": "/historical_playback_positive/0/source_sha256",
+          "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/xavc-reader-C0007-0023.json",
+          "json_pointer": "/media_sha256",
+          "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+          "basis": "historical_full_reference_hash_not_firmware_or_track_hash",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/rtmd-reference-0026-hd25_5994.json",
+          "json_pointer": "/reference_file_sha256",
+          "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+          "basis": "historical_full_reference_hash",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/rtmd-reference-0026-hd50_5994.json",
+          "json_pointer": "/reference_file_sha256",
+          "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+          "basis": "historical_full_reference_hash",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C0008.MP4",
+      "size": 87556543,
+      "last_write_time_ns": 1794470022000000000,
+      "sha256": "27ebf88812469b9d5156e32acbfdd189b234ff2712f358d463447792984716b2",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/42/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 3,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-25m/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "b51cc325bb72e88b3b4d5825f8117ece7f15fec69bd3341c807177602a2c39c9",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": false
+        },
+        {
+          "source": "output/cat-25m/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "b51cc325bb72e88b3b4d5825f8117ece7f15fec69bd3341c807177602a2c39c9",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": false
+        },
+        {
+          "source": "output/cat-25m/verification.json",
+          "json_pointer": "/package_hashes/C0008.MP4",
+          "sha256": "b51cc325bb72e88b3b4d5825f8117ece7f15fec69bd3341c807177602a2c39c9",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": false
+        },
+        {
+          "source": "output/cat-25m-coherent/deployment.json",
+          "json_pointer": "/updated/0/sha256",
+          "sha256": "27ebf88812469b9d5156e32acbfdd189b234ff2712f358d463447792984716b2",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-25m-coherent/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "27ebf88812469b9d5156e32acbfdd189b234ff2712f358d463447792984716b2",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-25m-coherent/verification.json",
+          "json_pointer": "/package_hashes/C0008.MP4",
+          "sha256": "27ebf88812469b9d5156e32acbfdd189b234ff2712f358d463447792984716b2",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C0009.MP4",
+      "size": 87556543,
+      "last_write_time_ns": 1794481082000000000,
+      "sha256": "67392a22ff8ba52193b896178afbce2c11d2cfc42180292a6ec96fcb429eee97",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/43/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 3,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-25m-hrd/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "67392a22ff8ba52193b896178afbce2c11d2cfc42180292a6ec96fcb429eee97",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-25m-hrd/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "67392a22ff8ba52193b896178afbce2c11d2cfc42180292a6ec96fcb429eee97",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-25m-hrd/verification.json",
+          "json_pointer": "/package_hashes/C0009.MP4",
+          "sha256": "67392a22ff8ba52193b896178afbce2c11d2cfc42180292a6ec96fcb429eee97",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-25m-hrd/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "67392a22ff8ba52193b896178afbce2c11d2cfc42180292a6ec96fcb429eee97",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5850.MP4",
+      "size": 67253139,
+      "last_write_time_ns": 1782010016000000000,
+      "sha256": "c3bf5440de2c74f102dd89821c438ea4c7fd4e70f9479432d6109afacaba3ad5",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/44/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5852.MP4",
+      "size": 67252983,
+      "last_write_time_ns": 1750479604000000000,
+      "sha256": "4975193b991876afcd5bca3d34598638e8ea9be5fc0aa31eaa8fee58e739e57d",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/45/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5853.MP4",
+      "size": 67252523,
+      "last_write_time_ns": 1779252612000000000,
+      "sha256": "98d31b5a274cac4f2ecdc98205441452d7bd03d27a86ef0074f84e2f5f115f64",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/46/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5854.MP4",
+      "size": 67252633,
+      "last_write_time_ns": 1779252634000000000,
+      "sha256": "aa280c2ae283b29ea430506333c189db021e2cdb93ea3dbad7d7c862065f092e",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/47/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5855.MP4",
+      "size": 67252785,
+      "last_write_time_ns": 1779252658000000000,
+      "sha256": "140715ce32f56efac1de08eb96d7fa995465014e2170d5af9f8d13a4ca8157e7",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/48/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5856.MP4",
+      "size": 67253093,
+      "last_write_time_ns": 1768374694000000000,
+      "sha256": "cdca658746aaa35d6c518b639748e64b7d3d823782bef826aebb3b8ba865f45e",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/49/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5857.MP4",
+      "size": 67252633,
+      "last_write_time_ns": 1768350158000000000,
+      "sha256": "3f92933f082530f1bb13f285493466767e7c9770613f93eeafb8b2ec50f5e2f6",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/50/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5858.MP4",
+      "size": 67252633,
+      "last_write_time_ns": 1771028564000000000,
+      "sha256": "bef2253958a13ab8f728239093b27bf82aae4c8ce28c165a909ba738d93d94d4",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/51/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5859.MP4",
+      "size": 67252325,
+      "last_write_time_ns": 1771028570000000000,
+      "sha256": "f73482c32262e30cf731a688f2979e282463a636736139a6a5221f816cf67f25",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/52/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5860.MP4",
+      "size": 67252477,
+      "last_write_time_ns": 1771028580000000000,
+      "sha256": "d428b903d1bfdd9263fb35fc932544f87c1ceaea467da7594ec6f3f07897fa04",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/53/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5861.MP4",
+      "size": 67252477,
+      "last_write_time_ns": 1786666984000000000,
+      "sha256": "5bbe4b29f4a04900fde99d9d09ff4c321e4e5dec9dedc69c817de2e0a302e75c",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/54/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5862.MP4",
+      "size": 67252477,
+      "last_write_time_ns": 1789345390000000000,
+      "sha256": "46940f9f5444933a5b1829197595b5267c37c2641a51dd4bfb96cdfba559a372",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/55/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C5865.MP4",
+      "size": 67252325,
+      "last_write_time_ns": 1797207800000000000,
+      "sha256": "d7a9ac6dff274a88394b9cafaa00acc68134a7c07c2df60c391f730ec056ff4e",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/56/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6347.MP4",
+      "size": 67252612,
+      "last_write_time_ns": 1782023906000000000,
+      "sha256": "ac78a32bd6633bf37a0c1f3d17d3bc9c07c518a0f44c328d8946fcc1f9d21ce5",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/57/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6348.MP4",
+      "size": 67252468,
+      "last_write_time_ns": 1782023910000000000,
+      "sha256": "771731d91c1b07bd9da3b4ec96490bb61f3d3d90f6bd80d2075a7896dcc44e9e",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/58/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6349.MP4",
+      "size": 67252325,
+      "last_write_time_ns": 1797213296000000000,
+      "sha256": "15a2411ea3c0188e8f6ed9f1fe9fd3870b4c86e0041cea67440f0d5d9f3e2dc9",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/59/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6350.MP4",
+      "size": 67252815,
+      "last_write_time_ns": 1797213314000000000,
+      "sha256": "ee915767f71b1ac3887e61c1f38f6e907b647616de623187fcb9b775e7ce9988",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/60/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6351.MP4",
+      "size": 67252943,
+      "last_write_time_ns": 1797213328000000000,
+      "sha256": "59a6ae951dcdcba684d407705061faf56c5e2a9957c125bac9f92c73fd612cbe",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/61/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6352.MP4",
+      "size": 67252379,
+      "last_write_time_ns": 1797213346000000000,
+      "sha256": "6ba0a2bc0086791b0ad6a35e811f7d28403e7941295de7f4373473e1b00d2622",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/62/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6353.MP4",
+      "size": 67254655,
+      "last_write_time_ns": 1797220800000000000,
+      "sha256": "26158290dc030825d16ed0347e232d0aeda289be1aa303435a73a701d43d76a8",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/63/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6354.MP4",
+      "size": 67253991,
+      "last_write_time_ns": 1782032908000000000,
+      "sha256": "998045876924b633f12e5698ccb05b49f55b96035b8b54d8ea45da954dbb8d73",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/64/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6355.MP4",
+      "size": 67252361,
+      "last_write_time_ns": 1782032914000000000,
+      "sha256": "f08e2a9ed0d48c9e92a690d582d1621bc1f6374e971db37464678b5159d16ba5",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/65/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6356.MP4",
+      "size": 67252325,
+      "last_write_time_ns": 1782032918000000000,
+      "sha256": "718885cb6d75beda0ce234573461fcc5003c45980ea35fe0f03599d9c3548ded",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/66/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6357.MP4",
+      "size": 67252331,
+      "last_write_time_ns": 1782034020000000000,
+      "sha256": "4bc0f32e2ffcbc2225b7d8eca953ad4513e2f16d9031df503d5efde61718884f",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/67/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6358.MP4",
+      "size": 67252633,
+      "last_write_time_ns": 1782034026000000000,
+      "sha256": "c3d2905447504c6956322eb15577eb858535977acf141fd1c2b758e57e667b6f",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/68/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6359.MP4",
+      "size": 67252458,
+      "last_write_time_ns": 1782377694000000000,
+      "sha256": "50b110211712a816677f9bef60eb882baf0e5365135b8d4c07aa76260dda21ee",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/69/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 1,
+      "historical_hash_evidence": [
+        {
+          "source": "analysis/xavc-reader-C6359-0023.json",
+          "json_pointer": "/media_sha256",
+          "sha256": "50b110211712a816677f9bef60eb882baf0e5365135b8d4c07aa76260dda21ee",
+          "basis": "historical_full_reference_hash_not_firmware_or_track_hash",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6499.MP4",
+      "size": 67252378,
+      "last_write_time_ns": 1794483863000000000,
+      "sha256": "939026a22e89b99991f076f5c6b37c4546e93b8f1796cc0ac85ab9412f447923",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/70/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6500.MP4",
+      "size": 67253041,
+      "last_write_time_ns": 1794483884000000000,
+      "sha256": "6867a580ffab2e953b41999d0c66c0055a41621aa19cd54a62d6a3c23bcd506f",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/71/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6501.MP4",
+      "size": 67252773,
+      "last_write_time_ns": 1794483894000000000,
+      "sha256": "7297184cefed4dd34f3219cc8f8de116fba3724c748979405352769ca1ac0aaf",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/72/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6502.MP4",
+      "size": 67253041,
+      "last_write_time_ns": 1794483903000000000,
+      "sha256": "4586fbf3cc443606a3cc63f6913efbd5ce8b646b6dd418ed1f3b320d7ca42304",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/73/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6503.MP4",
+      "size": 67253045,
+      "last_write_time_ns": 1794483918000000000,
+      "sha256": "f4c8b44ebb2986b32d69833e433e6872efd96fa8a7270991ebac2377d37f1ac9",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/74/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/native-control-C6507/build-manifest.json",
+          "json_pointer": "/native_source_sha256",
+          "sha256": "f4c8b44ebb2986b32d69833e433e6872efd96fa8a7270991ebac2377d37f1ac9",
+          "basis": "build_input_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/native-minimal-C6509/build-manifest.json",
+          "json_pointer": "/native_source_sha256",
+          "sha256": "f4c8b44ebb2986b32d69833e433e6872efd96fa8a7270991ebac2377d37f1ac9",
+          "basis": "build_input_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6504.MP4",
+      "size": 67252836,
+      "last_write_time_ns": 1794483946000000000,
+      "sha256": "6c535c32c648d8ddd28a072b509dd71e1844c2d180a0caf97e0dc2329d257ca3",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/75/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6505.MP4",
+      "size": 67252934,
+      "last_write_time_ns": 1794483959000000000,
+      "sha256": "3432cc75a567a93b1834398d46847893233b1d9c84c5e96d409a6c2abbe4fc99",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/76/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6506.MP4",
+      "size": 67254868,
+      "last_write_time_ns": 1794483973000000000,
+      "sha256": "05618bdbac8265adeb052208e108768e965617f583e0bf9ae6877b71326224be",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/77/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6507.MP4",
+      "size": 67252960,
+      "last_write_time_ns": 1794488176000000000,
+      "sha256": "87e49bcb2d8f79536413dcc22498c780587d550cbd7fc98e23e545812afa3764",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/78/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 6,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-aligned3-C6513/build-manifest.json",
+          "json_pointer": "/structure_template_sha256",
+          "sha256": "87e49bcb2d8f79536413dcc22498c780587d550cbd7fc98e23e545812afa3764",
+          "basis": "build_input_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-aligned4-C6514/build-manifest.json",
+          "json_pointer": "/structure_template_sha256",
+          "sha256": "87e49bcb2d8f79536413dcc22498c780587d550cbd7fc98e23e545812afa3764",
+          "basis": "build_input_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/native-control-C6507/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "87e49bcb2d8f79536413dcc22498c780587d550cbd7fc98e23e545812afa3764",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/native-control-C6507/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "87e49bcb2d8f79536413dcc22498c780587d550cbd7fc98e23e545812afa3764",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/native-control-C6507/verification.json",
+          "json_pointer": "/package_hashes/C6507.MP4",
+          "sha256": "87e49bcb2d8f79536413dcc22498c780587d550cbd7fc98e23e545812afa3764",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/native-control-C6507/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "87e49bcb2d8f79536413dcc22498c780587d550cbd7fc98e23e545812afa3764",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/C6507-C6508-card-audit.json",
+          "json_pointer": "/packages/0/media_sha256",
+          "sha256": "87e49bcb2d8f79536413dcc22498c780587d550cbd7fc98e23e545812afa3764",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6508.MP4",
+      "size": 87550884,
+      "last_write_time_ns": 1794488860000000000,
+      "sha256": "98ecfd98ea21dfa8c53f76452cf01aa2c8a2b2f84b6b9a28df72190127899a01",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/79/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 4,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-rec709-C6508/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "98ecfd98ea21dfa8c53f76452cf01aa2c8a2b2f84b6b9a28df72190127899a01",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-rec709-C6508/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "98ecfd98ea21dfa8c53f76452cf01aa2c8a2b2f84b6b9a28df72190127899a01",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-rec709-C6508/verification.json",
+          "json_pointer": "/package_hashes/C6508.MP4",
+          "sha256": "98ecfd98ea21dfa8c53f76452cf01aa2c8a2b2f84b6b9a28df72190127899a01",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-rec709-C6508/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "98ecfd98ea21dfa8c53f76452cf01aa2c8a2b2f84b6b9a28df72190127899a01",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/C6507-C6508-card-audit.json",
+          "json_pointer": "/packages/1/media_sha256",
+          "sha256": "98ecfd98ea21dfa8c53f76452cf01aa2c8a2b2f84b6b9a28df72190127899a01",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6509.MP4",
+      "size": 67252960,
+      "last_write_time_ns": 1794497166000000000,
+      "sha256": "abab47d3650607fcb185b57b1e1b1cca313b8b4d4f38f4161ac0b1c0be48b781",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/80/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 4,
+      "historical_hash_evidence": [
+        {
+          "source": "output/native-minimal-C6509/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "abab47d3650607fcb185b57b1e1b1cca313b8b4d4f38f4161ac0b1c0be48b781",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/native-minimal-C6509/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "abab47d3650607fcb185b57b1e1b1cca313b8b4d4f38f4161ac0b1c0be48b781",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/native-minimal-C6509/verification.json",
+          "json_pointer": "/package_hashes/C6509.MP4",
+          "sha256": "abab47d3650607fcb185b57b1e1b1cca313b8b4d4f38f4161ac0b1c0be48b781",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/native-minimal-C6509/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "abab47d3650607fcb185b57b1e1b1cca313b8b4d4f38f4161ac0b1c0be48b781",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/C6509-C6510-card-audit.json",
+          "json_pointer": "/packages/0/media_sha256",
+          "sha256": "abab47d3650607fcb185b57b1e1b1cca313b8b4d4f38f4161ac0b1c0be48b781",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6510.MP4",
+      "size": 87550884,
+      "last_write_time_ns": 1794497286000000000,
+      "sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/81/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 4,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-minimal-C6510/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-minimal-C6510/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-minimal-C6510/verification.json",
+          "json_pointer": "/package_hashes/C6510.MP4",
+          "sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-minimal-C6510/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/C6509-C6510-card-audit.json",
+          "json_pointer": "/packages/1/media_sha256",
+          "sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6511.MP4",
+      "size": 1421462765,
+      "last_write_time_ns": 1794504084000000000,
+      "sha256": "8a03d292450ad6c0710f7b8fc97933038336f51f5f2793ccc91c0252578f0e3e",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/82/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 6,
+      "historical_hash_evidence": [
+        {
+          "source": "output/source-control-C6511/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "8a03d292450ad6c0710f7b8fc97933038336f51f5f2793ccc91c0252578f0e3e",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/source-control-C6511/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "8a03d292450ad6c0710f7b8fc97933038336f51f5f2793ccc91c0252578f0e3e",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/source-control-C6511/verification.json",
+          "json_pointer": "/package_hashes/C6511.MP4",
+          "sha256": "8a03d292450ad6c0710f7b8fc97933038336f51f5f2793ccc91c0252578f0e3e",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/source-control-C6511/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "8a03d292450ad6c0710f7b8fc97933038336f51f5f2793ccc91c0252578f0e3e",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/sd-test-round-0025.json",
+          "json_pointer": "/packages/0/media_sha256",
+          "sha256": "8a03d292450ad6c0710f7b8fc97933038336f51f5f2793ccc91c0252578f0e3e",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-test-round-0025.json",
+          "json_pointer": "/clips/0/media_sha256",
+          "sha256": "8a03d292450ad6c0710f7b8fc97933038336f51f5f2793ccc91c0252578f0e3e",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-observations-0025-result.json",
+          "json_pointer": "/results/0/media_sha256",
+          "sha256": "8a03d292450ad6c0710f7b8fc97933038336f51f5f2793ccc91c0252578f0e3e",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6512.MP4",
+      "size": 87420004,
+      "last_write_time_ns": 1794504260000000000,
+      "sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/83/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 7,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-compact-C6512/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-compact-C6512/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-compact-C6512/verification.json",
+          "json_pointer": "/package_hashes/C6512.MP4",
+          "sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-compact-C6512/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/sd-test-round-0025.json",
+          "json_pointer": "/packages/1/media_sha256",
+          "sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-test-round-0025.json",
+          "json_pointer": "/clips/1/media_sha256",
+          "sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-observations-0025-result.json",
+          "json_pointer": "/results/1/media_sha256",
+          "sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/reframe-C6512-C6515-0025.json",
+          "json_pointer": "/before_sha256",
+          "sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+          "basis": "historical_full_file_pair_comparison",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6513.MP4",
+      "size": 87550884,
+      "last_write_time_ns": 1794505002000000000,
+      "sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/84/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 7,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-aligned3-C6513/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-aligned3-C6513/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-aligned3-C6513/verification.json",
+          "json_pointer": "/package_hashes/C6513.MP4",
+          "sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-aligned3-C6513/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/sd-test-round-0025.json",
+          "json_pointer": "/packages/2/media_sha256",
+          "sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-test-round-0025.json",
+          "json_pointer": "/clips/2/media_sha256",
+          "sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-observations-0025-result.json",
+          "json_pointer": "/results/2/media_sha256",
+          "sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/reframe-C6513-C6514-0025.json",
+          "json_pointer": "/before_sha256",
+          "sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+          "basis": "historical_full_file_pair_comparison",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6514.MP4",
+      "size": 87560141,
+      "last_write_time_ns": 1794505158000000000,
+      "sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/85/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 7,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-aligned4-C6514/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-aligned4-C6514/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-aligned4-C6514/verification.json",
+          "json_pointer": "/package_hashes/C6514.MP4",
+          "sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-aligned4-C6514/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/sd-test-round-0025.json",
+          "json_pointer": "/packages/3/media_sha256",
+          "sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-test-round-0025.json",
+          "json_pointer": "/clips/3/media_sha256",
+          "sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-observations-0025-result.json",
+          "json_pointer": "/results/3/media_sha256",
+          "sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/reframe-C6513-C6514-0025.json",
+          "json_pointer": "/after_sha256",
+          "sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375",
+          "basis": "historical_full_file_pair_comparison",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6515.MP4",
+      "size": 87429261,
+      "last_write_time_ns": 1794505314000000000,
+      "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/86/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": true,
+      "status": "DIRECT_PRE_REPAIR_SHA256_EQUAL",
+      "matched_source_artifact_count": 10,
+      "historical_hash_evidence": [
+        {
+          "source": "analysis/camera-database-repair-0027.json",
+          "json_pointer": "/before_live_card_sha256/PRIVATE~1M4ROOT~1CLIP~1C6515.MP4",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "direct_pre_repair_live_card_hash",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-compact4-C6515/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-compact4-C6515/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-compact4-C6515/verification.json",
+          "json_pointer": "/package_hashes/C6515.MP4",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-compact4-C6515/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/sd-test-round-0025.json",
+          "json_pointer": "/packages/4/media_sha256",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-test-round-0025.json",
+          "json_pointer": "/clips/4/media_sha256",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-test-round-0026.json",
+          "json_pointer": "/existing_control_hashes_checked_before_deployment/C6515",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "historical_card_control_rehash",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-observations-0025-result.json",
+          "json_pointer": "/results/4/media_sha256",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-observations-0026-result.json",
+          "json_pointer": "/results/2/media_sha256",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/reframe-C6512-C6515-0025.json",
+          "json_pointer": "/after_sha256",
+          "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+          "basis": "historical_full_file_pair_comparison",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6517.MP4",
+      "size": 168260154,
+      "last_write_time_ns": 1794548290000000000,
+      "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/87/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": true,
+      "status": "DIRECT_PRE_REPAIR_SHA256_EQUAL",
+      "matched_source_artifact_count": 7,
+      "historical_hash_evidence": [
+        {
+          "source": "analysis/camera-database-repair-0027.json",
+          "json_pointer": "/before_live_card_sha256/PRIVATE~1M4ROOT~1CLIP~1C6517.MP4",
+          "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+          "basis": "direct_pre_repair_live_card_hash",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6517/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6517/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6517/verification.json",
+          "json_pointer": "/package_hashes/C6517.MP4",
+          "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6517/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/sd-test-round-0026.json",
+          "json_pointer": "/packages/0/media_sha256",
+          "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-test-round-0026.json",
+          "json_pointer": "/clips/0/media_sha256",
+          "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-observations-0026-result.json",
+          "json_pointer": "/results/1/media_sha256",
+          "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6518.MP4",
+      "size": 199413413,
+      "last_write_time_ns": 1794548444000000000,
+      "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/88/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": true,
+      "status": "DIRECT_PRE_REPAIR_SHA256_EQUAL",
+      "matched_source_artifact_count": 7,
+      "historical_hash_evidence": [
+        {
+          "source": "analysis/camera-database-repair-0027.json",
+          "json_pointer": "/before_live_card_sha256/PRIVATE~1M4ROOT~1CLIP~1C6518.MP4",
+          "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+          "basis": "direct_pre_repair_live_card_hash",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6518/deployment.json",
+          "json_pointer": "/added/0/sha256",
+          "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6518/build-manifest.json",
+          "json_pointer": "/sha256",
+          "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+          "basis": "build_manifest_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6518/verification.json",
+          "json_pointer": "/package_hashes/C6518.MP4",
+          "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6518/verification.json",
+          "json_pointer": "/fresh_media_evidence/media_sha256",
+          "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+          "basis": "fresh_verification_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/sd-test-round-0026.json",
+          "json_pointer": "/packages/1/media_sha256",
+          "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-test-round-0026.json",
+          "json_pointer": "/clips/1/media_sha256",
+          "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "analysis/camera-observations-0026-result.json",
+          "json_pointer": "/results/0/media_sha256",
+          "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+          "basis": "historical_round_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/SUB/C6352S03.MP4",
+      "size": 16921256,
+      "last_write_time_ns": 1797213346000000000,
+      "sha256": "15de1c1b8df8d99b0af3d78c14a0038e7f3c8b4f01cd98f9295ee3eea54bab47",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/89/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C0001T01.JPG",
+      "size": 451310,
+      "last_write_time_ns": 1782023856000000000,
+      "sha256": "bc6f9b3754eb1e29b553bc39766a35edac559ab5df77be6f457217a18b2392b4",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/90/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C0004T01.JPG",
+      "size": 158159,
+      "last_write_time_ns": 1782398940000000000,
+      "sha256": "4da86c57068739393b5ea5e76858b305fa070b151886729b139cd02c123dddd7",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/91/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C0005T01.JPG",
+      "size": 154555,
+      "last_write_time_ns": 1782398940000000000,
+      "sha256": "bfff238bac60ce15fdf8848ce5ec2e8d7567999f3fa33d1a61dd3d355d409fc8",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/92/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C0007T01.JPG",
+      "size": 127146,
+      "last_write_time_ns": 1782403566000000000,
+      "sha256": "3abf391fa7afec66432517a81c19e5eab6af18d76a3725e5fe0eb232d12b2c83",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/93/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 1,
+      "historical_hash_evidence": [
+        {
+          "source": "output/source-control-C6511/build-manifest.json",
+          "json_pointer": "/source_thumbnail_sha256",
+          "sha256": "3abf391fa7afec66432517a81c19e5eab6af18d76a3725e5fe0eb232d12b2c83",
+          "basis": "build_input_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C0008T01.JPG",
+      "size": 432264,
+      "last_write_time_ns": 1794470022000000000,
+      "sha256": "96c4e0bb30f69db260dba042b4a24bbb48035fdb0e6953763b01bc1a5c1f6e10",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/94/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 4,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-25m/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "96c4e0bb30f69db260dba042b4a24bbb48035fdb0e6953763b01bc1a5c1f6e10",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-25m/verification.json",
+          "json_pointer": "/package_hashes/C0008T01.JPG",
+          "sha256": "96c4e0bb30f69db260dba042b4a24bbb48035fdb0e6953763b01bc1a5c1f6e10",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-25m-coherent/deployment.json",
+          "json_pointer": "/updated/2/sha256",
+          "sha256": "96c4e0bb30f69db260dba042b4a24bbb48035fdb0e6953763b01bc1a5c1f6e10",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-25m-coherent/verification.json",
+          "json_pointer": "/package_hashes/C0008T01.JPG",
+          "sha256": "96c4e0bb30f69db260dba042b4a24bbb48035fdb0e6953763b01bc1a5c1f6e10",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C0009T01.JPG",
+      "size": 432264,
+      "last_write_time_ns": 1794481082000000000,
+      "sha256": "96c4e0bb30f69db260dba042b4a24bbb48035fdb0e6953763b01bc1a5c1f6e10",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/95/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-25m-hrd/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "96c4e0bb30f69db260dba042b4a24bbb48035fdb0e6953763b01bc1a5c1f6e10",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-25m-hrd/verification.json",
+          "json_pointer": "/package_hashes/C0009T01.JPG",
+          "sha256": "96c4e0bb30f69db260dba042b4a24bbb48035fdb0e6953763b01bc1a5c1f6e10",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5850T01.JPG",
+      "size": 97098,
+      "last_write_time_ns": 1782010016000000000,
+      "sha256": "bdbe63373d88778b86f445fc67d4adfa6ff6f57121b41be69ca05fbb64f959cd",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/96/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5852T01.JPG",
+      "size": 110021,
+      "last_write_time_ns": 1750479604000000000,
+      "sha256": "2314e121aa28d09fdb91dce62de1cdf0d30b6cc996b15b62908f3363f0280c6d",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/97/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5853T01.JPG",
+      "size": 64663,
+      "last_write_time_ns": 1779252612000000000,
+      "sha256": "67fa84bb81b2af45e3c60a79f8130c775f01ada300e4fcfde4edba9ebaa87626",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/98/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5854T01.JPG",
+      "size": 94454,
+      "last_write_time_ns": 1779252634000000000,
+      "sha256": "d39c398242a4d2706508a14680d4674cec6f7550bcd8e409aea2d5f2ad16205e",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/99/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5855T01.JPG",
+      "size": 68296,
+      "last_write_time_ns": 1779252658000000000,
+      "sha256": "f317da28a2d058ee96aced2083a3053043a3a6411dcfc0ac51f0fe531937bd76",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/100/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5856T01.JPG",
+      "size": 66884,
+      "last_write_time_ns": 1768374694000000000,
+      "sha256": "1cc5fc31545ee63ae61ef9349f740a7165224670ee1466179833e1bde35077d3",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/101/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5857T01.JPG",
+      "size": 138436,
+      "last_write_time_ns": 1768350158000000000,
+      "sha256": "9c91c0a69400b9098aaea03acda844893932df692850dce1407b1b0b21f6b087",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/102/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5858T01.JPG",
+      "size": 138122,
+      "last_write_time_ns": 1771028564000000000,
+      "sha256": "a3438f716dd7644f92eefc470b285b960c73432d45a7acb068a7c0446303b7be",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/103/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5859T01.JPG",
+      "size": 137228,
+      "last_write_time_ns": 1771028570000000000,
+      "sha256": "1ae4a3914081f9c7dc03b376abd8531bf6c5a4fa21bc04c1fe3cae8a40c3eac6",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/104/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5860T01.JPG",
+      "size": 139395,
+      "last_write_time_ns": 1771028580000000000,
+      "sha256": "32cbcdf3bef042f2b27d5e356c0d8494333f0c326f67d6c72310a02acfb0359e",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/105/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5861T01.JPG",
+      "size": 137525,
+      "last_write_time_ns": 1786666984000000000,
+      "sha256": "e845aeb350f7f7dda807c787d7297c01fb394a3a31be0def28c2d645dae0ef91",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/106/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5862T01.JPG",
+      "size": 138906,
+      "last_write_time_ns": 1789345390000000000,
+      "sha256": "25df617d9938e8c26fefe347a5d16898a7fc183180b3fdc05961e24116eb999f",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/107/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C5865T01.JPG",
+      "size": 136527,
+      "last_write_time_ns": 1797207800000000000,
+      "sha256": "d584c21df14b7d377fd3583701ea97201e079b2e1d1242911340a5bead9c5468",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/108/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6347T01.JPG",
+      "size": 215189,
+      "last_write_time_ns": 1782023906000000000,
+      "sha256": "e80a20ba94ac5b194d4e2e6c30c529534245d40c209f68643abac50da9d1c538",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/109/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6348T01.JPG",
+      "size": 152659,
+      "last_write_time_ns": 1782023910000000000,
+      "sha256": "35fdfd1c66eeb43d9b48809feff6c27b9983fdffc92f0c1f3254250197bd0793",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/110/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6349T01.JPG",
+      "size": 136173,
+      "last_write_time_ns": 1797213296000000000,
+      "sha256": "8dd5ced3f5b1420417c90fb370f65dcf9e8cbbcc8c62fffcbce13a07b0383918",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/111/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6350T01.JPG",
+      "size": 153564,
+      "last_write_time_ns": 1797213314000000000,
+      "sha256": "ada8b3ad3cebf12dc15bd139b63390317afca33e7d9baef1ea13e2bef578f7ae",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/112/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6351T01.JPG",
+      "size": 152723,
+      "last_write_time_ns": 1797213328000000000,
+      "sha256": "35abdf8ffa9464bbba53bf6b1ed62cb861e88792def4c241ce0dc79a2eef1472",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/113/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6352T01.JPG",
+      "size": 118171,
+      "last_write_time_ns": 1797213346000000000,
+      "sha256": "124359c04df61194a0e630202ea0182e53ac574cd2de84a4657394cac78d0ea4",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/114/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6353T01.JPG",
+      "size": 104548,
+      "last_write_time_ns": 1797220800000000000,
+      "sha256": "ed7c11b98fd343e9e22f5aefe513de64e3b4c3f498b59a915677e49adee92ae0",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/115/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6354T01.JPG",
+      "size": 97299,
+      "last_write_time_ns": 1782032908000000000,
+      "sha256": "0568eb61e3fadd0d45583bb51e190bab608671c638fff3d6c30a8f40e6b225b2",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/116/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6355T01.JPG",
+      "size": 97326,
+      "last_write_time_ns": 1782032914000000000,
+      "sha256": "ecdf1a4886920cdbcfc5639532a7524ef1d36e9356089406186289d25caa8485",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/117/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6356T01.JPG",
+      "size": 97513,
+      "last_write_time_ns": 1782032918000000000,
+      "sha256": "3adaf29eb7bad3a88eb358442ff3d17083f0f1b3dd361db79579896f85432d5e",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/118/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6357T01.JPG",
+      "size": 103028,
+      "last_write_time_ns": 1782034020000000000,
+      "sha256": "1b2332749d0f97c51175c44ca3cff4d583ce5f00d5bd222f532830ee86554f9b",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/119/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6358T01.JPG",
+      "size": 103004,
+      "last_write_time_ns": 1782034026000000000,
+      "sha256": "9ec20cfa02de214f3a3a8dd55725b02702c40b2287c577043f2a19315ed846c3",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/120/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6359T01.JPG",
+      "size": 124905,
+      "last_write_time_ns": 1782377694000000000,
+      "sha256": "26e32daceeb0becccc70c5ba970dff373456c0332f7141a553cd6caee99f42ff",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/121/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6499T01.JPG",
+      "size": 117029,
+      "last_write_time_ns": 1794483863000000000,
+      "sha256": "3a405e96d030d23e08a760aac33213ab04e25561756d3750c9ab1daff612ff68",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/122/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6500T01.JPG",
+      "size": 90975,
+      "last_write_time_ns": 1794483884000000000,
+      "sha256": "85338352f6220442fe577889835801fe5e2e65534882d06e12d31b5c3c23ea19",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/123/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6501T01.JPG",
+      "size": 83598,
+      "last_write_time_ns": 1794483894000000000,
+      "sha256": "dcbbeff3bcae1b048af8154db7cace08dc6a2ce40958a58eb1aad6b28ce48f76",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/124/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6502T01.JPG",
+      "size": 71785,
+      "last_write_time_ns": 1794483903000000000,
+      "sha256": "11d45d10c57fe784282ae760c22cb76a4af7b990c4c13f0c7a71edf06b920003",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/125/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6503T01.JPG",
+      "size": 158152,
+      "last_write_time_ns": 1794483918000000000,
+      "sha256": "b405df7b4f8d81db955632e73bbbdb53ce36b76244b6b2b44f7fbf0c940368ea",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/126/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6504T01.JPG",
+      "size": 118189,
+      "last_write_time_ns": 1794483946000000000,
+      "sha256": "ecaa7e8bbfe175fdbd31bde77b692b82927748596e82eee749765e566d4f3362",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/127/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6505T01.JPG",
+      "size": 114576,
+      "last_write_time_ns": 1794483959000000000,
+      "sha256": "549201e51d7756e4f568638715ddc3296e5ac897ae316b13d67a323524cd77dc",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/128/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6506T01.JPG",
+      "size": 109389,
+      "last_write_time_ns": 1794483973000000000,
+      "sha256": "afa22b1e097c619cfad621258872474a004be1dd8b87b3db81d0e2eff1ddabac",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/129/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": false,
+      "direct_pre_repair_hash_match": null,
+      "status": "NO_PRIOR_CONTENT_HASH_MATCH",
+      "matched_source_artifact_count": 0,
+      "historical_hash_evidence": [],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6507T01.JPG",
+      "size": 158152,
+      "last_write_time_ns": 1794488176000000000,
+      "sha256": "b405df7b4f8d81db955632e73bbbdb53ce36b76244b6b2b44f7fbf0c940368ea",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/130/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/native-control-C6507/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "b405df7b4f8d81db955632e73bbbdb53ce36b76244b6b2b44f7fbf0c940368ea",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/native-control-C6507/verification.json",
+          "json_pointer": "/package_hashes/C6507T01.JPG",
+          "sha256": "b405df7b4f8d81db955632e73bbbdb53ce36b76244b6b2b44f7fbf0c940368ea",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6508T01.JPG",
+      "size": 446670,
+      "last_write_time_ns": 1794488860000000000,
+      "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/131/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-rec709-C6508/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-rec709-C6508/verification.json",
+          "json_pointer": "/package_hashes/C6508T01.JPG",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6509T01.JPG",
+      "size": 158152,
+      "last_write_time_ns": 1794497166000000000,
+      "sha256": "b405df7b4f8d81db955632e73bbbdb53ce36b76244b6b2b44f7fbf0c940368ea",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/132/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/native-minimal-C6509/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "b405df7b4f8d81db955632e73bbbdb53ce36b76244b6b2b44f7fbf0c940368ea",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/native-minimal-C6509/verification.json",
+          "json_pointer": "/package_hashes/C6509T01.JPG",
+          "sha256": "b405df7b4f8d81db955632e73bbbdb53ce36b76244b6b2b44f7fbf0c940368ea",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6510T01.JPG",
+      "size": 446670,
+      "last_write_time_ns": 1794497286000000000,
+      "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/133/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-minimal-C6510/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-minimal-C6510/verification.json",
+          "json_pointer": "/package_hashes/C6510T01.JPG",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6511T01.JPG",
+      "size": 127146,
+      "last_write_time_ns": 1794504086000000000,
+      "sha256": "3abf391fa7afec66432517a81c19e5eab6af18d76a3725e5fe0eb232d12b2c83",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/134/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/source-control-C6511/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "3abf391fa7afec66432517a81c19e5eab6af18d76a3725e5fe0eb232d12b2c83",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/source-control-C6511/verification.json",
+          "json_pointer": "/package_hashes/C6511T01.JPG",
+          "sha256": "3abf391fa7afec66432517a81c19e5eab6af18d76a3725e5fe0eb232d12b2c83",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6512T01.JPG",
+      "size": 446670,
+      "last_write_time_ns": 1794504262000000000,
+      "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/135/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-compact-C6512/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-compact-C6512/verification.json",
+          "json_pointer": "/package_hashes/C6512T01.JPG",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6513T01.JPG",
+      "size": 446670,
+      "last_write_time_ns": 1794505002000000000,
+      "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/136/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-aligned3-C6513/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-aligned3-C6513/verification.json",
+          "json_pointer": "/package_hashes/C6513T01.JPG",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6514T01.JPG",
+      "size": 446670,
+      "last_write_time_ns": 1794505158000000000,
+      "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/137/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-aligned4-C6514/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-aligned4-C6514/verification.json",
+          "json_pointer": "/package_hashes/C6514T01.JPG",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6515T01.JPG",
+      "size": 446670,
+      "last_write_time_ns": 1794505314000000000,
+      "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/138/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/cat-compact4-C6515/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/cat-compact4-C6515/verification.json",
+          "json_pointer": "/package_hashes/C6515T01.JPG",
+          "sha256": "5c92fe64c999d1c7502c199a4099a2431e5101071b1c6dffe084e4d56247e926",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6517T01.JPG",
+      "size": 447320,
+      "last_write_time_ns": 1794548290000000000,
+      "sha256": "e388add926bb9a4dd054932ec05e3f60c19db706f2b9a7cec114e318eb53a3b7",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/139/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/profiles-0026-deploy/C6517/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "e388add926bb9a4dd054932ec05e3f60c19db706f2b9a7cec114e318eb53a3b7",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6517/verification.json",
+          "json_pointer": "/package_hashes/C6517T01.JPG",
+          "sha256": "e388add926bb9a4dd054932ec05e3f60c19db706f2b9a7cec114e318eb53a3b7",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    },
+    {
+      "relative_path": "PRIVATE/M4ROOT/THMBNL/C6518T01.JPG",
+      "size": 447381,
+      "last_write_time_ns": 1794548446000000000,
+      "sha256": "5628fe523410c9b3504770442f331492fb959d46c1c463b5b8b020cc9d3adc92",
+      "post_hash_source": {
+        "source": "analysis/repair-media-hashes-0027.json",
+        "json_pointer": "/entries/140/sha256"
+      },
+      "pre_repair_size_mtime_match": true,
+      "pre_repair_inventory_source": "backup/snap_20261113T135135/_skipped_media_manifest.csv",
+      "historical_sha256_match": true,
+      "direct_pre_repair_hash_match": null,
+      "status": "HISTORICAL_CONTENT_SHA256_EQUAL",
+      "matched_source_artifact_count": 2,
+      "historical_hash_evidence": [
+        {
+          "source": "output/profiles-0026-deploy/C6518/deployment.json",
+          "json_pointer": "/added/2/sha256",
+          "sha256": "5628fe523410c9b3504770442f331492fb959d46c1c463b5b8b020cc9d3adc92",
+          "basis": "saved_deployment_readback",
+          "matches_post_repair": true
+        },
+        {
+          "source": "output/profiles-0026-deploy/C6518/verification.json",
+          "json_pointer": "/package_hashes/C6518T01.JPG",
+          "sha256": "5628fe523410c9b3504770442f331492fb959d46c1c463b5b8b020cc9d3adc92",
+          "basis": "verification_package_whole_file",
+          "matches_post_repair": true
+        }
+      ],
+      "differing_historical_hashes_are_not_alone_repair_changes": true
+    }
+  ],
+  "crosscheck_passed_for_priority": true
+}

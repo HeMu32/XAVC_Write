@@ -1,0 +1,26 @@
+00282bd0 cmp w1,#0xa
+00282bd4 mov x2,x0
+00282bd8 b.eq 0x00282c18
+00282bdc b.gt 0x00282bf8
+00282be0 mov w0,#0x0
+00282be4 cbz w1,0x00282c14
+00282be8 cmp w1,#0x3
+00282bec b.eq 0x00282c18
+00282bf0 mov w0,#0x6c
+00282bf4 ret
+00282bf8 cmp w1,#0xe
+00282bfc b.eq 0x00282c28
+00282c00 cmp w1,#0x11
+00282c04 b.ne 0x00282bf0
+00282c08 mov w0,#0x2
+00282c0c str w0,[x2, #0x28]
+00282c10 mov w0,#0x0
+00282c14 ret
+00282c18 mov w0,#0x1
+00282c1c str w0,[x2, #0x28]
+00282c20 mov w0,#0x66
+00282c24 ret
+00282c28 mov w0,#0x1
+00282c2c str w0,[x2, #0x28]
+00282c30 mov w0,#0x65
+00282c34 ret

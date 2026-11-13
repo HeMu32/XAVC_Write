@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-11-12T15:28:17.659708+00:00",
+  "card": "F:\\",
+  "packages": [
+    {
+      "clip": "C6509",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\native-minimal-C6509",
+      "profile": "native_control",
+      "schema": 4,
+      "frames": 90,
+      "media_sha256": "abab47d3650607fcb185b57b1e1b1cca313b8b4d4f38f4161ac0b1c0be48b781"
+    },
+    {
+      "clip": "C6510",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-minimal-C6510",
+      "profile": "encoded_avc",
+      "schema": 4,
+      "frames": 1534,
+      "media_sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d"
+    }
+  ],
+  "checks": {
+    "all_six_assets_and_final_catalogs_match_verified_files": true,
+    "only_expected_files_added": true,
+    "no_missing_old_files": true,
+    "old_metadata_changes_limited_to_two_catalogs": true,
+    "old_media_sizes_and_write_times_unchanged": true,
+    "native_control_source_still_bit_exact": true
+  },
+  "passed": true,
+  "readback": {
+    "PRIVATE/M4ROOT/CLIP/C6509.MP4": true,
+    "PRIVATE/M4ROOT/CLIP/C6509M01.XML": true,
+    "PRIVATE/M4ROOT/THMBNL/C6509T01.JPG": true,
+    "PRIVATE/DATABASE/DATABASE.BIN": true,
+    "PRIVATE/M4ROOT/MEDIAPRO.XML": true,
+    "PRIVATE/M4ROOT/CLIP/C6510.MP4": true,
+    "PRIVATE/M4ROOT/CLIP/C6510M01.XML": true,
+    "PRIVATE/M4ROOT/THMBNL/C6510T01.JPG": true
+  },
+  "before_snapshot_audit": {
+    "card": "F:\\",
+    "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261112T231514",
+    "checked_at_utc": "2026-11-12T15:28:17.564613+00:00",
+    "missing": [],
+    "added": [
+      "PRIVATE/M4ROOT/CLIP/C6509.MP4",
+      "PRIVATE/M4ROOT/CLIP/C6509M01.XML",
+      "PRIVATE/M4ROOT/CLIP/C6510.MP4",
+      "PRIVATE/M4ROOT/CLIP/C6510M01.XML",
+      "PRIVATE/M4ROOT/THMBNL/C6509T01.JPG",
+      "PRIVATE/M4ROOT/THMBNL/C6510T01.JPG"
+    ],
+    "changed_metadata_hashes": [
+      "PRIVATE/DATABASE/DATABASE.BIN",
+      "PRIVATE/M4ROOT/MEDIAPRO.XML"
+    ],
+    "changed_media_size_or_mtime": [],
+    "metadata_files": 62,
+    "media_files": 123,
+    "media_content_hashes_checked": false,
+    "unchanged": false
+  },
+  "camera_listing": "NOT_TESTED",
+  "camera_playback": "NOT_TESTED",
+  "scope": "Metadata hashes and selected media hashes; all other old media use size/mtime"
+}

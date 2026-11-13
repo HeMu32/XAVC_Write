@@ -1,0 +1,1026 @@
+{
+  "media": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\C0007-reference-0023.MP4",
+  "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "card_access": false,
+  "scope": "Original MP4 read-side parser, modeled libc/Fsys; not camera playback",
+  "root_cause_established": false,
+  "media_sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+  "result": {
+    "last_status_u32": 0,
+    "movie_property_hex": "0000ea0706190f2c25000000000000000000000002000000010000000000000000000000070000002a006401320000005a3700000000000000000000000000000100000001000000000000000000000000000000000000000000000000000000",
+    "audio_gate": {
+      "accepted_by_literal_property_predicate": true,
+      "source_elf_vma": "0x1166d8",
+      "scope": "Host evaluation of recovered predicate, not execution of complete _open_file",
+      "raw_property_fields": {
+        "0x34": 0,
+        "0x38": 0,
+        "0x3c": 0,
+        "0x40": 1,
+        "0x44": 1
+      }
+    },
+    "selected_seek_probe": {
+      "return_u32": 0,
+      "parameter_hex": "905f01000000000001000000000000000000000000000000",
+      "time_90khz": 90000,
+      "mode": 1,
+      "direction": 0,
+      "flags": 0,
+      "physical_camera_parameters_observed": false
+    },
+    "sample_probe": {
+      "batches": [
+        {
+          "batch": 0,
+          "video_flags": 1,
+          "video_count": 1,
+          "video_bytes": 100637,
+          "worker_boundary": true,
+          "video_rows": [
+            "1d8901000000000051cb0f0000000000401b0200a8090200dd0500001f0000000100000008000000000001010000000001000000010100001e21020000000000"
+          ],
+          "audio": [
+            {
+              "return_u32": 0,
+              "flags": 1,
+              "count": 0,
+              "total_bytes": 0,
+              "rows": []
+            }
+          ],
+          "metadata_flags": 1,
+          "metadata_count": 1,
+          "metadata_bytes": 1024,
+          "metadata_rows": [
+            "000400000000000051530f0000000000850f0200dd050000"
+          ],
+          "presentation_hex": "3163766150c3000000000000a6f03b000000000000000000e9030000800738040100000000000000010000000303010000000000000000000201020002000000850f02007abf0200850f02007abf0200850f02007abf0200850f02007abf0200000000000000000000000000000000005fa6440100000000850f0200000000001f003d0000000000000000000000000000010000000000000000000000000001",
+          "decode_table_probe": {
+            "parameter_preparation_return_u32": 0,
+            "parameter_sets": [
+              {
+                "kind": 2,
+                "size": 48,
+                "hex": "6764002aacd301e0089f970142020202800003e90001d4c076400072700000f424177971b2000393800007a120bbcb81"
+              },
+              {
+                "kind": 3,
+                "size": 87,
+                "hex": "68ea43ce20921483393191110490a419c98c8844124c859134aa2092642c89a548854d274887314c474544334728e124e510616468a28c378c30d686186c6212215442ad75ebe9d3a1027e2227c44fcc8f991e64732ac0"
+              },
+              {
+                "kind": 0,
+                "size": 0,
+                "hex": ""
+              }
+            ],
+            "conversions": [
+              {
+                "config_return_u32": 0,
+                "frame_return_u32": 0
+              }
+            ],
+            "table_count": 2,
+            "tables": [
+              "010c01010000000000000000000000008f00000000000000401b020000000000a809020000000000000000000000000000000000000000000000000000000000",
+              "000c01010000000000000000000000001d89010000000000401b020000000000a8090200000000000000ff000000000000000000010000001f00000000000000"
+            ],
+            "scope": "Original parameter preparation and video table construction, no hardware submission"
+          }
+        }
+      ],
+      "return_u32": 0,
+      "reached_video_end": false,
+      "sample_query_scope": "Original getters, first audio track; no decoder submission"
+    },
+    "reader_state_hex": "000000000000000043564158000000000000a000000000001c02e307010100000000000031637661a0860100a08601000100000008000000a6f03b00a6f03b007008000f0100000000000000000000000100000002010200000300000003000002000000000000000000000000000000000000000000000000000000000000000000000000000000905f01000000000001000000000000000000000000000000b00b0c5000000000d00f0e5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000ffffffffffffffffffffffff0000000078100e50000000000100000001000000010000000000000000000000000000000000002050c3000050c30000a6f03b00a6f03b0050c3000050c300003b00a6f03b00a6f0800738040100010002000000736f77740000000000000000000600000006000080bb0000020000000000000065fd62e60000000065fd62e60000000060ea000000000000ea6ed800000000000100000001000000000001000000000000000000000000000000010000000000000000000000000000000040040000000100000060ea00005a370000a6f03b003163766100000000dd05000000000000ff88010000000000c078000000000000e90300000100000000000000bb0b00000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000038380e500000000001000000080000000101010000000000301a0e500000000001000000020000000000000000000000000000000000000080bb00008825ad000000000000000000f83b0e50000000000300000060ea0000d83c0e50000000003d0000000100000001000000080000000000000000000000d95d0000d95d0000d95d0000d95d0000d95d00003d0000003d00000000000000850f0200000000000000000000000000000000000000000000000000000000000000000000000000",
+    "original_executable_sections_unchanged": true
+  },
+  "sample_index_crosscheck": {
+    "checks": {
+      "sdk_status": true,
+      "video_rows_match_source": true,
+      "metadata_rows_match_source": true,
+      "audio_rows_within_source_chunks": true,
+      "batch_byte_totals_match_rows": true,
+      "original_parameter_sets_match_avcc": true,
+      "original_table_conversions_succeeded": true,
+      "original_frame_tables_match_sdk_descriptors": true,
+      "nonempty_ordered_video_samples": true
+    },
+    "passed": true,
+    "video_frames_checked": 1,
+    "total_video_frames": 14170,
+    "independent_oracle": "sony_mp4 ISO BMFF sample index, not firmware output"
+  },
+  "rtmd_probe": {
+    "packets": [
+      {
+        "frame_index": 0,
+        "sample_sha256": "dd2f35164c20c2daafb98534563e2d4a5884ae8c73351320a6e9cd9fc145e7af",
+        "sample_size": 1024,
+        "transit_return_u32": 0,
+        "basic_query_return_u32": 0,
+        "basic_timecode_present": true,
+        "basic_timecode_item_hex": "010000000000003c4000000000000000",
+        "table_conversion_return_u32": 0,
+        "table_count": 1,
+        "table_hex": "0800000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004ff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "frame_index": 1,
+        "sample_sha256": "14d31c6a1b20684837be64a48fc69063b2b3613eadfa56a5edddfbf7045c3051",
+        "sample_size": 1024,
+        "transit_return_u32": 0,
+        "basic_query_return_u32": 0,
+        "basic_timecode_present": true,
+        "basic_timecode_item_hex": "010000000001003c4080000000000000",
+        "table_conversion_return_u32": 0,
+        "table_count": 1,
+        "table_hex": "0800000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004ff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "frame_index": 14169,
+        "sample_sha256": "0301eafd160a6f685621af22d1bcbe92eddd4df76bf40d3717454ce836d5d992",
+        "sample_size": 1024,
+        "transit_return_u32": 0,
+        "basic_query_return_u32": 0,
+        "basic_timecode_present": true,
+        "basic_timecode_item_hex": "010003380015003c50d6030000000000",
+        "table_conversion_return_u32": 0,
+        "table_count": 1,
+        "table_hex": "0800000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000050d60300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004ff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "scope": "Original metadata parser and table converter for selected packets only"
+  },
+  "steps": [
+    {
+      "label": "file_object_constructor",
+      "entry_elf_vma": "0x22a730",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "reader_constructor",
+      "entry_elf_vma": "0x222994",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "file_buffer_setup",
+      "entry_elf_vma": "0x22a774",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "readonly_file_open",
+      "entry_elf_vma": "0x22af44",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_mp4_open",
+      "entry_elf_vma": "0x22a380",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_movie_property_query",
+      "entry_elf_vma": "0x228fa8",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "selected_start_position_probe",
+      "entry_elf_vma": "0x227714",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "presentation_query",
+      "entry_elf_vma": "0x228170",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "video_sample_query",
+      "entry_elf_vma": "0x226d20",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "audio_sample_query",
+      "entry_elf_vma": "0x228bf0",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "metadata_sample_query",
+      "entry_elf_vma": "0x22843c",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "outband_buffer_constructor",
+      "entry_elf_vma": "0x107904",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "outband_list_constructor",
+      "entry_elf_vma": "0xfb22c",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "original_parameter_set_preparation",
+      "entry_elf_vma": "0x11075c",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "parameter_list_item",
+      "entry_elf_vma": "0xfb388",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "parameter_list_item",
+      "entry_elf_vma": "0xfb388",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "parameter_list_item",
+      "entry_elf_vma": "0xfb388",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_video_config_table",
+      "entry_elf_vma": "0x10c998",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_video_frame_table",
+      "entry_elf_vma": "0x10c4a4",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_parser_constructor",
+      "entry_elf_vma": "0x1a39d8",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "timecode_converter_constructor",
+      "entry_elf_vma": "0x1a5684",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "rtmd_transit_to_query",
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_basic_timecode_query",
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_metadata_decode_table",
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_transit_to_query",
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_basic_timecode_query",
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_metadata_decode_table",
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_transit_to_query",
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_basic_timecode_query",
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_metadata_decode_table",
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "void_return_ignored": false
+    }
+  ],
+  "calls": [
+    {
+      "entry_elf_vma": "0x22a730",
+      "return_u32": 1342966704,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x222994",
+      "return_u32": 1,
+      "modeled_externals": [
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22a774",
+      "return_u32": 0,
+      "modeled_externals": [
+        "calloc"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22af44",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Open",
+        "Fsys_Read",
+        "Fsys_Seek"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22a380",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "_ZdlPv",
+        "_Znwm",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memmove",
+        "memset",
+        "read_side_diagnostic_message_sink"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x228fa8",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x227714",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "malloc",
+        "memcpy",
+        "memset",
+        "read_side_diagnostic_message_sink"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x228170",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x226d20",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x228bf0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "readonly_printf_message_sink"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22843c",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "malloc",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x107904",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_Znwm",
+        "pthread_mutex_init",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock"
+      ]
+    },
+    {
+      "entry_elf_vma": "0xfb22c",
+      "return_u32": 1343395936,
+      "modeled_externals": [
+        "malloc",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x11075c",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock"
+      ]
+    },
+    {
+      "entry_elf_vma": "0xfb32c",
+      "return_u32": 3,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0xfb388",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0xfb388",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0xfb388",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x10c998",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x10c4a4",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a39d8",
+      "return_u32": 1343431864,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a5684",
+      "return_u32": 1343431920,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_ZdlPvm",
+        "_Znwm",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_ZdlPvm",
+        "_Znwm",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_ZdlPvm",
+        "_Znwm",
+        "memcpy",
+        "memset"
+      ]
+    }
+  ],
+  "io": [
+    {
+      "operation": "Fsys_Open",
+      "path": "A:/PRIVATE/M4ROOT/CLIP/TEST.MP4",
+      "readonly": true
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 6113
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 6081
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 9929
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 9929
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 6045
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 6053
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 5909
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 5749
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 66609
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 8005
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 66653
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 5697
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 3301
+    }
+  ],
+  "diagnostic_packets": [
+    "0123000302000000010000005a370000",
+    "012306030200000000000000feffffff",
+    "01230603020000000100000001000000",
+    "01230603020000000200000001000000",
+    "01230f0304000000",
+    "01231003020000000100000000000000",
+    "01231f030300000002000000",
+    {
+      "printf_format": "[%s] Play [CODING_TYPE_ONLY_I]\n"
+    }
+  ],
+  "original_stdcpp_sha256": "28f2d082aea5206c42ba15664f39e2eaf7febed8f6264305e7e16aa44c878389",
+  "selected_original_runtime_helpers": [
+    {
+      "symbol": "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_",
+      "entry": "0x610a6350"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base",
+      "entry": "0x610a6288"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base",
+      "entry": "0x610a6280"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base",
+      "entry": "0x610a6278"
+    },
+    {
+      "symbol": "_ZSt20_Rb_tree_black_countPKSt18_Rb_tree_node_baseS1_",
+      "entry": "0x610a6b20"
+    },
+    {
+      "symbol": "_ZSt20_Rb_tree_rotate_leftPSt18_Rb_tree_node_baseRS0_",
+      "entry": "0x610a6290"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base",
+      "entry": "0x610a6210"
+    },
+    {
+      "symbol": "_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_",
+      "entry": "0x610a65e8"
+    },
+    {
+      "symbol": "_ZSt21_Rb_tree_rotate_rightPSt18_Rb_tree_node_baseRS0_",
+      "entry": "0x610a62f0"
+    }
+  ],
+  "heap_bytes_used": 1327200,
+  "last_instructions": [
+    "0x1a52b8",
+    "0x1a52bc",
+    "0x1a52c0",
+    "0x10c820",
+    "0x10c824",
+    "0x10c828",
+    "0x10c85c",
+    "0x10c860",
+    "0x10c864",
+    "0x10c868",
+    "0x10c86c",
+    "0x10c870",
+    "0x10c874",
+    "0x10c878",
+    "0x10c87c",
+    "0x10c880",
+    "0x10c884",
+    "0x10c888",
+    "0x10c88c",
+    "0x10c890"
+  ],
+  "last_boundaries": [
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter9KlvParserEPhjtPS1_Pj",
+      "target": "0x19c4b4"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter9KlvParserEPhjtPS1_Pj",
+      "target": "0x19c4b4"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter9KlvParserEPhjtPS1_Pj",
+      "target": "0x19c4b4"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "modeled_external",
+      "symbol": "_ZdlPvm"
+    }
+  ],
+  "instruction_count": 237942,
+  "active_step": {
+    "label": "original_metadata_decode_table",
+    "entry_elf_vma": "0x10c550"
+  },
+  "original_entry_trace": {
+    "sample_info": {
+      "calls": 9,
+      "first_args": [
+        "0x500e1078",
+        "0x1",
+        "0x1",
+        "0x0",
+        "0x500c0998",
+        "0x0",
+        "0x0"
+      ],
+      "last_args": [
+        "0x500e1078",
+        "0x3",
+        "0x1f",
+        "0x0",
+        "0x3000ee88",
+        "0x0",
+        "0x0"
+      ]
+    },
+    "sync_sample_search": {
+      "calls": 2,
+      "first_args": [
+        "0x500e1078",
+        "0x1",
+        "0x2",
+        "0x1",
+        "0x3000efd0",
+        "0x3000ef00",
+        "0x2"
+      ],
+      "last_args": [
+        "0x500e1078",
+        "0x1",
+        "0x1f",
+        "0x1",
+        "0x3000eecc",
+        "0x3000eed8",
+        "0x4"
+      ]
+    },
+    "sample_decode_timestamp": {
+      "calls": 5,
+      "first_args": [
+        "0x500e1078",
+        "0x1",
+        "0x1f",
+        "0x3000ef70",
+        "0x3000ef6c",
+        "0x2",
+        "0x4"
+      ],
+      "last_args": [
+        "0x500e1078",
+        "0x3",
+        "0x1f",
+        "0x3000ee78",
+        "0x3000ee70",
+        "0x2",
+        "0x1f"
+      ]
+    },
+    "presentation_boundary_scan": {
+      "calls": 1,
+      "first_args": [
+        "0x500c07b0",
+        "0x500e1078",
+        "0x500c0978",
+        "0x1f",
+        "0x500c0838",
+        "0x3000ef40",
+        "0x3000ef58"
+      ],
+      "last_args": [
+        "0x500c07b0",
+        "0x500e1078",
+        "0x500c0978",
+        "0x1f",
+        "0x500c0838",
+        "0x3000ef40",
+        "0x3000ef58"
+      ]
+    }
+  },
+  "original_executable_sections_unchanged_after_all_probes": true,
+  "passed_selected_reader_checks": true
+}

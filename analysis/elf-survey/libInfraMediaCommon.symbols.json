@@ -1,0 +1,3215 @@
+{
+  "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\firmware\\m4-v602\\usr\\lib\\libInfraMediaCommon.so",
+  "sha256": "ec454c50b13aa78621fd8f0a6a9a8899b5194e446ed1b5fcefb34996b3f73a39",
+  "header": {
+    "e_ident": {
+      "EI_MAG": [
+        127,
+        69,
+        76,
+        70
+      ],
+      "EI_CLASS": "ELFCLASS64",
+      "EI_DATA": "ELFDATA2LSB",
+      "EI_VERSION": "EV_CURRENT",
+      "EI_OSABI": "ELFOSABI_SYSV",
+      "EI_ABIVERSION": 0
+    },
+    "e_type": "ET_DYN",
+    "e_machine": "EM_AARCH64",
+    "e_version": "EV_CURRENT",
+    "e_entry": 94032,
+    "e_phoff": 64,
+    "e_shoff": 400992,
+    "e_flags": 0,
+    "e_ehsize": 64,
+    "e_phentsize": 56,
+    "e_phnum": 6,
+    "e_shentsize": 64,
+    "e_shnum": 26,
+    "e_shstrndx": 25
+  },
+  "segments": [
+    {
+      "p_type": "PT_LOAD",
+      "p_flags": 5,
+      "p_offset": 0,
+      "p_vaddr": 0,
+      "p_paddr": 0,
+      "p_filesz": 365036,
+      "p_memsz": 365036,
+      "p_align": 65536
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_flags": 6,
+      "p_offset": 365832,
+      "p_vaddr": 431368,
+      "p_paddr": 431368,
+      "p_filesz": 34876,
+      "p_memsz": 45984,
+      "p_align": 65536
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_flags": 6,
+      "p_offset": 396248,
+      "p_vaddr": 461784,
+      "p_paddr": 461784,
+      "p_filesz": 560,
+      "p_memsz": 560,
+      "p_align": 8
+    },
+    {
+      "p_type": "PT_GNU_EH_FRAME",
+      "p_flags": 4,
+      "p_offset": 357744,
+      "p_vaddr": 357744,
+      "p_paddr": 357744,
+      "p_filesz": 1180,
+      "p_memsz": 1180,
+      "p_align": 4
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_flags": 6,
+      "p_offset": 0,
+      "p_vaddr": 0,
+      "p_paddr": 0,
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_align": 16
+    },
+    {
+      "p_type": "PT_GNU_RELRO",
+      "p_flags": 4,
+      "p_offset": 365832,
+      "p_vaddr": 431368,
+      "p_paddr": 431368,
+      "p_filesz": 31480,
+      "p_memsz": 31480,
+      "p_align": 1
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "sh_name": 0,
+      "sh_type": "SHT_NULL",
+      "sh_flags": 0,
+      "sh_addr": 0,
+      "sh_offset": 0,
+      "sh_size": 0,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 0,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gnu.hash",
+      "sh_name": 11,
+      "sh_type": "SHT_GNU_HASH",
+      "sh_flags": 2,
+      "sh_addr": 400,
+      "sh_offset": 400,
+      "sh_size": 3488,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".dynsym",
+      "sh_name": 21,
+      "sh_type": "SHT_DYNSYM",
+      "sh_flags": 2,
+      "sh_addr": 3888,
+      "sh_offset": 3888,
+      "sh_size": 14064,
+      "sh_link": 3,
+      "sh_info": 3,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".dynstr",
+      "sh_name": 29,
+      "sh_type": "SHT_STRTAB",
+      "sh_flags": 2,
+      "sh_addr": 17952,
+      "sh_offset": 17952,
+      "sh_size": 12320,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gnu.version",
+      "sh_name": 37,
+      "sh_type": "SHT_GNU_versym",
+      "sh_flags": 2,
+      "sh_addr": 30272,
+      "sh_offset": 30272,
+      "sh_size": 1172,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 2,
+      "sh_entsize": 2
+    },
+    {
+      "name": ".gnu.version_r",
+      "sh_name": 50,
+      "sh_type": "SHT_GNU_verneed",
+      "sh_flags": 2,
+      "sh_addr": 31448,
+      "sh_offset": 31448,
+      "sh_size": 96,
+      "sh_link": 3,
+      "sh_info": 3,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".rela.dyn",
+      "sh_name": 65,
+      "sh_type": "SHT_RELA",
+      "sh_flags": 2,
+      "sh_addr": 31544,
+      "sh_offset": 31544,
+      "sh_size": 45672,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".rela.plt",
+      "sh_name": 75,
+      "sh_type": "SHT_RELA",
+      "sh_flags": 66,
+      "sh_addr": 77216,
+      "sh_offset": 77216,
+      "sh_size": 10056,
+      "sh_link": 2,
+      "sh_info": 21,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".init",
+      "sh_name": 85,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 87272,
+      "sh_offset": 87272,
+      "sh_size": 20,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".plt",
+      "sh_name": 80,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 87296,
+      "sh_offset": 87296,
+      "sh_size": 6736,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 16,
+      "sh_entsize": 16
+    },
+    {
+      "name": ".text",
+      "sh_name": 91,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 94032,
+      "sh_offset": 94032,
+      "sh_size": 210048,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".fini",
+      "sh_name": 97,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 304080,
+      "sh_offset": 304080,
+      "sh_size": 16,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".rodata",
+      "sh_name": 103,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 304096,
+      "sh_offset": 304096,
+      "sh_size": 53647,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".eh_frame_hdr",
+      "sh_name": 111,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 357744,
+      "sh_offset": 357744,
+      "sh_size": 1180,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".eh_frame",
+      "sh_name": 125,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 358928,
+      "sh_offset": 358928,
+      "sh_size": 6108,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".init_array",
+      "sh_name": 135,
+      "sh_type": "SHT_INIT_ARRAY",
+      "sh_flags": 3,
+      "sh_addr": 431368,
+      "sh_offset": 365832,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".fini_array",
+      "sh_name": 147,
+      "sh_type": "SHT_FINI_ARRAY",
+      "sh_flags": 3,
+      "sh_addr": 431376,
+      "sh_offset": 365840,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".jcr",
+      "sh_name": 159,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 431384,
+      "sh_offset": 365848,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".data.rel.ro",
+      "sh_name": 164,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 431392,
+      "sh_offset": 365856,
+      "sh_size": 30392,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".dynamic",
+      "sh_name": 177,
+      "sh_type": "SHT_DYNAMIC",
+      "sh_flags": 3,
+      "sh_addr": 461784,
+      "sh_offset": 396248,
+      "sh_size": 560,
+      "sh_link": 3,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 16
+    },
+    {
+      "name": ".got",
+      "sh_name": 186,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 462344,
+      "sh_offset": 396808,
+      "sh_size": 480,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".got.plt",
+      "sh_name": 191,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 462824,
+      "sh_offset": 397288,
+      "sh_size": 3376,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".data",
+      "sh_name": 200,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 466200,
+      "sh_offset": 400664,
+      "sh_size": 44,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".bss",
+      "sh_name": 206,
+      "sh_type": "SHT_NOBITS",
+      "sh_flags": 3,
+      "sh_addr": 466248,
+      "sh_offset": 400708,
+      "sh_size": 11104,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".comment",
+      "sh_name": 211,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 48,
+      "sh_addr": 0,
+      "sh_offset": 400708,
+      "sh_size": 64,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 1
+    },
+    {
+      "name": ".shstrtab",
+      "sh_name": 1,
+      "sh_type": "SHT_STRTAB",
+      "sh_flags": 0,
+      "sh_addr": 0,
+      "sh_offset": 400772,
+      "sh_size": 220,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    }
+  ],
+  "symbols": [
+    {
+      "name": "mcmn_exit",
+      "address": "0x172c0",
+      "size": 12,
+      "demangled": "mcmn_exit"
+    },
+    {
+      "name": "mcmn_drv_term",
+      "address": "0x1f5d0",
+      "size": 52,
+      "demangled": "mcmn_drv_term"
+    },
+    {
+      "name": "mcmn_drv_default_reject",
+      "address": "0x23698",
+      "size": 8,
+      "demangled": "mcmn_drv_default_reject"
+    },
+    {
+      "name": "mcmn_drv_nvme_ioctl_io_cmd",
+      "address": "0x31e8c",
+      "size": 160,
+      "demangled": "mcmn_drv_nvme_ioctl_io_cmd"
+    },
+    {
+      "name": "mcmn_param_getbin",
+      "address": "0x472b8",
+      "size": 224,
+      "demangled": "mcmn_param_getbin"
+    },
+    {
+      "name": "mcmn_drv_scsi_open",
+      "address": "0x3e558",
+      "size": 824,
+      "demangled": "mcmn_drv_scsi_open"
+    },
+    {
+      "name": "mcmn_mon_init",
+      "address": "0x45b10",
+      "size": 32,
+      "demangled": "mcmn_mon_init"
+    },
+    {
+      "name": "mcmn_drv_tk1_printdebuginfo",
+      "address": "0x3fd48",
+      "size": 4,
+      "demangled": "mcmn_drv_tk1_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_nvme_vpgp4_setpgtype_impl",
+      "address": "0x32cf4",
+      "size": 1212,
+      "demangled": "mcmn_drv_nvme_vpgp4_setpgtype_impl"
+    },
+    {
+      "name": "mcmn_drv_nvme_init",
+      "address": "0x37508",
+      "size": 4,
+      "demangled": "mcmn_drv_nvme_init"
+    },
+    {
+      "name": "mcmn_drv_default_suspend",
+      "address": "0x24ab4",
+      "size": 8,
+      "demangled": "mcmn_drv_default_suspend"
+    },
+    {
+      "name": "mcmn_drv_nvme_getlogpage_smartinformation",
+      "address": "0x31fb4",
+      "size": 176,
+      "demangled": "mcmn_drv_nvme_getlogpage_smartinformation"
+    },
+    {
+      "name": "mcmn_log_printdevicelog",
+      "address": "0x40894",
+      "size": 12,
+      "demangled": "mcmn_log_printdevicelog"
+    },
+    {
+      "name": "mcmn_mmap_do_munmap",
+      "address": "0x45910",
+      "size": 256,
+      "demangled": "mcmn_mmap_do_munmap"
+    },
+    {
+      "name": "mcmn_list_term",
+      "address": "0x40084",
+      "size": 8,
+      "demangled": "mcmn_list_term"
+    },
+    {
+      "name": "mcmn_drv_format",
+      "address": "0x1b8f0",
+      "size": 492,
+      "demangled": "mcmn_drv_format"
+    },
+    {
+      "name": "mcmn_list_add_node",
+      "address": "0x4009c",
+      "size": 44,
+      "demangled": "mcmn_list_add_node"
+    },
+    {
+      "name": "mcmn_drv_debug_error",
+      "address": "0x211dc",
+      "size": 172,
+      "demangled": "mcmn_drv_debug_error"
+    },
+    {
+      "name": "mcmn_log_suspend",
+      "address": "0x40438",
+      "size": 60,
+      "demangled": "mcmn_log_suspend"
+    },
+    {
+      "name": "mcmn_drv_mmc_mount4mmc",
+      "address": "0x2df80",
+      "size": 340,
+      "demangled": "mcmn_drv_mmc_mount4mmc"
+    },
+    {
+      "name": "mcmn_drv_writevandflush",
+      "address": "0x1cf2c",
+      "size": 644,
+      "demangled": "mcmn_drv_writevandflush"
+    },
+    {
+      "name": "mcmn_kikilog_record_ms",
+      "address": "0x3fe44",
+      "size": 168,
+      "demangled": "mcmn_kikilog_record_ms"
+    },
+    {
+      "name": "mcmn_drv_buf_printinfo",
+      "address": "0x1fb74",
+      "size": 724,
+      "demangled": "mcmn_drv_buf_printinfo"
+    },
+    {
+      "name": "mcmn_drv_exclacs_unlock",
+      "address": "0x289a4",
+      "size": 168,
+      "demangled": "mcmn_drv_exclacs_unlock"
+    },
+    {
+      "name": "mcmn_drv_checkreject",
+      "address": "0x1aee4",
+      "size": 168,
+      "demangled": "mcmn_drv_checkreject"
+    },
+    {
+      "name": "mcmn_drv_onand_suspend",
+      "address": "0x379fc",
+      "size": 4,
+      "demangled": "mcmn_drv_onand_suspend"
+    },
+    {
+      "name": "mcmn_drv_default_updatelifeinfo",
+      "address": "0x24ac4",
+      "size": 24,
+      "demangled": "mcmn_drv_default_updatelifeinfo"
+    },
+    {
+      "name": "mcmn_list_set_node_value",
+      "address": "0x40114",
+      "size": 8,
+      "demangled": "mcmn_list_set_node_value"
+    },
+    {
+      "name": "mcmn_drv_nvme_decodelinkspeed",
+      "address": "0x31f84",
+      "size": 48,
+      "demangled": "mcmn_drv_nvme_decodelinkspeed"
+    },
+    {
+      "name": "mcmn_dmm_getextent",
+      "address": "0x186a0",
+      "size": 164,
+      "demangled": "mcmn_dmm_getextent"
+    },
+    {
+      "name": "mcmn_drv_dbgerr_init",
+      "address": "0x21130",
+      "size": 28,
+      "demangled": "mcmn_drv_dbgerr_init"
+    },
+    {
+      "name": "mcmn_mon_setflag",
+      "address": "0x45c40",
+      "size": 20,
+      "demangled": "mcmn_mon_setflag"
+    },
+    {
+      "name": "mcmn_drv_log_recordaccesslog_end",
+      "address": "0x290fc",
+      "size": 188,
+      "demangled": "mcmn_drv_log_recordaccesslog_end"
+    },
+    {
+      "name": "mcmn_drv_default_areturn",
+      "address": "0x233bc",
+      "size": 732,
+      "demangled": "mcmn_drv_default_areturn"
+    },
+    {
+      "name": "mcmn_drv_ms_reject",
+      "address": "0x30c98",
+      "size": 320,
+      "demangled": "mcmn_drv_ms_reject"
+    },
+    {
+      "name": "mcmn_drv_nvme_isvpgsupportsignatureexist",
+      "address": "0x31f2c",
+      "size": 88,
+      "demangled": "mcmn_drv_nvme_isvpgsupportsignatureexist"
+    },
+    {
+      "name": "mcmn_rwlock_open_",
+      "address": "0x490c8",
+      "size": 172,
+      "demangled": "mcmn_rwlock_open_"
+    },
+    {
+      "name": "mcmn_log_term",
+      "address": "0x403ec",
+      "size": 4,
+      "demangled": "mcmn_log_term"
+    },
+    {
+      "name": "mcmn_drv_dbgerr_setparam",
+      "address": "0x20d10",
+      "size": 228,
+      "demangled": "mcmn_drv_dbgerr_setparam"
+    },
+    {
+      "name": "mcmn_drv_updatelifeinfo",
+      "address": "0x1d1b0",
+      "size": 540,
+      "demangled": "mcmn_drv_updatelifeinfo"
+    },
+    {
+      "name": "mcmn_drv_default_unmount",
+      "address": "0x236a0",
+      "size": 24,
+      "demangled": "mcmn_drv_default_unmount"
+    },
+    {
+      "name": "mcmn_drv_init",
+      "address": "0x1f59c",
+      "size": 52,
+      "demangled": "mcmn_drv_init"
+    },
+    {
+      "name": "mcmn_drv_onand_reject",
+      "address": "0x379f8",
+      "size": 4,
+      "demangled": "mcmn_drv_onand_reject"
+    },
+    {
+      "name": "mcmn_suspend",
+      "address": "0x17184",
+      "size": 192,
+      "demangled": "mcmn_suspend"
+    },
+    {
+      "name": "mcmn_buf_printdebuginfo",
+      "address": "0x18150",
+      "size": 8,
+      "demangled": "mcmn_buf_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_getadjinfo",
+      "address": "0x1c3dc",
+      "size": 288,
+      "demangled": "mcmn_drv_getadjinfo"
+    },
+    {
+      "name": "mcmn_drv_dummy_printdebuginfo",
+      "address": "0x288ac",
+      "size": 4,
+      "demangled": "mcmn_drv_dummy_printdebuginfo"
+    },
+    {
+      "name": "mcmn_param_setstr",
+      "address": "0x47768",
+      "size": 200,
+      "demangled": "mcmn_param_setstr"
+    },
+    {
+      "name": "mcmn_log_record_string",
+      "address": "0x4077c",
+      "size": 92,
+      "demangled": "mcmn_log_record_string"
+    },
+    {
+      "name": "mcmn_rmcmnd_get_bus_connect_type",
+      "address": "0x4808c",
+      "size": 120,
+      "demangled": "mcmn_rmcmnd_get_bus_connect_type"
+    },
+    {
+      "name": "mcmn_sem_init",
+      "address": "0x4a30c",
+      "size": 108,
+      "demangled": "mcmn_sem_init"
+    },
+    {
+      "name": "mcmn_rwlock_close",
+      "address": "0x49174",
+      "size": 68,
+      "demangled": "mcmn_rwlock_close"
+    },
+    {
+      "name": "mcmn_drv_default_updatepginfo_write",
+      "address": "0x239c0",
+      "size": 860,
+      "demangled": "mcmn_drv_default_updatepginfo_write"
+    },
+    {
+      "name": "mcmn_mon_printdump",
+      "address": "0x45c14",
+      "size": 28,
+      "demangled": "mcmn_mon_printdump"
+    },
+    {
+      "name": "mcmn_drv_nvme_vpgp5_setpgtype_impl",
+      "address": "0x33cd8",
+      "size": 1364,
+      "demangled": "mcmn_drv_nvme_vpgp5_setpgtype_impl"
+    },
+    {
+      "name": "mcmn_log_getarea",
+      "address": "0x403f0",
+      "size": 72,
+      "demangled": "mcmn_log_getarea"
+    },
+    {
+      "name": "mcmn_drv_areadv",
+      "address": "0x1eb78",
+      "size": 700,
+      "demangled": "mcmn_drv_areadv"
+    },
+    {
+      "name": "mcmn_drv_remount",
+      "address": "0x1bd1c",
+      "size": 724,
+      "demangled": "mcmn_drv_remount"
+    },
+    {
+      "name": "mcmn_misc_getcpuelapsedtime",
+      "address": "0x45144",
+      "size": 204,
+      "demangled": "mcmn_misc_getcpuelapsedtime"
+    },
+    {
+      "name": "mcmn_list_get_node_count",
+      "address": "0x40124",
+      "size": 8,
+      "demangled": "mcmn_list_get_node_count"
+    },
+    {
+      "name": "mcmn_drv_mod_getdevinfo",
+      "address": "0x2f39c",
+      "size": 96,
+      "demangled": "mcmn_drv_mod_getdevinfo"
+    },
+    {
+      "name": "mcmn_misc_writestring",
+      "address": "0x455b8",
+      "size": 144,
+      "demangled": "mcmn_misc_writestring"
+    },
+    {
+      "name": "mcmn_param_init",
+      "address": "0x47bc4",
+      "size": 564,
+      "demangled": "mcmn_param_init"
+    },
+    {
+      "name": "mcmn_list_init",
+      "address": "0x40070",
+      "size": 20,
+      "demangled": "mcmn_list_init"
+    },
+    {
+      "name": "mcmn_msm_set_current_grpNum",
+      "address": "0x46a2c",
+      "size": 108,
+      "demangled": "mcmn_msm_set_current_grpNum"
+    },
+    {
+      "name": "mcmn_msm_enable",
+      "address": "0x467a4",
+      "size": 256,
+      "demangled": "mcmn_msm_enable"
+    },
+    {
+      "name": "mcmn_drv_cb_init",
+      "address": "0x20510",
+      "size": 12,
+      "demangled": "mcmn_drv_cb_init"
+    },
+    {
+      "name": "mcmn_monlib_open",
+      "address": "0x45c90",
+      "size": 340,
+      "demangled": "mcmn_monlib_open"
+    },
+    {
+      "name": "mcmn_drv_mmc_open",
+      "address": "0x2e678",
+      "size": 2528,
+      "demangled": "mcmn_drv_mmc_open"
+    },
+    {
+      "name": "mcmn_param_setul",
+      "address": "0x47398",
+      "size": 140,
+      "demangled": "mcmn_param_setul"
+    },
+    {
+      "name": "mcmn_init",
+      "address": "0x172b4",
+      "size": 12,
+      "demangled": "mcmn_init"
+    },
+    {
+      "name": "mcmn_drv_default_asyncinfo_getdata",
+      "address": "0x255ac",
+      "size": 8,
+      "demangled": "mcmn_drv_default_asyncinfo_getdata"
+    },
+    {
+      "name": "mcmn_list_remove_node",
+      "address": "0x400c8",
+      "size": 60,
+      "demangled": "mcmn_list_remove_node"
+    },
+    {
+      "name": "mcmn_drv_default_erase",
+      "address": "0x2390c",
+      "size": 132,
+      "demangled": "mcmn_drv_default_erase"
+    },
+    {
+      "name": "mcmn_param_getuint64",
+      "address": "0x470fc",
+      "size": 132,
+      "demangled": "mcmn_param_getuint64"
+    },
+    {
+      "name": "mcmn_drv_default_setup_async",
+      "address": "0x24ff8",
+      "size": 604,
+      "demangled": "mcmn_drv_default_setup_async"
+    },
+    {
+      "name": "mcmn_drv_exclacs_exit",
+      "address": "0x28d60",
+      "size": 44,
+      "demangled": "mcmn_drv_exclacs_exit"
+    },
+    {
+      "name": "mcmn_misc_mwait",
+      "address": "0x45054",
+      "size": 76,
+      "demangled": "mcmn_misc_mwait"
+    },
+    {
+      "name": "mcmn_drv_default_aio_impl",
+      "address": "0x252e8",
+      "size": 328,
+      "demangled": "mcmn_drv_default_aio_impl"
+    },
+    {
+      "name": "mcmn_drv_debug_funcin",
+      "address": "0x2137c",
+      "size": 316,
+      "demangled": "mcmn_drv_debug_funcin"
+    },
+    {
+      "name": "mcmn_rmcmnd_get_hostpcilink_info",
+      "address": "0x484d8",
+      "size": 132,
+      "demangled": "mcmn_rmcmnd_get_hostpcilink_info"
+    },
+    {
+      "name": "mcmn_drv_sata_reject",
+      "address": "0x3dbb8",
+      "size": 284,
+      "demangled": "mcmn_drv_sata_reject"
+    },
+    {
+      "name": "mcmn_rmcmnd_get_timestamp_record",
+      "address": "0x48348",
+      "size": 172,
+      "demangled": "mcmn_rmcmnd_get_timestamp_record"
+    },
+    {
+      "name": "mcmn_misc_getcputime",
+      "address": "0x4510c",
+      "size": 56,
+      "demangled": "mcmn_misc_getcputime"
+    },
+    {
+      "name": "mcmn_drv_debug_getpgstatusstring",
+      "address": "0x218b8",
+      "size": 64,
+      "demangled": "mcmn_drv_debug_getpgstatusstring"
+    },
+    {
+      "name": "mcmn_log_init",
+      "address": "0x40908",
+      "size": 440,
+      "demangled": "mcmn_log_init"
+    },
+    {
+      "name": "mcmn_drv_default_checkfake",
+      "address": "0x236ec",
+      "size": 8,
+      "demangled": "mcmn_drv_default_checkfake"
+    },
+    {
+      "name": "mcmn_drv_default_discard_impl",
+      "address": "0x24f50",
+      "size": 136,
+      "demangled": "mcmn_drv_default_discard_impl"
+    },
+    {
+      "name": "mcmn_addr_getpaddr",
+      "address": "0x17508",
+      "size": 216,
+      "demangled": "mcmn_addr_getpaddr"
+    },
+    {
+      "name": "mcmn_drv_readv",
+      "address": "0x1e8f4",
+      "size": 644,
+      "demangled": "mcmn_drv_readv"
+    },
+    {
+      "name": "mcmn_drv_getrealname",
+      "address": "0x1c724",
+      "size": 200,
+      "demangled": "mcmn_drv_getrealname"
+    },
+    {
+      "name": "mcmn_drv_setpgtype",
+      "address": "0x1ee34",
+      "size": 536,
+      "demangled": "mcmn_drv_setpgtype"
+    },
+    {
+      "name": "mcmn_drv_cb_regist",
+      "address": "0x1ff48",
+      "size": 268,
+      "demangled": "mcmn_drv_cb_regist"
+    },
+    {
+      "name": "mcmn_rwlock_simple_unlock",
+      "address": "0x49540",
+      "size": 120,
+      "demangled": "mcmn_rwlock_simple_unlock"
+    },
+    {
+      "name": "mcmn_drv_nvme_vpgp4_updateinfo_supportpgtype",
+      "address": "0x32c4c",
+      "size": 168,
+      "demangled": "mcmn_drv_nvme_vpgp4_updateinfo_supportpgtype"
+    },
+    {
+      "name": "mcmn_dmm_getunithandle",
+      "address": "0x185b0",
+      "size": 120,
+      "demangled": "mcmn_dmm_getunithandle"
+    },
+    {
+      "name": "mcmn_sem_unlock",
+      "address": "0x4a0ac",
+      "size": 148,
+      "demangled": "mcmn_sem_unlock"
+    },
+    {
+      "name": "mcmn_rmcmnd_access_led_ctrl",
+      "address": "0x4855c",
+      "size": 56,
+      "demangled": "mcmn_rmcmnd_access_led_ctrl"
+    },
+    {
+      "name": "mcmn_drv_default_updateinfo_supportasync",
+      "address": "0x24fd8",
+      "size": 32,
+      "demangled": "mcmn_drv_default_updateinfo_supportasync"
+    },
+    {
+      "name": "mcmn_mmap_exit",
+      "address": "0x4577c",
+      "size": 60,
+      "demangled": "mcmn_mmap_exit"
+    },
+    {
+      "name": "mcmn_drv_nvme_printdebuginfo",
+      "address": "0x37504",
+      "size": 4,
+      "demangled": "mcmn_drv_nvme_printdebuginfo"
+    },
+    {
+      "name": "mcmn_rwlock_unlock",
+      "address": "0x492d8",
+      "size": 112,
+      "demangled": "mcmn_rwlock_unlock"
+    },
+    {
+      "name": "mcmn_drv_rereadpart",
+      "address": "0x1d3cc",
+      "size": 340,
+      "demangled": "mcmn_drv_rereadpart"
+    },
+    {
+      "name": "mcmn_drv_sata_printdebuginfo",
+      "address": "0x3dbb4",
+      "size": 4,
+      "demangled": "mcmn_drv_sata_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_default_resume",
+      "address": "0x24abc",
+      "size": 8,
+      "demangled": "mcmn_drv_default_resume"
+    },
+    {
+      "name": "mcmn_rmcmnd_record_timestamp",
+      "address": "0x482a8",
+      "size": 160,
+      "demangled": "mcmn_rmcmnd_record_timestamp"
+    },
+    {
+      "name": "mcmn_drv_exclacs_printdebuginfo",
+      "address": "0x28bc8",
+      "size": 328,
+      "demangled": "mcmn_drv_exclacs_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_ms_mount",
+      "address": "0x30dd8",
+      "size": 1572,
+      "demangled": "mcmn_drv_ms_mount"
+    },
+    {
+      "name": "mcmn_drv_tk1_mount",
+      "address": "0x3f984",
+      "size": 720,
+      "demangled": "mcmn_drv_tk1_mount"
+    },
+    {
+      "name": "mcmn_rwlock_exit",
+      "address": "0x49658",
+      "size": 44,
+      "demangled": "mcmn_rwlock_exit"
+    },
+    {
+      "name": "mcmn_rmcmnd_exit",
+      "address": "0x485bc",
+      "size": 52,
+      "demangled": "mcmn_rmcmnd_exit"
+    },
+    {
+      "name": "mcmn_drv_default_resume_rootdev",
+      "address": "0x23774",
+      "size": 8,
+      "demangled": "mcmn_drv_default_resume_rootdev"
+    },
+    {
+      "name": "mcmn_buf_getlogarea",
+      "address": "0x180d0",
+      "size": 128,
+      "demangled": "mcmn_buf_getlogarea"
+    },
+    {
+      "name": "mcmn_msm_disable",
+      "address": "0x468a4",
+      "size": 164,
+      "demangled": "mcmn_msm_disable"
+    },
+    {
+      "name": "mcmn_drv_nvme_ioctl_id",
+      "address": "0x31ca4",
+      "size": 12,
+      "demangled": "mcmn_drv_nvme_ioctl_id"
+    },
+    {
+      "name": "mcmn_buf_getphysaddr",
+      "address": "0x17f7c",
+      "size": 120,
+      "demangled": "mcmn_buf_getphysaddr"
+    },
+    {
+      "name": "mcmn_drv_scsi_mount",
+      "address": "0x3e890",
+      "size": 124,
+      "demangled": "mcmn_drv_scsi_mount"
+    },
+    {
+      "name": "mcmn_drv_default_rereadpart",
+      "address": "0x24adc",
+      "size": 152,
+      "demangled": "mcmn_drv_default_rereadpart"
+    },
+    {
+      "name": "mcmn_log_resume",
+      "address": "0x403e8",
+      "size": 4,
+      "demangled": "mcmn_log_resume"
+    },
+    {
+      "name": "mcmn_sem_open_",
+      "address": "0x49f18",
+      "size": 192,
+      "demangled": "mcmn_sem_open_"
+    },
+    {
+      "name": "mcmn_drv_log_exit",
+      "address": "0x28edc",
+      "size": 52,
+      "demangled": "mcmn_drv_log_exit"
+    },
+    {
+      "name": "mcmn_drv_mod_suspend",
+      "address": "0x2f1f8",
+      "size": 88,
+      "demangled": "mcmn_drv_mod_suspend"
+    },
+    {
+      "name": "mcmn_drv_default_writev",
+      "address": "0x23d1c",
+      "size": 724,
+      "demangled": "mcmn_drv_default_writev"
+    },
+    {
+      "name": "mcmn_drv_dummy_getrealname",
+      "address": "0x27044",
+      "size": 40,
+      "demangled": "mcmn_drv_dummy_getrealname"
+    },
+    {
+      "name": "mcmn_drv_default_getadjinfo",
+      "address": "0x23764",
+      "size": 8,
+      "demangled": "mcmn_drv_default_getadjinfo"
+    },
+    {
+      "name": "mcmn_drv_default_getrealname",
+      "address": "0x24a28",
+      "size": 140,
+      "demangled": "mcmn_drv_default_getrealname"
+    },
+    {
+      "name": "mcmn_drv_reject",
+      "address": "0x19714",
+      "size": 328,
+      "demangled": "mcmn_drv_reject"
+    },
+    {
+      "name": "mcmn_drv_debug_print_devctrl",
+      "address": "0x22358",
+      "size": 108,
+      "demangled": "mcmn_drv_debug_print_devctrl"
+    },
+    {
+      "name": "mcmn_drv_tk1_open",
+      "address": "0x3f018",
+      "size": 2412,
+      "demangled": "mcmn_drv_tk1_open"
+    },
+    {
+      "name": "mcmn_param_setuint64",
+      "address": "0x47424",
+      "size": 104,
+      "demangled": "mcmn_param_setuint64"
+    },
+    {
+      "name": "mcmn_dmm_term",
+      "address": "0x182e4",
+      "size": 112,
+      "demangled": "mcmn_dmm_term"
+    },
+    {
+      "name": "mcmn_sem_close",
+      "address": "0x49fd8",
+      "size": 68,
+      "demangled": "mcmn_sem_close"
+    },
+    {
+      "name": "mcmn_monlib_getflag",
+      "address": "0x45fc4",
+      "size": 80,
+      "demangled": "mcmn_monlib_getflag"
+    },
+    {
+      "name": "mcmn_drv_nvme_mount",
+      "address": "0x36d28",
+      "size": 1320,
+      "demangled": "mcmn_drv_nvme_mount"
+    },
+    {
+      "name": "mcmn_drv_scsi_term",
+      "address": "0x3e920",
+      "size": 4,
+      "demangled": "mcmn_drv_scsi_term"
+    },
+    {
+      "name": "mcmn_param_save",
+      "address": "0x479b4",
+      "size": 36,
+      "demangled": "mcmn_param_save"
+    },
+    {
+      "name": "mcmn_monlib_vprintf",
+      "address": "0x46014",
+      "size": 536,
+      "demangled": "mcmn_monlib_vprintf"
+    },
+    {
+      "name": "mcmn_drv_mmc_reject",
+      "address": "0x2de64",
+      "size": 284,
+      "demangled": "mcmn_drv_mmc_reject"
+    },
+    {
+      "name": "mcmn_drv_ms_printdebuginfo",
+      "address": "0x30c94",
+      "size": 4,
+      "demangled": "mcmn_drv_ms_printdebuginfo"
+    },
+    {
+      "name": "mcmn_param_setbin",
+      "address": "0x47688",
+      "size": 224,
+      "demangled": "mcmn_param_setbin"
+    },
+    {
+      "name": "mcmn_misc_getelapsedtime_us",
+      "address": "0x450e8",
+      "size": 36,
+      "demangled": "mcmn_misc_getelapsedtime_us"
+    },
+    {
+      "name": "mcmn_drv_dummy_open",
+      "address": "0x27ed4",
+      "size": 2512,
+      "demangled": "mcmn_drv_dummy_open"
+    },
+    {
+      "name": "mcmn_drv_printdebuginfo",
+      "address": "0x1ac04",
+      "size": 736,
+      "demangled": "mcmn_drv_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_ms_resume",
+      "address": "0x30c90",
+      "size": 4,
+      "demangled": "mcmn_drv_ms_resume"
+    },
+    {
+      "name": "mcmn_drv_nvme_ioctl_admin_cmd",
+      "address": "0x31cb0",
+      "size": 160,
+      "demangled": "mcmn_drv_nvme_ioctl_admin_cmd"
+    },
+    {
+      "name": "mcmn_drv_onand_resume",
+      "address": "0x37a00",
+      "size": 4,
+      "demangled": "mcmn_drv_onand_resume"
+    },
+    {
+      "name": "mcmn_mon_setdefaultoutputmode",
+      "address": "0x45c54",
+      "size": 16,
+      "demangled": "mcmn_mon_setdefaultoutputmode"
+    },
+    {
+      "name": "mcmn_drv_log_printdevicelog",
+      "address": "0x29008",
+      "size": 116,
+      "demangled": "mcmn_drv_log_printdevicelog"
+    },
+    {
+      "name": "mcmn_ver_getversion",
+      "address": "0x4a3a4",
+      "size": 12,
+      "demangled": "mcmn_ver_getversion"
+    },
+    {
+      "name": "mcmn_rmcmnd_stop_timestamp_record",
+      "address": "0x48170",
+      "size": 104,
+      "demangled": "mcmn_rmcmnd_stop_timestamp_record"
+    },
+    {
+      "name": "mcmn_drv_nvme_pg_updateinfo_supportpgtype",
+      "address": "0x322e4",
+      "size": 52,
+      "demangled": "mcmn_drv_nvme_pg_updateinfo_supportpgtype"
+    },
+    {
+      "name": "mcmn_drv_default_awritev_impl",
+      "address": "0x25474",
+      "size": 68,
+      "demangled": "mcmn_drv_default_awritev_impl"
+    },
+    {
+      "name": "mcmn_drv_exclacs_init",
+      "address": "0x28d10",
+      "size": 80,
+      "demangled": "mcmn_drv_exclacs_init"
+    },
+    {
+      "name": "mcmn_drv_default_flush",
+      "address": "0x23904",
+      "size": 8,
+      "demangled": "mcmn_drv_default_flush"
+    },
+    {
+      "name": "mcmn_drv_tk1_reject",
+      "address": "0x3fc54",
+      "size": 244,
+      "demangled": "mcmn_drv_tk1_reject"
+    },
+    {
+      "name": "mcmn_drv_debug_error_devctrl",
+      "address": "0x223c4",
+      "size": 104,
+      "demangled": "mcmn_drv_debug_error_devctrl"
+    },
+    {
+      "name": "mcmn_drv_onand_open",
+      "address": "0x37724",
+      "size": 704,
+      "demangled": "mcmn_drv_onand_open"
+    },
+    {
+      "name": "mcmn_drv_exclacs_clr",
+      "address": "0x28af4",
+      "size": 212,
+      "demangled": "mcmn_drv_exclacs_clr"
+    },
+    {
+      "name": "mcmn_drv_misc_errno2err",
+      "address": "0x45420",
+      "size": 72,
+      "demangled": "mcmn_drv_misc_errno2err"
+    },
+    {
+      "name": "mcmn_resume",
+      "address": "0x17244",
+      "size": 112,
+      "demangled": "mcmn_resume"
+    },
+    {
+      "name": "mcmn_sem_simple_unlock",
+      "address": "0x4a240",
+      "size": 152,
+      "demangled": "mcmn_sem_simple_unlock"
+    },
+    {
+      "name": "mcmn_addr_clr",
+      "address": "0x17450",
+      "size": 184,
+      "demangled": "mcmn_addr_clr"
+    },
+    {
+      "name": "mcmn_dmm_getextentcount",
+      "address": "0x18628",
+      "size": 120,
+      "demangled": "mcmn_dmm_getextentcount"
+    },
+    {
+      "name": "mcmn_mcmd_msm_rw_record_log",
+      "address": "0x447ec",
+      "size": 292,
+      "demangled": "mcmn_mcmd_msm_rw_record_log"
+    },
+    {
+      "name": "mcmn_msm_init",
+      "address": "0x4675c",
+      "size": 72,
+      "demangled": "mcmn_msm_init"
+    },
+    {
+      "name": "mcmn_drv_checkkey",
+      "address": "0x1c7ec",
+      "size": 284,
+      "demangled": "mcmn_drv_checkkey"
+    },
+    {
+      "name": "mcmn_mmap_init",
+      "address": "0x4570c",
+      "size": 112,
+      "demangled": "mcmn_mmap_init"
+    },
+    {
+      "name": "mcmn_sem_lock",
+      "address": "0x4a01c",
+      "size": 144,
+      "demangled": "mcmn_sem_lock"
+    },
+    {
+      "name": "mcmn_drv_log_recordaccesslog_start",
+      "address": "0x2907c",
+      "size": 128,
+      "demangled": "mcmn_drv_log_recordaccesslog_start"
+    },
+    {
+      "name": "mcmn_param_getint64",
+      "address": "0x47234",
+      "size": 132,
+      "demangled": "mcmn_param_getint64"
+    },
+    {
+      "name": "mcmn_msm_get_and_lock_timestamp_tbl",
+      "address": "0x46cc0",
+      "size": 160,
+      "demangled": "mcmn_msm_get_and_lock_timestamp_tbl"
+    },
+    {
+      "name": "mcmn_dmm_init",
+      "address": "0x18270",
+      "size": 116,
+      "demangled": "mcmn_dmm_init"
+    },
+    {
+      "name": "mcmn_drv_close",
+      "address": "0x1ab24",
+      "size": 224,
+      "demangled": "mcmn_drv_close"
+    },
+    {
+      "name": "mcmn_param_setint64",
+      "address": "0x47528",
+      "size": 120,
+      "demangled": "mcmn_param_setint64"
+    },
+    {
+      "name": "mcmn_buf_getforfilesystem",
+      "address": "0x17df0",
+      "size": 108,
+      "demangled": "mcmn_buf_getforfilesystem"
+    },
+    {
+      "name": "mcmn_drv_rm_printdebuginfo",
+      "address": "0x3c420",
+      "size": 1000,
+      "demangled": "mcmn_drv_rm_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_scsi_init",
+      "address": "0x3e91c",
+      "size": 4,
+      "demangled": "mcmn_drv_scsi_init"
+    },
+    {
+      "name": "mcmn_rwlock_init",
+      "address": "0x495ec",
+      "size": 108,
+      "demangled": "mcmn_rwlock_init"
+    },
+    {
+      "name": "mcmn_drv_debug_getindentstring",
+      "address": "0x215a8",
+      "size": 32,
+      "demangled": "mcmn_drv_debug_getindentstring"
+    },
+    {
+      "name": "mcmn_drv_default_areadv_impl",
+      "address": "0x25430",
+      "size": 68,
+      "demangled": "mcmn_drv_default_areadv_impl"
+    },
+    {
+      "name": "mcmn_drv_dbgerr_setenabled",
+      "address": "0x20cfc",
+      "size": 20,
+      "demangled": "mcmn_drv_dbgerr_setenabled"
+    },
+    {
+      "name": "mcmn_rmcmnd_init",
+      "address": "0x48594",
+      "size": 40,
+      "demangled": "mcmn_rmcmnd_init"
+    },
+    {
+      "name": "mcmn_drv_sata_resume",
+      "address": "0x3dbac",
+      "size": 4,
+      "demangled": "mcmn_drv_sata_resume"
+    },
+    {
+      "name": "mcmn_rwlock_simple_wrlock_",
+      "address": "0x49444",
+      "size": 252,
+      "demangled": "mcmn_rwlock_simple_wrlock_"
+    },
+    {
+      "name": "mcmn_drv_writeandflush",
+      "address": "0x1c18c",
+      "size": 592,
+      "demangled": "mcmn_drv_writeandflush"
+    },
+    {
+      "name": "mcmn_rmcmnd_start_timestamp_record",
+      "address": "0x48104",
+      "size": 108,
+      "demangled": "mcmn_rmcmnd_start_timestamp_record"
+    },
+    {
+      "name": "mcmn_drv_dbgerr_cleanup",
+      "address": "0x20ca4",
+      "size": 88,
+      "demangled": "mcmn_drv_dbgerr_cleanup"
+    },
+    {
+      "name": "mcmn_drv_default_set_max_sectors_kb",
+      "address": "0x25684",
+      "size": 204,
+      "demangled": "mcmn_drv_default_set_max_sectors_kb"
+    },
+    {
+      "name": "mcmn_param_getsize",
+      "address": "0x47018",
+      "size": 68,
+      "demangled": "mcmn_param_getsize"
+    },
+    {
+      "name": "mcmn_drv_mod_term",
+      "address": "0x2f180",
+      "size": 120,
+      "demangled": "mcmn_drv_mod_term"
+    },
+    {
+      "name": "mcmn_list_lock",
+      "address": "0x4008c",
+      "size": 8,
+      "demangled": "mcmn_list_lock"
+    },
+    {
+      "name": "mcmn_drv_default_aio",
+      "address": "0x252c8",
+      "size": 32,
+      "demangled": "mcmn_drv_default_aio"
+    },
+    {
+      "name": "mcmn_drv_dummy_writezeros",
+      "address": "0x2706c",
+      "size": 40,
+      "demangled": "mcmn_drv_dummy_writezeros"
+    },
+    {
+      "name": "mcmn_drv_unregistcallback",
+      "address": "0x1d968",
+      "size": 124,
+      "demangled": "mcmn_drv_unregistcallback"
+    },
+    {
+      "name": "mcmn_mon_getflag",
+      "address": "0x45c30",
+      "size": 16,
+      "demangled": "mcmn_mon_getflag"
+    },
+    {
+      "name": "mcmn_drv_log_init",
+      "address": "0x28d8c",
+      "size": 336,
+      "demangled": "mcmn_drv_log_init"
+    },
+    {
+      "name": "mcmn_buf_term",
+      "address": "0x17ce0",
+      "size": 164,
+      "demangled": "mcmn_buf_term"
+    },
+    {
+      "name": "mcmn_drv_onand_mount",
+      "address": "0x379e4",
+      "size": 20,
+      "demangled": "mcmn_drv_onand_mount"
+    },
+    {
+      "name": "mcmn_drv_debug_term",
+      "address": "0x211c4",
+      "size": 4,
+      "demangled": "mcmn_drv_debug_term"
+    },
+    {
+      "name": "mcmn_sem_printdebuginfo",
+      "address": "0x4a2d8",
+      "size": 52,
+      "demangled": "mcmn_sem_printdebuginfo"
+    },
+    {
+      "name": "mcmn_dmm_printinfo",
+      "address": "0x18bec",
+      "size": 316,
+      "demangled": "mcmn_dmm_printinfo"
+    },
+    {
+      "name": "mcmn_drv_mmc_term",
+      "address": "0x2dd18",
+      "size": 4,
+      "demangled": "mcmn_drv_mmc_term"
+    },
+    {
+      "name": "mcmn_drv_mod_resume",
+      "address": "0x2f250",
+      "size": 76,
+      "demangled": "mcmn_drv_mod_resume"
+    },
+    {
+      "name": "mcmn_mon_vprintf",
+      "address": "0x45bdc",
+      "size": 56,
+      "demangled": "mcmn_mon_vprintf"
+    },
+    {
+      "name": "mcmn_drv_rm_reject",
+      "address": "0x3bd10",
+      "size": 320,
+      "demangled": "mcmn_drv_rm_reject"
+    },
+    {
+      "name": "mcmn_drv_sata_open",
+      "address": "0x3e194",
+      "size": 768,
+      "demangled": "mcmn_drv_sata_open"
+    },
+    {
+      "name": "mcmn_drv_dbgerr_printinfo",
+      "address": "0x20e88",
+      "size": 300,
+      "demangled": "mcmn_drv_dbgerr_printinfo"
+    },
+    {
+      "name": "mcmn_dmm_free",
+      "address": "0x18744",
+      "size": 152,
+      "demangled": "mcmn_dmm_free"
+    },
+    {
+      "name": "mcmn_drv_log_recorddevicelog",
+      "address": "0x28f10",
+      "size": 248,
+      "demangled": "mcmn_drv_log_recorddevicelog"
+    },
+    {
+      "name": "mcmn_drv_dummy_reject",
+      "address": "0x27ca4",
+      "size": 4,
+      "demangled": "mcmn_drv_dummy_reject"
+    },
+    {
+      "name": "mcmn_drv_debug_print_handle_sub",
+      "address": "0x2242c",
+      "size": 364,
+      "demangled": "mcmn_drv_debug_print_handle_sub"
+    },
+    {
+      "name": "mcmn_drv_default_io",
+      "address": "0x238cc",
+      "size": 28,
+      "demangled": "mcmn_drv_default_io"
+    },
+    {
+      "name": "mcmn_drv_nvme_reject",
+      "address": "0x36d24",
+      "size": 4,
+      "demangled": "mcmn_drv_nvme_reject"
+    },
+    {
+      "name": "mcmn_kikilog_record_cfexpress",
+      "address": "0x3ffb0",
+      "size": 192,
+      "demangled": "mcmn_kikilog_record_cfexpress"
+    },
+    {
+      "name": "mcmn_rmcmnd_get_timestamp_info",
+      "address": "0x483f4",
+      "size": 128,
+      "demangled": "mcmn_rmcmnd_get_timestamp_info"
+    },
+    {
+      "name": "mcmn_rmcmnd_setledstate",
+      "address": "0x47fb8",
+      "size": 212,
+      "demangled": "mcmn_rmcmnd_setledstate"
+    },
+    {
+      "name": "mcmn_param_savemulti",
+      "address": "0x47830",
+      "size": 388,
+      "demangled": "mcmn_param_savemulti"
+    },
+    {
+      "name": "mcmn_drv_perf_setup",
+      "address": "0x38250",
+      "size": 340,
+      "demangled": "mcmn_drv_perf_setup"
+    },
+    {
+      "name": "mcmn_drv_awritev",
+      "address": "0x1e230",
+      "size": 708,
+      "demangled": "mcmn_drv_awritev"
+    },
+    {
+      "name": "mcmn_param_print",
+      "address": "0x47df8",
+      "size": 380,
+      "demangled": "mcmn_param_print"
+    },
+    {
+      "name": "mcmn_drv_buf_set",
+      "address": "0x1f67c",
+      "size": 332,
+      "demangled": "mcmn_drv_buf_set"
+    },
+    {
+      "name": "mcmn_drv_clrexclacsid",
+      "address": "0x1d77c",
+      "size": 240,
+      "demangled": "mcmn_drv_clrexclacsid"
+    },
+    {
+      "name": "mcmn_drv_tk1_suspend",
+      "address": "0x3fd4c",
+      "size": 4,
+      "demangled": "mcmn_drv_tk1_suspend"
+    },
+    {
+      "name": "mcmn_log_printaccesslog",
+      "address": "0x408ac",
+      "size": 12,
+      "demangled": "mcmn_log_printaccesslog"
+    },
+    {
+      "name": "mcmn_drv_mod_init",
+      "address": "0x2f058",
+      "size": 296,
+      "demangled": "mcmn_drv_mod_init"
+    },
+    {
+      "name": "mcmn_drv_resume",
+      "address": "0x1f430",
+      "size": 324,
+      "demangled": "mcmn_drv_resume"
+    },
+    {
+      "name": "mcmn_drv_default_aflush",
+      "address": "0x23290",
+      "size": 300,
+      "demangled": "mcmn_drv_default_aflush"
+    },
+    {
+      "name": "mcmn_drv_default_setpgtype",
+      "address": "0x254b8",
+      "size": 196,
+      "demangled": "mcmn_drv_default_setpgtype"
+    },
+    {
+      "name": "mcmn_drv_close_sub",
+      "address": "0x1a8c4",
+      "size": 608,
+      "demangled": "mcmn_drv_close_sub"
+    },
+    {
+      "name": "mcmn_drv_buf_clear",
+      "address": "0x1f7c8",
+      "size": 320,
+      "demangled": "mcmn_drv_buf_clear"
+    },
+    {
+      "name": "mcmn_drv_ms_open",
+      "address": "0x313fc",
+      "size": 2216,
+      "demangled": "mcmn_drv_ms_open"
+    },
+    {
+      "name": "mcmn_drv_dbgerr_setparambystring",
+      "address": "0x20df4",
+      "size": 148,
+      "demangled": "mcmn_drv_dbgerr_setparambystring"
+    },
+    {
+      "name": "mmcn_drv_rm_setupsubmoduleinfo",
+      "address": "0x38f5c",
+      "size": 64,
+      "demangled": "mmcn_drv_rm_setupsubmoduleinfo"
+    },
+    {
+      "name": "mcmn_drv_cb_printdebuginfo",
+      "address": "0x202b4",
+      "size": 604,
+      "demangled": "mcmn_drv_cb_printdebuginfo"
+    },
+    {
+      "name": "mcmn_log_record_binary",
+      "address": "0x4069c",
+      "size": 224,
+      "demangled": "mcmn_log_record_binary"
+    },
+    {
+      "name": "mcmn_drv_debug_etc_info_rootdevctrl",
+      "address": "0x21334",
+      "size": 72,
+      "demangled": "mcmn_drv_debug_etc_info_rootdevctrl"
+    },
+    {
+      "name": "mcmn_buf_init",
+      "address": "0x17ab0",
+      "size": 560,
+      "demangled": "mcmn_buf_init"
+    },
+    {
+      "name": "mcmn_msm_set_pause",
+      "address": "0x46990",
+      "size": 76,
+      "demangled": "mcmn_msm_set_pause"
+    },
+    {
+      "name": "mcmn_drv_debug_init",
+      "address": "0x211c0",
+      "size": 4,
+      "demangled": "mcmn_drv_debug_init"
+    },
+    {
+      "name": "mcmn_drv_mmc_resume",
+      "address": "0x2ddcc",
+      "size": 148,
+      "demangled": "mcmn_drv_mmc_resume"
+    },
+    {
+      "name": "_fini",
+      "address": "0x4a3d0",
+      "size": 0,
+      "demangled": "_fini"
+    },
+    {
+      "name": "mcmn_drv_mmc_init",
+      "address": "0x2dc28",
+      "size": 240,
+      "demangled": "mcmn_drv_mmc_init"
+    },
+    {
+      "name": "mcmn_msm_print_timestamp",
+      "address": "0x46eb4",
+      "size": 232,
+      "demangled": "mcmn_msm_print_timestamp"
+    },
+    {
+      "name": "mcmn_drv_checkmediaexist",
+      "address": "0x1bc24",
+      "size": 248,
+      "demangled": "mcmn_drv_checkmediaexist"
+    },
+    {
+      "name": "mcmn_msm_get_pause",
+      "address": "0x469dc",
+      "size": 80,
+      "demangled": "mcmn_msm_get_pause"
+    },
+    {
+      "name": "mcmn_drv_read",
+      "address": "0x1b0d0",
+      "size": 592,
+      "demangled": "mcmn_drv_read"
+    },
+    {
+      "name": "mcmn_mcmd_term",
+      "address": "0x44b24",
+      "size": 76,
+      "demangled": "mcmn_mcmd_term"
+    },
+    {
+      "name": "mcmn_drv_default_suspend_rootdev",
+      "address": "0x2376c",
+      "size": 8,
+      "demangled": "mcmn_drv_default_suspend_rootdev"
+    },
+    {
+      "name": "mcmn_drv_misc_errno2strings",
+      "address": "0x45468",
+      "size": 72,
+      "demangled": "mcmn_drv_misc_errno2strings"
+    },
+    {
+      "name": "mcmn_drv_setowner",
+      "address": "0x1a8b4",
+      "size": 16,
+      "demangled": "mcmn_drv_setowner"
+    },
+    {
+      "name": "mcmn_drv_debug_error_rootdevctrl",
+      "address": "0x2195c",
+      "size": 104,
+      "demangled": "mcmn_drv_debug_error_rootdevctrl"
+    },
+    {
+      "name": "mcmn_drv_writev",
+      "address": "0x1cca4",
+      "size": 648,
+      "demangled": "mcmn_drv_writev"
+    },
+    {
+      "name": "mcmn_drv_mod_printdebuginfo",
+      "address": "0x2f29c",
+      "size": 88,
+      "demangled": "mcmn_drv_mod_printdebuginfo"
+    },
+    {
+      "name": "mcmn_param_resetall",
+      "address": "0x47b2c",
+      "size": 152,
+      "demangled": "mcmn_param_resetall"
+    },
+    {
+      "name": "mcmn_drv_sata_suspend",
+      "address": "0x3dbb0",
+      "size": 4,
+      "demangled": "mcmn_drv_sata_suspend"
+    },
+    {
+      "name": "mcmn_drv_perf_setparam",
+      "address": "0x383f4",
+      "size": 228,
+      "demangled": "mcmn_drv_perf_setparam"
+    },
+    {
+      "name": "mcmn_mem_term",
+      "address": "0x44ba8",
+      "size": 200,
+      "demangled": "mcmn_mem_term"
+    },
+    {
+      "name": "mcmn_drv_nvme_pg_setpgtype_impl",
+      "address": "0x32318",
+      "size": 72,
+      "demangled": "mcmn_drv_nvme_pg_setpgtype_impl"
+    },
+    {
+      "name": "mcmn_drv_scsi_printdebuginfo",
+      "address": "0x3e918",
+      "size": 4,
+      "demangled": "mcmn_drv_scsi_printdebuginfo"
+    },
+    {
+      "name": "mcmn_rmcmnd_aldcontrol",
+      "address": "0x48474",
+      "size": 100,
+      "demangled": "mcmn_rmcmnd_aldcontrol"
+    },
+    {
+      "name": "mcmn_drv_scsi_reject",
+      "address": "0x3e90c",
+      "size": 4,
+      "demangled": "mcmn_drv_scsi_reject"
+    },
+    {
+      "name": "mcmn_drv_tk1_resume",
+      "address": "0x3fd50",
+      "size": 4,
+      "demangled": "mcmn_drv_tk1_resume"
+    },
+    {
+      "name": "mcmn_drv_nvme_suspend",
+      "address": "0x374fc",
+      "size": 4,
+      "demangled": "mcmn_drv_nvme_suspend"
+    },
+    {
+      "name": "mcmn_drv_default_release",
+      "address": "0x2377c",
+      "size": 72,
+      "demangled": "mcmn_drv_default_release"
+    },
+    {
+      "name": "mcmn_drv_tk1_term",
+      "address": "0x3fd58",
+      "size": 4,
+      "demangled": "mcmn_drv_tk1_term"
+    },
+    {
+      "name": "mcmn_drv_default_updatestatus",
+      "address": "0x237c8",
+      "size": 196,
+      "demangled": "mcmn_drv_default_updatestatus"
+    },
+    {
+      "name": "mcmn_list_get_node_value",
+      "address": "0x4011c",
+      "size": 8,
+      "demangled": "mcmn_list_get_node_value"
+    },
+    {
+      "name": "_init",
+      "address": "0x154e8",
+      "size": 0,
+      "demangled": "_init"
+    },
+    {
+      "name": "mcmn_drv_default_io_impl",
+      "address": "0x238e8",
+      "size": 28,
+      "demangled": "mcmn_drv_default_io_impl"
+    },
+    {
+      "name": "mcmn_rwlock_wrlock",
+      "address": "0x49248",
+      "size": 144,
+      "demangled": "mcmn_rwlock_wrlock"
+    },
+    {
+      "name": "mcmn_drv_nvme_vpgp5_updateinfo_supportpgtype",
+      "address": "0x33b8c",
+      "size": 332,
+      "demangled": "mcmn_drv_nvme_vpgp5_updateinfo_supportpgtype"
+    },
+    {
+      "name": "mcmn_drv_setkey",
+      "address": "0x1ca24",
+      "size": 284,
+      "demangled": "mcmn_drv_setkey"
+    },
+    {
+      "name": "mcmn_drv_setexclacsid",
+      "address": "0x1d68c",
+      "size": 240,
+      "demangled": "mcmn_drv_setexclacsid"
+    },
+    {
+      "name": "mcmn_drv_rm_open",
+      "address": "0x3ba78",
+      "size": 664,
+      "demangled": "mcmn_drv_rm_open"
+    },
+    {
+      "name": "mcmn_sem_simple_lock_",
+      "address": "0x4a140",
+      "size": 256,
+      "demangled": "mcmn_sem_simple_lock_"
+    },
+    {
+      "name": "mcmn_misc_exit",
+      "address": "0x456d8",
+      "size": 52,
+      "demangled": "mcmn_misc_exit"
+    },
+    {
+      "name": "mcmn_drv_default_getsizero",
+      "address": "0x25750",
+      "size": 420,
+      "demangled": "mcmn_drv_default_getsizero"
+    },
+    {
+      "name": "mcmn_msm_timestamp_to_csv",
+      "address": "0x46e04",
+      "size": 176,
+      "demangled": "mcmn_msm_timestamp_to_csv"
+    },
+    {
+      "name": "mcmn_drv_dummy_term",
+      "address": "0x288b4",
+      "size": 4,
+      "demangled": "mcmn_drv_dummy_term"
+    },
+    {
+      "name": "mcmn_buf_free",
+      "address": "0x17ff4",
+      "size": 220,
+      "demangled": "mcmn_buf_free"
+    },
+    {
+      "name": "mcmn_log_printdebuginfo",
+      "address": "0x407dc",
+      "size": 172,
+      "demangled": "mcmn_log_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_default_pg_ctl",
+      "address": "0x24168",
+      "size": 2240,
+      "demangled": "mcmn_drv_default_pg_ctl"
+    },
+    {
+      "name": "mcmn_drv_nvme_processtemperature",
+      "address": "0x32170",
+      "size": 372,
+      "demangled": "mcmn_drv_nvme_processtemperature"
+    },
+    {
+      "name": "mcmn_drv_default_setpowermode_dev",
+      "address": "0x2557c",
+      "size": 40,
+      "demangled": "mcmn_drv_default_setpowermode_dev"
+    },
+    {
+      "name": "mcmn_drv_exclacs_lock",
+      "address": "0x288b8",
+      "size": 236,
+      "demangled": "mcmn_drv_exclacs_lock"
+    },
+    {
+      "name": "mcmn_drv_nvme_getlifeinfofromsmartinfo",
+      "address": "0x32064",
+      "size": 48,
+      "demangled": "mcmn_drv_nvme_getlifeinfofromsmartinfo"
+    },
+    {
+      "name": "mcmn_buf_getforpadding",
+      "address": "0x17d84",
+      "size": 108,
+      "demangled": "mcmn_buf_getforpadding"
+    },
+    {
+      "name": "mcmn_misc_gettime_us",
+      "address": "0x450a0",
+      "size": 72,
+      "demangled": "mcmn_misc_gettime_us"
+    },
+    {
+      "name": "mcmn_drv_checkrejectsub",
+      "address": "0x1985c",
+      "size": 152,
+      "demangled": "mcmn_drv_checkrejectsub"
+    },
+    {
+      "name": "mcmn_rmcmnd_resume_timestamp_record",
+      "address": "0x48240",
+      "size": 104,
+      "demangled": "mcmn_rmcmnd_resume_timestamp_record"
+    },
+    {
+      "name": "mcmn_drv_onand_term",
+      "address": "0x37a0c",
+      "size": 4,
+      "demangled": "mcmn_drv_onand_term"
+    },
+    {
+      "name": "mcmn_drv_nvme_open",
+      "address": "0x37250",
+      "size": 684,
+      "demangled": "mcmn_drv_nvme_open"
+    },
+    {
+      "name": "mcmn_drv_write",
+      "address": "0x1b320",
+      "size": 596,
+      "demangled": "mcmn_drv_write"
+    },
+    {
+      "name": "mcmn_drv_dummy_suspend",
+      "address": "0x288a4",
+      "size": 4,
+      "demangled": "mcmn_drv_dummy_suspend"
+    },
+    {
+      "name": "mcmn_drv_cb_clrcbinfo",
+      "address": "0x20234",
+      "size": 128,
+      "demangled": "mcmn_drv_cb_clrcbinfo"
+    },
+    {
+      "name": "mcmn_drv_default_checkmediaexist",
+      "address": "0x2374c",
+      "size": 24,
+      "demangled": "mcmn_drv_default_checkmediaexist"
+    },
+    {
+      "name": "mcmn_mcmd_init",
+      "address": "0x44b08",
+      "size": 28,
+      "demangled": "mcmn_mcmd_init"
+    },
+    {
+      "name": "mcmn_param_setl",
+      "address": "0x4748c",
+      "size": 156,
+      "demangled": "mcmn_param_setl"
+    },
+    {
+      "name": "mcmn_addr_exit",
+      "address": "0x17720",
+      "size": 184,
+      "demangled": "mcmn_addr_exit"
+    },
+    {
+      "name": "mcmn_drv_getinfo",
+      "address": "0x1af8c",
+      "size": 324,
+      "demangled": "mcmn_drv_getinfo"
+    },
+    {
+      "name": "mcmn_list_get_next",
+      "address": "0x4010c",
+      "size": 8,
+      "demangled": "mcmn_list_get_next"
+    },
+    {
+      "name": "mcmn_drv_aldControl",
+      "address": "0x1f1f8",
+      "size": 152,
+      "demangled": "mcmn_drv_aldControl"
+    },
+    {
+      "name": "mcmn_drv_mmc_mount",
+      "address": "0x2e18c",
+      "size": 1260,
+      "demangled": "mcmn_drv_mmc_mount"
+    },
+    {
+      "name": "mcmn_log_setversion",
+      "address": "0x408b8",
+      "size": 80,
+      "demangled": "mcmn_log_setversion"
+    },
+    {
+      "name": "mcmn_drv_rm_suspend",
+      "address": "0x3c098",
+      "size": 796,
+      "demangled": "mcmn_drv_rm_suspend"
+    },
+    {
+      "name": "mcmn_monlib_printf",
+      "address": "0x4622c",
+      "size": 164,
+      "demangled": "mcmn_monlib_printf"
+    },
+    {
+      "name": "mcmn_drv_dbgerr_reset",
+      "address": "0x20fb4",
+      "size": 380,
+      "demangled": "mcmn_drv_dbgerr_reset"
+    },
+    {
+      "name": "mcmn_drv_sata_mount",
+      "address": "0x3ddb0",
+      "size": 996,
+      "demangled": "mcmn_drv_sata_mount"
+    },
+    {
+      "name": "mcmn_list_unlock",
+      "address": "0x40094",
+      "size": 8,
+      "demangled": "mcmn_list_unlock"
+    },
+    {
+      "name": "mcmn_mem_init",
+      "address": "0x44b70",
+      "size": 56,
+      "demangled": "mcmn_mem_init"
+    },
+    {
+      "name": "mcmn_drv_discard",
+      "address": "0x1dbc8",
+      "size": 396,
+      "demangled": "mcmn_drv_discard"
+    },
+    {
+      "name": "mcmn_addr_printdebuginfo",
+      "address": "0x175e0",
+      "size": 240,
+      "demangled": "mcmn_addr_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_default_readv",
+      "address": "0x22854",
+      "size": 560,
+      "demangled": "mcmn_drv_default_readv"
+    },
+    {
+      "name": "mcmn_drv_recordkikilog",
+      "address": "0x1f04c",
+      "size": 312,
+      "demangled": "mcmn_drv_recordkikilog"
+    },
+    {
+      "name": "mcmn_param_sync",
+      "address": "0x479d8",
+      "size": 92,
+      "demangled": "mcmn_param_sync"
+    },
+    {
+      "name": "mcmn_drv_tk1_init",
+      "address": "0x3fd54",
+      "size": 4,
+      "demangled": "mcmn_drv_tk1_init"
+    },
+    {
+      "name": "mcmn_log_printbuiltinlog",
+      "address": "0x408a0",
+      "size": 12,
+      "demangled": "mcmn_log_printbuiltinlog"
+    },
+    {
+      "name": "mcmn_drv_sata_mount4sd",
+      "address": "0x3dcd4",
+      "size": 220,
+      "demangled": "mcmn_drv_sata_mount4sd"
+    },
+    {
+      "name": "mcmn_monlib_timetag",
+      "address": "0x45e24",
+      "size": 336,
+      "demangled": "mcmn_monlib_timetag"
+    },
+    {
+      "name": "mcmn_drv_buf_term",
+      "address": "0x1f644",
+      "size": 56,
+      "demangled": "mcmn_drv_buf_term"
+    },
+    {
+      "name": "mcmn_drv_rm_resume",
+      "address": "0x3c3b4",
+      "size": 108,
+      "demangled": "mcmn_drv_rm_resume"
+    },
+    {
+      "name": "mcmn_drv_setmediapower",
+      "address": "0x1bff0",
+      "size": 412,
+      "demangled": "mcmn_drv_setmediapower"
+    },
+    {
+      "name": "mcmn_drv_dummy_mount",
+      "address": "0x27ca8",
+      "size": 556,
+      "demangled": "mcmn_drv_dummy_mount"
+    },
+    {
+      "name": "mcmn_drv_erase",
+      "address": "0x1b708",
+      "size": 488,
+      "demangled": "mcmn_drv_erase"
+    },
+    {
+      "name": "mcmn_param_getul",
+      "address": "0x4705c",
+      "size": 160,
+      "demangled": "mcmn_param_getul"
+    },
+    {
+      "name": "mcmn_rmcmnd_pause_timestamp_record",
+      "address": "0x481d8",
+      "size": 104,
+      "demangled": "mcmn_rmcmnd_pause_timestamp_record"
+    },
+    {
+      "name": "mcmn_drv_suspend",
+      "address": "0x1f290",
+      "size": 416,
+      "demangled": "mcmn_drv_suspend"
+    },
+    {
+      "name": "mcmn_msm_clear_timestamp_tbl",
+      "address": "0x46d60",
+      "size": 72,
+      "demangled": "mcmn_msm_clear_timestamp_tbl"
+    },
+    {
+      "name": "mcmn_misc_getrandom",
+      "address": "0x454b0",
+      "size": 144,
+      "demangled": "mcmn_misc_getrandom"
+    },
+    {
+      "name": "mcmn_drv_setpowermode",
+      "address": "0x1badc",
+      "size": 328,
+      "demangled": "mcmn_drv_setpowermode"
+    },
+    {
+      "name": "mcmn_drv_dummy_resume",
+      "address": "0x288a8",
+      "size": 4,
+      "demangled": "mcmn_drv_dummy_resume"
+    },
+    {
+      "name": "mcmn_drv_dummy_init",
+      "address": "0x288b0",
+      "size": 4,
+      "demangled": "mcmn_drv_dummy_init"
+    },
+    {
+      "name": "mcmn_dmm_hotplug",
+      "address": "0x187dc",
+      "size": 524,
+      "demangled": "mcmn_dmm_hotplug"
+    },
+    {
+      "name": "mcmn_rwlock_printdebuginfo",
+      "address": "0x495b8",
+      "size": 52,
+      "demangled": "mcmn_rwlock_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_open",
+      "address": "0x1a3ac",
+      "size": 1288,
+      "demangled": "mcmn_drv_open"
+    },
+    {
+      "name": "mcmn_drv_onand_printdebuginfo",
+      "address": "0x37a04",
+      "size": 4,
+      "demangled": "mcmn_drv_onand_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_mmc_printdebuginfo",
+      "address": "0x2de60",
+      "size": 4,
+      "demangled": "mcmn_drv_mmc_printdebuginfo"
+    },
+    {
+      "name": "mcmn_drv_getrootdevname",
+      "address": "0x196bc",
+      "size": 88,
+      "demangled": "mcmn_drv_getrootdevname"
+    },
+    {
+      "name": "mcmn_drv_nvme_resume",
+      "address": "0x37500",
+      "size": 4,
+      "demangled": "mcmn_drv_nvme_resume"
+    },
+    {
+      "name": "mcmn_drv_resume_ssb",
+      "address": "0x1f588",
+      "size": 20,
+      "demangled": "mcmn_drv_resume_ssb"
+    },
+    {
+      "name": "mcmn_msm_record_timestamp_grp",
+      "address": "0x46a98",
+      "size": 336,
+      "demangled": "mcmn_msm_record_timestamp_grp"
+    },
+    {
+      "name": "mcmn_drv_ms_suspend",
+      "address": "0x30c8c",
+      "size": 4,
+      "demangled": "mcmn_drv_ms_suspend"
+    },
+    {
+      "name": "mcmn_drv_getpartinfo",
+      "address": "0x1d520",
+      "size": 364,
+      "demangled": "mcmn_drv_getpartinfo"
+    },
+    {
+      "name": "mcmn_drv_deletekey",
+      "address": "0x1c908",
+      "size": 284,
+      "demangled": "mcmn_drv_deletekey"
+    },
+    {
+      "name": "mcmn_monlib_printdump",
+      "address": "0x462d0",
+      "size": 1152,
+      "demangled": "mcmn_monlib_printdump"
+    },
+    {
+      "name": "mcmn_drv_mod_getrootdevinfo",
+      "address": "0x2f2f4",
+      "size": 100,
+      "demangled": "mcmn_drv_mod_getrootdevinfo"
+    },
+    {
+      "name": "mcmn_drv_onand_init",
+      "address": "0x37a08",
+      "size": 4,
+      "demangled": "mcmn_drv_onand_init"
+    },
+    {
+      "name": "mcmn_mem_free",
+      "address": "0x44e5c",
+      "size": 192,
+      "demangled": "mcmn_mem_free"
+    },
+    {
+      "name": "mcmn_misc_getdatetime",
+      "address": "0x45210",
+      "size": 176,
+      "demangled": "mcmn_misc_getdatetime"
+    },
+    {
+      "name": "mcmn_drv_exclacs_set",
+      "address": "0x28a4c",
+      "size": 168,
+      "demangled": "mcmn_drv_exclacs_set"
+    },
+    {
+      "name": "mcmn_mmap_do_mmap",
+      "address": "0x457b8",
+      "size": 344,
+      "demangled": "mcmn_mmap_do_mmap"
+    },
+    {
+      "name": "mcmn_mon_printf",
+      "address": "0x45b58",
+      "size": 132,
+      "demangled": "mcmn_mon_printf"
+    },
+    {
+      "name": "mcmn_drv_onand_release",
+      "address": "0x37518",
+      "size": 60,
+      "demangled": "mcmn_drv_onand_release"
+    },
+    {
+      "name": "mcmn_addr_set",
+      "address": "0x17344",
+      "size": 268,
+      "demangled": "mcmn_addr_set"
+    },
+    {
+      "name": "mcmn_drv_sata_term",
+      "address": "0x3dba8",
+      "size": 4,
+      "demangled": "mcmn_drv_sata_term"
+    },
+    {
+      "name": "mcmn_drv_default_get_max_hw_sectors_kb",
+      "address": "0x255b4",
+      "size": 208,
+      "demangled": "mcmn_drv_default_get_max_hw_sectors_kb"
+    },
+    {
+      "name": "mcmn_kikilog_record_sd",
+      "address": "0x3feec",
+      "size": 196,
+      "demangled": "mcmn_kikilog_record_sd"
+    },
+    {
+      "name": "mcmn_drv_areturn",
+      "address": "0x1e6e0",
+      "size": 532,
+      "demangled": "mcmn_drv_areturn"
+    },
+    {
+      "name": "mcmn_monlib_getoutputmode",
+      "address": "0x45f98",
+      "size": 44,
+      "demangled": "mcmn_monlib_getoutputmode"
+    },
+    {
+      "name": "mcmn_misc_memcpy_safe",
+      "address": "0x45648",
+      "size": 120,
+      "demangled": "mcmn_misc_memcpy_safe"
+    },
+    {
+      "name": "mcmn_drv_default_format",
+      "address": "0x239a8",
+      "size": 24,
+      "demangled": "mcmn_drv_default_format"
+    },
+    {
+      "name": "mcmn_log_getdevicepathfromid",
+      "address": "0x40530",
+      "size": 136,
+      "demangled": "mcmn_log_getdevicepathfromid"
+    },
+    {
+      "name": "mcmn_drv_mmc_suspend",
+      "address": "0x2dd1c",
+      "size": 176,
+      "demangled": "mcmn_drv_mmc_suspend"
+    },
+    {
+      "name": "mcmn_drv_mod_getrootdevinfoindex",
+      "address": "0x2f358",
+      "size": 68,
+      "demangled": "mcmn_drv_mod_getrootdevinfoindex"
+    },
+    {
+      "name": "mcmn_monlib_release",
+      "address": "0x45de4",
+      "size": 64,
+      "demangled": "mcmn_monlib_release"
+    },
+    {
+      "name": "mcmn_msm_unlock_timestamp_tbl",
+      "address": "0x46da8",
+      "size": 92,
+      "demangled": "mcmn_msm_unlock_timestamp_tbl"
+    },
+    {
+      "name": "mcmn_misc_init",
+      "address": "0x456cc",
+      "size": 12,
+      "demangled": "mcmn_misc_init"
+    },
+    {
+      "name": "mcmn_log_record",
+      "address": "0x405b8",
+      "size": 112,
+      "demangled": "mcmn_log_record"
+    },
+    {
+      "name": "mcmn_drv_buf_init",
+      "address": "0x1f604",
+      "size": 64,
+      "demangled": "mcmn_drv_buf_init"
+    },
+    {
+      "name": "mcmn_drv_debug_etc_info",
+      "address": "0x21288",
+      "size": 172,
+      "demangled": "mcmn_drv_debug_etc_info"
+    },
+    {
+      "name": "mcmn_drv_perf_setenabled",
+      "address": "0x383e0",
+      "size": 20,
+      "demangled": "mcmn_drv_perf_setenabled"
+    },
+    {
+      "name": "mcmn_drv_setledfunc",
+      "address": "0x1c4fc",
+      "size": 552,
+      "demangled": "mcmn_drv_setledfunc"
+    },
+    {
+      "name": "mcmn_drv_default_readv_impl",
+      "address": "0x22dec",
+      "size": 152,
+      "demangled": "mcmn_drv_default_readv_impl"
+    },
+    {
+      "name": "mcmn_drv_writezeros",
+      "address": "0x1d9e4",
+      "size": 484,
+      "demangled": "mcmn_drv_writezeros"
+    },
+    {
+      "name": "mcmn_drv_aflush",
+      "address": "0x1e4f4",
+      "size": 492,
+      "demangled": "mcmn_drv_aflush"
+    },
+    {
+      "name": "mcmn_misc_readstring",
+      "address": "0x45540",
+      "size": 120,
+      "demangled": "mcmn_misc_readstring"
+    },
+    {
+      "name": "mcmn_msm_is_enable",
+      "address": "0x46948",
+      "size": 72,
+      "demangled": "mcmn_msm_is_enable"
+    },
+    {
+      "name": "mcmn_drv_scsi_resume",
+      "address": "0x3e914",
+      "size": 4,
+      "demangled": "mcmn_drv_scsi_resume"
+    },
+    {
+      "name": "mcmn_addr_init",
+      "address": "0x176d0",
+      "size": 80,
+      "demangled": "mcmn_addr_init"
+    },
+    {
+      "name": "mcmn_drv_default_setpowermode_rootdev",
+      "address": "0x236f4",
+      "size": 64,
+      "demangled": "mcmn_drv_default_setpowermode_rootdev"
+    },
+    {
+      "name": "mcmn_drv_debug_print_handle",
+      "address": "0x22598",
+      "size": 108,
+      "demangled": "mcmn_drv_debug_print_handle"
+    },
+    {
+      "name": "mcmn_drv_perf_exit",
+      "address": "0x386a0",
+      "size": 116,
+      "demangled": "mcmn_drv_perf_exit"
+    },
+    {
+      "name": "mcmn_misc_is_updater",
+      "address": "0x456c0",
+      "size": 12,
+      "demangled": "mcmn_misc_is_updater"
+    },
+    {
+      "name": "mcmn_drv_default_getpartinfo",
+      "address": "0x24b74",
+      "size": 460,
+      "demangled": "mcmn_drv_default_getpartinfo"
+    },
+    {
+      "name": "mcmn_drv_registcallback",
+      "address": "0x1d86c",
+      "size": 252,
+      "demangled": "mcmn_drv_registcallback"
+    },
+    {
+      "name": "mcmn_drv_log_printaccesslog",
+      "address": "0x291b8",
+      "size": 332,
+      "demangled": "mcmn_drv_log_printaccesslog"
+    },
+    {
+      "name": "mcmn_misc_uwait",
+      "address": "0x45018",
+      "size": 60,
+      "demangled": "mcmn_misc_uwait"
+    },
+    {
+      "name": "mcmn_drv_writevphysandflush",
+      "address": "0x1dfc4",
+      "size": 620,
+      "demangled": "mcmn_drv_writevphysandflush"
+    },
+    {
+      "name": "mcmn_drv_ms_term",
+      "address": "0x30c80",
+      "size": 12,
+      "demangled": "mcmn_drv_ms_term"
+    },
+    {
+      "name": "mcmn_drv_default_awritev",
+      "address": "0x240a4",
+      "size": 196,
+      "demangled": "mcmn_drv_default_awritev"
+    },
+    {
+      "name": "mcmn_rwlock_simple_rdlock_",
+      "address": "0x49348",
+      "size": 252,
+      "demangled": "mcmn_rwlock_simple_rdlock_"
+    },
+    {
+      "name": "mcmn_param_reset",
+      "address": "0x47a90",
+      "size": 156,
+      "demangled": "mcmn_param_reset"
+    },
+    {
+      "name": "mcmn_drv_dummy_areturn",
+      "address": "0x27094",
+      "size": 40,
+      "demangled": "mcmn_drv_dummy_areturn"
+    },
+    {
+      "name": "mcmn_drv_suspend_ssb",
+      "address": "0x1f574",
+      "size": 20,
+      "demangled": "mcmn_drv_suspend_ssb"
+    },
+    {
+      "name": "mcmn_drv_rm_getname",
+      "address": "0x38ff8",
+      "size": 60,
+      "demangled": "mcmn_drv_rm_getname"
+    },
+    {
+      "name": "mcmn_log_record64",
+      "address": "0x40628",
+      "size": 116,
+      "demangled": "mcmn_log_record64"
+    },
+    {
+      "name": "mcmn_log_getdeviceid",
+      "address": "0x40474",
+      "size": 188,
+      "demangled": "mcmn_log_getdeviceid"
+    },
+    {
+      "name": "mcmn_rwlock_rdlock",
+      "address": "0x491b8",
+      "size": 144,
+      "demangled": "mcmn_rwlock_rdlock"
+    },
+    {
+      "name": "mcmn_drv_default_writezeros",
+      "address": "0x24d40",
+      "size": 396,
+      "demangled": "mcmn_drv_default_writezeros"
+    },
+    {
+      "name": "mcmn_drv_default_areadv",
+      "address": "0x22d38",
+      "size": 180,
+      "demangled": "mcmn_drv_default_areadv"
+    },
+    {
+      "name": "mcmn_drv_printlog",
+      "address": "0x1f184",
+      "size": 116,
+      "demangled": "mcmn_drv_printlog"
+    },
+    {
+      "name": "mcmn_drv_cb_setcbinfo",
+      "address": "0x20148",
+      "size": 236,
+      "demangled": "mcmn_drv_cb_setcbinfo"
+    },
+    {
+      "name": "mcmn_drv_sata_init",
+      "address": "0x3daac",
+      "size": 252,
+      "demangled": "mcmn_drv_sata_init"
+    },
+    {
+      "name": "mcmn_drv_cb_unregist",
+      "address": "0x20054",
+      "size": 244,
+      "demangled": "mcmn_drv_cb_unregist"
+    },
+    {
+      "name": "mcmn_drv_mmc_mount4sd",
+      "address": "0x2e0d4",
+      "size": 184,
+      "demangled": "mcmn_drv_mmc_mount4sd"
+    },
+    {
+      "name": "mcmn_monlib_setdefaultoutputmode",
+      "address": "0x46750",
+      "size": 12,
+      "demangled": "mcmn_monlib_setdefaultoutputmode"
+    },
+    {
+      "name": "mcmn_drv_mod_getpartinfo",
+      "address": "0x2f3fc",
+      "size": 264,
+      "demangled": "mcmn_drv_mod_getpartinfo"
+    },
+    {
+      "name": "mcmn_drv_default_discard",
+      "address": "0x24ecc",
+      "size": 132,
+      "demangled": "mcmn_drv_default_discard"
+    },
+    {
+      "name": "mcmn_drv_debug_getsrc",
+      "address": "0x211c8",
+      "size": 20,
+      "demangled": "mcmn_drv_debug_getsrc"
+    },
+    {
+      "name": "mcmn_drv_flush",
+      "address": "0x1b574",
+      "size": 404,
+      "demangled": "mcmn_drv_flush"
+    },
+    {
+      "name": "mcmn_drv_buf_getphysaddr",
+      "address": "0x1f908",
+      "size": 620,
+      "demangled": "mcmn_drv_buf_getphysaddr"
+    },
+    {
+      "name": "mcmn_buf_alloc",
+      "address": "0x17e5c",
+      "size": 288,
+      "demangled": "mcmn_buf_alloc"
+    },
+    {
+      "name": "mcmn_drv_default_recordkikilog",
+      "address": "0x258f4",
+      "size": 8,
+      "demangled": "mcmn_drv_default_recordkikilog"
+    },
+    {
+      "name": "mcmn_misc_sndrcvmsg",
+      "address": "0x452c0",
+      "size": 352,
+      "demangled": "mcmn_misc_sndrcvmsg"
+    },
+    {
+      "name": "mcmn_drv_scsi_suspend",
+      "address": "0x3e910",
+      "size": 4,
+      "demangled": "mcmn_drv_scsi_suspend"
+    },
+    {
+      "name": "mcmn_drv_default_enablepartition",
+      "address": "0x236bc",
+      "size": 24,
+      "demangled": "mcmn_drv_default_enablepartition"
+    },
+    {
+      "name": "mcmn_drv_default_setmediapower",
+      "address": "0x23734",
+      "size": 24,
+      "demangled": "mcmn_drv_default_setmediapower"
+    },
+    {
+      "name": "mcmn_drv_writevphys",
+      "address": "0x1dd54",
+      "size": 624,
+      "demangled": "mcmn_drv_writevphys"
+    },
+    {
+      "name": "mcmn_drv_rm_term",
+      "address": "0x3cb20",
+      "size": 224,
+      "demangled": "mcmn_drv_rm_term"
+    },
+    {
+      "name": "mcmn_drv_pg_ctl",
+      "address": "0x1cb40",
+      "size": 356,
+      "demangled": "mcmn_drv_pg_ctl"
+    },
+    {
+      "name": "mcmn_drv_debug_funcout",
+      "address": "0x214b8",
+      "size": 240,
+      "demangled": "mcmn_drv_debug_funcout"
+    },
+    {
+      "name": "mcmn_dmm_alloc",
+      "address": "0x18354",
+      "size": 604,
+      "demangled": "mcmn_dmm_alloc"
+    },
+    {
+      "name": "mcmn_mem_printdbginfo",
+      "address": "0x44f1c",
+      "size": 252,
+      "demangled": "mcmn_mem_printdbginfo"
+    },
+    {
+      "name": "mcmn_mem_malloc",
+      "address": "0x44c70",
+      "size": 492,
+      "demangled": "mcmn_mem_malloc"
+    },
+    {
+      "name": "mcmn_drv_ms_init",
+      "address": "0x30bd0",
+      "size": 176,
+      "demangled": "mcmn_drv_ms_init"
+    },
+    {
+      "name": "mcmn_drv_dbgerr_exit",
+      "address": "0x2114c",
+      "size": 116,
+      "demangled": "mcmn_drv_dbgerr_exit"
+    },
+    {
+      "name": "mcmn_log_printdriverlog",
+      "address": "0x40888",
+      "size": 12,
+      "demangled": "mcmn_log_printdriverlog"
+    },
+    {
+      "name": "mcmn_drv_rm_getrmindex",
+      "address": "0x38f9c",
+      "size": 92,
+      "demangled": "mcmn_drv_rm_getrmindex"
+    },
+    {
+      "name": "mcmn_log_printversion",
+      "address": "0x40ac0",
+      "size": 128,
+      "demangled": "mcmn_log_printversion"
+    },
+    {
+      "name": "mcmn_mon_term",
+      "address": "0x45b30",
+      "size": 40,
+      "demangled": "mcmn_mon_term"
+    },
+    {
+      "name": "mcmn_drv_nvme_term",
+      "address": "0x3750c",
+      "size": 4,
+      "demangled": "mcmn_drv_nvme_term"
+    },
+    {
+      "name": "mcmn_drv_default_writevphys",
+      "address": "0x23ff0",
+      "size": 180,
+      "demangled": "mcmn_drv_default_writevphys"
+    },
+    {
+      "name": "mcmn_mmap_printinfo",
+      "address": "0x45a10",
+      "size": 256,
+      "demangled": "mcmn_mmap_printinfo"
+    },
+    {
+      "name": "mcmn_param_getl",
+      "address": "0x47180",
+      "size": 180,
+      "demangled": "mcmn_param_getl"
+    },
+    {
+      "name": "mcmn_drv_default_asyncinfo_setdata",
+      "address": "0x255a4",
+      "size": 8,
+      "demangled": "mcmn_drv_default_asyncinfo_setdata"
+    },
+    {
+      "name": "mcmn_monlib_setflag",
+      "address": "0x45f74",
+      "size": 36,
+      "demangled": "mcmn_monlib_setflag"
+    },
+    {
+      "name": "mcmn_sem_exit",
+      "address": "0x4a378",
+      "size": 44,
+      "demangled": "mcmn_sem_exit"
+    },
+    {
+      "name": "mcmn_drv_default_printdebuginfo_dev",
+      "address": "0x237c4",
+      "size": 4,
+      "demangled": "mcmn_drv_default_printdebuginfo_dev"
+    },
+    {
+      "name": "mcmn_drv_default_writev_impl",
+      "address": "0x22bf4",
+      "size": 156,
+      "demangled": "mcmn_drv_default_writev_impl"
+    },
+    {
+      "name": "mcmn_drv_rm_mount",
+      "address": "0x3be50",
+      "size": 584,
+      "demangled": "mcmn_drv_rm_mount"
+    },
+    {
+      "name": "mcmn_drv_default_cleanup_async",
+      "address": "0x25254",
+      "size": 116,
+      "demangled": "mcmn_drv_default_cleanup_async"
+    },
+    {
+      "name": "mcmn_drv_nvme_setpowerstate_needtoupdate",
+      "address": "0x320fc",
+      "size": 116,
+      "demangled": "mcmn_drv_nvme_setpowerstate_needtoupdate"
+    },
+    {
+      "name": "mcmn_drv_debug_print_rootdevctrl",
+      "address": "0x218f8",
+      "size": 100,
+      "demangled": "mcmn_drv_debug_print_rootdevctrl"
+    },
+    {
+      "name": "mcmn_drv_perf_cleanup",
+      "address": "0x383a4",
+      "size": 60,
+      "demangled": "mcmn_drv_perf_cleanup"
+    },
+    {
+      "name": "mcmn_drv_tk1_readv_impl",
+      "address": "0x3ef28",
+      "size": 64,
+      "demangled": "mcmn_drv_tk1_readv_impl"
+    },
+    {
+      "name": "mcmn_drv_debug_print_devctrl_sub",
+      "address": "0x219c4",
+      "size": 2452,
+      "demangled": "mcmn_drv_debug_print_devctrl_sub"
+    },
+    {
+      "name": "mcmn_param_getidfromdesc",
+      "address": "0x47a34",
+      "size": 92,
+      "demangled": "mcmn_param_getidfromdesc"
+    },
+    {
+      "name": "mcmn_drv_default_disablepartition",
+      "address": "0x236d4",
+      "size": 24,
+      "demangled": "mcmn_drv_default_disablepartition"
+    },
+    {
+      "name": "mcmn_param_exit",
+      "address": "0x46ff0",
+      "size": 40,
+      "demangled": "mcmn_param_exit"
+    },
+    {
+      "name": "mcmn_log_writebuiltinlog",
+      "address": "0x407d8",
+      "size": 4,
+      "demangled": "mcmn_log_writebuiltinlog"
+    },
+    {
+      "name": "mcmn_msm_record_timestamp",
+      "address": "0x46be8",
+      "size": 216,
+      "demangled": "mcmn_msm_record_timestamp"
+    },
+    {
+      "name": "mcmn_list_get_first",
+      "address": "0x40104",
+      "size": 8,
+      "demangled": "mcmn_list_get_first"
+    },
+    {
+      "name": "mcmn_drv_default_getinfo",
+      "address": "0x2388c",
+      "size": 64,
+      "demangled": "mcmn_drv_default_getinfo"
+    },
+    {
+      "name": "mcmn_drv_perf_init",
+      "address": "0x3868c",
+      "size": 20,
+      "demangled": "mcmn_drv_perf_init"
+    },
+    {
+      "name": "mcmn_drv_perf_setparambystring",
+      "address": "0x384d8",
+      "size": 140,
+      "demangled": "mcmn_drv_perf_setparambystring"
+    },
+    {
+      "name": "mcmn_drv_perf_printinfo",
+      "address": "0x38564",
+      "size": 296,
+      "demangled": "mcmn_drv_perf_printinfo"
+    },
+    {
+      "name": "mcmn_drv_default_printdebuginfo_rootdev",
+      "address": "0x236b8",
+      "size": 4,
+      "demangled": "mcmn_drv_default_printdebuginfo_rootdev"
+    },
+    {
+      "name": "mcmn_drv_cb_exit",
+      "address": "0x2051c",
+      "size": 220,
+      "demangled": "mcmn_drv_cb_exit"
+    },
+    {
+      "name": "mcmn_drv_nvme_setpowerstate_forced",
+      "address": "0x32094",
+      "size": 104,
+      "demangled": "mcmn_drv_nvme_setpowerstate_forced"
+    },
+    {
+      "name": "mcmn_drv_default_erase_impl",
+      "address": "0x23990",
+      "size": 24,
+      "demangled": "mcmn_drv_default_erase_impl"
+    },
+    {
+      "name": "mcmn_dmm_hotremove",
+      "address": "0x189e8",
+      "size": 516,
+      "demangled": "mcmn_dmm_hotremove"
+    },
+    {
+      "name": "mcmn_drv_rm_init",
+      "address": "0x3c808",
+      "size": 792,
+      "demangled": "mcmn_drv_rm_init"
+    },
+    {
+      "name": "mcmn_drv_dbgerr_setup",
+      "address": "0x20a4c",
+      "size": 600,
+      "demangled": "mcmn_drv_dbgerr_setup"
+    }
+  ],
+  "strings": []
+}

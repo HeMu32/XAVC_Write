@@ -1,0 +1,165 @@
+0028bc30 stp x29,x30,[sp, #-0x30]!
+0028bc34 mov x29,sp
+0028bc38 stp x19,x20,[sp, #0x10]
+0028bc3c mov x19,x0
+0028bc40 mov x0,x1
+0028bc44 stp x21,x22,[sp, #0x20]
+0028bc48 mov x22,x1
+0028bc4c bl 0x0017c0c0
+0028bc50 mov x20,x0
+0028bc54 mov x0,#0x80
+0028bc58 and x20,x20,#0xffffffff
+0028bc5c bl 0x0017b0d0
+0028bc60 str x0,[x19, #0x20]
+0028bc64 mov x2,x20
+0028bc68 mov x1,x22
+0028bc6c mov x21,x0
+0028bc70 bl 0x0017f240
+0028bc74 ldr w0,[x19, #0x10]
+0028bc78 strb wzr,[x21, x20]
+0028bc7c and x0,x0,#0xfffffffc
+0028bc80 bl 0x0017b0d0
+0028bc84 str x0,[x19, #0x28]
+0028bc88 mov x0,#0x28
+0028bc8c bl 0x0017f030
+0028bc90 mov x20,x0
+0028bc94 ldr x1,[x19, #0x8]
+0028bc98 mov w2,#0xb000
+0028bc9c bl 0x002911c4
+0028bca0 str x20,[x19, #0x30]
+0028bca4 mov x0,#0x20
+0028bca8 bl 0x0017f030
+0028bcac mov x20,x0
+0028bcb0 ldr x1,[x19, #0x8]
+0028bcb4 mov w2,#0xb000
+0028bcb8 bl 0x00291d00
+0028bcbc str x20,[x19, #0x38]
+0028bcc0 mov x0,#0xfc68
+0028bcc4 bl 0x0017f030
+0028bcc8 mov x20,x0
+0028bccc ldr x1,[x19, #0x30]
+0028bcd0 bl 0x00293ac4
+0028bcd4 str x20,[x19, #0x40]
+0028bcd8 mov x0,#0x1
+0028bcdc bl 0x0017f030
+0028bce0 mov x20,x0
+0028bce4 bl 0x0029460c
+0028bce8 str x20,[x19, #0x48]
+0028bcec mov x0,#0x18
+0028bcf0 bl 0x0017f030
+0028bcf4 mov x20,x0
+0028bcf8 mov w1,#0xb000
+0028bcfc bl 0x002920f8
+0028bd00 str x20,[x19, #0x50]
+0028bd04 mov x0,#0x18
+0028bd08 bl 0x0017f030
+0028bd0c mov x20,x0
+0028bd10 mov w1,#0xb000
+0028bd14 bl 0x002920f8
+0028bd18 str x20,[x19, #0x58]
+0028bd1c mov x0,#0x48
+0028bd20 bl 0x0017f030
+0028bd24 mov x20,x0
+0028bd28 ldr w2,[x19, #0x10]
+0028bd2c ldr x1,[x19, #0x28]
+0028bd30 bl 0x00291580
+0028bd34 str x20,[x19, #0x60]
+0028bd38 mov x0,#0xecf4
+0028bd3c bl 0x0017f030
+0028bd40 str x0,[x19, #0x68]
+0028bd44 ldr x0,[x19, #0x28]
+0028bd48 cbnz x0,0x0028bd84
+0028bd4c mov x0,x19
+0028bd50 mov w1,#0x2
+0028bd54 bl 0x0028bc28
+0028bd58 mov w3,#0x1
+0028bd5c mov w2,#0x6d
+0028bd60 adrp x1,0x3d8000
+0028bd64 mov w0,w3
+0028bd68 add x1,x1,#0x1bd
+0028bd6c bl 0x00290aa4
+0028bd70 mov w0,#0x1
+0028bd74 ldp x19,x20,[sp, #0x10]
+0028bd78 ldp x21,x22,[sp, #0x20]
+0028bd7c ldp x29,x30,[sp], #0x30
+0028bd80 ret
+0028bd84 ldr x0,[x19, #0x30]
+0028bd88 cbnz x0,0x0028bda4
+0028bd8c mov x0,x19
+0028bd90 mov w1,#0x2
+0028bd94 bl 0x0028bc28
+0028bd98 mov w3,#0x1
+0028bd9c mov w2,#0x73
+0028bda0 b 0x0028bd60
+0028bda4 ldr x0,[x19, #0x38]
+0028bda8 cbnz x0,0x0028bdc4
+0028bdac mov x0,x19
+0028bdb0 mov w1,#0x2
+0028bdb4 bl 0x0028bc28
+0028bdb8 mov w3,#0x1
+0028bdbc mov w2,#0x79
+0028bdc0 b 0x0028bd60
+0028bdc4 ldr x0,[x19, #0x40]
+0028bdc8 cbnz x0,0x0028bde4
+0028bdcc mov x0,x19
+0028bdd0 mov w1,#0x2
+0028bdd4 bl 0x0028bc28
+0028bdd8 mov w3,#0x1
+0028bddc mov w2,#0x7f
+0028bde0 b 0x0028bd60
+0028bde4 ldr x0,[x19, #0x48]
+0028bde8 cbnz x0,0x0028be04
+0028bdec mov x0,x19
+0028bdf0 mov w1,#0x2
+0028bdf4 bl 0x0028bc28
+0028bdf8 mov w3,#0x1
+0028bdfc mov w2,#0x85
+0028be00 b 0x0028bd60
+0028be04 ldr x0,[x19, #0x50]
+0028be08 cbnz x0,0x0028be24
+0028be0c mov x0,x19
+0028be10 mov w1,#0x2
+0028be14 bl 0x0028bc28
+0028be18 mov w3,#0x1
+0028be1c mov w2,#0x8b
+0028be20 b 0x0028bd60
+0028be24 ldr x0,[x19, #0x58]
+0028be28 cbnz x0,0x0028be44
+0028be2c mov x0,x19
+0028be30 mov w1,#0x2
+0028be34 bl 0x0028bc28
+0028be38 mov w3,#0x1
+0028be3c mov w2,#0x91
+0028be40 b 0x0028bd60
+0028be44 ldr x0,[x19, #0x60]
+0028be48 cbnz x0,0x0028be64
+0028be4c mov x0,x19
+0028be50 mov w1,#0x2
+0028be54 bl 0x0028bc28
+0028be58 mov w3,#0x1
+0028be5c mov w2,#0x97
+0028be60 b 0x0028bd60
+0028be64 bl 0x00291400
+0028be68 tst w0,#0xff
+0028be6c b.ne 0x0028be88
+0028be70 mov x0,x19
+0028be74 mov w1,#0x2
+0028be78 bl 0x0028bc28
+0028be7c mov w3,#0x1
+0028be80 mov w2,#0x9d
+0028be84 b 0x0028bd60
+0028be88 ldr x0,[x19, #0x68]
+0028be8c cbnz x0,0x0028bea8
+0028be90 mov x0,x19
+0028be94 mov w1,#0x2
+0028be98 bl 0x0028bc28
+0028be9c mov w3,#0x1
+0028bea0 mov w2,#0xa3
+0028bea4 b 0x0028bd60
+0028bea8 ldr x0,[x19]
+0028beac ldp x21,x22,[sp, #0x20]
+0028beb0 ldr x1,[x0, #0xa8]
+0028beb4 mov x0,x19
+0028beb8 ldp x19,x20,[sp, #0x10]
+0028bebc ldp x29,x30,[sp], #0x30
+0028bec0 br x1

@@ -1,0 +1,26 @@
+03594c44: fd7bbaa9 stp x29, x30, [sp, #-0x60]!
+03594c48: fd030091 mov x29, sp
+03594c4c: f35301a9 stp x19, x20, [sp, #0x10]
+03594c50: b3430191 add x19, x29, #0x50
+03594c54: b4230191 add x20, x29, #0x48
+03594c58: f55b02a9 stp x21, x22, [sp, #0x20]
+03594c5c: e00314aa mov x0, x20
+03594c60: f503012a mov w21, w1
+03594c64: e10313aa mov x1, x19
+03594c68: f60304aa mov x22, x4
+03594c6c: b50f0929 stp w21, w3, [x29, #0x48]
+03594c70: f71b00f9 str x23, [sp, #0x30]
+03594c74: f70305aa mov x23, x5
+03594c78: b5520094 bl #0x35a974c
+03594c7c: b62f00f9 str x22, [x29, #0x58]
+03594c80: a05340b9 ldr w0, [x29, #0x50]
+03594c84: e10314aa mov x1, x20
+03594c88: b55300b9 str w21, [x29, #0x50]
+03594c8c: e00200b9 str w0, [x23]
+03594c90: e00313aa mov x0, x19
+03594c94: de520094 bl #0x35a980c
+03594c98: f71b40f9 ldr x23, [sp, #0x30]
+03594c9c: f35341a9 ldp x19, x20, [sp, #0x10]
+03594ca0: f55b42a9 ldp x21, x22, [sp, #0x20]
+03594ca4: fd7bc6a8 ldp x29, x30, [sp], #0x60
+03594ca8: c0035fd6 ret 

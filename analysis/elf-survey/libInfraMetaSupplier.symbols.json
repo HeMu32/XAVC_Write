@@ -1,0 +1,599 @@
+{
+  "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\firmware\\m4-v602\\usr\\lib\\libInfraMetaSupplier.so",
+  "sha256": "ce8ae80920c405f58367b1b685bc8ff2ae8738767ed10ba3388e15bcb26b8503",
+  "header": {
+    "e_ident": {
+      "EI_MAG": [
+        127,
+        69,
+        76,
+        70
+      ],
+      "EI_CLASS": "ELFCLASS64",
+      "EI_DATA": "ELFDATA2LSB",
+      "EI_VERSION": "EV_CURRENT",
+      "EI_OSABI": "ELFOSABI_SYSV",
+      "EI_ABIVERSION": 0
+    },
+    "e_type": "ET_DYN",
+    "e_machine": "EM_AARCH64",
+    "e_version": "EV_CURRENT",
+    "e_entry": 7456,
+    "e_phoff": 64,
+    "e_shoff": 21384,
+    "e_flags": 0,
+    "e_ehsize": 64,
+    "e_phentsize": 56,
+    "e_phnum": 6,
+    "e_shentsize": 64,
+    "e_shnum": 26,
+    "e_shstrndx": 25
+  },
+  "segments": [
+    {
+      "p_type": "PT_LOAD",
+      "p_flags": 5,
+      "p_offset": 0,
+      "p_vaddr": 0,
+      "p_paddr": 0,
+      "p_filesz": 17317,
+      "p_memsz": 17317,
+      "p_align": 65536
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_flags": 6,
+      "p_offset": 19768,
+      "p_vaddr": 85304,
+      "p_paddr": 85304,
+      "p_filesz": 1320,
+      "p_memsz": 1376,
+      "p_align": 65536
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_flags": 6,
+      "p_offset": 19792,
+      "p_vaddr": 85328,
+      "p_paddr": 85328,
+      "p_filesz": 576,
+      "p_memsz": 576,
+      "p_align": 8
+    },
+    {
+      "p_type": "PT_GNU_EH_FRAME",
+      "p_flags": 4,
+      "p_offset": 15380,
+      "p_vaddr": 15380,
+      "p_paddr": 15380,
+      "p_filesz": 324,
+      "p_memsz": 324,
+      "p_align": 4
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_flags": 6,
+      "p_offset": 0,
+      "p_vaddr": 0,
+      "p_paddr": 0,
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_align": 16
+    },
+    {
+      "p_type": "PT_GNU_RELRO",
+      "p_flags": 4,
+      "p_offset": 19768,
+      "p_vaddr": 85304,
+      "p_paddr": 85304,
+      "p_filesz": 712,
+      "p_memsz": 712,
+      "p_align": 1
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "sh_name": 0,
+      "sh_type": "SHT_NULL",
+      "sh_flags": 0,
+      "sh_addr": 0,
+      "sh_offset": 0,
+      "sh_size": 0,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 0,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gnu.hash",
+      "sh_name": 11,
+      "sh_type": "SHT_GNU_HASH",
+      "sh_flags": 2,
+      "sh_addr": 400,
+      "sh_offset": 400,
+      "sh_size": 344,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".dynsym",
+      "sh_name": 21,
+      "sh_type": "SHT_DYNSYM",
+      "sh_flags": 2,
+      "sh_addr": 744,
+      "sh_offset": 744,
+      "sh_size": 1728,
+      "sh_link": 3,
+      "sh_info": 3,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".dynstr",
+      "sh_name": 29,
+      "sh_type": "SHT_STRTAB",
+      "sh_flags": 2,
+      "sh_addr": 2472,
+      "sh_offset": 2472,
+      "sh_size": 1852,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gnu.version",
+      "sh_name": 37,
+      "sh_type": "SHT_GNU_versym",
+      "sh_flags": 2,
+      "sh_addr": 4324,
+      "sh_offset": 4324,
+      "sh_size": 144,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 2,
+      "sh_entsize": 2
+    },
+    {
+      "name": ".gnu.version_r",
+      "sh_name": 50,
+      "sh_type": "SHT_GNU_verneed",
+      "sh_flags": 2,
+      "sh_addr": 4472,
+      "sh_offset": 4472,
+      "sh_size": 128,
+      "sh_link": 3,
+      "sh_info": 3,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".rela.dyn",
+      "sh_name": 65,
+      "sh_type": "SHT_RELA",
+      "sh_flags": 2,
+      "sh_addr": 4600,
+      "sh_offset": 4600,
+      "sh_size": 912,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".rela.plt",
+      "sh_name": 75,
+      "sh_type": "SHT_RELA",
+      "sh_flags": 66,
+      "sh_addr": 5512,
+      "sh_offset": 5512,
+      "sh_size": 1128,
+      "sh_link": 2,
+      "sh_info": 21,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".init",
+      "sh_name": 85,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 6640,
+      "sh_offset": 6640,
+      "sh_size": 20,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".plt",
+      "sh_name": 80,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 6672,
+      "sh_offset": 6672,
+      "sh_size": 784,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 16,
+      "sh_entsize": 16
+    },
+    {
+      "name": ".text",
+      "sh_name": 91,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 7456,
+      "sh_offset": 7456,
+      "sh_size": 6484,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".fini",
+      "sh_name": 97,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 13940,
+      "sh_offset": 13940,
+      "sh_size": 16,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".rodata",
+      "sh_name": 103,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 13960,
+      "sh_offset": 13960,
+      "sh_size": 1418,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".eh_frame_hdr",
+      "sh_name": 111,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 15380,
+      "sh_offset": 15380,
+      "sh_size": 324,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".eh_frame",
+      "sh_name": 125,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 15704,
+      "sh_offset": 15704,
+      "sh_size": 1596,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gcc_except_table",
+      "sh_name": 135,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 17300,
+      "sh_offset": 17300,
+      "sh_size": 17,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".init_array",
+      "sh_name": 153,
+      "sh_type": "SHT_INIT_ARRAY",
+      "sh_flags": 3,
+      "sh_addr": 85304,
+      "sh_offset": 19768,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".fini_array",
+      "sh_name": 165,
+      "sh_type": "SHT_FINI_ARRAY",
+      "sh_flags": 3,
+      "sh_addr": 85312,
+      "sh_offset": 19776,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".jcr",
+      "sh_name": 177,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 85320,
+      "sh_offset": 19784,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".dynamic",
+      "sh_name": 182,
+      "sh_type": "SHT_DYNAMIC",
+      "sh_flags": 3,
+      "sh_addr": 85328,
+      "sh_offset": 19792,
+      "sh_size": 576,
+      "sh_link": 3,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 16
+    },
+    {
+      "name": ".got",
+      "sh_name": 191,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 85904,
+      "sh_offset": 20368,
+      "sh_size": 88,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".got.plt",
+      "sh_name": 196,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 85992,
+      "sh_offset": 20456,
+      "sh_size": 400,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".data",
+      "sh_name": 205,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 86392,
+      "sh_offset": 20856,
+      "sh_size": 232,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".bss",
+      "sh_name": 211,
+      "sh_type": "SHT_NOBITS",
+      "sh_flags": 3,
+      "sh_addr": 86624,
+      "sh_offset": 21088,
+      "sh_size": 56,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".comment",
+      "sh_name": 216,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 48,
+      "sh_addr": 0,
+      "sh_offset": 21088,
+      "sh_size": 64,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 1
+    },
+    {
+      "name": ".shstrtab",
+      "sh_name": 1,
+      "sh_type": "SHT_STRTAB",
+      "sh_flags": 0,
+      "sh_addr": 0,
+      "sh_offset": 21152,
+      "sh_size": 225,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    }
+  ],
+  "symbols": [
+    {
+      "name": "_ZN22InfraMetaSupplier_Util9NewThreadEPvS0_PS0_",
+      "address": "0x2378",
+      "size": 100,
+      "demangled": "InfraMetaSupplier_Util::NewThread(void*, void*, void**)"
+    },
+    {
+      "name": "InfraMetaSupplier_Init",
+      "address": "0x1e30",
+      "size": 4,
+      "demangled": "InfraMetaSupplier_Init"
+    },
+    {
+      "name": "_fini",
+      "address": "0x3674",
+      "size": 0,
+      "demangled": "_fini"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_CoreD2Ev",
+      "address": "0x2168",
+      "size": 4,
+      "demangled": "InfraMetaSupplier_Core::~InfraMetaSupplier_Core()"
+    },
+    {
+      "name": "InfraMetaSupplier_Exit",
+      "address": "0x1e34",
+      "size": 4,
+      "demangled": "InfraMetaSupplier_Exit"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_Core10ProcEndCmdEjPh",
+      "address": "0x22a8",
+      "size": 60,
+      "demangled": "InfraMetaSupplier_Core::ProcEndCmd(unsigned int, unsigned char*)"
+    },
+    {
+      "name": "_Z13ims_sndrcvmsgjPjjjS_j",
+      "address": "0x2ab8",
+      "size": 296,
+      "demangled": "ims_sndrcvmsg(unsigned int, unsigned int*, unsigned int, unsigned int, unsigned int*, unsigned int)"
+    },
+    {
+      "name": "_ZN20InfraMetaSupplier_If15ProcAsyncCmdMsgEjPh",
+      "address": "0x2018",
+      "size": 176,
+      "demangled": "InfraMetaSupplier_If::ProcAsyncCmdMsg(unsigned int, unsigned char*)"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_Core12ProcStartCmdEjPh",
+      "address": "0x216c",
+      "size": 144,
+      "demangled": "InfraMetaSupplier_Core::ProcStartCmd(unsigned int, unsigned char*)"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_CoreC1Ev",
+      "address": "0x2164",
+      "size": 4,
+      "demangled": "InfraMetaSupplier_Core::InfraMetaSupplier_Core()"
+    },
+    {
+      "name": "_ZN20InfraMetaSupplier_If3FinEv",
+      "address": "0x1f24",
+      "size": 244,
+      "demangled": "InfraMetaSupplier_If::Fin()"
+    },
+    {
+      "name": "_ZN20InfraMetaSupplier_If6ThreadEPv",
+      "address": "0x20c8",
+      "size": 156,
+      "demangled": "InfraMetaSupplier_If::Thread(void*)"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_Core10ProcGetCmdEPN20DefInfraMetaSupplier18ST_METASUP_GET_CMDE",
+      "address": "0x2200",
+      "size": 96,
+      "demangled": "InfraMetaSupplier_Core::ProcGetCmd(DefInfraMetaSupplier::ST_METASUP_GET_CMD*)"
+    },
+    {
+      "name": "ims_mcmd_term",
+      "address": "0x2aac",
+      "size": 12,
+      "demangled": "ims_mcmd_term"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_Util9DelThreadEPv",
+      "address": "0x23dc",
+      "size": 56,
+      "demangled": "InfraMetaSupplier_Util::DelThread(void*)"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_Util19ConvTimeUsecTo90KHzEmPmS0_",
+      "address": "0x2414",
+      "size": 48,
+      "demangled": "InfraMetaSupplier_Util::ConvTimeUsecTo90KHz(unsigned long, unsigned long*, unsigned long*)"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_CoreD1Ev",
+      "address": "0x2168",
+      "size": 4,
+      "demangled": "InfraMetaSupplier_Core::~InfraMetaSupplier_Core()"
+    },
+    {
+      "name": "ims_mcmd_init",
+      "address": "0x2a90",
+      "size": 28,
+      "demangled": "ims_mcmd_init"
+    },
+    {
+      "name": "_Z7VPrintfiPKcz",
+      "address": "0x26cc",
+      "size": 196,
+      "demangled": "VPrintf(int, char const*, ...)"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_Core14PrvProcEndCompEj",
+      "address": "0x2260",
+      "size": 72,
+      "demangled": "InfraMetaSupplier_Core::PrvProcEndComp(unsigned int)"
+    },
+    {
+      "name": "_Z16METASUP_BLOG_CMNhhtm",
+      "address": "0x24ac",
+      "size": 344,
+      "demangled": "METASUP_BLOG_CMN(unsigned char, unsigned char, unsigned short, unsigned long)"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_CoreC2Ev",
+      "address": "0x2164",
+      "size": 4,
+      "demangled": "InfraMetaSupplier_Core::InfraMetaSupplier_Core()"
+    },
+    {
+      "name": "_Z10OsalSndMsgjPvi",
+      "address": "0x22e4",
+      "size": 148,
+      "demangled": "OsalSndMsg(unsigned int, void*, int)"
+    },
+    {
+      "name": "_ZN20InfraMetaSupplier_If4InitEv",
+      "address": "0x1e5c",
+      "size": 200,
+      "demangled": "InfraMetaSupplier_If::Init()"
+    },
+    {
+      "name": "_init",
+      "address": "0x19f0",
+      "size": 0,
+      "demangled": "_init"
+    },
+    {
+      "name": "_ZN22InfraMetaSupplier_Core22ProcNotifyStartTimeCmdEPh",
+      "address": "0x21fc",
+      "size": 4,
+      "demangled": "InfraMetaSupplier_Core::ProcNotifyStartTimeCmd(unsigned char*)"
+    },
+    {
+      "name": "_ZN20InfraMetaSupplier_If12SyncCallbackEPvS0_",
+      "address": "0x1e38",
+      "size": 36,
+      "demangled": "InfraMetaSupplier_If::SyncCallback(void*, void*)"
+    }
+  ],
+  "strings": []
+}

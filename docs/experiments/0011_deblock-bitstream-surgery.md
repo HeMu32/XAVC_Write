@@ -2,6 +2,12 @@
 
 Date: 2026-06-25
 
+Later evidence note (2026-11-12): See experiment 0015. The M4 6.02 AVC parser
+stores the PPS deblocking flag without forcing it to 1, initializes slice state,
+and conditionally parses the optional slice fields. The successful historical
+repair below is retained, but its claim of a universally necessary flag is
+not established by the experiment or this later firmware evidence.
+
 ## 问题
 
 EDIUS 导出的 HD@59.94p XAVC-S 片段（C0004、C0005）在 Sony ILCE-7M4 上报"无法显示"。同一 EDIUS 导出的 4K@29.97p 片段（C0001、C0003）可正常播放。相机直出的 HD@59.94p 片段（C6359）也可正常播放。

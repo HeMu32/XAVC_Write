@@ -1,0 +1,105 @@
+{
+  "scope": "workspace only; camera card not accessed",
+  "applied": true,
+  "total_bytes": 1375540849,
+  "actions": [
+    {
+      "path": "output/generic-smoke-03/delayed_mono_nonzero_start",
+      "bytes": 68319579,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-03/report.json",
+      "evidence_sha256": "11f4731bb2afd0959d79de29c13c3383f634b0fb78633995098bca37ed6a47e0"
+    },
+    {
+      "path": "output/generic-smoke-03/interlaced_sd",
+      "bytes": 14429637,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-03/report.json",
+      "evidence_sha256": "11f4731bb2afd0959d79de29c13c3383f634b0fb78633995098bca37ed6a47e0"
+    },
+    {
+      "path": "output/generic-smoke-03/portrait_silent",
+      "bytes": 362211644,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-03/report.json",
+      "evidence_sha256": "11f4731bb2afd0959d79de29c13c3383f634b0fb78633995098bca37ed6a47e0"
+    },
+    {
+      "path": "output/generic-smoke-03/rgb_silent",
+      "bytes": 8899297,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-03/report.json",
+      "evidence_sha256": "11f4731bb2afd0959d79de29c13c3383f634b0fb78633995098bca37ed6a47e0"
+    },
+    {
+      "path": "output/generic-smoke-03/short_mono",
+      "bytes": 31039211,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-03/report.json",
+      "evidence_sha256": "11f4731bb2afd0959d79de29c13c3383f634b0fb78633995098bca37ed6a47e0"
+    },
+    {
+      "path": "output/generic-smoke-03/vfr",
+      "bytes": 19538429,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-03/report.json",
+      "evidence_sha256": "11f4731bb2afd0959d79de29c13c3383f634b0fb78633995098bca37ed6a47e0"
+    },
+    {
+      "path": "output/generic-smoke-05/delayed_mono_nonzero_start",
+      "bytes": 66679141,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-05/report.json",
+      "evidence_sha256": "4ed00a7f116eb551719965e01351f7db97f43c5c8612b10bf9e9f4302029cdae"
+    },
+    {
+      "path": "output/generic-smoke-05/interlaced_sd",
+      "bytes": 14407574,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-05/report.json",
+      "evidence_sha256": "4ed00a7f116eb551719965e01351f7db97f43c5c8612b10bf9e9f4302029cdae"
+    },
+    {
+      "path": "output/generic-smoke-05/portrait_silent",
+      "bytes": 362511738,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-05/report.json",
+      "evidence_sha256": "4ed00a7f116eb551719965e01351f7db97f43c5c8612b10bf9e9f4302029cdae"
+    },
+    {
+      "path": "output/generic-smoke-05/rgb_silent",
+      "bytes": 8928660,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-05/report.json",
+      "evidence_sha256": "4ed00a7f116eb551719965e01351f7db97f43c5c8612b10bf9e9f4302029cdae"
+    },
+    {
+      "path": "output/generic-smoke-05/short_mono",
+      "bytes": 29949131,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-05/report.json",
+      "evidence_sha256": "4ed00a7f116eb551719965e01351f7db97f43c5c8612b10bf9e9f4302029cdae"
+    },
+    {
+      "path": "output/generic-smoke-05/vfr",
+      "bytes": 20953241,
+      "reason": "obsolete generic smoke intermediate; final report retained",
+      "evidence": "output/generic-smoke-05/report.json",
+      "evidence_sha256": "4ed00a7f116eb551719965e01351f7db97f43c5c8612b10bf9e9f4302029cdae"
+    },
+    {
+      "path": "output/profiles-0026-hd50/package/C6517.MP4",
+      "bytes": 168260154,
+      "reason": "byte-identical to retained deployed package media",
+      "evidence": "output/profiles-0026-deploy/C6517/C6517.MP4",
+      "evidence_sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c"
+    },
+    {
+      "path": "output/profiles-0026-uhd60/package/C6518.MP4",
+      "bytes": 199413413,
+      "reason": "byte-identical to retained deployed package media",
+      "evidence": "output/profiles-0026-deploy/C6518/C6518.MP4",
+      "evidence_sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+// FUN_00341af0
+// ELF VMA = Ghidra address - 0x100000
+00341af0 fd7bbea9 stp x29,x30,[sp, #-0x20]!
+00341af4 fd030091 mov x29,sp
+00341af8 f30b00f9 str x19,[sp, #0x10]
+00341afc f30300aa mov x19,x0
+00341b00 e00301aa mov x0,x1
+00341b04 61220091 add x1,x19,#0x8
+00341b08 9aecf897 bl 0x0017cd70
+00341b0c c0000034 cbz w0,0x00341b24
+00341b10 60008052 mov w0,#0x3
+00341b14 7f0600f9 str xzr,[x19, #0x8]
+00341b18 f30b40f9 ldr x19,[sp, #0x10]
+00341b1c fd7bc2a8 ldp x29,x30,[sp], #0x20
+00341b20 c0035fd6 ret
+00341b24 00008052 mov w0,#0x0
+00341b28 fcffff17 b 0x00341b18

@@ -1,0 +1,366 @@
+{
+  "media": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-minimal-C6510\\C6510.MP4",
+  "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "card_access": false,
+  "scope": "Original MP4 read-side parser, modeled libc/Fsys; not camera playback",
+  "root_cause_established": false,
+  "media_sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d",
+  "emulation_error": "Reader probe wall-time budget exhausted during {'label': 'presentation_query', 'entry_elf_vma': '0x228170'}",
+  "error_kind": "TimeoutError",
+  "steps": [
+    {
+      "label": "file_object_constructor",
+      "entry_elf_vma": "0x22a730",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "reader_constructor",
+      "entry_elf_vma": "0x222994",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "file_buffer_setup",
+      "entry_elf_vma": "0x22a774",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "readonly_file_open",
+      "entry_elf_vma": "0x22af44",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_mp4_open",
+      "entry_elf_vma": "0x22a380",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_movie_property_query",
+      "entry_elf_vma": "0x228fa8",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "selected_start_position_probe",
+      "entry_elf_vma": "0x227714",
+      "return_u32": 0,
+      "void_return_ignored": false
+    }
+  ],
+  "calls": [
+    {
+      "entry_elf_vma": "0x22a730",
+      "return_u32": 1342966704,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x222994",
+      "return_u32": 1,
+      "modeled_externals": [
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22a774",
+      "return_u32": 0,
+      "modeled_externals": [
+        "calloc"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22af44",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Open",
+        "Fsys_Read",
+        "Fsys_Seek"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22a380",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "_ZdlPv",
+        "_Znwm",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memmove",
+        "memset",
+        "read_side_diagnostic_message_sink"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x228fa8",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x227714",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Seek",
+        "malloc",
+        "memcpy",
+        "memset",
+        "read_side_diagnostic_message_sink"
+      ]
+    }
+  ],
+  "io": [
+    {
+      "operation": "Fsys_Open",
+      "path": "A:/PRIVATE/M4ROOT/CLIP/TEST.MP4",
+      "readonly": true
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18804
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18788
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18372
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18564
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18672
+    }
+  ],
+  "diagnostic_packets": [
+    "012300030200000001000000fe050000",
+    "0123050302000000e90300000a000000",
+    "01230f0304000000",
+    "01231003020000000100000000000000",
+    "012313030300000000000000",
+    "01231f030300000001000000"
+  ],
+  "original_stdcpp_sha256": "28f2d082aea5206c42ba15664f39e2eaf7febed8f6264305e7e16aa44c878389",
+  "selected_original_runtime_helpers": [
+    {
+      "symbol": "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_",
+      "entry": "0x610a6350"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base",
+      "entry": "0x610a6288"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base",
+      "entry": "0x610a6280"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base",
+      "entry": "0x610a6278"
+    },
+    {
+      "symbol": "_ZSt20_Rb_tree_black_countPKSt18_Rb_tree_node_baseS1_",
+      "entry": "0x610a6b20"
+    },
+    {
+      "symbol": "_ZSt20_Rb_tree_rotate_leftPSt18_Rb_tree_node_baseRS0_",
+      "entry": "0x610a6290"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base",
+      "entry": "0x610a6210"
+    },
+    {
+      "symbol": "_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_",
+      "entry": "0x610a65e8"
+    },
+    {
+      "symbol": "_ZSt21_Rb_tree_rotate_rightPSt18_Rb_tree_node_baseRS0_",
+      "entry": "0x610a62f0"
+    }
+  ],
+  "heap_bytes_used": 982912,
+  "last_instructions": [
+    "0x1e0ca8",
+    "0x1e0cac",
+    "0x1e0c60",
+    "0x1e0c64",
+    "0x1e0c68",
+    "0x1e0c6c",
+    "0x1e0c70",
+    "0x1e0c74",
+    "0x1e0c78",
+    "0x1e0c7c",
+    "0x1cefd8",
+    "0x1cefdc",
+    "0x1cefe0",
+    "0x1cefe4",
+    "0x1cefe8",
+    "0x1cf1f0",
+    "0x1cf1f4",
+    "0x1cf1f8",
+    "0x1cf098",
+    "0x1cf09c"
+  ],
+  "last_boundaries": [
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    }
+  ],
+  "instruction_count": 1409024,
+  "active_step": {
+    "label": "presentation_query",
+    "entry_elf_vma": "0x228170"
+  },
+  "original_executable_sections_unchanged_after_all_probes": true
+}

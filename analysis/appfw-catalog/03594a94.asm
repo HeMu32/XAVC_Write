@@ -1,0 +1,9 @@
+03594a94: 7f1c0072 tst w3, #0xff
+03594a98: 00008052 mov w0, #0
+03594a9c: c1000054 b.ne #0x3594ab4
+03594aa0: 3f000071 cmp w1, #0
+03594aa4: e0179f1a cset w0, eq
+03594aa8: 5f040071 cmp w2, #1
+03594aac: e1179f1a cset w1, eq
+03594ab0: 0000010a and w0, w0, w1
+03594ab4: c0035fd6 ret 

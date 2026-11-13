@@ -1,0 +1,57 @@
+{
+  "reported_date_local": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "source": "Direct user report after experiment 0022 camera visit",
+  "supersedes_for_current_observations": "analysis/camera_observations_20261112.json",
+  "historical_file_preserved_for_transaction_hash_bindings": true,
+  "camera_body_used_for_playback": "ILCE-7M4",
+  "playback_body_confirmed_date_local": "2026-11-13",
+  "playback_body_source": "Direct user clarification: 7M4",
+  "investigation_priority": "Do not prioritize between-body compatibility differences at this stage",
+  "installed_camera_firmware": null,
+  "current_listing_positive_examples_not_exhaustive": [
+    "C6349", "C6350", "C6351", "C6352", "C6353",
+    "C5861", "C5862", "C0005", "C0007",
+    "C6507", "C6508", "C6509", "C6510"
+  ],
+  "current_listing_negative_confirmed": [
+    "C6500", "C6501", "C6502", "C6503", "C6504", "C6505", "C6506"
+  ],
+  "negative_list_scope": "Last reported results; C6500-C6506 not retested in latest report",
+  "earlier_listing_negative_reports_not_retested_here": ["C0008", "C0009"],
+  "listing_unknown_examples": ["C6499", "C6359", "C0006"],
+  "current_playback_rejections": ["C6507", "C6508", "C6509", "C6510"],
+  "current_normal_thumbnails": ["C6507", "C6508", "C6509", "C6510"],
+  "camera_exact_error_text": "\u65e0\u6cd5\u663e\u793a",
+  "error_translation": "Cannot display",
+  "camera_playback_for_current_unlisted_clips": "NOT_REACHED",
+  "listing_history": [
+    {
+      "clips": ["C6507", "C6508"],
+      "earlier_user_report": "NOT_LISTED",
+      "latest_user_report": "LISTED",
+      "explanation": "Unknown: earlier observation may have missed them, or visibility changed later",
+      "causation_by_experiment_0022": "NOT_ESTABLISHED"
+    },
+    {
+      "clips": ["C6509", "C6510"],
+      "first_camera_check": "LISTED_WITH_NORMAL_THUMBNAIL_PLAYBACK_REJECTED"
+    }
+  ],
+  "timeline_limits": [
+    "Do not treat earlier C6507/C6508 visibility reports as a proven state transition.",
+    "No complete inventory of visible clips was supplied.",
+    "Playback body is now user-confirmed as 7M4, independently of recording-device sidecars.",
+    "Native C6503 has not been confirmed playable on the test body.",
+    "Visible thumbnails do not prove MP4 parsing or decoder admission."
+  ],
+  "desktop_observation": {
+    "C0008_Catalyst_playback": "User reported successful desktop playback",
+    "camera_acceptance_equivalence": false
+  },
+  "root_cause": "NOT_ESTABLISHED",
+  "post_camera_snapshot": "backup/snap_20261112T233331",
+  "comparison_with_pre_camera_snapshot": "analysis/snapshot-232817-233331-camera-return.json",
+  "metadata_content_changes_observed_on_return": false,
+  "media_size_or_mtime_changes_observed_on_return": false
+}

@@ -1,0 +1,1080 @@
+{
+  "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\firmware\\m4-v602\\usr\\lib\\libInfraMediaMount.so",
+  "sha256": "03deaf505beb79c0c97c2193f98bcf4d281237017e9dcee65942da927305d1e1",
+  "header": {
+    "e_ident": {
+      "EI_MAG": [
+        127,
+        69,
+        76,
+        70
+      ],
+      "EI_CLASS": "ELFCLASS64",
+      "EI_DATA": "ELFDATA2LSB",
+      "EI_VERSION": "EV_CURRENT",
+      "EI_OSABI": "ELFOSABI_SYSV",
+      "EI_ABIVERSION": 0
+    },
+    "e_type": "ET_DYN",
+    "e_machine": "EM_AARCH64",
+    "e_version": "EV_CURRENT",
+    "e_entry": 27280,
+    "e_phoff": 64,
+    "e_shoff": 63664,
+    "e_flags": 0,
+    "e_ehsize": 64,
+    "e_phentsize": 56,
+    "e_phnum": 6,
+    "e_shentsize": 64,
+    "e_shnum": 27,
+    "e_shstrndx": 26
+  },
+  "segments": [
+    {
+      "p_type": "PT_LOAD",
+      "p_flags": 5,
+      "p_offset": 0,
+      "p_vaddr": 0,
+      "p_paddr": 0,
+      "p_filesz": 56612,
+      "p_memsz": 56612,
+      "p_align": 65536
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_flags": 6,
+      "p_offset": 58440,
+      "p_vaddr": 123976,
+      "p_paddr": 123976,
+      "p_filesz": 4920,
+      "p_memsz": 4984,
+      "p_align": 65536
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_flags": 6,
+      "p_offset": 60672,
+      "p_vaddr": 126208,
+      "p_paddr": 126208,
+      "p_filesz": 560,
+      "p_memsz": 560,
+      "p_align": 8
+    },
+    {
+      "p_type": "PT_GNU_EH_FRAME",
+      "p_flags": 4,
+      "p_offset": 51032,
+      "p_vaddr": 51032,
+      "p_paddr": 51032,
+      "p_filesz": 804,
+      "p_memsz": 804,
+      "p_align": 4
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_flags": 6,
+      "p_offset": 0,
+      "p_vaddr": 0,
+      "p_paddr": 0,
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_align": 16
+    },
+    {
+      "p_type": "PT_GNU_RELRO",
+      "p_flags": 4,
+      "p_offset": 58440,
+      "p_vaddr": 123976,
+      "p_paddr": 123976,
+      "p_filesz": 3000,
+      "p_memsz": 3000,
+      "p_align": 1
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "sh_name": 0,
+      "sh_type": "SHT_NULL",
+      "sh_flags": 0,
+      "sh_addr": 0,
+      "sh_offset": 0,
+      "sh_size": 0,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 0,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gnu.hash",
+      "sh_name": 11,
+      "sh_type": "SHT_GNU_HASH",
+      "sh_flags": 2,
+      "sh_addr": 400,
+      "sh_offset": 400,
+      "sh_size": 1200,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".dynsym",
+      "sh_name": 21,
+      "sh_type": "SHT_DYNSYM",
+      "sh_flags": 2,
+      "sh_addr": 1600,
+      "sh_offset": 1600,
+      "sh_size": 5784,
+      "sh_link": 3,
+      "sh_info": 3,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".dynstr",
+      "sh_name": 29,
+      "sh_type": "SHT_STRTAB",
+      "sh_flags": 2,
+      "sh_addr": 7384,
+      "sh_offset": 7384,
+      "sh_size": 8115,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gnu.version",
+      "sh_name": 37,
+      "sh_type": "SHT_GNU_versym",
+      "sh_flags": 2,
+      "sh_addr": 15500,
+      "sh_offset": 15500,
+      "sh_size": 482,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 2,
+      "sh_entsize": 2
+    },
+    {
+      "name": ".gnu.version_r",
+      "sh_name": 50,
+      "sh_type": "SHT_GNU_verneed",
+      "sh_flags": 2,
+      "sh_addr": 15984,
+      "sh_offset": 15984,
+      "sh_size": 160,
+      "sh_link": 3,
+      "sh_info": 4,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".rela.dyn",
+      "sh_name": 65,
+      "sh_type": "SHT_RELA",
+      "sh_flags": 2,
+      "sh_addr": 16144,
+      "sh_offset": 16144,
+      "sh_size": 5472,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".rela.plt",
+      "sh_name": 75,
+      "sh_type": "SHT_RELA",
+      "sh_flags": 66,
+      "sh_addr": 21616,
+      "sh_offset": 21616,
+      "sh_size": 3360,
+      "sh_link": 2,
+      "sh_info": 22,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".init",
+      "sh_name": 85,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 24976,
+      "sh_offset": 24976,
+      "sh_size": 20,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".plt",
+      "sh_name": 80,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 25008,
+      "sh_offset": 25008,
+      "sh_size": 2272,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 16,
+      "sh_entsize": 16
+    },
+    {
+      "name": ".text",
+      "sh_name": 91,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 27280,
+      "sh_offset": 27280,
+      "sh_size": 17112,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".fini",
+      "sh_name": 97,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 44392,
+      "sh_offset": 44392,
+      "sh_size": 16,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".rodata",
+      "sh_name": 103,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 44408,
+      "sh_offset": 44408,
+      "sh_size": 6622,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".eh_frame_hdr",
+      "sh_name": 111,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 51032,
+      "sh_offset": 51032,
+      "sh_size": 804,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".eh_frame",
+      "sh_name": 125,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 51840,
+      "sh_offset": 51840,
+      "sh_size": 4468,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gcc_except_table",
+      "sh_name": 135,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 56308,
+      "sh_offset": 56308,
+      "sh_size": 304,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".init_array",
+      "sh_name": 153,
+      "sh_type": "SHT_INIT_ARRAY",
+      "sh_flags": 3,
+      "sh_addr": 123976,
+      "sh_offset": 58440,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".fini_array",
+      "sh_name": 165,
+      "sh_type": "SHT_FINI_ARRAY",
+      "sh_flags": 3,
+      "sh_addr": 123984,
+      "sh_offset": 58448,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".jcr",
+      "sh_name": 177,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 123992,
+      "sh_offset": 58456,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".data.rel.ro",
+      "sh_name": 182,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 124000,
+      "sh_offset": 58464,
+      "sh_size": 2208,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".dynamic",
+      "sh_name": 195,
+      "sh_type": "SHT_DYNAMIC",
+      "sh_flags": 3,
+      "sh_addr": 126208,
+      "sh_offset": 60672,
+      "sh_size": 560,
+      "sh_link": 3,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 16
+    },
+    {
+      "name": ".got",
+      "sh_name": 204,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 126768,
+      "sh_offset": 61232,
+      "sh_size": 184,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".got.plt",
+      "sh_name": 209,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 126952,
+      "sh_offset": 61416,
+      "sh_size": 1144,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".data",
+      "sh_name": 218,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 128096,
+      "sh_offset": 62560,
+      "sh_size": 800,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".bss",
+      "sh_name": 224,
+      "sh_type": "SHT_NOBITS",
+      "sh_flags": 3,
+      "sh_addr": 128896,
+      "sh_offset": 63360,
+      "sh_size": 64,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".comment",
+      "sh_name": 229,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 48,
+      "sh_addr": 0,
+      "sh_offset": 63360,
+      "sh_size": 64,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 1
+    },
+    {
+      "name": ".shstrtab",
+      "sh_name": 1,
+      "sh_type": "SHT_STRTAB",
+      "sh_flags": 0,
+      "sh_addr": 0,
+      "sh_offset": 63424,
+      "sh_size": 238,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    }
+  ],
+  "symbols": [
+    {
+      "name": "_ZN21InfraMediaMountThread11MountCancelEjjPv",
+      "address": "0xa870",
+      "size": 268,
+      "demangled": "InfraMediaMountThread::MountCancel(unsigned int, unsigned int, void*)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThreadD0Ev",
+      "address": "0xa9e8",
+      "size": 40,
+      "demangled": "InfraMediaMountThread::~InfraMediaMountThread()"
+    },
+    {
+      "name": "_ZNK22InfraMediaMountMonCtrl8ConPut0xEj",
+      "address": "0x91b0",
+      "size": 56,
+      "demangled": "InfraMediaMountMonCtrl::ConPut0x(unsigned int) const"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd9IMM_MountEiPPc",
+      "address": "0x819c",
+      "size": 200,
+      "demangled": "InfraMediaMountMcmd::IMM_Mount(int, char**)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread11StartThreadEv",
+      "address": "0xaa10",
+      "size": 400,
+      "demangled": "InfraMediaMountThread::StartThread()"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread12ParseMessageEPN3MWF6ObjMsgE",
+      "address": "0xa274",
+      "size": 376,
+      "demangled": "InfraMediaMountThread::ParseMessage(MWF::ObjMsg*)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread26GetDeviceTypeFromMediaTypeEj",
+      "address": "0x9bac",
+      "size": 64,
+      "demangled": "InfraMediaMountThread::GetDeviceTypeFromMediaType(unsigned int)"
+    },
+    {
+      "name": "_ZN18InfraMediaMountCnv22ConvertInfraToInfraErrEiPKcS1_j",
+      "address": "0x74b8",
+      "size": 172,
+      "demangled": "InfraMediaMountCnv::ConvertInfraToInfraErr(int, char const*, char const*, unsigned int)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread10StopThreadEv",
+      "address": "0x9f50",
+      "size": 204,
+      "demangled": "InfraMediaMountThread::StopThread()"
+    },
+    {
+      "name": "_ZN22InfraMediaMountMonCtrl16ConPutErrMessageEPKcb",
+      "address": "0x9094",
+      "size": 116,
+      "demangled": "InfraMediaMountMonCtrl::ConPutErrMessage(char const*, bool)"
+    },
+    {
+      "name": "_init",
+      "address": "0x6190",
+      "size": 0,
+      "demangled": "_init"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread9GetStatusEPv",
+      "address": "0x9414",
+      "size": 88,
+      "demangled": "InfraMediaMountThread::GetStatus(void*)"
+    },
+    {
+      "name": "_ZN15InfraMediaMountC2Ev",
+      "address": "0x6f98",
+      "size": 212,
+      "demangled": "InfraMediaMount::InfraMediaMount()"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread15DispatchCommandEjjjPv",
+      "address": "0xa01c",
+      "size": 344,
+      "demangled": "InfraMediaMountThread::DispatchCommand(unsigned int, unsigned int, unsigned int, void*)"
+    },
+    {
+      "name": "_ZN15InfraMediaMountD1Ev",
+      "address": "0x70ec",
+      "size": 88,
+      "demangled": "InfraMediaMount::~InfraMediaMount()"
+    },
+    {
+      "name": "_ZN15InfraMediaMount10GetVersionEv",
+      "address": "0x6e84",
+      "size": 12,
+      "demangled": "InfraMediaMount::GetVersion()"
+    },
+    {
+      "name": "_ZN6MonLib9ConPutStrEPKc",
+      "address": "0x7208",
+      "size": 8,
+      "demangled": "MonLib::ConPutStr(char const*)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd12IMM_CheckkeyEiPPc",
+      "address": "0x861c",
+      "size": 284,
+      "demangled": "InfraMediaMountMcmd::IMM_Checkkey(int, char**)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd7IMM_VerEiPPc",
+      "address": "0x7a24",
+      "size": 56,
+      "demangled": "InfraMediaMountMcmd::IMM_Ver(int, char**)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread8CheckKeyEPv",
+      "address": "0x946c",
+      "size": 232,
+      "demangled": "InfraMediaMountThread::CheckKey(void*)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread9PrintInfoEv",
+      "address": "0xa4e8",
+      "size": 304,
+      "demangled": "InfraMediaMountThread::PrintInfo()"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd13IMM_DeletekeyEiPPc",
+      "address": "0x8cf0",
+      "size": 284,
+      "demangled": "InfraMediaMountMcmd::IMM_Deletekey(int, char**)"
+    },
+    {
+      "name": "_ZN22InfraMediaMountMonCtrlD0Ev",
+      "address": "0x8f3c",
+      "size": 40,
+      "demangled": "InfraMediaMountMonCtrl::~InfraMediaMountMonCtrl()"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThreadC2Ej",
+      "address": "0xaba0",
+      "size": 364,
+      "demangled": "InfraMediaMountThread::InfraMediaMountThread(unsigned int)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread14MMEventHandlerD2Ev",
+      "address": "0xad0c",
+      "size": 52,
+      "demangled": "InfraMediaMountThread::MMEventHandler::~MMEventHandler()"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd16IMM_SetExclAcsIdEiPPc",
+      "address": "0x894c",
+      "size": 224,
+      "demangled": "InfraMediaMountMcmd::IMM_SetExclAcsId(int, char**)"
+    },
+    {
+      "name": "_Z31InfraMediaMount_RegisterCommandv",
+      "address": "0x78e0",
+      "size": 8,
+      "demangled": "InfraMediaMount_RegisterCommand()"
+    },
+    {
+      "name": "_ZN15InfraMediaMount13CallbackPointEPviS0_j",
+      "address": "0x6ba0",
+      "size": 740,
+      "demangled": "InfraMediaMount::CallbackPoint(void*, int, void*, unsigned int)"
+    },
+    {
+      "name": "_ZNK22InfraMediaMountMonCtrl9ConPutMsgEPKcb",
+      "address": "0x9208",
+      "size": 84,
+      "demangled": "InfraMediaMountMonCtrl::ConPutMsg(char const*, bool) const"
+    },
+    {
+      "name": "InfraMediaMount_Exit",
+      "address": "0x78a4",
+      "size": 60,
+      "demangled": "InfraMediaMount_Exit"
+    },
+    {
+      "name": "_ZN18InfraMediaMountCnv10PrintErrorEPKciS1_S1_j",
+      "address": "0x73c0",
+      "size": 248,
+      "demangled": "InfraMediaMountCnv::PrintError(char const*, int, char const*, char const*, unsigned int)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd14IMM_MediapowerEiPPc",
+      "address": "0x80bc",
+      "size": 224,
+      "demangled": "InfraMediaMountMcmd::IMM_Mediapower(int, char**)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread7UnmountEPv",
+      "address": "0x9aa8",
+      "size": 260,
+      "demangled": "InfraMediaMountThread::Unmount(void*)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd3FinEv",
+      "address": "0x7e78",
+      "size": 252,
+      "demangled": "InfraMediaMountMcmd::Fin()"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd9GetMonErrEv",
+      "address": "0x8004",
+      "size": 16,
+      "demangled": "InfraMediaMountMcmd::GetMonErr()"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd15IMM_SetLedStateEiPPc",
+      "address": "0x8b0c",
+      "size": 484,
+      "demangled": "InfraMediaMountMcmd::IMM_SetLedState(int, char**)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd3IMMEiPPc",
+      "address": "0x7910",
+      "size": 20,
+      "demangled": "InfraMediaMountMcmd::IMM(int, char**)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread11GetRealNameEPv",
+      "address": "0x9724",
+      "size": 176,
+      "demangled": "InfraMediaMountThread::GetRealName(void*)"
+    },
+    {
+      "name": "_ZN22InfraMediaMountMonCtrlC1EPKcb",
+      "address": "0x8f64",
+      "size": 48,
+      "demangled": "InfraMediaMountMonCtrl::InfraMediaMountMonCtrl(char const*, bool)"
+    },
+    {
+      "name": "_ZN18InfraMediaMountLog14GetLogDeviceIDEPKc",
+      "address": "0x78f0",
+      "size": 4,
+      "demangled": "InfraMediaMountLog::GetLogDeviceID(char const*)"
+    },
+    {
+      "name": "_ZN22InfraMediaMountMonCtrl11ConPutTraceEPKcjb",
+      "address": "0x9000",
+      "size": 148,
+      "demangled": "InfraMediaMountMonCtrl::ConPutTrace(char const*, unsigned int, bool)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThreadD1Ev",
+      "address": "0xa97c",
+      "size": 108,
+      "demangled": "InfraMediaMountThread::~InfraMediaMountThread()"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd15RegisterCommandEv",
+      "address": "0x7f74",
+      "size": 68,
+      "demangled": "InfraMediaMountMcmd::RegisterCommand()"
+    },
+    {
+      "name": "_ZNK22InfraMediaMountMonCtrl15ConPutErrHeaderEv",
+      "address": "0x925c",
+      "size": 44,
+      "demangled": "InfraMediaMountMonCtrl::ConPutErrHeader() const"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd15IMM_GetRealNameEiPPc",
+      "address": "0x8738",
+      "size": 236,
+      "demangled": "InfraMediaMountMcmd::IMM_GetRealName(int, char**)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread9DeleteKeyEPv",
+      "address": "0x9554",
+      "size": 232,
+      "demangled": "InfraMediaMountThread::DeleteKey(void*)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd10IMM_StatusEiPPc",
+      "address": "0x8264",
+      "size": 440,
+      "demangled": "InfraMediaMountMcmd::IMM_Status(int, char**)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd20IMM_GetMediaLifeInfoEiPPc",
+      "address": "0x8824",
+      "size": 296,
+      "demangled": "InfraMediaMountMcmd::IMM_GetMediaLifeInfo(int, char**)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread12ClrExclAcsIdEPv",
+      "address": "0xa7a0",
+      "size": 208,
+      "demangled": "InfraMediaMountThread::ClrExclAcsId(void*)"
+    },
+    {
+      "name": "_ZN15InfraMediaMount12StartThreadsEv",
+      "address": "0x6e90",
+      "size": 264,
+      "demangled": "InfraMediaMount::StartThreads()"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread12SetExclAcsIdEPv",
+      "address": "0xa6d0",
+      "size": 208,
+      "demangled": "InfraMediaMountThread::SetExclAcsId(void*)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd16IMM_ClrExclAcsIdEiPPc",
+      "address": "0x8a2c",
+      "size": 224,
+      "demangled": "InfraMediaMountMcmd::IMM_ClrExclAcsId(int, char**)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread18GetMediaConfigInfoEPN19DefInfraMediaConfig15MediaConfigInfoE",
+      "address": "0xa618",
+      "size": 184,
+      "demangled": "InfraMediaMountThread::GetMediaConfigInfo(DefInfraMediaConfig::MediaConfigInfo*)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread10EntryPointEPv",
+      "address": "0xa4b8",
+      "size": 48,
+      "demangled": "InfraMediaMountThread::EntryPoint(void*)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd15CreateDebugInfoEv",
+      "address": "0x8014",
+      "size": 168,
+      "demangled": "InfraMediaMountMcmd::CreateDebugInfo()"
+    },
+    {
+      "name": "InfraMediaMount_Init",
+      "address": "0x785c",
+      "size": 72,
+      "demangled": "InfraMediaMount_Init"
+    },
+    {
+      "name": "_ZN18InfraMediaMountCnv10PrintErrorEiPKciS1_S1_S1_j",
+      "address": "0x7210",
+      "size": 228,
+      "demangled": "InfraMediaMountCnv::PrintError(int, char const*, int, char const*, char const*, char const*, unsigned int)"
+    },
+    {
+      "name": "_ZN15InfraMediaMount17PrintCallbackDataEPN18DefInfraMediaMount6HeaderEPvj",
+      "address": "0x716c",
+      "size": 44,
+      "demangled": "InfraMediaMount::PrintCallbackData(DefInfraMediaMount::Header*, void*, unsigned int)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd11IMM_UnmountEiPPc",
+      "address": "0x841c",
+      "size": 200,
+      "demangled": "InfraMediaMountMcmd::IMM_Unmount(int, char**)"
+    },
+    {
+      "name": "_ZN18InfraMediaMountLog6RecordEttjjj",
+      "address": "0x78f4",
+      "size": 28,
+      "demangled": "InfraMediaMountLog::Record(unsigned short, unsigned short, unsigned int, unsigned int, unsigned int)"
+    },
+    {
+      "name": "_ZN15InfraMediaMountD2Ev",
+      "address": "0x70ec",
+      "size": 88,
+      "demangled": "InfraMediaMount::~InfraMediaMount()"
+    },
+    {
+      "name": "_ZNK22InfraMediaMountMonCtrl9ConPutErrEPKcj",
+      "address": "0x92dc",
+      "size": 92,
+      "demangled": "InfraMediaMountMonCtrl::ConPutErr(char const*, unsigned int) const"
+    },
+    {
+      "name": "_ZN15InfraMediaMount9PrintInfoEv",
+      "address": "0x7198",
+      "size": 104,
+      "demangled": "InfraMediaMount::PrintInfo()"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread14MMEventHandler8SetEventEv",
+      "address": "0x9338",
+      "size": 8,
+      "demangled": "InfraMediaMountThread::MMEventHandler::SetEvent()"
+    },
+    {
+      "name": "_ZN22InfraMediaMountMonCtrl11ConPutTraceEjjb",
+      "address": "0x8f98",
+      "size": 4,
+      "demangled": "InfraMediaMountMonCtrl::ConPutTrace(unsigned int, unsigned int, bool)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread6SetKeyEPv",
+      "address": "0x963c",
+      "size": 232,
+      "demangled": "InfraMediaMountThread::SetKey(void*)"
+    },
+    {
+      "name": "_ZNK22InfraMediaMountMonCtrl10ConPutBoolEb",
+      "address": "0x91e8",
+      "size": 32,
+      "demangled": "InfraMediaMountMonCtrl::ConPutBool(bool) const"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread12SetMountInfoEPK13mcmn_drv_info",
+      "address": "0x9bec",
+      "size": 140,
+      "demangled": "InfraMediaMountThread::SetMountInfo(mcmn_drv_info const*)"
+    },
+    {
+      "name": "_ZN22InfraMediaMountMonCtrlD1Ev",
+      "address": "0x8f28",
+      "size": 20,
+      "demangled": "InfraMediaMountMonCtrl::~InfraMediaMountMonCtrl()"
+    },
+    {
+      "name": "_ZN18InfraMediaMountCnv20ConvertInfraToMwfErrEiPKcS1_j",
+      "address": "0x76d4",
+      "size": 196,
+      "demangled": "InfraMediaMountCnv::ConvertInfraToMwfErr(int, char const*, char const*, unsigned int)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd4InitEP15InfraMediaMount",
+      "address": "0x7d78",
+      "size": 256,
+      "demangled": "InfraMediaMountMcmd::Init(InfraMediaMount*)"
+    },
+    {
+      "name": "_ZN22InfraMediaMountMonCtrl11ConPutTraceEjb",
+      "address": "0x8f94",
+      "size": 4,
+      "demangled": "InfraMediaMountMonCtrl::ConPutTrace(unsigned int, bool)"
+    },
+    {
+      "name": "_ZN18InfraMediaMountCnv23ConvertMCmnToToInfraErrEiPKcS1_j",
+      "address": "0x7798",
+      "size": 196,
+      "demangled": "InfraMediaMountCnv::ConvertMCmnToToInfraErr(int, char const*, char const*, unsigned int)"
+    },
+    {
+      "name": "_Z33InfraMediaMount_UnregisterCommandv",
+      "address": "0x78e8",
+      "size": 8,
+      "demangled": "InfraMediaMount_UnregisterCommand()"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread14MMEventHandlerD0Ev",
+      "address": "0xad40",
+      "size": 40,
+      "demangled": "InfraMediaMountThread::MMEventHandler::~MMEventHandler()"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd13CallbackPointEPviS0_j",
+      "address": "0x7a5c",
+      "size": 320,
+      "demangled": "InfraMediaMountMcmd::CallbackPoint(void*, int, void*, unsigned int)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThreadD2Ev",
+      "address": "0xa97c",
+      "size": 108,
+      "demangled": "InfraMediaMountThread::~InfraMediaMountThread()"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread11SetLedStateEPv",
+      "address": "0x98f4",
+      "size": 400,
+      "demangled": "InfraMediaMountThread::SetLedState(void*)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread8CallbackEjPN18DefInfraMediaMount6HeaderEPvj",
+      "address": "0xa174",
+      "size": 256,
+      "demangled": "InfraMediaMountThread::Callback(unsigned int, DefInfraMediaMount::Header*, void*, unsigned int)"
+    },
+    {
+      "name": "_ZN18InfraMediaMountCnv10PrintErrorEiPKcS1_S1_j",
+      "address": "0x72f4",
+      "size": 204,
+      "demangled": "InfraMediaMountCnv::PrintError(int, char const*, char const*, char const*, unsigned int)"
+    },
+    {
+      "name": "_ZNK22InfraMediaMountMonCtrl9ConPutNumEjj",
+      "address": "0x9108",
+      "size": 168,
+      "demangled": "InfraMediaMountMonCtrl::ConPutNum(unsigned int, unsigned int) const"
+    },
+    {
+      "name": "_ZN18InfraMediaMountCnv18ConvertMwfToMwfErrEN3MWF5ErrCdEPKcS3_j",
+      "address": "0x7564",
+      "size": 172,
+      "demangled": "InfraMediaMountCnv::ConvertMwfToMwfErr(MWF::ErrCd, char const*, char const*, unsigned int)"
+    },
+    {
+      "name": "_fini",
+      "address": "0xad68",
+      "size": 0,
+      "demangled": "_fini"
+    },
+    {
+      "name": "_ZN6MonLib10MsgNewLineEv",
+      "address": "0x7200",
+      "size": 8,
+      "demangled": "MonLib::MsgNewLine()"
+    },
+    {
+      "name": "_ZNK22InfraMediaMountMonCtrl12ConPutErrMsgEPKcb",
+      "address": "0x9288",
+      "size": 84,
+      "demangled": "InfraMediaMountMonCtrl::ConPutErrMsg(char const*, bool) const"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd9GetMonDbgEv",
+      "address": "0x7ff4",
+      "size": 16,
+      "demangled": "InfraMediaMountMcmd::GetMonDbg()"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread13SetMediaPowerEPv",
+      "address": "0x9340",
+      "size": 212,
+      "demangled": "InfraMediaMountThread::SetMediaPower(void*)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread16GetMediaLifeInfoEPv",
+      "address": "0x97d4",
+      "size": 288,
+      "demangled": "InfraMediaMountThread::GetMediaLifeInfo(void*)"
+    },
+    {
+      "name": "_ZN22InfraMediaMountMonCtrlC2EPKcb",
+      "address": "0x8f64",
+      "size": 48,
+      "demangled": "InfraMediaMountMonCtrl::InfraMediaMountMonCtrl(char const*, bool)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd17UnregisterCommandEv",
+      "address": "0x7fb8",
+      "size": 44,
+      "demangled": "InfraMediaMountMcmd::UnregisterCommand()"
+    },
+    {
+      "name": "_ZN15InfraMediaMountC1Ev",
+      "address": "0x6f98",
+      "size": 212,
+      "demangled": "InfraMediaMount::InfraMediaMount()"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd8IMM_InfoEiPPc",
+      "address": "0x79f4",
+      "size": 48,
+      "demangled": "InfraMediaMountMcmd::IMM_Info(int, char**)"
+    },
+    {
+      "name": "_ZN18InfraMediaMountCnv20ConvertMwfToInfraErrEN3MWF5ErrCdEPKcS3_j",
+      "address": "0x7610",
+      "size": 196,
+      "demangled": "InfraMediaMountCnv::ConvertMwfToInfraErr(MWF::ErrCd, char const*, char const*, unsigned int)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd9GetMonMsgEv",
+      "address": "0x7fe4",
+      "size": 16,
+      "demangled": "InfraMediaMountMcmd::GetMonMsg()"
+    },
+    {
+      "name": "_ZN15InfraMediaMountD0Ev",
+      "address": "0x7144",
+      "size": 40,
+      "demangled": "InfraMediaMount::~InfraMediaMount()"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread4MainEv",
+      "address": "0xa3ec",
+      "size": 204,
+      "demangled": "InfraMediaMountThread::Main()"
+    },
+    {
+      "name": "_ZN22InfraMediaMountMonCtrlD2Ev",
+      "address": "0x8f28",
+      "size": 20,
+      "demangled": "InfraMediaMountMonCtrl::~InfraMediaMountMonCtrl()"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread5MountEPv",
+      "address": "0x9c78",
+      "size": 728,
+      "demangled": "InfraMediaMountThread::Mount(void*)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd15IMM_MountCancelEiPPc",
+      "address": "0x84e4",
+      "size": 312,
+      "demangled": "InfraMediaMountMcmd::IMM_MountCancel(int, char**)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThreadC1Ej",
+      "address": "0xaba0",
+      "size": 364,
+      "demangled": "InfraMediaMountThread::InfraMediaMountThread(unsigned int)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread14MMEventHandlerD1Ev",
+      "address": "0xad0c",
+      "size": 52,
+      "demangled": "InfraMediaMountThread::MMEventHandler::~MMEventHandler()"
+    },
+    {
+      "name": "_ZN15InfraMediaMount11StopThreadsEv",
+      "address": "0x706c",
+      "size": 128,
+      "demangled": "InfraMediaMount::StopThreads()"
+    },
+    {
+      "name": "_ZN22InfraMediaMountMonCtrl11ConPutTraceEPKcb",
+      "address": "0x8f9c",
+      "size": 100,
+      "demangled": "InfraMediaMountMonCtrl::ConPutTrace(char const*, bool)"
+    },
+    {
+      "name": "_ZN19InfraMediaMountMcmd10IMM_SetkeyEiPPc",
+      "address": "0x8e0c",
+      "size": 284,
+      "demangled": "InfraMediaMountMcmd::IMM_Setkey(int, char**)"
+    },
+    {
+      "name": "_ZN21InfraMediaMountThread14ResetMountInfoEv",
+      "address": "0x9a84",
+      "size": 36,
+      "demangled": "InfraMediaMountThread::ResetMountInfo()"
+    }
+  ],
+  "strings": []
+}

@@ -1,0 +1,5 @@
+00282d68 add x0,x0,#0xaf, LSL #12
+00282d6c ldr w0,[x0, #0xc60]
+00282d70 str w0,[x1]
+00282d74 mov w0,#0x0
+00282d78 ret

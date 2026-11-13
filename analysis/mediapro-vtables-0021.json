@@ -1,0 +1,1634 @@
+{
+  "firmware": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\firmware\\m4-v602\\usr\\lib\\libmpr.so",
+  "sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "card_access": false,
+  "load_bias": 0,
+  "tables": [
+    {
+      "name_is_analyst_label": "M4MediaProfile",
+      "got_elf_vma": "0x3022a0",
+      "got_resolution": "R_AARCH64_RELATIVE",
+      "vtable_address_point": "0x2fd900",
+      "entries": [
+        {
+          "virtual_offset": "0x0",
+          "elf_target": "0x18e964",
+          "ghidra_target": "0x28e964",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x8",
+          "elf_target": "0x18e9a0",
+          "ghidra_target": "0x28e9a0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x10",
+          "elf_target": "0x184aa8",
+          "ghidra_target": "0x284aa8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x18",
+          "elf_target": "0x186954",
+          "ghidra_target": "0x286954",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x20",
+          "elf_target": "0x182c38",
+          "ghidra_target": "0x282c38",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x28",
+          "elf_target": "0x182c54",
+          "ghidra_target": "0x282c54",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x30",
+          "elf_target": "0x1834f4",
+          "ghidra_target": "0x2834f4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x38",
+          "elf_target": "0x1834f4",
+          "ghidra_target": "0x2834f4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x40",
+          "elf_target": "0x184c84",
+          "ghidra_target": "0x284c84",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x48",
+          "elf_target": "0x182bc8",
+          "ghidra_target": "0x282bc8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x50",
+          "elf_target": "0x184cf8",
+          "ghidra_target": "0x284cf8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x58",
+          "elf_target": "0x18ed54",
+          "ghidra_target": "0x28ed54",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x60",
+          "elf_target": "0x18edec",
+          "ghidra_target": "0x28edec",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x68",
+          "elf_target": "0x18e55c",
+          "ghidra_target": "0x28e55c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x70",
+          "elf_target": "0x182d68",
+          "ghidra_target": "0x282d68",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x78",
+          "elf_target": "0x187010",
+          "ghidra_target": "0x287010",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x80",
+          "elf_target": "0x187158",
+          "ghidra_target": "0x287158",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x88",
+          "elf_target": "0x184da0",
+          "ghidra_target": "0x284da0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x90",
+          "elf_target": "0x1866f4",
+          "ghidra_target": "0x2866f4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x98",
+          "elf_target": "0x1838b4",
+          "ghidra_target": "0x2838b4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xa0",
+          "elf_target": "0x186714",
+          "ghidra_target": "0x286714",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xa8",
+          "elf_target": "0x183adc",
+          "ghidra_target": "0x283adc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xb0",
+          "elf_target": "0x1875c0",
+          "ghidra_target": "0x2875c0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xb8",
+          "elf_target": "0x182e00",
+          "ghidra_target": "0x282e00",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xc0",
+          "elf_target": "0x1834ec",
+          "ghidra_target": "0x2834ec",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xc8",
+          "elf_target": "0x1834ec",
+          "ghidra_target": "0x2834ec",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xd0",
+          "elf_target": "0x1834f4",
+          "ghidra_target": "0x2834f4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xd8",
+          "elf_target": "0x18ea1c",
+          "ghidra_target": "0x28ea1c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xe0",
+          "elf_target": "0x183508",
+          "ghidra_target": "0x283508",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xe8",
+          "elf_target": "0x18ee64",
+          "ghidra_target": "0x28ee64",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xf0",
+          "elf_target": "0x183508",
+          "ghidra_target": "0x283508",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xf8",
+          "elf_target": "0x1849cc",
+          "ghidra_target": "0x2849cc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x100",
+          "elf_target": "0x182ee8",
+          "ghidra_target": "0x282ee8",
+          "resolution": "symbol_relocation:_ZN17LibMediaProfileIf26xavcIfo_CommonMediaProfile26xavcIfo_CommonMediaProfile17CompareResolutionEN3mpr10ResolutionENS_15LibMediaProfile16T_MPF_RESOLUTIONE"
+        },
+        {
+          "virtual_offset": "0x108",
+          "elf_target": "0x18e6b4",
+          "ghidra_target": "0x28e6b4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x110",
+          "elf_target": "0x18ea90",
+          "ghidra_target": "0x28ea90",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x118",
+          "elf_target": "0x18e5e8",
+          "ghidra_target": "0x28e5e8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x120",
+          "elf_target": "0x18e5a8",
+          "ghidra_target": "0x28e5a8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x128",
+          "elf_target": "0x182fb0",
+          "ghidra_target": "0x282fb0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x130",
+          "elf_target": "0x182fc0",
+          "ghidra_target": "0x282fc0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x138",
+          "elf_target": "0x182fd0",
+          "ghidra_target": "0x282fd0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x140",
+          "elf_target": "0x182ff8",
+          "ghidra_target": "0x282ff8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x148",
+          "elf_target": "0x183008",
+          "ghidra_target": "0x283008",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x150",
+          "elf_target": "0x183018",
+          "ghidra_target": "0x283018",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x158",
+          "elf_target": "0x18e5b4",
+          "ghidra_target": "0x28e5b4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x160",
+          "elf_target": "0x183050",
+          "ghidra_target": "0x283050",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x168",
+          "elf_target": "0x18e5fc",
+          "ghidra_target": "0x28e5fc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x170",
+          "elf_target": "0x183520",
+          "ghidra_target": "0x283520",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x178",
+          "elf_target": "0x183024",
+          "ghidra_target": "0x283024",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x180",
+          "elf_target": "0x18302c",
+          "ghidra_target": "0x28302c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x188",
+          "elf_target": "0x18302c",
+          "ghidra_target": "0x28302c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x190",
+          "elf_target": "0x183034",
+          "ghidra_target": "0x283034",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x198",
+          "elf_target": "0x18e5bc",
+          "ghidra_target": "0x28e5bc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1a0",
+          "elf_target": "0x183528",
+          "ghidra_target": "0x283528",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1a8",
+          "elf_target": "0x189648",
+          "ghidra_target": "0x289648",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1b0",
+          "elf_target": "0x184814",
+          "ghidra_target": "0x284814",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1b8",
+          "elf_target": "0x1829a0",
+          "ghidra_target": "0x2829a0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1c0",
+          "elf_target": "0x182c5c",
+          "ghidra_target": "0x282c5c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1c8",
+          "elf_target": "0x184fd4",
+          "ghidra_target": "0x284fd4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1d0",
+          "elf_target": "0x18e5d8",
+          "ghidra_target": "0x28e5d8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1d8",
+          "elf_target": "0x183ba8",
+          "ghidra_target": "0x283ba8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1e0",
+          "elf_target": "0x184188",
+          "ghidra_target": "0x284188",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1e8",
+          "elf_target": "0x186448",
+          "ghidra_target": "0x286448",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1f0",
+          "elf_target": "0x183924",
+          "ghidra_target": "0x283924",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x1f8",
+          "elf_target": "0x183174",
+          "ghidra_target": "0x283174",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x200",
+          "elf_target": "0x1829dc",
+          "ghidra_target": "0x2829dc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x208",
+          "elf_target": "0x183048",
+          "ghidra_target": "0x283048",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x210",
+          "elf_target": "0x183048",
+          "ghidra_target": "0x283048",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x218",
+          "elf_target": "0x183048",
+          "ghidra_target": "0x283048",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x220",
+          "elf_target": "0x18f0b0",
+          "ghidra_target": "0x28f0b0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x228",
+          "elf_target": "0x18fe8c",
+          "ghidra_target": "0x28fe8c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x230",
+          "elf_target": "0x18774c",
+          "ghidra_target": "0x28774c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x238",
+          "elf_target": "0x183058",
+          "ghidra_target": "0x283058",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x240",
+          "elf_target": "0x182a1c",
+          "ghidra_target": "0x282a1c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x248",
+          "elf_target": "0x18582c",
+          "ghidra_target": "0x28582c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x250",
+          "elf_target": "0x1855d8",
+          "ghidra_target": "0x2855d8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x258",
+          "elf_target": "0x1847a0",
+          "ghidra_target": "0x2847a0",
+          "resolution": "symbol_relocation:_ZN17LibMediaProfileIf26xavcIfo_CommonMediaProfile26xavcIfo_CommonMediaProfile31GetResolutionFromVideoCodecTypeEPKcPN3mpr10ResolutionE"
+        },
+        {
+          "virtual_offset": "0x260",
+          "elf_target": "0x18426c",
+          "ghidra_target": "0x28426c",
+          "resolution": "symbol_relocation:_ZN17LibMediaProfileIf26xavcIfo_CommonMediaProfile26xavcIfo_CommonMediaProfile31GetVideoCodecFromVideoCodecTypeEPKcPN3mpr12VideoCodecCDE"
+        },
+        {
+          "virtual_offset": "0x268",
+          "elf_target": "0x18840c",
+          "ghidra_target": "0x28840c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x270",
+          "elf_target": "0x183c18",
+          "ghidra_target": "0x283c18",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x278",
+          "elf_target": "0x188494",
+          "ghidra_target": "0x288494",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x280",
+          "elf_target": "0x1842e4",
+          "ghidra_target": "0x2842e4",
+          "resolution": "symbol_relocation:_ZN17LibMediaProfileIf26xavcIfo_CommonMediaProfile26xavcIfo_CommonMediaProfile22TransFps2PubDefinitionEPcPN3mpr11FramePerSecEPb"
+        },
+        {
+          "virtual_offset": "0x288",
+          "elf_target": "0x1885a4",
+          "ghidra_target": "0x2885a4",
+          "resolution": "symbol_relocation:_ZN17LibMediaProfileIf26xavcIfo_CommonMediaProfile26xavcIfo_CommonMediaProfile15TransFps2StringEN3mpr11FramePerSecEbPNS_15StringAttributeILj16EEE"
+        },
+        {
+          "virtual_offset": "0x290",
+          "elf_target": "0x1844c0",
+          "ghidra_target": "0x2844c0",
+          "resolution": "symbol_relocation:_ZN17LibMediaProfileIf26xavcIfo_CommonMediaProfile26xavcIfo_CommonMediaProfile30TransAspectRatio2PubDefinitionEPcPN3mpr11AspectRatioE"
+        },
+        {
+          "virtual_offset": "0x298",
+          "elf_target": "0x1886c8",
+          "ghidra_target": "0x2886c8",
+          "resolution": "symbol_relocation:_ZN17LibMediaProfileIf26xavcIfo_CommonMediaProfile26xavcIfo_CommonMediaProfile23TransAspectRatio2StringEN3mpr11AspectRatioEPNS_15StringAttributeILj16EEE"
+        },
+        {
+          "virtual_offset": "0x2a0",
+          "elf_target": "0x184558",
+          "ghidra_target": "0x284558",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x2a8",
+          "elf_target": "0x189ae4",
+          "ghidra_target": "0x289ae4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x2b0",
+          "elf_target": "0x185cc8",
+          "ghidra_target": "0x285cc8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x2b8",
+          "elf_target": "0x1830d4",
+          "ghidra_target": "0x2830d4",
+          "resolution": "symbol_relocation:_ZN17LibMediaProfileIf26xavcIfo_CommonMediaProfile26xavcIfo_CommonMediaProfile32TransMPFResolution2PubDefinitionENS_15LibMediaProfile16T_MPF_RESOLUTIONEPN3mpr10ResolutionE"
+        },
+        {
+          "virtual_offset": "0x2c0",
+          "elf_target": "0x1832b0",
+          "ghidra_target": "0x2832b0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x2c8",
+          "elf_target": "0x1846b4",
+          "ghidra_target": "0x2846b4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x2d0",
+          "elf_target": "0x18efa0",
+          "ghidra_target": "0x28efa0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x2d8",
+          "elf_target": "0x183230",
+          "ghidra_target": "0x283230",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x2e0",
+          "elf_target": "0x18323c",
+          "ghidra_target": "0x28323c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x2e8",
+          "elf_target": "0x18348c",
+          "ghidra_target": "0x28348c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x2f0",
+          "elf_target": "0x1834a0",
+          "ghidra_target": "0x2834a0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x2f8",
+          "elf_target": "0x1834b4",
+          "ghidra_target": "0x2834b4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x300",
+          "elf_target": "0x18502c",
+          "ghidra_target": "0x28502c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x308",
+          "elf_target": "0x183b68",
+          "ghidra_target": "0x283b68",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x310",
+          "elf_target": "0x184ec0",
+          "ghidra_target": "0x284ec0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x318",
+          "elf_target": "0x189fcc",
+          "ghidra_target": "0x289fcc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x320",
+          "elf_target": "0x1836a4",
+          "ghidra_target": "0x2836a4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x328",
+          "elf_target": "0x182e08",
+          "ghidra_target": "0x282e08",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x330",
+          "elf_target": "0x1833d4",
+          "ghidra_target": "0x2833d4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x338",
+          "elf_target": "0x1845d4",
+          "ghidra_target": "0x2845d4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x340",
+          "elf_target": "0x1899a0",
+          "ghidra_target": "0x2899a0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x348",
+          "elf_target": "0x1860fc",
+          "ghidra_target": "0x2860fc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x350",
+          "elf_target": "0x1862ec",
+          "ghidra_target": "0x2862ec",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x358",
+          "elf_target": "0x18493c",
+          "ghidra_target": "0x28493c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x360",
+          "elf_target": "0x182cc4",
+          "ghidra_target": "0x282cc4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x368",
+          "elf_target": "0x184658",
+          "ghidra_target": "0x284658",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x370",
+          "elf_target": "0x187664",
+          "ghidra_target": "0x287664",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x378",
+          "elf_target": "0x182cf4",
+          "ghidra_target": "0x282cf4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x380",
+          "elf_target": "0x185a64",
+          "ghidra_target": "0x285a64",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x388",
+          "elf_target": "0x185b98",
+          "ghidra_target": "0x285b98",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x390",
+          "elf_target": "0x182bd0",
+          "ghidra_target": "0x282bd0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x398",
+          "elf_target": "0x1833a4",
+          "ghidra_target": "0x2833a4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3a0",
+          "elf_target": "0x1835f8",
+          "ghidra_target": "0x2835f8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3a8",
+          "elf_target": "0x18e618",
+          "ghidra_target": "0x28e618",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3b0",
+          "elf_target": "0x183248",
+          "ghidra_target": "0x283248",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3b8",
+          "elf_target": "0x183510",
+          "ghidra_target": "0x283510",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3c0",
+          "elf_target": "0x183510",
+          "ghidra_target": "0x283510",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3c8",
+          "elf_target": "0x183510",
+          "ghidra_target": "0x283510",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3d0",
+          "elf_target": "0x18e8e0",
+          "ghidra_target": "0x28e8e0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3d8",
+          "elf_target": "0x18e928",
+          "ghidra_target": "0x28e928",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3e0",
+          "elf_target": "0x18eeac",
+          "ghidra_target": "0x28eeac",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3e8",
+          "elf_target": "0x18e848",
+          "ghidra_target": "0x28e848",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3f0",
+          "elf_target": "0x18e9cc",
+          "ghidra_target": "0x28e9cc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x3f8",
+          "elf_target": "0x18e5e4",
+          "ghidra_target": "0x28e5e4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x400",
+          "elf_target": "0x183520",
+          "ghidra_target": "0x283520",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x408",
+          "elf_target": "0x1865c8",
+          "ghidra_target": "0x2865c8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x410",
+          "elf_target": "0x183f90",
+          "ghidra_target": "0x283f90",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x418",
+          "elf_target": "0x182d7c",
+          "ghidra_target": "0x282d7c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x420",
+          "elf_target": "0x183d2c",
+          "ghidra_target": "0x283d2c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x428",
+          "elf_target": "0x183d4c",
+          "ghidra_target": "0x283d4c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x430",
+          "elf_target": "0x18410c",
+          "ghidra_target": "0x28410c",
+          "resolution": "symbol_relocation:_ZN17LibMediaProfileIf26xavcIfo_CommonMediaProfile26xavcIfo_CommonMediaProfile28GetMetaStrFromVideoParamCombEN3mpr14VideoParamCombEPc"
+        },
+        {
+          "virtual_offset": "0x438",
+          "elf_target": "0x183048",
+          "ghidra_target": "0x283048",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x440",
+          "elf_target": "0x1882ec",
+          "ghidra_target": "0x2882ec",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x448",
+          "elf_target": "0x183d6c",
+          "ghidra_target": "0x283d6c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x450",
+          "elf_target": "0x1859b0",
+          "ghidra_target": "0x2859b0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x458",
+          "elf_target": "0x1887a4",
+          "ghidra_target": "0x2887a4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x460",
+          "elf_target": "0x18a550",
+          "ghidra_target": "0x28a550",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x468",
+          "elf_target": "0x189ba8",
+          "ghidra_target": "0x289ba8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x470",
+          "elf_target": "0x189e44",
+          "ghidra_target": "0x289e44",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x478",
+          "elf_target": "0x183538",
+          "ghidra_target": "0x283538",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x480",
+          "elf_target": "0x183f30",
+          "ghidra_target": "0x283f30",
+          "resolution": "symbol_relocation:_ZN17LibMediaProfileIf26xavcIfo_CommonMediaProfile26xavcIfo_CommonMediaProfile34GetAvcIntraClassFromPictureQualityEN3mpr14PictureQualityENS2_14VideoParamCombE"
+        },
+        {
+          "virtual_offset": "0x488",
+          "elf_target": "0x18e5e0",
+          "ghidra_target": "0x28e5e0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x490",
+          "elf_target": "0x18e9ec",
+          "ghidra_target": "0x28e9ec",
+          "resolution": "R_AARCH64_RELATIVE"
+        }
+      ]
+    },
+    {
+      "name_is_analyst_label": "M4CommonMediaProfileParser",
+      "got_elf_vma": "0x302a48",
+      "got_resolution": "R_AARCH64_RELATIVE",
+      "vtable_address_point": "0x2fdda8",
+      "entries": [
+        {
+          "virtual_offset": "0x0",
+          "elf_target": "0x18fed4",
+          "ghidra_target": "0x28fed4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x8",
+          "elf_target": "0x18ff1c",
+          "ghidra_target": "0x28ff1c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x10",
+          "elf_target": "0x18ab08",
+          "ghidra_target": "0x28ab08",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x18",
+          "elf_target": "0x18abc0",
+          "ghidra_target": "0x28abc0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x20",
+          "elf_target": "0x18ac30",
+          "ghidra_target": "0x28ac30",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x28",
+          "elf_target": "0x18ac9c",
+          "ghidra_target": "0x28ac9c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x30",
+          "elf_target": "0x18ad08",
+          "ghidra_target": "0x28ad08",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x38",
+          "elf_target": "0x18ad74",
+          "ghidra_target": "0x28ad74",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x40",
+          "elf_target": "0x18ade0",
+          "ghidra_target": "0x28ade0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x48",
+          "elf_target": "0x18ae50",
+          "ghidra_target": "0x28ae50",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x50",
+          "elf_target": "0x18aec0",
+          "ghidra_target": "0x28aec0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x58",
+          "elf_target": "0x18af2c",
+          "ghidra_target": "0x28af2c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x60",
+          "elf_target": "0x18af98",
+          "ghidra_target": "0x28af98",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x68",
+          "elf_target": "0x18b004",
+          "ghidra_target": "0x28b004",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x70",
+          "elf_target": "0x18b070",
+          "ghidra_target": "0x28b070",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x78",
+          "elf_target": "0x18b0dc",
+          "ghidra_target": "0x28b0dc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x80",
+          "elf_target": "0x18b148",
+          "ghidra_target": "0x28b148",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x88",
+          "elf_target": "0x18b1b4",
+          "ghidra_target": "0x28b1b4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x90",
+          "elf_target": "0x18b224",
+          "ghidra_target": "0x28b224",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x98",
+          "elf_target": "0x18b290",
+          "ghidra_target": "0x28b290",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xa0",
+          "elf_target": "0x18b328",
+          "ghidra_target": "0x28b328",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xa8",
+          "elf_target": "0x18ff44",
+          "ghidra_target": "0x28ff44",
+          "resolution": "R_AARCH64_RELATIVE"
+        }
+      ]
+    },
+    {
+      "name_is_analyst_label": "M4CommonMediaProfileParserImpl",
+      "got_elf_vma": "0x301e40",
+      "got_resolution": "R_AARCH64_RELATIVE",
+      "vtable_address_point": "0x2fde68",
+      "entries": [
+        {
+          "virtual_offset": "0x0",
+          "elf_target": "0x18ffc4",
+          "ghidra_target": "0x28ffc4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x8",
+          "elf_target": "0x18ffd8",
+          "ghidra_target": "0x28ffd8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x10",
+          "elf_target": "0x18bc30",
+          "ghidra_target": "0x28bc30",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x18",
+          "elf_target": "0x18b560",
+          "ghidra_target": "0x28b560",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x20",
+          "elf_target": "0x18b5b4",
+          "ghidra_target": "0x28b5b4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x28",
+          "elf_target": "0x18b608",
+          "ghidra_target": "0x28b608",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x30",
+          "elf_target": "0x18b65c",
+          "ghidra_target": "0x28b65c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x38",
+          "elf_target": "0x18b6b0",
+          "ghidra_target": "0x28b6b0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x40",
+          "elf_target": "0x18b704",
+          "ghidra_target": "0x28b704",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x48",
+          "elf_target": "0x18b758",
+          "ghidra_target": "0x28b758",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x50",
+          "elf_target": "0x18b7ac",
+          "ghidra_target": "0x28b7ac",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x58",
+          "elf_target": "0x18b800",
+          "ghidra_target": "0x28b800",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x60",
+          "elf_target": "0x18b854",
+          "ghidra_target": "0x28b854",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x68",
+          "elf_target": "0x18b8a8",
+          "ghidra_target": "0x28b8a8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x70",
+          "elf_target": "0x18b8fc",
+          "ghidra_target": "0x28b8fc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x78",
+          "elf_target": "0x18b950",
+          "ghidra_target": "0x28b950",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x80",
+          "elf_target": "0x18b9a4",
+          "ghidra_target": "0x28b9a4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x88",
+          "elf_target": "0x18bec4",
+          "ghidra_target": "0x28bec4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x90",
+          "elf_target": "0x18b3e4",
+          "ghidra_target": "0x28b3e4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x98",
+          "elf_target": "0x18ba24",
+          "ghidra_target": "0x28ba24",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xa0",
+          "elf_target": "0x18bac4",
+          "ghidra_target": "0x28bac4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xa8",
+          "elf_target": "0x190000",
+          "ghidra_target": "0x290000",
+          "resolution": "R_AARCH64_RELATIVE"
+        }
+      ]
+    },
+    {
+      "name_is_analyst_label": "M4ParserState0",
+      "got_elf_vma": "0x302300",
+      "got_resolution": "R_AARCH64_RELATIVE",
+      "vtable_address_point": "0x2fdf28",
+      "entries": [
+        {
+          "virtual_offset": "0x0",
+          "elf_target": "0x1900e8",
+          "ghidra_target": "0x2900e8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x8",
+          "elf_target": "0x1900fc",
+          "ghidra_target": "0x2900fc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x10",
+          "elf_target": "0x18e160",
+          "ghidra_target": "0x28e160",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x18",
+          "elf_target": "0x18bfa0",
+          "ghidra_target": "0x28bfa0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x20",
+          "elf_target": "0x18c830",
+          "ghidra_target": "0x28c830",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x28",
+          "elf_target": "0x18c2a0",
+          "ghidra_target": "0x28c2a0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x30",
+          "elf_target": "0x18c2d8",
+          "ghidra_target": "0x28c2d8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x38",
+          "elf_target": "0x18c310",
+          "ghidra_target": "0x28c310",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x40",
+          "elf_target": "0x18c348",
+          "ghidra_target": "0x28c348",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x48",
+          "elf_target": "0x18c380",
+          "ghidra_target": "0x28c380",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x50",
+          "elf_target": "0x18c3b8",
+          "ghidra_target": "0x28c3b8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x58",
+          "elf_target": "0x18c3f0",
+          "ghidra_target": "0x28c3f0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x60",
+          "elf_target": "0x18c428",
+          "ghidra_target": "0x28c428",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x68",
+          "elf_target": "0x18c460",
+          "ghidra_target": "0x28c460",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x70",
+          "elf_target": "0x18c498",
+          "ghidra_target": "0x28c498",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x78",
+          "elf_target": "0x18c4d0",
+          "ghidra_target": "0x28c4d0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x80",
+          "elf_target": "0x18c508",
+          "ghidra_target": "0x28c508",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x88",
+          "elf_target": "0x18c540",
+          "ghidra_target": "0x28c540",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x90",
+          "elf_target": "0x18c578",
+          "ghidra_target": "0x28c578",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x98",
+          "elf_target": "0x0",
+          "ghidra_target": null,
+          "resolution": "original_raw_qword"
+        },
+        {
+          "virtual_offset": "0xa0",
+          "elf_target": "0x0",
+          "ghidra_target": null,
+          "resolution": "original_raw_qword"
+        },
+        {
+          "virtual_offset": "0xa8",
+          "elf_target": "0x190124",
+          "ghidra_target": "0x290124",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xb0",
+          "elf_target": "0x190138",
+          "ghidra_target": "0x290138",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xb8",
+          "elf_target": "0x18c5b0",
+          "ghidra_target": "0x28c5b0",
+          "resolution": "R_AARCH64_RELATIVE"
+        }
+      ]
+    },
+    {
+      "name_is_analyst_label": "M4ParserState1",
+      "got_elf_vma": "0x301710",
+      "got_resolution": "R_AARCH64_RELATIVE",
+      "vtable_address_point": "0x2fdfd0",
+      "entries": [
+        {
+          "virtual_offset": "0x0",
+          "elf_target": "0x190124",
+          "ghidra_target": "0x290124",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x8",
+          "elf_target": "0x190138",
+          "ghidra_target": "0x290138",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x10",
+          "elf_target": "0x18c5b0",
+          "ghidra_target": "0x28c5b0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x18",
+          "elf_target": "0x18d8e8",
+          "ghidra_target": "0x28d8e8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x20",
+          "elf_target": "0x18c5e8",
+          "ghidra_target": "0x28c5e8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x28",
+          "elf_target": "0x18bfa8",
+          "ghidra_target": "0x28bfa8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x30",
+          "elf_target": "0x18d6cc",
+          "ghidra_target": "0x28d6cc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x38",
+          "elf_target": "0x18c98c",
+          "ghidra_target": "0x28c98c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x40",
+          "elf_target": "0x18d120",
+          "ghidra_target": "0x28d120",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x48",
+          "elf_target": "0x18dc7c",
+          "ghidra_target": "0x28dc7c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x50",
+          "elf_target": "0x18d950",
+          "ghidra_target": "0x28d950",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x58",
+          "elf_target": "0x18c620",
+          "ghidra_target": "0x28c620",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x60",
+          "elf_target": "0x18c658",
+          "ghidra_target": "0x28c658",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x68",
+          "elf_target": "0x18c690",
+          "ghidra_target": "0x28c690",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x70",
+          "elf_target": "0x18c6c8",
+          "ghidra_target": "0x28c6c8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x78",
+          "elf_target": "0x18c700",
+          "ghidra_target": "0x28c700",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x80",
+          "elf_target": "0x18d500",
+          "ghidra_target": "0x28d500",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x88",
+          "elf_target": "0x18d7e4",
+          "ghidra_target": "0x28d7e4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x90",
+          "elf_target": "0x18cc64",
+          "ghidra_target": "0x28cc64",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x98",
+          "elf_target": "0x18d590",
+          "ghidra_target": "0x28d590",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xa0",
+          "elf_target": "0x18d604",
+          "ghidra_target": "0x28d604",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xa8",
+          "elf_target": "0x18bfd8",
+          "ghidra_target": "0x28bfd8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xb0",
+          "elf_target": "0x18ce40",
+          "ghidra_target": "0x28ce40",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xb8",
+          "elf_target": "0x18cee4",
+          "ghidra_target": "0x28cee4",
+          "resolution": "R_AARCH64_RELATIVE"
+        }
+      ]
+    },
+    {
+      "name_is_analyst_label": "M4ParserState2",
+      "got_elf_vma": "0x301c70",
+      "got_resolution": "R_AARCH64_RELATIVE",
+      "vtable_address_point": "0x2fe0a8",
+      "entries": [
+        {
+          "virtual_offset": "0x0",
+          "elf_target": "0x190160",
+          "ghidra_target": "0x290160",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x8",
+          "elf_target": "0x190174",
+          "ghidra_target": "0x290174",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x10",
+          "elf_target": "0x18bff0",
+          "ghidra_target": "0x28bff0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x18",
+          "elf_target": "0x18c01c",
+          "ghidra_target": "0x28c01c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x20",
+          "elf_target": "0x18c048",
+          "ghidra_target": "0x28c048",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x28",
+          "elf_target": "0x18c074",
+          "ghidra_target": "0x28c074",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x30",
+          "elf_target": "0x18c0bc",
+          "ghidra_target": "0x28c0bc",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x38",
+          "elf_target": "0x18c0e8",
+          "ghidra_target": "0x28c0e8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x40",
+          "elf_target": "0x18c114",
+          "ghidra_target": "0x28c114",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x48",
+          "elf_target": "0x18c140",
+          "ghidra_target": "0x28c140",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x50",
+          "elf_target": "0x18c16c",
+          "ghidra_target": "0x28c16c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x58",
+          "elf_target": "0x18c198",
+          "ghidra_target": "0x28c198",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x60",
+          "elf_target": "0x18c1c4",
+          "ghidra_target": "0x28c1c4",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x68",
+          "elf_target": "0x18c1f0",
+          "ghidra_target": "0x28c1f0",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x70",
+          "elf_target": "0x18c21c",
+          "ghidra_target": "0x28c21c",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x78",
+          "elf_target": "0x18c248",
+          "ghidra_target": "0x28c248",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x80",
+          "elf_target": "0x18c274",
+          "ghidra_target": "0x28c274",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x88",
+          "elf_target": "0x18c738",
+          "ghidra_target": "0x28c738",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x90",
+          "elf_target": "0x18c770",
+          "ghidra_target": "0x28c770",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0x98",
+          "elf_target": "0x0",
+          "ghidra_target": null,
+          "resolution": "original_raw_qword"
+        },
+        {
+          "virtual_offset": "0xa0",
+          "elf_target": "0x0",
+          "ghidra_target": null,
+          "resolution": "original_raw_qword"
+        },
+        {
+          "virtual_offset": "0xa8",
+          "elf_target": "0x1921c8",
+          "ghidra_target": "0x2921c8",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xb0",
+          "elf_target": "0x192204",
+          "ghidra_target": "0x292204",
+          "resolution": "R_AARCH64_RELATIVE"
+        },
+        {
+          "virtual_offset": "0xb8",
+          "elf_target": "0x193f6c",
+          "ghidra_target": "0x293f6c",
+          "resolution": "R_AARCH64_RELATIVE"
+        }
+      ]
+    }
+  ]
+}

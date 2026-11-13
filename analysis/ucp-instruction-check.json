@@ -1,0 +1,39 @@
+{
+  "language": "MIPS:LE:32:sony-ucp-opaque",
+  "passed": true,
+  "exact_hardware_semantics_proven": false,
+  "checks": [
+    {
+      "address": "807940b0",
+      "raw_word": "68e60360",
+      "instruction": "ucp_read7 a2,0x360",
+      "pcode": [
+        "(register, 0x18, 4) CALLOTHER (const, 0x9b, 4) , (const, 0x360, 4)"
+      ]
+    },
+    {
+      "address": "807940d0",
+      "raw_word": "b0f00360",
+      "instruction": "ucp_write7 0x360,s0",
+      "pcode": [
+        " ---  CALLOTHER (const, 0x9c, 4) , (const, 0x360, 4) , (register, 0x40, 4)"
+      ]
+    },
+    {
+      "address": "80794100",
+      "raw_word": "68e40362",
+      "instruction": "ucp_read7 a0,0x362",
+      "pcode": [
+        "(register, 0x10, 4) CALLOTHER (const, 0x9b, 4) , (const, 0x362, 4)"
+      ]
+    },
+    {
+      "address": "8079410c",
+      "raw_word": "b0e00361",
+      "instruction": "ucp_write7 0x361,zero",
+      "pcode": [
+        " ---  CALLOTHER (const, 0x9c, 4) , (const, 0x361, 4) , (const, 0x0, 4)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "prepared_date_local": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "state": "PHYSICAL_PLAYBACK_CONFIRMED",
+  "physical_result": "analysis/camera-observations-0026-result.json",
+  "card": "F:\\",
+  "camera_body": "ILCE-7M4",
+  "camera_installed_firmware": null,
+  "start_snapshot": "backup/snap_20261113T133359",
+  "intermediate_snapshot": "backup/snap_20261113T133821",
+  "final_snapshot": "backup/snap_20261113T134101",
+  "cumulative_audit": "analysis/sd-test-round-0026.json",
+  "snapshot_comparison": "analysis/snapshot-133359-134101-0026.json",
+  "research_record": "docs/experiments/0026_explicit_avc_sd_profiles.md",
+  "suggested_test_order": ["C6515", "C6517", "C6518"],
+  "existing_controls_not_rewritten": ["C0007", "C6514", "C6515"],
+  "not_deployed": ["C6516"],
+  "existing_control_hashes_checked_before_deployment": {
+    "C0007": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+    "C6515": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5"
+  },
+  "reconfirmed_controls": [
+    {
+      "clip": "C6515",
+      "sony_profile": "hd25_5994",
+      "playback": "SUCCESS_USER_REPORTED",
+      "listed": true,
+      "listing_evidence": "Implied by reported normal playback",
+      "thumbnail_normal": null,
+      "full_duration_playback": "NOT_SEPARATELY_REPORTED",
+      "seek": "NOT_SEPARATELY_REPORTED",
+      "audio": "NOT_SEPARATELY_REPORTED",
+      "result": "output/cat-compact4-C6515/camera-result-0026.json"
+    }
+  ],
+  "preservation": {
+    "added_files": 6,
+    "updated_existing_files": [
+      "PRIVATE/M4ROOT/MEDIAPRO.XML",
+      "PRIVATE/DATABASE/DATABASE.BIN"
+    ],
+    "deleted_files": [],
+    "original_94_database_records_unchanged": true,
+    "old_media_sizes_and_write_times_unchanged": true,
+    "new_assets_and_final_catalog_readback_hashes_match": true,
+    "all_old_media_content_hashed": false
+  },
+  "final_firmware_catalog_proof": {
+    "path": "output/profiles-0026-deploy/C6518/firmware-catalog-verification.json",
+    "passed": true,
+    "hashes_match_final_card_catalogs": true,
+    "both_new_clips_present_in_original_conversion": true,
+    "movies": 51,
+    "scope": "Original read-only record/profile routines, not camera UI or hardware decode"
+  },
+  "clips": [
+    {
+      "clip": "C6517",
+      "package": "output/profiles-0026-deploy/C6517",
+      "original_offline_package": "output/profiles-0026-hd50/package",
+      "role": "camera_candidate",
+      "sony_profile": "hd50_5994",
+      "width": 1920,
+      "height": 1080,
+      "fps": "60000/1001",
+      "nominal_mbps": 50,
+      "chroma_format": "4:2:0",
+      "bit_depth": 8,
+      "frames": 1534,
+      "duration_seconds": 25.592233333333333,
+      "nal_length_bytes": 4,
+      "media_sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+      "deployment_status": "deployed",
+      "prewrite_snapshot": "backup/snap_20261113T133805",
+      "firmware_catalog_movies": 50,
+      "listed": true,
+      "listing_evidence": "Implied by reported normal playback",
+      "thumbnail_normal": null,
+      "playback": "SUCCESS_USER_REPORTED",
+      "full_duration_playback": "NOT_SEPARATELY_REPORTED",
+      "seek": "NOT_SEPARATELY_REPORTED",
+      "audio": "NOT_SEPARATELY_REPORTED",
+      "camera_error_text": null
+    },
+    {
+      "clip": "C6518",
+      "package": "output/profiles-0026-deploy/C6518",
+      "original_offline_package": "output/profiles-0026-uhd60/package",
+      "role": "camera_candidate",
+      "sony_profile": "uhd60_2997",
+      "width": 3840,
+      "height": 2160,
+      "fps": "30000/1001",
+      "nominal_mbps": 60,
+      "chroma_format": "4:2:0",
+      "bit_depth": 8,
+      "frames": 767,
+      "duration_seconds": 25.592233333333333,
+      "nal_length_bytes": 4,
+      "media_sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+      "deployment_status": "deployed",
+      "prewrite_snapshot": "backup/snap_20261113T134040",
+      "firmware_catalog_movies": 51,
+      "prof_rate_design": "native-style 60000/60000; historical EDIUS C0001 uses 57000/99999",
+      "listed": true,
+      "listing_evidence": "Implied by reported normal playback",
+      "thumbnail_normal": null,
+      "playback": "SUCCESS_USER_REPORTED",
+      "full_duration_playback": "NOT_SEPARATELY_REPORTED",
+      "seek": "NOT_SEPARATELY_REPORTED",
+      "audio": "NOT_SEPARATELY_REPORTED",
+      "camera_error_text": null
+    }
+  ],
+  "limits": [
+    "No physical acceptance is inferred from software decoding, Catalyst or selected firmware probes.",
+    "Listing, thumbnail display, playback, full duration, seeking and audio are separate observations.",
+    "Historical EDIUS playback does not establish playback of either new ffmpeg candidate.",
+    "No proactive catalog repair, rebuild, formatting or replacement of an existing clip is part of this test.",
+    "Physical success comes from the direct user report, not the preparation-time NOT_TESTED verification fields.",
+    "This result-recording turn did not access the card or claim a post-camera snapshot/hash audit."
+  ]
+}

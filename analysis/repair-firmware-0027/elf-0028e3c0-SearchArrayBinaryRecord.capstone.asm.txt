@@ -1,0 +1,89 @@
+// ELF SHA256: 1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532
+// Symbol: _ZN4sidb23SearchArrayBinaryRecordEjNS_16BinaryRecordTypeEPKhjPjS3_
+// Range authority: .dynsym st_value/st_size; ELF VMAs, no Ghidra body
+// Complete range: [0x28e3c0, 0x28e50c), size 0x14c
+// Section: .text; symbol bytes SHA256: fda449300990479e68352480a763c5d5e3f9050c4285333eab4a29185ff2c0ba
+// Capstone: 5.0.7; AArch64 little-endian; no skipdata
+0028e3c0 9f0000f1 cmp x4, #0
+0028e3c4 a41840fa ccmp x5, #0, #4, ne
+0028e3c8 a0090054 b.eq #0x28e4fc
+0028e3cc fd7bb9a9 stp x29, x30, [sp, #-0x70]!
+0028e3d0 7f044071 cmp w3, #1, lsl #12
+0028e3d4 fd030091 mov x29, sp
+0028e3d8 f35301a9 stp x19, x20, [sp, #0x10]
+0028e3dc f403002a mov w20, w0
+0028e3e0 f55b02a9 stp x21, x22, [sp, #0x20]
+0028e3e4 60808052 mov w0, #0x403
+0028e3e8 f76303a9 stp x23, x24, [sp, #0x30]
+0028e3ec f96b04a9 stp x25, x26, [sp, #0x40]
+0028e3f0 fb7305a9 stp x27, x28, [sp, #0x50]
+0028e3f4 28070054 b.hi #0x28e4d8
+0028e3f8 e00302aa mov x0, x2
+0028e3fc f803012a mov w24, w1
+0028e400 e103032a mov w1, w3
+0028e404 f50302aa mov x21, x2
+0028e408 f303032a mov w19, w3
+0028e40c a51306a9 stp x5, x4, [x29, #0x60]
+0028e410 58d3f797 bl #0x83170
+0028e414 e103142a mov w1, w20
+0028e418 a27f80d2 mov x2, #0x3fd
+0028e41c 227c029b mul x2, x1, x2
+0028e420 4020208b add x0, x2, w0, uxth
+0028e424 820300f0 adrp x2, #0x301000
+0028e428 425846f9 ldr x2, [x2, #0xcb0]
+0028e42c 597860f8 ldr x25, [x2, x0, lsl #3]
+0028e430 e0808052 mov w0, #0x407
+0028e434 390500b4 cbz x25, #0x28e4d8
+0028e438 800300f0 adrp x0, #0x301000
+0028e43c 7b1e0053 uxtb w27, w19
+0028e440 1c008052 mov w28, #0
+0028e444 00e443f9 ldr x0, [x0, #0x7c8]
+0028e448 167861f8 ldr x22, [x0, x1, lsl #3]
+0028e44c da424091 add x26, x22, #0x10, lsl #12
+0028e450 345b7cb8 ldr w20, [x25, w28, uxtw #2]
+0028e454 9f060031 cmn w20, #1
+0028e458 60050054 b.eq #0x28e504
+0028e45c 977e0f53 lsr w23, w20, #0xf
+0028e460 e00316aa mov x0, x22
+0028e464 e103172a mov w1, w23
+0028e468 e2c7f797 bl #0x803f0
+0028e46c 1f1c0072 tst w0, #0xff
+0028e470 20040054 b.eq #0x28e4f4
+0028e474 c03240b9 ldr w0, [x22, #0x30]
+0028e478 e07e001b mul w0, w23, w0
+0028e47c 01001a8b add x1, x0, x26
+0028e480 00687a38 ldrb w0, [x0, x26]
+0028e484 000c0012 and w0, w0, #0xf
+0028e488 1f0c0071 cmp w0, #3
+0028e48c 41030054 b.ne #0x28e4f4
+0028e490 20104039 ldrb w0, [x1, #4]
+0028e494 1f00186b cmp w0, w24
+0028e498 e1020054 b.ne #0x28e4f4
+0028e49c 20144039 ldrb w0, [x1, #5]
+0028e4a0 7f02006b cmp w19, w0
+0028e4a4 81020054 b.ne #0x28e4f4
+0028e4a8 943a0012 and w20, w20, #0x7fff
+0028e4ac 21300091 add x1, x1, #0xc
+0028e4b0 e2031baa mov x2, x27
+0028e4b4 607e141b mul w0, w19, w20
+0028e4b8 2100008b add x1, x1, x0
+0028e4bc e00315aa mov x0, x21
+0028e4c0 40baf797 bl #0x7cdc0
+0028e4c4 80010035 cbnz w0, #0x28e4f4
+0028e4c8 a13740f9 ldr x1, [x29, #0x68]
+0028e4cc 370000b9 str w23, [x1]
+0028e4d0 a13340f9 ldr x1, [x29, #0x60]
+0028e4d4 340000b9 str w20, [x1]
+0028e4d8 f35341a9 ldp x19, x20, [sp, #0x10]
+0028e4dc f55b42a9 ldp x21, x22, [sp, #0x20]
+0028e4e0 f76343a9 ldp x23, x24, [sp, #0x30]
+0028e4e4 f96b44a9 ldp x25, x26, [sp, #0x40]
+0028e4e8 fb7345a9 ldp x27, x28, [sp, #0x50]
+0028e4ec fd7bc7a8 ldp x29, x30, [sp], #0x70
+0028e4f0 c0035fd6 ret
+0028e4f4 9c070011 add w28, w28, #1
+0028e4f8 d6ffff17 b #0x28e450
+0028e4fc e0808052 mov w0, #0x407
+0028e500 c0035fd6 ret
+0028e504 20808052 mov w0, #0x401
+0028e508 f4ffff17 b #0x28e4d8

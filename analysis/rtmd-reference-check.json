@@ -1,0 +1,9 @@
+{
+  "reference": "F:\\PRIVATE\\M4ROOT\\CLIP\\C0007.MP4",
+  "samples": 14170,
+  "template_sha256": "dd2f35164c20c2daafb98534563e2d4a5884ae8c73351320a6e9cd9fc145e7af",
+  "mismatch_count": 0,
+  "first_mismatches": [],
+  "generated_sha256": "a05726bdc50ea8f81c448b75aa840c15ff5deee0d872a666a42534054900ad19",
+  "reference_sha256": "a05726bdc50ea8f81c448b75aa840c15ff5deee0d872a666a42534054900ad19"
+}

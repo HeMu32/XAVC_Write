@@ -1,0 +1,19 @@
+0028ff44 stp x29,x30,[sp, #-0x30]!
+0028ff48 mov x29,sp
+0028ff4c stp x19,x20,[sp, #0x10]
+0028ff50 mov x19,x0
+0028ff54 mov x0,#0x90
+0028ff58 stp x21,x22,[sp, #0x20]
+0028ff5c mov x21,x1
+0028ff60 mov w22,w2
+0028ff64 bl 0x0017f030
+0028ff68 mov x20,x0
+0028ff6c mov w2,w22
+0028ff70 mov x1,x21
+0028ff74 bl 0x002900b8
+0028ff78 ldp x21,x22,[sp, #0x20]
+0028ff7c str x20,[x19, #0x8]
+0028ff80 mov w0,#0x0
+0028ff84 ldp x19,x20,[sp, #0x10]
+0028ff88 ldp x29,x30,[sp], #0x30
+0028ff8c ret

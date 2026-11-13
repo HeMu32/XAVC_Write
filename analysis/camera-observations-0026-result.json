@@ -1,0 +1,71 @@
+{
+  "reported_date_local": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "source": "Direct user report after physical experiment 0026",
+  "camera_body": "ILCE-7M4",
+  "camera_body_basis": "Earlier direct user clarification; no change of playback body reported",
+  "installed_camera_firmware": null,
+  "raw_user_report": "6518 ok\n6517 ok\n6515 ok",
+  "prepared_test_sheet": "analysis/camera-test-round-0026.json",
+  "pre_camera_audit": "analysis/sd-test-round-0026.json",
+  "evidence_binding": "Clip numbers identify the previously hash-verified deployed packages and recorded control. Local package/deployment/audit hashes were checked when recording this result. No post-camera card readback is claimed.",
+  "card_access_this_result_recording_turn": false,
+  "card_writes_this_result_recording_turn": false,
+  "results": [
+    {
+      "clip": "C6518",
+      "package": "output/profiles-0026-deploy/C6518",
+      "sony_profile": "uhd60_2997",
+      "playback": "SUCCESS_USER_REPORTED",
+      "listed": true,
+      "listing_evidence": "Implied by user-reported ok in the requested physical playback test",
+      "thumbnail_normal": null,
+      "seek": "NOT_SEPARATELY_REPORTED",
+      "full_duration_playback": "NOT_SEPARATELY_REPORTED",
+      "audio": "NOT_SEPARATELY_REPORTED",
+      "camera_error_text": null,
+      "media_sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845"
+    },
+    {
+      "clip": "C6517",
+      "package": "output/profiles-0026-deploy/C6517",
+      "sony_profile": "hd50_5994",
+      "playback": "SUCCESS_USER_REPORTED",
+      "listed": true,
+      "listing_evidence": "Implied by user-reported ok in the requested physical playback test",
+      "thumbnail_normal": null,
+      "seek": "NOT_SEPARATELY_REPORTED",
+      "full_duration_playback": "NOT_SEPARATELY_REPORTED",
+      "audio": "NOT_SEPARATELY_REPORTED",
+      "camera_error_text": null,
+      "media_sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c"
+    },
+    {
+      "clip": "C6515",
+      "package": "output/cat-compact4-C6515",
+      "sony_profile": "hd25_5994",
+      "role": "existing_positive_control_reconfirmed",
+      "playback": "SUCCESS_USER_REPORTED",
+      "listed": true,
+      "listing_evidence": "Implied by user-reported ok in the requested physical playback test",
+      "thumbnail_normal": null,
+      "seek": "NOT_SEPARATELY_REPORTED",
+      "full_duration_playback": "NOT_SEPARATELY_REPORTED",
+      "audio": "NOT_SEPARATELY_REPORTED",
+      "camera_error_text": null,
+      "media_sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5"
+    }
+  ],
+  "conclusions": {
+    "Cat_1080p5994_nominal50M_8bit420_SD_playback": "ACHIEVED_USER_CONFIRMED",
+    "Cat_2160p2997_nominal60M_8bit420_SD_playback": "ACHIEVED_USER_CONFIRMED",
+    "existing_Cat_1080p5994_nominal25M_control": "RECONFIRMED_USER_SUCCESS",
+    "three_explicit_profiles_have_Cat_physical_playback_evidence": true,
+    "uhd_prof_60000_60000_accepted_in_tested_combination": true,
+    "bounded_inference": "The two newly generated Cat ffmpeg AVC candidates play through their documented SD catalog workflow on the user-confirmed 7M4. This extends the concrete demonstrated profiles; it does not isolate every patched field or establish native byte-exact equivalence.",
+    "arbitrary_input_exhaustive_compatibility_verified": false,
+    "normative_conformance_claim": false,
+    "seek_full_duration_and_audio_separately_verified": false,
+    "unresolved_historical_native_controls": ["C6507", "C6509"]
+  }
+}

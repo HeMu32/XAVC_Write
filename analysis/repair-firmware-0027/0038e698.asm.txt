@@ -1,0 +1,24 @@
+// sidb::RestorateUMID
+// ELF VMA = Ghidra address - 0x100000
+0038e698 5f0000f1 cmp x2,#0x0
+0038e69c 041840fa ccmp x0,#0x0,#0x4,ne
+0038e6a0 40020054 b.eq 0x0038e6e8
+0038e6a4 fd7bbea9 stp x29,x30,[sp, #-0x20]!
+0038e6a8 fd030091 mov x29,sp
+0038e6ac f35301a9 stp x19,x20,[sp, #0x10]
+0038e6b0 f30300aa mov x19,x0
+0038e6b4 e00301aa mov x0,x1
+0038e6b8 41004079 ldrh w1,[x2]
+0038e6bc 741c0053 uxtb w20,w3
+0038e6c0 61d20078 sturh w1,[x19, #0xd]
+0038e6c4 41084039 ldrb w1,[x2, #0x2]
+0038e6c8 613e0039 strb w1,[x19, #0xf]
+0038e6cc 61420091 add x1,x19,#0x10
+0038e6d0 a1fc0094 bl 0x003cd954
+0038e6d4 745e0039 strb w20,[x19, #0x17]
+0038e6d8 00008052 mov w0,#0x0
+0038e6dc f35341a9 ldp x19,x20,[sp, #0x10]
+0038e6e0 fd7bc2a8 ldp x29,x30,[sp], #0x20
+0038e6e4 c0035fd6 ret
+0038e6e8 e0808052 mov w0,#0x407
+0038e6ec c0035fd6 ret

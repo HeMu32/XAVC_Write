@@ -1,0 +1,16 @@
+Thanks; retries are working. A received handoff docs/handoff-dsh-xavc-write.md
+contains a major factual error: it repeatedly claims HD 59.94 requires L52.
+Please do not propagate that claim.
+Primary evidence: the actual camera-native F:/PRIVATE/M4ROOT/CLIP/C6359.MP4
+has AVC High level_idc=42; its actual C6359M01.XML says @L42 and halfStep=true.
+The user-verified working EDIUS C0007 is also High@L42.
+docs/patching-recipe.md step 4 explicitly says use @L42 and correct @L52 to it,
+the reverse of what that handoff claims.
+The main agent also decompiled analysis/decompile-mpr/003256fc_FUN_003256fc.c:
+AVC 1920 width with fps field 0x3bf0a6 follows the 0x0164002a classification.
+Do not suggest modifying any original camera clips as a discriminating experiment.
+If you authored that handoff, please correct its L52/halfStep assertions, annotate
+ELF VMA vs Ghidra VMA (+0x100000) accurately, and distinguish recording media
+transfer-rate checks from playback admission instead of asserting equivalence.
+Keep any useful independent existing-material paths. No camera or card writes.
+If it is not your report, just finish your own concise handoff and note this correction.

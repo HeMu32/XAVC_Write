@@ -1,0 +1,125 @@
+{
+  "pid": 47056,
+  "process_executable": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EDIUS.exe",
+  "process_access": "0x410",
+  "access_note": "PROCESS_QUERY_INFORMATION | PROCESS_VM_READ only",
+  "module_path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsMpegPlugIn.tpi",
+  "actual_base": "0x7ffc5b300000",
+  "preferred_base": "0x180000000",
+  "size_of_image": 12577792,
+  "capture_start_utc": "2026-11-12T13:49:03.919881+00:00",
+  "capture_end_utc": "2026-11-12T13:49:07.049909+00:00",
+  "disk_sha256": "8c39ea4f83e272a083f7cdc90b3bfe9d4e9ae02a49158091a14914ba1b508d81",
+  "raw_memory_sha256": "f9516794f40a502796ae5b2129d2f77955bc01334987c10f4145910f56300abd",
+  "normalized_analysis_pe_sha256": "b610fd1440b389324c0513219b1930743947d977fe1d4342f489ec95ccbb83f4",
+  "disk_unchanged_after_capture": true,
+  "reverse_relocations": 28360,
+  "regions": [
+    {
+      "base": "0x7ffc5b300000",
+      "size": 4096,
+      "allocation_base": "0x7ffc5b300000",
+      "state": "0x1000",
+      "protect": "0x80",
+      "type": "0x1000000"
+    },
+    {
+      "base": "0x7ffc5b301000",
+      "size": 12574720,
+      "allocation_base": "0x7ffc5b300000",
+      "state": "0x1000",
+      "protect": "0x40",
+      "type": "0x1000000"
+    }
+  ],
+  "read_failures": [],
+  "sections": [
+    {
+      "name": ".text",
+      "rva": "0x1000",
+      "raw_size": 7273472,
+      "disk_sha256": "ab72bbe04ab2ef7c283bae88ab093a96537b60bfd9b133e665631e696f8cef41",
+      "normalized_loaded_sha256": "c93508330f8d0445e90bbf8e504f11be6398cd04f3a97eeb645109469110ce1d",
+      "changed_bytes": 4839045,
+      "second_read_complete": true,
+      "live_code_stable_across_reads": true
+    },
+    {
+      "name": ".rdata",
+      "rva": "0x6f1000",
+      "raw_size": 2325504,
+      "disk_sha256": "2d2ecc3f66e8aed7bda56d15ab4c52052575b94f0efaa2ea886f5e448bfefff2",
+      "normalized_loaded_sha256": "65cd52f0d15a01637657b5386df405dbb09c48528bb8f5d235de35d2b50b14a9",
+      "changed_bytes": 193
+    },
+    {
+      "name": ".data",
+      "rva": "0x929000",
+      "raw_size": 241664,
+      "disk_sha256": "721ca7b207af555190d620121ad487bcc98561b0730d08f25bbc0ad045a13596",
+      "normalized_loaded_sha256": "e45c78809a4f014d3e3e6d17c829760395515ebebbf2f557b720cf4794c9bd06",
+      "changed_bytes": 191
+    },
+    {
+      "name": ".pdata",
+      "rva": "0x96b000",
+      "raw_size": 289280,
+      "disk_sha256": "208d9e8e55ef6bbefc7ef71be4471cac41f15c3d5dccf8ea21e6dd4f000ec73d",
+      "normalized_loaded_sha256": "92b3b1b53f7104e4e505545327c384e95bc161558ccf913a0e1ef99402b9cfeb",
+      "changed_bytes": 236
+    },
+    {
+      "name": ".data1",
+      "rva": "0x9b2000",
+      "raw_size": 2048,
+      "disk_sha256": "fb643d6bb3fee38901e3820ce132f700e827a35ec4133034f5b9367f260ee601",
+      "normalized_loaded_sha256": "0aa7080b1bd7d7fddf2894e00220b374b22f0227fb809f366f71242dea3d0a6c",
+      "changed_bytes": 116
+    },
+    {
+      "name": "_RDATA",
+      "rva": "0x9b3000",
+      "raw_size": 1024,
+      "disk_sha256": "719e17ccb5b1543994f745d53d61399f18aff69cf971a2c7227612ddcf9e96c6",
+      "normalized_loaded_sha256": "89e1dea66b0a7b9ddc6318578b141f4c03b5e24494cf64220b1a07e1436e3522",
+      "changed_bytes": 199
+    },
+    {
+      "name": ".trace",
+      "rva": "0x9b4000",
+      "raw_size": 18432,
+      "disk_sha256": "aa17ac8eb0a0eef118177898e544644189e1796d578e6265ba31fe38d72dff82",
+      "normalized_loaded_sha256": "5db9cd84474028229149a36f7d71d81415ff255bd726846db30a72fe551308ae",
+      "changed_bytes": 402
+    },
+    {
+      "name": ".rsrc",
+      "rva": "0x9b9000",
+      "raw_size": 365568,
+      "disk_sha256": "c6982107ed1f462367637e7c54b64c2d96b265e9e1132716e9b763b8c5c121ee",
+      "normalized_loaded_sha256": "aeb6529d3ffc202d94ffb8cacc90f56f4a7d91f4992f029216f70cacbfe22a0d",
+      "changed_bytes": 377
+    },
+    {
+      "name": ".reloc",
+      "rva": "0xa13000",
+      "raw_size": 55296,
+      "disk_sha256": "62abedee387a9f64a00a6f9645318e8ae6f8593365d7aaeaeba1e9a3cb6bc2ab",
+      "normalized_loaded_sha256": "62abedee387a9f64a00a6f9645318e8ae6f8593365d7aaeaeba1e9a3cb6bc2ab",
+      "changed_bytes": 0
+    },
+    {
+      "name": ".text",
+      "rva": "0xa21000",
+      "raw_size": 1956864,
+      "disk_sha256": "53c85ce400162f4bbc7791f6d4f3615141ebb4089f133acdb4609d129f86dd30",
+      "normalized_loaded_sha256": "0bd5dd435db88c18473d23fdf3cf206da4f2c7d79bdb87b37fa19ccd5590f9a0",
+      "changed_bytes": 125308,
+      "second_read_complete": true,
+      "live_code_stable_across_reads": true
+    }
+  ],
+  "memory_file": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\live-mpeg-47056-20261112T134903Z\\CtsMpegPlugIn.loaded-memory.bin",
+  "analysis_pe_file": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\live-mpeg-47056-20261112T134903Z\\CtsMpegPlugIn.loaded-normalized-pe.bin",
+  "analysis_derivative_warning": "Never load this derivative. Original PE layout with loaded sections, reverse DIR64 relocations, restored original IAT and preferred image base. May contain runtime-only globals; retained solely for static analysis."
+}

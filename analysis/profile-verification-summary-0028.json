@@ -1,0 +1,56 @@
+{
+  "date_local": "2026-11-13",
+  "state": "BOTH_CANDIDATES_DEPLOYED_AND_READBACK_VERIFIED",
+  "full_tests": {
+    "command": "E:/anaconda3/envs/test311/python.exe -m unittest discover -s tools/tests -v",
+    "tests": 229,
+    "elapsed_seconds": 263.668,
+    "passed": true,
+    "failures": 0,
+    "errors": 0
+  },
+  "initial_test_run": {
+    "tests": 229,
+    "elapsed_seconds": 291.433,
+    "failures": 2,
+    "cause": "Old negative fixtures treated level40/HD40 as invalid; these became valid for the new native-derived 16M profile",
+    "resolution": "Use actual contradictory per-profile values; focused verifier and full suite reruns passed"
+  },
+  "new_historical_template_focused_tests": 7,
+  "profiles": [
+    "hd50_2997",
+    "hd16_2997"
+  ],
+  "package_checks_per_candidate": 51,
+  "original_catalog_check_groups_per_candidate": 9,
+  "original_catalog_movie_counts": [
+    52,
+    53
+  ],
+  "candidate_original_reader_calls_each": 30,
+  "candidate_rtmd_frames_checked_each": [
+    0,
+    1,
+    766
+  ],
+  "candidate_original_i_frames_indexed_each": 1,
+  "full_hardware_decoder_emulated": false,
+  "profile_reference_comparison": "analysis/profile-evidence-0028.json",
+  "native_complex_rtmd_probe": "EMULATOR_TIMEOUT_PRESERVED_NOT_COUNTED_AS_SUCCESS",
+  "deployment_audit": "analysis/sd-test-round-0028.json",
+  "snapshot_comparison": "analysis/snapshot-151407-153706-0028.json",
+  "selected_control_hashes_before": "analysis/profile-control-hashes-0028-before.json",
+  "selected_control_hashes_after": "analysis/profile-control-hashes-0028-after.json",
+  "final_live_card_audit": "analysis/card-final-audit-0028.json",
+  "final_live_card_audit_passed": true,
+  "document_powershell_blocks_parsed": 4,
+  "git_diff_check_passed": true,
+  "existing_records_changed": [],
+  "new_records": [
+    118,
+    119
+  ],
+  "files_deleted": [],
+  "camera_test_table": "analysis/camera-test-round-0028.json",
+  "camera_playback": "NOT_TESTED"
+}

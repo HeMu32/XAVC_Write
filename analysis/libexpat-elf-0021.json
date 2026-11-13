@@ -1,0 +1,851 @@
+{
+  "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\firmware\\m4-v602\\usr\\lib\\libexpat.so.1.6.11",
+  "sha256": "3d1e4818ad4c83228f2cad6496f6e46324c063c91713feb421544394c54be654",
+  "header": {
+    "e_ident": {
+      "EI_MAG": [
+        127,
+        69,
+        76,
+        70
+      ],
+      "EI_CLASS": "ELFCLASS64",
+      "EI_DATA": "ELFDATA2LSB",
+      "EI_VERSION": "EV_CURRENT",
+      "EI_OSABI": "ELFOSABI_SYSV",
+      "EI_ABIVERSION": 0
+    },
+    "e_type": "ET_DYN",
+    "e_machine": "EM_AARCH64",
+    "e_version": "EV_CURRENT",
+    "e_entry": 14080,
+    "e_phoff": 64,
+    "e_shoff": 147928,
+    "e_flags": 0,
+    "e_ehsize": 64,
+    "e_phentsize": 56,
+    "e_phnum": 6,
+    "e_shentsize": 64,
+    "e_shnum": 26,
+    "e_shstrndx": 25
+  },
+  "segments": [
+    {
+      "p_type": "PT_LOAD",
+      "p_flags": 5,
+      "p_offset": 0,
+      "p_vaddr": 0,
+      "p_paddr": 0,
+      "p_filesz": 137852,
+      "p_memsz": 137852,
+      "p_align": 65536
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_flags": 6,
+      "p_offset": 139952,
+      "p_vaddr": 205488,
+      "p_paddr": 205488,
+      "p_filesz": 7688,
+      "p_memsz": 7696,
+      "p_align": 65536
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_flags": 6,
+      "p_offset": 146840,
+      "p_vaddr": 212376,
+      "p_paddr": 212376,
+      "p_filesz": 464,
+      "p_memsz": 464,
+      "p_align": 8
+    },
+    {
+      "p_type": "PT_GNU_EH_FRAME",
+      "p_flags": 4,
+      "p_offset": 122652,
+      "p_vaddr": 122652,
+      "p_paddr": 122652,
+      "p_filesz": 2300,
+      "p_memsz": 2300,
+      "p_align": 4
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_flags": 6,
+      "p_offset": 0,
+      "p_vaddr": 0,
+      "p_paddr": 0,
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_align": 16
+    },
+    {
+      "p_type": "PT_GNU_RELRO",
+      "p_flags": 4,
+      "p_offset": 139952,
+      "p_vaddr": 205488,
+      "p_paddr": 205488,
+      "p_filesz": 7504,
+      "p_memsz": 7504,
+      "p_align": 1
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "sh_name": 0,
+      "sh_type": "SHT_NULL",
+      "sh_flags": 0,
+      "sh_addr": 0,
+      "sh_offset": 0,
+      "sh_size": 0,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 0,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gnu.hash",
+      "sh_name": 11,
+      "sh_type": "SHT_GNU_HASH",
+      "sh_flags": 2,
+      "sh_addr": 400,
+      "sh_offset": 400,
+      "sh_size": 652,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".dynsym",
+      "sh_name": 21,
+      "sh_type": "SHT_DYNSYM",
+      "sh_flags": 2,
+      "sh_addr": 1056,
+      "sh_offset": 1056,
+      "sh_size": 2448,
+      "sh_link": 3,
+      "sh_info": 3,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".dynstr",
+      "sh_name": 29,
+      "sh_type": "SHT_STRTAB",
+      "sh_flags": 2,
+      "sh_addr": 3504,
+      "sh_offset": 3504,
+      "sh_size": 1923,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gnu.version",
+      "sh_name": 37,
+      "sh_type": "SHT_GNU_versym",
+      "sh_flags": 2,
+      "sh_addr": 5428,
+      "sh_offset": 5428,
+      "sh_size": 204,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 2,
+      "sh_entsize": 2
+    },
+    {
+      "name": ".gnu.version_r",
+      "sh_name": 50,
+      "sh_type": "SHT_GNU_verneed",
+      "sh_flags": 2,
+      "sh_addr": 5632,
+      "sh_offset": 5632,
+      "sh_size": 48,
+      "sh_link": 3,
+      "sh_info": 1,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".rela.dyn",
+      "sh_name": 65,
+      "sh_type": "SHT_RELA",
+      "sh_flags": 2,
+      "sh_addr": 5680,
+      "sh_offset": 5680,
+      "sh_size": 7464,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".rela.plt",
+      "sh_name": 75,
+      "sh_type": "SHT_RELA",
+      "sh_flags": 66,
+      "sh_addr": 13144,
+      "sh_offset": 13144,
+      "sh_size": 528,
+      "sh_link": 2,
+      "sh_info": 21,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".init",
+      "sh_name": 85,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 13672,
+      "sh_offset": 13672,
+      "sh_size": 20,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".plt",
+      "sh_name": 80,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 13696,
+      "sh_offset": 13696,
+      "sh_size": 384,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 16,
+      "sh_entsize": 16
+    },
+    {
+      "name": ".text",
+      "sh_name": 91,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 14080,
+      "sh_offset": 14080,
+      "sh_size": 95756,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".fini",
+      "sh_name": 97,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 109836,
+      "sh_offset": 109836,
+      "sh_size": 16,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".rodata",
+      "sh_name": 103,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 109856,
+      "sh_offset": 109856,
+      "sh_size": 12793,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".eh_frame_hdr",
+      "sh_name": 111,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 122652,
+      "sh_offset": 122652,
+      "sh_size": 2300,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".eh_frame",
+      "sh_name": 125,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 124952,
+      "sh_offset": 124952,
+      "sh_size": 12900,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".init_array",
+      "sh_name": 135,
+      "sh_type": "SHT_INIT_ARRAY",
+      "sh_flags": 3,
+      "sh_addr": 205488,
+      "sh_offset": 139952,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".fini_array",
+      "sh_name": 147,
+      "sh_type": "SHT_FINI_ARRAY",
+      "sh_flags": 3,
+      "sh_addr": 205496,
+      "sh_offset": 139960,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".jcr",
+      "sh_name": 159,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 205504,
+      "sh_offset": 139968,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".data.rel.ro",
+      "sh_name": 164,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 205512,
+      "sh_offset": 139976,
+      "sh_size": 6864,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".dynamic",
+      "sh_name": 177,
+      "sh_type": "SHT_DYNAMIC",
+      "sh_flags": 3,
+      "sh_addr": 212376,
+      "sh_offset": 146840,
+      "sh_size": 464,
+      "sh_link": 3,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 16
+    },
+    {
+      "name": ".got",
+      "sh_name": 186,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 212840,
+      "sh_offset": 147304,
+      "sh_size": 128,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".got.plt",
+      "sh_name": 191,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 212968,
+      "sh_offset": 147432,
+      "sh_size": 200,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".data",
+      "sh_name": 200,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 213168,
+      "sh_offset": 147632,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".bss",
+      "sh_name": 206,
+      "sh_type": "SHT_NOBITS",
+      "sh_flags": 3,
+      "sh_addr": 213176,
+      "sh_offset": 147640,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".comment",
+      "sh_name": 211,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 48,
+      "sh_addr": 0,
+      "sh_offset": 147640,
+      "sh_size": 64,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 1
+    },
+    {
+      "name": ".shstrtab",
+      "sh_name": 1,
+      "sh_type": "SHT_STRTAB",
+      "sh_flags": 0,
+      "sh_addr": 0,
+      "sh_offset": 147704,
+      "sh_size": 220,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    }
+  ],
+  "symbols": [
+    {
+      "name": "XML_FreeContentModel",
+      "address": "0xcd08",
+      "size": 20,
+      "demangled": "XML_FreeContentModel"
+    },
+    {
+      "name": "XML_SetEndDoctypeDeclHandler",
+      "address": "0xc220",
+      "size": 12,
+      "demangled": "XML_SetEndDoctypeDeclHandler"
+    },
+    {
+      "name": "XML_GetParsingStatus",
+      "address": "0xcb28",
+      "size": 64,
+      "demangled": "XML_GetParsingStatus"
+    },
+    {
+      "name": "XML_MemRealloc",
+      "address": "0xcd40",
+      "size": 36,
+      "demangled": "XML_MemRealloc"
+    },
+    {
+      "name": "_INTERNAL_trim_to_complete_utf8_characters",
+      "address": "0x18778",
+      "size": 176,
+      "demangled": "_INTERNAL_trim_to_complete_utf8_characters"
+    },
+    {
+      "name": "XML_ExpatVersion",
+      "address": "0xd078",
+      "size": 12,
+      "demangled": "XML_ExpatVersion"
+    },
+    {
+      "name": "XML_SetHashSalt",
+      "address": "0xc350",
+      "size": 76,
+      "demangled": "XML_SetHashSalt"
+    },
+    {
+      "name": "XML_SetStartDoctypeDeclHandler",
+      "address": "0xc210",
+      "size": 12,
+      "demangled": "XML_SetStartDoctypeDeclHandler"
+    },
+    {
+      "name": "XML_ExternalEntityParserCreate",
+      "address": "0xb9d0",
+      "size": 1576,
+      "demangled": "XML_ExternalEntityParserCreate"
+    },
+    {
+      "name": "XML_GetBuffer",
+      "address": "0xc538",
+      "size": 656,
+      "demangled": "XML_GetBuffer"
+    },
+    {
+      "name": "XML_GetCurrentColumnNumber",
+      "address": "0xcc98",
+      "size": 112,
+      "demangled": "XML_GetCurrentColumnNumber"
+    },
+    {
+      "name": "XML_SetEndCdataSectionHandler",
+      "address": "0xc1c8",
+      "size": 12,
+      "demangled": "XML_SetEndCdataSectionHandler"
+    },
+    {
+      "name": "XML_SetStartCdataSectionHandler",
+      "address": "0xc1b8",
+      "size": 12,
+      "demangled": "XML_SetStartCdataSectionHandler"
+    },
+    {
+      "name": "XML_GetCurrentByteCount",
+      "address": "0xcba8",
+      "size": 40,
+      "demangled": "XML_GetCurrentByteCount"
+    },
+    {
+      "name": "XML_DefaultCurrent",
+      "address": "0xcd80",
+      "size": 64,
+      "demangled": "XML_DefaultCurrent"
+    },
+    {
+      "name": "XML_ExpatVersionInfo",
+      "address": "0xd088",
+      "size": 32,
+      "demangled": "XML_ExpatVersionInfo"
+    },
+    {
+      "name": "XML_GetInputContext",
+      "address": "0xcbd0",
+      "size": 80,
+      "demangled": "XML_GetInputContext"
+    },
+    {
+      "name": "XML_SetExternalEntityRefHandler",
+      "address": "0xc290",
+      "size": 12,
+      "demangled": "XML_SetExternalEntityRefHandler"
+    },
+    {
+      "name": "XML_GetSpecifiedAttributeCount",
+      "address": "0xc118",
+      "size": 20,
+      "demangled": "XML_GetSpecifiedAttributeCount"
+    },
+    {
+      "name": "XML_SetUserData",
+      "address": "0xc078",
+      "size": 32,
+      "demangled": "XML_SetUserData"
+    },
+    {
+      "name": "XML_ErrorString",
+      "address": "0xcdc0",
+      "size": 696,
+      "demangled": "XML_ErrorString"
+    },
+    {
+      "name": "XML_SetElementHandler",
+      "address": "0xc148",
+      "size": 12,
+      "demangled": "XML_SetElementHandler"
+    },
+    {
+      "name": "XML_SetNamespaceDeclHandler",
+      "address": "0xc250",
+      "size": 12,
+      "demangled": "XML_SetNamespaceDeclHandler"
+    },
+    {
+      "name": "_fini",
+      "address": "0x1ad0c",
+      "size": 0,
+      "demangled": "_fini"
+    },
+    {
+      "name": "XML_GetIdAttributeIndex",
+      "address": "0xc130",
+      "size": 20,
+      "demangled": "XML_GetIdAttributeIndex"
+    },
+    {
+      "name": "XML_SetAttlistDeclHandler",
+      "address": "0xc2e8",
+      "size": 12,
+      "demangled": "XML_SetAttlistDeclHandler"
+    },
+    {
+      "name": "XML_SetReturnNSTriplet",
+      "address": "0xc050",
+      "size": 36,
+      "demangled": "XML_SetReturnNSTriplet"
+    },
+    {
+      "name": "XML_SetUnknownEncodingHandler",
+      "address": "0xc2c8",
+      "size": 16,
+      "demangled": "XML_SetUnknownEncodingHandler"
+    },
+    {
+      "name": "XML_SetCdataSectionHandler",
+      "address": "0xc1a8",
+      "size": 12,
+      "demangled": "XML_SetCdataSectionHandler"
+    },
+    {
+      "name": "XML_SetDoctypeDeclHandler",
+      "address": "0xc200",
+      "size": 12,
+      "demangled": "XML_SetDoctypeDeclHandler"
+    },
+    {
+      "name": "XML_SetDefaultHandler",
+      "address": "0xc1d8",
+      "size": 16,
+      "demangled": "XML_SetDefaultHandler"
+    },
+    {
+      "name": "_init",
+      "address": "0x3568",
+      "size": 0,
+      "demangled": "_init"
+    },
+    {
+      "name": "XML_SetCharacterDataHandler",
+      "address": "0xc178",
+      "size": 12,
+      "demangled": "XML_SetCharacterDataHandler"
+    },
+    {
+      "name": "XML_ParserCreate",
+      "address": "0xb9a0",
+      "size": 12,
+      "demangled": "XML_ParserCreate"
+    },
+    {
+      "name": "XML_SetParamEntityParsing",
+      "address": "0xc318",
+      "size": 52,
+      "demangled": "XML_SetParamEntityParsing"
+    },
+    {
+      "name": "XML_MemFree",
+      "address": "0xcd68",
+      "size": 20,
+      "demangled": "XML_MemFree"
+    },
+    {
+      "name": "XML_SetElementDeclHandler",
+      "address": "0xc2d8",
+      "size": 12,
+      "demangled": "XML_SetElementDeclHandler"
+    },
+    {
+      "name": "XML_MemMalloc",
+      "address": "0xcd20",
+      "size": 28,
+      "demangled": "XML_MemMalloc"
+    },
+    {
+      "name": "XML_SetStartNamespaceDeclHandler",
+      "address": "0xc260",
+      "size": 12,
+      "demangled": "XML_SetStartNamespaceDeclHandler"
+    },
+    {
+      "name": "XML_ParseBuffer",
+      "address": "0xc3a0",
+      "size": 408,
+      "demangled": "XML_ParseBuffer"
+    },
+    {
+      "name": "XML_UseForeignDTD",
+      "address": "0xc008",
+      "size": 68,
+      "demangled": "XML_UseForeignDTD"
+    },
+    {
+      "name": "XML_SetEncoding",
+      "address": "0xb3e8",
+      "size": 132,
+      "demangled": "XML_SetEncoding"
+    },
+    {
+      "name": "XML_UseParserAsHandlerArg",
+      "address": "0xbff8",
+      "size": 12,
+      "demangled": "XML_UseParserAsHandlerArg"
+    },
+    {
+      "name": "XML_SetEndNamespaceDeclHandler",
+      "address": "0xc270",
+      "size": 12,
+      "demangled": "XML_SetEndNamespaceDeclHandler"
+    },
+    {
+      "name": "XML_SetEndElementHandler",
+      "address": "0xc168",
+      "size": 12,
+      "demangled": "XML_SetEndElementHandler"
+    },
+    {
+      "name": "XML_GetCurrentLineNumber",
+      "address": "0xcc20",
+      "size": 120,
+      "demangled": "XML_GetCurrentLineNumber"
+    },
+    {
+      "name": "XML_SetXmlDeclHandler",
+      "address": "0xc308",
+      "size": 12,
+      "demangled": "XML_SetXmlDeclHandler"
+    },
+    {
+      "name": "XML_SetProcessingInstructionHandler",
+      "address": "0xc188",
+      "size": 12,
+      "demangled": "XML_SetProcessingInstructionHandler"
+    },
+    {
+      "name": "XML_SetStartElementHandler",
+      "address": "0xc158",
+      "size": 12,
+      "demangled": "XML_SetStartElementHandler"
+    },
+    {
+      "name": "XML_SetSkippedEntityHandler",
+      "address": "0xc2b8",
+      "size": 12,
+      "demangled": "XML_SetSkippedEntityHandler"
+    },
+    {
+      "name": "XML_ResumeParser",
+      "address": "0xca30",
+      "size": 244,
+      "demangled": "XML_ResumeParser"
+    },
+    {
+      "name": "XML_SetEntityDeclHandler",
+      "address": "0xc2f8",
+      "size": 12,
+      "demangled": "XML_SetEntityDeclHandler"
+    },
+    {
+      "name": "XML_ParserFree",
+      "address": "0xb470",
+      "size": 616,
+      "demangled": "XML_ParserFree"
+    },
+    {
+      "name": "XML_SetNotStandaloneHandler",
+      "address": "0xc280",
+      "size": 12,
+      "demangled": "XML_SetNotStandaloneHandler"
+    },
+    {
+      "name": "XML_ParserCreate_MM",
+      "address": "0xb998",
+      "size": 8,
+      "demangled": "XML_ParserCreate_MM"
+    },
+    {
+      "name": "XML_ParserCreateNS",
+      "address": "0xb9b0",
+      "size": 32,
+      "demangled": "XML_ParserCreateNS"
+    },
+    {
+      "name": "XML_SetUnparsedEntityDeclHandler",
+      "address": "0xc230",
+      "size": 12,
+      "demangled": "XML_SetUnparsedEntityDeclHandler"
+    },
+    {
+      "name": "XML_SetBase",
+      "address": "0xc098",
+      "size": 104,
+      "demangled": "XML_SetBase"
+    },
+    {
+      "name": "XML_GetBase",
+      "address": "0xc100",
+      "size": 24,
+      "demangled": "XML_GetBase"
+    },
+    {
+      "name": "XML_SetExternalEntityRefHandlerArg",
+      "address": "0xc2a0",
+      "size": 20,
+      "demangled": "XML_SetExternalEntityRefHandlerArg"
+    },
+    {
+      "name": "XML_SetCommentHandler",
+      "address": "0xc198",
+      "size": 12,
+      "demangled": "XML_SetCommentHandler"
+    },
+    {
+      "name": "XML_StopParser",
+      "address": "0xc988",
+      "size": 168,
+      "demangled": "XML_StopParser"
+    },
+    {
+      "name": "XML_GetErrorCode",
+      "address": "0xcb68",
+      "size": 24,
+      "demangled": "XML_GetErrorCode"
+    },
+    {
+      "name": "XML_GetFeatureList",
+      "address": "0xd0a8",
+      "size": 12,
+      "demangled": "XML_GetFeatureList"
+    },
+    {
+      "name": "XML_SetDefaultHandlerExpand",
+      "address": "0xc1e8",
+      "size": 20,
+      "demangled": "XML_SetDefaultHandlerExpand"
+    },
+    {
+      "name": "XML_Parse",
+      "address": "0xc7c8",
+      "size": 448,
+      "demangled": "XML_Parse"
+    },
+    {
+      "name": "XML_ParserReset",
+      "address": "0xafd8",
+      "size": 1036,
+      "demangled": "XML_ParserReset"
+    },
+    {
+      "name": "XML_SetNotationDeclHandler",
+      "address": "0xc240",
+      "size": 12,
+      "demangled": "XML_SetNotationDeclHandler"
+    },
+    {
+      "name": "XML_GetCurrentByteIndex",
+      "address": "0xcb80",
+      "size": 40,
+      "demangled": "XML_GetCurrentByteIndex"
+    }
+  ],
+  "strings": []
+}

@@ -1,0 +1,25 @@
+Follow-up under the user's authorization to consult this existing DSH session.
+Please do not resume unrelated goals, access a camera, flash firmware, or change
+any card. We only need a bounded lookup of EXISTING evidence/tools in your project.
+
+XAVC_Write now contains M4 6.02 /usr. C0008 was deployed and software-verified,
+but physical camera playback is NOT tested. UMID/date/checksums were independently
+recovered; no further work on those is requested here.
+
+New direction: /usr/codec/vcd_firmware.bin (SW_VER_13_11_10_0) contains actual
+decoder paths avcdec_ctrl.cxx, avcdec_syntax.h, dec_avc_syntax.c,
+dec_avc_slicehdr.c, dec_avc_pict_param.c and dec_avc_parse.c.
+Capstone verifies MIPS32 little-endian startup at raw +0x40 and +0x400.
+At raw +0x4300, main startup uses GP=0x802f32a0 and SP=0x804c7998.
+Provisional main address = raw offset +0x80000000, boot alias 0xbfc00000.
+Independent Ghidra project XAVC_Write/analysis/ghidra/vcd, exports under
+analysis/decompile-vcd. Main controller assertion xrefs at 0x800b7c64 /
+0x800b9c4c / 0x800bda38. Some late code >0x804e0000 accesses apparently
+conflicting globals, so these exports are NOT treated as correctly mapped.
+Other variants vcd_firmware_imola2.bin / _fpga.bin have different SW_VER values.
+
+Do you already have evidence for which variant ILCE-7M4 loads, the loader's
+module/ELF, the raw image's sections/overlays/load addresses, MIPS extensions,
+or a validated VCD/Mbp/SPU loader? Exact existing paths/addresses and confidence
+are sufficient. No new broad RE pass or speculative camera compatibility claims.
+Write a short new reply in XAVC_Write/docs/handoff-dsh-vcd.md if useful, then finish.

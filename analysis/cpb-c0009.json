@@ -1,0 +1,39 @@
+{
+  "input": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-25m-hrd\\C0009.MP4",
+  "sha256": "67392a22ff8ba52193b896178afbce2c11d2cfc42180292a6ec96fcb429eee97",
+  "timing_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\timing-c0009.json",
+  "conformance_point": "NAL unit stream; MP4 length prefixes and Annex B bytes excluded",
+  "scope": "Selected CBR CPB conditions only; no DPB/reference or full conformance check",
+  "nal_bytes_by_type": {
+    "1": 43350503,
+    "5": 37528903,
+    "6": 12219,
+    "9": 3068
+  },
+  "schedules": {
+    "nal": {
+      "rate_bits_per_second": 25000000,
+      "capacity_bits": 25000000,
+      "initialization_points": 52,
+      "access_unit_checks": 39988,
+      "peak_occupancy_bits_exact": "214159736/9",
+      "minimum_arrival_margin_seconds_exact": "31357051/112500000",
+      "failure_counts": {},
+      "failure_examples": [],
+      "passed_selected_cpb_checks": true
+    },
+    "vcl": {
+      "rate_bits_per_second": 25000000,
+      "capacity_bits": 25000000,
+      "initialization_points": 52,
+      "access_unit_checks": 39988,
+      "peak_occupancy_bits_exact": "214234400/9",
+      "minimum_arrival_margin_seconds_exact": "31681769/112500000",
+      "failure_counts": {},
+      "failure_examples": [],
+      "passed_selected_cpb_checks": true
+    }
+  },
+  "passed_selected_cpb_checks": true,
+  "camera_playback": "NOT_TESTED"
+}

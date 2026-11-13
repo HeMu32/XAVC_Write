@@ -1,0 +1,16 @@
+035a98cc: fd7bbea9 stp x29, x30, [sp, #-0x20]!
+035a98d0: fd030091 mov x29, sp
+035a98d4: f35301a9 stp x19, x20, [sp, #0x10]
+035a98d8: f30300aa mov x19, x0
+035a98dc: f40301aa mov x20, x1
+035a98e0: 00028052 mov w0, #0x10
+035a98e4: a1138052 mov w1, #0x9d
+035a98e8: 92fb0594 bl #0x3728730
+035a98ec: e10314aa mov x1, x20
+035a98f0: e00313aa mov x0, x19
+035a98f4: e29f0194 bl #0x361187c
+035a98f8: f35341a9 ldp x19, x20, [sp, #0x10]
+035a98fc: a1138052 mov w1, #0x9d
+035a9900: fd7bc2a8 ldp x29, x30, [sp], #0x20
+035a9904: 00028052 mov w0, #0x10
+035a9908: bafb0514 b #0x37287f0

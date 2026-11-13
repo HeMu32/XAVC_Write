@@ -1,0 +1,39 @@
+{
+  "date_local": "2026-11-13",
+  "full_suite": {
+    "command": "E:/anaconda3/envs/test311/python.exe -m unittest discover -s tools/tests -v",
+    "tests": 221,
+    "elapsed_seconds": 231.069,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "expected_failures": 0,
+    "exit_code": 0
+  },
+  "final_aggregate_focused_rerun": {
+    "tests": 6,
+    "elapsed_seconds": 3.715,
+    "failures": 0,
+    "exit_code": 0,
+    "includes_nrt_media_hash_mismatch_negative_control": true
+  },
+  "document_powershell_blocks_parsed": 2,
+  "git_diff_check": "Only pre-existing AGENTS.md line 1 trailing whitespace; left untouched",
+  "comprehensive_report": "analysis/repair-comprehensive-0027.json",
+  "comprehensive_report_checks": 8,
+  "original_probe_report": "analysis/repair-original-field-probes-0027.json",
+  "original_flag_cases": 1024,
+  "original_repair_assignment_cases": 4,
+  "original_photo_conversions": 46,
+  "array_occupied_slot_cases": 33,
+  "array_search_controls": 132,
+  "original_embedded_nrt_scans": 5,
+  "sdk_property_comparisons": 7,
+  "saved_metadata_files_hash_rechecked": 142,
+  "post_repair_media_hashes": 141,
+  "historically_matching_media_hashes": 31,
+  "live_card_end_audit": "UNAVAILABLE_F_DRIVE_ABSENT",
+  "card_writes_by_agent": false,
+  "post_repair_physical_playback": "NOT_REPORTED",
+  "scope": "Tests and bounded original-firmware probes, not a full camera or repair emulation. No new deployment."
+}

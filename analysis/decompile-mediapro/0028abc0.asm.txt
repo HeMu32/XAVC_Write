@@ -1,0 +1,28 @@
+0028abc0 stp x29,x30,[sp, #-0x20]!
+0028abc4 mov x29,sp
+0028abc8 ldr x0,[x0, #0x8]
+0028abcc str x19,[sp, #0x10]
+0028abd0 cbnz x0,0x0028abf8
+0028abd4 adrp x1,0x3d8000
+0028abd8 mov w3,#0xb
+0028abdc add x1,x1,#0x198
+0028abe0 mov w2,#0x2f
+0028abe4 bl 0x00290aa4
+0028abe8 mov w0,#0xb
+0028abec ldr x19,[sp, #0x10]
+0028abf0 ldp x29,x30,[sp], #0x20
+0028abf4 ret
+0028abf8 ldr x3,[x0]
+0028abfc uxtb w2,w2
+0028ac00 ldr x3,[x3, #0x18]
+0028ac04 blr x3
+0028ac08 mov w19,w0
+0028ac0c mov w0,#0x0
+0028ac10 cbz w19,0x0028abec
+0028ac14 adrp x1,0x3d8000
+0028ac18 mov w3,w19
+0028ac1c add x1,x1,#0x198
+0028ac20 mov w2,#0x35
+0028ac24 bl 0x00290aa4
+0028ac28 mov w0,w19
+0028ac2c b 0x0028abec

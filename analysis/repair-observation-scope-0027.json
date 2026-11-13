@@ -1,0 +1,12 @@
+{
+  "scope": "No post-repair camera playback/listing observations have been reported",
+  "camera_body_used_for_playback": "ILCE-7M4, based on earlier user context; repair body not separately restated",
+  "installed_camera_firmware": null,
+  "current_listing_positive_examples_not_exhaustive": [],
+  "current_listing_negative_confirmed": [],
+  "historical_pre_repair_physical_results": [
+    "analysis/camera-observations-0025-result.json",
+    "analysis/camera-observations-0026-result.json"
+  ],
+  "note": "Empty current lists prevent original-reader reports from presenting earlier listing/playback results as fresh post-repair observations. Historical successful and failed candidates remain separately documented."
+}

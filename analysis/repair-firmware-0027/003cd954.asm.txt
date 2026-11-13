@@ -1,0 +1,67 @@
+// FUN_003cd954
+// ELF VMA = Ghidra address - 0x100000
+003cd954 fd7bbca9 stp x29,x30,[sp, #-0x40]!
+003cd958 fd030091 mov x29,sp
+003cd95c f51300f9 str x21,[sp, #0x20]
+003cd960 b5c30091 add x21,x29,#0x30
+003cd964 e20315aa mov x2,x21
+003cd968 f35301a9 stp x19,x20,[sp, #0x10]
+003cd96c f30301aa mov x19,x1
+003cd970 01008052 mov w1,#0x0
+003cd974 147d8052 mov w20,#0x3e8
+003cd978 54ffff97 bl 0x003cd6c8
+003cd97c a0d3c039 ldrsb w0,[x29, #0x34]
+003cd980 02c28152 mov w2,#0xe10
+003cd984 a1d7c039 ldrsb w1,[x29, #0x35]
+003cd988 0004021b madd w0,w0,w2,w1
+003cd98c 82078052 mov w2,#0x3c
+003cd990 a1dbc039 ldrsb w1,[x29, #0x36]
+003cd994 0004021b madd w0,w0,w2,w1
+003cd998 a1738079 ldrsh x1,[x29, #0x38]
+003cd99c 0004b49b umaddl x0,w0,w20,x1
+003cd9a0 e17f40b2 orr x1,xzr,#0xffffffff
+003cd9a4 007c019b mul x0,x0,x1
+003cd9a8 01308ad2 mov x1,#0x5180
+003cd9ac 2100a0f2 movk x1,#0x1, LSL #16
+003cd9b0 0008c19a udiv x0,x0,x1
+003cd9b4 01fc48d3 lsr x1,x0,#0x8
+003cd9b8 60020039 strb w0,[x19]
+003cd9bc 61060039 strb w1,[x19, #0x1]
+003cd9c0 01fc50d3 lsr x1,x0,#0x10
+003cd9c4 00fc58d3 lsr x0,x0,#0x18
+003cd9c8 610a0039 strb w1,[x19, #0x2]
+003cd9cc 600e0039 strb w0,[x19, #0x3]
+003cd9d0 e00315aa mov x0,x21
+003cd9d4 1dfeff97 bl 0x003cd248
+003cd9d8 0100791e fcvtzu w1,d0
+003cd9dc 40018052 mov w0,#0xa
+003cd9e0 2308c01a udiv w3,w1,w0
+003cd9e4 3408d41a udiv w20,w1,w20
+003cd9e8 6208c01a udiv w2,w3,w0
+003cd9ec 428c001b msub w2,w2,w0,w3
+003cd9f0 6384001b msub w3,w3,w0,w1
+003cd9f4 6210022a orr w2,w3,w2, LSL #0x4
+003cd9f8 830c8052 mov w3,#0x64
+003cd9fc 62120039 strb w2,[x19, #0x4]
+003cda00 2308c31a udiv w3,w1,w3
+003cda04 820ac01a udiv w2,w20,w0
+003cda08 6408c01a udiv w4,w3,w0
+003cda0c 42d0001b msub w2,w2,w0,w20
+003cda10 838c001b msub w3,w4,w0,w3
+003cda14 6210022a orr w2,w3,w2, LSL #0x4
+003cda18 62160039 strb w2,[x19, #0x5]
+003cda1c 02d49052 mov w2,#0x86a0
+003cda20 2200a072 movk w2,#0x1, LSL #16
+003cda24 2308c21a udiv w3,w1,w2
+003cda28 6208c01a udiv w2,w3,w0
+003cda2c 428c001b msub w2,w2,w0,w3
+003cda30 03e28452 mov w3,#0x2710
+003cda34 2108c31a udiv w1,w1,w3
+003cda38 2308c01a udiv w3,w1,w0
+003cda3c 6184001b msub w1,w3,w0,w1
+003cda40 2110022a orr w1,w1,w2, LSL #0x4
+003cda44 611a0039 strb w1,[x19, #0x6]
+003cda48 f35341a9 ldp x19,x20,[sp, #0x10]
+003cda4c f51340f9 ldr x21,[sp, #0x20]
+003cda50 fd7bc4a8 ldp x29,x30,[sp], #0x40
+003cda54 c0035fd6 ret

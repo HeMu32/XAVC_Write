@@ -1,0 +1,5 @@
+002834b4 add x0,x0,#0xaf, LSL #12
+002834b8 ldr w1,[x0, #0xc70]
+002834bc add w1,w1,#0x1
+002834c0 str w1,[x0, #0xc70]
+002834c4 ret

@@ -1,0 +1,19 @@
+The user now explicitly asked to retry this DSH request after the earlier
+"no healthy upstream" failure. Please resume only the existing firmware-material
+handoff request, not your older unrelated goal. Do not start duplicate analyses.
+Current workspace C:\Users\HeMu\Desktop\XAVC_Write.
+The main agent has already copied M4 6.02 usr.ext2 and extracted its 997 regular
+files under firmware/m4-v602/usr, copied fwtool and started a separate headless
+Ghidra project analysis/ghidra/mpr for libmpr.so.
+New confirmed findings: sidb::Load checksums are little-endian 64-bit sums mod
+0xFFFFFFFB over specific ranges, with record checksums mod 0xFFF1. Current card
+database has a rebuilt record table, so the old fixed 0xFE024 offsets are invalid.
+An ffmpeg/x264 High L4.2 1080p 60000/1001 25M candidate C0008 has been built
+locally. SPS timing normalized, VCL HRD added along with matching buffer-period
+SEI, original PPS/slices preserved, three tracks rebuilt. All 1534 decoded frame
+hashes and timestamps exactly match base.mov. Nothing written to card yet.
+Please give any existing evidence/tools not already covered, especially codec
+decoder admission paths, libmpr / MP4 SDK analysis, SD sidb UMID reconstruction,
+record semantics, and current headless/Ghidra setup. A short path-oriented
+handoff is sufficient. Write docs/handoff-dsh-<project>.md in XAVC_Write and finish.
+No camera access, firmware flashing, card changes, or modifications in your project.

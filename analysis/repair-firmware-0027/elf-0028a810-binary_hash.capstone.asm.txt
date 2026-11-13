@@ -1,0 +1,43 @@
+// ELF SHA256: 1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532
+// Symbol: _ZN4sidb8sidbhash11binary_hashEPKhj
+// Range authority: .dynsym st_value/st_size; ELF VMAs, no Ghidra body
+// Complete range: [0x28a810, 0x28a8a4), size 0x94
+// Section: .text; symbol bytes SHA256: ef668f80024928512f71a7d4769b6be30cbc80ac0d5350ccf55472910836428c
+// Capstone: 5.0.7; AArch64 little-endian; no skipdata
+0028a810 ff4300d1 sub sp, sp, #0x10
+0028a814 ff0700f9 str xzr, [sp, #8]
+0028a818 21040034 cbz w1, #0x28a89c
+0028a81c 257c43d3 ubfx x5, x1, #3, #0x1d
+0028a820 03008052 mov w3, #0
+0028a824 020080d2 mov x2, #0
+0028a828 e403032a mov w4, w3
+0028a82c 9f0005eb cmp x4, x5
+0028a830 a2000054 b.hs #0x28a844
+0028a834 047864f8 ldr x4, [x0, x4, lsl #3]
+0028a838 63040011 add w3, w3, #1
+0028a83c 4200048b add x2, x2, x4
+0028a840 faffff17 b #0x28a828
+0028a844 26080072 ands w6, w1, #7
+0028a848 e0010054 b.eq #0x28a884
+0028a84c 21040051 sub w1, w1, #1
+0028a850 e5230091 add x5, sp, #8
+0028a854 030080d2 mov x3, #0
+0028a858 df00036b cmp w6, w3
+0028a85c 04008052 mov w4, #0
+0028a860 49000054 b.ls #0x28a868
+0028a864 04486138 ldrb w4, [x0, w1, uxtw]
+0028a868 64682538 strb w4, [x3, x5]
+0028a86c 63040091 add x3, x3, #1
+0028a870 7f2000f1 cmp x3, #8
+0028a874 21040051 sub w1, w1, #1
+0028a878 01ffff54 b.ne #0x28a858
+0028a87c e00740f9 ldr x0, [sp, #8]
+0028a880 4200008b add x2, x2, x0
+0028a884 a17f80d2 mov x1, #0x3fd
+0028a888 4008c19a udiv x0, x2, x1
+0028a88c 0088019b msub x0, x0, x1, x2
+0028a890 003c0053 uxth w0, w0
+0028a894 ff430091 add sp, sp, #0x10
+0028a898 c0035fd6 ret
+0028a89c 00008052 mov w0, #0
+0028a8a0 fdffff17 b #0x28a894

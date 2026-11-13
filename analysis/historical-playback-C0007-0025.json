@@ -1,0 +1,21 @@
+{
+  "recorded_at_local": "2026-11-13",
+  "scope": "historical_user_report_not_fresh_retest",
+  "historical_playback_positive": [
+    {
+      "clip": "C0007",
+      "source_sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+      "camera_playback": "USER_REPORTED_SUCCESS",
+      "provenance": "User workspace instructions state C0006/C0007 were successful 50Mbps 1080p 4:2:0 attempts. The supplied task history also identifies C0007 as a successful patched example.",
+      "source_hash_binding": "Current local complete reference hash; compared separately with current card C0007.",
+      "fresh_retest_on_current_visit": false,
+      "installed_camera_firmware_at_historical_success": null
+    }
+  ],
+  "current_listing_evidence": "analysis/camera_observations_20261112_233331.json",
+  "limitations": [
+    "Historical user success does not prove current playback on this visit.",
+    "Source PROF contains observed patched fields, not a validated standard profile descriptor.",
+    "This evidence qualifies a byte-preserving comparison control, not native camera origin."
+  ]
+}

@@ -1,0 +1,15 @@
+0028bbec adrp x3,0x401000
+0028bbf0 str w2,[x0, #0x10]
+0028bbf4 stp xzr,xzr,[x0, #0x18]
+0028bbf8 stp xzr,xzr,[x0, #0x28]
+0028bbfc ldr x3,[x3, #0xb98]
+0028bc00 stp xzr,xzr,[x0, #0x38]
+0028bc04 add x3,x3,#0x10
+0028bc08 stp xzr,xzr,[x0, #0x48]
+0028bc0c stp x3,x1,[x0]
+0028bc10 stp xzr,xzr,[x0, #0x58]
+0028bc14 str xzr,[x0, #0x68]
+0028bc18 str wzr,[x0, #0x70]
+0028bc1c stp xzr,xzr,[x0, #0x78]
+0028bc20 str xzr,[x0, #0x88]
+0028bc24 ret

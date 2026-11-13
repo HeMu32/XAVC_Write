@@ -1,0 +1,787 @@
+{
+  "scanned_pe_count": 189,
+  "survey_selected_module_count": 30,
+  "modules": [
+    {
+      "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cmxfapi.dll",
+      "sha256": "80b68140daad9dedad3ffa3f8a6cc7854ed17aaf0f9dab090976c500272b60f4",
+      "image_base": "0x180000000",
+      "selected_literals": [],
+      "entry_transfers": [],
+      "executable_sections": [
+        {
+          "rva": "0x1000",
+          "size": 833207,
+          "entropy": 6.259579455113124
+        }
+      ],
+      "selected_io_imports": [
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateFileW",
+          "ordinal": null,
+          "iat_va": "0x1800cd100",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FlushFileBuffers",
+          "ordinal": null,
+          "iat_va": "0x1800cd188",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WriteFile",
+          "ordinal": null,
+          "iat_va": "0x1800cd1c0",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CloseHandle",
+          "ordinal": null,
+          "iat_va": "0x1800cd260",
+          "delayed": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsMpegPlugIn.tpi",
+      "sha256": "8c39ea4f83e272a083f7cdc90b3bfe9d4e9ae02a49158091a14914ba1b508d81",
+      "image_base": "0x180000000",
+      "selected_literals": [
+        {
+          "encoding": "ascii",
+          "offset": "0x710b60",
+          "text": "D:\\Agent\\vsts-agent-win-x64-2.210.1\\_work\\28\\s\\src\\work\\PlugIn\\MPEG\\Exporter\\exXAVCS.cpp",
+          "rva": "0x711b60",
+          "va": "0x180711b60"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x726b80",
+          "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?><MediaProfile xmlns=\"http://xmlns.sony.net/pro/metadata/mediaprofile\" version=\"\" createdAt=\"\"></MediaProfile>",
+          "rva": "0x727b80",
+          "va": "0x180727b80"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x9452a8",
+          "text": ".?AVCPDClipInfoEx@CPDMediaProfile@@",
+          "rva": "0x9466a8",
+          "va": "0x1809466a8"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x9452e0",
+          "text": ".?AV?$PTypedRefObject@VCPDClipInfoEx@CPDMediaProfile@@@@",
+          "rva": "0x9466e0",
+          "va": "0x1809466e0"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x948710",
+          "text": ".?AV?$TCtsPlugInImporterMediaPropertyImpl2@UICtsPlugInImporterMediaProperty2@@@@",
+          "rva": "0x949b10",
+          "va": "0x180949b10"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x948778",
+          "text": ".?AUICtsPlugInImporterMediaProperty2@@",
+          "rva": "0x949b78",
+          "va": "0x180949b78"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x9487b0",
+          "text": ".?AUICtsPlugInImporterMediaProperty@@",
+          "rva": "0x949bb0",
+          "va": "0x180949bb0"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x9496e0",
+          "text": ".?AVCPDMediaProfile@@",
+          "rva": "0x94aae0",
+          "va": "0x18094aae0"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x949730",
+          "text": ".?AVCPDMediaProfileUpdater@@",
+          "rva": "0x94ab30",
+          "va": "0x18094ab30"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x9497a0",
+          "text": ".?AVCExportXAVCS@@",
+          "rva": "0x94aba0",
+          "va": "0x18094aba0"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x9497d0",
+          "text": ".?AV?$TExportParameter@V?$TCtsPlugInConfig@VCExportXAVCS@@@@@@",
+          "rva": "0x94abd0",
+          "va": "0x18094abd0"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x949820",
+          "text": ".?AV?$TCtsPlugInConfig@VCExportXAVCS@@@@",
+          "rva": "0x94ac20",
+          "va": "0x18094ac20"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x949860",
+          "text": ".?AVXUnknown@CExportXAVCS@@",
+          "rva": "0x94ac60",
+          "va": "0x18094ac60"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x949890",
+          "text": ".?AV?$PTypedRefObject@VCPDMediaProfileUpdater@@@@",
+          "rva": "0x94ac90",
+          "va": "0x18094ac90"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x953468",
+          "text": ".?AUIMediaProContext@XdcamEx@mpeg@@",
+          "rva": "0x954868",
+          "va": "0x180954868"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x9534a0",
+          "text": ".?AVCMediaProContext@XdcamEx@mpeg@@",
+          "rva": "0x9548a0",
+          "va": "0x1809548a0"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x953530",
+          "text": ".?AV?$_Ref_count_obj2@UMEDIAPRO@XdcamEx@mpeg@@@std@@",
+          "rva": "0x954930",
+          "va": "0x180954930"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x9537c0",
+          "text": ".?AV?$_Ref_count@VCMediaProContext@XdcamEx@mpeg@@@std@@",
+          "rva": "0x954bc0",
+          "va": "0x180954bc0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x6f90d8",
+          "text": "MediaProfile",
+          "rva": "0x6fa0d8",
+          "va": "0x1806fa0d8"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x6f94a0",
+          "text": "http://xmlns.sony.net/pro/metadata/mediaprofile",
+          "rva": "0x6fa4a0",
+          "va": "0x1806fa4a0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x6f98b0",
+          "text": "NonRealTimeMeta",
+          "rva": "0x6fa8b0",
+          "va": "0x1806fa8b0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x6f9e10",
+          "text": "urn:schemas-professionalDisc:nonRealTimeMeta:ver.2.00",
+          "rva": "0x6fae10",
+          "va": "0x1806fae10"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x6f9ef0",
+          "text": "urn:schemas-professionalDisc:nonRealTimeMeta:ver.1.30",
+          "rva": "0x6faef0",
+          "va": "0x1806faef0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x701928",
+          "text": "MEDIAPRO.XML",
+          "rva": "0x702928",
+          "va": "0x180702928"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x70f000",
+          "text": "M4ROOT\\MEDIAPRO.XML",
+          "rva": "0x710000",
+          "va": "0x180710000"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x70f028",
+          "text": "PRIVATE\\M4ROOT\\MEDIAPRO.XML",
+          "rva": "0x710028",
+          "va": "0x180710028"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x70f070",
+          "text": "M4ROOT",
+          "rva": "0x710070",
+          "va": "0x180710070"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x70f080",
+          "text": "M4ROOT\\CLIP\\",
+          "rva": "0x710080",
+          "va": "0x180710080"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x70f0a0",
+          "text": "PRIVATE\\M4ROOT\\CLIP\\",
+          "rva": "0x7100a0",
+          "va": "0x1807100a0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x7111a0",
+          "text": "D:\\Agent\\vsts-agent-win-x64-2.210.1\\_work\\28\\s\\src\\work\\PlugIn\\MPEG\\Exporter\\exXAVCS.cpp",
+          "rva": "0x7121a0",
+          "va": "0x1807121a0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x711748",
+          "text": "XAVC-M4@1.10.00",
+          "rva": "0x712748",
+          "va": "0x180712748"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x7117b8",
+          "text": "\\M4ROOT\\CLIP\\",
+          "rva": "0x7127b8",
+          "va": "0x1807127b8"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x7117d8",
+          "text": "\\PRIVATE\\M4ROOT\\CLIP\\",
+          "rva": "0x7127d8",
+          "va": "0x1807127d8"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x7268e0",
+          "text": "urn:schemas-professionalDisc:nonRealTimeMeta",
+          "rva": "0x7278e0",
+          "va": "0x1807278e0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x726ae0",
+          "text": "/x:MediaProfile/x:Properties/x:Attached/@mediaId",
+          "rva": "0x727ae0",
+          "va": "0x180727ae0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x726c28",
+          "text": "/x:MediaProfile",
+          "rva": "0x727c28",
+          "va": "0x180727c28"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x726c48",
+          "text": "/x:MediaProfile/x:Properties",
+          "rva": "0x727c48",
+          "va": "0x180727c48"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x726ca0",
+          "text": "/x:MediaProfile/x:Contents/x:Material[@umid='%s']",
+          "rva": "0x727ca0",
+          "va": "0x180727ca0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x726d08",
+          "text": "x:MediaProfile",
+          "rva": "0x727d08",
+          "va": "0x180727d08"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x726d40",
+          "text": "/x:MediaProfile/x:Contents/x:Material/x:Component[@type][@umid='%s']",
+          "rva": "0x727d40",
+          "va": "0x180727d40"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x726df8",
+          "text": "/x:MediaProfile/x:Contents",
+          "rva": "0x727df8",
+          "va": "0x180727df8"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x737a50",
+          "text": "urn:schemas-professionalDisc:nonRealTimeMeta:ver.1.40",
+          "rva": "0x738a50",
+          "va": "0x180738a50"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x737cd8",
+          "text": "MEDIAPRO.BUP",
+          "rva": "0x738cd8",
+          "va": "0x180738cd8"
+        }
+      ],
+      "entry_transfers": [
+        {
+          "export": "Startup",
+          "va": "0x18021d610",
+          "rva": "0x21d610",
+          "first_instruction": "jmp 0x180a2138b"
+        },
+        {
+          "export": "Startup_Exporter",
+          "va": "0x18021d710",
+          "rva": "0x21d710",
+          "first_instruction": "jmp 0x180a217ce"
+        },
+        {
+          "export": "Startup_Importer",
+          "va": "0x18021ee60",
+          "rva": "0x21ee60",
+          "first_instruction": "jmp 0x180a2153c"
+        }
+      ],
+      "executable_sections": [
+        {
+          "rva": "0x1000",
+          "size": 7273472,
+          "entropy": 7.0254826785532645
+        },
+        {
+          "rva": "0xa21000",
+          "size": 1956864,
+          "entropy": 7.816038310834505
+        }
+      ],
+      "selected_io_imports": [
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WriteFile",
+          "ordinal": null,
+          "iat_va": "0x1806f12a8",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateDirectoryW",
+          "ordinal": null,
+          "iat_va": "0x1806f1318",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateFileW",
+          "ordinal": null,
+          "iat_va": "0x1806f13e8",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "MoveFileW",
+          "ordinal": null,
+          "iat_va": "0x1806f13f0",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CloseHandle",
+          "ordinal": null,
+          "iat_va": "0x1806f16d0",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateFileA",
+          "ordinal": null,
+          "iat_va": "0x1806f1768",
+          "delayed": false
+        },
+        {
+          "dll": "SHLWAPI.dll",
+          "name": "SHCreateStreamOnFileW",
+          "ordinal": null,
+          "iat_va": "0x1806f2250",
+          "delayed": false
+        },
+        {
+          "dll": "WININET.dll",
+          "name": "InternetWriteFile",
+          "ordinal": null,
+          "iat_va": "0x1806f24a8",
+          "delayed": false
+        },
+        {
+          "dll": "WININET.dll",
+          "name": "InternetCloseHandle",
+          "ordinal": null,
+          "iat_va": "0x1806f24c8",
+          "delayed": false
+        },
+        {
+          "dll": "XmlLite.dll",
+          "name": "CreateXmlWriterOutputWithEncodingName",
+          "ordinal": null,
+          "iat_va": "0x1806f25a0",
+          "delayed": false
+        },
+        {
+          "dll": "XmlLite.dll",
+          "name": "CreateXmlWriter",
+          "ordinal": null,
+          "iat_va": "0x1806f25a8",
+          "delayed": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsMxfPlugIn.tpi",
+      "sha256": "218dc695afbcb77c893f97995f66bf03ff0330ece02cd45fbb33082dd1475a1a",
+      "image_base": "0x180000000",
+      "selected_literals": [
+        {
+          "encoding": "ascii",
+          "offset": "0x6b3690",
+          "text": ".?AVCPDMediaProfile@@",
+          "rva": "0x6b4e90",
+          "va": "0x1806b4e90"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x6b36e0",
+          "text": ".?AVCPDMediaProfileUpdater@@",
+          "rva": "0x6b4ee0",
+          "va": "0x1806b4ee0"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x6b3830",
+          "text": ".?AVCPDClipInfoEx@CPDMediaProfile@@",
+          "rva": "0x6b5030",
+          "va": "0x1806b5030"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x6b3890",
+          "text": ".?AV?$PTypedRefObject@VCPDMediaProfileUpdater@@@@",
+          "rva": "0x6b5090",
+          "va": "0x1806b5090"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x6b4d70",
+          "text": ".?AUICtsPlugInImporterMediaProperty@@",
+          "rva": "0x6b6570",
+          "va": "0x1806b6570"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x6b4e10",
+          "text": ".?AV?$TCtsPlugInImporterMediaPropertyImpl@UICtsPlugInImporterMediaProperty@@@@",
+          "rva": "0x6b6610",
+          "va": "0x1806b6610"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x6b5190",
+          "text": ".?AV?$TCtsPlugInImporterMediaPropertyImpl2@UICtsPlugInImporterMediaProperty2@@@@",
+          "rva": "0x6b6990",
+          "va": "0x1806b6990"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x6b51f8",
+          "text": ".?AUICtsPlugInImporterMediaProperty2@@",
+          "rva": "0x6b69f8",
+          "va": "0x1806b69f8"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x6b5798",
+          "text": ".?AV?$PTypedRefObject@VCPDMediaProfile@@@@",
+          "rva": "0x6b6f98",
+          "va": "0x1806b6f98"
+        },
+        {
+          "encoding": "ascii",
+          "offset": "0x6b9990",
+          "text": ".?AV?$PTypedRefObject@VCPDClipInfoEx@CPDMediaProfile@@@@",
+          "rva": "0x6bb190",
+          "va": "0x1806bb190"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x564e60",
+          "text": "MEDIAPRO.XML",
+          "rva": "0x566060",
+          "va": "0x180566060"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x564ed8",
+          "text": "/MEDIAPRO.XML",
+          "rva": "0x5660d8",
+          "va": "0x1805660d8"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x564f38",
+          "text": "/M4ROOT/UserData/XDROOT",
+          "rva": "0x566138",
+          "va": "0x180566138"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x564f68",
+          "text": "/M4ROOT",
+          "rva": "0x566168",
+          "va": "0x180566168"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x564f78",
+          "text": "/UserData/M4ROOT",
+          "rva": "0x566178",
+          "va": "0x180566178"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x564fa0",
+          "text": "/XDROOT/UserData/M4ROOT",
+          "rva": "0x5661a0",
+          "va": "0x1805661a0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x56aab0",
+          "text": "NonRealTimeMeta",
+          "rva": "0x56bcb0",
+          "va": "0x18056bcb0"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x575a10",
+          "text": "MediaProfile",
+          "rva": "0x576c10",
+          "va": "0x180576c10"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x575d50",
+          "text": "http://xmlns.sony.net/pro/metadata/mediaprofile",
+          "rva": "0x576f50",
+          "va": "0x180576f50"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x576620",
+          "text": "urn:schemas-professionalDisc:nonRealTimeMeta:ver.2.00",
+          "rva": "0x577820",
+          "va": "0x180577820"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x576700",
+          "text": "urn:schemas-professionalDisc:nonRealTimeMeta:ver.1.30",
+          "rva": "0x577900",
+          "va": "0x180577900"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x5845f8",
+          "text": "\\MEDIAPRO.XML",
+          "rva": "0x5857f8",
+          "va": "0x1805857f8"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x584618",
+          "text": "\\XDROOT\\MEDIAPRO.XML",
+          "rva": "0x585818",
+          "va": "0x180585818"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x584648",
+          "text": "\\PRIVATE\\XDROOT\\MEDIAPRO.XML",
+          "rva": "0x585848",
+          "va": "0x180585848"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x584688",
+          "text": "\\PXROOT\\MEDIAPRO.XML",
+          "rva": "0x585888",
+          "va": "0x180585888"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x5846b8",
+          "text": "\\PRIVATE\\PXROOT\\MEDIAPRO.XML",
+          "rva": "0x5858b8",
+          "va": "0x1805858b8"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x584710",
+          "text": "\\M4ROOT\\MEDIAPRO.XML",
+          "rva": "0x585910",
+          "va": "0x180585910"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x584740",
+          "text": "\\PRIVATE\\M4ROOT\\MEDIAPRO.XML",
+          "rva": "0x585940",
+          "va": "0x180585940"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x584868",
+          "text": "\\UserData\\M4ROOT",
+          "rva": "0x585a68",
+          "va": "0x180585a68"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x5848e8",
+          "text": "M4ROOT [",
+          "rva": "0x585ae8",
+          "va": "0x180585ae8"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x58d018",
+          "text": "M4ROOT",
+          "rva": "0x58e218",
+          "va": "0x18058e218"
+        },
+        {
+          "encoding": "utf-16le",
+          "offset": "0x58d748",
+          "text": "M4ROOT",
+          "rva": "0x58e948",
+          "va": "0x18058e948"
+        }
+      ],
+      "entry_transfers": [
+        {
+          "export": "Startup",
+          "va": "0x1802e5850",
+          "rva": "0x2e5850",
+          "first_instruction": "jmp 0x18078814e"
+        }
+      ],
+      "executable_sections": [
+        {
+          "rva": "0x1000",
+          "size": 5503488,
+          "entropy": 6.68572520406602
+        },
+        {
+          "rva": "0x788000",
+          "size": 397312,
+          "entropy": 7.31309703450705
+        }
+      ],
+      "selected_io_imports": [
+        {
+          "dll": "KERNEL32.dll",
+          "name": "MoveFileW",
+          "ordinal": null,
+          "iat_va": "0x180541280",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateDirectoryW",
+          "ordinal": null,
+          "iat_va": "0x1805412a8",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateFileW",
+          "ordinal": null,
+          "iat_va": "0x1805412b0",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FlushFileBuffers",
+          "ordinal": null,
+          "iat_va": "0x1805412d8",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WriteFile",
+          "ordinal": null,
+          "iat_va": "0x180541348",
+          "delayed": false
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CloseHandle",
+          "ordinal": null,
+          "iat_va": "0x180541470",
+          "delayed": false
+        },
+        {
+          "dll": "SHLWAPI.dll",
+          "name": "SHCreateStreamOnFileW",
+          "ordinal": null,
+          "iat_va": "0x1805419f8",
+          "delayed": false
+        },
+        {
+          "dll": "WININET.dll",
+          "name": "InternetCloseHandle",
+          "ordinal": null,
+          "iat_va": "0x180541c50",
+          "delayed": false
+        }
+      ]
+    }
+  ],
+  "database_bin_literal_hits": [],
+  "scope": "Literal presence and import/entry observations, not a proven writer call chain",
+  "card_access": false,
+  "applications_or_dlls_executed": false,
+  "limitations": [
+    "The direct xref scan does not resolve indirect dispatch or transformed code.",
+    "Missing DATABASE.BIN literals do not prove absence of database support.",
+    "The interrupted cmxfapi headless import is not a completed analysis."
+  ]
+}

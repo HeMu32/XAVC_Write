@@ -1,0 +1,63 @@
+{
+  "scope": "Selected inferred progressive slice-index conditions only; not full AVC conformance",
+  "applicable": true,
+  "unsupported_reasons": [],
+  "coded_macroblocks": 8160,
+  "expected_samples": 90,
+  "parsed_packets": 90,
+  "packet_count_matches": true,
+  "slice_count_histogram": {
+    "4": 90
+  },
+  "start_patterns": [
+    {
+      "starts": [
+        0,
+        2040,
+        4080,
+        6120
+      ],
+      "samples": 90
+    }
+  ],
+  "failures": [],
+  "passed_selected_checks": true,
+  "firmware_executed": false,
+  "camera_playback": "NOT_TESTED",
+  "input": "F:\\PRIVATE\\M4ROOT\\CLIP\\C6503.MP4",
+  "sha256": "f4c8b44ebb2986b32d69833e433e6872efd96fa8a7270991ebac2377d37f1ac9",
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-nostats",
+    "-v",
+    "info",
+    "-i",
+    "F:\\PRIVATE\\M4ROOT\\CLIP\\C6503.MP4",
+    "-map",
+    "0:v:0",
+    "-c:v",
+    "copy",
+    "-bsf:v",
+    "trace_headers",
+    "-f",
+    "null",
+    "-"
+  ],
+  "trace_log": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\C6503-native-slices.log",
+  "ffmpeg_exit_code": 0,
+  "syntax_fields": {
+    "pic_width_in_mbs_minus1": [
+      119
+    ],
+    "pic_height_in_map_units_minus1": [
+      67
+    ],
+    "frame_mbs_only_flag": [
+      1
+    ],
+    "num_slice_groups_minus1": [
+      0
+    ]
+  }
+}

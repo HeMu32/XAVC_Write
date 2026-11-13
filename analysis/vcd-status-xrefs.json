@@ -1,0 +1,1549 @@
+{
+  "program": "vcd_firmware_imola2.bin",
+  "language": "MIPS:LE:32:sony-ucp-opaque",
+  "scope": "Recovered direct references only; indirect references may be missing",
+  "words": [
+    {
+      "address": "807c0368",
+      "references": [
+        {
+          "from": "8078f088",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078f04c",
+          "instruction": "lw t4,0x1288(gp)"
+        },
+        {
+          "from": "8078f094",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078f04c",
+          "instruction": "sw a0,0x1288(gp)"
+        },
+        {
+          "from": "8078f0d4",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078f0c4",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078f0e0",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078f0c4",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078f0ac",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078f0a0",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078f0b8",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078f0a0",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078f16c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078f160",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078f178",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078f160",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078f148",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078f13c",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078f154",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078f13c",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078f1e8",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078f1cc",
+          "instruction": "lw a0,0x1288(gp)"
+        },
+        {
+          "from": "8078f1f0",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078f1cc",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078f190",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078f184",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078f19c",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078f184",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078f2c0",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078f298",
+          "instruction": "lw a0,0x1288(gp)"
+        },
+        {
+          "from": "8078f2cc",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078f298",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078ea8c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ea68",
+          "instruction": "lw a0,0x1288(gp)"
+        },
+        {
+          "from": "8078ea94",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ea68",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078eaac",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ea68",
+          "instruction": "sw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078eacc",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ea68",
+          "instruction": "lw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078eae8",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ea68",
+          "instruction": "lw t1,0x1288(gp)"
+        },
+        {
+          "from": "8078eaf4",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ea68",
+          "instruction": "sw t0,0x1288(gp)"
+        },
+        {
+          "from": "8078ea4c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ea40",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078ea5c",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ea40",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078eb94",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078eb58",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078eba4",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078eb58",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078eb3c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078eb00",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078eb4c",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078eb00",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ebdc",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ebb0",
+          "instruction": "lw a3,0x1288(gp)"
+        },
+        {
+          "from": "8078ebe8",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ebb0",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ecb0",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ec74",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078ecc0",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ec74",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ec58",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ec18",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078ec68",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ec18",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ed08",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078eccc",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078ed18",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078eccc",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ed60",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ed24",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078ed70",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ed24",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ede4",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078eda0",
+          "instruction": "lw t2,0x1288(gp)"
+        },
+        {
+          "from": "8078edf0",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078eda0",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078ef54",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ef0c",
+          "instruction": "lw t4,0x1288(gp)"
+        },
+        {
+          "from": "8078ef64",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ef0c",
+          "instruction": "sw t3,0x1288(gp)"
+        },
+        {
+          "from": "8078f024",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078eff4",
+          "instruction": "lw a3,0x1288(gp)"
+        },
+        {
+          "from": "8078f030",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078eff4",
+          "instruction": "sw a0,0x1288(gp)"
+        },
+        {
+          "from": "8078efd8",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078efc8",
+          "instruction": "lw a3,0x1288(gp)"
+        },
+        {
+          "from": "8078efe8",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078efc8",
+          "instruction": "sw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078eef0",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078eee4",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078ef00",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078eee4",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078eea8",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078eea0",
+          "instruction": "lw a0,0x1288(gp)"
+        },
+        {
+          "from": "8078eeb0",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078eea0",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078ee88",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ee7c",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ee94",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ee7c",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078eec8",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078eebc",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078eed8",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078eebc",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ef8c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ef7c",
+          "instruction": "lw a3,0x1288(gp)"
+        },
+        {
+          "from": "8078ef9c",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ef7c",
+          "instruction": "sw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078efb0",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078efa8",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078efbc",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078efa8",
+          "instruction": "sw a0,0x1288(gp)"
+        },
+        {
+          "from": "8078f280",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078f264",
+          "instruction": "lw a3,0x1288(gp)"
+        },
+        {
+          "from": "8078f28c",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078f264",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ee3c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ee2c",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078ee48",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ee2c",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078ed88",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ed7c",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ed94",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ed7c",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078e980",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078e980",
+          "instruction": "sw zero,0x1288(gp)"
+        },
+        {
+          "from": "8078ee14",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ee08",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8078ee20",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ee08",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078ee64",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078ee54",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8078ee70",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8078ee54",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8078e974",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8078e974",
+          "instruction": "lw v0,0x1288(gp)"
+        }
+      ],
+      "functions": [
+        {
+          "function": "8078f04c",
+          "name": "FUN_8078f04c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078f0c4",
+          "name": "FUN_8078f0c4",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078f0a0",
+          "name": "FUN_8078f0a0",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078f160",
+          "name": "FUN_8078f160",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078f13c",
+          "name": "FUN_8078f13c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078f1cc",
+          "name": "FUN_8078f1cc",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078f184",
+          "name": "FUN_8078f184",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078f298",
+          "name": "FUN_8078f298",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ea68",
+          "name": "FUN_8078ea68",
+          "reads": 3,
+          "writes": 3
+        },
+        {
+          "function": "8078ea40",
+          "name": "FUN_8078ea40",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078eb58",
+          "name": "FUN_8078eb58",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078eb00",
+          "name": "FUN_8078eb00",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ebb0",
+          "name": "FUN_8078ebb0",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ec74",
+          "name": "FUN_8078ec74",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ec18",
+          "name": "FUN_8078ec18",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078eccc",
+          "name": "FUN_8078eccc",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ed24",
+          "name": "FUN_8078ed24",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078eda0",
+          "name": "FUN_8078eda0",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ef0c",
+          "name": "FUN_8078ef0c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078eff4",
+          "name": "FUN_8078eff4",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078efc8",
+          "name": "FUN_8078efc8",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078eee4",
+          "name": "FUN_8078eee4",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078eea0",
+          "name": "FUN_8078eea0",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ee7c",
+          "name": "FUN_8078ee7c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078eebc",
+          "name": "FUN_8078eebc",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ef7c",
+          "name": "FUN_8078ef7c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078efa8",
+          "name": "FUN_8078efa8",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078f264",
+          "name": "FUN_8078f264",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ee2c",
+          "name": "FUN_8078ee2c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ed7c",
+          "name": "FUN_8078ed7c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078e980",
+          "name": "FUN_8078e980",
+          "reads": 0,
+          "writes": 1
+        },
+        {
+          "function": "8078ee08",
+          "name": "FUN_8078ee08",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078ee54",
+          "name": "FUN_8078ee54",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8078e974",
+          "name": "FUN_8078e974",
+          "reads": 1,
+          "writes": 0
+        }
+      ]
+    },
+    {
+      "address": "8096b368",
+      "references": [
+        {
+          "from": "8093a0ac",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8093a0a0",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8093a0b8",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8093a0a0",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8093a0d4",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8093a0c4",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "8093a0e0",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8093a0c4",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8093a088",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8093a04c",
+          "instruction": "lw t4,0x1288(gp)"
+        },
+        {
+          "from": "8093a094",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8093a04c",
+          "instruction": "sw a0,0x1288(gp)"
+        },
+        {
+          "from": "8093a190",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8093a184",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8093a19c",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8093a184",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8093a1e8",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8093a1cc",
+          "instruction": "lw a0,0x1288(gp)"
+        },
+        {
+          "from": "8093a1f0",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8093a1cc",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8093a148",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8093a13c",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8093a154",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8093a13c",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8093a16c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8093a160",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "8093a178",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8093a160",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8093a2c0",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8093a298",
+          "instruction": "lw a0,0x1288(gp)"
+        },
+        {
+          "from": "8093a2cc",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8093a298",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "80939a4c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939a40",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939a5c",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939a40",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939a8c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939a68",
+          "instruction": "lw a0,0x1288(gp)"
+        },
+        {
+          "from": "80939a94",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939a68",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "80939aac",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939a68",
+          "instruction": "sw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939acc",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939a68",
+          "instruction": "lw v1,0x1288(gp)"
+        },
+        {
+          "from": "80939ae8",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939a68",
+          "instruction": "lw t1,0x1288(gp)"
+        },
+        {
+          "from": "80939af4",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939a68",
+          "instruction": "sw t0,0x1288(gp)"
+        },
+        {
+          "from": "80939bdc",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939bb0",
+          "instruction": "lw a3,0x1288(gp)"
+        },
+        {
+          "from": "80939be8",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939bb0",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939b3c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939b00",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939b4c",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939b00",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939b94",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939b58",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939ba4",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939b58",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939d08",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939ccc",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939d18",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939ccc",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939c58",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939c18",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939c68",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939c18",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939cb0",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939c74",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939cc0",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939c74",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939de4",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939da0",
+          "instruction": "lw t2,0x1288(gp)"
+        },
+        {
+          "from": "80939df0",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939da0",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "80939d60",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939d24",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939d70",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939d24",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939fd8",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939fc8",
+          "instruction": "lw a3,0x1288(gp)"
+        },
+        {
+          "from": "80939fe8",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939fc8",
+          "instruction": "sw a2,0x1288(gp)"
+        },
+        {
+          "from": "8093a024",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939ff4",
+          "instruction": "lw a3,0x1288(gp)"
+        },
+        {
+          "from": "8093a030",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939ff4",
+          "instruction": "sw a0,0x1288(gp)"
+        },
+        {
+          "from": "80939f54",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939f0c",
+          "instruction": "lw t4,0x1288(gp)"
+        },
+        {
+          "from": "80939f64",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939f0c",
+          "instruction": "sw t3,0x1288(gp)"
+        },
+        {
+          "from": "80939e88",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939e7c",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939ec8",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939ebc",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939e94",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939e7c",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "80939ed8",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939ebc",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939fb0",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939fa8",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939f8c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939f7c",
+          "instruction": "lw a3,0x1288(gp)"
+        },
+        {
+          "from": "80939fbc",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939fa8",
+          "instruction": "sw a0,0x1288(gp)"
+        },
+        {
+          "from": "80939f9c",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939f7c",
+          "instruction": "sw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939ef0",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939ee4",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939f00",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939ee4",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939ea8",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939ea0",
+          "instruction": "lw a0,0x1288(gp)"
+        },
+        {
+          "from": "80939eb0",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939ea0",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "80939e14",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939e08",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939e20",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939e08",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "80939980",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939980",
+          "instruction": "sw zero,0x1288(gp)"
+        },
+        {
+          "from": "80939e64",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939e54",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939e70",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939e54",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "80939e3c",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939e2c",
+          "instruction": "lw a2,0x1288(gp)"
+        },
+        {
+          "from": "80939e48",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939e2c",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "8093a280",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "8093a264",
+          "instruction": "lw a3,0x1288(gp)"
+        },
+        {
+          "from": "8093a28c",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "8093a264",
+          "instruction": "sw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939d88",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939d7c",
+          "instruction": "lw a1,0x1288(gp)"
+        },
+        {
+          "from": "80939d94",
+          "type": "WRITE",
+          "read": false,
+          "write": true,
+          "function": "80939d7c",
+          "instruction": "sw v1,0x1288(gp)"
+        },
+        {
+          "from": "80939974",
+          "type": "READ",
+          "read": true,
+          "write": false,
+          "function": "80939974",
+          "instruction": "lw v0,0x1288(gp)"
+        }
+      ],
+      "functions": [
+        {
+          "function": "8093a0a0",
+          "name": "FUN_8093a0a0",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8093a0c4",
+          "name": "FUN_8093a0c4",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8093a04c",
+          "name": "FUN_8093a04c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8093a184",
+          "name": "FUN_8093a184",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8093a1cc",
+          "name": "FUN_8093a1cc",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8093a13c",
+          "name": "FUN_8093a13c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8093a160",
+          "name": "FUN_8093a160",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8093a298",
+          "name": "FUN_8093a298",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939a40",
+          "name": "FUN_80939a40",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939a68",
+          "name": "FUN_80939a68",
+          "reads": 3,
+          "writes": 3
+        },
+        {
+          "function": "80939bb0",
+          "name": "FUN_80939bb0",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939b00",
+          "name": "FUN_80939b00",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939b58",
+          "name": "FUN_80939b58",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939ccc",
+          "name": "FUN_80939ccc",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939c18",
+          "name": "FUN_80939c18",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939c74",
+          "name": "FUN_80939c74",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939da0",
+          "name": "FUN_80939da0",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939d24",
+          "name": "FUN_80939d24",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939fc8",
+          "name": "FUN_80939fc8",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939ff4",
+          "name": "FUN_80939ff4",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939f0c",
+          "name": "FUN_80939f0c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939e7c",
+          "name": "FUN_80939e7c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939ebc",
+          "name": "FUN_80939ebc",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939fa8",
+          "name": "FUN_80939fa8",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939f7c",
+          "name": "FUN_80939f7c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939ee4",
+          "name": "FUN_80939ee4",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939ea0",
+          "name": "FUN_80939ea0",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939e08",
+          "name": "FUN_80939e08",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939980",
+          "name": "FUN_80939980",
+          "reads": 0,
+          "writes": 1
+        },
+        {
+          "function": "80939e54",
+          "name": "FUN_80939e54",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939e2c",
+          "name": "FUN_80939e2c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "8093a264",
+          "name": "FUN_8093a264",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939d7c",
+          "name": "FUN_80939d7c",
+          "reads": 1,
+          "writes": 1
+        },
+        {
+          "function": "80939974",
+          "name": "FUN_80939974",
+          "reads": 1,
+          "writes": 0
+        }
+      ]
+    }
+  ]
+}

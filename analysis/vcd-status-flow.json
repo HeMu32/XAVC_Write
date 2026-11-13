@@ -1,0 +1,873 @@
+{
+  "firmware": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\firmware\\m4-v602\\usr\\codec\\vcd_firmware_imola2.bin",
+  "sha256": "15e75a9732e2f9904ada1c919c631dac0da57e605ce3daa4c6fb2ebe98982b5b",
+  "unicorn": "2.1.4",
+  "passed_ordering_hypothesis": true,
+  "unicorn_cpu_model": "MIPS32 24KF",
+  "nal_parser_hooked": true,
+  "hardware_boundaries_hooked": true,
+  "guest_boundary_instructions_patched": true,
+  "guest_boundary_stubs": [
+    {
+      "address": "0x80787a24",
+      "original_hex": "c0ffbd272140800020000324",
+      "guest_stub_hex": "211000000800e00300000000"
+    },
+    {
+      "address": "0x80792cf4",
+      "original_hex": "d0ffbd272c00bfaf2800b2af219080002400b1af2000b0af2180a0000000a390a63c1e0c21206000",
+      "guest_stub_hex": "7c80083c680308350081093c0050298d01000a24000009ad00008aa0211000000800e00300000000"
+    },
+    {
+      "address": "0x80794380",
+      "original_hex": "e0ffbd271800b2af219080001400b1af1000b0af1c00bfaf",
+      "guest_stub_hex": "0100033c07236334000083ac211000000800e00300000000"
+    },
+    {
+      "address": "0x807985d0",
+      "original_hex": "0400a01421308000ffff0324",
+      "guest_stub_hex": "211000000800e00300000000"
+    },
+    {
+      "address": "0x807991f4",
+      "original_hex": "5c1a868fc0ff02242420c200",
+      "guest_stub_hex": "211000000800e00300000000"
+    },
+    {
+      "address": "0x807992ec",
+      "original_hex": "01000324581383a30800e003",
+      "guest_stub_hex": "211000000800e00300000000"
+    },
+    {
+      "address": "0x807992fc",
+      "original_hex": "541380af0800e00300000000",
+      "guest_stub_hex": "211000000800e00300000000"
+    },
+    {
+      "address": "0x80932a24",
+      "original_hex": "c0ffbd272140800020000324",
+      "guest_stub_hex": "211000000800e00300000000"
+    },
+    {
+      "address": "0x8093dcf4",
+      "original_hex": "d0ffbd272c00bfaf2800b2af219080002400b1af2000b0af2180a0000000a390a6e8240c21206000",
+      "guest_stub_hex": "9680083c68b308350081093c0050298d01000a24000009ad00008aa0211000000800e00300000000"
+    },
+    {
+      "address": "0x8093f380",
+      "original_hex": "e0ffbd271800b2af219080001400b1af1000b0af1c00bfaf",
+      "guest_stub_hex": "0100033c07236334000083ac211000000800e00300000000"
+    },
+    {
+      "address": "0x809435d0",
+      "original_hex": "0400a01421308000ffff0324",
+      "guest_stub_hex": "211000000800e00300000000"
+    },
+    {
+      "address": "0x809441f4",
+      "original_hex": "5c1a868fc0ff02242420c200",
+      "guest_stub_hex": "211000000800e00300000000"
+    },
+    {
+      "address": "0x809442ec",
+      "original_hex": "01000324581383a30800e003",
+      "guest_stub_hex": "211000000800e00300000000"
+    },
+    {
+      "address": "0x809442fc",
+      "original_hex": "541380af0800e00300000000",
+      "guest_stub_hex": "211000000800e00300000000"
+    }
+  ],
+  "wrapper_instructions_patched": false,
+  "on_disk_firmware_modified": false,
+  "full_decoder_emulated": false,
+  "full_bulk_wrapper_emulated": false,
+  "bulk_tail_preconditions_seeded": true,
+  "full_bulk_limit": "Unicorn guest interrupt 20 after 0x80792194; not a camera result",
+  "camera_playback": "NOT_TESTED",
+  "cases": [
+    {
+      "variant": "single",
+      "core": "a",
+      "entry": "0x80792530",
+      "injected_parser_flags": 0,
+      "output_flags": 0,
+      "global_flags_after": 0,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 0,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 0,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "a",
+      "entry": "0x80792530",
+      "injected_parser_flags": 4,
+      "output_flags": 0,
+      "global_flags_after": 4,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        4
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 4,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 4,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "a",
+      "entry": "0x80792530",
+      "injected_parser_flags": 32,
+      "output_flags": 0,
+      "global_flags_after": 32,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        32
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 32,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 32,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "a",
+      "entry": "0x80792530",
+      "injected_parser_flags": 32768,
+      "output_flags": 0,
+      "global_flags_after": 32768,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        32768
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 32768,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 32768,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "a",
+      "entry": "0x80792530",
+      "injected_parser_flags": 1048576,
+      "output_flags": 0,
+      "global_flags_after": 1048576,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        1048576
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 1048576,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 1048576,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "a",
+      "entry": "0x80792530",
+      "injected_parser_flags": 4294967295,
+      "output_flags": 0,
+      "global_flags_after": 4294967295,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        4294967295
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 4294967295,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 4294967295,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "a",
+      "entry": "0x80792194",
+      "injected_parser_flags": 0,
+      "output_flags": 0,
+      "global_flags_after": 0,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "a",
+      "entry": "0x80792194",
+      "injected_parser_flags": 4,
+      "output_flags": 4,
+      "global_flags_after": 0,
+      "diagnostic_flags": 4,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 4
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "a",
+      "entry": "0x80792194",
+      "injected_parser_flags": 32,
+      "output_flags": 32,
+      "global_flags_after": 0,
+      "diagnostic_flags": 32,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 32
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "a",
+      "entry": "0x80792194",
+      "injected_parser_flags": 32768,
+      "output_flags": 32768,
+      "global_flags_after": 0,
+      "diagnostic_flags": 32768,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 32768
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "a",
+      "entry": "0x80792194",
+      "injected_parser_flags": 1048576,
+      "output_flags": 1048576,
+      "global_flags_after": 0,
+      "diagnostic_flags": 1048576,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 1048576
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "a",
+      "entry": "0x80792194",
+      "injected_parser_flags": 4294967295,
+      "output_flags": 4294967295,
+      "global_flags_after": 0,
+      "diagnostic_flags": 4294967295,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 4294967295
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "b",
+      "entry": "0x8093d530",
+      "injected_parser_flags": 0,
+      "output_flags": 0,
+      "global_flags_after": 0,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 0,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 0,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "b",
+      "entry": "0x8093d530",
+      "injected_parser_flags": 4,
+      "output_flags": 0,
+      "global_flags_after": 4,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        4
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 4,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 4,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "b",
+      "entry": "0x8093d530",
+      "injected_parser_flags": 32,
+      "output_flags": 0,
+      "global_flags_after": 32,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        32
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 32,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 32,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "b",
+      "entry": "0x8093d530",
+      "injected_parser_flags": 32768,
+      "output_flags": 0,
+      "global_flags_after": 32768,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        32768
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 32768,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 32768,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "b",
+      "entry": "0x8093d530",
+      "injected_parser_flags": 1048576,
+      "output_flags": 0,
+      "global_flags_after": 1048576,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        1048576
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 1048576,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 1048576,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "single",
+      "core": "b",
+      "entry": "0x8093d530",
+      "injected_parser_flags": 4294967295,
+      "output_flags": 0,
+      "global_flags_after": 4294967295,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0,
+        4294967295
+      ],
+      "events": [
+        {
+          "hook": "0x807992fc",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x807992ec",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 4294967295,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80792cf4",
+          "role": "modeled NAL parser completion",
+          "flags_set": 4294967295,
+          "stop_pointer": "0x81007fd0"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "b",
+      "entry": "0x8093d194",
+      "injected_parser_flags": 0,
+      "output_flags": 0,
+      "global_flags_after": 0,
+      "diagnostic_flags": 0,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 0
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "b",
+      "entry": "0x8093d194",
+      "injected_parser_flags": 4,
+      "output_flags": 4,
+      "global_flags_after": 0,
+      "diagnostic_flags": 4,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 4
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "b",
+      "entry": "0x8093d194",
+      "injected_parser_flags": 32,
+      "output_flags": 32,
+      "global_flags_after": 0,
+      "diagnostic_flags": 32,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 32
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "b",
+      "entry": "0x8093d194",
+      "injected_parser_flags": 32768,
+      "output_flags": 32768,
+      "global_flags_after": 0,
+      "diagnostic_flags": 32768,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 32768
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "b",
+      "entry": "0x8093d194",
+      "injected_parser_flags": 1048576,
+      "output_flags": 1048576,
+      "global_flags_after": 0,
+      "diagnostic_flags": 1048576,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 1048576
+        }
+      ]
+    },
+    {
+      "variant": "bulk_tail",
+      "core": "b",
+      "entry": "0x8093d194",
+      "injected_parser_flags": 4294967295,
+      "output_flags": 4294967295,
+      "global_flags_after": 0,
+      "diagnostic_flags": 4294967295,
+      "guest_flag_write_callbacks": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "hook": "0x807991f4",
+          "role": "opaque setup/drain boundary"
+        },
+        {
+          "hook": "0x80787a24",
+          "role": "modeled diagnostic sink",
+          "flags_argument": 4294967295
+        }
+      ]
+    }
+  ],
+  "event_log_semantics": "Hook callbacks can repeat; not an instruction-execution count",
+  "scope": "Original wrapper/getter/reset instructions, modeled boundary behavior only"
+}

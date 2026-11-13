@@ -1,0 +1,26 @@
+{
+  "language": "MIPS:LE:32:sony-ucp-opaque",
+  "analysis_only": true,
+  "hardware_emulation": false,
+  "compiler": "E:\\Program Files\\ghidra_12.1.4_PUBLIC\\Ghidra\\Features\\Decompiler\\os\\win_x86_64\\sleigh.exe",
+  "command": [
+    "E:\\Program Files\\ghidra_12.1.4_PUBLIC\\Ghidra\\Features\\Decompiler\\os\\win_x86_64\\sleigh.exe",
+    "E:\\Program Files\\ghidra_12.1.4_PUBLIC\\Ghidra\\Processors\\MIPS\\data\\languages\\sony_ucp32le.slaspec",
+    "E:\\Program Files\\ghidra_12.1.4_PUBLIC\\Ghidra\\Processors\\MIPS\\data\\languages\\sony_ucp32le.sla"
+  ],
+  "compiler_exit": 0,
+  "installed": [
+    {
+      "path": "E:\\Program Files\\ghidra_12.1.4_PUBLIC\\Ghidra\\Processors\\MIPS\\data\\languages\\sony_ucp32le.slaspec",
+      "sha256": "2e860c3f227aeae4e2cdf076583f6855acf517c4992a32114567328bce46e809"
+    },
+    {
+      "path": "E:\\Program Files\\ghidra_12.1.4_PUBLIC\\Ghidra\\Processors\\MIPS\\data\\languages\\sony_ucp.ldefs",
+      "sha256": "323dfa033044a2a72ec03f4e680d606a3c5c1904cfd5bda7564c830748d99224"
+    },
+    {
+      "path": "E:\\Program Files\\ghidra_12.1.4_PUBLIC\\Ghidra\\Processors\\MIPS\\data\\languages\\sony_ucp32le.sla",
+      "sha256": "e1bbc1b1ed1ca7972b768d8c40d44948aafe4c691ec7d014776e12913d09401c"
+    }
+  ]
+}

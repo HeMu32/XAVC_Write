@@ -1,0 +1,218 @@
+[
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\inputs\\m4-v602\\usr.ext2",
+    "copy": "firmware\\m4-v602\\usr.ext2",
+    "sha256": "b33408130538b6b34b3fe196d455bfce6f404a207a5567a0ab13e933024c8637",
+    "bytes": 378580992
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool.py",
+    "sha256": "2840c297815dcff83ed75693a7b0c78769f54fef622cfcd54aa253c70b6d6808",
+    "bytes": 10907
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\LICENSE.txt",
+    "copy": "firmware\\tools\\fwtool\\LICENSE.txt",
+    "sha256": "a485f27d0b22eb7fd9b9419795695d0a1750ea32c961d11c1dd8ddade564dedf",
+    "bytes": 1072
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\README.md",
+    "copy": "firmware\\tools\\fwtool\\README.md",
+    "sha256": "3433c8ceb05fc28e79306bc871c93191e98d006ffb560b8a2a5ca113dfeb2cd0",
+    "bytes": 1250
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\requirements.txt",
+    "copy": "firmware\\tools\\fwtool\\requirements.txt",
+    "sha256": "695864b34ea9a70a2fec2e4925b5ebd42afb2c0fdba83e9fca9358fd20b647f9",
+    "bytes": 33
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\__init__.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\archive\\axfs.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\archive\\axfs.py",
+    "sha256": "a87616bd803f1ee145f37cbaf117e81e463ba38359e4f009bc7f882c78240920",
+    "bytes": 3572
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\archive\\cpio.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\archive\\cpio.py",
+    "sha256": "22b97142da05d6d23520deaefa370d5cae4cb5304e2e733aca07941f0db66c25",
+    "bytes": 1443
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\archive\\cramfs.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\archive\\cramfs.py",
+    "sha256": "0dccfc895ab0635b7ebbd134fb38f4ed5ab34580b27d0b17c4a51d3ce975affd",
+    "bytes": 5239
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\archive\\ext2.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\archive\\ext2.py",
+    "sha256": "d6a8656844e864751efe37c2c141e6087f9f76773eacafdf6cf833c3b6e5a379",
+    "bytes": 3421
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\archive\\fat.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\archive\\fat.py",
+    "sha256": "1430374a905ea2e55f2813b4c8c3b7a050798e1c03a0ecc95eb6d20228e84828",
+    "bytes": 8247
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\archive\\gz.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\archive\\gz.py",
+    "sha256": "aeb66c01e272a81cc5ca54b9e679359353430addc044170acfb2751c62263319",
+    "bytes": 633
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\archive\\lzpt.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\archive\\lzpt.py",
+    "sha256": "771f6a8197f8b16c0a6fd2816ca4b8aae550a78d5a0c116e9097a26ba83a1f4b",
+    "bytes": 1468
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\archive\\squashfs.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\archive\\squashfs.py",
+    "sha256": "0b39db150ae4ce02191736b2dfaaa5e65e075136c308d7140922f5d1f5163324",
+    "bytes": 7864
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\archive\\tar.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\archive\\tar.py",
+    "sha256": "e42b1d2c1c996e5fa2b2242e62efdf080aa74bc3a1537f9dccb42093641c9318",
+    "bytes": 1139
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\archive\\__init__.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\archive\\__init__.py",
+    "sha256": "01e99b6b3e86184e397c1328d92a38b53db6058721819d64a62cb0d45ece526a",
+    "bytes": 711
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\io\\__init__.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\io\\__init__.py",
+    "sha256": "6981352a7a39e1427555468e11ef301b7e4bc3e40ae02b09e86e05a2d96e6963",
+    "bytes": 1942
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\lz77\\__init__.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\lz77\\__init__.py",
+    "sha256": "dc1407237c002545b08530b96d4efc1eadd24021ae6efc54688408850584c197",
+    "bytes": 838
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\lzh\\__init__.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\lzh\\__init__.py",
+    "sha256": "8fb5a451128f7e8996a7d452b2eb846896c7c394638eec50e5add6a3077aa489",
+    "bytes": 1140
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\mbr\\__init__.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\mbr\\__init__.py",
+    "sha256": "565771758632031048768d2135976c2cd97b36799bd25bdc4f16901934c04a5f",
+    "bytes": 1541
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\pe\\__init__.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\pe\\__init__.py",
+    "sha256": "1053d39910a1be15fb048cfedf913ec8498428fe81bce91d0d96ef2dc9edf7d0",
+    "bytes": 1372
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\ash.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\ash.py",
+    "sha256": "20a6e6299e3512f7257a2b91a27d12ff33c5b6f33e51b7335f8ec011e2d2ef09",
+    "bytes": 1372
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\bootloader.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\bootloader.py",
+    "sha256": "161d9ccbd680d947c318a07e6706b3ce279f46c59a82d38bbbf5af38823c1504",
+    "bytes": 1867
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\constants.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\constants.py",
+    "sha256": "f9ff02a3889b587cd5bad5f4362fb73fee2f8f3591fc3ed6003eb8ac92d0622a",
+    "bytes": 2312
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\dat.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\dat.py",
+    "sha256": "5f5c1324649ee6c1719b14d5fc3b829741daf904c5f79da2ddcab10ef17f8d8e",
+    "bytes": 4538
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\dslr.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\dslr.py",
+    "sha256": "67b3d70ab002cbf3e3297293e0023c380c238d9a35e22a861d57a361057b9e01",
+    "bytes": 2095
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\fdat.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\fdat.py",
+    "sha256": "ea1feccdc115fa46cdb29061cfa6cd1bb7277bb454892c0c7f8e9f6257c6d628",
+    "bytes": 9791
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\flash.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\flash.py",
+    "sha256": "a1a8dd928091f4004995879ef897947bff010940a4c79c91e464c45f853d571c",
+    "bytes": 1896
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\msfirm.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\msfirm.py",
+    "sha256": "491a3693c69c7c85de0484ad07163a44536589ede00fa7b3c729879d85e9524e",
+    "bytes": 5542
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\wbi.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\wbi.py",
+    "sha256": "21b672eafc5f6f71fd02e87b3e5444047c5df34971a951877c4b80b79f5c6dc1",
+    "bytes": 2124
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\xor55.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\xor55.py",
+    "sha256": "de2436b832be580ff1955df9ad507b2e0c4bb96e6e93380ec0c90a0399962224",
+    "bytes": 653
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\sony\\__init__.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\sony\\__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\util\\__init__.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\util\\__init__.py",
+    "sha256": "befbfdb6f5a096f4cc33ca68a5cd5690dbc67b630aa0a56e007fec90f45596b6",
+    "bytes": 1934
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\fwtool\\fwtool\\zip\\__init__.py",
+    "copy": "firmware\\tools\\fwtool\\fwtool\\zip\\__init__.py",
+    "sha256": "d6b0e01525654301adbf1668ef27b801761e7230f8753b09c2ca96c8b569c165",
+    "bytes": 1241
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\DecompileFunc.java",
+    "copy": "firmware\\tools\\DecompileFunc.java",
+    "sha256": "404cec3b8d33eadc55d58273045a60676bae8f5ca61761b37c942145d0fc2fc0",
+    "bytes": 3452
+  },
+  {
+    "source": "C:\\Users\\HeMu\\Desktop\\CAppRev\\artifacts\\ble-firmware-static-20261103\\tools\\Invoke-GhidraOffline.ps1",
+    "copy": "firmware\\tools\\Invoke-GhidraOffline.ps1",
+    "sha256": "7f1199621e003b29641eeba0371ab366144ca56c3cd1e51b8a6f8cbd3ef38416",
+    "bytes": 1593
+  }
+]

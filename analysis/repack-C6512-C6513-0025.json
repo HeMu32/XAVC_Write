@@ -1,0 +1,82 @@
+{
+  "before": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-compact-C6512\\C6512.MP4",
+  "after": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-aligned3-C6513\\C6513.MP4",
+  "before_sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+  "after_sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f",
+  "checks": {
+    "all_indexed_track_payloads_identical": true,
+    "mdat_box_bytes_identical_at_new_position": true,
+    "track_types_codecs_durations_and_timing_identical": true,
+    "sample_descriptions_identical": true
+  },
+  "passed": true,
+  "absolute_sample_table_bytes_identical": false,
+  "first_payload_offsets": [
+    192,
+    131072
+  ],
+  "top_level_boxes": [
+    [
+      {
+        "type": "ftyp",
+        "offset": 0,
+        "size": 28
+      },
+      {
+        "type": "uuid",
+        "offset": 28,
+        "size": 148
+      },
+      {
+        "type": "mdat",
+        "offset": 176,
+        "size": 87401025
+      },
+      {
+        "type": "moov",
+        "offset": 87401201,
+        "size": 17349
+      },
+      {
+        "type": "meta",
+        "offset": 87418550,
+        "size": 1454
+      }
+    ],
+    [
+      {
+        "type": "ftyp",
+        "offset": 0,
+        "size": 28
+      },
+      {
+        "type": "uuid",
+        "offset": 28,
+        "size": 148
+      },
+      {
+        "type": "free",
+        "offset": 176,
+        "size": 130880
+      },
+      {
+        "type": "mdat",
+        "offset": 131056,
+        "size": 87401025
+      },
+      {
+        "type": "moov",
+        "offset": 87532081,
+        "size": 17349
+      },
+      {
+        "type": "meta",
+        "offset": 87549430,
+        "size": 1454
+      }
+    ]
+  ],
+  "scope": "Offline ISO BMFF content/timing comparison, not camera acceptance",
+  "camera_playback": "NOT_TESTED",
+  "root_cause_established": false
+}

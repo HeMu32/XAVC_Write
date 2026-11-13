@@ -1,0 +1,1325 @@
+[
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\15dd936825ad475ea34e35f3f54217a6\\mfxplugin64_hevcd_sw.dll",
+    "relative": "15dd936825ad475ea34e35f3f54217a6\\mfxplugin64_hevcd_sw.dll",
+    "size": 4595112,
+    "sha256": "765589170d1ddd6e40253c6b78ea088bffeea5eab7f46f1a09fbed3589df5dca",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\2fca99749fdb49aeb121a5b63ef568f7\\mfxplugin64_hevce_sw.dll",
+    "relative": "2fca99749fdb49aeb121a5b63ef568f7\\mfxplugin64_hevce_sw.dll",
+    "size": 6004136,
+    "sha256": "38b70ceffcc3fb6e2e9401e96eca32fe3a33f7ca851bd46faab855f8a2256508",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\AAFCOAPI.dll",
+    "relative": "AAFCOAPI.dll",
+    "size": 4547584,
+    "sha256": "9c601be385f707e3e174fd406cf2d310bb93339894019e383cabcbdc1ab13240",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\AVCHDSDK.dll",
+    "relative": "AVCHDSDK.dll",
+    "size": 2294248,
+    "sha256": "7a00d338ef23d6ea06a79b19cf0bf1067713ac2629d25960504b4a1ce7ea8172",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\avcodec-58.dll",
+    "relative": "avcodec-58.dll",
+    "size": 19348480,
+    "sha256": "891607ddc09fa50e15539512df9ec12945f55789d1d22f527917133b3be065c8",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\avcu_enc.dll",
+    "relative": "avcu_enc.dll",
+    "size": 1328640,
+    "sha256": "48644dbc6ce6b0c8c71feaa68ff5c300af0a6096833ba0605d75dcbccbffc790",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\avdevice-58.dll",
+    "relative": "avdevice-58.dll",
+    "size": 157184,
+    "sha256": "c6ae81c221cfeb654f4c5f644614ef766396f1f436e328ab4de9b0668c9881aa",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\avfilter-7.dll",
+    "relative": "avfilter-7.dll",
+    "size": 3574784,
+    "sha256": "3b1af56a1260efa53ea61104be6c507d2f62829cf9646081e36047a3fe875a1b",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\avformat-58.dll",
+    "relative": "avformat-58.dll",
+    "size": 2973696,
+    "sha256": "e287ad758c0013c5cca636186ead8888bd8bfc72587590aa689709d545a60487",
+    "matches": 3
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\avutil-56.dll",
+    "relative": "avutil-56.dll",
+    "size": 637440,
+    "sha256": "7b87c9252f035a6c7d54af4405ca2aad8557d36b5aad1bd91f0dde21d16c9df8",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\BDMVMaker.dll",
+    "relative": "BDMVMaker.dll",
+    "size": 170984,
+    "sha256": "515ea89839973be5a39906a840020fff8d1e040f0d5ae6285bb460a0b4b08998",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\BDRCore.dll",
+    "relative": "BDRCore.dll",
+    "size": 373736,
+    "sha256": "a8b8ecf4bd32dab803b8dbaeface6c6ab2f824a57fd3b47654c7d3bb9ab6c4c5",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\BlackmagicRawAPI.dll",
+    "relative": "BlackmagicRawAPI.dll",
+    "size": 2586640,
+    "sha256": "015c957bdbfc52f7b7afb78cea89b3dd0f59a06d83c95a5d97d65ab2073aca76",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cavchds.dll",
+    "relative": "cavchds.dll",
+    "size": 100840,
+    "sha256": "b66669266085d9b99b221397bcbd01692ed06f6789d08973c9108bf93a8de5fe",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CESScalingLib.dll",
+    "relative": "CESScalingLib.dll",
+    "size": 8827944,
+    "sha256": "e7a9ef937642c9eaf2cd3aa2d317c8d1286f7c60d40775b525b108dc30949873",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CHal.dll",
+    "relative": "CHal.dll",
+    "size": 1173992,
+    "sha256": "207c3291a07b6b767d4cfb61352757c3d1830380909c12f2e4f2d470726ae388",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cilkrts20.dll",
+    "relative": "cilkrts20.dll",
+    "size": 264672,
+    "sha256": "1892de1d6bc32ad6574bd89d26fcbda865c84db9529772c58d88257094942f0f",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cmpgmux.dll",
+    "relative": "cmpgmux.dll",
+    "size": 48616,
+    "sha256": "ca7169e7f5c0bb8873da74016bf8e49b5c6fd12ed9763e4a27b2e3279ae08502",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cmxfapi.dll",
+    "relative": "cmxfapi.dll",
+    "size": 1301480,
+    "sha256": "80b68140daad9dedad3ffa3f8a6cc7854ed17aaf0f9dab090976c500272b60f4",
+    "matches": 24
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\ConfigProfile.exe",
+    "relative": "ConfigProfile.exe",
+    "size": 5107688,
+    "sha256": "9300479ab53fddbe9e25dfa0ffc0053a79af64a478fb70f0521efdd0ea439014",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\Credentials.dll",
+    "relative": "Credentials.dll",
+    "size": 24576,
+    "sha256": "ea423399eeb2105623f2fbdc6cf6c3447dcb735b8b8845c0fb93e3f6e09075b6",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CrmSdk.dll",
+    "relative": "CrmSdk.dll",
+    "size": 7265608,
+    "sha256": "4508bb9d3910691577f79663a1309414f0fb23fc477aff75eb936fa571a8fbd4",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\crxdec.dll",
+    "relative": "crxdec.dll",
+    "size": 526800,
+    "sha256": "65393a39ed3616ad9743fa4f423a733c9e17aafe835a25d4a8b62bc168e7037d",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cseaac01.dll",
+    "relative": "cseaac01.dll",
+    "size": 617960,
+    "sha256": "2f4cc9afa51608088144df9d058f1f023da8f8b0c3adf9d5c0735b9ea7113e01",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cseac3d.dll",
+    "relative": "cseac3d.dll",
+    "size": 81384,
+    "sha256": "03192ecf9ad4208602c939a0a73a4f9f255ffad8cd53a24329fb0d6036bb8273",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cseac3e.dll",
+    "relative": "cseac3e.dll",
+    "size": 115176,
+    "sha256": "8cb80d302e31453ea485150bf81e4942621ae4c8648c497d060b144c8516b31b",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cseavchd.dll",
+    "relative": "cseavchd.dll",
+    "size": 1214952,
+    "sha256": "2b8fe701cd2e60591119e7eeb0859599a0badff029885940e93a32c6fdc9eb11",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cseave.dll",
+    "relative": "cseave.dll",
+    "size": 1687528,
+    "sha256": "416eaaa9a7cf7b1157e3ba0ecf71e861f6e86a2e39ec6bf4673e20652fdf5dc0",
+    "matches": 11
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csebdav.dll",
+    "relative": "csebdav.dll",
+    "size": 144872,
+    "sha256": "10ed7fc2c345af82ba8f9ba589808d88a4540d7a2002ac8d1a9e2ca6d31431e4",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csecv.dll",
+    "relative": "csecv.dll",
+    "size": 28802536,
+    "sha256": "219e636287f2026d6dfe919652c6474bad644f8d0ecd68fd5963a563bc491696",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csedvh.dll",
+    "relative": "csedvh.dll",
+    "size": 1078248,
+    "sha256": "c6322587e37c4247041aa7d7d4f42464e32e6747e9eef7d27756d52b8743ec29",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csehevcd.dll",
+    "relative": "csehevcd.dll",
+    "size": 4639208,
+    "sha256": "da0c4168aab3f60afb5fa4c78e9cdf94e9876793152e8adc8d2c7b6cb0bc49a7",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csehq2.dll",
+    "relative": "csehq2.dll",
+    "size": 1109480,
+    "sha256": "d026117782069d71af60fac83b6f20d70212f9778ae292a1ffe0bf01f52bd857",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csehqa.dll",
+    "relative": "csehqa.dll",
+    "size": 703976,
+    "sha256": "31b41d37d0cf859cf7731394a0f981f25424fdf74c115bd452d7f77f6408cb28",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csej2k11.dll",
+    "relative": "csej2k11.dll",
+    "size": 184808,
+    "sha256": "1f4f8ca98169392221d32402f7e9a3f5627d9b96972271bd70d30fbd4c811e56",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csej2kwrap.dll",
+    "relative": "csej2kwrap.dll",
+    "size": 70120,
+    "sha256": "170bdc840793bf39d2bf37dd42ce5e999cfeeb89860c545d55c6cfd343dbe077",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csellc.dll",
+    "relative": "csellc.dll",
+    "size": 168424,
+    "sha256": "e9e789baa09fb28c6f65f8ec4ebb660ea893d9b2e670c1933110abff69922ff1",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csem2vi01.dll",
+    "relative": "csem2vi01.dll",
+    "size": 921064,
+    "sha256": "dd913733eeceb4e9bd64b6c6f76d915089440478edd942c77a7584d8b46efb01",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csemap.dll",
+    "relative": "csemap.dll",
+    "size": 2677736,
+    "sha256": "ccf1a921e2a939ed5383b370ef36a78c8b05fc31269d1af7447864f105f31835",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csempeg3.dll",
+    "relative": "csempeg3.dll",
+    "size": 1089512,
+    "sha256": "651aca7d1c8e3ccbf7194779ed267f28f5e70dd920865f418cf6ca5dba5a864b",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csemvd.dll",
+    "relative": "csemvd.dll",
+    "size": 216552,
+    "sha256": "c0c085fae103682b69c6425969421a56cb180c35436842a5e916e882673bd388",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\csemve.dll",
+    "relative": "csemve.dll",
+    "size": 439784,
+    "sha256": "6a542cf6c49040aba4f9986f84455169f66fd9bc1ea2bcfa72cb7d6dc2da3a35",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cserast.dll",
+    "relative": "cserast.dll",
+    "size": 227304,
+    "sha256": "24605d9bebea4bb4e1a1f678468b2b73237dd7f46fe453a5d059c82f1bcab1cc",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cseuvec.dll",
+    "relative": "cseuvec.dll",
+    "size": 827368,
+    "sha256": "ed41d7b5d870785b2d476095929d69fad5364f03ba1d27f7e8e0ad6a0671a7b7",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsAudioDevice.dll",
+    "relative": "CtsAudioDevice.dll",
+    "size": 437224,
+    "sha256": "76c44b34077d0c6dfd08bae44b9f2c8fb720c4902888c0ef440ff7dede38c03b",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsCaptureEngine.dll",
+    "relative": "CtsCaptureEngine.dll",
+    "size": 1501672,
+    "sha256": "bb1e3a5f5df3c252a517a78b553819425bd8af502845ef825087181b70d1cb58",
+    "matches": 4
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsCaptureEngineConfig.dll",
+    "relative": "CtsCaptureEngineConfig.dll",
+    "size": 202728,
+    "sha256": "6c1f5563037e25a0364dd3a5c4b4279d15487bd708a7f39024b770ada545190b",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsCore.dll",
+    "relative": "CtsCore.dll",
+    "size": 10067432,
+    "sha256": "c21f5acff3cce61a271a9453467e276e3fc2e51eccd2c3a3c52c65182fafa48e",
+    "matches": 69
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsCoreEng.dll",
+    "relative": "CtsCoreEng.dll",
+    "size": 10672104,
+    "sha256": "4bec98ac0133aa73ac8728fd6a3c64cf5998e66f729fa370bea5278628c078fa",
+    "matches": 7
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsCr.dll",
+    "relative": "CtsCr.dll",
+    "size": 1564136,
+    "sha256": "f80c2a532c71a51a6dbcde20a300fa193f5fb1906c90e5a5ada4e1999c773a04",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsEcw.dll",
+    "relative": "CtsEcw.dll",
+    "size": 518632,
+    "sha256": "612e594c37019d91835602b5679246b5cd4f467e9ff5a77ee105201607a90a99",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsGui.dll",
+    "relative": "CtsGui.dll",
+    "size": 2739688,
+    "sha256": "11e76402a8de2425b7b9596b03ba1ad8e26a8fcced8e84ccb766048535b436c7",
+    "matches": 1
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsGuiSelector.dll",
+    "relative": "CtsGuiSelector.dll",
+    "size": 2162152,
+    "sha256": "3e7f4a0f99615c64ff63ac16f3a6651c1ede41bba33cf18d2e5e6714b4ae7477",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsGxfUtil.dll",
+    "relative": "CtsGxfUtil.dll",
+    "size": 330216,
+    "sha256": "635a1fc77ed3275b391f74878fccf84d5f25f9f07265fd402f4640f9dbf5da1d",
+    "matches": 2
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsMd.dll",
+    "relative": "CtsMd.dll",
+    "size": 6870504,
+    "sha256": "5b22d9188b5177e446f81669f5bf9b3c5668419bee3d071e18c7ebdaa9221396",
+    "matches": 1
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsNDISender.dll",
+    "relative": "CtsNDISender.dll",
+    "size": 367080,
+    "sha256": "efb80469905f7a7319dbcdf80fe069760ed2947c38a7cd8bdfb6f908a47e30aa",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsParameter.dll",
+    "relative": "CtsParameter.dll",
+    "size": 455144,
+    "sha256": "1cdaebf1bc7765dd1f9e51c54d6ac0cf17e1f746b57d7225b92c9ad5c5c515c7",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsPlugInManager.dll",
+    "relative": "CtsPlugInManager.dll",
+    "size": 5722088,
+    "sha256": "9eb5e520ce00aba1fe3228b4c92d7eb88ecd4788408844c6b595df00a49204be",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsR3dLibWrapper.dll",
+    "relative": "CtsR3dLibWrapper.dll",
+    "size": 347112,
+    "sha256": "57543feaf3e720ea4e4d74c8e4fff329e4ebdcc31fe219488413130d0f16342a",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsSerializer.dll",
+    "relative": "CtsSerializer.dll",
+    "size": 680424,
+    "sha256": "76fc8ff1b3b46b387007b1f37fe5a05bbba94892b04182bf5a787977658c39f8",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsTitleRender.dll",
+    "relative": "CtsTitleRender.dll",
+    "size": 799208,
+    "sha256": "739371cfaef25cd0d215f8ab011fff421e0797c324b6df86950ba5176ae3456d",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\CtsVG.dll",
+    "relative": "CtsVG.dll",
+    "size": 1031656,
+    "sha256": "c8f18d1318283e120c0b012da7bec4b171ecadf7049149051f59812d36aa587c",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cudart64_110.dll",
+    "relative": "cudart64_110.dll",
+    "size": 401408,
+    "sha256": "a7ce0f19421da013465cd1431fc12aa05e67acfd3229f1505ab8d01953f78d96",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\DecoderCUDA.dll",
+    "relative": "DecoderCUDA.dll",
+    "size": 3446288,
+    "sha256": "719f2d874d5aea2705e4cd29b5e62017778331480e8dd69fb70e956c72385492",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\DecoderOpenCL.dll",
+    "relative": "DecoderOpenCL.dll",
+    "size": 2673680,
+    "sha256": "f9235f4f1cf23bdf27d2f5aa38c4b76781079db4229f08fecc7df27fc3d84a2c",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\DevicePreset.dll",
+    "relative": "DevicePreset.dll",
+    "size": 739304,
+    "sha256": "ca48733dabb84158f8d7c3add80d2bf48f1c033cd5d8c60e68fec7b8b0593823",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\DiscBurner.exe",
+    "relative": "DiscBurner.exe",
+    "size": 13529064,
+    "sha256": "a2376dee3f94b3df0758a69cf54e40ca1f2aa9ea8a7ffc241f832eae1cb87bef",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\DNxHR.dll",
+    "relative": "DNxHR.dll",
+    "size": 5632512,
+    "sha256": "9741fc55c4bfe1facca0753fd3fe2c5f6bde2a61b957efb617c77c59049c64b6",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\drivers\\ajacore.dll",
+    "relative": "drivers\\ajacore.dll",
+    "size": 2793960,
+    "sha256": "2bdd7f28000e473892be7cf81e6f19f06c2c4afbcb9291b52ac2edc517dcc26f",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\drivers\\bmdconfig.dll",
+    "relative": "drivers\\bmdconfig.dll",
+    "size": 121832,
+    "sha256": "9613f70ef806807985f2f79526e43caf5c6f81d7ae062431da8a980c6b2e4136",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\drivers\\bmdcore.dll",
+    "relative": "drivers\\bmdcore.dll",
+    "size": 775144,
+    "sha256": "8934ef368b3db584e6f49f28208d9b4e237350701ec0dd7fffdbb03ea0b7363f",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\drivers\\clpconfig.dll",
+    "relative": "drivers\\clpconfig.dll",
+    "size": 522216,
+    "sha256": "a762698c8e07d829dcfc8207b57790d0424d6126c131731deb0fc85f916bb777",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\drivers\\clpcore.dll",
+    "relative": "drivers\\clpcore.dll",
+    "size": 4569064,
+    "sha256": "80cc60f31222c58f0435943dc89e9404f39b26482a91f3b5681605845f58a174",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\drivers\\pnxaconfig.dll",
+    "relative": "drivers\\pnxaconfig.dll",
+    "size": 224744,
+    "sha256": "51808f56f27ae354cc0dd36ddda66d6ea98dada3f6610d4fc67f4b4861603792",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\drivers\\pnxacore.dll",
+    "relative": "drivers\\pnxacore.dll",
+    "size": 902120,
+    "sha256": "aa9d7a7f96d1832c225c25429e1051a8b1d82ec4fb06bb8e2cab57e33acb310a",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\drivers\\xaconfig.dll",
+    "relative": "drivers\\xaconfig.dll",
+    "size": 158696,
+    "sha256": "7f26c75f8c9bdc029ff1ee4ea1c01fb21a8fea7dab52cae4794e2c0eca781d30",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\drivers\\xacore.dll",
+    "relative": "drivers\\xacore.dll",
+    "size": 273896,
+    "sha256": "09712cf4fa92dd030a86a74bfcbf0bae0943ccf868d9cda0c4de107bd9157fa3",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\DvdVideoU.dll",
+    "relative": "DvdVideoU.dll",
+    "size": 417256,
+    "sha256": "312a5049825d8fea5d0c1a4a75ec664d2d05ec4cb234bca7ceb098ce76ce8504",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EDIDMonitor.exe",
+    "relative": "EDIDMonitor.exe",
+    "size": 742376,
+    "sha256": "17ff40d8948de29121a1cd7558edbf483aadcef98ea2c0f073833358adf41643",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EDIUS.exe",
+    "relative": "EDIUS.exe",
+    "size": 54897128,
+    "sha256": "6ca643f460eda6df5b41c3896b5f16891c4aa1102ac94c779af3fd41401b4070",
+    "matches": 7
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EdiusCrashReporter.exe",
+    "relative": "EdiusCrashReporter.exe",
+    "size": 519656,
+    "sha256": "c6e9ecb2c03ab0b9a6f4b6d51f3f13adc0e0f7681969238dc4e8bb9115cc050f",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EdiusSystemReporter.exe",
+    "relative": "EdiusSystemReporter.exe",
+    "size": 852456,
+    "sha256": "4edfc028d2940b6a14b3f110c0432c795bed80385f874910a95f076713ffd464",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EdiusVstHost.exe",
+    "relative": "EdiusVstHost.exe",
+    "size": 856040,
+    "sha256": "e67816e090eb1fb1fe30dc8480f2340908259a80826ac8cf8fbcafd395b0fc84",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EffectEngine.dll",
+    "relative": "EffectEngine.dll",
+    "size": 6986728,
+    "sha256": "dd4b5a93c604e2dfcedabde6b3ba2cfaa3e28c5dff5ac82e37fb6f027f3cec87",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EHAssetRegisterEngine.exe",
+    "relative": "EHAssetRegisterEngine.exe",
+    "size": 2735080,
+    "sha256": "8a73365e4278fe911e1950ffa9c7c68873effaf213e563e013cf83405fa05745",
+    "matches": 4
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EHRenderEngine.exe",
+    "relative": "EHRenderEngine.exe",
+    "size": 14332904,
+    "sha256": "fcf531243f591a2466c3b435190c179c622cdbd94d30c5f7d0920c10e5ebaf27",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EHRenderServerList.dll",
+    "relative": "EHRenderServerList.dll",
+    "size": 449512,
+    "sha256": "90a8275e5eb93fac177d867de412c622e9a297ad51b341802085ca2bc4049be1",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\EHRenderWorker.exe",
+    "relative": "EHRenderWorker.exe",
+    "size": 27059176,
+    "sha256": "b8d3ba8bb356de670ec9ca91ebb016c58ee20a796a17159799da000562e4af9c",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GrassValley.Mseries.AppServer.dll",
+    "relative": "GrassValley.Mseries.AppServer.dll",
+    "size": 45056,
+    "sha256": "f0a0d95f90a424df5fcb308b273f0f4252faea91236d00870e673d76573ef4ca",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GrassValley.Mseries.AppServerLog.dll",
+    "relative": "GrassValley.Mseries.AppServerLog.dll",
+    "size": 24576,
+    "sha256": "1029af9911715246b26adf19220041e5743102184b8d9e75dffbe15c35c38984",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GrassValley.Mseries.ChanStatus.dll",
+    "relative": "GrassValley.Mseries.ChanStatus.dll",
+    "size": 20480,
+    "sha256": "65cbbbdc8d4710317e2cb1653eb2acd4cd52c8f37b492f2d504a79d3d18d3e73",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GrassValley.Mseries.ConfigMgr.dll",
+    "relative": "GrassValley.Mseries.ConfigMgr.dll",
+    "size": 20480,
+    "sha256": "6ea025c014361f69fc38b6655d02d2bf1245c14acf7cc985285f2cc6d7bc548f",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GrassValley.Mseries.Control.dll",
+    "relative": "GrassValley.Mseries.Control.dll",
+    "size": 45056,
+    "sha256": "c241d0ec1f363c641ecef5a2a44f7dd13104084f52c5e54c0e947abc797801b9",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GrassValley.Mseries.DVCapture.dll",
+    "relative": "GrassValley.Mseries.DVCapture.dll",
+    "size": 24576,
+    "sha256": "8b21ef4ac833be59d7c2a3571effe6359d6e52392c30283d38d523328d50bc9c",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GrassValley.Mseries.Editor.dll",
+    "relative": "GrassValley.Mseries.Editor.dll",
+    "size": 36864,
+    "sha256": "7b54187ee2062c5bff270fce4622fe4fbe4ff7071362eb0f6e938e4bad093c03",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GrassValley.Mseries.MediaMgr.dll",
+    "relative": "GrassValley.Mseries.MediaMgr.dll",
+    "size": 61440,
+    "sha256": "afe50cff6ca68fd743eb2ff28316ddb0c7df4c0e5f7e7fcfcc554303c00397b4",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GrassValley.Mseries.Status.dll",
+    "relative": "GrassValley.Mseries.Status.dll",
+    "size": 16384,
+    "sha256": "3804de1a5737dba02e490aba90ad313db8a43d093369a0880c03b8f85ea564aa",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GrassValley.Mseries.TransferQueue.dll",
+    "relative": "GrassValley.Mseries.TransferQueue.dll",
+    "size": 28672,
+    "sha256": "5379ce115d0e15e4bb6b306dd0324d07cdfd6fe5ae9aa44677ec6ec60cd2feef",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\GV.EDIUS.Hub.Render.dll",
+    "relative": "GV.EDIUS.Hub.Render.dll",
+    "size": 2426344,
+    "sha256": "ba92bd069f355a0967d7b716f00842a002792bfe575a7eb9f967ef554c220c32",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\InstallerHelper.CA.dll",
+    "relative": "InstallerHelper.CA.dll",
+    "size": 273048,
+    "sha256": "e48ae1faca42d80c7186cc53c28e9df1a34f5c423d6bb51d6bee249da40f0b7b",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\InstructionSetServicesAVX.dll",
+    "relative": "InstructionSetServicesAVX.dll",
+    "size": 1115152,
+    "sha256": "41bc1b8726e951fad1950c9cf3a57da7ef70ffbdbaf8d242b6e289554e061dc8",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\InstructionSetServicesAVX2.dll",
+    "relative": "InstructionSetServicesAVX2.dll",
+    "size": 1075728,
+    "sha256": "a83583fa761294fa7252740e886af96f4d7929bd1e0ac9ca31299d6fd6e5b630",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\IpxCpuCodec.dll",
+    "relative": "IpxCpuCodec.dll",
+    "size": 6227200,
+    "sha256": "1494a23e759fd8dc10fe73269cf2555604f73ba71c123c4a9643667b46d615ec",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\K2ApiProxy.dll",
+    "relative": "K2ApiProxy.dll",
+    "size": 367592,
+    "sha256": "5ad91c3f0506f346d49b719a221add29d56be4dc1501ab63e49a9511bbccadd7",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\lcd_calib64.dll",
+    "relative": "lcd_calib64.dll",
+    "size": 100864,
+    "sha256": "c76963f3dde6c4beef179398eee1e2938e2e2d5afd264ecfb7909be36b162028",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libcolour_x64.dll",
+    "relative": "libcolour_x64.dll",
+    "size": 345448,
+    "sha256": "f2bcbea78fa14a99f5a681f17b5e85d8293fa1a9b2deed348d8b9c3c731d00f0",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libCSSG2_x64.dll",
+    "relative": "libCSSG2_x64.dll",
+    "size": 543592,
+    "sha256": "aa869acdc6a992f21db03cb422c23c6849749473bdf89dc96f1d536ea8720078",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libEGL.dll",
+    "relative": "libEGL.dll",
+    "size": 414208,
+    "sha256": "2e880ca1fa18f496fc0c58d68982d9abbe03bba244a173b46fe6fdad82293f5f",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libEizMonCtrl_x64.dll",
+    "relative": "libEizMonCtrl_x64.dll",
+    "size": 854888,
+    "sha256": "83b73e28c721f7a35eaf7b6f97a0b4346a07846fdfb64a250c51d9e999a2ace3",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libemc_x64.dll",
+    "relative": "libemc_x64.dll",
+    "size": 1255272,
+    "sha256": "92f065dc871ad7b10d5d93dba54875de1dee21031d7dcdcc64d6b74aa161f4ba",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libexpat.dll",
+    "relative": "libexpat.dll",
+    "size": 219952,
+    "sha256": "734a9d289143ecf3bd13abfc86183685b54ced5add86c4bbf99db390c50b9748",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libGLESv2.dll",
+    "relative": "libGLESv2.dll",
+    "size": 6249984,
+    "sha256": "b2edf2e467fc54d1bbd22a3c7ef86029496c4f2929b85d6acb5814dce085cd4d",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libgvcodec.dll",
+    "relative": "libgvcodec.dll",
+    "size": 293352,
+    "sha256": "06ffbe1899165e6f09cd3dbadda80bed2791ab40cbea4a25b3c92dbe77a1cdc8",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libHIDmctrl_x64.dll",
+    "relative": "libHIDmctrl_x64.dll",
+    "size": 144744,
+    "sha256": "d11abb6a1ab24b8350f385e3c180a25570e6bdee4d1dcfc91546ae022e39d710",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libiomp5md.dll",
+    "relative": "libiomp5md.dll",
+    "size": 1187256,
+    "sha256": "8d2f129e7a04a0d8b28186c72455a9102a88074c63b30e7c40c487dfb3b1cbd2",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libKMcalib_x64.dll",
+    "relative": "libKMcalib_x64.dll",
+    "size": 122216,
+    "sha256": "67436cc37b7cfa0a3db303b9b72d76b265bbacacd7a78bfed7aaef209708d73d",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libmctrl_x64.dll",
+    "relative": "libmctrl_x64.dll",
+    "size": 382312,
+    "sha256": "8d534b1471c10a46319f553b7c768f6fa5591a46b984dbe834a13e98dfd67d71",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libmdcorrector_x64.dll",
+    "relative": "libmdcorrector_x64.dll",
+    "size": 1092456,
+    "sha256": "d76244176bc02ed3154e7028f3188f1419f78bb1c43cf12406246ff052cf8764",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libmeasurementdevice_x64.dll",
+    "relative": "libmeasurementdevice_x64.dll",
+    "size": 948072,
+    "sha256": "c2fda3b24870dc0c3323fe87502458a91a62aca4685c2f353a0122c455e05749",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libmfxsw64.dll",
+    "relative": "libmfxsw64.dll",
+    "size": 8186280,
+    "sha256": "414b3c27ad289d0fafe3c339b725c6b574aa01fba78064c41c89368366628f61",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libminfo2_x64.dll",
+    "relative": "libminfo2_x64.dll",
+    "size": 378728,
+    "sha256": "bfc244675fce2a08e90b816f892eb7db05054f454a5af9c9d794ef015bb49683",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libmmd.dll",
+    "relative": "libmmd.dll",
+    "size": 3438008,
+    "sha256": "06e7c681fb89209471e1f039248bb470bef96d8273f7c4d226279de54f7acfe1",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\LibMonitor.dll",
+    "relative": "LibMonitor.dll",
+    "size": 1584104,
+    "sha256": "01a060d152324174dc9861b710305fadea8c73bfa1b823e5e84b9124d5b09569",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libmp3lame.dll",
+    "relative": "libmp3lame.dll",
+    "size": 368640,
+    "sha256": "b0f8ae92b64748b24066dde5597a1859f1d3289ed7b9991cb811d211a72dee9e",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libmptag_x64.dll",
+    "relative": "libmptag_x64.dll",
+    "size": 136552,
+    "sha256": "e5308e0432e0dd642d14cfe274d9e7c8dc9a9adb09daa89cb75bff87bc86e89f",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libmSensor_x64.dll",
+    "relative": "libmSensor_x64.dll",
+    "size": 138600,
+    "sha256": "94bb4db9553a61fd057f61d88a0559c9c886a1717fc2b9de7f9e75af717dcdae",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libscal_x64.dll",
+    "relative": "libscal_x64.dll",
+    "size": 245608,
+    "sha256": "dd242647b8f5f2d437e1dfb7ef5d2c9b0da2e5972965ef0e714fc9e025bf759b",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\libvpl.dll",
+    "relative": "libvpl.dll",
+    "size": 559104,
+    "sha256": "906b2c29b1de5fe7b78822b11b6911457a2845203474376afc4655d3f5308663",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\MkbApi.dll",
+    "relative": "MkbApi.dll",
+    "size": 229376,
+    "sha256": "ce2c2acb7ac6dd5813ca76442b2f9539aed52d62be1cce4e92a5fd5f9ca72403",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\mpsegenc.dll",
+    "relative": "mpsegenc.dll",
+    "size": 197608,
+    "sha256": "9d2352b5990a31d5a1327713d3bc227a5700bc66338c7fbdb58121bb7aa05790",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\mpsegenc_host.exe",
+    "relative": "mpsegenc_host.exe",
+    "size": 352744,
+    "sha256": "33fa023da6e9a029482199bbe28918a4b0609eb595fc5a85fa9ad7fad410d60f",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\mpskinfo.dll",
+    "relative": "mpskinfo.dll",
+    "size": 653288,
+    "sha256": "5b7662dc2a4d2a3f7ac1a9cb537e47dc1d00689e86099b47c79b780b0524a8d2",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\mpstcore.dll",
+    "relative": "mpstcore.dll",
+    "size": 144360,
+    "sha256": "125616ddfe79e0e8a995149361b42d9dd4e804f08c3f628e7d2be848ea98cd85",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\MsdkWrapper.dll",
+    "relative": "MsdkWrapper.dll",
+    "size": 74216,
+    "sha256": "abb577cb25d2fed2c900d028dd0d894eb4c1220b0a0c2602ccd5293ddce961c8",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\msvcp120.dll",
+    "relative": "msvcp120.dll",
+    "size": 660128,
+    "sha256": "2abf0aab5a3c5ae9424b64e9d19d9d6d4aebc67814d7e92e4927b9798fef2848",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\msvcr120.dll",
+    "relative": "msvcr120.dll",
+    "size": 963232,
+    "sha256": "ad32240bb1de55c3f5fcac8789f583a17057f9d14914c538c2a7a5ad346b341c",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\NLog.dll",
+    "relative": "NLog.dll",
+    "size": 274432,
+    "sha256": "6f9ee55c41f94a13ef96928b7b623b92698d2b2cfe4bda04b7ff3b82a89617ad",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\OAM\\DiscBurner.dll",
+    "relative": "OAM\\DiscBurner.dll",
+    "size": 10083816,
+    "sha256": "ec8695f65cfed9e327a28a74f29ad22a0aaf86aa086c5b47a842762c7b49fc6f",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\OAM\\EDIUS.dll",
+    "relative": "OAM\\EDIUS.dll",
+    "size": 10083816,
+    "sha256": "33266299d4b68ce170000fe7bfacf59bd3e90b57d15d8e17d1bbbb760f543446",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\OAM\\EHRenderEngine.dll",
+    "relative": "OAM\\EHRenderEngine.dll",
+    "size": 10083816,
+    "sha256": "0ccc848abc24ff1399e4fe0fb3359446d65cc7d0ebd3bb3717d7ab9084ddc89b",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\OAM\\EHRenderWorker.dll",
+    "relative": "OAM\\EHRenderWorker.dll",
+    "size": 10083816,
+    "sha256": "71d9c2c87b85f8ce9df9ea12b2062742359c2d8264687a2e9ae70c005630c6da",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\OAM\\QuickTitler.dll",
+    "relative": "OAM\\QuickTitler.dll",
+    "size": 10083816,
+    "sha256": "651751d61104895abc0cdf7bf4327b8b4a6995ee6f3f391e85f7735bc66401ea",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\OpenColorIO.dll",
+    "relative": "OpenColorIO.dll",
+    "size": 979456,
+    "sha256": "f5dff1710a8547da5a303d84a540ee995a44c9920cb82df3e3fe6cfc471c5e83",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\opencv_world246.dll",
+    "relative": "opencv_world246.dll",
+    "size": 5969920,
+    "sha256": "bba1089edfa12f6eca3c1903d4fd0f8f2fa3fb9412496f553da3de864cf7f701",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\OpenImageIO.dll",
+    "relative": "OpenImageIO.dll",
+    "size": 20448256,
+    "sha256": "35ac5fdd10da189f8f57ad352cbd4c9e16f03ddb073d5da5e7ab013134a726ab",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PixPrimitive.dll",
+    "relative": "PixPrimitive.dll",
+    "size": 12381672,
+    "sha256": "52ba48d534a4247a90ae138ad443513a5c4db592fe05352300b9a632c25e82df",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PixPrimitiveX.dll",
+    "relative": "PixPrimitiveX.dll",
+    "size": 155624,
+    "sha256": "879ed65bd2eb7ac48bcb4725029300c27b4edd4e318a58e0c2aee8a5683bbf04",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsAssetBrowserTab.tpi",
+    "relative": "PlugIn\\CtsAssetBrowserTab.tpi",
+    "size": 763368,
+    "sha256": "3b436962f6c3f7f6a7a933ffece4ee6e994e165f521c27b2a1d4975a6beca41e",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CTSAudioFilters.tpi",
+    "relative": "PlugIn\\CTSAudioFilters.tpi",
+    "size": 536552,
+    "sha256": "01a617b9aec7fd7175253dba01c60804ccaee9b56bf9c91cc9794cef56bc2e2e",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsCmf.tpi",
+    "relative": "PlugIn\\CtsCmf.tpi",
+    "size": 7498728,
+    "sha256": "6a44e0cb33682d44b5a3f0077f7702faf98f5abfe23bda730aad7a51aa86da3a",
+    "matches": 25
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CTSCrossFades.tpi",
+    "relative": "PlugIn\\CTSCrossFades.tpi",
+    "size": 212456,
+    "sha256": "e544fcdabe873cfbc64e24dd9c796f5302fab5c5bfb71a1b1868065abff28802",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsExporters.tpi",
+    "relative": "PlugIn\\CtsExporters.tpi",
+    "size": 5077992,
+    "sha256": "e2ebfe8cf18165fa6e6f9fbb54db2277263d2d078514f93f4bc5ad4a14661cc0",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsFFmpegPlugIn.tpi",
+    "relative": "PlugIn\\CtsFFmpegPlugIn.tpi",
+    "size": 1010664,
+    "sha256": "34a8e6a8e9b14d83d23fa4dea50d24f4a21c0ec1e38e588b061f121488913036",
+    "matches": 3
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsGLSL.tpi",
+    "relative": "PlugIn\\CtsGLSL.tpi",
+    "size": 2392552,
+    "sha256": "7a7b27fcc43a3c26e1161d43ca7a69d0b417bf897b5ad4daba501fca97e19fb0",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsGPUfxTransitions.tpi",
+    "relative": "PlugIn\\CtsGPUfxTransitions.tpi",
+    "size": 5770216,
+    "sha256": "ae92a6ceed299c5c85fe8d255a91559463e0ac67bbc1c35311dfd6e05c33fcc8",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsImporters.tpi",
+    "relative": "PlugIn\\CtsImporters.tpi",
+    "size": 4115944,
+    "sha256": "59c22e7d6831fc6ac6e71832ac5c37e62419e4c0dd9634aecb5baa8a91c29ebe",
+    "matches": 7
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsInputDevice.tpi",
+    "relative": "PlugIn\\CtsInputDevice.tpi",
+    "size": 2234344,
+    "sha256": "fa1291775bcb37651f67b61c36612926095412037e120be15d464e2cbb1c5bf6",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsJobMonitorTab.tpi",
+    "relative": "PlugIn\\CtsJobMonitorTab.tpi",
+    "size": 764904,
+    "sha256": "6b7f344fcb49e1d0d46d9c98a7be849c53e322a49f82ebf6957a491f9d437acf",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsKeyers.tpi",
+    "relative": "PlugIn\\CtsKeyers.tpi",
+    "size": 3441128,
+    "sha256": "f7024bc4ac7c02b17e525437caff9efcdf48242476f42aa3e8a5888382df8e63",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsMpegPlugIn.tpi",
+    "relative": "PlugIn\\CtsMpegPlugIn.tpi",
+    "size": 12541416,
+    "sha256": "8c39ea4f83e272a083f7cdc90b3bfe9d4e9ae02a49158091a14914ba1b508d81",
+    "matches": 90
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsMxfPlugIn.tpi",
+    "relative": "PlugIn\\CtsMxfPlugIn.tpi",
+    "size": 8277992,
+    "sha256": "218dc695afbcb77c893f97995f66bf03ff0330ece02cd45fbb33082dd1475a1a",
+    "matches": 307
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsP2PlugIn.tpi",
+    "relative": "PlugIn\\CtsP2PlugIn.tpi",
+    "size": 4522472,
+    "sha256": "0a0fa1fa5732ea40a337bf5b6fb7593127f373d1c1406b2ecccedfca119be306",
+    "matches": 17
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsProjectIO.tpi",
+    "relative": "PlugIn\\CtsProjectIO.tpi",
+    "size": 5706216,
+    "sha256": "6582a5a437000039f01f2fb77b31034945a1813177098b805fe0cb3677e1c359",
+    "matches": 1
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsSoftTransition.tpi",
+    "relative": "PlugIn\\CtsSoftTransition.tpi",
+    "size": 2650600,
+    "sha256": "d9ceb16fdb5b69ef06f606f00d6ddd541b94f54923895ea04598a7f7646c0e96",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsSourceBrowser.tpi",
+    "relative": "PlugIn\\CtsSourceBrowser.tpi",
+    "size": 9363944,
+    "sha256": "73e9d4e14769c13d78f132299066253d03c4dd76753c5be9d9509140bd81b1db",
+    "matches": 19
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsSpecialPlugIn.tpi",
+    "relative": "PlugIn\\CtsSpecialPlugIn.tpi",
+    "size": 2717160,
+    "sha256": "5723ee8f7ae953db484bfe42f21f484865899b094e2877aa654b7c49e9f98022",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsSystemExtension.tpi",
+    "relative": "PlugIn\\CtsSystemExtension.tpi",
+    "size": 4311016,
+    "sha256": "9840c50275b59fad8d64eebb09234e854474bd967369fcbccc74117b58be1c26",
+    "matches": 3
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsTitleMixers.tpi",
+    "relative": "PlugIn\\CtsTitleMixers.tpi",
+    "size": 1205736,
+    "sha256": "1e34325871c487ce44b799a4f67df30aeb0405e947b90808345a6ecf2aca12c9",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsTransitions.tpi",
+    "relative": "PlugIn\\CtsTransitions.tpi",
+    "size": 4758504,
+    "sha256": "fca645bb5189fa4ef8d8221cb9372f95e8f9660701d4975f6c6b8ac22fd7c123",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsVideoFilters.tpi",
+    "relative": "PlugIn\\CtsVideoFilters.tpi",
+    "size": 10603496,
+    "sha256": "3eee24809e70a33fe680d93dc399d1aa669e71760f2f9b3dedf72ccd836fdb06",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsVstPlugin.tpi",
+    "relative": "PlugIn\\CtsVstPlugin.tpi",
+    "size": 504808,
+    "sha256": "0b5653b766f7b747afe384bbab4749a260459dea8859f9c737e7f64ceb022cf2",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\EdOFX.tpi",
+    "relative": "PlugIn\\EdOFX.tpi",
+    "size": 2636776,
+    "sha256": "7a49db477d6c1997099b80450617568e0651518663318945626d0ef2780a9409",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\MotionTrackingEngine\\MotionTrackingEngine.dll",
+    "relative": "PlugIn\\MotionTrackingEngine\\MotionTrackingEngine.dll",
+    "size": 93160,
+    "sha256": "672b23ff8a88265af8099b9322d675b17cf453256d3b1aedea4fcae71c17bcf9",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\Processing.NDI.Lib.x64.dll",
+    "relative": "Processing.NDI.Lib.x64.dll",
+    "size": 29776896,
+    "sha256": "d20a7742662e0b635abb8fa3b05eaa50fda1acb5ed4d770c67b0e36ee0cb303f",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\ProResRAW_OpenCL_DLL64.dll",
+    "relative": "ProResRAW_OpenCL_DLL64.dll",
+    "size": 6502400,
+    "sha256": "375caf56d0db648164d71c5ba50a354d10f64cd1c7e9771f359402589a2a3592",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\QsvWrapper.dll",
+    "relative": "QsvWrapper.dll",
+    "size": 27624,
+    "sha256": "65e8e703e28076d29999bbcc0121829ad2f05de5afd54556264c7c5d5f4d4661",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\QuickTitler.exe",
+    "relative": "QuickTitler.exe",
+    "size": 13258728,
+    "sha256": "6cef6d00bb9f6b4b020d0fdbb0841d8a5eab046c13de26bfe4e21636edf9a411",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\REDDecoder-x64.dll",
+    "relative": "REDDecoder-x64.dll",
+    "size": 20175872,
+    "sha256": "07eeaa0f424d34b8ed7f682a1e04f0526c2a0ca37eecfe2da44d2dde431dcbaf",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\REDR3D-x64.dll",
+    "relative": "REDR3D-x64.dll",
+    "size": 12126720,
+    "sha256": "50dd64340fb1ceb8c32b710821b17b1c16d00caf96a793d0b5613fefd291ccaa",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\ServerUtil.dll",
+    "relative": "ServerUtil.dll",
+    "size": 40960,
+    "sha256": "71f036ab9145876975ae6891497dc735f7e6b8bd7b274e58e08d280f5ed1495d",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\skin\\CtsGuiCommonRes.dll",
+    "relative": "skin\\CtsGuiCommonRes.dll",
+    "size": 4522472,
+    "sha256": "9f2ef3106df15cda193df5dccb40e1172d0031715ba283f6f6a65c2e2eccc8dc",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\skin\\CtsGuiSelectorRes.dll",
+    "relative": "skin\\CtsGuiSelectorRes.dll",
+    "size": 9528296,
+    "sha256": "04ad8b5b093db1fb69abc100294d943c71aef46ec1876de5439bb6f7c6245e8b",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\skin\\QuickTitlerSelectorRes.dll",
+    "relative": "skin\\QuickTitlerSelectorRes.dll",
+    "size": 1905640,
+    "sha256": "5ff29fa40113e43e9c5a03888f99164e06793231116bea4ce8cdced878b373c2",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\SonyRawDev.dll",
+    "relative": "SonyRawDev.dll",
+    "size": 2914568,
+    "sha256": "61943ee5ea059b6bd6635544a45b2cb36f56db36c7bbe08d62f006cdadc9575b",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\svml_dispmd.dll",
+    "relative": "svml_dispmd.dll",
+    "size": 9050040,
+    "sha256": "fc3d3c6e4b4b8e9865e336675db7e580699e1975387464ca0ef8f3587857fa36",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\swresample-3.dll",
+    "relative": "swresample-3.dll",
+    "size": 184832,
+    "sha256": "8ac028ea5cbf51a0f854140bc1cf489fc4f902edc330352a985ef8d6534b9101",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\swscale-5.dll",
+    "relative": "swscale-5.dll",
+    "size": 687104,
+    "sha256": "ef7be7251d51dd985f4bc73a13aa4ffd0e25f3fb834745a37172dc6a9b69d9ff",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\vraw_filter.dll",
+    "relative": "vraw_filter.dll",
+    "size": 84480,
+    "sha256": "da02781618439c600c59a1ad1f38dd7ec7fc175ba6b3d352d16b4d270fddd568",
+    "matches": 0
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\WebView2Loader.dll",
+    "relative": "WebView2Loader.dll",
+    "size": 158664,
+    "sha256": "72e197b393e645d369cb6623d3044c3c0c6b7d1905e7c06cde357e1e2ccb6b67",
+    "matches": 0
+  }
+]

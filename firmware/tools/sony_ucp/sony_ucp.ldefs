@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language_definitions>
+  <language processor="MIPS"
+            endian="little"
+            size="32"
+            variant="sony-ucp-opaque"
+            version="1.0"
+            slafile="sony_ucp32le.sla"
+            processorspec="mips32.pspec"
+            id="MIPS:LE:32:sony-ucp-opaque">
+    <description>Analysis-only MIPS32 with opaque Sony rs=7 interface operations</description>
+    <compiler name="default" spec="mips32le.cspec" id="default"/>
+  </language>
+</language_definitions>

@@ -1,0 +1,645 @@
+{
+  "forbidden_zero_bit": [
+    0
+  ],
+  "nal_ref_idc": [
+    3,
+    0,
+    2
+  ],
+  "nal_unit_type": [
+    7,
+    8,
+    9,
+    6,
+    5,
+    1
+  ],
+  "profile_idc": [
+    100
+  ],
+  "constraint_set0_flag": [
+    0
+  ],
+  "constraint_set1_flag": [
+    0
+  ],
+  "constraint_set2_flag": [
+    0
+  ],
+  "constraint_set3_flag": [
+    0
+  ],
+  "constraint_set4_flag": [
+    0
+  ],
+  "constraint_set5_flag": [
+    0
+  ],
+  "reserved_zero_2bits": [
+    0
+  ],
+  "level_idc": [
+    42
+  ],
+  "seq_parameter_set_id": [
+    0
+  ],
+  "chroma_format_idc": [
+    1
+  ],
+  "bit_depth_luma_minus8": [
+    0
+  ],
+  "bit_depth_chroma_minus8": [
+    0
+  ],
+  "qpprime_y_zero_transform_bypass_flag": [
+    0
+  ],
+  "seq_scaling_matrix_present_flag": [
+    0
+  ],
+  "log2_max_frame_num_minus4": [
+    0
+  ],
+  "pic_order_cnt_type": [
+    0
+  ],
+  "log2_max_pic_order_cnt_lsb_minus4": [
+    1
+  ],
+  "max_num_ref_frames": [
+    2
+  ],
+  "gaps_in_frame_num_allowed_flag": [
+    0
+  ],
+  "pic_width_in_mbs_minus1": [
+    119
+  ],
+  "pic_height_in_map_units_minus1": [
+    67
+  ],
+  "frame_mbs_only_flag": [
+    1
+  ],
+  "direct_8x8_inference_flag": [
+    1
+  ],
+  "frame_cropping_flag": [
+    1
+  ],
+  "frame_crop_left_offset": [
+    0
+  ],
+  "frame_crop_right_offset": [
+    0
+  ],
+  "frame_crop_top_offset": [
+    0
+  ],
+  "frame_crop_bottom_offset": [
+    4
+  ],
+  "vui_parameters_present_flag": [
+    1
+  ],
+  "aspect_ratio_info_present_flag": [
+    1
+  ],
+  "aspect_ratio_idc": [
+    1
+  ],
+  "overscan_info_present_flag": [
+    0
+  ],
+  "video_signal_type_present_flag": [
+    1
+  ],
+  "video_format": [
+    0
+  ],
+  "video_full_range_flag": [
+    0
+  ],
+  "colour_description_present_flag": [
+    1
+  ],
+  "colour_primaries": [
+    1
+  ],
+  "transfer_characteristics": [
+    1
+  ],
+  "matrix_coefficients": [
+    1
+  ],
+  "chroma_loc_info_present_flag": [
+    0
+  ],
+  "timing_info_present_flag": [
+    1
+  ],
+  "num_units_in_tick": [
+    2002
+  ],
+  "time_scale": [
+    240000
+  ],
+  "fixed_frame_rate_flag": [
+    1
+  ],
+  "nal_hrd_parameters_present_flag": [
+    1
+  ],
+  "cpb_cnt_minus1": [
+    0
+  ],
+  "bit_rate_scale": [
+    6
+  ],
+  "cpb_size_scale": [
+    4
+  ],
+  "bit_rate_value_minus1[0]": [
+    14647
+  ],
+  "cpb_size_value_minus1[0]": [
+    249999
+  ],
+  "cbr_flag[0]": [
+    0
+  ],
+  "initial_cpb_removal_delay_length_minus1": [
+    23
+  ],
+  "cpb_removal_delay_length_minus1": [
+    15
+  ],
+  "dpb_output_delay_length_minus1": [
+    5
+  ],
+  "time_offset_length": [
+    24
+  ],
+  "vcl_hrd_parameters_present_flag": [
+    1
+  ],
+  "low_delay_hrd_flag": [
+    0
+  ],
+  "pic_struct_present_flag": [
+    0
+  ],
+  "bitstream_restriction_flag": [
+    0
+  ],
+  "rbsp_stop_one_bit": [
+    1
+  ],
+  "pic_parameter_set_id": [
+    0
+  ],
+  "entropy_coding_mode_flag": [
+    1
+  ],
+  "bottom_field_pic_order_in_frame_present_flag": [
+    0
+  ],
+  "num_slice_groups_minus1": [
+    0
+  ],
+  "num_ref_idx_l0_default_active_minus1": [
+    1
+  ],
+  "num_ref_idx_l1_default_active_minus1": [
+    1
+  ],
+  "weighted_pred_flag": [
+    0
+  ],
+  "weighted_bipred_idc": [
+    0
+  ],
+  "pic_init_qp_minus26": [
+    0
+  ],
+  "pic_init_qs_minus26": [
+    0
+  ],
+  "chroma_qp_index_offset": [
+    0
+  ],
+  "deblocking_filter_control_present_flag": [
+    1
+  ],
+  "constrained_intra_pred_flag": [
+    0
+  ],
+  "redundant_pic_cnt_present_flag": [
+    0
+  ],
+  "transform_8x8_mode_flag": [
+    1
+  ],
+  "pic_scaling_matrix_present_flag": [
+    1
+  ],
+  "pic_scaling_list_present_flag[0]": [
+    1
+  ],
+  "delta_scale[0]": [
+    4
+  ],
+  "delta_scale[1]": [
+    2,
+    1
+  ],
+  "delta_scale[2]": [
+    0
+  ],
+  "delta_scale[3]": [
+    2,
+    1
+  ],
+  "delta_scale[4]": [
+    -2,
+    0,
+    -1
+  ],
+  "delta_scale[5]": [
+    2,
+    0,
+    1
+  ],
+  "delta_scale[6]": [
+    6,
+    2,
+    1
+  ],
+  "delta_scale[7]": [
+    0,
+    -2,
+    -1
+  ],
+  "delta_scale[8]": [
+    0
+  ],
+  "delta_scale[9]": [
+    0,
+    2,
+    1
+  ],
+  "delta_scale[10]": [
+    2,
+    1
+  ],
+  "delta_scale[11]": [
+    0,
+    -1,
+    2
+  ],
+  "delta_scale[12]": [
+    0,
+    1,
+    -3
+  ],
+  "delta_scale[13]": [
+    6,
+    1,
+    3,
+    0
+  ],
+  "delta_scale[14]": [
+    0,
+    -2
+  ],
+  "delta_scale[15]": [
+    4,
+    1,
+    3
+  ],
+  "pic_scaling_list_present_flag[1]": [
+    1
+  ],
+  "pic_scaling_list_present_flag[2]": [
+    0
+  ],
+  "pic_scaling_list_present_flag[3]": [
+    1
+  ],
+  "pic_scaling_list_present_flag[4]": [
+    1
+  ],
+  "pic_scaling_list_present_flag[5]": [
+    0
+  ],
+  "pic_scaling_list_present_flag[6]": [
+    1
+  ],
+  "delta_scale[16]": [
+    2,
+    0
+  ],
+  "delta_scale[17]": [
+    -1,
+    0
+  ],
+  "delta_scale[18]": [
+    0
+  ],
+  "delta_scale[19]": [
+    1,
+    0
+  ],
+  "delta_scale[20]": [
+    -2,
+    0
+  ],
+  "delta_scale[21]": [
+    1
+  ],
+  "delta_scale[22]": [
+    2,
+    -1
+  ],
+  "delta_scale[23]": [
+    3,
+    0
+  ],
+  "delta_scale[24]": [
+    -1,
+    1
+  ],
+  "delta_scale[25]": [
+    1,
+    -1
+  ],
+  "delta_scale[26]": [
+    -3,
+    0
+  ],
+  "delta_scale[27]": [
+    -2,
+    1
+  ],
+  "delta_scale[28]": [
+    7,
+    4
+  ],
+  "delta_scale[29]": [
+    -4
+  ],
+  "delta_scale[30]": [
+    2,
+    0
+  ],
+  "delta_scale[31]": [
+    0
+  ],
+  "delta_scale[32]": [
+    0
+  ],
+  "delta_scale[33]": [
+    0
+  ],
+  "delta_scale[34]": [
+    -2,
+    0
+  ],
+  "delta_scale[35]": [
+    4
+  ],
+  "delta_scale[36]": [
+    3,
+    0
+  ],
+  "delta_scale[37]": [
+    -5,
+    -4
+  ],
+  "delta_scale[38]": [
+    2,
+    0
+  ],
+  "delta_scale[39]": [
+    -1,
+    0
+  ],
+  "delta_scale[40]": [
+    1,
+    0
+  ],
+  "delta_scale[41]": [
+    -2,
+    0
+  ],
+  "delta_scale[42]": [
+    5,
+    4
+  ],
+  "delta_scale[43]": [
+    3,
+    0
+  ],
+  "delta_scale[44]": [
+    -6,
+    -3
+  ],
+  "delta_scale[45]": [
+    0
+  ],
+  "delta_scale[46]": [
+    0
+  ],
+  "delta_scale[47]": [
+    0
+  ],
+  "delta_scale[48]": [
+    6,
+    3
+  ],
+  "delta_scale[49]": [
+    3,
+    1
+  ],
+  "delta_scale[50]": [
+    -6,
+    -3
+  ],
+  "delta_scale[51]": [
+    -1,
+    0
+  ],
+  "delta_scale[52]": [
+    1,
+    0
+  ],
+  "delta_scale[53]": [
+    6,
+    3
+  ],
+  "delta_scale[54]": [
+    3,
+    1
+  ],
+  "delta_scale[55]": [
+    -6,
+    -3
+  ],
+  "delta_scale[56]": [
+    0
+  ],
+  "delta_scale[57]": [
+    6,
+    3
+  ],
+  "delta_scale[58]": [
+    1
+  ],
+  "delta_scale[59]": [
+    -4,
+    -3
+  ],
+  "delta_scale[60]": [
+    4,
+    3
+  ],
+  "delta_scale[61]": [
+    1
+  ],
+  "delta_scale[62]": [
+    0
+  ],
+  "delta_scale[63]": [
+    1
+  ],
+  "pic_scaling_list_present_flag[7]": [
+    1
+  ],
+  "second_chroma_qp_index_offset": [
+    0
+  ],
+  "rbsp_alignment_zero_bit": [
+    0
+  ],
+  "primary_pic_type": [
+    0,
+    2,
+    1
+  ],
+  "last_payload_type_byte": [
+    0,
+    1,
+    6
+  ],
+  "last_payload_size_byte": [
+    13,
+    3,
+    1
+  ],
+  "initial_cpb_removal_delay[0]": [
+    51405
+  ],
+  "initial_cpb_removal_delay_offset[0]": [
+    38595
+  ],
+  "bit_equal_to_one": [
+    1
+  ],
+  "bit_equal_to_zero": [
+    0
+  ],
+  "cpb_removal_delay": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "dpb_output_delay": [
+    6,
+    0
+  ],
+  "recovery_frame_cnt": [
+    0
+  ],
+  "exact_match_flag": [
+    1
+  ],
+  "broken_link_flag": [
+    0
+  ],
+  "changing_slice_group_idc": [
+    0
+  ],
+  "first_mb_in_slice": [
+    0,
+    2040,
+    4080,
+    6120
+  ],
+  "slice_type": [
+    7,
+    6,
+    5
+  ],
+  "frame_num": [
+    0,
+    1
+  ],
+  "idr_pic_id": [
+    0
+  ],
+  "pic_order_cnt_lsb": [
+    0,
+    28,
+    30,
+    6
+  ],
+  "no_output_of_prior_pics_flag": [
+    0
+  ],
+  "long_term_reference_flag": [
+    0
+  ],
+  "slice_qp_delta": [
+    0
+  ],
+  "disable_deblocking_filter_idc": [
+    0
+  ],
+  "slice_alpha_c0_offset_div2": [
+    0
+  ],
+  "slice_beta_offset_div2": [
+    0
+  ],
+  "cabac_alignment_one_bit": [
+    1
+  ],
+  "direct_spatial_mv_pred_flag": [
+    1
+  ],
+  "num_ref_idx_active_override_flag": [
+    1
+  ],
+  "num_ref_idx_l0_active_minus1": [
+    0
+  ],
+  "num_ref_idx_l1_active_minus1": [
+    0
+  ],
+  "ref_pic_list_modification_flag_l0": [
+    0
+  ],
+  "ref_pic_list_modification_flag_l1": [
+    0
+  ],
+  "cabac_init_idc": [
+    0
+  ],
+  "adaptive_ref_pic_marking_mode_flag": [
+    0
+  ]
+}

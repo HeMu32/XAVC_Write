@@ -1,0 +1,572 @@
+{
+  "media": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-minimal-C6510\\C6510.MP4",
+  "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "card_access": false,
+  "scope": "Original MP4 read-side parser, modeled libc/Fsys; not camera playback",
+  "root_cause_established": false,
+  "media_sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d",
+  "result": {
+    "last_status_u32": 0,
+    "movie_property_hex": "0000ea070b0c0f141f000000000000000000000002000000010000000000000000000000070000002a00640119000000fe0500000000000000000000000000000100000001000000000000000000000000000000000000000000000000000000",
+    "audio_gate": {
+      "accepted_by_literal_property_predicate": true,
+      "source_elf_vma": "0x1166d8",
+      "scope": "Host evaluation of recovered predicate, not execution of complete _open_file",
+      "raw_property_fields": {
+        "0x34": 0,
+        "0x38": 0,
+        "0x3c": 0,
+        "0x40": 1,
+        "0x44": 1
+      }
+    },
+    "selected_seek_probe": null,
+    "sample_probe": null,
+    "reader_state_hex": "000000000000000043564158000000000000a000000000001c02e307010100000000000031637661a0860100a08601000100000008000000a6f03b00a6f03b007008000f0100000000000000000000000100000002010200000300000003000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b00b0c5000000000d00f0e5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000ffffffffffffffffffffffff0000000078100e50000000000100000001000000010000000000000000000000000000000000002001000000316376612a00640102000300a8610000a86100003b00a6f03b00a6f0800738040100010002000000736f77740000000000000000000600000006000080bb00000200000000000000bf891be700000000bf891be70000000060ea0000000000002e6e1700000000000100000001000000000001000000000000000000000000000000010000000000000000000000000000000040040000000100000060ea0000fe050000a6f03b003163766100000000dd05000000000000560b0900000000000078020000000000e90300000100000000000000e903000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f8360e500000000001000000080000000101010000000000301a0e500000000001000000020000000000000000000000000000000000000080bb00008bbe12000000000000000000183a0e50000000000300000060ea0000f83a0e5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "original_executable_sections_unchanged": true
+  },
+  "rtmd_probe": {
+    "packets": [
+      {
+        "frame_index": 0,
+        "sample_sha256": "dd2f35164c20c2daafb98534563e2d4a5884ae8c73351320a6e9cd9fc145e7af",
+        "sample_size": 1024,
+        "transit_return_u32": 0,
+        "basic_query_return_u32": 0,
+        "basic_timecode_present": true,
+        "basic_timecode_item_hex": "010000000000003c4000000000000000",
+        "table_conversion_return_u32": 0,
+        "table_count": 1,
+        "table_hex": "0800000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004ff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "frame_index": 1,
+        "sample_sha256": "14d31c6a1b20684837be64a48fc69063b2b3613eadfa56a5edddfbf7045c3051",
+        "sample_size": 1024,
+        "transit_return_u32": 0,
+        "basic_query_return_u32": 0,
+        "basic_timecode_present": true,
+        "basic_timecode_item_hex": "010000000001003c4080000000000000",
+        "table_conversion_return_u32": 0,
+        "table_count": 1,
+        "table_hex": "0800000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004ff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "frame_index": 1533,
+        "sample_sha256": "158836cf4ddd0d92044e7114b1cf579582b50eaa76da55b346ff76ce191a26c5",
+        "sample_size": 1024,
+        "transit_return_u32": 0,
+        "basic_query_return_u32": 0,
+        "basic_timecode_present": true,
+        "basic_timecode_item_hex": "010000190021003c56a5000000000000",
+        "table_conversion_return_u32": 0,
+        "table_count": 1,
+        "table_hex": "0800000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000056a50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004ff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "scope": "Original metadata parser and table converter for selected packets only"
+  },
+  "steps": [
+    {
+      "label": "file_object_constructor",
+      "entry_elf_vma": "0x22a730",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "reader_constructor",
+      "entry_elf_vma": "0x222994",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "file_buffer_setup",
+      "entry_elf_vma": "0x22a774",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "readonly_file_open",
+      "entry_elf_vma": "0x22af44",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_mp4_open",
+      "entry_elf_vma": "0x22a380",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_movie_property_query",
+      "entry_elf_vma": "0x228fa8",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_parser_constructor",
+      "entry_elf_vma": "0x1a39d8",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "timecode_converter_constructor",
+      "entry_elf_vma": "0x1a5684",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "rtmd_transit_to_query",
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_basic_timecode_query",
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_metadata_decode_table",
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_transit_to_query",
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_basic_timecode_query",
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_metadata_decode_table",
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_transit_to_query",
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "rtmd_basic_timecode_query",
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_metadata_decode_table",
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "void_return_ignored": false
+    }
+  ],
+  "calls": [
+    {
+      "entry_elf_vma": "0x22a730",
+      "return_u32": 1342966704,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x222994",
+      "return_u32": 1,
+      "modeled_externals": [
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22a774",
+      "return_u32": 0,
+      "modeled_externals": [
+        "calloc"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22af44",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Open",
+        "Fsys_Read",
+        "Fsys_Seek"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22a380",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "_ZdlPv",
+        "_Znwm",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memmove",
+        "memset",
+        "read_side_diagnostic_message_sink"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x228fa8",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x1a39d8",
+      "return_u32": 1343138568,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a5684",
+      "return_u32": 1343138624,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_ZdlPvm",
+        "_Znwm",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_ZdlPvm",
+        "_Znwm",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x1a3b28",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x1a3a24",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x10c550",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_ZdlPvm",
+        "_Znwm",
+        "memcpy",
+        "memset"
+      ]
+    }
+  ],
+  "io": [
+    {
+      "operation": "Fsys_Open",
+      "path": "A:/PRIVATE/M4ROOT/CLIP/TEST.MP4",
+      "readonly": true
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18804
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18788
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18372
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18564
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18672
+    }
+  ],
+  "diagnostic_packets": [
+    "012300030200000001000000fe050000",
+    "0123050302000000e90300000a000000",
+    "01230f0304000000"
+  ],
+  "original_stdcpp_sha256": "28f2d082aea5206c42ba15664f39e2eaf7febed8f6264305e7e16aa44c878389",
+  "selected_original_runtime_helpers": [
+    {
+      "symbol": "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_",
+      "entry": "0x610a6350"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base",
+      "entry": "0x610a6288"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base",
+      "entry": "0x610a6280"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base",
+      "entry": "0x610a6278"
+    },
+    {
+      "symbol": "_ZSt20_Rb_tree_black_countPKSt18_Rb_tree_node_baseS1_",
+      "entry": "0x610a6b20"
+    },
+    {
+      "symbol": "_ZSt20_Rb_tree_rotate_leftPSt18_Rb_tree_node_baseRS0_",
+      "entry": "0x610a6290"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base",
+      "entry": "0x610a6210"
+    },
+    {
+      "symbol": "_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_",
+      "entry": "0x610a65e8"
+    },
+    {
+      "symbol": "_ZSt21_Rb_tree_rotate_rightPSt18_Rb_tree_node_baseRS0_",
+      "entry": "0x610a62f0"
+    }
+  ],
+  "heap_bytes_used": 1033904,
+  "last_instructions": [
+    "0x1a52b8",
+    "0x1a52bc",
+    "0x1a52c0",
+    "0x10c820",
+    "0x10c824",
+    "0x10c828",
+    "0x10c85c",
+    "0x10c860",
+    "0x10c864",
+    "0x10c868",
+    "0x10c86c",
+    "0x10c870",
+    "0x10c874",
+    "0x10c878",
+    "0x10c87c",
+    "0x10c880",
+    "0x10c884",
+    "0x10c888",
+    "0x10c88c",
+    "0x10c890"
+  ],
+  "last_boundaries": [
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter9KlvParserEPhjtPS1_Pj",
+      "target": "0x19c4b4"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter9KlvParserEPhjtPS1_Pj",
+      "target": "0x19c4b4"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter9KlvParserEPhjtPS1_Pj",
+      "target": "0x19c4b4"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter8CheckKeyEPhPj",
+      "target": "0x19c470"
+    },
+    {
+      "kind": "original_internal_plt",
+      "symbol": "_ZN3mpr12KlvConverter13CheckLocalTagEPhPj",
+      "target": "0x19c380"
+    },
+    {
+      "kind": "modeled_external",
+      "symbol": "_ZdlPvm"
+    }
+  ],
+  "instruction_count": 220199,
+  "original_executable_sections_unchanged_after_all_probes": true
+}

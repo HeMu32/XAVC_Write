@@ -1,0 +1,109 @@
+{
+  "checked_at_utc": "2026-11-12T17:42:15.175868+00:00",
+  "card": "F:\\",
+  "packages": [
+    {
+      "clip": "C6511",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\source-control-C6511",
+      "profile": "source_control",
+      "schema": 4,
+      "frames": 14170,
+      "media_sha256": "8a03d292450ad6c0710f7b8fc97933038336f51f5f2793ccc91c0252578f0e3e"
+    },
+    {
+      "clip": "C6512",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-compact-C6512",
+      "profile": "framing_control",
+      "schema": 4,
+      "frames": 1534,
+      "media_sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72"
+    },
+    {
+      "clip": "C6513",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-aligned3-C6513",
+      "profile": "framing_control",
+      "schema": 4,
+      "frames": 1534,
+      "media_sha256": "19ce27470536e4ea21afb3ee9c484362698c91d698df20fd5aee7167019f5c3f"
+    },
+    {
+      "clip": "C6514",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-aligned4-C6514",
+      "profile": "encoded_avc",
+      "schema": 4,
+      "frames": 1534,
+      "media_sha256": "a3317b18f2c35d31dcdb3f3a5dd35f38164cc36c87c8bc7567a3e8098575a375"
+    },
+    {
+      "clip": "C6515",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-compact4-C6515",
+      "profile": "encoded_avc",
+      "schema": 4,
+      "frames": 1534,
+      "media_sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5"
+    }
+  ],
+  "checks": {
+    "all_clip_assets_and_final_catalogs_match_verified_files": true,
+    "only_expected_files_added": true,
+    "no_missing_old_files": true,
+    "old_metadata_changes_limited_to_two_catalogs": true,
+    "old_media_sizes_and_write_times_unchanged": true,
+    "control_sources_and_bound_observations_still_bit_exact": true
+  },
+  "passed": true,
+  "readback": {
+    "PRIVATE/M4ROOT/CLIP/C6511.MP4": true,
+    "PRIVATE/M4ROOT/CLIP/C6511M01.XML": true,
+    "PRIVATE/M4ROOT/THMBNL/C6511T01.JPG": true,
+    "PRIVATE/DATABASE/DATABASE.BIN": true,
+    "PRIVATE/M4ROOT/MEDIAPRO.XML": true,
+    "PRIVATE/M4ROOT/CLIP/C6512.MP4": true,
+    "PRIVATE/M4ROOT/CLIP/C6512M01.XML": true,
+    "PRIVATE/M4ROOT/THMBNL/C6512T01.JPG": true,
+    "PRIVATE/M4ROOT/CLIP/C6513.MP4": true,
+    "PRIVATE/M4ROOT/CLIP/C6513M01.XML": true,
+    "PRIVATE/M4ROOT/THMBNL/C6513T01.JPG": true,
+    "PRIVATE/M4ROOT/CLIP/C6514.MP4": true,
+    "PRIVATE/M4ROOT/CLIP/C6514M01.XML": true,
+    "PRIVATE/M4ROOT/THMBNL/C6514T01.JPG": true,
+    "PRIVATE/M4ROOT/CLIP/C6515.MP4": true,
+    "PRIVATE/M4ROOT/CLIP/C6515M01.XML": true,
+    "PRIVATE/M4ROOT/THMBNL/C6515T01.JPG": true
+  },
+  "before_snapshot_audit": {
+    "card": "F:\\",
+    "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T005344",
+    "checked_at_utc": "2026-11-12T17:42:14.174357+00:00",
+    "missing": [],
+    "added": [
+      "PRIVATE/M4ROOT/CLIP/C6511.MP4",
+      "PRIVATE/M4ROOT/CLIP/C6511M01.XML",
+      "PRIVATE/M4ROOT/CLIP/C6512.MP4",
+      "PRIVATE/M4ROOT/CLIP/C6512M01.XML",
+      "PRIVATE/M4ROOT/CLIP/C6513.MP4",
+      "PRIVATE/M4ROOT/CLIP/C6513M01.XML",
+      "PRIVATE/M4ROOT/CLIP/C6514.MP4",
+      "PRIVATE/M4ROOT/CLIP/C6514M01.XML",
+      "PRIVATE/M4ROOT/CLIP/C6515.MP4",
+      "PRIVATE/M4ROOT/CLIP/C6515M01.XML",
+      "PRIVATE/M4ROOT/THMBNL/C6511T01.JPG",
+      "PRIVATE/M4ROOT/THMBNL/C6512T01.JPG",
+      "PRIVATE/M4ROOT/THMBNL/C6513T01.JPG",
+      "PRIVATE/M4ROOT/THMBNL/C6514T01.JPG",
+      "PRIVATE/M4ROOT/THMBNL/C6515T01.JPG"
+    ],
+    "changed_metadata_hashes": [
+      "PRIVATE/DATABASE/DATABASE.BIN",
+      "PRIVATE/M4ROOT/MEDIAPRO.XML"
+    ],
+    "changed_media_size_or_mtime": [],
+    "metadata_files": 64,
+    "media_files": 127,
+    "media_content_hashes_checked": false,
+    "unchanged": false
+  },
+  "camera_listing": "NOT_TESTED",
+  "camera_playback": "NOT_TESTED",
+  "scope": "Metadata hashes and selected media hashes; all other old media use size/mtime"
+}

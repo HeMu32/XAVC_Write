@@ -1,0 +1,8 @@
+// FUN_003cd6b0
+// ELF VMA = Ghidra address - 0x100000
+003cd6b0 02d04078 ldurh w2,[x0, #0xd]
+003cd6b4 22000079 strh w2,[x1]
+003cd6b8 003c4039 ldrb w0,[x0, #0xf]
+003cd6bc 20080039 strb w0,[x1, #0x2]
+003cd6c0 00008052 mov w0,#0x0
+003cd6c4 c0035fd6 ret

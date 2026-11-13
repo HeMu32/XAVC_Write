@@ -1,0 +1,26 @@
+00282c5c stp x29,x30,[sp, #-0x20]!
+00282c60 mov x29,sp
+00282c64 str x19,[sp, #0x10]
+00282c68 mov x19,x0
+00282c6c ldr x0,[x0, #0x8]
+00282c70 cbz x0,0x00282c84
+00282c74 ldr x1,[x0]
+00282c78 ldr x1,[x1, #0x8]
+00282c7c blr x1
+00282c80 str xzr,[x19, #0x8]
+00282c84 ldr x0,[x19, #0x10]
+00282c88 cbz x0,0x00282c9c
+00282c8c ldr x1,[x0]
+00282c90 ldr x1,[x1, #0x8]
+00282c94 blr x1
+00282c98 str xzr,[x19, #0x10]
+00282c9c ldr x0,[x19]
+00282ca0 ldr x1,[x0, #0x3d8]
+00282ca4 mov x0,x19
+00282ca8 blr x1
+00282cac ldr x0,[x19]
+00282cb0 ldr x1,[x0, #0xd0]
+00282cb4 mov x0,x19
+00282cb8 ldr x19,[sp, #0x10]
+00282cbc ldp x29,x30,[sp], #0x20
+00282cc0 br x1

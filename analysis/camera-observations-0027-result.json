@@ -1,0 +1,19 @@
+{
+  "date_local": "2026-11-13",
+  "operation": "User-operated camera Repair Image Database",
+  "user_report_verbatim": "所有视频文件在机身上表现并没有变化.",
+  "scope": "Post-repair user report of unchanged video behavior, not newly itemized per-feature results",
+  "camera_context": "ILCE-7M4; no change of body reported",
+  "before_repair_observation_sources": [
+    "analysis/camera-observations-0025-result.json",
+    "analysis/camera-observations-0026-result.json",
+    "analysis/camera_observations_20261112_233331.json"
+  ],
+  "post_repair_snapshot": "backup/snap_20261113T135646",
+  "returned_card_snapshot": "backup/snap_20261113T151407",
+  "return_comparison": "analysis/snapshot-135646-151407-0028.json",
+  "unchanged_metadata_and_media_size_mtime": true,
+  "all_video_behavior_unchanged_user_reported": true,
+  "individual_seek_duration_audio_observations_newly_reported": false,
+  "interpretation": "Previously successful and previously unsuccessful playback behavior remains as reported. Do not invent outcomes for clips or features that were previously unobserved."
+}

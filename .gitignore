@@ -5,3 +5,12 @@
 include/**
 
 backup/**
+
+**/__pycache__/
+firmware/m4-v602/usr.ext2
+firmware/m4-v602/usr/
+analysis/ghidra/
+analysis/vcd/
+analysis/*.log
+analysis/dsh-*.json
+output/

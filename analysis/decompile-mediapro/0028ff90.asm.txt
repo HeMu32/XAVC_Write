@@ -1,0 +1,13 @@
+0028ff90 stp x29,x30,[sp, #-0x20]!
+0028ff94 mov x29,sp
+0028ff98 str x19,[sp, #0x10]
+0028ff9c mov x19,x0
+0028ffa0 bl 0x0028b3d0
+0028ffa4 adrp x0,0x402000
+0028ffa8 ldr x0,[x0, #0xa48]
+0028ffac add x0,x0,#0x10
+0028ffb0 str x0,[x19]
+0028ffb4 mov x0,x19
+0028ffb8 ldr x19,[sp, #0x10]
+0028ffbc ldp x29,x30,[sp], #0x20
+0028ffc0 b 0x00290b40

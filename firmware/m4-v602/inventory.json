@@ -1,0 +1,5612 @@
+[
+  {
+    "path": "",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/bin",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/bin/usb_insmod.sh",
+    "bytes": 225,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/sndcmd.elf",
+    "bytes": 10296,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/sen.elf",
+    "bytes": 27240,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/us_remove_modes.sh",
+    "bytes": 52,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/app_monio.elf",
+    "bytes": 14632,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/mwf_monio.elf",
+    "bytes": 27344,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/create_host_key.sh",
+    "bytes": 302,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/checkServerCert",
+    "bytes": 760640,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/startBTCore.sh",
+    "bytes": 1475,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/fserr.sh",
+    "bytes": 707,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/im.elf",
+    "bytes": 40920,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/iperf",
+    "bytes": 86792,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/get_finger_print.sh",
+    "bytes": 168,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/udtrbody.bin",
+    "bytes": 1253376,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/bin/compat_firmware.sh",
+    "bytes": 1043,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/Wltestcmd",
+    "bytes": 74872,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/NsBkSet.elf",
+    "bytes": 10304,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/ud_datcnv.elf",
+    "bytes": 10248,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/SetPort.elf",
+    "bytes": 6208,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/myftm",
+    "bytes": 351488,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/mkfifo",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/bin/ssh_account_lock_recorder",
+    "bytes": 105288,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/bt_firm.hcd",
+    "bytes": 61787,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/bin/btRFTest.elf",
+    "bytes": 43624,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/ssh_session_monitoring",
+    "bytes": 104104,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/bsa_server",
+    "bytes": 8610760,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/ssh-keygen",
+    "bytes": 416976,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/unload_crypto_ko.sh",
+    "bytes": 152,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/wpa_cli",
+    "bytes": 97048,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/ujlog.elf",
+    "bytes": 10280,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/bt_firm_sar.hcd",
+    "bytes": 54028,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/gpioctrl.elf",
+    "bytes": 115960,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/ulogio.elf",
+    "bytes": 28656,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/change_mode.sh",
+    "bytes": 5758,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/bootin.elf",
+    "bytes": 23960,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/scenario.elf",
+    "bytes": 10296,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/mpr_monio2.elf",
+    "bytes": 6128,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/up.sh",
+    "bytes": 6572,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/load_crypto_ko.sh",
+    "bytes": 156,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/rcvcmd.elf",
+    "bytes": 10280,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/soundstretch",
+    "bytes": 252904,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/ud_send_lsi.elf",
+    "bytes": 10248,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/unload_fec_ko.sh",
+    "bytes": 63,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/GPIO2SDIO.elf",
+    "bytes": 6192,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/crypter.elf",
+    "bytes": 10352,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/ulogio",
+    "bytes": 101840,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/adjstctl.elf",
+    "bytes": 137392,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/uuidgen",
+    "bytes": 28288,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/openssl",
+    "bytes": 2860040,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/testcmd.elf",
+    "bytes": 10288,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/wpa_supplicant",
+    "bytes": 1462184,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/dhd",
+    "bytes": 270000,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/bk.elf",
+    "bytes": 18952,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/common.src",
+    "bytes": 3287,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/SDIO2GPIO.elf",
+    "bytes": 10312,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/bin/load_fec_ko.sh",
+    "bytes": 65,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/bin/wl",
+    "bytes": 1222840,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/codec",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/codec/vcd_firmware.bin",
+    "bytes": 5445340,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/codec/vcd_firmware_imola2_fpga.bin",
+    "bytes": 8837324,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/codec/vcd_firmware_imola2.bin",
+    "bytes": 10934476,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/data",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/data/screen_reader_ext",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/data/gridline",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/kmod",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/kmod/sd_mod.ko",
+    "bytes": 51336,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/liro.ko",
+    "bytes": 121488,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/upm.ko",
+    "bytes": 446928,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/stream2.ko",
+    "bytes": 9080,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/usbserial.ko",
+    "bytes": 42240,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-seq-midi-event.ko",
+    "bytes": 9768,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usbhid.ko",
+    "bytes": 38368,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/wlanMemoryAllocator.ko",
+    "bytes": 17040,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/lg-vl600.ko",
+    "bytes": 8504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/utimer.ko",
+    "bytes": 33904,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/kikilog.ko",
+    "bytes": 78432,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/indctr.ko",
+    "bytes": 20920,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/usb_beets.ko",
+    "bytes": 111512,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/snd-seq-midi.ko",
+    "bytes": 11992,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-seq-device.ko",
+    "bytes": 10328,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/option.ko",
+    "bytes": 112520,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/backup.ko",
+    "bytes": 144976,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/usb_wwan.ko",
+    "bytes": 14592,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usbg_iap.ko",
+    "bytes": 21168,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usbg_sen.ko",
+    "bytes": 58080,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/libphy.ko",
+    "bytes": 58496,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usb_f_uac2.ko",
+    "bytes": 23328,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-hwdep.ko",
+    "bytes": 14672,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/pci_ep_cp.ko",
+    "bytes": 6496,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/snd-usbmidi-lib.ko",
+    "bytes": 31240,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-hrtimer.ko",
+    "bytes": 6760,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/elpmem.ko",
+    "bytes": 9136,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/osal_uipc.ko",
+    "bytes": 76168,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/scsi_mod.ko",
+    "bytes": 213576,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/g_mass_storage.ko",
+    "bytes": 11240,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/dev_fec.ko",
+    "bytes": 9192,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/ppp_generic.ko",
+    "bytes": 43600,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/nvme-core.ko",
+    "bytes": 44176,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/ipheth.ko",
+    "bytes": 15552,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/arc4.ko",
+    "bytes": 4944,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/codec_drv.ko",
+    "bytes": 19216,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/v4l2-common.ko",
+    "bytes": 8624,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-dummy.ko",
+    "bytes": 22528,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usb-storage.ko",
+    "bytes": 46760,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usbg_stillimage.ko",
+    "bytes": 49448,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/cdc_ether.ko",
+    "bytes": 13592,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/g_webcam.ko",
+    "bytes": 13728,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/cdc-acm.ko",
+    "bytes": 37696,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/mcmn_drv.ko",
+    "bytes": 253216,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/pcie-if.ko",
+    "bytes": 74656,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/udate.ko",
+    "bytes": 37544,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/ccm.ko",
+    "bytes": 14752,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/bcmdhd.ko",
+    "bytes": 931160,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/media.ko",
+    "bytes": 34792,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/cdrom.ko",
+    "bytes": 38392,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/videodev.ko",
+    "bytes": 210080,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/cachecontrol.ko",
+    "bytes": 6064,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/snd-seq-dummy.ko",
+    "bytes": 6384,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/asix.ko",
+    "bytes": 46592,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/stream.ko",
+    "bytes": 7032,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/rndis_host.ko",
+    "bytes": 14064,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/g_audio.ko",
+    "bytes": 9352,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-pcm-oss.ko",
+    "bytes": 59592,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/elpspacc.ko",
+    "bytes": 44632,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/sr_mod.ko",
+    "bytes": 27024,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-seq-oss.ko",
+    "bytes": 56040,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/of_mdio.ko",
+    "bytes": 14352,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/soundcore.ko",
+    "bytes": 13936,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/slhc.ko",
+    "bytes": 8488,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/fixed_phy.ko",
+    "bytes": 9064,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usbg_storage.ko",
+    "bytes": 104288,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-mixer-oss.ko",
+    "bytes": 29528,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usb_extcmd.ko",
+    "bytes": 23112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usb_current.ko",
+    "bytes": 7840,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/mmc_drv.ko",
+    "bytes": 464736,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/xhci-pci.ko",
+    "bytes": 11224,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/videobuf2-vmalloc.ko",
+    "bytes": 12144,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usb_buspwr.ko",
+    "bytes": 27752,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/dmm.ko",
+    "bytes": 118336,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/snd-timer.ko",
+    "bytes": 35264,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-virmidi.ko",
+    "bytes": 8016,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/mmcioWrapper.ko",
+    "bytes": 11808,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/snd.ko",
+    "bytes": 85216,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/videobuf2-memops.ko",
+    "bytes": 4344,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/mmc_core.ko",
+    "bytes": 168472,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/videobuf2-v4l2.ko",
+    "bytes": 21848,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/ioexp.ko",
+    "bytes": 26264,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/xhci-hcd.ko",
+    "bytes": 169136,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/ldec.ko",
+    "bytes": 23464,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/usb_f_mass_storage.ko",
+    "bytes": 51696,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usb_f_uvc.ko",
+    "bytes": 78840,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/nvme.ko",
+    "bytes": 36840,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-seq.ko",
+    "bytes": 80056,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/input.ko",
+    "bytes": 58384,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/xhci-plat-hcd.ko",
+    "bytes": 13688,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/cdc_ncm.ko",
+    "bytes": 32208,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/ms_drv.ko",
+    "bytes": 193760,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/usbnet.ko",
+    "bytes": 39168,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/osal_utm.ko",
+    "bytes": 10688,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/icdt.ko",
+    "bytes": 21776,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/wlanIrq.ko",
+    "bytes": 6056,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/r8152.ko",
+    "bytes": 56264,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/ax88179_178a.ko",
+    "bytes": 23848,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/pcieatu.ko",
+    "bytes": 24360,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/nls_utf8.ko",
+    "bytes": 4128,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/videobuf2-core.ko",
+    "bytes": 45392,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-aloop.ko",
+    "bytes": 25544,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/crc-ccitt.ko",
+    "bytes": 3720,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/grm_ma.ko",
+    "bytes": 36592,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/elpspaccusr.ko",
+    "bytes": 23856,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/osal_ulogio.ko",
+    "bytes": 68528,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/mii.ko",
+    "bytes": 7560,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-usb-audio.ko",
+    "bytes": 220360,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/pci-epf-test.ko",
+    "bytes": 11816,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/libcomposite.ko",
+    "bytes": 73824,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/elppdu.ko",
+    "bytes": 15968,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/v4l2-dv-timings.ko",
+    "bytes": 25048,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/crypto_kapi.ko",
+    "bytes": 7448,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/compass.ko",
+    "bytes": 2256,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/drv_fec.ko",
+    "bytes": 15664,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/snd-seq-virmidi.ko",
+    "bytes": 11184,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usb_portMonitor.ko",
+    "bytes": 40584,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/kmod/snd-rawmidi.ko",
+    "bytes": 35976,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/ppp_async.ko",
+    "bytes": 17616,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/snd-pcm.ko",
+    "bytes": 124512,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/kmod/usbg_buspower.ko",
+    "bytes": 21680,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/lib/libpam_misc.so.0",
+    "bytes": 21,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libosal_utm.so",
+    "bytes": 10216,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libosal_uipc.so",
+    "bytes": 43752,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraHttpClientUtil.so",
+    "bytes": 18752,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libUsbControl.so",
+    "bytes": 135424,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libusbmuxd.so.6.0.0",
+    "bytes": 35280,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnl-3.so",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libBTAdjust.so",
+    "bytes": 18760,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libssp.so.0",
+    "bytes": 15,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraCertificate.so",
+    "bytes": 22872,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libncurses.so",
+    "bytes": 15,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libplist.so.3.2.0",
+    "bytes": 51496,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libWiredLanResource.so",
+    "bytes": 36160,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraNetConnectionManagerEther.so",
+    "bytes": 47536,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnl-route-3.so.200",
+    "bytes": 25,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libblkid.so.1.1.0",
+    "bytes": 229864,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libInfraNetConnectionManager.so",
+    "bytes": 39488,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraCrypt.so",
+    "bytes": 22768,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libResourceBluetooth.so",
+    "bytes": 14456,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libevent-2.1.so.6",
+    "bytes": 21,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libprocps.so.6.0.0",
+    "bytes": 64128,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libcrypt.so",
+    "bytes": 23,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraUsbHostStorage.so",
+    "bytes": 31520,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libpcap.so.1",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libbsa.so",
+    "bytes": 158944,
+    "mode": "0o100444"
+  },
+  {
+    "path": "/lib/libpcre.so.1",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libcrypto.so.3.0",
+    "bytes": 14,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libmount.so.1.1.0",
+    "bytes": 255392,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libpng.so.16",
+    "bytes": 15,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraSKD.so",
+    "bytes": 7611988,
+    "mode": "0o100444"
+  },
+  {
+    "path": "/lib/libgobject-2.0.so.0.6400.6",
+    "bytes": 348616,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libjsoncpp.so.24",
+    "bytes": 213720,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libawsiotsdk.so",
+    "bytes": 39344,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libfec.so",
+    "bytes": 10144,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libexpat.so.1",
+    "bytes": 18,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libWlanAdjust.so",
+    "bytes": 68912,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraRemote.so",
+    "bytes": 1308376,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libz.so",
+    "bytes": 9,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraMediaMount.so",
+    "bytes": 65392,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnl-genl-3.so",
+    "bytes": 24,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libcrypto-ram.so",
+    "bytes": 18432,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraAvbbc.so",
+    "bytes": 1738760,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraBluetoothCore.so",
+    "bytes": 293272,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libpam.so.0.84.2",
+    "bytes": 47576,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libupdaterufunc.so",
+    "bytes": 10088,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libplist++.so.3.2.0",
+    "bytes": 60448,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraError.so",
+    "bytes": 18736,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libimobiledevice.so.6",
+    "bytes": 126760,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/netconf",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/lib/netconf/dhcpcd-hooks_dns",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/lib/netconf/dhcpcd-hooks_dns/20-resolv_dns.conf",
+    "bytes": 5573,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/dhcpcd_wired_dns_4.conf",
+    "bytes": 1247,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/bss.conf",
+    "bytes": 449,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/dhcpd_no_dns.conf",
+    "bytes": 316,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/db.txt",
+    "bytes": 7302,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/p2p.conf",
+    "bytes": 599,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/dhcpcd_wired_dns.conf",
+    "bytes": 1217,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/dhcpd.conf",
+    "bytes": 373,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/dhcpcd-run-hooks_dns",
+    "bytes": 8699,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/lib/netconf/dhcpcd_dns.conf",
+    "bytes": 1208,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/dhcpcd_tethering_dns_noipv4ll.conf",
+    "bytes": 1206,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/p2p_multi_go.conf",
+    "bytes": 599,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/dhcpcd_tethering_dns_4_noipv4ll.conf",
+    "bytes": 1245,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/netconf/dhcpcd_dns_4.conf",
+    "bytes": 1240,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/lib/libevent-2.1.so.6.0.2",
+    "bytes": 300576,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libInfraBluetoothLowEnergy.so",
+    "bytes": 648320,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnss_files.so",
+    "bytes": 27,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libplist++.so.3",
+    "bytes": 60448,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraMediaConfig.so",
+    "bytes": 52344,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libpam_misc.so.0.82.1",
+    "bytes": 10296,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libgstreamer-1.0.so.0",
+    "bytes": 1186272,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraFtpClient.so",
+    "bytes": 232368,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnss_dns.so",
+    "bytes": 25,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libpcap.so.1.8.1",
+    "bytes": 241776,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libmintx.so",
+    "bytes": 2049744,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libread_refresh.so",
+    "bytes": 14704,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libcurl.so.4.8.0",
+    "bytes": 526528,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libIMDB.so",
+    "bytes": 75632,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libbkdmn.so",
+    "bytes": 18672,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libupdatertalk.so",
+    "bytes": 5896,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libusbmuxd.so",
+    "bytes": 35280,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libbackup.so",
+    "bytes": 14232,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libSoundTouch.so.1.0.0",
+    "bytes": 76640,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libpng.so",
+    "bytes": 15,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libtirpc.so.3",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libexpat.so",
+    "bytes": 18,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libtestcmd_scn.so",
+    "bytes": 10192,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libcom_err.so",
+    "bytes": 15,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libnl-nf-3.so",
+    "bytes": 22,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraUsbCmn.so",
+    "bytes": 155408,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libWlanResource.so",
+    "bytes": 43864,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libHeapMon.so",
+    "bytes": 14496,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libpopt.so.0",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libwebsockets.so.18",
+    "bytes": 358104,
+    "mode": "0o100444"
+  },
+  {
+    "path": "/lib/libnl-genl-3.so.200",
+    "bytes": 24,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libgstmpegts-1.0.so.0",
+    "bytes": 182552,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libNetCommon.so",
+    "bytes": 130736,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libe2p.so.2.3",
+    "bytes": 32472,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libNetworkMsgHandler.so",
+    "bytes": 10296,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnl-route-3.so.200.20.0",
+    "bytes": 327104,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/gstplugin",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/lib/gstplugin/libgstaxcmux.so",
+    "bytes": 235216,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/gstplugin/libgstcoreelements.so",
+    "bytes": 368568,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/lib/gstplugin/libgstmpegtsmux.so",
+    "bytes": 85672,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/lib/gstplugin/libPluginRtmpLiveStream.so",
+    "bytes": 197312,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/gstplugin/libgstventsink.so",
+    "bytes": 384664,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/gstplugin/libgstsrt.so",
+    "bytes": 60736,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/lib/gstplugin/libPluginSrtLiveStream.so",
+    "bytes": 270264,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libMWF.so",
+    "bytes": 353120,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libssl.so.3.0",
+    "bytes": 11,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraKikiLogSender.so",
+    "bytes": 14432,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libopus.so",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libusb.so",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libgobject-2.0.so.0",
+    "bytes": 26,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libObj.so",
+    "bytes": 2884880,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libprocps.so",
+    "bytes": 18,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libcryptfileinputupdaterapi.so",
+    "bytes": 27072,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libSoundTouch.so.1",
+    "bytes": 22,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libplist.so.3",
+    "bytes": 51496,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libopus.so.0",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libSysDef.so",
+    "bytes": 6041280,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libOnDemandLoader.so",
+    "bytes": 73728,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libul_xml.so",
+    "bytes": 72784,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libpam.so.0",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libcom_err.so.2",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libnl-cli-3.so",
+    "bytes": 23,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libGetLog.so",
+    "bytes": 178832,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraSrtLiveStreaming.so",
+    "bytes": 90248,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraFsys.so",
+    "bytes": 708568,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libBusPower.so",
+    "bytes": 43968,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libblkid.so",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libpcap.so.1.8",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraNetworkCommon.so",
+    "bytes": 106480,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libgstpbutils-1.0.so.0",
+    "bytes": 226600,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libuuid.so",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libffi.so",
+    "bytes": 15,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libstdc++.so.6",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libe2p.so",
+    "bytes": 11,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libgsttag-1.0.so.0",
+    "bytes": 225792,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libminimp.so",
+    "bytes": 101160,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libimobiledevice.so.6.0.0",
+    "bytes": 126760,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraPtpExtCmd.so",
+    "bytes": 35600,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnl-cli-3.so.200.20.0",
+    "bytes": 39968,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libInfraMediaCommon.so",
+    "bytes": 402656,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnl-nf-3.so.200",
+    "bytes": 22,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libjemalloc_ds.so.2",
+    "bytes": 5848,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libInfraExtCmdSvc.so",
+    "bytes": 26960,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libGOConnectionManager.so",
+    "bytes": 104232,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libFecController.so",
+    "bytes": 26944,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libcurl.so.4",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libglib-2.0.so.0.6400.6",
+    "bytes": 1102952,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libgmodule-2.0.so.0.6400.6",
+    "bytes": 14432,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libglib-2.0.so.0",
+    "bytes": 23,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libspaccdev.so",
+    "bytes": 5976,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraBluetooth.so",
+    "bytes": 154792,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libcrypto.so",
+    "bytes": 14,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraMetaSupplier.so",
+    "bytes": 23048,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libmount.so",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libnl-genl-3.so.200.20.0",
+    "bytes": 23744,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libsecvlt.so",
+    "bytes": 10216,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libSoundTouch.so",
+    "bytes": 22,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libqrencode.so",
+    "bytes": 39320,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraKikiLogGenerator.so",
+    "bytes": 27256,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libupdaterufp.so",
+    "bytes": 22768,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libtirpc.so.3.0.0",
+    "bytes": 143448,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libgmodule-2.0.so.0",
+    "bytes": 26,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraGetVersion.so",
+    "bytes": 10144,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libusbmuxd.so.6",
+    "bytes": 35280,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libpopt.so.0.0.0",
+    "bytes": 43976,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libmpr.so",
+    "bytes": 3549952,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraNetInitializer.so",
+    "bytes": 27152,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libssh2.so.1",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libsencore.so",
+    "bytes": 381424,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraSSHManager.so",
+    "bytes": 60360,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libCryptoController.so",
+    "bytes": 27016,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libEsCodecLibrary.so",
+    "bytes": 23024,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraIPTC.so",
+    "bytes": 106448,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraCCPFStatic.so",
+    "bytes": 118056,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraAdjMedia.so",
+    "bytes": 322280,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraMediaDetect.so",
+    "bytes": 98240,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libncurses.so.6",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libupdatercorecommon.so",
+    "bytes": 64520,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libSaveLoadSettings.so",
+    "bytes": 18760,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraCCPF.so",
+    "bytes": 1212696,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libupdatermedia.so",
+    "bytes": 10144,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libExternalCommand.so",
+    "bytes": 10312,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libBTUtils.so",
+    "bytes": 31256,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraNetworkServiceInfo.so",
+    "bytes": 39720,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libjsoncpp.so",
+    "bytes": 213720,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libInfraCryptCore.so",
+    "bytes": 7611960,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libgmodule-2.0.so",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libgobject-2.0.so",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libcom_err.so.2.1",
+    "bytes": 14488,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libutil_date.so",
+    "bytes": 10032,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libe2p.so.2",
+    "bytes": 13,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libssh2.so.1.0.1",
+    "bytes": 216784,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libz.so.1.2.11",
+    "bytes": 80144,
+    "mode": "0o100666"
+  },
+  {
+    "path": "/lib/libtestcmd.so",
+    "bytes": 18504,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/ossl-modules",
+    "bytes": 0,
+    "mode": "0o40777"
+  },
+  {
+    "path": "/lib/ossl-modules/legacy.so",
+    "bytes": 96888,
+    "mode": "0o100666"
+  },
+  {
+    "path": "/lib/libblkid.so.1",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libssp.so.0.0.0",
+    "bytes": 10184,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libjemalloc_ds.so",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libJiritsu.so",
+    "bytes": 233416,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libCertificateManager.so",
+    "bytes": 190640,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libcurl.so",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/security",
+    "bytes": 0,
+    "mode": "0o40777"
+  },
+  {
+    "path": "/lib/security/pam_rootok.so",
+    "bytes": 5944,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/security/pam_permit.so",
+    "bytes": 5936,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/security/pam_exec.so",
+    "bytes": 14480,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/security/pam_deny.so",
+    "bytes": 5848,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/security/pam_tally2.so",
+    "bytes": 14328,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/security/pam_unix.so",
+    "bytes": 43592,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/security/pam_succeed_if.so",
+    "bytes": 14272,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/librtmp.so.0",
+    "bytes": 97688,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libstdc++.so.6.0.22",
+    "bytes": 1549496,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libplist++.so",
+    "bytes": 60448,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libjemalloc.so",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/dhcpd",
+    "bytes": 0,
+    "mode": "0o40777"
+  },
+  {
+    "path": "/lib/dhcpd/dhcpd.leases",
+    "bytes": 0,
+    "mode": "0o100666"
+  },
+  {
+    "path": "/lib/libimobiledevice.so",
+    "bytes": 126760,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libuuid.so.1",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libpng.so.16.37",
+    "bytes": 188416,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libnss_nis.so",
+    "bytes": 25,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraAccessLogWrapper.so",
+    "bytes": 5944,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libAccessLogController.so",
+    "bytes": 14472,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libssl.so",
+    "bytes": 11,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libffi.so.6.0.4",
+    "bytes": 30984,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libusb-1.0.so",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libi2cuipc.so",
+    "bytes": 14376,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraPtpControl.so",
+    "bytes": 165352,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnl-3.so.200.20.0",
+    "bytes": 106128,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libpro00.so",
+    "bytes": 6032,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnl-route-3.so",
+    "bytes": 25,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libjemalloc.so.2",
+    "bytes": 412656,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libCurlResourcePermission.so",
+    "bytes": 14536,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraIPsec.so",
+    "bytes": 49472,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraMtpServer.so",
+    "bytes": 272744,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libuuid.so.1.3.0",
+    "bytes": 14712,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libInfraLensCommunicator.so",
+    "bytes": 14544,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/appFw.so",
+    "bytes": 98212632,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libosal_ulogio.so",
+    "bytes": 40168,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libkvsWebrtcClient.so",
+    "bytes": 1115336,
+    "mode": "0o100444"
+  },
+  {
+    "path": "/lib/libInfraNetDeviceInfo.so",
+    "bytes": 14376,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraVericEsCodecLibrary.so",
+    "bytes": 22912,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnl-nf-3.so.200.20.0",
+    "bytes": 84608,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libgps_rsrc.so",
+    "bytes": 23824,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libplist.so",
+    "bytes": 51496,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libNetServiceEther.so",
+    "bytes": 114384,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libgio-2.0.so.0",
+    "bytes": 22,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libgstvideo-1.0.so.0",
+    "bytes": 571080,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libjsoncpp.so.1.9.4",
+    "bytes": 213720,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libInfraRtmpLiveStreaming.so",
+    "bytes": 85960,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libUniqIDGen.so",
+    "bytes": 10120,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libgstbase-1.0.so.0",
+    "bytes": 447416,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libWiredLanAdjust.so",
+    "bytes": 22768,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libz.so.1",
+    "bytes": 14,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libusb-1.0.so.0.1.0",
+    "bytes": 88768,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables",
+    "bytes": 0,
+    "mode": "0o40777"
+  },
+  {
+    "path": "/lib/xtables/libxt_SECMARK.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_ECN.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_cluster.so",
+    "bytes": 10312,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_devgroup.so",
+    "bytes": 10376,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libebt_802_3.so",
+    "bytes": 10312,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libebt_limit.so",
+    "bytes": 10432,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_DNPT.so",
+    "bytes": 6240,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_CLASSIFY.so",
+    "bytes": 10536,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_TEE.so",
+    "bytes": 10560,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libarpt_mangle.so",
+    "bytes": 10504,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_TTL.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_dscp.so",
+    "bytes": 10528,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_esp.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_SNAT.so",
+    "bytes": 10400,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_REJECT.so",
+    "bytes": 10352,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_rt.so",
+    "bytes": 10360,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_mh.so",
+    "bytes": 10376,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_state.so",
+    "bytes": 28736,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_TCPOPTSTRIP.so",
+    "bytes": 10352,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_CONNMARK.so",
+    "bytes": 10528,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_ah.so",
+    "bytes": 10328,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_tcpmss.so",
+    "bytes": 6216,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_icmp.so",
+    "bytes": 10368,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_frag.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_udp.so",
+    "bytes": 10336,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_DSCP.so",
+    "bytes": 10544,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_NFLOG.so",
+    "bytes": 10352,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_recent.so",
+    "bytes": 14816,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_TPROXY.so",
+    "bytes": 10736,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_ipcomp.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_rateest.so",
+    "bytes": 14440,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_HMARK.so",
+    "bytes": 14664,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_sctp.so",
+    "bytes": 14520,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_MASQUERADE.so",
+    "bytes": 10344,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_dccp.so",
+    "bytes": 10368,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_SNAT.so",
+    "bytes": 10400,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libebt_nflog.so",
+    "bytes": 10456,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_REDIRECT.so",
+    "bytes": 10352,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_dst.so",
+    "bytes": 10352,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_NFQUEUE.so",
+    "bytes": 10928,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_TCPMSS.so",
+    "bytes": 10512,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_physdev.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_statistic.so",
+    "bytes": 10336,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_tos.so",
+    "bytes": 10512,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_REDIRECT.so",
+    "bytes": 10352,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_limit.so",
+    "bytes": 10344,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_cpu.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_cgroup.so",
+    "bytes": 10520,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_AUDIT.so",
+    "bytes": 6232,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_mark.so",
+    "bytes": 10512,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_multiport.so",
+    "bytes": 15040,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_TOS.so",
+    "bytes": 10528,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_CT.so",
+    "bytes": 15664,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_tcp.so",
+    "bytes": 14480,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_set.so",
+    "bytes": 19376,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_hbh.so",
+    "bytes": 10360,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_SNPT.so",
+    "bytes": 6240,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_hl.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_comment.so",
+    "bytes": 6240,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_bpf.so",
+    "bytes": 10520,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_socket.so",
+    "bytes": 10888,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_connbytes.so",
+    "bytes": 10336,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_quota.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_u32.so",
+    "bytes": 10344,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libebt_mark.so",
+    "bytes": 10552,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_MARK.so",
+    "bytes": 10728,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_string.so",
+    "bytes": 10560,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_mac.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_nfacct.so",
+    "bytes": 6232,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_SYNPROXY.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_ecn.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_length.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_policy.so",
+    "bytes": 14648,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libebt_log.so",
+    "bytes": 10352,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_ipv6header.so",
+    "bytes": 10368,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_REJECT.so",
+    "bytes": 10360,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_time.so",
+    "bytes": 14496,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_TRACE.so",
+    "bytes": 6136,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_conntrack.so",
+    "bytes": 28736,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_RATEEST.so",
+    "bytes": 10344,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libebt_mark_m.so",
+    "bytes": 6208,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_LOG.so",
+    "bytes": 10344,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_osf.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_eui64.so",
+    "bytes": 6120,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_hashlimit.so",
+    "bytes": 23528,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_IDLETIMER.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_realm.so",
+    "bytes": 10376,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_CONNSECMARK.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_addrtype.so",
+    "bytes": 10536,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_LOG.so",
+    "bytes": 10344,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_LED.so",
+    "bytes": 10352,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_ttl.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_CLUSTERIP.so",
+    "bytes": 10336,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_ULOG.so",
+    "bytes": 10344,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_owner.so",
+    "bytes": 14848,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_SET.so",
+    "bytes": 19208,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_iprange.so",
+    "bytes": 14880,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libebt_ip.so",
+    "bytes": 10400,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_connmark.so",
+    "bytes": 10520,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_CHECKSUM.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_NOTRACK.so",
+    "bytes": 15664,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_DNAT.so",
+    "bytes": 10400,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_pkttype.so",
+    "bytes": 10336,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_DNAT.so",
+    "bytes": 10400,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libipt_NETMAP.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_rpfilter.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_connlimit.so",
+    "bytes": 10888,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_ah.so",
+    "bytes": 10320,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_ipvs.so",
+    "bytes": 10584,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_HL.so",
+    "bytes": 6224,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_MASQUERADE.so",
+    "bytes": 10344,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_icmp6.so",
+    "bytes": 10368,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_helper.so",
+    "bytes": 6232,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_mangle.so",
+    "bytes": 10464,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libip6t_NETMAP.so",
+    "bytes": 6232,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/xtables/libxt_standard.so",
+    "bytes": 6136,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libInfraHttpClient.so",
+    "bytes": 56360,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libgio-2.0.so.0.6400.6",
+    "bytes": 1612120,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libgio-2.0.so",
+    "bytes": 15,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/librt.so",
+    "bytes": 20,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libssp.so",
+    "bytes": 15,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libWlanControlCommon.so",
+    "bytes": 18528,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraAppRemoteBoard.so",
+    "bytes": 10456,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libusbcmd.so",
+    "bytes": 27208,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libptp.so",
+    "bytes": 77408,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libpcap.so",
+    "bytes": 12,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraVericUtilCommon.so",
+    "bytes": 18744,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libzbar.so.0",
+    "bytes": 166728,
+    "mode": "0o100444"
+  },
+  {
+    "path": "/lib/libInfraMscServer.so",
+    "bytes": 64456,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libglib-2.0.so",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libBackupManager.so",
+    "bytes": 10272,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraAccessLog.so",
+    "bytes": 18696,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/AdjChkConfig.so",
+    "bytes": 81384,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libanl.so",
+    "bytes": 21,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libsrt.so.1.4",
+    "bytes": 529312,
+    "mode": "0o100444"
+  },
+  {
+    "path": "/lib/libexpat.so.1.6.11",
+    "bytes": 149592,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libDmacController.so",
+    "bytes": 22816,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libpcre.so.1.2.12",
+    "bytes": 239648,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/CameraOnDemandSaver.so",
+    "bytes": 18800,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libncurses.so.6.2",
+    "bytes": 342176,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libgcc_s.so.1",
+    "bytes": 71920,
+    "mode": "0o100666"
+  },
+  {
+    "path": "/lib/libusb-1.0.so.0",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libffi.so.6",
+    "bytes": 15,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraStreamingUsb.so",
+    "bytes": 106568,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnss_ssh.so.2",
+    "bytes": 10192,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libkvsWebrtcSignalingClient.so",
+    "bytes": 190416,
+    "mode": "0o100444"
+  },
+  {
+    "path": "/lib/libusb-0.1.so.4.4.4",
+    "bytes": 18528,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libprocps.so.6",
+    "bytes": 18,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libTetheringResource.so",
+    "bytes": 15176,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libresolv.so",
+    "bytes": 24,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libNetServiceTethering.so",
+    "bytes": 126616,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libevent.so",
+    "bytes": 21,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libopus.so.0.8.0",
+    "bytes": 297176,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/lib/libstdc++.so",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/dataflowInfraFramework.so",
+    "bytes": 294176,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraRtmpLiveStreamingUtilCommon.so",
+    "bytes": 10336,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraDevInfoSender.so",
+    "bytes": 18840,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libcrypto.so.3",
+    "bytes": 3615072,
+    "mode": "0o100666"
+  },
+  {
+    "path": "/lib/libInfraOptionInstall.so",
+    "bytes": 235688,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libssh2.so",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libnsl.so",
+    "bytes": 21,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libupdatercommon.so",
+    "bytes": 56032,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libgpe.so",
+    "bytes": 106520,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraExtBackupCommunicator.so",
+    "bytes": 22960,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libpcre.so",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libfileinputupdaterapi.so",
+    "bytes": 27232,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libgstaudio-1.0.so.0",
+    "bytes": 402648,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraInterchipDatatrans.so",
+    "bytes": 5960,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libnl-3.so.200",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libssl.so.3",
+    "bytes": 574464,
+    "mode": "0o100666"
+  },
+  {
+    "path": "/lib/libpopt.so",
+    "bytes": 16,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraAirplaneMode.so",
+    "bytes": 14488,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libgcc_s.so",
+    "bytes": 13,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libusb-0.1.so.4",
+    "bytes": 19,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libnl-cli-3.so.200",
+    "bytes": 23,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libUsbBusPower.so",
+    "bytes": 48232,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libNetService.so",
+    "bytes": 946776,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libosal_udate.so",
+    "bytes": 27344,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libmount.so.1",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libInfraOptionInstallUSB.so",
+    "bytes": 10248,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libtirpc.so",
+    "bytes": 17,
+    "mode": "0o120777"
+  },
+  {
+    "path": "/lib/libul_GpioCtrl.so",
+    "bytes": 10064,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraVericLiveStreaming.so",
+    "bytes": 182480,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/lib/libInfraBluetoothWoLEBoot.so",
+    "bytes": 14576,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/local",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/local/lib",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/sabin",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/sabin/dcv_psf_table_movie_8k.bin",
+    "bytes": 33408,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_mov_y_tap_step1.bin",
+    "bytes": 51000,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_mov_bining_y_tap_step1.bin",
+    "bytes": 51000,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/fdn_front_dict.bin",
+    "bytes": 103316,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/aed_dic1.bin",
+    "bytes": 460032,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/fdn_side_dict.bin",
+    "bytes": 103316,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/star_kernel_param.bin",
+    "bytes": 19338,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_mov_y_tap_step2.bin",
+    "bytes": 51000,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/dcv_psf_table_movie.bin",
+    "bytes": 10728,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_mov_bining_c_tap_step2.bin",
+    "bytes": 42504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/aed2_dicb_s2f.bin",
+    "bytes": 580,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_mov_c_tap_step1.bin",
+    "bytes": 42504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/aed2_dic2.bin",
+    "bytes": 568000,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/aed2_dic1.bin",
+    "bytes": 460032,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/dcv_psf_table_still.bin",
+    "bytes": 63608,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_still_c_tap_step2.bin",
+    "bytes": 42504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/pdn_dic.bin",
+    "bytes": 72988,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_mov_bining_y_tap_step2.bin",
+    "bytes": 51000,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/dcv_psf_table_movie_4k.bin",
+    "bytes": 33408,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_still_y_tap_step2.bin",
+    "bytes": 51000,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/bed_dic1.bin",
+    "bytes": 460032,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/sa_sabin_mp_cam_post.bin",
+    "bytes": 53504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/udrt_dic2.bin",
+    "bytes": 53668,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_mov_bining_c_tap_step1.bin",
+    "bytes": 42504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/bed_dic2.bin",
+    "bytes": 78828,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_still_c_tap_step1.bin",
+    "bytes": 42504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/dcv_psf_table_movie_3k.bin",
+    "bytes": 33408,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/udrt_dic1.bin",
+    "bytes": 53668,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/sa_sabin_mp_zima_post.bin",
+    "bytes": 1660416,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/sa_zoom_nr.bin",
+    "bytes": 104448,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/dcv_psf_table_movie_2k.bin",
+    "bytes": 33408,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/sa_sabin_cp_zima_post.bin",
+    "bytes": 104704,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/dcv_psf_table_movie_6k.bin",
+    "bytes": 33408,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_still_y_tap_step1.bin",
+    "bytes": 51000,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/aed2_dica_s2f.bin",
+    "bytes": 580,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/spica_cetus_mov_c_tap_step2.bin",
+    "bytes": 42504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/aed_dic2.bin",
+    "bytes": 74800,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sabin/sa_sabin_cp_cam_post.bin",
+    "bytes": 1952512,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/sbin",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/sbin/tcpdump",
+    "bytes": 2830168,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/sbin/iw",
+    "bytes": 749464,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/sbin/dhcpcd",
+    "bytes": 1262664,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/sbin/usbmuxd",
+    "bytes": 186624,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/sbin/dhcpd",
+    "bytes": 13433528,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/sbin/sshd",
+    "bytes": 767408,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/scenario",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_START_HDMI_INPUT_SUB.so",
+    "bytes": 287640,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/CAMERA_SCN_EE_SET_PRM.so",
+    "bytes": 77512,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_STOP_HDMI.so",
+    "bytes": 276704,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_STOP_HDMI_INPUT.so",
+    "bytes": 290328,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_START_MICSENSE.so",
+    "bytes": 70888,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_START_HDMI_INPUT.so",
+    "bytes": 225648,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_STOP_PANELEVF.so",
+    "bytes": 253504,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_START_VIDEO.so",
+    "bytes": 255528,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/CAMERA_SCN_EE_SETUP_START_STOP.so",
+    "bytes": 167528,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/MPR_SCN_EXEC_FACTORY_MODE.so",
+    "bytes": 16704,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/MPR_SCN_EXEC_WIFI_TEST.so",
+    "bytes": 16680,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_STOP_MIC.so",
+    "bytes": 78440,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_START_HDMI.so",
+    "bytes": 225152,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_START_AUDIO.so",
+    "bytes": 70968,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_STOP_AUDIO.so",
+    "bytes": 78248,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/CAMERA_SCN_EXTERNAL_RAW_RECORD.so",
+    "bytes": 13872,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_START_HDMI_SUB.so",
+    "bytes": 276376,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_START_MIC.so",
+    "bytes": 79024,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_STOP_VIDEO.so",
+    "bytes": 255072,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_STOP_MICSENSE.so",
+    "bytes": 70872,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/CAMERA_SCN_SET_ZOOM_DRV.so",
+    "bytes": 64208,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/CAMERA_SCN_VIDEOLIGHT_SW.so",
+    "bytes": 65768,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/CAMERA_SCN_EE_START_STOP.so",
+    "bytes": 13856,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/CAMERA_SCN_FACE_REC_DATA.so",
+    "bytes": 34232,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/AVBB_SCN_START_PANELEVF.so",
+    "bytes": 263024,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/scenario/CAMERA_SCN_MOVIE_REC_START.so",
+    "bytes": 68792,
+    "mode": "0o100555"
+  },
+  {
+    "path": "/share",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/data",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/data/kikilog_pub.pem",
+    "bytes": 625,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/data/pub.key",
+    "bytes": 451,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/screenreader",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/screenreader/english_info.txt",
+    "bytes": 26219,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/screenreader/english.bin",
+    "bytes": 1167279,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/network/nvram",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_01.txt",
+    "bytes": 3145,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_24.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_04.txt",
+    "bytes": 3145,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_23.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_07.txt",
+    "bytes": 3145,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_10.txt",
+    "bytes": 3146,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_22.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_29.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_06.txt",
+    "bytes": 3145,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_17.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_09.txt",
+    "bytes": 3145,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_18.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_02.txt",
+    "bytes": 3145,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_16.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_12.txt",
+    "bytes": 3146,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_03.txt",
+    "bytes": 3145,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_26.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_21.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_28.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_13.txt",
+    "bytes": 3146,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_27.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_14.txt",
+    "bytes": 3146,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_20.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_15.txt",
+    "bytes": 3146,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_19.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_25.txt",
+    "bytes": 3147,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/rankA.txt",
+    "bytes": 0,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_05.txt",
+    "bytes": 3145,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_11.txt",
+    "bytes": 3146,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_high/bcm4339_L_H_08.txt",
+    "bytes": 3145,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_04.txt",
+    "bytes": 3112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_20.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_17.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_07.txt",
+    "bytes": 3112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_22.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_03.txt",
+    "bytes": 3112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_26.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_09.txt",
+    "bytes": 3112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_12.txt",
+    "bytes": 3113,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_15.txt",
+    "bytes": 3113,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_13.txt",
+    "bytes": 3113,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_25.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_23.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_16.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_10.txt",
+    "bytes": 3113,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_14.txt",
+    "bytes": 3113,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_05.txt",
+    "bytes": 3112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_08.txt",
+    "bytes": 3112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_18.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_19.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_02.txt",
+    "bytes": 3112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_06.txt",
+    "bytes": 3112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/rankA.txt",
+    "bytes": 0,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_21.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_28.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_27.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_29.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_11.txt",
+    "bytes": 3113,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_01.txt",
+    "bytes": 3112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_high_5GHz_high/bcm4339_H_H_24.txt",
+    "bytes": 3114,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_06.txt",
+    "bytes": 3141,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_18.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_16.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_17.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_19.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_24.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_14.txt",
+    "bytes": 3142,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_01.txt",
+    "bytes": 3141,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_04.txt",
+    "bytes": 3141,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_07.txt",
+    "bytes": 3141,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_22.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_26.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_05.txt",
+    "bytes": 3141,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_28.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_02.txt",
+    "bytes": 3141,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_11.txt",
+    "bytes": 3142,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_13.txt",
+    "bytes": 3142,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_15.txt",
+    "bytes": 3142,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_21.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_29.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_20.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_03.txt",
+    "bytes": 3141,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_10.txt",
+    "bytes": 3142,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_27.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/rankA.txt",
+    "bytes": 0,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_12.txt",
+    "bytes": 3142,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_25.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_08.txt",
+    "bytes": 3141,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_23.txt",
+    "bytes": 3143,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/nvram/2_4GHz_low_5GHz_low/bcm4339_L_L_09.txt",
+    "bytes": 3141,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/cert",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/network/cert/IPF_WEBRTC_certification.pem",
+    "bytes": 5889,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/cert/IPF_WEB_certification.pem",
+    "bytes": 5889,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/cert/IPF_CON_certification.pem",
+    "bytes": 5889,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/cert/IPF_MQTT_certification.pem",
+    "bytes": 5889,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/cert/RTMPcert.pem",
+    "bytes": 231212,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/network/cert/HTTPS_AUTH_certification.pem",
+    "bytes": 1424,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/terminfo",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/terminfo/l",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/terminfo/l/linux",
+    "bytes": 1730,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/app/string_canadianfrench_g.uxc",
+    "bytes": 11596,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_dutch_f.uxc",
+    "bytes": 170080,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_croatian_vertical.uxc",
+    "bytes": 129908,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/master_browser.uxc",
+    "bytes": 28052,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_dutch.uxc",
+    "bytes": 41148,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_dutch_g.uxc",
+    "bytes": 46852,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_simplifiedchinese_func_j.uxc",
+    "bytes": 143328,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/image_02_23_IPSX.uxc",
+    "bytes": 9558388,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_canadianfrench_horizontal.uxc",
+    "bytes": 45352,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_danish_horizontal.uxc",
+    "bytes": 125280,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_french_func_j.uxc",
+    "bytes": 192428,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_russian_vertical.uxc",
+    "bytes": 195736,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_german_f.uxc",
+    "bytes": 173184,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_turkish_f.uxc",
+    "bytes": 161424,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_finnish_vertical.uxc",
+    "bytes": 125484,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hungarian_horizontal.uxc",
+    "bytes": 136576,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_japanese_func_j.uxc",
+    "bytes": 205448,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_simplifiedchinese_f.uxc",
+    "bytes": 130112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_english_g.uxc",
+    "bytes": 43976,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_english.uxc",
+    "bytes": 38164,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_romanian_func_j.uxc",
+    "bytes": 185560,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_english_vertical.uxc",
+    "bytes": 130388,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_romanian.uxc",
+    "bytes": 43808,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_danish_vertical.uxc",
+    "bytes": 125760,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_spanish_f.uxc",
+    "bytes": 169976,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/color.uxb",
+    "bytes": 52,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_english_f.uxc",
+    "bytes": 153884,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_indonesia_func_j.uxc",
+    "bytes": 166676,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_vietnamese_func_j.uxc",
+    "bytes": 200616,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_czech_g.uxc",
+    "bytes": 46604,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/fontlist.dat",
+    "bytes": 360,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_ukrainian_f.uxc",
+    "bytes": 260772,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_persian_func_j.uxc",
+    "bytes": 268472,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_dutch_vertical.uxc",
+    "bytes": 130192,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_turkish_func_j.uxc",
+    "bytes": 175124,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_finnish_g.uxc",
+    "bytes": 44452,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/Sony_DI_Icons.ttf",
+    "bytes": 621792,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_ukrainian.uxc",
+    "bytes": 67216,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hindi_g.uxc",
+    "bytes": 95964,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_swedish_func_j.uxc",
+    "bytes": 169552,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_korean_func_j.uxc",
+    "bytes": 187548,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_romanian_g.uxc",
+    "bytes": 47048,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_indonesia_g.uxc",
+    "bytes": 43344,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_persian.uxc",
+    "bytes": 61300,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_indonesia_vertical.uxc",
+    "bytes": 124544,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_korean_f.uxc",
+    "bytes": 171984,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_indonesia.uxc",
+    "bytes": 40740,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_thai_f.uxc",
+    "bytes": 326412,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/LayoutMaster_Menu.uxc",
+    "bytes": 3636,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hindi_horizontal.uxc",
+    "bytes": 259924,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_french_horizontal.uxc",
+    "bytes": 141192,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_polish_vertical.uxc",
+    "bytes": 130776,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_czech_func_j.uxc",
+    "bytes": 179896,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_swedish_g.uxc",
+    "bytes": 44000,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_german.uxc",
+    "bytes": 42772,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_norwegian_func_j.uxc",
+    "bytes": 162312,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_italian.uxc",
+    "bytes": 44288,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/lang_cmn.uxc",
+    "bytes": 1048,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hungarian_g.uxc",
+    "bytes": 48488,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_japanese_vertical.uxc",
+    "bytes": 167092,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_bulgarian.uxc",
+    "bytes": 66180,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_danish_f.uxc",
+    "bytes": 158680,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_croatian_g.uxc",
+    "bytes": 45308,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/style.uxb",
+    "bytes": 540,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_simplifiedchinese_vertical.uxc",
+    "bytes": 109248,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_polish_f.uxc",
+    "bytes": 166360,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_russian_func_j.uxc",
+    "bytes": 294276,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_persian_g.uxc",
+    "bytes": 67040,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_czech.uxc",
+    "bytes": 42196,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hungarian.uxc",
+    "bytes": 44408,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_ukrainian_vertical.uxc",
+    "bytes": 195188,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_malay.uxc",
+    "bytes": 40272,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_portuguese.uxc",
+    "bytes": 41904,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_vietnamese_g.uxc",
+    "bytes": 51884,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_japanese_f.uxc",
+    "bytes": 183048,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/style_cmn.uxc",
+    "bytes": 2148,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_indonesia_f.uxc",
+    "bytes": 155340,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_greek_vertical.uxc",
+    "bytes": 212068,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_ukrainian_g.uxc",
+    "bytes": 69700,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_romanian_f.uxc",
+    "bytes": 168864,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_greek_f.uxc",
+    "bytes": 282864,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_romanian_vertical.uxc",
+    "bytes": 135504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/image_00_32_IPSX.uxc",
+    "bytes": 9949936,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_traditionalchinese_horizontal.uxc",
+    "bytes": 111304,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_swedish_horizontal.uxc",
+    "bytes": 124664,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_french_vertical.uxc",
+    "bytes": 142464,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_french_g.uxc",
+    "bytes": 49724,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_brazilianportuguese_func_j.uxc",
+    "bytes": 179268,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_traditionalchinese_f.uxc",
+    "bytes": 130720,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_portuguese_vertical.uxc",
+    "bytes": 133744,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_czech_f.uxc",
+    "bytes": 165804,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_polish_horizontal.uxc",
+    "bytes": 128932,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_traditionalchinese_vertical.uxc",
+    "bytes": 111180,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_turkish_g.uxc",
+    "bytes": 46156,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_polish.uxc",
+    "bytes": 42320,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_russian_f.uxc",
+    "bytes": 265308,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_thai_horizontal.uxc",
+    "bytes": 264984,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_polish_func_j.uxc",
+    "bytes": 178416,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_turkish_vertical.uxc",
+    "bytes": 127192,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_croatian_func_j.uxc",
+    "bytes": 169844,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_malay_vertical.uxc",
+    "bytes": 122344,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_italian_f.uxc",
+    "bytes": 172848,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_turkish_horizontal.uxc",
+    "bytes": 125900,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_persian_horizontal.uxc",
+    "bytes": 186328,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_romanian_horizontal.uxc",
+    "bytes": 133856,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_arabic_vertical.uxc",
+    "bytes": 175780,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_malay_horizontal.uxc",
+    "bytes": 121760,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_croatian_horizontal.uxc",
+    "bytes": 129100,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_arabic_func_j.uxc",
+    "bytes": 239228,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/image_01_23_IPSX.uxc",
+    "bytes": 9684332,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_malay_f.uxc",
+    "bytes": 153660,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_bulgarian_vertical.uxc",
+    "bytes": 195296,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/image_02_32_IPSX.uxc",
+    "bytes": 9739632,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_thai.uxc",
+    "bytes": 81036,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_croatian_f.uxc",
+    "bytes": 158176,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_japanese.uxc",
+    "bytes": 46124,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_simplifiedchinese.uxc",
+    "bytes": 34532,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_japanese_horizontal.uxc",
+    "bytes": 166932,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_russian.uxc",
+    "bytes": 66244,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_finnish_func_j.uxc",
+    "bytes": 166792,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_swedish_vertical.uxc",
+    "bytes": 126236,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_finnish_f.uxc",
+    "bytes": 153872,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_bulgarian_horizontal.uxc",
+    "bytes": 193100,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_greek_func_j.uxc",
+    "bytes": 302364,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/lang.uxb",
+    "bytes": 2896,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_korean_g.uxc",
+    "bytes": 51040,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_danish.uxc",
+    "bytes": 40228,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_korean_vertical.uxc",
+    "bytes": 142748,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/UniversOTS-SJ_wIcon.ltt",
+    "bytes": 611416,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_thai_vertical.uxc",
+    "bytes": 267884,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_indonesia_horizontal.uxc",
+    "bytes": 123788,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_greek.uxc",
+    "bytes": 69136,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_brazilianportuguese_f.uxc",
+    "bytes": 165116,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/HeiseiKakuGothW5-SJ_wIcon.ltt",
+    "bytes": 851496,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_finnish_horizontal.uxc",
+    "bytes": 124616,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_brazilianportuguese_g.uxc",
+    "bytes": 46284,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_spanish_g.uxc",
+    "bytes": 48068,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/LayoutMaster_Other.uxc",
+    "bytes": 2592,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_danish_g.uxc",
+    "bytes": 44324,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_dutch_horizontal.uxc",
+    "bytes": 129504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_greek_g.uxc",
+    "bytes": 73672,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_bulgarian_func_j.uxc",
+    "bytes": 287328,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_canadianfrench_func_j.uxc",
+    "bytes": 40988,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_traditionalchinese_func_j.uxc",
+    "bytes": 143320,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_arabic_horizontal.uxc",
+    "bytes": 175608,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_brazilianportuguese_vertical.uxc",
+    "bytes": 134128,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_turkish.uxc",
+    "bytes": 41952,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_canadianfrench_vertical.uxc",
+    "bytes": 36004,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_german_horizontal.uxc",
+    "bytes": 134112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hindi.uxc",
+    "bytes": 87796,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_portuguese_func_j.uxc",
+    "bytes": 178140,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_persian_f.uxc",
+    "bytes": 245624,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_thai_func_j.uxc",
+    "bytes": 361524,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_czech_horizontal.uxc",
+    "bytes": 132132,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/master_other.uxc",
+    "bytes": 13700,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_vietnamese_f.uxc",
+    "bytes": 184588,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_dutch_func_j.uxc",
+    "bytes": 182436,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_canadianfrench_f.uxc",
+    "bytes": 43664,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_german_g.uxc",
+    "bytes": 47304,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hungarian_f.uxc",
+    "bytes": 171320,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_swedish.uxc",
+    "bytes": 39108,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_czech_vertical.uxc",
+    "bytes": 132952,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_arabic_g.uxc",
+    "bytes": 61052,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_french.uxc",
+    "bytes": 44816,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_ukrainian_horizontal.uxc",
+    "bytes": 192236,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_traditionalchinese.uxc",
+    "bytes": 34952,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_spanish_vertical.uxc",
+    "bytes": 134028,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_arabic.uxc",
+    "bytes": 55004,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_norwegian_f.uxc",
+    "bytes": 150788,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_norwegian.uxc",
+    "bytes": 39188,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_malay_func_j.uxc",
+    "bytes": 164972,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_german_func_j.uxc",
+    "bytes": 188832,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_greek_horizontal.uxc",
+    "bytes": 210136,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_spanish.uxc",
+    "bytes": 43092,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hindi_f.uxc",
+    "bytes": 346184,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_russian_horizontal.uxc",
+    "bytes": 193160,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_persian_vertical.uxc",
+    "bytes": 186504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_vietnamese.uxc",
+    "bytes": 48716,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_portuguese_horizontal.uxc",
+    "bytes": 132368,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/master_camera.uxc",
+    "bytes": 101868,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/image.uxb",
+    "bytes": 2281172,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_ukrainian_func_j.uxc",
+    "bytes": 287908,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_english_horizontal.uxc",
+    "bytes": 129872,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_danish_func_j.uxc",
+    "bytes": 170728,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_italian_horizontal.uxc",
+    "bytes": 133680,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_italian_g.uxc",
+    "bytes": 47316,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/color_cmn.uxc",
+    "bytes": 684,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_traditionalchinese_g.uxc",
+    "bytes": 40020,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_simplifiedchinese_horizontal.uxc",
+    "bytes": 109156,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hungarian_func_j.uxc",
+    "bytes": 183904,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/image_01_32_IPSX.uxc",
+    "bytes": 9695356,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_norwegian_g.uxc",
+    "bytes": 42988,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_german_vertical.uxc",
+    "bytes": 135584,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/global.xdb",
+    "bytes": 16424,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_malay_g.uxc",
+    "bytes": 43136,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_polish_g.uxc",
+    "bytes": 46532,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_norwegian_vertical.uxc",
+    "bytes": 122404,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hindi_func_j.uxc",
+    "bytes": 389140,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/master_normal.uxc",
+    "bytes": 4112,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_thai_g.uxc",
+    "bytes": 90868,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_norwegian_horizontal.uxc",
+    "bytes": 122104,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_vietnamese_vertical.uxc",
+    "bytes": 141848,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_portuguese_f.uxc",
+    "bytes": 165216,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_japanese_g.uxc",
+    "bytes": 55652,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_canadianfrench.uxc",
+    "bytes": 38412,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_arabic_f.uxc",
+    "bytes": 221228,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_bulgarian_g.uxc",
+    "bytes": 69040,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hindi_vertical.uxc",
+    "bytes": 260300,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_brazilianportuguese.uxc",
+    "bytes": 42268,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_spanish_horizontal.uxc",
+    "bytes": 132416,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/MYingHeiC-KSX1001-SJ_wIcon.ltt",
+    "bytes": 924104,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_vietnamese_horizontal.uxc",
+    "bytes": 140676,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_bulgarian_f.uxc",
+    "bytes": 258900,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/master_network.uxc",
+    "bytes": 35836,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_croatian.uxc",
+    "bytes": 40772,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_korean_horizontal.uxc",
+    "bytes": 142064,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_portuguese_g.uxc",
+    "bytes": 46752,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_spanish_func_j.uxc",
+    "bytes": 184032,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_korean.uxc",
+    "bytes": 44652,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_swedish_f.uxc",
+    "bytes": 157012,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_hungarian_vertical.uxc",
+    "bytes": 137848,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_simplifiedchinese_g.uxc",
+    "bytes": 39912,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/image_00_23_IPSX.uxc",
+    "bytes": 9598260,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_russian_g.uxc",
+    "bytes": 69668,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/area_check_data_vertical.dat",
+    "bytes": 1104290,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/area_check_data.dat",
+    "bytes": 1222288,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_italian_func_j.uxc",
+    "bytes": 185792,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_french_f.uxc",
+    "bytes": 178264,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_english_func_j.uxc",
+    "bytes": 170584,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_italian_vertical.uxc",
+    "bytes": 137032,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_brazilianportuguese_horizontal.uxc",
+    "bytes": 133264,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/app/string_finnish.uxc",
+    "bytes": 40348,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/aveffect",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/aveffect/film_bg2.jpg",
+    "bytes": 35546,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/aveffect/rotate_back_ground_movie.jpg",
+    "bytes": 33860,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/aveffect/rotate_back_ground_mv.jpg",
+    "bytes": 34830,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/aveffect/filmSingle_mv.jpg",
+    "bytes": 26383,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/pmbp",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/pmbp/DeviceInfo.xml",
+    "bytes": 517,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/startbinary",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/startbinary/logo.bin",
+    "bytes": 8532,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/share/avsystemsound/20fps_KaSha.bin",
+    "bytes": 5568,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_T_Menu_Open.bin",
+    "bytes": 1792,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/asrid_beep_ope_recept_normal_english_1.bin",
+    "bytes": 2496,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_WPS_Connect.bin",
+    "bytes": 24768,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_SelfTimer_2sec.bin",
+    "bytes": 2752,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Rec_Stop.bin",
+    "bytes": 9280,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_T_Off.bin",
+    "bytes": 2240,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_T_Move_Up.bin",
+    "bytes": 896,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Shutter_CONTINUOUS.bin",
+    "bytes": 5568,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Startup.bin",
+    "bytes": 8192,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/asrid_beep_ope_invalid_normal_english_1.bin",
+    "bytes": 5376,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_T_Move_Down.bin",
+    "bytes": 1024,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_WPS_PBC.bin",
+    "bytes": 29760,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Select_SwitchMode.bin",
+    "bytes": 2496,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_FocusLock.bin",
+    "bytes": 3712,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Menu_Close_Option_Off.bin",
+    "bytes": 2240,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Wifi_Toggle_Off.bin",
+    "bytes": 9920,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Wifi_Toggle.bin",
+    "bytes": 7424,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_WPS_Push.bin",
+    "bytes": 18560,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_T_Touch.bin",
+    "bytes": 1216,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_10FPS_Kasha.bin",
+    "bytes": 2944,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Shutdown.bin",
+    "bytes": 12416,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_SelfTimer_RemoteRelease.bin",
+    "bytes": 2752,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Caution.bin",
+    "bytes": 8640,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_T_Select.bin",
+    "bytes": 2496,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Shutter_Burst.bin",
+    "bytes": 2880,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/SysSound.bin",
+    "bytes": 77504,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Back_Cancel.bin",
+    "bytes": 2240,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_T_On.bin",
+    "bytes": 1216,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_T_Menu_Close.bin",
+    "bytes": 2240,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_MovieSelfTimer_3sec.bin",
+    "bytes": 6912,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Rec_Start.bin",
+    "bytes": 3456,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Shutter_Sha.bin",
+    "bytes": 2944,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/beeplist.txt",
+    "bytes": 17307,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Menu_Open_Option_On.bin",
+    "bytes": 1792,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Move_Up_Wheel_Up.bin",
+    "bytes": 896,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Move_Down_Wheel_Down.bin",
+    "bytes": 1024,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_T_Back_Cancel.bin",
+    "bytes": 2240,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/share/avsystemsound/Dslr_Emnt_High_Shutter_Ka.bin",
+    "bytes": 256,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/tool",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/tool/libLeakTracer.so",
+    "bytes": 44440,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/tool/leak-analyze",
+    "bytes": 3182,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/tool/LeakCheck",
+    "bytes": 691,
+    "mode": "0o100777"
+  },
+  {
+    "path": "/wifi-scripts",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/wifi-scripts/start_dhd.sh",
+    "bytes": 2529,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/cli_p2p0.sh",
+    "bytes": 125,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/ulset.sh",
+    "bytes": 1594,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/load_firm.sh",
+    "bytes": 588,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/wifi-test.sh",
+    "bytes": 4224,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/run_supplicant.sh",
+    "bytes": 925,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/set_gpio.sh",
+    "bytes": 1559,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/cli_wlan0.sh",
+    "bytes": 126,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/setwifi.sh",
+    "bytes": 1158,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/run_single_p2p.sh",
+    "bytes": 940,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/cli.sh",
+    "bytes": 92,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wifi-scripts/stop_dhd.sh",
+    "bytes": 1610,
+    "mode": "0o100755"
+  },
+  {
+    "path": "/wlan",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/wlan/bcm",
+    "bytes": 0,
+    "mode": "0o40755"
+  },
+  {
+    "path": "/wlan/bcm/bcm4339.bin",
+    "bytes": 571121,
+    "mode": "0o100644"
+  },
+  {
+    "path": "/wlan/bcm/bcm4339_mfg.bin",
+    "bytes": 557737,
+    "mode": "0o100644"
+  }
+]

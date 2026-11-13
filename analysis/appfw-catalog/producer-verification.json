@@ -1,0 +1,130 @@
+{
+  "scope": "Original appFw code; Select, property getters, and PartialUpdate side effects mocked.",
+  "card_access": false,
+  "case_count": 572,
+  "all_direct_sites": 22,
+  "entry_results": {
+    "0x360cfcc": {
+      "columns": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36
+      ],
+      "sites": [
+        "0x360d050"
+      ]
+    },
+    "0x360d08c": {
+      "columns": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36
+      ],
+      "sites": [
+        "0x360d0dc"
+      ]
+    },
+    "0x360d228": {
+      "columns": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "sites": [
+        "0x360d2ac"
+      ]
+    },
+    "0x360d2f8": {
+      "columns": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        50,
+        51
+      ],
+      "sites": [
+        "0x360d364"
+      ]
+    },
+    "0x360d104": {
+      "columns": [
+        28,
+        30,
+        32,
+        35,
+        36
+      ],
+      "sites": [
+        "0x360d184",
+        "0x360d19c",
+        "0x360d1b4",
+        "0x360d1e8"
+      ]
+    },
+    "0x360d3c0": {
+      "columns": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "sites": [
+        "0x360d414",
+        "0x360d42c",
+        "0x360d444",
+        "0x360d45c",
+        "0x360d474",
+        "0x360d48c",
+        "0x360d4a4",
+        "0x360d4c8",
+        "0x360d4e0",
+        "0x360d4f8",
+        "0x360d510",
+        "0x360d580"
+      ]
+    },
+    "0x360d598": {
+      "columns": [
+        50,
+        51
+      ],
+      "sites": [
+        "0x360d5bc",
+        "0x360d5dc"
+      ]
+    }
+  },
+  "clear_recordInfo_61c": 0,
+  "does_not_prove": "No real database writes or camera visibility were tested."
+}

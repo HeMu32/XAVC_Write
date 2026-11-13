@@ -1,0 +1,14 @@
+{
+  "before": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-25m-coherent\\C0008.MP4",
+  "after": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-25m-hrd\\C0009.MP4",
+  "samples": 1534,
+  "identical_vcl_nals": 6136,
+  "changed_buffering_period_payloads": 51,
+  "video_configuration_and_sample_timing_identical": true,
+  "all_non_sei_nals_identical": true,
+  "non_bp_sei_payloads_identical": true,
+  "passed": true,
+  "camera_playback": "NOT_TESTED",
+  "before_sha256": "27ebf88812469b9d5156e32acbfdd189b234ff2712f358d463447792984716b2",
+  "after_sha256": "67392a22ff8ba52193b896178afbce2c11d2cfc42180292a6ec96fcb429eee97"
+}

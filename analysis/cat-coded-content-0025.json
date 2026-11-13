@@ -1,0 +1,14 @@
+{
+  "before": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-minimal-C6510\\C6510.MP4",
+  "after": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-compact-C6512\\C6512.MP4",
+  "samples": 1534,
+  "identical_vcl_nals": 6136,
+  "changed_buffering_period_payloads": 0,
+  "video_configuration_and_sample_timing_identical": true,
+  "all_non_sei_nals_identical": true,
+  "non_bp_sei_payloads_identical": true,
+  "passed": true,
+  "camera_playback": "NOT_TESTED",
+  "before_sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d",
+  "after_sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72"
+}

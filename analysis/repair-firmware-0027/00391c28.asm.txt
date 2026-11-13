@@ -1,0 +1,29 @@
+// sidb::IncrementArrayBinaryRecordRefCount
+// ELF VMA = Ghidra address - 0x100000
+00391c28 fd7bbda9 stp x29,x30,[sp, #-0x30]!
+00391c2c fd030091 mov x29,sp
+00391c30 f35301a9 stp x19,x20,[sp, #0x10]
+00391c34 f403022a mov w20,w2
+00391c38 f55b02a9 stp x21,x22,[sp, #0x20]
+00391c3c f603002a mov w22,w0
+00391c40 20404091 add x0,x1,#0x10, LSL #12
+00391c44 333040b9 ldr w19,[x1, #0x30]
+00391c48 537c131b mul w19,w2,w19
+00391c4c 7302008b add x19,x19,x0
+00391c50 600a40b9 ldr w0,[x19, #0x8]
+00391c54 00040011 add w0,w0,#0x1
+00391c58 600a00b9 str w0,[x19, #0x8]
+00391c5c e00313aa mov x0,x19
+00391c60 353440b9 ldr w21,[x1, #0x34]
+00391c64 e103152a mov w1,w21
+00391c68 5aa6f797 bl 0x0017b5d0
+00391c6c 22fe9fd2 mov x2,#0xfff1
+00391c70 0108c29a udiv x1,x0,x2
+00391c74 2080029b msub x0,x1,x2,x0
+00391c78 e103142a mov w1,w20
+00391c7c 604a3578 strh w0,[x19, w21, UXTW #0x0]
+00391c80 e003162a mov w0,w22
+00391c84 f35341a9 ldp x19,x20,[sp, #0x10]
+00391c88 f55b42a9 ldp x21,x22,[sp, #0x20]
+00391c8c fd7bc3a8 ldp x29,x30,[sp], #0x30
+00391c90 50b7f717 b 0x0017f9d0

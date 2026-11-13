@@ -1,0 +1,363 @@
+{
+  "media": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\native-minimal-C6509\\C6509.MP4",
+  "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "card_access": false,
+  "scope": "Original MP4 read-side parser, modeled libc/Fsys; not camera playback",
+  "root_cause_established": false,
+  "media_sha256": "abab47d3650607fcb185b57b1e1b1cca313b8b4d4f38f4161ac0b1c0be48b781",
+  "result": {
+    "last_status_u32": 0,
+    "movie_property_hex": "0000ea070b0c0f141e000000000000000000000002000000010000000000000000000000070000002a006401190000005a0000000000000000000000000000000100000001000000000000000000000000000000000000000000000000000000",
+    "audio_gate": {
+      "accepted_by_literal_property_predicate": true,
+      "source_elf_vma": "0x1166d8",
+      "scope": "Host evaluation of recovered predicate, not execution of complete _open_file",
+      "raw_property_fields": {
+        "0x34": 0,
+        "0x38": 0,
+        "0x3c": 0,
+        "0x40": 1,
+        "0x44": 1
+      }
+    },
+    "selected_seek_probe": {
+      "return_u32": 0,
+      "parameter_hex": "905f01000000000000000000000000000000000000000000",
+      "time_90khz": 90000,
+      "mode": 0,
+      "direction": 0,
+      "flags": 0,
+      "physical_camera_parameters_observed": false
+    },
+    "reader_state_hex": "000000000000000043564158000000000000a000000000001c02e307010100000000000031637661a0860100a08601000100000008000000a6f03b00a6f03b007008000f0100000000000000000000000100000002010200000300000003000002000000000000000000000000000000000000000000000000000000000000000000000000000000905f01000000000000000000000000000000000000000000b00b0c5000000000d00f0e5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000ffffffffffffffffffffffff0000000078100e50000000000100000001000000010000000000000000000000000000000000002001000000316376612a00640102000300a8610000a86100003b00a6f03b00a6f0800738040100010002000000736f77740000000000000000000600000006000080bb00000200000000000000be891be700000000be891be70000000060ea000000000000ea5f0100000000000100000001000000000001000000000000000000000000000000010000000000000000000000000000000040040000000100000060ea00005a000000a6f03b003163766100000000dd0500000000000038c105000000000000e80a0000000000e90300000100000000000000bb0b000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e83a0e500000000001000000080000000101020000000000801a0e500000000001000000020000000000000000000000000000000000000080bb0000881901000000000000000000d83f0e50000000000300000060ea0000b8400e50000000000100000000000000000000000000000000000000000000000100000001000000010000000100000001000000010000000100000000000000905f0100000000000100000000000000010000000000000000000000000000000000000000000000",
+    "original_executable_sections_unchanged": true
+  },
+  "steps": [
+    {
+      "label": "file_object_constructor",
+      "entry_elf_vma": "0x22a730",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "reader_constructor",
+      "entry_elf_vma": "0x222994",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "file_buffer_setup",
+      "entry_elf_vma": "0x22a774",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "readonly_file_open",
+      "entry_elf_vma": "0x22af44",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_mp4_open",
+      "entry_elf_vma": "0x22a380",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_movie_property_query",
+      "entry_elf_vma": "0x228fa8",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "selected_start_position_probe",
+      "entry_elf_vma": "0x227714",
+      "return_u32": 0,
+      "void_return_ignored": false
+    }
+  ],
+  "calls": [
+    {
+      "entry_elf_vma": "0x22a730",
+      "return_u32": 1342966704,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x222994",
+      "return_u32": 1,
+      "modeled_externals": [
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22a774",
+      "return_u32": 0,
+      "modeled_externals": [
+        "calloc"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22af44",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Open",
+        "Fsys_Read",
+        "Fsys_Seek"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22a380",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "_ZdlPv",
+        "_Znwm",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memmove",
+        "memset",
+        "read_side_diagnostic_message_sink"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x228fa8",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x227714",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Seek",
+        "malloc",
+        "memcpy",
+        "memset",
+        "read_side_diagnostic_message_sink"
+      ]
+    }
+  ],
+  "io": [
+    {
+      "operation": "Fsys_Open",
+      "path": "A:/PRIVATE/M4ROOT/CLIP/TEST.MP4",
+      "readonly": true
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 13024
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 13008
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 12592
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 12784
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 12892
+    }
+  ],
+  "diagnostic_packets": [
+    "0123000302000000010000005a000000",
+    "012306030200000000000000feffffff",
+    "01230603020000000100000001000000",
+    "01230603020000000200000001000000",
+    "01230f0304000000",
+    "01231003020000000100000000000000",
+    "01231f030300000002000000"
+  ],
+  "original_stdcpp_sha256": "28f2d082aea5206c42ba15664f39e2eaf7febed8f6264305e7e16aa44c878389",
+  "selected_original_runtime_helpers": [
+    {
+      "symbol": "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_",
+      "entry": "0x610a6350"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base",
+      "entry": "0x610a6288"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base",
+      "entry": "0x610a6280"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base",
+      "entry": "0x610a6278"
+    },
+    {
+      "symbol": "_ZSt20_Rb_tree_black_countPKSt18_Rb_tree_node_baseS1_",
+      "entry": "0x610a6b20"
+    },
+    {
+      "symbol": "_ZSt20_Rb_tree_rotate_leftPSt18_Rb_tree_node_baseRS0_",
+      "entry": "0x610a6290"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base",
+      "entry": "0x610a6210"
+    },
+    {
+      "symbol": "_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_",
+      "entry": "0x610a65e8"
+    },
+    {
+      "symbol": "_ZSt21_Rb_tree_rotate_rightPSt18_Rb_tree_node_baseRS0_",
+      "entry": "0x610a62f0"
+    }
+  ],
+  "heap_bytes_used": 936176,
+  "last_instructions": [
+    "0x227810",
+    "0x227814",
+    "0x227818",
+    "0x22781c",
+    "0x227820",
+    "0x227834",
+    "0x227838",
+    "0x22783c",
+    "0x227840",
+    "0x227844",
+    "0x227848",
+    "0x22784c",
+    "0x227850",
+    "0x227854",
+    "0x227858",
+    "0x22785c",
+    "0x227860",
+    "0x227864",
+    "0x227868",
+    "0x22786c"
+  ],
+  "last_boundaries": [
+    {
+      "kind": "modeled_external",
+      "symbol": "read_side_diagnostic_message_sink"
+    },
+    {
+      "kind": "modeled_external",
+      "symbol": "read_side_diagnostic_message_sink"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_external",
+      "symbol": "malloc"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_external",
+      "symbol": "malloc"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_external",
+      "symbol": "malloc"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_external",
+      "symbol": "Fsys_Seek"
+    },
+    {
+      "kind": "modeled_external",
+      "symbol": "Fsys_Seek"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    }
+  ],
+  "instruction_count": 130694
+}

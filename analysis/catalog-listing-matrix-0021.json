@@ -1,0 +1,4056 @@
+{
+  "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261112T214535",
+  "database_sha256": "c47f17a05758cac62656b15db0616a24fed57ac806d7eae8aa3846083b69b6e0",
+  "card_access": false,
+  "observations_source": "Direct user reports, non-exhaustive",
+  "camera_body_used_for_playback": null,
+  "installed_camera_firmware": null,
+  "counts_by_observed_listing": {
+    "unknown_in_this_round": 24,
+    "listed": 9,
+    "not_listed": 9
+  },
+  "scope": "Offline joins and original record conversion; not full playback UI",
+  "root_cause_established": false,
+  "movies": [
+    {
+      "clip": "C0001",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 27,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D2313000000364CF25789E144238EEF373744B23884",
+        "duration": "90",
+        "creation": "2026-06-24T11:20:34+08:00",
+        "device_model": null,
+        "video": {
+          "videoCodec": "AVC_3840_2160_HP@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {}
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-21T14:37:36+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": false,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C0001.MP4",
+        "type": "MP4",
+        "videoType": "AVC_3840_2160_HP@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "90",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D2313000000364CF25789E144238EEF373744B23884"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C0001.MP4",
+          "size": "22086323",
+          "creation_time_ns": "1794463397770000000",
+          "last_write_time_ns": "1782271238000000000",
+          "last_access_time_ns": "1794463396000000000",
+          "last_write_utc": "2026-06-24T03:20:38+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C0001T01.JPG",
+          "size": "451310",
+          "creation_time_ns": "1794463812640000000",
+          "last_write_time_ns": "1782023856000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-21T06:37:36+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C0001.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C0001M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C0001T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 15,
+        "clip": "C0001",
+        "raw_table_record_hex": "010000000f0000000100060a2b340101010501010d2313000000364cf25789e144238eef373744b2388400000300000000000000020000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000364CF25789E144238EEF373744B23884",
+        "original_find_return": 0,
+        "original_found_index": 16,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0001.MP4",
+        "clip_info_uri": ".\\CLIP\\C0001.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C0004",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 60,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D2313000000B56F63F367FB488DAAE53B7130A4466C",
+        "duration": "1182",
+        "creation": "2026-06-25T16:52:24+08:00",
+        "device_model": null,
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {}
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-25T20:40:09.230000+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": false,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C0004.MP4",
+        "type": "MP4",
+        "offset": "0",
+        "dur": "1182",
+        "fps": "59.94p",
+        "aspectRatio": "16:9",
+        "ch": "2",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "umid": "060A2B340101010501010D2313000000B56F63F367FB488DAAE53B7130A4466C",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C0004.MP4",
+          "size": "122020558",
+          "creation_time_ns": "1794463399330000000",
+          "last_write_time_ns": "1782391044000000000",
+          "last_access_time_ns": "1794463398000000000",
+          "last_write_utc": "2026-06-25T12:37:24+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C0004T01.JPG",
+          "size": "158159",
+          "creation_time_ns": "1794463812650000000",
+          "last_write_time_ns": "1782398940000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-25T14:49:00+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C0004.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C0004M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C0004T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 26,
+        "clip": "C0004",
+        "raw_table_record_hex": "010000001a0000000400060a2b340101010501010d2313000000b56f63f367fb488daae53b7130a4466c00000500000000000000030000009e0400000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000B56F63F367FB488DAAE53B7130A4466C",
+        "original_find_return": 0,
+        "original_found_index": 27,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0004.MP4",
+        "clip_info_uri": ".\\CLIP\\C0004.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C0005",
+      "observed_listing": "listed",
+      "record_index": 64,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D2313000000B6309100EC214BFE93847FAE15329C04",
+        "duration": "4988",
+        "creation": "2026-06-25T20:52:14+08:00",
+        "device_model": null,
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {}
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-25T20:59:01.750000+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": false,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C0005.MP4",
+        "type": "MP4",
+        "offset": "0",
+        "dur": "4988",
+        "fps": "59.94p",
+        "aspectRatio": "16:9",
+        "ch": "2",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "umid": "060A2B340101010501010D2313000000B6309100EC214BFE93847FAE15329C04",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C0005.MP4",
+          "size": "515068578",
+          "creation_time_ns": "1794463412740000000",
+          "last_write_time_ns": "1782392342000000000",
+          "last_access_time_ns": "1794463412000000000",
+          "last_write_utc": "2026-06-25T12:59:02+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C0005T01.JPG",
+          "size": "154555",
+          "creation_time_ns": "1794463812650000000",
+          "last_write_time_ns": "1782398940000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-25T14:49:00+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C0005.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C0005M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C0005T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 28,
+        "clip": "C0005",
+        "raw_table_record_hex": "010000001c0000000500060a2b340101010501010d2313000000b6309100ec214bfe93847fae15329c0400000500000000000000030000007c1300000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000B6309100EC214BFE93847FAE15329C04",
+        "original_find_return": 0,
+        "original_found_index": 29,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0005.MP4",
+        "clip_info_uri": ".\\CLIP\\C0005.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C0007",
+      "observed_listing": "listed",
+      "record_index": 66,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D23130000000D429B4F43AD42B0ACE7BB28181271B5",
+        "duration": "14170",
+        "creation": "2026-06-25T23:44:37+08:00",
+        "device_model": null,
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {}
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-25T23:56:35.040000+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": false,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C0007.MP4",
+        "type": "MP4",
+        "offset": "0",
+        "dur": "14170",
+        "fps": "59.94p",
+        "aspectRatio": "16:9",
+        "ch": "2",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "umid": "060A2B340101010501010D23130000000D429B4F43AD42B0ACE7BB28181271B5",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C0007.MP4",
+          "size": "1421462765",
+          "creation_time_ns": "1794463471060000000",
+          "last_write_time_ns": "1782402982000000000",
+          "last_access_time_ns": "1794463470000000000",
+          "last_write_utc": "2026-06-25T15:56:22+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C0007T01.JPG",
+          "size": "127146",
+          "creation_time_ns": "1794463812660000000",
+          "last_write_time_ns": "1782403566000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-25T16:06:06+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C0007.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C0007M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C0007T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 29,
+        "clip": "C0007",
+        "raw_table_record_hex": "010000001d0000000700060a2b340101010501010d23130000000d429b4f43ad42b0ace7bb28181271b500000500000000000000030000005a3700000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D23130000000D429B4F43AD42B0ACE7BB28181271B5",
+        "original_find_return": 0,
+        "original_found_index": 30,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0007.MP4",
+        "clip_info_uri": ".\\CLIP\\C0007.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C0008",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 67,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 68,
+      "umid_array_ref": 69,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000DFFD7A79561306D69C50D1FFFEC4F949",
+        "duration": "1534",
+        "creation": "2026-11-12T15:51:05+08:00",
+        "device_model": null,
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {}
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T15:51:05+08:00",
+        "exact_match": true,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          0
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C0008.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "1534",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000DFFD7A79561306D69C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C0008.MP4",
+          "size": "87556543",
+          "creation_time_ns": "1794469124930000000",
+          "last_write_time_ns": "1794470022000000000",
+          "last_access_time_ns": "1794470022000000000",
+          "last_write_utc": "2026-11-12T07:53:42+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C0008T01.JPG",
+          "size": "432264",
+          "creation_time_ns": "1794469126330000000",
+          "last_write_time_ns": "1794470022000000000",
+          "last_access_time_ns": "1794470022000000000",
+          "last_write_utc": "2026-11-12T07:53:42+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C0008.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C0008M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C0008T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 30,
+        "clip": "C0008",
+        "raw_table_record_hex": "010000001e0000000800060a2b340101010501010d4313000000dffd7a79561306d69c50d1fffec4f9490000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000DFFD7A79561306D69C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 31,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0008.MP4",
+        "clip_info_uri": ".\\CLIP\\C0008.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C0009",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 70,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 71,
+      "umid_array_ref": 72,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000586571AC561306D69C50D1FFFEC4F949",
+        "duration": "1534",
+        "creation": "2026-11-12T18:39:51+08:00",
+        "device_model": null,
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {}
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T18:39:51+08:00",
+        "exact_match": true,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          0
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C0009.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "1534",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000586571AC561306D69C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C0009.MP4",
+          "size": "87556543",
+          "creation_time_ns": "1794481079480000000",
+          "last_write_time_ns": "1794481082000000000",
+          "last_access_time_ns": "1794481082000000000",
+          "last_write_utc": "2026-11-12T10:58:02+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C0009T01.JPG",
+          "size": "432264",
+          "creation_time_ns": "1794481080900000000",
+          "last_write_time_ns": "1794481082000000000",
+          "last_access_time_ns": "1794481082000000000",
+          "last_write_utc": "2026-11-12T10:58:02+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C0009.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C0009M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C0009T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 31,
+        "clip": "C0009",
+        "raw_table_record_hex": "010000001f0000000900060a2b340101010501010d4313000000586571ac561306d69c50d1fffec4f9490000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000586571AC561306D69C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 32,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0009.MP4",
+        "clip_info_uri": ".\\CLIP\\C0009.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5850",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 33,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000052868E8E121206C59C50D1FFFEC4F949",
+        "duration": "75",
+        "creation": "2026-06-21T10:46:52+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-21T10:46:56+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5850.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "75",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000052868E8E121206C59C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5850.MP4",
+          "size": "67253139",
+          "creation_time_ns": "1794463632110000000",
+          "last_write_time_ns": "1782010016000000000",
+          "last_access_time_ns": "1794463632000000000",
+          "last_write_utc": "2026-06-21T02:46:56+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5850T01.JPG",
+          "size": "97098",
+          "creation_time_ns": "1794463812670000000",
+          "last_write_time_ns": "1782010016000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-21T02:46:56+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5850.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5850M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5850T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 0,
+        "clip": "C5850",
+        "raw_table_record_hex": "0100000000000000da16060a2b340101010501010d431300000052868e8e121206c59c50d1fffec4f94900000300000000000000020000004b0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000052868E8E121206C59C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 1,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5850.MP4",
+        "clip_info_uri": ".\\CLIP\\C5850.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5852",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 34,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000DC728EE4470806CD9C50D1FFFEC4F949",
+        "duration": "60",
+        "creation": "2025-06-21T12:20:00+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2025-06-21T12:20:03+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5852.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "60",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000DC728EE4470806CD9C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5852.MP4",
+          "size": "67252983",
+          "creation_time_ns": "1794463638750000000",
+          "last_write_time_ns": "1750479604000000000",
+          "last_access_time_ns": "1794463638000000000",
+          "last_write_utc": "2025-06-21T04:20:04+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5852T01.JPG",
+          "size": "110021",
+          "creation_time_ns": "1794463812680000000",
+          "last_write_time_ns": "1750479604000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2025-06-21T04:20:04+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5852.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5852M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5852T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 1,
+        "clip": "C5852",
+        "raw_table_record_hex": "0100000001000000dc16060a2b340101010501010d4313000000dc728ee4470806cd9c50d1fffec4f94900000300000000000000020000003c0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000DC728EE4470806CD9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 2,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5852.MP4",
+        "clip_info_uri": ".\\CLIP\\C5852.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5853",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 35,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000A9D720D7801106C79C50D1FFFEC4F949",
+        "duration": "15",
+        "creation": "2026-05-20T12:50:10+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-05-20T12:50:11+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5853.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "15",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000A9D720D7801106C79C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5853.MP4",
+          "size": "67252523",
+          "creation_time_ns": "1794463645460000000",
+          "last_write_time_ns": "1779252612000000000",
+          "last_access_time_ns": "1794463644000000000",
+          "last_write_utc": "2026-05-20T04:50:12+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5853T01.JPG",
+          "size": "64663",
+          "creation_time_ns": "1794463812680000000",
+          "last_write_time_ns": "1779252612000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-05-20T04:50:12+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5853.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5853M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5853T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 2,
+        "clip": "C5853",
+        "raw_table_record_hex": "0100000002000000dd16060a2b340101010501010d4313000000a9d720d7801106c79c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000A9D720D7801106C79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 3,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5853.MP4",
+        "clip_info_uri": ".\\CLIP\\C5853.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5854",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 36,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000951E1818801106DC9C50D1FFFEC4F949",
+        "duration": "45",
+        "creation": "2026-05-20T12:50:32+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-05-20T12:50:34+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5854.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "45",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000951E1818801106DC9C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5854.MP4",
+          "size": "67252633",
+          "creation_time_ns": "1794463652170000000",
+          "last_write_time_ns": "1779252634000000000",
+          "last_access_time_ns": "1794463652000000000",
+          "last_write_utc": "2026-05-20T04:50:34+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5854T01.JPG",
+          "size": "94454",
+          "creation_time_ns": "1794463812690000000",
+          "last_write_time_ns": "1779252634000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-05-20T04:50:34+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5854.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5854M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5854T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 3,
+        "clip": "C5854",
+        "raw_table_record_hex": "0100000003000000de16060a2b340101010501010d4313000000951e1818801106dc9c50d1fffec4f94900000300000000000000020000002d0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000951E1818801106DC9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 4,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5854.MP4",
+        "clip_info_uri": ".\\CLIP\\C5854.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5855",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 37,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000DB20D65B801106C49C50D1FFFEC4F949",
+        "duration": "60",
+        "creation": "2026-05-20T12:50:54+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-05-20T12:50:57+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5855.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "60",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000DB20D65B801106C49C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5855.MP4",
+          "size": "67252785",
+          "creation_time_ns": "1794463658940000000",
+          "last_write_time_ns": "1779252658000000000",
+          "last_access_time_ns": "1794463658000000000",
+          "last_write_utc": "2026-05-20T04:50:58+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5855T01.JPG",
+          "size": "68296",
+          "creation_time_ns": "1794463812690000000",
+          "last_write_time_ns": "1779252658000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-05-20T04:50:58+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5855.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5855M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5855T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 4,
+        "clip": "C5855",
+        "raw_table_record_hex": "0100000004000000df16060a2b340101010501010d4313000000db20d65b801106c49c50d1fffec4f94900000300000000000000020000003c0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000DB20D65B801106C49C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 5,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5855.MP4",
+        "clip_info_uri": ".\\CLIP\\C5855.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5856",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 38,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000165064FB541006C79C50D1FFFEC4F949",
+        "duration": "90",
+        "creation": "2026-01-14T15:11:29+10:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-01-14T15:11:33+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5856.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "90",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000165064FB541006C79C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5856.MP4",
+          "size": "67253093",
+          "creation_time_ns": "1794463665720000000",
+          "last_write_time_ns": "1768374694000000000",
+          "last_access_time_ns": "1794463664000000000",
+          "last_write_utc": "2026-01-14T07:11:34+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5856T01.JPG",
+          "size": "66884",
+          "creation_time_ns": "1794463812700000000",
+          "last_write_time_ns": "1768374694000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-01-14T07:11:34+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5856.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5856M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5856T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 5,
+        "clip": "C5856",
+        "raw_table_record_hex": "0100000005000000e016060a2b340101010501010d4313000000165064fb541006c79c50d1fffec4f94900000300000000000000020000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000165064FB541006C79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 6,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5856.MP4",
+        "clip_info_uri": ".\\CLIP\\C5856.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5857",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 39,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000A2A4CFB0541006D39C50D1FFFEC4F949",
+        "duration": "45",
+        "creation": "2026-01-14T08:22:35+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-01-14T08:22:38+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5857.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "45",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000A2A4CFB0541006D39C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5857.MP4",
+          "size": "67252633",
+          "creation_time_ns": "1794463672510000000",
+          "last_write_time_ns": "1768350158000000000",
+          "last_access_time_ns": "1794463672000000000",
+          "last_write_utc": "2026-01-14T00:22:38+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5857T01.JPG",
+          "size": "138436",
+          "creation_time_ns": "1794463812710000000",
+          "last_write_time_ns": "1768350158000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-01-14T00:22:38+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5857.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5857M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5857T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 6,
+        "clip": "C5857",
+        "raw_table_record_hex": "0100000006000000e116060a2b340101010501010d4313000000a2a4cfb0541006d39c50d1fffec4f94900000300000000000000020000002d0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000A2A4CFB0541006D39C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 7,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5857.MP4",
+        "clip_info_uri": ".\\CLIP\\C5857.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5858",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 40,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000AB91F5C2851006CD9C50D1FFFEC4F949",
+        "duration": "45",
+        "creation": "2026-02-14T08:22:41+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-02-14T08:22:44+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5858.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "45",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000AB91F5C2851006CD9C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5858.MP4",
+          "size": "67252633",
+          "creation_time_ns": "1794463679280000000",
+          "last_write_time_ns": "1771028564000000000",
+          "last_access_time_ns": "1794463678000000000",
+          "last_write_utc": "2026-02-14T00:22:44+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5858T01.JPG",
+          "size": "138122",
+          "creation_time_ns": "1794463812710000000",
+          "last_write_time_ns": "1771028564000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-02-14T00:22:44+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5858.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5858M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5858T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 7,
+        "clip": "C5858",
+        "raw_table_record_hex": "0100000007000000e216060a2b340101010501010d4313000000ab91f5c2851006cd9c50d1fffec4f94900000300000000000000020000002d0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000AB91F5C2851006CD9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 8,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5858.MP4",
+        "clip_info_uri": ".\\CLIP\\C5858.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5859",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 41,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000001C607D7851006D09C50D1FFFEC4F949",
+        "duration": "15",
+        "creation": "2026-02-14T08:22:48+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-02-14T08:22:50+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5859.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "15",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000001C607D7851006D09C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5859.MP4",
+          "size": "67252325",
+          "creation_time_ns": "1794463686050000000",
+          "last_write_time_ns": "1771028570000000000",
+          "last_access_time_ns": "1794463686000000000",
+          "last_write_utc": "2026-02-14T00:22:50+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5859T01.JPG",
+          "size": "137228",
+          "creation_time_ns": "1794463812720000000",
+          "last_write_time_ns": "1771028570000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-02-14T00:22:50+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5859.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5859M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5859T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 8,
+        "clip": "C5859",
+        "raw_table_record_hex": "0100000008000000e316060a2b340101010501010d431300000001c607d7851006d09c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000001C607D7851006D09C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 9,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5859.MP4",
+        "clip_info_uri": ".\\CLIP\\C5859.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5860",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 42,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000037ACF3F5851006DD9C50D1FFFEC4F949",
+        "duration": "30",
+        "creation": "2026-02-14T08:22:59+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-02-14T08:23:00+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5860.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "30",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000037ACF3F5851006DD9C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5860.MP4",
+          "size": "67252477",
+          "creation_time_ns": "1794463692930000000",
+          "last_write_time_ns": "1771028580000000000",
+          "last_access_time_ns": "1794463692000000000",
+          "last_write_utc": "2026-02-14T00:23:00+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5860T01.JPG",
+          "size": "139395",
+          "creation_time_ns": "1794463812730000000",
+          "last_write_time_ns": "1771028580000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-02-14T00:23:00+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5860.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5860M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5860T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 9,
+        "clip": "C5860",
+        "raw_table_record_hex": "0100000009000000e416060a2b340101010501010d431300000037acf3f5851006dd9c50d1fffec4f94900000300000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000037ACF3F5851006DD9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 10,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5860.MP4",
+        "clip_info_uri": ".\\CLIP\\C5860.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5861",
+      "observed_listing": "listed",
+      "record_index": 43,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000AB863401661206D89C50D1FFFEC4F949",
+        "duration": "30",
+        "creation": "2026-08-14T08:23:02+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-08-14T08:23:04+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5861.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "30",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000AB863401661206D89C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5861.MP4",
+          "size": "67252477",
+          "creation_time_ns": "1794463699800000000",
+          "last_write_time_ns": "1786666984000000000",
+          "last_access_time_ns": "1794463698000000000",
+          "last_write_utc": "2026-08-14T00:23:04+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5861T01.JPG",
+          "size": "137525",
+          "creation_time_ns": "1794463812740000000",
+          "last_write_time_ns": "1786666984000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-08-14T00:23:04+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5861.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5861M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5861T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 10,
+        "clip": "C5861",
+        "raw_table_record_hex": "010000000a000000e516060a2b340101010501010d4313000000ab863401661206d89c50d1fffec4f94900000300000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000AB863401661206D89C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 11,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5861.MP4",
+        "clip_info_uri": ".\\CLIP\\C5861.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5862",
+      "observed_listing": "listed",
+      "record_index": 44,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D43130000006579B50F971206C29C50D1FFFEC4F949",
+        "duration": "30",
+        "creation": "2026-09-14T08:23:07+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-09-14T08:23:09+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5862.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "30",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D43130000006579B50F971206C29C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5862.MP4",
+          "size": "67252477",
+          "creation_time_ns": "1794463706660000000",
+          "last_write_time_ns": "1789345390000000000",
+          "last_access_time_ns": "1794463706000000000",
+          "last_write_utc": "2026-09-14T00:23:10+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5862T01.JPG",
+          "size": "138906",
+          "creation_time_ns": "1794463812740000000",
+          "last_write_time_ns": "1789345390000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-09-14T00:23:10+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5862.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5862M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5862T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 11,
+        "clip": "C5862",
+        "raw_table_record_hex": "010000000b000000e616060a2b340101010501010d43130000006579b50f971206c29c50d1fffec4f94900000300000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000006579B50F971206C29C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 12,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5862.MP4",
+        "clip_info_uri": ".\\CLIP\\C5862.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C5865",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 45,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000FE28D132881306C79C50D1FFFEC4F949",
+        "duration": "15",
+        "creation": "2026-12-14T08:23:19+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-12-14T08:23:20+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C5865.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "15",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000FE28D132881306C79C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C5865.MP4",
+          "size": "67252325",
+          "creation_time_ns": "1794463713490000000",
+          "last_write_time_ns": "1797207800000000000",
+          "last_access_time_ns": "1794463712000000000",
+          "last_write_utc": "2026-12-14T00:23:20+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C5865T01.JPG",
+          "size": "136527",
+          "creation_time_ns": "1794463812750000000",
+          "last_write_time_ns": "1797207800000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-12-14T00:23:20+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C5865.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C5865M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C5865T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 12,
+        "clip": "C5865",
+        "raw_table_record_hex": "010000000c000000e916060a2b340101010501010d4313000000fe28d132881306c79c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000FE28D132881306C79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 13,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5865.MP4",
+        "clip_info_uri": ".\\CLIP\\C5865.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6347",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 46,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D43130000005DEC92A6121206CF10322CFFFE7C5466",
+        "duration": "45",
+        "creation": "2026-06-21T14:38:22+08:00",
+        "device_model": "ILCE-7RM5",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-21T14:38:25+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6347.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "45",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D43130000005DEC92A6121206CF10322CFFFE7C5466",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6347.MP4",
+          "size": "67252612",
+          "creation_time_ns": "1794463720330000000",
+          "last_write_time_ns": "1782023906000000000",
+          "last_access_time_ns": "1794463720000000000",
+          "last_write_utc": "2026-06-21T06:38:26+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6347T01.JPG",
+          "size": "215189",
+          "creation_time_ns": "1794463812760000000",
+          "last_write_time_ns": "1782023906000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-21T06:38:26+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6347.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6347M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6347T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 13,
+        "clip": "C6347",
+        "raw_table_record_hex": "010000000d000000cb18060a2b340101010501010d43130000005dec92a6121206cf10322cfffe7c546600000300000000000000020000002d0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000005DEC92A6121206CF10322CFFFE7C5466",
+        "original_find_return": 0,
+        "original_found_index": 14,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6347.MP4",
+        "clip_info_uri": ".\\CLIP\\C6347.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6348",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 47,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D43130000002B8D5BB4121206D210322CFFFE7C5466",
+        "duration": "30",
+        "creation": "2026-06-21T14:38:27+08:00",
+        "device_model": "ILCE-7RM5",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-21T14:38:29+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6348.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "30",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D43130000002B8D5BB4121206D210322CFFFE7C5466",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6348.MP4",
+          "size": "67252468",
+          "creation_time_ns": "1794463727210000000",
+          "last_write_time_ns": "1782023910000000000",
+          "last_access_time_ns": "1794463726000000000",
+          "last_write_utc": "2026-06-21T06:38:30+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6348T01.JPG",
+          "size": "152659",
+          "creation_time_ns": "1794463812770000000",
+          "last_write_time_ns": "1782023910000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-21T06:38:30+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6348.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6348M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6348T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 14,
+        "clip": "C6348",
+        "raw_table_record_hex": "010000000e000000cc18060a2b340101010501010d43130000002b8d5bb4121206d210322cfffe7c546600000300000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000002B8D5BB4121206D210322CFFFE7C5466",
+        "original_find_return": 0,
+        "original_found_index": 15,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6348.MP4",
+        "clip_info_uri": ".\\CLIP\\C6348.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6349",
+      "observed_listing": "listed",
+      "record_index": 48,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000E7F3B623881306CD9C50D1FFFEC4F949",
+        "duration": "15",
+        "creation": "2026-12-14T09:54:55+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-12-14T09:54:56+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6349.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "15",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000E7F3B623881306CD9C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6349.MP4",
+          "size": "67252325",
+          "creation_time_ns": "1794463734090000000",
+          "last_write_time_ns": "1797213296000000000",
+          "last_access_time_ns": "1794463734000000000",
+          "last_write_utc": "2026-12-14T01:54:56+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6349T01.JPG",
+          "size": "136173",
+          "creation_time_ns": "1794463812770000000",
+          "last_write_time_ns": "1797213296000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-12-14T01:54:56+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6349.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6349M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6349T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 16,
+        "clip": "C6349",
+        "raw_table_record_hex": "0100000010000000cd18060a2b340101010501010d4313000000e7f3b623881306cd9c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000E7F3B623881306CD9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 17,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6349.MP4",
+        "clip_info_uri": ".\\CLIP\\C6349.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6350",
+      "observed_listing": "listed",
+      "record_index": 49,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000E5353D54881306C79C50D1FFFEC4F949",
+        "duration": "60",
+        "creation": "2026-12-14T09:55:11+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L51",
+          "captureFps": "119.88p",
+          "formatFps": "119.88p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-12-14T09:55:13+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6350.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L51",
+        "audioType": "LPCM16",
+        "fps": "119.88p",
+        "dur": "60",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000E5353D54881306C79C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6350.MP4",
+          "size": "67252815",
+          "creation_time_ns": "1794463741060000000",
+          "last_write_time_ns": "1797213314000000000",
+          "last_access_time_ns": "1794463740000000000",
+          "last_write_utc": "2026-12-14T01:55:14+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6350T01.JPG",
+          "size": "153564",
+          "creation_time_ns": "1794463812790000000",
+          "last_write_time_ns": "1797213314000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-12-14T01:55:14+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6350.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6350M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6350T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 17,
+        "clip": "C6350",
+        "raw_table_record_hex": "0100000011000000ce18060a2b340101010501010d4313000000e5353d54881306c79c50d1fffec4f94900000700000000000000030000003c0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000E5353D54881306C79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 18,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6350.MP4",
+        "clip_info_uri": ".\\CLIP\\C6350.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6351",
+      "observed_listing": "listed",
+      "record_index": 50,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000F80F8980881306D09C50D1FFFEC4F949",
+        "duration": "30",
+        "creation": "2026-12-14T09:55:26+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "HEVC_3840_2160_M42210P@L51HT",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-12-14T09:55:28+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6351.MP4",
+        "type": "MP4",
+        "videoType": "HEVC_3840_2160_M42210P@L51HT",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "30",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000F80F8980881306D09C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6351.MP4",
+          "size": "67252943",
+          "creation_time_ns": "1794463748040000000",
+          "last_write_time_ns": "1797213328000000000",
+          "last_access_time_ns": "1794463748000000000",
+          "last_write_utc": "2026-12-14T01:55:28+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6351T01.JPG",
+          "size": "152723",
+          "creation_time_ns": "1794463812800000000",
+          "last_write_time_ns": "1797213328000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-12-14T01:55:28+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6351.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6351M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6351T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 18,
+        "clip": "C6351",
+        "raw_table_record_hex": "0100000012000000cf18060a2b340101010501010d4313000000f80f8980881306d09c50d1fffec4f94900000500000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000F80F8980881306D09C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 19,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6351.MP4",
+        "clip_info_uri": ".\\CLIP\\C6351.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6352",
+      "observed_listing": "listed",
+      "record_index": 51,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000030B4EEB4881306C49C50D1FFFEC4F949",
+        "duration": "15",
+        "creation": "2026-12-14T09:55:44+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-12-14T09:55:45+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6352.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "15",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000030B4EEB4881306C49C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6352.MP4",
+          "size": "67252379",
+          "creation_time_ns": "1794463755120000000",
+          "last_write_time_ns": "1797213346000000000",
+          "last_access_time_ns": "1794463754000000000",
+          "last_write_utc": "2026-12-14T01:55:46+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6352T01.JPG",
+          "size": "118171",
+          "creation_time_ns": "1794463812800000000",
+          "last_write_time_ns": "1797213346000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-12-14T01:55:46+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6352.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6352M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6352T01.JPG",
+        "proxy": "A:/PRIVATE/M4ROOT/SUB/C6352S03.MP4"
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 19,
+        "clip": "C6352",
+        "raw_table_record_hex": "0100000013000000d018060a2b340101010501010d431300000030b4eeb4881306c49c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000030B4EEB4881306C49C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 20,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6352.MP4",
+        "clip_info_uri": ".\\CLIP\\C6352.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6353",
+      "observed_listing": "listed",
+      "record_index": 53,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000053E8CF9D881306C59C50D1FFFEC4F949",
+        "duration": "75",
+        "creation": "2026-12-14T11:59:55+03:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "4"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-12-14T11:59:59+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6353.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM24",
+        "fps": "29.97p",
+        "dur": "75",
+        "ch": "4",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000053E8CF9D881306C59C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6353.MP4",
+          "size": "67254655",
+          "creation_time_ns": "1794463762110000000",
+          "last_write_time_ns": "1797220800000000000",
+          "last_access_time_ns": "1794463762000000000",
+          "last_write_utc": "2026-12-14T04:00:00+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6353T01.JPG",
+          "size": "104548",
+          "creation_time_ns": "1794463812810000000",
+          "last_write_time_ns": "1797220800000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-12-14T04:00:00+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6353.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6353M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6353T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 20,
+        "clip": "C6353",
+        "raw_table_record_hex": "0100000014000000d118060a2b340101010501010d431300000053e8cf9d881306c59c50d1fffec4f94900000300000000000000020000004b0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000053E8CF9D881306C59C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 21,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6353.MP4",
+        "clip_info_uri": ".\\CLIP\\C6353.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6354",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 54,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000C78C17DF121206D79C50D1FFFEC4F949",
+        "duration": "15",
+        "creation": "2026-06-21T17:08:27+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "4"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-21T17:08:28+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6354.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM24",
+        "fps": "29.97p",
+        "dur": "15",
+        "ch": "4",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000C78C17DF121206D79C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6354.MP4",
+          "size": "67253991",
+          "creation_time_ns": "1794463769100000000",
+          "last_write_time_ns": "1782032908000000000",
+          "last_access_time_ns": "1794463768000000000",
+          "last_write_utc": "2026-06-21T09:08:28+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6354T01.JPG",
+          "size": "97299",
+          "creation_time_ns": "1794463812820000000",
+          "last_write_time_ns": "1782032908000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-21T09:08:28+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6354.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6354M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6354T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 21,
+        "clip": "C6354",
+        "raw_table_record_hex": "0100000015000000d218060a2b340101010501010d4313000000c78c17df121206d79c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000C78C17DF121206D79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 22,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6354.MP4",
+        "clip_info_uri": ".\\CLIP\\C6354.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6355",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 55,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000FBB489EC121206D69C50D1FFFEC4F949",
+        "duration": "15",
+        "creation": "2026-06-21T17:08:31+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-21T17:08:33+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6355.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM24",
+        "fps": "29.97p",
+        "dur": "15",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000FBB489EC121206D69C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6355.MP4",
+          "size": "67252361",
+          "creation_time_ns": "1794463776090000000",
+          "last_write_time_ns": "1782032914000000000",
+          "last_access_time_ns": "1794463776000000000",
+          "last_write_utc": "2026-06-21T09:08:34+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6355T01.JPG",
+          "size": "97326",
+          "creation_time_ns": "1794463812820000000",
+          "last_write_time_ns": "1782032914000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-21T09:08:34+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6355.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6355M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6355T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 22,
+        "clip": "C6355",
+        "raw_table_record_hex": "0100000016000000d318060a2b340101010501010d4313000000fbb489ec121206d69c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000FBB489EC121206D69C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 23,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6355.MP4",
+        "clip_info_uri": ".\\CLIP\\C6355.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6356",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 56,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D43130000009D460AFA121206D49C50D1FFFEC4F949",
+        "duration": "15",
+        "creation": "2026-06-21T17:08:36+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-21T17:08:37+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6356.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "15",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D43130000009D460AFA121206D49C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6356.MP4",
+          "size": "67252325",
+          "creation_time_ns": "1794463783050000000",
+          "last_write_time_ns": "1782032918000000000",
+          "last_access_time_ns": "1794463782000000000",
+          "last_write_utc": "2026-06-21T09:08:38+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6356T01.JPG",
+          "size": "97513",
+          "creation_time_ns": "1794463812830000000",
+          "last_write_time_ns": "1782032918000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-21T09:08:38+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6356.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6356M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6356T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 23,
+        "clip": "C6356",
+        "raw_table_record_hex": "0100000017000000d418060a2b340101010501010d43130000009d460afa121206d49c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000009D460AFA121206D49C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 24,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6356.MP4",
+        "clip_info_uri": ".\\CLIP\\C6356.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6357",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 57,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000D674CCB8121206D99C50D1FFFEC4F949",
+        "duration": "15",
+        "creation": "2026-06-21T17:26:57+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "7.49p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "slowAndQuickMotion",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-21T17:26:59+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6357.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "15",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000D674CCB8121206D99C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6357.MP4",
+          "size": "67252331",
+          "creation_time_ns": "1794463790130000000",
+          "last_write_time_ns": "1782034020000000000",
+          "last_access_time_ns": "1794463790000000000",
+          "last_write_utc": "2026-06-21T09:27:00+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6357T01.JPG",
+          "size": "103028",
+          "creation_time_ns": "1794463812840000000",
+          "last_write_time_ns": "1782034020000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-21T09:27:00+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6357.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6357M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6357T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 24,
+        "clip": "C6357",
+        "raw_table_record_hex": "0100000018000000d518060a2b340101010501010d4313000000d674ccb8121206d99c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000D674CCB8121206D99C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 25,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6357.MP4",
+        "clip_info_uri": ".\\CLIP\\C6357.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6358",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 58,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x18",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": true,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 28,
+      "umid_array_ref": 0,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000007DFC4CC121206D49C50D1FFFEC4F949",
+        "duration": "45",
+        "creation": "2026-06-21T17:27:04+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-21T17:27:06+00:00",
+        "exact_match": false,
+        "non_time_bytes_match": false,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [],
+        "explained_by_omitted_subseconds": false,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6358.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "45",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000007DFC4CC121206D49C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6358.MP4",
+          "size": "67252633",
+          "creation_time_ns": "1794463797170000000",
+          "last_write_time_ns": "1782034026000000000",
+          "last_access_time_ns": "1794463796000000000",
+          "last_write_utc": "2026-06-21T09:27:06+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6358T01.JPG",
+          "size": "103004",
+          "creation_time_ns": "1794463812850000000",
+          "last_write_time_ns": "1782034026000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-21T09:27:06+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6358.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6358M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6358T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 25,
+        "clip": "C6358",
+        "raw_table_record_hex": "0100000019000000d618060a2b340101010501010d431300000007dfc4cc121206d49c50d1fffec4f94900000300000000000000020000002d0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000007DFC4CC121206D49C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 26,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6358.MP4",
+        "clip_info_uri": ".\\CLIP\\C6358.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6359",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 61,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 62,
+      "umid_array_ref": 63,
+      "umid_array_slot": 0,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000D2F1BC1D161206DC9C50D1FFFEC4F949",
+        "duration": "30",
+        "creation": "2026-06-25T16:54:53+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-06-25T16:54:53+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          237
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6359.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "30",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000D2F1BC1D161206DC9C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6359.MP4",
+          "size": "67252458",
+          "creation_time_ns": "1794463804200000000",
+          "last_write_time_ns": "1782377694000000000",
+          "last_access_time_ns": "1794463804000000000",
+          "last_write_utc": "2026-06-25T08:54:54+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6359T01.JPG",
+          "size": "124905",
+          "creation_time_ns": "1794463812850000000",
+          "last_write_time_ns": "1782377694000000000",
+          "last_access_time_ns": "1794463812000000000",
+          "last_write_utc": "2026-06-25T08:54:54+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6359.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6359M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6359T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 27,
+        "clip": "C6359",
+        "raw_table_record_hex": "010000001b000000d718060a2b340101010501010d4313000000d2f1bc1d161206dc9c50d1fffec4f94900000500000000000000030000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000D2F1BC1D161206DC9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 28,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6359.MP4",
+        "clip_info_uri": ".\\CLIP\\C6359.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6499",
+      "observed_listing": "unknown_in_this_round",
+      "record_index": 73,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 74,
+      "umid_array_ref": 72,
+      "umid_array_slot": 1,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000057EED0CE561306C19C50D1FFFEC4F949",
+        "duration": "15",
+        "creation": "2026-11-12T19:44:21+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC140_3840_2160_H422P@L51",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T19:44:21+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          801
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6499.MP4",
+        "type": "MP4",
+        "videoType": "AVC140_3840_2160_H422P@L51",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "15",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000057EED0CE561306C19C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6499.MP4",
+          "size": "67252378",
+          "creation_time_ns": "1794483863000000000",
+          "last_write_time_ns": "1794483863000000000",
+          "last_access_time_ns": "1794483862000000000",
+          "last_write_utc": "2026-11-12T11:44:23+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6499T01.JPG",
+          "size": "117029",
+          "creation_time_ns": "1794483863000000000",
+          "last_write_time_ns": "1794483863000000000",
+          "last_access_time_ns": "1794483862000000000",
+          "last_write_utc": "2026-11-12T11:44:23+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6499.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6499M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6499T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 32,
+        "clip": "C6499",
+        "raw_table_record_hex": "01000000200000006319060a2b340101010501010d431300000057eed0ce561306c19c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000057EED0CE561306C19C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 33,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6499.MP4",
+        "clip_info_uri": ".\\CLIP\\C6499.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6500",
+      "observed_listing": "not_listed",
+      "record_index": 75,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 62,
+      "umid_array_ref": 72,
+      "umid_array_slot": 1,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000085BB9208561306C69C50D1FFFEC4F949",
+        "duration": "90",
+        "creation": "2026-11-12T19:44:41+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T19:44:41+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          294
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6500.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "90",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000085BB9208561306C69C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6500.MP4",
+          "size": "67253041",
+          "creation_time_ns": "1794483884000000000",
+          "last_write_time_ns": "1794483884000000000",
+          "last_access_time_ns": "1794483884000000000",
+          "last_write_utc": "2026-11-12T11:44:44+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6500T01.JPG",
+          "size": "90975",
+          "creation_time_ns": "1794483884000000000",
+          "last_write_time_ns": "1794483884000000000",
+          "last_access_time_ns": "1794483884000000000",
+          "last_write_utc": "2026-11-12T11:44:44+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6500.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6500M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6500T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 33,
+        "clip": "C6500",
+        "raw_table_record_hex": "01000000210000006419060a2b340101010501010d431300000085bb9208561306c69c50d1fffec4f94900000500000000000000030000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000085BB9208561306C69C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 34,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6500.MP4",
+        "clip_info_uri": ".\\CLIP\\C6500.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6501",
+      "observed_listing": "not_listed",
+      "record_index": 76,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 77,
+      "umid_array_ref": 72,
+      "umid_array_slot": 1,
+      "sidecar": {
+        "umid": "060A2B340101010501010D43130000002BDF8824561306DF9C50D1FFFEC4F949",
+        "duration": "60",
+        "creation": "2026-11-12T19:44:50+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L4",
+          "captureFps": "29.97p",
+          "formatFps": "29.97p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T19:44:50+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          731
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6501.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L4",
+        "audioType": "LPCM16",
+        "fps": "29.97p",
+        "dur": "60",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D43130000002BDF8824561306DF9C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6501.MP4",
+          "size": "67252773",
+          "creation_time_ns": "1794483894000000000",
+          "last_write_time_ns": "1794483894000000000",
+          "last_access_time_ns": "1794483894000000000",
+          "last_write_utc": "2026-11-12T11:44:54+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6501T01.JPG",
+          "size": "83598",
+          "creation_time_ns": "1794483894000000000",
+          "last_write_time_ns": "1794483894000000000",
+          "last_access_time_ns": "1794483894000000000",
+          "last_write_utc": "2026-11-12T11:44:54+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6501.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6501M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6501T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 34,
+        "clip": "C6501",
+        "raw_table_record_hex": "01000000220000006519060a2b340101010501010d43130000002bdf8824561306df9c50d1fffec4f94900000300000000000000030000003c0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000002BDF8824561306DF9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 35,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6501.MP4",
+        "clip_info_uri": ".\\CLIP\\C6501.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6502",
+      "observed_listing": "not_listed",
+      "record_index": 78,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 79,
+      "umid_array_ref": 72,
+      "umid_array_slot": 1,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000007F42B41561306D59C50D1FFFEC4F949",
+        "duration": "90",
+        "creation": "2026-11-12T19:45:00+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T19:45:00+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          396
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6502.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "90",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000007F42B41561306D59C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6502.MP4",
+          "size": "67253041",
+          "creation_time_ns": "1794483903000000000",
+          "last_write_time_ns": "1794483903000000000",
+          "last_access_time_ns": "1794483902000000000",
+          "last_write_utc": "2026-11-12T11:45:03+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6502T01.JPG",
+          "size": "71785",
+          "creation_time_ns": "1794483903000000000",
+          "last_write_time_ns": "1794483903000000000",
+          "last_access_time_ns": "1794483902000000000",
+          "last_write_utc": "2026-11-12T11:45:03+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6502.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6502M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6502T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 35,
+        "clip": "C6502",
+        "raw_table_record_hex": "01000000230000006619060a2b340101010501010d431300000007f42b41561306d59c50d1fffec4f94900000500000000000000030000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000007F42B41561306D59C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 36,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6502.MP4",
+        "clip_info_uri": ".\\CLIP\\C6502.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6503",
+      "observed_listing": "not_listed",
+      "record_index": 80,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 81,
+      "umid_array_ref": 72,
+      "umid_array_slot": 1,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000009BD666E561306CF9C50D1FFFEC4F949",
+        "duration": "90",
+        "creation": "2026-11-12T19:45:15+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T19:45:15+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          661
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6503.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "90",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000009BD666E561306CF9C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6503.MP4",
+          "size": "67253045",
+          "creation_time_ns": "1794483918000000000",
+          "last_write_time_ns": "1794483918000000000",
+          "last_access_time_ns": "1794483918000000000",
+          "last_write_utc": "2026-11-12T11:45:18+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6503T01.JPG",
+          "size": "158152",
+          "creation_time_ns": "1794483918000000000",
+          "last_write_time_ns": "1794483918000000000",
+          "last_access_time_ns": "1794483918000000000",
+          "last_write_utc": "2026-11-12T11:45:18+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6503.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6503M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6503T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 36,
+        "clip": "C6503",
+        "raw_table_record_hex": "01000000240000006719060a2b340101010501010d431300000009bd666e561306cf9c50d1fffec4f94900000500000000000000030000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000009BD666E561306CF9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 37,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6503.MP4",
+        "clip_info_uri": ".\\CLIP\\C6503.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6504",
+      "observed_listing": "not_listed",
+      "record_index": 82,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 83,
+      "umid_array_ref": 72,
+      "umid_array_slot": 1,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000DCB8DFC3561306C89C50D1FFFEC4F949",
+        "duration": "60",
+        "creation": "2026-11-12T19:45:44+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC50_1920_1080_H422P@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T19:45:44+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          508
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6504.MP4",
+        "type": "MP4",
+        "videoType": "AVC50_1920_1080_H422P@L42",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "60",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000DCB8DFC3561306C89C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6504.MP4",
+          "size": "67252836",
+          "creation_time_ns": "1794483946000000000",
+          "last_write_time_ns": "1794483946000000000",
+          "last_access_time_ns": "1794483946000000000",
+          "last_write_utc": "2026-11-12T11:45:46+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6504T01.JPG",
+          "size": "118189",
+          "creation_time_ns": "1794483946000000000",
+          "last_write_time_ns": "1794483946000000000",
+          "last_access_time_ns": "1794483946000000000",
+          "last_write_utc": "2026-11-12T11:45:46+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6504.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6504M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6504T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 37,
+        "clip": "C6504",
+        "raw_table_record_hex": "01000000250000006819060a2b340101010501010d4313000000dcb8dfc3561306c89c50d1fffec4f94900000500000000000000030000003c0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000DCB8DFC3561306C89C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 38,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6504.MP4",
+        "clip_info_uri": ".\\CLIP\\C6504.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6505",
+      "observed_listing": "not_listed",
+      "record_index": 84,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 85,
+      "umid_array_ref": 72,
+      "umid_array_slot": 2,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000B372D2EC561306C910322CFFFE7C5466",
+        "duration": "30",
+        "creation": "2026-11-12T19:45:58+08:00",
+        "device_model": "ILCE-7RM5",
+        "video": {
+          "videoCodec": "HEVC_3840_2160_M42210P@L51HT",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T19:45:58+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          328
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6505.MP4",
+        "type": "MP4",
+        "videoType": "HEVC_3840_2160_M42210P@L51HT",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "30",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000B372D2EC561306C910322CFFFE7C5466",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6505.MP4",
+          "size": "67252934",
+          "creation_time_ns": "1794483959000000000",
+          "last_write_time_ns": "1794483959000000000",
+          "last_access_time_ns": "1794483958000000000",
+          "last_write_utc": "2026-11-12T11:45:59+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6505T01.JPG",
+          "size": "114576",
+          "creation_time_ns": "1794483959000000000",
+          "last_write_time_ns": "1794483959000000000",
+          "last_access_time_ns": "1794483958000000000",
+          "last_write_utc": "2026-11-12T11:45:59+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6505.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6505M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6505T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 38,
+        "clip": "C6505",
+        "raw_table_record_hex": "01000000260000006919060a2b340101010501010d4313000000b372d2ec561306c910322cfffe7c546600000500000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000B372D2EC561306C910322CFFFE7C5466",
+        "original_find_return": 0,
+        "original_found_index": 39,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6505.MP4",
+        "clip_info_uri": ".\\CLIP\\C6505.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6506",
+      "observed_listing": "not_listed",
+      "record_index": 86,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 87,
+      "umid_array_ref": 72,
+      "umid_array_slot": 2,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000EF9DEC13561306C810322CFFFE7C5466",
+        "duration": "180",
+        "creation": "2026-11-12T19:46:11+08:00",
+        "device_model": "ILCE-7RM5",
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L51",
+          "captureFps": "119.88p",
+          "formatFps": "119.88p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T19:46:11+08:00",
+        "exact_match": false,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          525
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6506.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L51",
+        "audioType": "LPCM16",
+        "fps": "119.88p",
+        "dur": "180",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000EF9DEC13561306C810322CFFFE7C5466",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6506.MP4",
+          "size": "67254868",
+          "creation_time_ns": "1794483973000000000",
+          "last_write_time_ns": "1794483973000000000",
+          "last_access_time_ns": "1794483972000000000",
+          "last_write_utc": "2026-11-12T11:46:13+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6506T01.JPG",
+          "size": "109389",
+          "creation_time_ns": "1794483973000000000",
+          "last_write_time_ns": "1794483973000000000",
+          "last_access_time_ns": "1794483972000000000",
+          "last_write_utc": "2026-11-12T11:46:13+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6506.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6506M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6506T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 39,
+        "clip": "C6506",
+        "raw_table_record_hex": "01000000270000006a19060a2b340101010501010d4313000000ef9dec13561306c810322cfffe7c54660000070000000000000003000000b40000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000EF9DEC13561306C810322CFFFE7C5466",
+        "original_find_return": 0,
+        "original_found_index": 40,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6506.MP4",
+        "clip_info_uri": ".\\CLIP\\C6506.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6507",
+      "observed_listing": "not_listed",
+      "record_index": 88,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 81,
+      "umid_array_ref": 72,
+      "umid_array_slot": 1,
+      "sidecar": {
+        "umid": "060A2B340101010501010D4313000000B7772504561306D59C50D1FFFEC4F949",
+        "duration": "90",
+        "creation": "2026-11-12T20:48:59+08:00",
+        "device_model": "ILCE-7M4",
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T20:48:59+08:00",
+        "exact_match": true,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          0
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6507.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "90",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D4313000000B7772504561306D59C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6507.MP4",
+          "size": "67252960",
+          "creation_time_ns": "1794488174050000000",
+          "last_write_time_ns": "1794488176000000000",
+          "last_access_time_ns": "1794488176000000000",
+          "last_write_utc": "2026-11-12T12:56:16+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6507T01.JPG",
+          "size": "158152",
+          "creation_time_ns": "1794488175190000000",
+          "last_write_time_ns": "1794488176000000000",
+          "last_access_time_ns": "1794488176000000000",
+          "last_write_utc": "2026-11-12T12:56:16+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6507.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6507M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6507T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 40,
+        "clip": "C6507",
+        "raw_table_record_hex": "01000000280000006b19060a2b340101010501010d4313000000b7772504561306d59c50d1fffec4f94900000500000000000000030000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000B7772504561306D59C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 41,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6507.MP4",
+        "clip_info_uri": ".\\CLIP\\C6507.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    },
+    {
+      "clip": "C6508",
+      "observed_listing": "not_listed",
+      "record_index": 89,
+      "record_checksum_valid": true,
+      "record_flags_byte06": "0x90",
+      "persistent_root_filter_bit4": true,
+      "persistent_bit3_semantics_not_established": false,
+      "runtime_onmem_flags": "UNKNOWN; not persisted in snapshot",
+      "video_info_ref": 81,
+      "umid_array_ref": 72,
+      "umid_array_slot": 1,
+      "sidecar": {
+        "umid": "060A2B340101010501010D431300000083D6679F561306D79C50D1FFFEC4F949",
+        "duration": "1534",
+        "creation": "2026-11-12T20:55:37+08:00",
+        "device_model": null,
+        "video": {
+          "videoCodec": "AVC_1920_1080_HP@L42",
+          "captureFps": "59.94p",
+          "formatFps": "59.94p"
+        },
+        "audio": {
+          "numOfChannel": "2"
+        },
+        "recording_mode": {
+          "type": "normal",
+          "cacheRec": "false"
+        }
+      },
+      "umid_evidence": {
+        "catalog_creation_time": "2026-11-12T20:55:37+08:00",
+        "exact_match": true,
+        "non_time_bytes_match": true,
+        "mjd_bytes_match": true,
+        "same_second_material_time_candidates_ms": [
+          0
+        ],
+        "explained_by_omitted_subseconds": true,
+        "camera_acceptance_proven": false
+      },
+      "material_present": true,
+      "material_attributes": {
+        "uri": "./CLIP/C6508.MP4",
+        "type": "MP4",
+        "videoType": "AVC_1920_1080_HP@L42",
+        "audioType": "LPCM16",
+        "fps": "59.94p",
+        "dur": "1534",
+        "ch": "2",
+        "aspectRatio": "16:9",
+        "offset": "0",
+        "umid": "060A2B340101010501010D431300000083D6679F561306D79C50D1FFFEC4F949",
+        "status": "none"
+      },
+      "media_inventory": {
+        "main": {
+          "relative_path": "PRIVATE/M4ROOT/CLIP/C6508.MP4",
+          "size": "87550884",
+          "creation_time_ns": "1794488857120000000",
+          "last_write_time_ns": "1794488860000000000",
+          "last_access_time_ns": "1794488860000000000",
+          "last_write_utc": "2026-11-12T13:07:40+00:00"
+        },
+        "thumbnail": {
+          "relative_path": "PRIVATE/M4ROOT/THMBNL/C6508T01.JPG",
+          "size": "446670",
+          "creation_time_ns": "1794488858610000000",
+          "last_write_time_ns": "1794488860000000000",
+          "last_access_time_ns": "1794488860000000000",
+          "last_write_utc": "2026-11-12T13:07:40+00:00"
+        }
+      },
+      "converter_return_u32": 0,
+      "converter_emulation_error": null,
+      "nested_reader_results_recorded": true,
+      "nested_reader_failures": [],
+      "original_restored_paths": {
+        "main": "A:/PRIVATE/M4ROOT/CLIP/C6508.MP4",
+        "nrt": "A:/PRIVATE/M4ROOT/CLIP/C6508M01.XML",
+        "thumbnail": "A:/PRIVATE/M4ROOT/THMBNL/C6508T01.JPG",
+        "proxy": ""
+      },
+      "original_mediapro_parse_query": {
+        "table_index": 41,
+        "clip": "C6508",
+        "raw_table_record_hex": "01000000290000006c19060a2b340101010501010d431300000083d6679f561306d79c50d1fffec4f9490000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000083D6679F561306D79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 42,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6508.MP4",
+        "clip_info_uri": ".\\CLIP\\C6508.MP4"
+      },
+      "original_mediapro_umid_matches_sidecar": true,
+      "camera_admission_proven_by_emulation": false
+    }
+  ]
+}

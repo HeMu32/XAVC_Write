@@ -1,0 +1,59 @@
+{
+  "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T153706",
+  "card": "F:\\",
+  "card_writes": false,
+  "known_hashes": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\repair-media-hashes-0027.json",
+  "snapshot_audit": {
+    "card": "F:\\",
+    "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T153706",
+    "checked_at_utc": "2026-11-13T07:37:27.671163+00:00",
+    "missing": [],
+    "added": [],
+    "changed_metadata_hashes": [],
+    "changed_media_size_or_mtime": [],
+    "metadata_files": 73,
+    "media_files": 145,
+    "media_content_hashes_checked": false,
+    "unchanged": true
+  },
+  "controls": [
+    {
+      "clip": "C6501",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6501.MP4",
+      "sha256": "7297184cefed4dd34f3219cc8f8de116fba3724c748979405352769ca1ac0aaf",
+      "size": 67252773,
+      "mtime_ns": 1794483894000000000,
+      "stable_during_hash": true,
+      "matches_known_repair_hash": true
+    },
+    {
+      "clip": "C6515",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6515.MP4",
+      "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+      "size": 87429261,
+      "mtime_ns": 1794505314000000000,
+      "stable_during_hash": true,
+      "matches_known_repair_hash": true
+    },
+    {
+      "clip": "C6517",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6517.MP4",
+      "sha256": "7cdf31983a5f759f3dd297f4a3029c0d3427ae430a34ac0a7f655cddbc40917c",
+      "size": 168260154,
+      "mtime_ns": 1794548290000000000,
+      "stable_during_hash": true,
+      "matches_known_repair_hash": true
+    },
+    {
+      "clip": "C6518",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6518.MP4",
+      "sha256": "fcc118a82af71ba849954724c240134fd17c686cc66400d016919f8913307845",
+      "size": 199413413,
+      "mtime_ns": 1794548444000000000,
+      "stable_during_hash": true,
+      "matches_known_repair_hash": true
+    }
+  ],
+  "passed": true,
+  "scope": "Metadata and size/mtime audit plus four complete media hashes; not a whole-card content hash"
+}

@@ -1,0 +1,58 @@
+{
+  "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsMpegPlugIn.tpi",
+  "sha256": "8c39ea4f83e272a083f7cdc90b3bfe9d4e9ae02a49158091a14914ba1b508d81",
+  "base": "0x180000000",
+  "entry": "0x18058fc20",
+  "instruction_limit": 500000,
+  "native_execution": false,
+  "instructions": 61,
+  "import_policy": "stop before every imported call, never execute or simulate an import",
+  "stopped_import": {
+    "dll": "KERNEL32.dll",
+    "name": "GetSystemInfo",
+    "iat": "0x1806f1360"
+  },
+  "last_rip": "0x71002020",
+  "recent_addresses": [
+    "0x18017704b",
+    "0x18017e184",
+    "0x18017e18b",
+    "0x180181b76",
+    "0x18021d715",
+    "0x18021d716",
+    "0x18021d71d",
+    "0x18021d722",
+    "0x18021d726",
+    "0x18021d72c",
+    "0x18021d72e",
+    "0x180a21200",
+    "0x180a21207",
+    "0x180a2120a",
+    "0x180a21211",
+    "0x180a21215",
+    "0x180a21219",
+    "0x180a21220",
+    "0x180a21224",
+    "0x180a21228",
+    "0x180a2122f",
+    "0x180a21233",
+    "0x180a21236",
+    "0x71002020"
+  ],
+  "executable_sections": [
+    {
+      "rva": "0x1000",
+      "size": 7273472,
+      "changed_bytes": 0,
+      "before_sha256": "ab72bbe04ab2ef7c283bae88ab093a96537b60bfd9b133e665631e696f8cef41",
+      "after_sha256": "ab72bbe04ab2ef7c283bae88ab093a96537b60bfd9b133e665631e696f8cef41"
+    },
+    {
+      "rva": "0xa21000",
+      "size": 1956864,
+      "changed_bytes": 0,
+      "before_sha256": "53c85ce400162f4bbc7791f6d4f3615141ebb4089f133acdb4609d129f86dd30",
+      "after_sha256": "53c85ce400162f4bbc7791f6d4f3615141ebb4089f133acdb4609d129f86dd30"
+    }
+  ]
+}

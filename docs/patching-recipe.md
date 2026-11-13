@@ -1,5 +1,11 @@
 # XAVC-S HD 50M EDIUS→Sony ILCE-7M4 修补流程
 
+> **历史记录，不是当前新增25M片段的操作手册。**
+> 本页含旧盘符、旧数据库位置及直接覆盖卡文件的实验步骤，不要照此操作当前卡。
+> 已实机成功的 SD 25M 完整复现步骤、五文件写入清单和恢复规则见
+> [SD卡XAVC-S复现手册](C:/Users/HeMu/Desktop/XAVC_Write/docs/sd-xavcs-reproduction.md)。
+> 本页原文保留供研究追溯；部分字段解释未被当前成功路径采用。
+
 适用范围：EDIUS 导出的 1920×1080 59.94p XAVC-S 50M 片段。  
 验证相机：Sony ILCE-7M4。  
 不适用范围：4K 片段、HEVC 片段、其他帧率。

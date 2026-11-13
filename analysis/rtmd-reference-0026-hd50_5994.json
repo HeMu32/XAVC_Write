@@ -1,0 +1,135 @@
+{
+  "reference": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\C0007-reference-0023.MP4",
+  "profile": "hd50_5994",
+  "half_step": true,
+  "reference_file_sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+  "reference_stat": {
+    "size": 1421462765,
+    "mtime_ns": 1782402982000000000,
+    "ctime_ns": 1794498723797634700
+  },
+  "samples": 14170,
+  "packet_sizes": [
+    1024
+  ],
+  "track": {
+    "timescale": 60000,
+    "duration": 14184170,
+    "duration_seconds": 236.40283333333332,
+    "stts": [
+      [
+        14170,
+        1001
+      ]
+    ]
+  },
+  "template_sha256": "dd2f35164c20c2daafb98534563e2d4a5884ae8c73351320a6e9cd9fc145e7af",
+  "template_start_timecode_hex": "40000000",
+  "reference_end_timecode_hex": "50d60300",
+  "template_start_header_time_fields_hex": "0000000000",
+  "mismatch_count": 0,
+  "first_mismatches": [],
+  "generated_sha256": "a05726bdc50ea8f81c448b75aa840c15ff5deee0d872a666a42534054900ad19",
+  "reference_sha256": "a05726bdc50ea8f81c448b75aa840c15ff5deee0d872a666a42534054900ad19",
+  "observed_varying_offsets": [
+    14,
+    15,
+    17,
+    20,
+    21,
+    22
+  ],
+  "rewritten_offsets": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    20,
+    21,
+    22,
+    23
+  ],
+  "opaque_mismatch_count": 0,
+  "examples": [
+    {
+      "frame": 0,
+      "reference_first32_hex": "001c010000500394f0010010010000000000003c4000000000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f0010010010000000000003c4000000000000000060e2b34",
+      "reference_timecode_hex": "40000000",
+      "reference_header_time_fields_hex": "0000000000"
+    },
+    {
+      "frame": 1,
+      "reference_first32_hex": "001c010000500394f0010010010000000001003c4080000000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f0010010010000000001003c4080000000000000060e2b34",
+      "reference_timecode_hex": "40800000",
+      "reference_header_time_fields_hex": "0000000001"
+    },
+    {
+      "frame": 2,
+      "reference_first32_hex": "001c010000500394f0010010010000000002003c4100000000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f0010010010000000002003c4100000000000000060e2b34",
+      "reference_timecode_hex": "41000000",
+      "reference_header_time_fields_hex": "0000000002"
+    },
+    {
+      "frame": 29,
+      "reference_first32_hex": "001c010000500394f001001001000000001d003c5480000000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f001001001000000001d003c5480000000000000060e2b34",
+      "reference_timecode_hex": "54800000",
+      "reference_header_time_fields_hex": "000000001d"
+    },
+    {
+      "frame": 30,
+      "reference_first32_hex": "001c010000500394f001001001000000001e003c5500000000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f001001001000000001e003c5500000000000000060e2b34",
+      "reference_timecode_hex": "55000000",
+      "reference_header_time_fields_hex": "000000001e"
+    },
+    {
+      "frame": 59,
+      "reference_first32_hex": "001c010000500394f001001001000000003b003c6980000000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f001001001000000003b003c6980000000000000060e2b34",
+      "reference_timecode_hex": "69800000",
+      "reference_header_time_fields_hex": "000000003b"
+    },
+    {
+      "frame": 60,
+      "reference_first32_hex": "001c010000500394f0010010010000010000003c4001000000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f0010010010000010000003c4001000000000000060e2b34",
+      "reference_timecode_hex": "40010000",
+      "reference_header_time_fields_hex": "0000010000"
+    },
+    {
+      "frame": 3599,
+      "reference_first32_hex": "001c010000500394f00100100100003b003b003c69d9000000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f00100100100003b003b003c69d9000000000000060e2b34",
+      "reference_timecode_hex": "69d90000",
+      "reference_header_time_fields_hex": "00003b003b"
+    },
+    {
+      "frame": 3600,
+      "reference_first32_hex": "001c010000500394f0010010010001000004003c4200010000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f0010010010001000004003c4200010000000000060e2b34",
+      "reference_timecode_hex": "42000100",
+      "reference_header_time_fields_hex": "0001000004"
+    },
+    {
+      "frame": 14169,
+      "reference_first32_hex": "001c010000500394f0010010010003380015003c50d6030000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f0010010010003380015003c50d6030000000000060e2b34",
+      "reference_timecode_hex": "50d60300",
+      "reference_header_time_fields_hex": "0003380015"
+    }
+  ],
+  "limitations": [
+    "All rtmd packets in this local reference were compared, not video or audio payloads.",
+    "Opaque bytes are copied from sample zero; their semantics and validity are not established.",
+    "Profile selects timecode cadence only, not bitrate or complete profile conformance.",
+    "29.97p retains the template starting timecode; default 59.94p requires a zero start.",
+    "This comparison spans 14170 packets (236.403 seconds); only transitions inside the measured starting/ending timecode interval are reference evidence.",
+    "Unobserved boundaries are covered by synthetic unit tests, not reference evidence.",
+    "Byte equality to these EDIUS references does not establish full rtmd validity or successful camera playback; no card was accessed."
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\firmware\\m4-v602\\usr\\lib\\libInfraVericEsCodecLibrary.so",
+  "sha256": "70c8ffb1a7da9114eb5c3375628997d839dd6b2983a269e67aed6725abc4a4ca",
+  "header": {
+    "e_ident": {
+      "EI_MAG": [
+        127,
+        69,
+        76,
+        70
+      ],
+      "EI_CLASS": "ELFCLASS64",
+      "EI_DATA": "ELFDATA2LSB",
+      "EI_VERSION": "EV_CURRENT",
+      "EI_OSABI": "ELFOSABI_SYSV",
+      "EI_ABIVERSION": 0
+    },
+    "e_type": "ET_DYN",
+    "e_machine": "EM_AARCH64",
+    "e_version": "EV_CURRENT",
+    "e_entry": 7728,
+    "e_phoff": 64,
+    "e_shoff": 21248,
+    "e_flags": 0,
+    "e_ehsize": 64,
+    "e_phentsize": 56,
+    "e_phnum": 6,
+    "e_shentsize": 64,
+    "e_shnum": 26,
+    "e_shstrndx": 25
+  },
+  "segments": [
+    {
+      "p_type": "PT_LOAD",
+      "p_flags": 5,
+      "p_offset": 0,
+      "p_vaddr": 0,
+      "p_paddr": 0,
+      "p_filesz": 16838,
+      "p_memsz": 16838,
+      "p_align": 65536
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_flags": 6,
+      "p_offset": 19744,
+      "p_vaddr": 85280,
+      "p_paddr": 85280,
+      "p_filesz": 1208,
+      "p_memsz": 1408,
+      "p_align": 65536
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_flags": 6,
+      "p_offset": 19768,
+      "p_vaddr": 85304,
+      "p_paddr": 85304,
+      "p_filesz": 608,
+      "p_memsz": 608,
+      "p_align": 8
+    },
+    {
+      "p_type": "PT_GNU_EH_FRAME",
+      "p_flags": 4,
+      "p_offset": 14504,
+      "p_vaddr": 14504,
+      "p_paddr": 14504,
+      "p_filesz": 364,
+      "p_memsz": 364,
+      "p_align": 4
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_flags": 6,
+      "p_offset": 0,
+      "p_vaddr": 0,
+      "p_paddr": 0,
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_align": 16
+    },
+    {
+      "p_type": "PT_GNU_RELRO",
+      "p_flags": 4,
+      "p_offset": 19744,
+      "p_vaddr": 85280,
+      "p_paddr": 85280,
+      "p_filesz": 736,
+      "p_memsz": 736,
+      "p_align": 1
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "sh_name": 0,
+      "sh_type": "SHT_NULL",
+      "sh_flags": 0,
+      "sh_addr": 0,
+      "sh_offset": 0,
+      "sh_size": 0,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 0,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gnu.hash",
+      "sh_name": 11,
+      "sh_type": "SHT_GNU_HASH",
+      "sh_flags": 2,
+      "sh_addr": 400,
+      "sh_offset": 400,
+      "sh_size": 436,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".dynsym",
+      "sh_name": 21,
+      "sh_type": "SHT_DYNSYM",
+      "sh_flags": 2,
+      "sh_addr": 840,
+      "sh_offset": 840,
+      "sh_size": 2088,
+      "sh_link": 3,
+      "sh_info": 3,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".dynstr",
+      "sh_name": 29,
+      "sh_type": "SHT_STRTAB",
+      "sh_flags": 2,
+      "sh_addr": 2928,
+      "sh_offset": 2928,
+      "sh_size": 1811,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gnu.version",
+      "sh_name": 37,
+      "sh_type": "SHT_GNU_versym",
+      "sh_flags": 2,
+      "sh_addr": 4740,
+      "sh_offset": 4740,
+      "sh_size": 174,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 2,
+      "sh_entsize": 2
+    },
+    {
+      "name": ".gnu.version_r",
+      "sh_name": 50,
+      "sh_type": "SHT_GNU_verneed",
+      "sh_flags": 2,
+      "sh_addr": 4920,
+      "sh_offset": 4920,
+      "sh_size": 160,
+      "sh_link": 3,
+      "sh_info": 4,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".rela.dyn",
+      "sh_name": 65,
+      "sh_type": "SHT_RELA",
+      "sh_flags": 2,
+      "sh_addr": 5080,
+      "sh_offset": 5080,
+      "sh_size": 312,
+      "sh_link": 2,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".rela.plt",
+      "sh_name": 75,
+      "sh_type": "SHT_RELA",
+      "sh_flags": 66,
+      "sh_addr": 5392,
+      "sh_offset": 5392,
+      "sh_size": 1368,
+      "sh_link": 2,
+      "sh_info": 21,
+      "sh_addralign": 8,
+      "sh_entsize": 24
+    },
+    {
+      "name": ".init",
+      "sh_name": 85,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 6760,
+      "sh_offset": 6760,
+      "sh_size": 20,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".plt",
+      "sh_name": 80,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 6784,
+      "sh_offset": 6784,
+      "sh_size": 944,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 16,
+      "sh_entsize": 16
+    },
+    {
+      "name": ".text",
+      "sh_name": 91,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 7728,
+      "sh_offset": 7728,
+      "sh_size": 6604,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".fini",
+      "sh_name": 97,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 6,
+      "sh_addr": 14332,
+      "sh_offset": 14332,
+      "sh_size": 16,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".rodata",
+      "sh_name": 103,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 50,
+      "sh_addr": 14348,
+      "sh_offset": 14348,
+      "sh_size": 153,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 1
+    },
+    {
+      "name": ".eh_frame_hdr",
+      "sh_name": 111,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 14504,
+      "sh_offset": 14504,
+      "sh_size": 364,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 4,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".eh_frame",
+      "sh_name": 125,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 14872,
+      "sh_offset": 14872,
+      "sh_size": 1924,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".gcc_except_table",
+      "sh_name": 135,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 2,
+      "sh_addr": 16796,
+      "sh_offset": 16796,
+      "sh_size": 42,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".init_array",
+      "sh_name": 153,
+      "sh_type": "SHT_INIT_ARRAY",
+      "sh_flags": 3,
+      "sh_addr": 85280,
+      "sh_offset": 19744,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".fini_array",
+      "sh_name": 165,
+      "sh_type": "SHT_FINI_ARRAY",
+      "sh_flags": 3,
+      "sh_addr": 85288,
+      "sh_offset": 19752,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".jcr",
+      "sh_name": 177,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 85296,
+      "sh_offset": 19760,
+      "sh_size": 8,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".dynamic",
+      "sh_name": 182,
+      "sh_type": "SHT_DYNAMIC",
+      "sh_flags": 3,
+      "sh_addr": 85304,
+      "sh_offset": 19768,
+      "sh_size": 608,
+      "sh_link": 3,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 16
+    },
+    {
+      "name": ".got",
+      "sh_name": 191,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 85912,
+      "sh_offset": 20376,
+      "sh_size": 80,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".got.plt",
+      "sh_name": 196,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 85992,
+      "sh_offset": 20456,
+      "sh_size": 480,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 8
+    },
+    {
+      "name": ".data",
+      "sh_name": 205,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 3,
+      "sh_addr": 86472,
+      "sh_offset": 20936,
+      "sh_size": 16,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".bss",
+      "sh_name": 211,
+      "sh_type": "SHT_NOBITS",
+      "sh_flags": 3,
+      "sh_addr": 86488,
+      "sh_offset": 20952,
+      "sh_size": 200,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 8,
+      "sh_entsize": 0
+    },
+    {
+      "name": ".comment",
+      "sh_name": 216,
+      "sh_type": "SHT_PROGBITS",
+      "sh_flags": 48,
+      "sh_addr": 0,
+      "sh_offset": 20952,
+      "sh_size": 64,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 1
+    },
+    {
+      "name": ".shstrtab",
+      "sh_name": 1,
+      "sh_type": "SHT_STRTAB",
+      "sh_flags": 0,
+      "sh_addr": 0,
+      "sh_offset": 21016,
+      "sh_size": 225,
+      "sh_link": 0,
+      "sh_info": 0,
+      "sh_addralign": 1,
+      "sh_entsize": 0
+    }
+  ],
+  "symbols": [
+    {
+      "name": "eslib_thread_stop",
+      "address": "0x22dc",
+      "size": 40,
+      "demangled": "eslib_thread_stop"
+    },
+    {
+      "name": "eslib_get_handle",
+      "address": "0x1f90",
+      "size": 356,
+      "demangled": "eslib_get_handle"
+    },
+    {
+      "name": "eslib_set_esread_property_video",
+      "address": "0x23bc",
+      "size": 72,
+      "demangled": "eslib_set_esread_property_video"
+    },
+    {
+      "name": "eslib_set_es_meta_mmap",
+      "address": "0x34a4",
+      "size": 160,
+      "demangled": "eslib_set_es_meta_mmap"
+    },
+    {
+      "name": "eslib_cmn_clear_esarea_info",
+      "address": "0x2ee4",
+      "size": 64,
+      "demangled": "eslib_cmn_clear_esarea_info"
+    },
+    {
+      "name": "eslib_cmn_src_is_mapped_valid",
+      "address": "0x2f24",
+      "size": 152,
+      "demangled": "eslib_cmn_src_is_mapped_valid"
+    },
+    {
+      "name": "eslib_cmn_es_src_mmap",
+      "address": "0x2d68",
+      "size": 380,
+      "demangled": "eslib_cmn_es_src_mmap"
+    },
+    {
+      "name": "_fini",
+      "address": "0x37fc",
+      "size": 0,
+      "demangled": "_fini"
+    },
+    {
+      "name": "isFillData_es",
+      "address": "0x28a8",
+      "size": 16,
+      "demangled": "isFillData_es"
+    },
+    {
+      "name": "eslib_release_handle",
+      "address": "0x20f4",
+      "size": 136,
+      "demangled": "eslib_release_handle"
+    },
+    {
+      "name": "eslib_cmn_es_src_munmap_all",
+      "address": "0x2d28",
+      "size": 48,
+      "demangled": "eslib_cmn_es_src_munmap_all"
+    },
+    {
+      "name": "main_loop_thread_esvideo",
+      "address": "0x28b8",
+      "size": 144,
+      "demangled": "main_loop_thread_esvideo"
+    },
+    {
+      "name": "eslib_cmn_src_update_writeindex",
+      "address": "0x3118",
+      "size": 68,
+      "demangled": "eslib_cmn_src_update_writeindex"
+    },
+    {
+      "name": "eslib_set_es_audio_mmap",
+      "address": "0x3544",
+      "size": 160,
+      "demangled": "eslib_set_es_audio_mmap"
+    },
+    {
+      "name": "eslib_cmn_meta_readdata",
+      "address": "0x341c",
+      "size": 136,
+      "demangled": "eslib_cmn_meta_readdata"
+    },
+    {
+      "name": "main_loop_thread_esmeta",
+      "address": "0x27dc",
+      "size": 204,
+      "demangled": "main_loop_thread_esmeta"
+    },
+    {
+      "name": "eslib_cmn_munmap",
+      "address": "0x2c68",
+      "size": 28,
+      "demangled": "eslib_cmn_munmap"
+    },
+    {
+      "name": "eslib_cmn_mmap",
+      "address": "0x2b8c",
+      "size": 220,
+      "demangled": "eslib_cmn_mmap"
+    },
+    {
+      "name": "NetworkTraceESCodecLibraryError",
+      "address": "0x2a4c",
+      "size": 316,
+      "demangled": "NetworkTraceESCodecLibraryError"
+    },
+    {
+      "name": "eslib_start",
+      "address": "0x21e4",
+      "size": 248,
+      "demangled": "eslib_start"
+    },
+    {
+      "name": "eslib_thread_start",
+      "address": "0x217c",
+      "size": 104,
+      "demangled": "eslib_thread_start"
+    },
+    {
+      "name": "eslib_set_esread_property_meta",
+      "address": "0x2404",
+      "size": 72,
+      "demangled": "eslib_set_esread_property_meta"
+    },
+    {
+      "name": "eslib_cmn_src_get_info_index",
+      "address": "0x3034",
+      "size": 172,
+      "demangled": "eslib_cmn_src_get_info_index"
+    },
+    {
+      "name": "eslib_cmn_src_is_meta_mapped_valid",
+      "address": "0x2fbc",
+      "size": 120,
+      "demangled": "eslib_cmn_src_is_meta_mapped_valid"
+    },
+    {
+      "name": "eslib_fill_audio_es",
+      "address": "0x2684",
+      "size": 220,
+      "demangled": "eslib_fill_audio_es"
+    },
+    {
+      "name": "hex_dmp",
+      "address": "0x36f4",
+      "size": 264,
+      "demangled": "hex_dmp"
+    },
+    {
+      "name": "eslib_cmn_audio_readdata",
+      "address": "0x31e8",
+      "size": 280,
+      "demangled": "eslib_cmn_audio_readdata"
+    },
+    {
+      "name": "eslib_set_esread_property_audio",
+      "address": "0x2374",
+      "size": 72,
+      "demangled": "eslib_set_esread_property_audio"
+    },
+    {
+      "name": "eslib_fill_video_es",
+      "address": "0x2598",
+      "size": 236,
+      "demangled": "eslib_fill_video_es"
+    },
+    {
+      "name": "DumpMetaInfo",
+      "address": "0x36f0",
+      "size": 4,
+      "demangled": "DumpMetaInfo"
+    },
+    {
+      "name": "eslib_cmn_video_readdata",
+      "address": "0x3300",
+      "size": 284,
+      "demangled": "eslib_cmn_video_readdata"
+    },
+    {
+      "name": "eslib_set_es_mmap",
+      "address": "0x3690",
+      "size": 96,
+      "demangled": "eslib_set_es_mmap"
+    },
+    {
+      "name": "eslib_cmn_src_get_readindex",
+      "address": "0x315c",
+      "size": 140,
+      "demangled": "eslib_cmn_src_get_readindex"
+    },
+    {
+      "name": "eslib_cmn_src_update_readindex",
+      "address": "0x30e0",
+      "size": 56,
+      "demangled": "eslib_cmn_src_update_readindex"
+    },
+    {
+      "name": "eslib_set_esread_property",
+      "address": "0x244c",
+      "size": 52,
+      "demangled": "eslib_set_esread_property"
+    },
+    {
+      "name": "eslib_cmn_src_is_meminfo_check",
+      "address": "0x2d58",
+      "size": 16,
+      "demangled": "eslib_cmn_src_is_meminfo_check"
+    },
+    {
+      "name": "eslib_set_es_video_mmap",
+      "address": "0x35e4",
+      "size": 172,
+      "demangled": "eslib_set_es_video_mmap"
+    },
+    {
+      "name": "eslib_fill_meta_es",
+      "address": "0x2760",
+      "size": 124,
+      "demangled": "eslib_fill_meta_es"
+    },
+    {
+      "name": "eslib_stop",
+      "address": "0x2304",
+      "size": 112,
+      "demangled": "eslib_stop"
+    },
+    {
+      "name": "eslib_cmn_es_src_munmap",
+      "address": "0x2c84",
+      "size": 164,
+      "demangled": "eslib_cmn_es_src_munmap"
+    },
+    {
+      "name": "main_loop_thread_esaudio",
+      "address": "0x2948",
+      "size": 156,
+      "demangled": "main_loop_thread_esaudio"
+    },
+    {
+      "name": "NetworkTraceESCodecLibrary",
+      "address": "0x2b88",
+      "size": 4,
+      "demangled": "NetworkTraceESCodecLibrary"
+    },
+    {
+      "name": "eslib_set_callback_func",
+      "address": "0x2480",
+      "size": 280,
+      "demangled": "eslib_set_callback_func"
+    },
+    {
+      "name": "_init",
+      "address": "0x1a68",
+      "size": 0,
+      "demangled": "_init"
+    }
+  ],
+  "strings": []
+}

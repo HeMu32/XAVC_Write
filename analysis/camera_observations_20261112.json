@@ -1,0 +1,35 @@
+{
+  "reported_date_local": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "source": "Direct user reports in this conversation",
+  "camera_body_used_for_playback": null,
+  "installed_camera_firmware": null,
+  "current_listing_positive_examples_not_exhaustive": [
+    "C6349", "C6350", "C6351", "C6352", "C6353",
+    "C5861", "C5862", "C0005", "C0007"
+  ],
+  "current_listing_negative_confirmed": [
+    "C6500", "C6501", "C6502", "C6503", "C6504",
+    "C6505", "C6506", "C6507", "C6508"
+  ],
+  "earlier_listing_negative_reports_not_retested_here": ["C0008", "C0009"],
+  "listing_unknown_examples": ["C6499", "C6359", "C0006"],
+  "camera_playback_for_current_unlisted_clips": "NOT_REACHED",
+  "camera_exact_error_text": null,
+  "timeline_limits": [
+    "No direct visibility observation was recorded immediately after C6499-C6506 were recorded and before C6507/C6508 were added.",
+    "C6503 is camera-originated but is not a confirmed currently visible/playable control.",
+    "No complete positive or negative list was supplied.",
+    "The recording body identified in a sidecar does not establish the body used for the playback test."
+  ],
+  "desktop_observation": {
+    "C0008_Catalyst_playback": "User reported successful desktop playback",
+    "camera_acceptance_equivalence": false
+  },
+  "root_cause": "NOT_ESTABLISHED",
+  "post_camera_snapshots": [
+    "backup/snap_20261112T212653",
+    "backup/snap_20261112T213116"
+  ],
+  "card_modifications_during_followup": false
+}

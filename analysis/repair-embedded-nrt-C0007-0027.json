@@ -1,0 +1,182 @@
+{
+  "media": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\C0007-reference-0023.MP4",
+  "media_sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+  "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "expat_sha256": "3d1e4818ad4c83228f2cad6496f6e46324c063c91713feb421544394c54be654",
+  "card_access": false,
+  "checks": {
+    "all_selected_returns_zero": true,
+    "original_scanner_matches_host_embedded_xml": true,
+    "only_main_mp4_opened": true,
+    "executable_sections_unchanged": true
+  },
+  "passed": true,
+  "statuses": [
+    {
+      "label": "nrt_file_constructor",
+      "return_u32": null
+    },
+    {
+      "label": "open_main_mp4",
+      "return_u32": 0
+    },
+    {
+      "label": "embedded_xml_size",
+      "return_u32": 0
+    },
+    {
+      "label": "embedded_xml_read",
+      "return_u32": 0
+    },
+    {
+      "label": "nrt_file_close",
+      "return_u32": 0
+    }
+  ],
+  "xml_size": 1192,
+  "xml_sha256": "b27316f52fa699a6aeed3f0bffafad485fe4df118be2fbecb8b376c2bcabd995",
+  "original_scanner_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<NonRealTimeMeta xmlns=\"urn:schemas-professionalDisc:nonRealTimeMeta:ver.2.00\" xmlns:lib=\"urn:schemas-professionalDisc:lib:ver.2.00\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" lastUpdate=\"2026-06-25T23:45:44+08:00\">\r\n  <TargetMaterial umidRef=\"060A2B340101010501010D23130000000D429B4F43AD42B0ACE7BB28181271B5\"/>\r\n  <Duration value=\"14170\"/>\r\n  <LtcChangeTable tcFps=\"30\" halfStep=\"true\">\r\n    <LtcChange frameCount=\"0\" value=\"40000000\" status=\"increment\"/>\r\n    <LtcChange frameCount=\"14169\" value=\"50D60300\" status=\"end\"/>\r\n  </LtcChangeTable>\r\n  <CreationDate value=\"2026-06-25T23:44:37+08:00\"/>\r\n  <TypicalUbit value=\"0000000000000000\"/>\r\n  <KeyFrame frameCount=\"0\"/>\r\n  <VideoFormat>\r\n    <VideoRecPort port=\"OTHERS\"/>\r\n    <VideoFrame videoCodec=\"AVC_1920_1080_HP@L42\" captureFps=\"59.94p\" formatFps=\"59.94p\"/>\r\n    <VideoLayout pixel=\"1920\" numOfVerticalLine=\"1080\" aspectRatio=\"16:9\"/>\r\n  </VideoFormat>\r\n  <AudioFormat numOfChannel=\"2\">\r\n    <AudioRecPort port=\"OTHERS\" audioCodec=\"LPCM16\" trackDst=\"CH1\"/>\r\n    <AudioRecPort port=\"OTHERS\" audioCodec=\"LPCM16\" trackDst=\"CH2\"/>\r\n  </AudioFormat>\r\n\r\n</NonRealTimeMeta>\r\n",
+  "original_instruction_count": 955,
+  "file_operations": [
+    {
+      "operation": "Fsys_Open",
+      "path": "A:/PRIVATE/M4ROOT/CLIP/TEST.MP4",
+      "readonly": true
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 8
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 8
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 8
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 8
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 8
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 8
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 8
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 47
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 8
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 1
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 1
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 0
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 1192
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 0
+    },
+    {
+      "operation": "Fsys_Close",
+      "readonly_model": true
+    }
+  ],
+  "code_sections": [
+    {
+      "vma": "0x7b048",
+      "bytes": 20,
+      "sha256": "9eb6d48fed54c760288a03e615101efd2a4c1dbbd915ba50a8027edbacee2e23",
+      "unchanged": true
+    },
+    {
+      "vma": "0x7b060",
+      "bytes": 34000,
+      "sha256": "ad4c3e779983da74c00bf188be7fe9e8a9ed791c927292d84517b18dbfdeff91",
+      "unchanged": true
+    },
+    {
+      "vma": "0x83530",
+      "bytes": 2416672,
+      "sha256": "e5df528b8a3f0c1aa792015a5ea7edbf15439b37acb1d69e3dbfd54c46544af1",
+      "unchanged": true
+    },
+    {
+      "vma": "0x2d1550",
+      "bytes": 16,
+      "sha256": "27a4135f0ef448195b3aaba32a661f2d0e290090b19501c7b4274d71cf655f69",
+      "unchanged": true
+    },
+    {
+      "vma": "0x60003568",
+      "bytes": 20,
+      "sha256": "e319a94a856408f734e3f51c964587123f7321ca5e148c6994296fe3dbacc983",
+      "unchanged": true
+    },
+    {
+      "vma": "0x60003580",
+      "bytes": 384,
+      "sha256": "175d2d31468dcb7980fed02d2f6914b1423ab7f8459604664d303db1d66746a0",
+      "unchanged": true
+    },
+    {
+      "vma": "0x60003700",
+      "bytes": 95756,
+      "sha256": "238a36707a80da447c3e45cc889267302e52f1fc01d73db522610c70c325bb77",
+      "unchanged": true
+    },
+    {
+      "vma": "0x6001ad0c",
+      "bytes": 16,
+      "sha256": "27a4135f0ef448195b3aaba32a661f2d0e290090b19501c7b4274d71cf655f69",
+      "unchanged": true
+    },
+    {
+      "vma": "0x61088b80",
+      "bytes": 20,
+      "sha256": "c6792b874ba9c278916bd3c525abbd1277e06952586a63f9495c5cde3b5627aa",
+      "unchanged": true
+    },
+    {
+      "vma": "0x61088ba0",
+      "bytes": 13712,
+      "sha256": "c11c1d9b300648a24b5b769905160d86cb22beded06dc5d70b598c315d6a0e42",
+      "unchanged": true
+    },
+    {
+      "vma": "0x6108c130",
+      "bytes": 674236,
+      "sha256": "7ce9e18a8cce6eedd0c102ec4bc2487065e968ece4d9e5472e5ff9f50f293b3b",
+      "unchanged": true
+    },
+    {
+      "vma": "0x61130aec",
+      "bytes": 16,
+      "sha256": "27a4135f0ef448195b3aaba32a661f2d0e290090b19501c7b4274d71cf655f69",
+      "unchanged": true
+    }
+  ],
+  "scope": "Original embedded-XML scanner called by GetRecordInfoFromNrtMeta; not full repair or XML semantic parsing"
+}

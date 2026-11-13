@@ -1,0 +1,1673 @@
+{
+  "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "expat_sha256": "3d1e4818ad4c83228f2cad6496f6e46324c063c91713feb421544394c54be654",
+  "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T135646",
+  "card_access": false,
+  "profile_sha256": "3b3e9d22ca3a5e5fb14ebbb7ee9e4230e17bb2272233d024e464e018ccde4de7",
+  "full_camera_or_ui_emulated": false,
+  "scope": "Original profile class plus original Expat, modeled libc and read-only Fsys",
+  "root_cause_established": false,
+  "result": {
+    "initialized_return": 0,
+    "load_return": 0,
+    "material_count_at_object_afc60": 51,
+    "materials": [
+      {
+        "table_index": 0,
+        "clip": "C5850",
+        "raw_table_record_hex": "0100000000000000da16060a2b340101010501010d431300000052868e8e121206c59c50d1fffec4f94900000300000000000000020000004b0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000052868E8E121206C59C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 1,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5850.MP4",
+        "clip_info_uri": ".\\CLIP\\C5850.MP4"
+      },
+      {
+        "table_index": 1,
+        "clip": "C5852",
+        "raw_table_record_hex": "0100000001000000dc16060a2b340101010501010d4313000000dc728ee4470806cd9c50d1fffec4f94900000300000000000000020000003c0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000DC728EE4470806CD9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 2,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5852.MP4",
+        "clip_info_uri": ".\\CLIP\\C5852.MP4"
+      },
+      {
+        "table_index": 2,
+        "clip": "C5853",
+        "raw_table_record_hex": "0100000002000000dd16060a2b340101010501010d4313000000a9d720d7801106c79c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000A9D720D7801106C79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 3,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5853.MP4",
+        "clip_info_uri": ".\\CLIP\\C5853.MP4"
+      },
+      {
+        "table_index": 3,
+        "clip": "C5854",
+        "raw_table_record_hex": "0100000003000000de16060a2b340101010501010d4313000000951e1818801106dc9c50d1fffec4f94900000300000000000000020000002d0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000951E1818801106DC9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 4,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5854.MP4",
+        "clip_info_uri": ".\\CLIP\\C5854.MP4"
+      },
+      {
+        "table_index": 4,
+        "clip": "C5855",
+        "raw_table_record_hex": "0100000004000000df16060a2b340101010501010d4313000000db20d65b801106c49c50d1fffec4f94900000300000000000000020000003c0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000DB20D65B801106C49C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 5,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5855.MP4",
+        "clip_info_uri": ".\\CLIP\\C5855.MP4"
+      },
+      {
+        "table_index": 5,
+        "clip": "C5856",
+        "raw_table_record_hex": "0100000005000000e016060a2b340101010501010d4313000000165064fb541006c79c50d1fffec4f94900000300000000000000020000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000165064FB541006C79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 6,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5856.MP4",
+        "clip_info_uri": ".\\CLIP\\C5856.MP4"
+      },
+      {
+        "table_index": 6,
+        "clip": "C5857",
+        "raw_table_record_hex": "0100000006000000e116060a2b340101010501010d4313000000a2a4cfb0541006d39c50d1fffec4f94900000300000000000000020000002d0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000A2A4CFB0541006D39C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 7,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5857.MP4",
+        "clip_info_uri": ".\\CLIP\\C5857.MP4"
+      },
+      {
+        "table_index": 7,
+        "clip": "C5858",
+        "raw_table_record_hex": "0100000007000000e216060a2b340101010501010d4313000000ab91f5c2851006cd9c50d1fffec4f94900000300000000000000020000002d0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000AB91F5C2851006CD9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 8,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5858.MP4",
+        "clip_info_uri": ".\\CLIP\\C5858.MP4"
+      },
+      {
+        "table_index": 8,
+        "clip": "C5859",
+        "raw_table_record_hex": "0100000008000000e316060a2b340101010501010d431300000001c607d7851006d09c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000001C607D7851006D09C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 9,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5859.MP4",
+        "clip_info_uri": ".\\CLIP\\C5859.MP4"
+      },
+      {
+        "table_index": 9,
+        "clip": "C5860",
+        "raw_table_record_hex": "0100000009000000e416060a2b340101010501010d431300000037acf3f5851006dd9c50d1fffec4f94900000300000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000037ACF3F5851006DD9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 10,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5860.MP4",
+        "clip_info_uri": ".\\CLIP\\C5860.MP4"
+      },
+      {
+        "table_index": 10,
+        "clip": "C5861",
+        "raw_table_record_hex": "010000000a000000e516060a2b340101010501010d4313000000ab863401661206d89c50d1fffec4f94900000300000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000AB863401661206D89C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 11,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5861.MP4",
+        "clip_info_uri": ".\\CLIP\\C5861.MP4"
+      },
+      {
+        "table_index": 11,
+        "clip": "C5862",
+        "raw_table_record_hex": "010000000b000000e616060a2b340101010501010d43130000006579b50f971206c29c50d1fffec4f94900000300000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000006579B50F971206C29C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 12,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5862.MP4",
+        "clip_info_uri": ".\\CLIP\\C5862.MP4"
+      },
+      {
+        "table_index": 12,
+        "clip": "C5865",
+        "raw_table_record_hex": "010000000c000000e916060a2b340101010501010d4313000000fe28d132881306c79c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000FE28D132881306C79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 13,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C5865.MP4",
+        "clip_info_uri": ".\\CLIP\\C5865.MP4"
+      },
+      {
+        "table_index": 13,
+        "clip": "C6347",
+        "raw_table_record_hex": "010000000d000000cb18060a2b340101010501010d43130000005dec92a6121206cf10322cfffe7c546600000300000000000000020000002d0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000005DEC92A6121206CF10322CFFFE7C5466",
+        "original_find_return": 0,
+        "original_found_index": 14,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6347.MP4",
+        "clip_info_uri": ".\\CLIP\\C6347.MP4"
+      },
+      {
+        "table_index": 14,
+        "clip": "C6348",
+        "raw_table_record_hex": "010000000e000000cc18060a2b340101010501010d43130000002b8d5bb4121206d210322cfffe7c546600000300000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000002B8D5BB4121206D210322CFFFE7C5466",
+        "original_find_return": 0,
+        "original_found_index": 15,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6348.MP4",
+        "clip_info_uri": ".\\CLIP\\C6348.MP4"
+      },
+      {
+        "table_index": 15,
+        "clip": "C0001",
+        "raw_table_record_hex": "010000000f0000000100060a2b340101010501010d2313000000364cf25789e144238eef373744b2388400000300000000000000020000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000364CF25789E144238EEF373744B23884",
+        "original_find_return": 0,
+        "original_found_index": 16,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0001.MP4",
+        "clip_info_uri": ".\\CLIP\\C0001.MP4"
+      },
+      {
+        "table_index": 16,
+        "clip": "C6349",
+        "raw_table_record_hex": "0100000010000000cd18060a2b340101010501010d4313000000e7f3b623881306cd9c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000E7F3B623881306CD9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 17,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6349.MP4",
+        "clip_info_uri": ".\\CLIP\\C6349.MP4"
+      },
+      {
+        "table_index": 17,
+        "clip": "C6350",
+        "raw_table_record_hex": "0100000011000000ce18060a2b340101010501010d4313000000e5353d54881306c79c50d1fffec4f94900000700000000000000030000003c0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000E5353D54881306C79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 18,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6350.MP4",
+        "clip_info_uri": ".\\CLIP\\C6350.MP4"
+      },
+      {
+        "table_index": 18,
+        "clip": "C6351",
+        "raw_table_record_hex": "0100000012000000cf18060a2b340101010501010d4313000000f80f8980881306d09c50d1fffec4f94900000500000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000F80F8980881306D09C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 19,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6351.MP4",
+        "clip_info_uri": ".\\CLIP\\C6351.MP4"
+      },
+      {
+        "table_index": 19,
+        "clip": "C6352",
+        "raw_table_record_hex": "0100000013000000d018060a2b340101010501010d431300000030b4eeb4881306c49c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000030B4EEB4881306C49C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 20,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6352.MP4",
+        "clip_info_uri": ".\\CLIP\\C6352.MP4"
+      },
+      {
+        "table_index": 20,
+        "clip": "C6353",
+        "raw_table_record_hex": "0100000014000000d118060a2b340101010501010d431300000053e8cf9d881306c59c50d1fffec4f94900000300000000000000020000004b0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000053E8CF9D881306C59C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 21,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6353.MP4",
+        "clip_info_uri": ".\\CLIP\\C6353.MP4"
+      },
+      {
+        "table_index": 21,
+        "clip": "C6354",
+        "raw_table_record_hex": "0100000015000000d218060a2b340101010501010d4313000000c78c17df121206d79c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000C78C17DF121206D79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 22,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6354.MP4",
+        "clip_info_uri": ".\\CLIP\\C6354.MP4"
+      },
+      {
+        "table_index": 22,
+        "clip": "C6355",
+        "raw_table_record_hex": "0100000016000000d318060a2b340101010501010d4313000000fbb489ec121206d69c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000FBB489EC121206D69C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 23,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6355.MP4",
+        "clip_info_uri": ".\\CLIP\\C6355.MP4"
+      },
+      {
+        "table_index": 23,
+        "clip": "C6356",
+        "raw_table_record_hex": "0100000017000000d418060a2b340101010501010d43130000009d460afa121206d49c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000009D460AFA121206D49C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 24,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6356.MP4",
+        "clip_info_uri": ".\\CLIP\\C6356.MP4"
+      },
+      {
+        "table_index": 24,
+        "clip": "C6357",
+        "raw_table_record_hex": "0100000018000000d518060a2b340101010501010d4313000000d674ccb8121206d99c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000D674CCB8121206D99C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 25,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6357.MP4",
+        "clip_info_uri": ".\\CLIP\\C6357.MP4"
+      },
+      {
+        "table_index": 25,
+        "clip": "C6358",
+        "raw_table_record_hex": "0100000019000000d618060a2b340101010501010d431300000007dfc4cc121206d49c50d1fffec4f94900000300000000000000020000002d0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000007DFC4CC121206D49C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 26,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6358.MP4",
+        "clip_info_uri": ".\\CLIP\\C6358.MP4"
+      },
+      {
+        "table_index": 26,
+        "clip": "C0004",
+        "raw_table_record_hex": "010000001a0000000400060a2b340101010501010d2313000000b56f63f367fb488daae53b7130a4466c00000500000000000000030000009e0400000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000B56F63F367FB488DAAE53B7130A4466C",
+        "original_find_return": 0,
+        "original_found_index": 27,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0004.MP4",
+        "clip_info_uri": ".\\CLIP\\C0004.MP4"
+      },
+      {
+        "table_index": 27,
+        "clip": "C6359",
+        "raw_table_record_hex": "010000001b000000d718060a2b340101010501010d4313000000d2f1bc1d161206dc9c50d1fffec4f94900000500000000000000030000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000D2F1BC1D161206DC9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 28,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6359.MP4",
+        "clip_info_uri": ".\\CLIP\\C6359.MP4"
+      },
+      {
+        "table_index": 28,
+        "clip": "C0005",
+        "raw_table_record_hex": "010000001c0000000500060a2b340101010501010d2313000000b6309100ec214bfe93847fae15329c0400000500000000000000030000007c1300000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000B6309100EC214BFE93847FAE15329C04",
+        "original_find_return": 0,
+        "original_found_index": 29,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0005.MP4",
+        "clip_info_uri": ".\\CLIP\\C0005.MP4"
+      },
+      {
+        "table_index": 29,
+        "clip": "C0007",
+        "raw_table_record_hex": "010000001d0000000700060a2b340101010501010d23130000000d429b4f43ad42b0ace7bb28181271b500000500000000000000030000005a3700000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D23130000000D429B4F43AD42B0ACE7BB28181271B5",
+        "original_find_return": 0,
+        "original_found_index": 30,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0007.MP4",
+        "clip_info_uri": ".\\CLIP\\C0007.MP4"
+      },
+      {
+        "table_index": 30,
+        "clip": "C0008",
+        "raw_table_record_hex": "010000001e0000000800060a2b340101010501010d4313000000dffd7a79561306d69c50d1fffec4f9490000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000DFFD7A79561306D69C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 31,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0008.MP4",
+        "clip_info_uri": ".\\CLIP\\C0008.MP4"
+      },
+      {
+        "table_index": 31,
+        "clip": "C0009",
+        "raw_table_record_hex": "010000001f0000000900060a2b340101010501010d4313000000586571ac561306d69c50d1fffec4f9490000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000586571AC561306D69C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 32,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C0009.MP4",
+        "clip_info_uri": ".\\CLIP\\C0009.MP4"
+      },
+      {
+        "table_index": 32,
+        "clip": "C6499",
+        "raw_table_record_hex": "01000000200000006319060a2b340101010501010d431300000057eed0ce561306c19c50d1fffec4f94900000300000000000000020000000f0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000057EED0CE561306C19C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 33,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6499.MP4",
+        "clip_info_uri": ".\\CLIP\\C6499.MP4"
+      },
+      {
+        "table_index": 33,
+        "clip": "C6500",
+        "raw_table_record_hex": "01000000210000006419060a2b340101010501010d431300000085bb9208561306c69c50d1fffec4f94900000500000000000000030000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000085BB9208561306C69C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 34,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6500.MP4",
+        "clip_info_uri": ".\\CLIP\\C6500.MP4"
+      },
+      {
+        "table_index": 34,
+        "clip": "C6501",
+        "raw_table_record_hex": "01000000220000006519060a2b340101010501010d43130000002bdf8824561306df9c50d1fffec4f94900000300000000000000030000003c0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000002BDF8824561306DF9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 35,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6501.MP4",
+        "clip_info_uri": ".\\CLIP\\C6501.MP4"
+      },
+      {
+        "table_index": 35,
+        "clip": "C6502",
+        "raw_table_record_hex": "01000000230000006619060a2b340101010501010d431300000007f42b41561306d59c50d1fffec4f94900000500000000000000030000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000007F42B41561306D59C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 36,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6502.MP4",
+        "clip_info_uri": ".\\CLIP\\C6502.MP4"
+      },
+      {
+        "table_index": 36,
+        "clip": "C6503",
+        "raw_table_record_hex": "01000000240000006719060a2b340101010501010d431300000009bd666e561306cf9c50d1fffec4f94900000500000000000000030000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000009BD666E561306CF9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 37,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6503.MP4",
+        "clip_info_uri": ".\\CLIP\\C6503.MP4"
+      },
+      {
+        "table_index": 37,
+        "clip": "C6504",
+        "raw_table_record_hex": "01000000250000006819060a2b340101010501010d4313000000dcb8dfc3561306c89c50d1fffec4f94900000500000000000000030000003c0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000DCB8DFC3561306C89C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 38,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6504.MP4",
+        "clip_info_uri": ".\\CLIP\\C6504.MP4"
+      },
+      {
+        "table_index": 38,
+        "clip": "C6505",
+        "raw_table_record_hex": "01000000260000006919060a2b340101010501010d4313000000b372d2ec561306c910322cfffe7c546600000500000000000000020000001e0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000B372D2EC561306C910322CFFFE7C5466",
+        "original_find_return": 0,
+        "original_found_index": 39,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6505.MP4",
+        "clip_info_uri": ".\\CLIP\\C6505.MP4"
+      },
+      {
+        "table_index": 39,
+        "clip": "C6506",
+        "raw_table_record_hex": "01000000270000006a19060a2b340101010501010d4313000000ef9dec13561306c810322cfffe7c54660000070000000000000003000000b40000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000EF9DEC13561306C810322CFFFE7C5466",
+        "original_find_return": 0,
+        "original_found_index": 40,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6506.MP4",
+        "clip_info_uri": ".\\CLIP\\C6506.MP4"
+      },
+      {
+        "table_index": 40,
+        "clip": "C6507",
+        "raw_table_record_hex": "01000000280000006b19060a2b340101010501010d4313000000b7772504561306d59c50d1fffec4f94900000500000000000000030000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D4313000000B7772504561306D59C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 41,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6507.MP4",
+        "clip_info_uri": ".\\CLIP\\C6507.MP4"
+      },
+      {
+        "table_index": 41,
+        "clip": "C6508",
+        "raw_table_record_hex": "01000000290000006c19060a2b340101010501010d431300000083d6679f561306d79c50d1fffec4f9490000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D431300000083D6679F561306D79C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 42,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6508.MP4",
+        "clip_info_uri": ".\\CLIP\\C6508.MP4"
+      },
+      {
+        "table_index": 42,
+        "clip": "C6509",
+        "raw_table_record_hex": "010000002a0000006d19060a2b340101010501010d43130000009234713c561306d59c50d1fffec4f94900000500000000000000030000005a0000000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000009234713C561306D59C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 43,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6509.MP4",
+        "clip_info_uri": ".\\CLIP\\C6509.MP4"
+      },
+      {
+        "table_index": 43,
+        "clip": "C6510",
+        "raw_table_record_hex": "010000002b0000006e19060a2b340101010501010d43130000004fb9673f561306dc9c50d1fffec4f9490000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D43130000004FB9673F561306DC9C50D1FFFEC4F949",
+        "original_find_return": 0,
+        "original_found_index": 44,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6510.MP4",
+        "clip_info_uri": ".\\CLIP\\C6510.MP4"
+      },
+      {
+        "table_index": 44,
+        "clip": "C6511",
+        "raw_table_record_hex": "010000002c0000006f19060a2b340101010501010d23130000002953129334374b50b35b86927b6b977600000500000000000000030000005a3700000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D23130000002953129334374B50B35B86927B6B9776",
+        "original_find_return": 0,
+        "original_found_index": 45,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6511.MP4",
+        "clip_info_uri": ".\\CLIP\\C6511.MP4"
+      },
+      {
+        "table_index": 45,
+        "clip": "C6512",
+        "raw_table_record_hex": "010000002d0000007019060a2b340101010501010d2313000000d1c59dd8e320434994d5e2742196b89b0000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000D1C59DD8E320434994D5E2742196B89B",
+        "original_find_return": 0,
+        "original_found_index": 46,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6512.MP4",
+        "clip_info_uri": ".\\CLIP\\C6512.MP4"
+      },
+      {
+        "table_index": 46,
+        "clip": "C6513",
+        "raw_table_record_hex": "010000002e0000007119060a2b340101010501010d2313000000cbdefb412bdd4d9f81e0ad859a8beeca0000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000CBDEFB412BDD4D9F81E0AD859A8BEECA",
+        "original_find_return": 0,
+        "original_found_index": 47,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6513.MP4",
+        "clip_info_uri": ".\\CLIP\\C6513.MP4"
+      },
+      {
+        "table_index": 47,
+        "clip": "C6514",
+        "raw_table_record_hex": "010000002f0000007219060a2b340101010501010d2313000000db8bb91073214e56a123ee46033fe98c0000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000DB8BB91073214E56A123EE46033FE98C",
+        "original_find_return": 0,
+        "original_found_index": 48,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6514.MP4",
+        "clip_info_uri": ".\\CLIP\\C6514.MP4"
+      },
+      {
+        "table_index": 48,
+        "clip": "C6515",
+        "raw_table_record_hex": "01000000300000007319060a2b340101010501010d2313000000f14f9db87d6d406e90e6bf52328e49d80000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000F14F9DB87D6D406E90E6BF52328E49D8",
+        "original_find_return": 0,
+        "original_found_index": 49,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6515.MP4",
+        "clip_info_uri": ".\\CLIP\\C6515.MP4"
+      },
+      {
+        "table_index": 49,
+        "clip": "C6517",
+        "raw_table_record_hex": "01000000310000007519060a2b340101010501010d2313000000e7f79a5053694e74aecc43dd7d2e1db60000050000000000000003000000fe0500000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000E7F79A5053694E74AECC43DD7D2E1DB6",
+        "original_find_return": 0,
+        "original_found_index": 50,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6517.MP4",
+        "clip_info_uri": ".\\CLIP\\C6517.MP4"
+      },
+      {
+        "table_index": 50,
+        "clip": "C6518",
+        "raw_table_record_hex": "01000000320000007619060a2b340101010501010d2313000000e2ecd3c256aa44b5aa4d2ff11446d4f60000030000000000000002000000ff0200000000000000000000",
+        "type_u32_at_record_start": 1,
+        "umid_at_record_0a_hex": "060A2B340101010501010D2313000000E2ECD3C256AA44B5AA4D2FF11446D4F6",
+        "original_find_return": 0,
+        "original_found_index": 51,
+        "original_clip_info_return": 0,
+        "clip_info_name": "C6518.MP4",
+        "clip_info_uri": ".\\CLIP\\C6518.MP4"
+      }
+    ],
+    "original_executable_sections_unchanged": true,
+    "original_expat_entrypoints_executed_during_load": [
+      {
+        "symbol": "XML_GetBuffer",
+        "runtime_vma": "0x6000c538"
+      },
+      {
+        "symbol": "XML_GetCurrentByteCount",
+        "runtime_vma": "0x6000cba8"
+      },
+      {
+        "symbol": "XML_SetUserData",
+        "runtime_vma": "0x6000c078"
+      },
+      {
+        "symbol": "XML_SetElementHandler",
+        "runtime_vma": "0x6000c148"
+      },
+      {
+        "symbol": "XML_ParserCreate",
+        "runtime_vma": "0x6000b9a0"
+      },
+      {
+        "symbol": "XML_ParseBuffer",
+        "runtime_vma": "0x6000c3a0"
+      },
+      {
+        "symbol": "XML_ParserFree",
+        "runtime_vma": "0x6000b470"
+      },
+      {
+        "symbol": "XML_ParserCreate_MM",
+        "runtime_vma": "0x6000b998"
+      },
+      {
+        "symbol": "XML_Parse",
+        "runtime_vma": "0x6000c7c8"
+      },
+      {
+        "symbol": "XML_GetCurrentByteIndex",
+        "runtime_vma": "0x6000cb80"
+      }
+    ]
+  },
+  "calls": [
+    {
+      "entry_elf_vma": "0x18eb3c",
+      "return_u32": 1342963744,
+      "modeled_externals": [
+        "_Znwm",
+        "memset",
+        "usleep"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x184aa8",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_Znam",
+        "_Znwm",
+        "memset",
+        "strlen",
+        "strncpy",
+        "usleep"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x186954",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Open",
+        "Fsys_Read",
+        "Fsys_Seek",
+        "free",
+        "getenv",
+        "getrandom",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memset",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr",
+        "usleep"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x18e55c",
+      "return_u32": 0,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x184da0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "memcpy",
+        "memset",
+        "strchr",
+        "strcmp",
+        "strlen",
+        "strncmp",
+        "strrchr"
+      ]
+    }
+  ],
+  "io": [
+    {
+      "operation": "Fsys_Open",
+      "path": "A:/PRIVATE/M4ROOT/MEDIAPRO.XML",
+      "mode": 3
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 20480
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 0
+    }
+  ],
+  "heap_bytes_used": 2373584,
+  "instruction_count": 2258116,
+  "last_instructions": [
+    "0x1851b0",
+    "0x1851b4",
+    "0x1851b8",
+    "0x185268",
+    "0x18526c",
+    "0x185270",
+    "0x185274",
+    "0x185278",
+    "0x18527c",
+    "0x185280",
+    "0x185284",
+    "0x185288",
+    "0x18554c",
+    "0x185550",
+    "0x185554",
+    "0x185558",
+    "0x18555c",
+    "0x185560",
+    "0x185564",
+    "0x185568"
+  ]
+}

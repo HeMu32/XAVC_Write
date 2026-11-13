@@ -1,0 +1,27 @@
+{
+  "before": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-compact-C6512\\C6512.MP4",
+  "after": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-compact4-C6515\\C6515.MP4",
+  "before_sha256": "896b9764bb859a673dc5b455ca8acda78e3640146fbadf42eca5dbbac6054c72",
+  "after_sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+  "checks": {
+    "three_track_layouts_match": true,
+    "avcc_identical_except_declared_length_width": true,
+    "all_track_counts_cadence_composition_sync_and_duration_match": true,
+    "audio_and_metadata_payloads_exact": true,
+    "audio_and_metadata_sample_boundaries_exact": true,
+    "every_sample_ordered_nals_exact_including_all_sei": true,
+    "sample_size_delta_exactly_matches_nal_prefix_change": true
+  },
+  "passed": true,
+  "nal_count": 9257,
+  "samples": 1534,
+  "nal_length_widths": [
+    3,
+    4
+  ],
+  "video_sample_bytes_delta": 9257,
+  "canonical_four_byte_video_stream_sha256": "35797e8924d0f06585aae629c92025aedef2c4e3aa322ea3a8fe54d4d52786ec",
+  "scope": "Complete local payload/index comparison, not hardware acceptance",
+  "camera_playback": "NOT_TESTED",
+  "root_cause_established": false
+}

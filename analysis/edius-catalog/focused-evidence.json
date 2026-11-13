@@ -1,0 +1,2990 @@
+[
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsMpegPlugIn.tpi",
+    "sha256": "8c39ea4f83e272a083f7cdc90b3bfe9d4e9ae02a49158091a14914ba1b508d81",
+    "base": "0x180000000",
+    "entry_rva": "0x58fc20",
+    "sections": [
+      {
+        "name": ".text",
+        "rva": "0x1000",
+        "entropy": 7.0254826785532645
+      },
+      {
+        "name": ".rdata",
+        "rva": "0x6f1000",
+        "entropy": 5.960101280954203
+      },
+      {
+        "name": ".data",
+        "rva": "0x929000",
+        "entropy": 5.510170158129114
+      },
+      {
+        "name": ".pdata",
+        "rva": "0x96b000",
+        "entropy": 6.539379741656782
+      },
+      {
+        "name": ".data1",
+        "rva": "0x9b2000",
+        "entropy": 3.4904317862833873
+      },
+      {
+        "name": "_RDATA",
+        "rva": "0x9b3000",
+        "entropy": 5.745382644051046
+      },
+      {
+        "name": ".trace",
+        "rva": "0x9b4000",
+        "entropy": 5.888010498307505
+      },
+      {
+        "name": ".rsrc",
+        "rva": "0x9b9000",
+        "entropy": 3.9388908560013958
+      },
+      {
+        "name": ".reloc",
+        "rva": "0xa13000",
+        "entropy": 5.466417404193077
+      },
+      {
+        "name": ".text",
+        "rva": "0xa21000",
+        "entropy": 7.816038310834505
+      }
+    ],
+    "entry_instructions": [
+      {
+        "va": "0x18058fc20",
+        "instruction": "jmp 0x180a21c32"
+      }
+    ],
+    "strings": [
+      {
+        "rva": "0x6f8b38",
+        "va": "0x1806f8b38",
+        "encoding": "ascii",
+        "text": "Grass Valley K.K."
+      },
+      {
+        "rva": "0x6f8b50",
+        "va": "0x1806f8b50",
+        "encoding": "ascii",
+        "text": "11.4.0.19609"
+      },
+      {
+        "rva": "0x6f8b60",
+        "va": "0x1806f8b60",
+        "encoding": "ascii",
+        "text": "EDIUS"
+      },
+      {
+        "rva": "0x6f9160",
+        "va": "0x1806f9160",
+        "encoding": "ascii",
+        "text": "Invalid regular expression object"
+      },
+      {
+        "rva": "0x6f93a0",
+        "va": "0x1806f93a0",
+        "encoding": "ascii",
+        "text": "Attempt to access an uninitialized boost::match_results<> class."
+      },
+      {
+        "rva": "0x6f9f62",
+        "va": "0x1806f9f62",
+        "encoding": "ascii",
+        "text": "3)6{"
+      },
+      {
+        "rva": "0x6f9f72",
+        "va": "0x1806f9f72",
+        "encoding": "ascii",
+        "text": "3)6{"
+      },
+      {
+        "rva": "0x6f8800",
+        "va": "0x1806f8800",
+        "encoding": "utf-16le",
+        "text": "alShotID"
+      },
+      {
+        "rva": "0x6f8818",
+        "va": "0x1806f8818",
+        "encoding": "utf-16le",
+        "text": "Connection"
+      },
+      {
+        "rva": "0x6f8830",
+        "va": "0x1806f8830",
+        "encoding": "utf-16le",
+        "text": "Top"
+      },
+      {
+        "rva": "0x6f8838",
+        "va": "0x1806f8838",
+        "encoding": "utf-16le",
+        "text": "Previous"
+      },
+      {
+        "rva": "0x6f8850",
+        "va": "0x1806f8850",
+        "encoding": "utf-16le",
+        "text": "Next"
+      },
+      {
+        "rva": "0x6f8860",
+        "va": "0x1806f8860",
+        "encoding": "utf-16le",
+        "text": "P2SerialNo."
+      },
+      {
+        "rva": "0x6f8878",
+        "va": "0x1806f8878",
+        "encoding": "utf-16le",
+        "text": "UserClipName"
+      },
+      {
+        "rva": "0x6f8898",
+        "va": "0x1806f8898",
+        "encoding": "utf-16le",
+        "text": "DataSource"
+      },
+      {
+        "rva": "0x6f88b0",
+        "va": "0x1806f88b0",
+        "encoding": "utf-16le",
+        "text": "ShotMark"
+      },
+      {
+        "rva": "0x6f88c8",
+        "va": "0x1806f88c8",
+        "encoding": "utf-16le",
+        "text": "Rating"
+      },
+      {
+        "rva": "0x6f88d8",
+        "va": "0x1806f88d8",
+        "encoding": "utf-16le",
+        "text": "Access"
+      },
+      {
+        "rva": "0x6f88e8",
+        "va": "0x1806f88e8",
+        "encoding": "utf-16le",
+        "text": "Device"
+      },
+      {
+        "rva": "0x6f88f8",
+        "va": "0x1806f88f8",
+        "encoding": "utf-16le",
+        "text": "Shoot"
+      },
+      {
+        "rva": "0x6f8908",
+        "va": "0x1806f8908",
+        "encoding": "utf-16le",
+        "text": "Scenario"
+      },
+      {
+        "rva": "0x6f8920",
+        "va": "0x1806f8920",
+        "encoding": "utf-16le",
+        "text": "News"
+      },
+      {
+        "rva": "0x6f8930",
+        "va": "0x1806f8930",
+        "encoding": "utf-16le",
+        "text": "MemoList"
+      },
+      {
+        "rva": "0x6f8948",
+        "va": "0x1806f8948",
+        "encoding": "utf-16le",
+        "text": "Memo"
+      },
+      {
+        "rva": "0x6f8958",
+        "va": "0x1806f8958",
+        "encoding": "utf-16le",
+        "text": "Thumbnail"
+      },
+      {
+        "rva": "0x6f8970",
+        "va": "0x1806f8970",
+        "encoding": "utf-16le",
+        "text": "Proxy"
+      },
+      {
+        "rva": "0x6f8980",
+        "va": "0x1806f8980",
+        "encoding": "utf-16le",
+        "text": "%d:%d:%d:%d"
+      },
+      {
+        "rva": "0x6f8998",
+        "va": "0x1806f8998",
+        "encoding": "utf-16le",
+        "text": "%02d:%02d:%02d:%02d"
+      },
+      {
+        "rva": "0x6f89c0",
+        "va": "0x1806f89c0",
+        "encoding": "utf-16le",
+        "text": "%d-%d-%dT%d:%d:%d%c%d:%d"
+      },
+      {
+        "rva": "0x6f8a00",
+        "va": "0x1806f8a00",
+        "encoding": "utf-16le",
+        "text": "%04d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d"
+      },
+      {
+        "rva": "0x6f8a58",
+        "va": "0x1806f8a58",
+        "encoding": "utf-16le",
+        "text": "Creator"
+      },
+      {
+        "rva": "0x6f8a68",
+        "va": "0x1806f8a68",
+        "encoding": "utf-16le",
+        "text": "CreationDate"
+      },
+      {
+        "rva": "0x6f8a88",
+        "va": "0x1806f8a88",
+        "encoding": "utf-16le",
+        "text": "LastUpdatePerson"
+      },
+      {
+        "rva": "0x6f8ab0",
+        "va": "0x1806f8ab0",
+        "encoding": "utf-16le",
+        "text": "LastUpdateDate"
+      },
+      {
+        "rva": "0x6f8ad0",
+        "va": "0x1806f8ad0",
+        "encoding": "utf-16le",
+        "text": "Manufacturer"
+      },
+      {
+        "rva": "0x6f8af0",
+        "va": "0x1806f8af0",
+        "encoding": "utf-16le",
+        "text": "SerialNo."
+      },
+      {
+        "rva": "0x6f8b08",
+        "va": "0x1806f8b08",
+        "encoding": "utf-16le",
+        "text": "ModelName"
+      },
+      {
+        "rva": "0x6f8b20",
+        "va": "0x1806f8b20",
+        "encoding": "utf-16le",
+        "text": "CameraNo."
+      },
+      {
+        "rva": "0x6f8b68",
+        "va": "0x1806f8b68",
+        "encoding": "utf-16le",
+        "text": "Shooter"
+      },
+      {
+        "rva": "0x6f8b78",
+        "va": "0x1806f8b78",
+        "encoding": "utf-16le",
+        "text": "StartDate"
+      },
+      {
+        "rva": "0x6f8b90",
+        "va": "0x1806f8b90",
+        "encoding": "utf-16le",
+        "text": "EndDate"
+      },
+      {
+        "rva": "0x6f8ba0",
+        "va": "0x1806f8ba0",
+        "encoding": "utf-16le",
+        "text": "Location"
+      },
+      {
+        "rva": "0x6f8bb8",
+        "va": "0x1806f8bb8",
+        "encoding": "utf-16le",
+        "text": "Altitude"
+      },
+      {
+        "rva": "0x6f8bd0",
+        "va": "0x1806f8bd0",
+        "encoding": "utf-16le",
+        "text": "Longitude"
+      },
+      {
+        "rva": "0x6f8be8",
+        "va": "0x1806f8be8",
+        "encoding": "utf-16le",
+        "text": "Latitude"
+      },
+      {
+        "rva": "0x6f8c00",
+        "va": "0x1806f8c00",
+        "encoding": "utf-16le",
+        "text": "Source"
+      },
+      {
+        "rva": "0x6f8c10",
+        "va": "0x1806f8c10",
+        "encoding": "utf-16le",
+        "text": "PlaceName"
+      },
+      {
+        "rva": "0x6f8c28",
+        "va": "0x1806f8c28",
+        "encoding": "utf-16le",
+        "text": "ProgramName"
+      },
+      {
+        "rva": "0x6f8c40",
+        "va": "0x1806f8c40",
+        "encoding": "utf-16le",
+        "text": "SceneNo."
+      },
+      {
+        "rva": "0x6f8c58",
+        "va": "0x1806f8c58",
+        "encoding": "utf-16le",
+        "text": "TakeNo."
+      },
+      {
+        "rva": "0x6f8c68",
+        "va": "0x1806f8c68",
+        "encoding": "utf-16le",
+        "text": "Reporter"
+      },
+      {
+        "rva": "0x6f8c80",
+        "va": "0x1806f8c80",
+        "encoding": "utf-16le",
+        "text": "Purpose"
+      },
+      {
+        "rva": "0x6f8c90",
+        "va": "0x1806f8c90",
+        "encoding": "utf-16le",
+        "text": "Object"
+      },
+      {
+        "rva": "0x6f8ca0",
+        "va": "0x1806f8ca0",
+        "encoding": "utf-16le",
+        "text": "MemoID"
+      },
+      {
+        "rva": "0x6f8cb0",
+        "va": "0x1806f8cb0",
+        "encoding": "utf-16le",
+        "text": "Offset"
+      },
+      {
+        "rva": "0x6f8cc0",
+        "va": "0x1806f8cc0",
+        "encoding": "utf-16le",
+        "text": "Person"
+      },
+      {
+        "rva": "0x6f8cd0",
+        "va": "0x1806f8cd0",
+        "encoding": "utf-16le",
+        "text": "Text"
+      },
+      {
+        "rva": "0x6f8ce0",
+        "va": "0x1806f8ce0",
+        "encoding": "utf-16le",
+        "text": "Voice"
+      },
+      {
+        "rva": "0x6f8cf0",
+        "va": "0x1806f8cf0",
+        "encoding": "utf-16le",
+        "text": "VoiceFormat"
+      },
+      {
+        "rva": "0x6f8d08",
+        "va": "0x1806f8d08",
+        "encoding": "utf-16le",
+        "text": "VoiceSamplingRate"
+      },
+      {
+        "rva": "0x6f8d30",
+        "va": "0x1806f8d30",
+        "encoding": "utf-16le",
+        "text": "VoiceBitsPerSample"
+      },
+      {
+        "rva": "0x6f8d58",
+        "va": "0x1806f8d58",
+        "encoding": "utf-16le",
+        "text": "RecCondition"
+      },
+      {
+        "rva": "0x6f8d78",
+        "va": "0x1806f8d78",
+        "encoding": "utf-16le",
+        "text": "FrameOffset"
+      },
+      {
+        "rva": "0x6f8d90",
+        "va": "0x1806f8d90",
+        "encoding": "utf-16le",
+        "text": "ThumbnailFormat"
+      },
+      {
+        "rva": "0x6f8db0",
+        "va": "0x1806f8db0",
+        "encoding": "utf-16le",
+        "text": "Width"
+      },
+      {
+        "rva": "0x6f8dc0",
+        "va": "0x1806f8dc0",
+        "encoding": "utf-16le",
+        "text": "Height"
+      },
+      {
+        "rva": "0x6f8dd0",
+        "va": "0x1806f8dd0",
+        "encoding": "utf-16le",
+        "text": "ProxyVideoCodec"
+      },
+      {
+        "rva": "0x6f8df0",
+        "va": "0x1806f8df0",
+        "encoding": "utf-16le",
+        "text": "ProxyVideoBitRate"
+      },
+      {
+        "rva": "0x6f8e18",
+        "va": "0x1806f8e18",
+        "encoding": "utf-16le",
+        "text": "ProxyFrameRate"
+      },
+      {
+        "rva": "0x6f8e38",
+        "va": "0x1806f8e38",
+        "encoding": "utf-16le",
+        "text": "ProxyResolution"
+      },
+      {
+        "rva": "0x6f8e58",
+        "va": "0x1806f8e58",
+        "encoding": "utf-16le",
+        "text": "OnScreenTimecode"
+      },
+      {
+        "rva": "0x6f8e80",
+        "va": "0x1806f8e80",
+        "encoding": "utf-16le",
+        "text": "ProxyAudioCodec"
+      },
+      {
+        "rva": "0x6f8ea0",
+        "va": "0x1806f8ea0",
+        "encoding": "utf-16le",
+        "text": "ProxyAudioBitRate"
+      },
+      {
+        "rva": "0x6f8ec8",
+        "va": "0x1806f8ec8",
+        "encoding": "utf-16le",
+        "text": "ProxySamplingRate"
+      },
+      {
+        "rva": "0x6f8ef0",
+        "va": "0x1806f8ef0",
+        "encoding": "utf-16le",
+        "text": "OriginalChannel"
+      },
+      {
+        "rva": "0x6f8f18",
+        "va": "0x1806f8f18",
+        "encoding": "utf-16le",
+        "text": "%s %d"
+      },
+      {
+        "rva": "0x6f8f28",
+        "va": "0x1806f8f28",
+        "encoding": "utf-16le",
+        "text": "ProxyFormat"
+      },
+      {
+        "rva": "0x6f8f40",
+        "va": "0x1806f8f40",
+        "encoding": "utf-16le",
+        "text": "ProxyOffset"
+      },
+      {
+        "rva": "0x6f8f58",
+        "va": "0x1806f8f58",
+        "encoding": "utf-16le",
+        "text": "ProxyDuration"
+      },
+      {
+        "rva": "0x6f8f78",
+        "va": "0x1806f8f78",
+        "encoding": "utf-16le",
+        "text": "ProxyElementList"
+      },
+      {
+        "rva": "0x6f8fa0",
+        "va": "0x1806f8fa0",
+        "encoding": "utf-16le",
+        "text": "ProxyVideo"
+      },
+      {
+        "rva": "0x6f8fb8",
+        "va": "0x1806f8fb8",
+        "encoding": "utf-16le",
+        "text": "ProxyAudio"
+      },
+      {
+        "rva": "0x6f9108",
+        "va": "0x1806f9108",
+        "encoding": "utf-16le",
+        "text": "%08X"
+      },
+      {
+        "rva": "0x6f9800",
+        "va": "0x1806f9800",
+        "encoding": "utf-16le",
+        "text": "IrisFNumber"
+      },
+      {
+        "rva": "0x6f9818",
+        "va": "0x1806f9818",
+        "encoding": "utf-16le",
+        "text": "IrisTNumber"
+      },
+      {
+        "rva": "0x6f9830",
+        "va": "0x1806f9830",
+        "encoding": "utf-16le",
+        "text": "FocusPostionFromImagePlane"
+      },
+      {
+        "rva": "0x6f9868",
+        "va": "0x1806f9868",
+        "encoding": "utf-16le",
+        "text": "MacroSetting"
+      },
+      {
+        "rva": "0x6f9888",
+        "va": "0x1806f9888",
+        "encoding": "utf-16le",
+        "text": "LensZoom35mmEquivalent"
+      },
+      {
+        "rva": "0x6f98b8",
+        "va": "0x1806f98b8",
+        "encoding": "utf-16le",
+        "text": "OpticalExtenderMagnification"
+      },
+      {
+        "rva": "0x6f98f8",
+        "va": "0x1806f98f8",
+        "encoding": "utf-16le",
+        "text": "LensModelName"
+      },
+      {
+        "rva": "0x6f9918",
+        "va": "0x1806f9918",
+        "encoding": "utf-16le",
+        "text": "AutoExposureMode"
+      },
+      {
+        "rva": "0x6f9940",
+        "va": "0x1806f9940",
+        "encoding": "utf-16le",
+        "text": "AutoFocusSensingArea"
+      },
+      {
+        "rva": "0x6f9970",
+        "va": "0x1806f9970",
+        "encoding": "utf-16le",
+        "text": "CCFilter"
+      },
+      {
+        "rva": "0x6f9988",
+        "va": "0x1806f9988",
+        "encoding": "utf-16le",
+        "text": "NDFilterAttenuation"
+      },
+      {
+        "rva": "0x6f99b0",
+        "va": "0x1806f99b0",
+        "encoding": "utf-16le",
+        "text": "NDFilterOpticalDensity"
+      },
+      {
+        "rva": "0x6f99e0",
+        "va": "0x1806f99e0",
+        "encoding": "utf-16le",
+        "text": "CaptureFrameRate"
+      },
+      {
+        "rva": "0x6f9a08",
+        "va": "0x1806f9a08",
+        "encoding": "utf-16le",
+        "text": "ShutterSpeedAngle"
+      },
+      {
+        "rva": "0x6f9a30",
+        "va": "0x1806f9a30",
+        "encoding": "utf-16le",
+        "text": "ShutterSpeedTime"
+      },
+      {
+        "rva": "0x6f9a58",
+        "va": "0x1806f9a58",
+        "encoding": "utf-16le",
+        "text": "CameraMasterGainAdjustment"
+      },
+      {
+        "rva": "0x6f9a90",
+        "va": "0x1806f9a90",
+        "encoding": "utf-16le",
+        "text": "RGain"
+      },
+      {
+        "rva": "0x6f9aa0",
+        "va": "0x1806f9aa0",
+        "encoding": "utf-16le",
+        "text": "BGain"
+      },
+      {
+        "rva": "0x6f9ab0",
+        "va": "0x1806f9ab0",
+        "encoding": "utf-16le",
+        "text": "ISOSensitivity"
+      },
+      {
+        "rva": "0x6f9ad0",
+        "va": "0x1806f9ad0",
+        "encoding": "utf-16le",
+        "text": "GainMode"
+      },
+      {
+        "rva": "0x6f9ae8",
+        "va": "0x1806f9ae8",
+        "encoding": "utf-16le",
+        "text": "DigitalZoomMagnification"
+      },
+      {
+        "rva": "0x6f9b20",
+        "va": "0x1806f9b20",
+        "encoding": "utf-16le",
+        "text": "AutoWhiteBalanceMode"
+      },
+      {
+        "rva": "0x6f9b50",
+        "va": "0x1806f9b50",
+        "encoding": "utf-16le",
+        "text": "WhiteBalanceColorTemperature"
+      },
+      {
+        "rva": "0x6f9b90",
+        "va": "0x1806f9b90",
+        "encoding": "utf-16le",
+        "text": "WhiteBalanceGMg"
+      },
+      {
+        "rva": "0x6f9bb0",
+        "va": "0x1806f9bb0",
+        "encoding": "utf-16le",
+        "text": "CameraMasterBlackLevel"
+      },
+      {
+        "rva": "0x6f9be0",
+        "va": "0x1806f9be0",
+        "encoding": "utf-16le",
+        "text": "CameraLuminanceDynamicRange"
+      },
+      {
+        "rva": "0x6f9c18",
+        "va": "0x1806f9c18",
+        "encoding": "utf-16le",
+        "text": "CameraKneeMode"
+      },
+      {
+        "rva": "0x6f9c38",
+        "va": "0x1806f9c38",
+        "encoding": "utf-16le",
+        "text": "CameraKneePoint"
+      },
+      {
+        "rva": "0x6f9c58",
+        "va": "0x1806f9c58",
+        "encoding": "utf-16le",
+        "text": "CameraKneeSlope"
+      },
+      {
+        "rva": "0x6f9c78",
+        "va": "0x1806f9c78",
+        "encoding": "utf-16le",
+        "text": "MasterGamma"
+      },
+      {
+        "rva": "0x6f9c90",
+        "va": "0x1806f9c90",
+        "encoding": "utf-16le",
+        "text": "GammaForCDL"
+      },
+      {
+        "rva": "0x6f9ca8",
+        "va": "0x1806f9ca8",
+        "encoding": "utf-16le",
+        "text": "GamutForCDL"
+      },
+      {
+        "rva": "0x6f9cc0",
+        "va": "0x1806f9cc0",
+        "encoding": "utf-16le",
+        "text": "ViewingColorSpaceForCDL"
+      },
+      {
+        "rva": "0x6f9cf0",
+        "va": "0x1806f9cf0",
+        "encoding": "utf-16le",
+        "text": "CameraRoll"
+      },
+      {
+        "rva": "0x6f9d08",
+        "va": "0x1806f9d08",
+        "encoding": "utf-16le",
+        "text": "CameraPitch"
+      },
+      {
+        "rva": "0x6f9d20",
+        "va": "0x1806f9d20",
+        "encoding": "utf-16le",
+        "text": "CameraDirection"
+      },
+      {
+        "rva": "0x6f9d40",
+        "va": "0x1806f9d40",
+        "encoding": "utf-16le",
+        "text": "OpticalImageStabilization"
+      },
+      {
+        "rva": "0x6f9d78",
+        "va": "0x1806f9d78",
+        "encoding": "utf-16le",
+        "text": "DestructiveItem"
+      },
+      {
+        "rva": "0x6f9d98",
+        "va": "0x1806f9d98",
+        "encoding": "utf-16le",
+        "text": "CaptureGamma"
+      },
+      {
+        "rva": "0x6f9db8",
+        "va": "0x1806f9db8",
+        "encoding": "utf-16le",
+        "text": "CaptureGamut"
+      },
+      {
+        "rva": "0x6f9df8",
+        "va": "0x1806f9df8",
+        "encoding": "utf-16le",
+        "text": "LensUnitMetadata"
+      },
+      {
+        "rva": "0x6f9e20",
+        "va": "0x1806f9e20",
+        "encoding": "utf-16le",
+        "text": "CameraUnitMetadata"
+      },
+      {
+        "rva": "0x6f9e48",
+        "va": "0x1806f9e48",
+        "encoding": "utf-16le",
+        "text": "V-Log"
+      },
+      {
+        "rva": "0x6f9e58",
+        "va": "0x1806f9e58",
+        "encoding": "utf-16le",
+        "text": "V-LogL"
+      },
+      {
+        "rva": "0x6f9e78",
+        "va": "0x1806f9e78",
+        "encoding": "utf-16le",
+        "text": "HLG"
+      },
+      {
+        "rva": "0x6f9e80",
+        "va": "0x1806f9e80",
+        "encoding": "utf-16le",
+        "text": "BT.709"
+      },
+      {
+        "rva": "0x6f9e90",
+        "va": "0x1806f9e90",
+        "encoding": "utf-16le",
+        "text": "V-Gamut"
+      },
+      {
+        "rva": "0x6f9ea0",
+        "va": "0x1806f9ea0",
+        "encoding": "utf-16le",
+        "text": "BT.2020"
+      },
+      {
+        "rva": "0x6f9ee0",
+        "va": "0x1806f9ee0",
+        "encoding": "utf-16le",
+        "text": "[0-9]{2}:[0-9]{2}:[0-9]{2}:[0-9]{2}"
+      },
+      {
+        "rva": "0x6f9f28",
+        "va": "0x1806f9f28",
+        "encoding": "utf-16le",
+        "text": "^\\d{2}:\\d{2}:\\d{2}:\\d{2}$"
+      },
+      {
+        "rva": "0x6f9f88",
+        "va": "0x1806f9f88",
+        "encoding": "utf-16le",
+        "text": "true"
+      },
+      {
+        "rva": "0x6f9f98",
+        "va": "0x1806f9f98",
+        "encoding": "utf-16le",
+        "text": "false"
+      },
+      {
+        "rva": "0x6f9fb0",
+        "va": "0x1806f9fb0",
+        "encoding": "utf-16le",
+        "text": "%I64u"
+      },
+      {
+        "rva": "0x6f9fc0",
+        "va": "0x1806f9fc0",
+        "encoding": "utf-16le",
+        "text": "%08I64X"
+      },
+      {
+        "rva": "0x6f9fd0",
+        "va": "0x1806f9fd0",
+        "encoding": "utf-16le",
+        "text": "%04d-%02d-%02dT%02d:%02d:%02dZ"
+      },
+      {
+        "rva": "0x6fa010",
+        "va": "0x1806fa010",
+        "encoding": "utf-16le",
+        "text": "left"
+      },
+      {
+        "rva": "0x6fa020",
+        "va": "0x1806fa020",
+        "encoding": "utf-16le",
+        "text": "right"
+      },
+      {
+        "rva": "0x6fa0d8",
+        "va": "0x1806fa0d8",
+        "encoding": "utf-16le",
+        "text": "MediaProfile"
+      },
+      {
+        "rva": "0x6fa0f8",
+        "va": "0x1806fa0f8",
+        "encoding": "utf-16le",
+        "text": "version"
+      },
+      {
+        "rva": "0x6fa108",
+        "va": "0x1806fa108",
+        "encoding": "utf-16le",
+        "text": "%d.%02d"
+      },
+      {
+        "rva": "0x6fa118",
+        "va": "0x1806fa118",
+        "encoding": "utf-16le",
+        "text": "Properties"
+      },
+      {
+        "rva": "0x6fa130",
+        "va": "0x1806fa130",
+        "encoding": "utf-16le",
+        "text": "Attached"
+      },
+      {
+        "rva": "0x6fa148",
+        "va": "0x1806fa148",
+        "encoding": "utf-16le",
+        "text": "mediaId"
+      },
+      {
+        "rva": "0x6fa158",
+        "va": "0x1806fa158",
+        "encoding": "utf-16le",
+        "text": "System"
+      },
+      {
+        "rva": "0x6fa168",
+        "va": "0x1806fa168",
+        "encoding": "utf-16le",
+        "text": "masterVersion"
+      },
+      {
+        "rva": "0x6fa188",
+        "va": "0x1806fa188",
+        "encoding": "utf-16le",
+        "text": "Metadata"
+      },
+      {
+        "rva": "0x6fa1a0",
+        "va": "0x1806fa1a0",
+        "encoding": "utf-16le",
+        "text": "dm:DiscMeta"
+      },
+      {
+        "rva": "0x6fa1b8",
+        "va": "0x1806fa1b8",
+        "encoding": "utf-16le",
+        "text": "dm:ProavIdRef"
+      },
+      {
+        "rva": "0x6fa1d8",
+        "va": "0x1806fa1d8",
+        "encoding": "utf-16le",
+        "text": "value"
+      },
+      {
+        "rva": "0x6fa1e8",
+        "va": "0x1806fa1e8",
+        "encoding": "utf-16le",
+        "text": "Contents"
+      },
+      {
+        "rva": "0x6fa200",
+        "va": "0x1806fa200",
+        "encoding": "utf-16le",
+        "text": "Material"
+      },
+      {
+        "rva": "0x6fa240",
+        "va": "0x1806fa240",
+        "encoding": "utf-16le",
+        "text": "uri"
+      },
+      {
+        "rva": "0x6fa248",
+        "va": "0x1806fa248",
+        "encoding": "utf-16le",
+        "text": "umid"
+      },
+      {
+        "rva": "0x6fa258",
+        "va": "0x1806fa258",
+        "encoding": "utf-16le",
+        "text": "videoType"
+      },
+      {
+        "rva": "0x6fa270",
+        "va": "0x1806fa270",
+        "encoding": "utf-16le",
+        "text": "fps"
+      },
+      {
+        "rva": "0x6fa278",
+        "va": "0x1806fa278",
+        "encoding": "utf-16le",
+        "text": "aspectRatio"
+      },
+      {
+        "rva": "0x6fa290",
+        "va": "0x1806fa290",
+        "encoding": "utf-16le",
+        "text": "pixelAspect"
+      },
+      {
+        "rva": "0x6fa2a8",
+        "va": "0x1806fa2a8",
+        "encoding": "utf-16le",
+        "text": "dur"
+      },
+      {
+        "rva": "0x6fa2b0",
+        "va": "0x1806fa2b0",
+        "encoding": "utf-16le",
+        "text": "audioType"
+      },
+      {
+        "rva": "0x6fa2d0",
+        "va": "0x1806fa2d0",
+        "encoding": "utf-16le",
+        "text": "type"
+      },
+      {
+        "rva": "0x6fa2e0",
+        "va": "0x1806fa2e0",
+        "encoding": "utf-16le",
+        "text": "status"
+      },
+      {
+        "rva": "0x6fa2f0",
+        "va": "0x1806fa2f0",
+        "encoding": "utf-16le",
+        "text": "PD_Proxy_Video"
+      },
+      {
+        "rva": "0x6fa310",
+        "va": "0x1806fa310",
+        "encoding": "utf-16le",
+        "text": "A-Law"
+      },
+      {
+        "rva": "0x6fa320",
+        "va": "0x1806fa320",
+        "encoding": "utf-16le",
+        "text": "RelevantInfo"
+      },
+      {
+        "rva": "0x6fa340",
+        "va": "0x1806fa340",
+        "encoding": "utf-16le",
+        "text": "XML"
+      },
+      {
+        "rva": "0x6fa348",
+        "va": "0x1806fa348",
+        "encoding": "utf-16le",
+        "text": "./CLIP/%s.%s"
+      },
+      {
+        "rva": "0x6fa368",
+        "va": "0x1806fa368",
+        "encoding": "utf-16le",
+        "text": "./Clip/%s.%s"
+      },
+      {
+        "rva": "0x6fa388",
+        "va": "0x1806fa388",
+        "encoding": "utf-16le",
+        "text": "./SUB/%sS03.MP4"
+      },
+      {
+        "rva": "0x6fa3a8",
+        "va": "0x1806fa3a8",
+        "encoding": "utf-16le",
+        "text": "./Sub/%sS03.MP4"
+      },
+      {
+        "rva": "0x6fa3c8",
+        "va": "0x1806fa3c8",
+        "encoding": "utf-16le",
+        "text": "./SUB/%sS02.MXF"
+      },
+      {
+        "rva": "0x6fa3e8",
+        "va": "0x1806fa3e8",
+        "encoding": "utf-16le",
+        "text": "./Sub/%sS02.MXF"
+      },
+      {
+        "rva": "0x6fa408",
+        "va": "0x1806fa408",
+        "encoding": "utf-16le",
+        "text": "./SUB/%sS01.MXF"
+      },
+      {
+        "rva": "0x6fa428",
+        "va": "0x1806fa428",
+        "encoding": "utf-16le",
+        "text": "./Sub/%sS01.MXF"
+      },
+      {
+        "rva": "0x6fa448",
+        "va": "0x1806fa448",
+        "encoding": "utf-16le",
+        "text": "./CLIP/%sM01.XML"
+      },
+      {
+        "rva": "0x6fa470",
+        "va": "0x1806fa470",
+        "encoding": "utf-16le",
+        "text": "./Clip/%sM01.XML"
+      },
+      {
+        "rva": "0x6fa4a0",
+        "va": "0x1806fa4a0",
+        "encoding": "utf-16le",
+        "text": "http://xmlns.sony.net/pro/metadata/mediaprofile"
+      },
+      {
+        "rva": "0x6fa500",
+        "va": "0x1806fa500",
+        "encoding": "utf-16le",
+        "text": "createdAt"
+      },
+      {
+        "rva": "0x6fa518",
+        "va": "0x1806fa518",
+        "encoding": "utf-16le",
+        "text": "systemId"
+      },
+      {
+        "rva": "0x6fa530",
+        "va": "0x1806fa530",
+        "encoding": "utf-16le",
+        "text": "systemKind"
+      },
+      {
+        "rva": "0x6fa548",
+        "va": "0x1806fa548",
+        "encoding": "utf-16le",
+        "text": "mediaKind"
+      },
+      {
+        "rva": "0x6fa560",
+        "va": "0x1806fa560",
+        "encoding": "utf-16le",
+        "text": "mediaName"
+      },
+      {
+        "rva": "0x6fa578",
+        "va": "0x1806fa578",
+        "encoding": "utf-16le",
+        "text": "/%s.%s"
+      },
+      {
+        "rva": "0x6fa590",
+        "va": "0x1806fa590",
+        "encoding": "utf-16le",
+        "text": "offset"
+      },
+      {
+        "rva": "0x6fa5a0",
+        "va": "0x1806fa5a0",
+        "encoding": "utf-16le",
+        "text": "none"
+      },
+      {
+        "rva": "0x6fa5b0",
+        "va": "0x1806fa5b0",
+        "encoding": "utf-16le",
+        "text": "start"
+      },
+      {
+        "rva": "0x6fa5c0",
+        "va": "0x1806fa5c0",
+        "encoding": "utf-16le",
+        "text": "spot"
+      },
+      {
+        "rva": "0x6fa5d0",
+        "va": "0x1806fa5d0",
+        "encoding": "utf-16le",
+        "text": "over"
+      },
+      {
+        "rva": "0x6fa5e0",
+        "va": "0x1806fa5e0",
+        "encoding": "utf-16le",
+        "text": "060E2B34010101050301020A02000000"
+      },
+      {
+        "rva": "0x6fa630",
+        "va": "0x1806fa630",
+        "encoding": "utf-16le",
+        "text": "060E2B34010101050301020A02010000"
+      },
+      {
+        "rva": "0x6fa680",
+        "va": "0x1806fa680",
+        "encoding": "utf-16le",
+        "text": "060E2B34010101010302010205000000"
+      },
+      {
+        "rva": "0x6fa6c8",
+        "va": "0x1806fa6c8",
+        "encoding": "utf-16le",
+        "text": "increment"
+      },
+      {
+        "rva": "0x6fa6e0",
+        "va": "0x1806fa6e0",
+        "encoding": "utf-16le",
+        "text": "still"
+      },
+      {
+        "rva": "0x6fa6f0",
+        "va": "0x1806fa6f0",
+        "encoding": "utf-16le",
+        "text": "end"
+      },
+      {
+        "rva": "0x6fa6f8",
+        "va": "0x1806fa6f8",
+        "encoding": "utf-16le",
+        "text": "increase"
+      },
+      {
+        "rva": "0x6fa710",
+        "va": "0x1806fa710",
+        "encoding": "utf-16le",
+        "text": "decrease"
+      },
+      {
+        "rva": "0x6fa8b0",
+        "va": "0x1806fa8b0",
+        "encoding": "utf-16le",
+        "text": "NonRealTimeMeta"
+      },
+      {
+        "rva": "0x6fa8d0",
+        "va": "0x1806fa8d0",
+        "encoding": "utf-16le",
+        "text": "umidRef"
+      },
+      {
+        "rva": "0x6fa8e0",
+        "va": "0x1806fa8e0",
+        "encoding": "utf-16le",
+        "text": "TargetMaterial"
+      },
+      {
+        "rva": "0x6fa900",
+        "va": "0x1806fa900",
+        "encoding": "utf-16le",
+        "text": "KlvPacketTable"
+      },
+      {
+        "rva": "0x6fa920",
+        "va": "0x1806fa920",
+        "encoding": "utf-16le",
+        "text": "VideoFrame"
+      },
+      {
+        "rva": "0x6fa938",
+        "va": "0x1806fa938",
+        "encoding": "utf-16le",
+        "text": "videoCodec"
+      },
+      {
+        "rva": "0x6fa950",
+        "va": "0x1806fa950",
+        "encoding": "utf-16le",
+        "text": "formatFps"
+      },
+      {
+        "rva": "0x6fa968",
+        "va": "0x1806fa968",
+        "encoding": "utf-16le",
+        "text": "captureFps"
+      },
+      {
+        "rva": "0x6fa980",
+        "va": "0x1806fa980",
+        "encoding": "utf-16le",
+        "text": "VideoLayout"
+      },
+      {
+        "rva": "0x6fa998",
+        "va": "0x1806fa998",
+        "encoding": "utf-16le",
+        "text": "PullDownSetting"
+      },
+      {
+        "rva": "0x6fa9b8",
+        "va": "0x1806fa9b8",
+        "encoding": "utf-16le",
+        "text": "pullDownKind"
+      },
+      {
+        "rva": "0x6fa9d8",
+        "va": "0x1806fa9d8",
+        "encoding": "utf-16le",
+        "text": "numOfChannel"
+      },
+      {
+        "rva": "0x6fa9f8",
+        "va": "0x1806fa9f8",
+        "encoding": "utf-16le",
+        "text": "AudioRecPort"
+      },
+      {
+        "rva": "0x6faa18",
+        "va": "0x1806faa18",
+        "encoding": "utf-16le",
+        "text": "audioCodec"
+      },
+      {
+        "rva": "0x6faa30",
+        "va": "0x1806faa30",
+        "encoding": "utf-16le",
+        "text": "trackDst"
+      },
+      {
+        "rva": "0x6faa48",
+        "va": "0x1806faa48",
+        "encoding": "utf-16le",
+        "text": "LtcChangeTable"
+      },
+      {
+        "rva": "0x6faa68",
+        "va": "0x1806faa68",
+        "encoding": "utf-16le",
+        "text": "name"
+      },
+      {
+        "rva": "0x6faa78",
+        "va": "0x1806faa78",
+        "encoding": "utf-16le",
+        "text": "Title"
+      },
+      {
+        "rva": "0x6faa88",
+        "va": "0x1806faa88",
+        "encoding": "utf-16le",
+        "text": "usAscii"
+      },
+      {
+        "rva": "0x6faa98",
+        "va": "0x1806faa98",
+        "encoding": "utf-16le",
+        "text": "lib:Alias"
+      },
+      {
+        "rva": "0x6faab0",
+        "va": "0x1806faab0",
+        "encoding": "utf-16le",
+        "text": "Description"
+      },
+      {
+        "rva": "0x6faac8",
+        "va": "0x1806faac8",
+        "encoding": "utf-16le",
+        "text": "TypicalUbit"
+      },
+      {
+        "rva": "0x6faae0",
+        "va": "0x1806faae0",
+        "encoding": "utf-16le",
+        "text": "frameCount"
+      },
+      {
+        "rva": "0x6faaf8",
+        "va": "0x1806faaf8",
+        "encoding": "utf-16le",
+        "text": "KeyFrame"
+      },
+      {
+        "rva": "0x6fab10",
+        "va": "0x1806fab10",
+        "encoding": "utf-16le",
+        "text": "SubStream"
+      },
+      {
+        "rva": "0x6fab28",
+        "va": "0x1806fab28",
+        "encoding": "utf-16le",
+        "text": "codec"
+      },
+      {
+        "rva": "0x6fab38",
+        "va": "0x1806fab38",
+        "encoding": "utf-16le",
+        "text": "PD-SubStream"
+      },
+      {
+        "rva": "0x6fab58",
+        "va": "0x1806fab58",
+        "encoding": "utf-16le",
+        "text": "LastUpdate"
+      },
+      {
+        "rva": "0x6fab70",
+        "va": "0x1806fab70",
+        "encoding": "utf-16le",
+        "text": "lastUpdate"
+      },
+      {
+        "rva": "0x6fab88",
+        "va": "0x1806fab88",
+        "encoding": "utf-16le",
+        "text": "manufacturer"
+      },
+      {
+        "rva": "0x6faba8",
+        "va": "0x1806faba8",
+        "encoding": "utf-16le",
+        "text": "modelName"
+      },
+      {
+        "rva": "0x6fabc0",
+        "va": "0x1806fabc0",
+        "encoding": "utf-16le",
+        "text": "serialNo"
+      },
+      {
+        "rva": "0x6fabd8",
+        "va": "0x1806fabd8",
+        "encoding": "utf-16le",
+        "text": "RecordingMode"
+      },
+      {
+        "rva": "0x6fabf8",
+        "va": "0x1806fabf8",
+        "encoding": "utf-16le",
+        "text": "cacheRec"
+      },
+      {
+        "rva": "0x6fac10",
+        "va": "0x1806fac10",
+        "encoding": "utf-16le",
+        "text": "AcquisitionRecord"
+      },
+      {
+        "rva": "0x6fac38",
+        "va": "0x1806fac38",
+        "encoding": "utf-16le",
+        "text": "Group"
+      },
+      {
+        "rva": "0x6fac48",
+        "va": "0x1806fac48",
+        "encoding": "utf-16le",
+        "text": "LensUnitMetadataSet"
+      },
+      {
+        "rva": "0x6fac70",
+        "va": "0x1806fac70",
+        "encoding": "utf-16le",
+        "text": "CameraUnitMetadataSet"
+      },
+      {
+        "rva": "0x6faca0",
+        "va": "0x1806faca0",
+        "encoding": "utf-16le",
+        "text": "SonyF65CameraMetadataSet"
+      },
+      {
+        "rva": "0x6facd8",
+        "va": "0x1806facd8",
+        "encoding": "utf-16le",
+        "text": "Item"
+      },
+      {
+        "rva": "0x6face8",
+        "va": "0x1806face8",
+        "encoding": "utf-16le",
+        "text": "UserDescriptiveMetadata"
+      },
+      {
+        "rva": "0x6fad18",
+        "va": "0x1806fad18",
+        "encoding": "utf-16le",
+        "text": "Meta"
+      },
+      {
+        "rva": "0x6fad28",
+        "va": "0x1806fad28",
+        "encoding": "utf-16le",
+        "text": "content"
+      },
+      {
+        "rva": "0x6fad38",
+        "va": "0x1806fad38",
+        "encoding": "utf-16le",
+        "text": "RelevantFiles"
+      },
+      {
+        "rva": "0x6fad58",
+        "va": "0x1806fad58",
+        "encoding": "utf-16le",
+        "text": "RelatedTo"
+      },
+      {
+        "rva": "0x6fad70",
+        "va": "0x1806fad70",
+        "encoding": "utf-16le",
+        "text": "rel"
+      },
+      {
+        "rva": "0x6fad78",
+        "va": "0x1806fad78",
+        "encoding": "utf-16le",
+        "text": "mainStream"
+      },
+      {
+        "rva": "0x6fad90",
+        "va": "0x1806fad90",
+        "encoding": "utf-16le",
+        "text": "file"
+      },
+      {
+        "rva": "0x6fada0",
+        "va": "0x1806fada0",
+        "encoding": "utf-16le",
+        "text": "numOfAudioCh"
+      },
+      {
+        "rva": "0x6fadc0",
+        "va": "0x1806fadc0",
+        "encoding": "utf-16le",
+        "text": "KlvPacket"
+      },
+      {
+        "rva": "0x6fadd8",
+        "va": "0x1806fadd8",
+        "encoding": "utf-16le",
+        "text": "key"
+      },
+      {
+        "rva": "0x6fade0",
+        "va": "0x1806fade0",
+        "encoding": "utf-16le",
+        "text": "lengthValue"
+      },
+      {
+        "rva": "0x6fadf8",
+        "va": "0x1806fadf8",
+        "encoding": "utf-16le",
+        "text": "LtcChange"
+      },
+      {
+        "rva": "0x6fae10",
+        "va": "0x1806fae10",
+        "encoding": "utf-16le",
+        "text": "urn:schemas-professionalDisc:nonRealTimeMeta:ver.2.00"
+      },
+      {
+        "rva": "0x6fae80",
+        "va": "0x1806fae80",
+        "encoding": "utf-16le",
+        "text": "urn:schemas-professionalDisc:lib:ver.2.00"
+      },
+      {
+        "rva": "0x6faed8",
+        "va": "0x1806faed8",
+        "encoding": "utf-16le",
+        "text": "xmlns:lib"
+      },
+      {
+        "rva": "0x6faef0",
+        "va": "0x1806faef0",
+        "encoding": "utf-16le",
+        "text": "urn:schemas-professionalDisc:nonRealTimeMeta:ver.1.30"
+      },
+      {
+        "rva": "0x6faf60",
+        "va": "0x1806faf60",
+        "encoding": "utf-16le",
+        "text": "urn:schemas-professionalDisc:lib:ver.1.30"
+      },
+      {
+        "rva": "0x6fafb8",
+        "va": "0x1806fafb8",
+        "encoding": "utf-16le",
+        "text": "tcFps"
+      },
+      {
+        "rva": "0x6fafc8",
+        "va": "0x1806fafc8",
+        "encoding": "utf-16le",
+        "text": "halfStep"
+      },
+      {
+        "rva": "0x6fafe0",
+        "va": "0x1806fafe0",
+        "encoding": "utf-16le",
+        "text": "BodyUmidBasicCha"
+      },
+      {
+        "rva": "0x702880",
+        "va": "0x180702880",
+        "encoding": "utf-16le",
+        "text": "mxf"
+      },
+      {
+        "rva": "0x702888",
+        "va": "0x180702888",
+        "encoding": "utf-16le",
+        "text": "mp4"
+      },
+      {
+        "rva": "0x702890",
+        "va": "0x180702890",
+        "encoding": "utf-16le",
+        "text": "mov"
+      },
+      {
+        "rva": "0x702898",
+        "va": "0x180702898",
+        "encoding": "utf-16le",
+        "text": "M01.XML"
+      },
+      {
+        "rva": "0x7028a8",
+        "va": "0x1807028a8",
+        "encoding": "utf-16le",
+        "text": "DISCMETA.XML"
+      },
+      {
+        "rva": "0x7028c8",
+        "va": "0x1807028c8",
+        "encoding": "utf-16le",
+        "text": "BPAV"
+      },
+      {
+        "rva": "0x7028d8",
+        "va": "0x1807028d8",
+        "encoding": "utf-16le",
+        "text": "Clip"
+      },
+      {
+        "rva": "0x7028e8",
+        "va": "0x1807028e8",
+        "encoding": "utf-16le",
+        "text": "Sub"
+      },
+      {
+        "rva": "0x7028f0",
+        "va": "0x1807028f0",
+        "encoding": "utf-16le",
+        "text": "Edit"
+      },
+      {
+        "rva": "0x702900",
+        "va": "0x180702900",
+        "encoding": "utf-16le",
+        "text": "General"
+      },
+      {
+        "rva": "0x702910",
+        "va": "0x180702910",
+        "encoding": "utf-16le",
+        "text": "UserData"
+      },
+      {
+        "rva": "0x702928",
+        "va": "0x180702928",
+        "encoding": "utf-16le",
+        "text": "MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x7029c0",
+        "va": "0x1807029c0",
+        "encoding": "utf-16le",
+        "text": "ProDiscFS"
+      },
+      {
+        "rva": "0x7029d8",
+        "va": "0x1807029d8",
+        "encoding": "utf-16le",
+        "text": "ProDiscVFS"
+      },
+      {
+        "rva": "0x7029f0",
+        "va": "0x1807029f0",
+        "encoding": "utf-16le",
+        "text": "XdsUDF"
+      },
+      {
+        "rva": "0x702a00",
+        "va": "0x180702a00",
+        "encoding": "utf-16le",
+        "text": "SXSUDF"
+      },
+      {
+        "rva": "0x702a10",
+        "va": "0x180702a10",
+        "encoding": "utf-16le",
+        "text": "PDUDFS"
+      },
+      {
+        "rva": "0x702a20",
+        "va": "0x180702a20",
+        "encoding": "utf-16le",
+        "text": "Pdfs"
+      },
+      {
+        "rva": "0x702a30",
+        "va": "0x180702a30",
+        "encoding": "utf-16le",
+        "text": "exFAT"
+      },
+      {
+        "rva": "0x702a40",
+        "va": "0x180702a40",
+        "encoding": "utf-16le",
+        "text": "PRIVATE"
+      },
+      {
+        "rva": "0x702a50",
+        "va": "0x180702a50",
+        "encoding": "utf-16le",
+        "text": ".XML"
+      },
+      {
+        "rva": "0x702a60",
+        "va": "0x180702a60",
+        "encoding": "utf-16le",
+        "text": ".BIM"
+      },
+      {
+        "rva": "0x702a70",
+        "va": "0x180702a70",
+        "encoding": "utf-16le",
+        "text": ".PPN"
+      },
+      {
+        "rva": "0x702a80",
+        "va": "0x180702a80",
+        "encoding": "utf-16le",
+        "text": ".SMI"
+      },
+      {
+        "rva": "0x702aa0",
+        "va": "0x180702aa0",
+        "encoding": "utf-16le",
+        "text": "CLPR"
+      },
+      {
+        "rva": "0x702ab0",
+        "va": "0x180702ab0",
+        "encoding": "utf-16le",
+        "text": "Clip\\%sM%02d.XML"
+      },
+      {
+        "rva": "0x702ad8",
+        "va": "0x180702ad8",
+        "encoding": "utf-16le",
+        "text": "Clip\\%s.MXF"
+      },
+      {
+        "rva": "0x702af0",
+        "va": "0x180702af0",
+        "encoding": "utf-16le",
+        "text": "Sub\\%sS%02d.MXF"
+      },
+      {
+        "rva": "0x702b10",
+        "va": "0x180702b10",
+        "encoding": "utf-16le",
+        "text": "Clip\\%s.MP4"
+      },
+      {
+        "rva": "0x702b28",
+        "va": "0x180702b28",
+        "encoding": "utf-16le",
+        "text": "Sub\\%sS%02d.MP4"
+      },
+      {
+        "rva": "0x702b48",
+        "va": "0x180702b48",
+        "encoding": "utf-16le",
+        "text": "Clip\\%s.MOV"
+      },
+      {
+        "rva": "0x702b60",
+        "va": "0x180702b60",
+        "encoding": "utf-16le",
+        "text": "Sub\\%sS%02d.MOV"
+      },
+      {
+        "rva": "0x702b80",
+        "va": "0x180702b80",
+        "encoding": "utf-16le",
+        "text": "%sM%02d.XML"
+      },
+      {
+        "rva": "0x702b98",
+        "va": "0x180702b98",
+        "encoding": "utf-16le",
+        "text": "%s.MXF"
+      },
+      {
+        "rva": "0x702ba8",
+        "va": "0x180702ba8",
+        "encoding": "utf-16le",
+        "text": "%sS%02d.MXF"
+      },
+      {
+        "rva": "0x702bc0",
+        "va": "0x180702bc0",
+        "encoding": "utf-16le",
+        "text": "%s.MP4"
+      },
+      {
+        "rva": "0x702bd0",
+        "va": "0x180702bd0",
+        "encoding": "utf-16le",
+        "text": "%sS%02d.MP4"
+      },
+      {
+        "rva": "0x702be8",
+        "va": "0x180702be8",
+        "encoding": "utf-16le",
+        "text": "%s.MOV"
+      },
+      {
+        "rva": "0x702bf8",
+        "va": "0x180702bf8",
+        "encoding": "utf-16le",
+        "text": "%sS%02d.MOV"
+      },
+      {
+        "rva": "0x702c10",
+        "va": "0x180702c10",
+        "encoding": "utf-16le",
+        "text": "INDEX.XML"
+      },
+      {
+        "rva": "0x702c28",
+        "va": "0x180702c28",
+        "encoding": "utf-16le",
+        "text": "ALIAS.XML"
+      },
+      {
+        "rva": "0x702c40",
+        "va": "0x180702c40",
+        "encoding": "utf-16le",
+        "text": "PROAV\\DISCMETA.XML"
+      },
+      {
+        "rva": "0x702c68",
+        "va": "0x180702c68",
+        "encoding": "utf-16le",
+        "text": "PROAV\\INDEX.XML"
+      },
+      {
+        "rva": "0x702c88",
+        "va": "0x180702c88",
+        "encoding": "utf-16le",
+        "text": "PROAV\\ALIAS.XML"
+      },
+      {
+        "rva": "0x702ca8",
+        "va": "0x180702ca8",
+        "encoding": "utf-16le",
+        "text": "0123456789ABCDEF"
+      },
+      {
+        "rva": "0x70fa30",
+        "va": "0x18070fa30",
+        "encoding": "ascii",
+        "text": "CDlgXAVCS"
+      },
+      {
+        "rva": "0x70fea0",
+        "va": "0x18070fea0",
+        "encoding": "ascii",
+        "text": "CDlgXAVCSDestination"
+      },
+      {
+        "rva": "0x7105f0",
+        "va": "0x1807105f0",
+        "encoding": "ascii",
+        "text": "CDlgXAVCSExtension"
+      },
+      {
+        "rva": "0x7107fc",
+        "va": "0x1807107fc",
+        "encoding": "ascii",
+        "text": "uAJ,"
+      },
+      {
+        "rva": "0x70fac8",
+        "va": "0x18070fac8",
+        "encoding": "utf-16le",
+        "text": "LastFolderPath"
+      },
+      {
+        "rva": "0x710000",
+        "va": "0x180710000",
+        "encoding": "utf-16le",
+        "text": "M4ROOT\\MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x710028",
+        "va": "0x180710028",
+        "encoding": "utf-16le",
+        "text": "PRIVATE\\M4ROOT\\MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x710060",
+        "va": "0x180710060",
+        "encoding": "utf-16le",
+        "text": "CLIP"
+      },
+      {
+        "rva": "0x710070",
+        "va": "0x180710070",
+        "encoding": "utf-16le",
+        "text": "M4ROOT"
+      },
+      {
+        "rva": "0x710080",
+        "va": "0x180710080",
+        "encoding": "utf-16le",
+        "text": "M4ROOT\\CLIP\\"
+      },
+      {
+        "rva": "0x7100a0",
+        "va": "0x1807100a0",
+        "encoding": "utf-16le",
+        "text": "PRIVATE\\M4ROOT\\CLIP\\"
+      },
+      {
+        "rva": "0x7107d0",
+        "va": "0x1807107d0",
+        "encoding": "utf-16le",
+        "text": "XAVCSExtension"
+      },
+      {
+        "rva": "0x711520",
+        "va": "0x180711520",
+        "encoding": "utf-16le",
+        "text": "GrassValley K.K. Exporter Plug-In XAVCS"
+      },
+      {
+        "rva": "0x711588",
+        "va": "0x180711588",
+        "encoding": "utf-16le",
+        "text": "Defa"
+      },
+      {
+        "rva": "0x711b60",
+        "va": "0x180711b60",
+        "encoding": "ascii",
+        "text": "D:\\Agent\\vsts-agent-win-x64-2.210.1\\_work\\28\\s\\src\\work\\PlugIn\\MPEG\\Exporter\\exXAVCS.cpp"
+      },
+      {
+        "rva": "0x711cf8",
+        "va": "0x180711cf8",
+        "encoding": "utf-16le",
+        "text": "MP4 Files (*.MP4)|*.MP4||"
+      },
+      {
+        "rva": "0x7121a0",
+        "va": "0x1807121a0",
+        "encoding": "utf-16le",
+        "text": "D:\\Agent\\vsts-agent-win-x64-2.210.1\\_work\\28\\s\\src\\work\\PlugIn\\MPEG\\Exporter\\exXAVCS.cpp"
+      },
+      {
+        "rva": "0x7126e0",
+        "va": "0x1807126e0",
+        "encoding": "utf-16le",
+        "text": "C%04d.MP4"
+      },
+      {
+        "rva": "0x712748",
+        "va": "0x180712748",
+        "encoding": "utf-16le",
+        "text": "XAVC-M4@1.10.00"
+      },
+      {
+        "rva": "0x712768",
+        "va": "0x180712768",
+        "encoding": "utf-16le",
+        "text": "Unknown"
+      },
+      {
+        "rva": "0x712778",
+        "va": "0x180712778",
+        "encoding": "utf-16le",
+        "text": "AffordableMemoryCard"
+      },
+      {
+        "rva": "0x7127a8",
+        "va": "0x1807127a8",
+        "encoding": "utf-16le",
+        "text": ".$$$"
+      },
+      {
+        "rva": "0x7127b8",
+        "va": "0x1807127b8",
+        "encoding": "utf-16le",
+        "text": "\\M4ROOT\\CLIP\\"
+      },
+      {
+        "rva": "0x7127d8",
+        "va": "0x1807127d8",
+        "encoding": "utf-16le",
+        "text": "\\PRIVATE\\M4ROOT\\CLIP\\"
+      },
+      {
+        "rva": "0x727b80",
+        "va": "0x180727b80",
+        "encoding": "ascii",
+        "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?><MediaProfile xmlns=\"http://xmlns.sony.net/pro/metadata/mediaprofile\" version=\"\" createdAt=\"\"></MediaProfile>"
+      },
+      {
+        "rva": "0x727800",
+        "va": "0x180727800",
+        "encoding": "utf-16le",
+        "text": "it LPCM"
+      },
+      {
+        "rva": "0x727810",
+        "va": "0x180727810",
+        "encoding": "utf-16le",
+        "text": "%d-%d-%dT%d:%d:%d-%d:%d"
+      },
+      {
+        "rva": "0x727840",
+        "va": "0x180727840",
+        "encoding": "utf-16le",
+        "text": "%d-%d-%dT%d:%d:%d+%d:%d"
+      },
+      {
+        "rva": "0x727870",
+        "va": "0x180727870",
+        "encoding": "utf-16le",
+        "text": "%d-%d-%dT%d:%d:%d%c"
+      },
+      {
+        "rva": "0x727898",
+        "va": "0x180727898",
+        "encoding": "utf-16le",
+        "text": "xmlns:x='%s'"
+      },
+      {
+        "rva": "0x7278b8",
+        "va": "0x1807278b8",
+        "encoding": "utf-16le",
+        "text": "SelectionNamespaces"
+      },
+      {
+        "rva": "0x7278e0",
+        "va": "0x1807278e0",
+        "encoding": "utf-16le",
+        "text": "urn:schemas-professionalDisc:nonRealTimeMeta"
+      },
+      {
+        "rva": "0x727940",
+        "va": "0x180727940",
+        "encoding": "utf-16le",
+        "text": "recFps"
+      },
+      {
+        "rva": "0x727950",
+        "va": "0x180727950",
+        "encoding": "utf-16le",
+        "text": "clipBegin"
+      },
+      {
+        "rva": "0x727968",
+        "va": "0x180727968",
+        "encoding": "utf-16le",
+        "text": "aFramePhase"
+      },
+      {
+        "rva": "0x727980",
+        "va": "0x180727980",
+        "encoding": "utf-16le",
+        "text": "smil"
+      },
+      {
+        "rva": "0x727990",
+        "va": "0x180727990",
+        "encoding": "utf-16le",
+        "text": "urn:schemas-professionalDisc:edl"
+      },
+      {
+        "rva": "0x7279d8",
+        "va": "0x1807279d8",
+        "encoding": "utf-16le",
+        "text": ":clipInfo"
+      },
+      {
+        "rva": "0x7279f0",
+        "va": "0x1807279f0",
+        "encoding": "utf-16le",
+        "text": ":takeInfo"
+      },
+      {
+        "rva": "0x727a08",
+        "va": "0x180727a08",
+        "encoding": "utf-16le",
+        "text": "head"
+      },
+      {
+        "rva": "0x727a18",
+        "va": "0x180727a18",
+        "encoding": "utf-16le",
+        "text": "ref"
+      },
+      {
+        "rva": "0x727a20",
+        "va": "0x180727a20",
+        "encoding": "utf-16le",
+        "text": "src"
+      },
+      {
+        "rva": "0x727a28",
+        "va": "0x180727a28",
+        "encoding": "utf-16le",
+        "text": "PicturePointerBPAV"
+      },
+      {
+        "rva": "0x727a50",
+        "va": "0x180727a50",
+        "encoding": "utf-16le",
+        "text": "body"
+      },
+      {
+        "rva": "0x727a60",
+        "va": "0x180727a60",
+        "encoding": "utf-16le",
+        "text": "par"
+      },
+      {
+        "rva": "0x727a68",
+        "va": "0x180727a68",
+        "encoding": "utf-16le",
+        "text": "metastream"
+      },
+      {
+        "rva": "0x727a80",
+        "va": "0x180727a80",
+        "encoding": "utf-16le",
+        "text": "urn:smpte:umid:"
+      },
+      {
+        "rva": "0x727aa0",
+        "va": "0x180727aa0",
+        "encoding": "utf-16le",
+        "text": "title"
+      },
+      {
+        "rva": "0x727ab0",
+        "va": "0x180727ab0",
+        "encoding": "utf-16le",
+        "text": "Component"
+      },
+      {
+        "rva": "0x727ac8",
+        "va": "0x180727ac8",
+        "encoding": "utf-16le",
+        "text": "PD-EDL"
+      },
+      {
+        "rva": "0x727ae0",
+        "va": "0x180727ae0",
+        "encoding": "utf-16le",
+        "text": "/x:MediaProfile/x:Properties/x:Attached/@mediaId"
+      },
+      {
+        "rva": "0x727b48",
+        "va": "0x180727b48",
+        "encoding": "utf-16le",
+        "text": "*.XML"
+      },
+      {
+        "rva": "0x727b58",
+        "va": "0x180727b58",
+        "encoding": "utf-16le",
+        "text": "*.xml"
+      },
+      {
+        "rva": "0x727b68",
+        "va": "0x180727b68",
+        "encoding": "utf-16le",
+        "text": "Transferred"
+      },
+      {
+        "rva": "0x727c28",
+        "va": "0x180727c28",
+        "encoding": "utf-16le",
+        "text": "/x:MediaProfile"
+      },
+      {
+        "rva": "0x727c48",
+        "va": "0x180727c48",
+        "encoding": "utf-16le",
+        "text": "/x:MediaProfile/x:Properties"
+      },
+      {
+        "rva": "0x727ca0",
+        "va": "0x180727ca0",
+        "encoding": "utf-16le",
+        "text": "/x:MediaProfile/x:Contents/x:Material[@umid='%s']"
+      },
+      {
+        "rva": "0x727d08",
+        "va": "0x180727d08",
+        "encoding": "utf-16le",
+        "text": "x:MediaProfile"
+      },
+      {
+        "rva": "0x727d28",
+        "va": "0x180727d28",
+        "encoding": "utf-16le",
+        "text": "x:Contents"
+      },
+      {
+        "rva": "0x727d40",
+        "va": "0x180727d40",
+        "encoding": "utf-16le",
+        "text": "/x:MediaProfile/x:Contents/x:Material/x:Component[@type][@umid='%s']"
+      },
+      {
+        "rva": "0x727dd0",
+        "va": "0x180727dd0",
+        "encoding": "utf-16le",
+        "text": "x:Component[@type]"
+      },
+      {
+        "rva": "0x727df8",
+        "va": "0x180727df8",
+        "encoding": "utf-16le",
+        "text": "/x:MediaProfile/x:Contents"
+      },
+      {
+        "rva": "0x727fe0",
+        "va": "0x180727fe0",
+        "encoding": "utf-16le",
+        "text": "\\Canopus Shared\\"
+      }
+    ],
+    "protected_call_sample": [
+      {
+        "va": "0x180215df0",
+        "instruction": "mov esi, 0x93c44058"
+      },
+      {
+        "va": "0x180215df5",
+        "instruction": "pop rdi"
+      },
+      {
+        "va": "0x180215df6",
+        "instruction": "int1 "
+      },
+      {
+        "va": "0x180215df7",
+        "instruction": "popfq "
+      },
+      {
+        "va": "0x180215df8",
+        "instruction": "adc dword ptr [rax - 0x4c460291], esp"
+      },
+      {
+        "va": "0x180215dfe",
+        "instruction": "out 0x66, eax"
+      },
+      {
+        "va": "0x180215e00",
+        "instruction": "jmp 0x15b56491c"
+      },
+      {
+        "va": "0x180215e05",
+        "instruction": "sal dword ptr [rbp - 0x2e8f583f], 1"
+      },
+      {
+        "va": "0x180215e0b",
+        "instruction": "push rdi"
+      },
+      {
+        "va": "0x180215e0c",
+        "instruction": "mov esi, 0x4d05d82c"
+      },
+      {
+        "va": "0x180215e11",
+        "instruction": "out dx, eax"
+      },
+      {
+        "va": "0x180215e12",
+        "instruction": "xor al, 0xe0"
+      },
+      {
+        "va": "0x180215e14",
+        "instruction": "xor dh, 0x97"
+      },
+      {
+        "va": "0x180215e17",
+        "instruction": "sub al, 0x66"
+      },
+      {
+        "va": "0x180215e19",
+        "instruction": "mov esp, 0x4b44d966"
+      },
+      {
+        "va": "0x180215e1e",
+        "instruction": "inc byte ptr [rbx]"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsMxfPlugIn.tpi",
+    "sha256": "218dc695afbcb77c893f97995f66bf03ff0330ece02cd45fbb33082dd1475a1a",
+    "base": "0x180000000",
+    "entry_rva": "0x489a8c",
+    "sections": [
+      {
+        "name": ".text",
+        "rva": "0x1000",
+        "entropy": 6.68572520406602
+      },
+      {
+        "name": ".rdata",
+        "rva": "0x541000",
+        "entropy": 5.61934454772929
+      },
+      {
+        "name": ".data",
+        "rva": "0x6a8000",
+        "entropy": 4.702014296319018
+      },
+      {
+        "name": ".pdata",
+        "rva": "0x6c5000",
+        "entropy": 6.485792366337126
+      },
+      {
+        "name": ".rsrc",
+        "rva": "0x6f3000",
+        "entropy": 3.953230375312021
+      },
+      {
+        "name": ".reloc",
+        "rva": "0x77b000",
+        "entropy": 5.510576350823627
+      },
+      {
+        "name": ".text",
+        "rva": "0x788000",
+        "entropy": 7.31309703450705
+      }
+    ],
+    "entry_instructions": [
+      {
+        "va": "0x180489a8c",
+        "instruction": "jmp 0x1807882a6"
+      },
+      {
+        "va": "0x180489a91",
+        "instruction": "insb byte ptr [rdi], dx"
+      },
+      {
+        "va": "0x180489a93",
+        "instruction": "outsb dx, byte ptr [rsi]"
+      },
+      {
+        "va": "0x180489a94",
+        "instruction": "jp 0x180489a7d"
+      },
+      {
+        "va": "0x180489a97",
+        "instruction": "sub dword ptr [rbp + 0x3d4ab36c], 0xa2a328fa"
+      },
+      {
+        "va": "0x180489aa1",
+        "instruction": "cmp byte ptr [rcx], ch"
+      },
+      {
+        "va": "0x180489aa3",
+        "instruction": "jns 0x180489a58"
+      },
+      {
+        "va": "0x180489aa5",
+        "instruction": "outsd dx, dword ptr [rsi]"
+      },
+      {
+        "va": "0x180489aa6",
+        "instruction": "test dword ptr [rax + riz*2 - 0x65637fa6], esi"
+      },
+      {
+        "va": "0x180489aad",
+        "instruction": "movabs eax, dword ptr [0x8da36d94c9e51fbf]"
+      },
+      {
+        "va": "0x180489ab6",
+        "instruction": "in eax, dx"
+      },
+      {
+        "va": "0x180489ab7",
+        "instruction": "mov cl, 0x21"
+      },
+      {
+        "va": "0x180489ab9",
+        "instruction": "clc "
+      },
+      {
+        "va": "0x180489aba",
+        "instruction": "mov byte ptr [r15], r9b"
+      },
+      {
+        "va": "0x180489abd",
+        "instruction": "out dx, al"
+      },
+      {
+        "va": "0x180489abe",
+        "instruction": "push rsp"
+      }
+    ],
+    "strings": [
+      {
+        "rva": "0x55e430",
+        "va": "0x18055e430",
+        "encoding": "ascii",
+        "text": "D:\\Agent\\vsts-agent-win-x64-2.210.1\\_work\\28\\s\\src\\work\\PlugIn\\MXF\\MxfPlugIn\\exXdcam.cpp"
+      },
+      {
+        "rva": "0x55e300",
+        "va": "0x18055e300",
+        "encoding": "utf-16le",
+        "text": ". XDCAM HD Exporter"
+      },
+      {
+        "rva": "0x55e330",
+        "va": "0x18055e330",
+        "encoding": "utf-16le",
+        "text": "Canopus Co., Ltd. XDCAM HD422 Exporter"
+      },
+      {
+        "rva": "0x55e380",
+        "va": "0x18055e380",
+        "encoding": "utf-16le",
+        "text": "Canopus Co., Ltd. XDCAM HD720P Exporter"
+      },
+      {
+        "rva": "0x55e3e0",
+        "va": "0x18055e3e0",
+        "encoding": "utf-16le",
+        "text": "Canopus Co., Ltd. XDCAM XAVC Exporter"
+      },
+      {
+        "rva": "0x560000",
+        "va": "0x180560000",
+        "encoding": "utf-16le",
+        "text": ".$$$"
+      },
+      {
+        "rva": "0x560088",
+        "va": "0x180560088",
+        "encoding": "utf-16le",
+        "text": "XAVC-XD@1.10.00"
+      },
+      {
+        "rva": "0x5600a8",
+        "va": "0x1805600a8",
+        "encoding": "utf-16le",
+        "text": "ProfessionalDisc"
+      },
+      {
+        "rva": "0x5600d0",
+        "va": "0x1805600d0",
+        "encoding": "utf-16le",
+        "text": "XDROOT\\Clip"
+      },
+      {
+        "rva": "0x5600e8",
+        "va": "0x1805600e8",
+        "encoding": "utf-16le",
+        "text": "PRIVATE\\XDROOT\\Clip"
+      },
+      {
+        "rva": "0x565f20",
+        "va": "0x180565f20",
+        "encoding": "utf-16le",
+        "text": "Clip\\%s"
+      },
+      {
+        "rva": "0x565f30",
+        "va": "0x180565f30",
+        "encoding": "utf-16le",
+        "text": "CLIP\\%s"
+      },
+      {
+        "rva": "0x565f40",
+        "va": "0x180565f40",
+        "encoding": "utf-16le",
+        "text": "FE0000"
+      },
+      {
+        "rva": "0x565f50",
+        "va": "0x180565f50",
+        "encoding": "utf-16le",
+        "text": ".ewc2"
+      },
+      {
+        "rva": "0x565ff8",
+        "va": "0x180565ff8",
+        "encoding": "utf-16le",
+        "text": "PROAV"
+      },
+      {
+        "rva": "0x566008",
+        "va": "0x180566008",
+        "encoding": "utf-16le",
+        "text": "INDEX.XML"
+      },
+      {
+        "rva": "0x566020",
+        "va": "0x180566020",
+        "encoding": "utf-16le",
+        "text": "CLPR"
+      },
+      {
+        "rva": "0x566030",
+        "va": "0x180566030",
+        "encoding": "utf-16le",
+        "text": "M01.XML"
+      },
+      {
+        "rva": "0x566040",
+        "va": "0x180566040",
+        "encoding": "utf-16le",
+        "text": ".mp4"
+      },
+      {
+        "rva": "0x566050",
+        "va": "0x180566050",
+        "encoding": "utf-16le",
+        "text": ".mov"
+      },
+      {
+        "rva": "0x566060",
+        "va": "0x180566060",
+        "encoding": "utf-16le",
+        "text": "MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x566090",
+        "va": "0x180566090",
+        "encoding": "utf-16le",
+        "text": "ALIAS.XML"
+      },
+      {
+        "rva": "0x5660a8",
+        "va": "0x1805660a8",
+        "encoding": "utf-16le",
+        "text": "%s/Clip/%s"
+      },
+      {
+        "rva": "0x5660c0",
+        "va": "0x1805660c0",
+        "encoding": "utf-16le",
+        "text": "%s/Sub/%s"
+      },
+      {
+        "rva": "0x5660d8",
+        "va": "0x1805660d8",
+        "encoding": "utf-16le",
+        "text": "/MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x5660f8",
+        "va": "0x1805660f8",
+        "encoding": "utf-16le",
+        "text": "/INDEX.XML"
+      },
+      {
+        "rva": "0x566110",
+        "va": "0x180566110",
+        "encoding": "utf-16le",
+        "text": "/UserData/XDROOT"
+      },
+      {
+        "rva": "0x566138",
+        "va": "0x180566138",
+        "encoding": "utf-16le",
+        "text": "/M4ROOT/UserData/XDROOT"
+      },
+      {
+        "rva": "0x566168",
+        "va": "0x180566168",
+        "encoding": "utf-16le",
+        "text": "/M4ROOT"
+      },
+      {
+        "rva": "0x566178",
+        "va": "0x180566178",
+        "encoding": "utf-16le",
+        "text": "/UserData/M4ROOT"
+      },
+      {
+        "rva": "0x5661a0",
+        "va": "0x1805661a0",
+        "encoding": "utf-16le",
+        "text": "/XDROOT/UserData/M4ROOT"
+      },
+      {
+        "rva": "0x5661d0",
+        "va": "0x1805661d0",
+        "encoding": "utf-16le",
+        "text": "SITE MEID"
+      },
+      {
+        "rva": "0x5661f0",
+        "va": "0x1805661f0",
+        "encoding": "utf-16le",
+        "text": "200 %s"
+      },
+      {
+        "rva": "0x56bd38",
+        "va": "0x18056bd38",
+        "encoding": "ascii",
+        "text": "CMXF_ExportBegin"
+      },
+      {
+        "rva": "0x56bd50",
+        "va": "0x18056bd50",
+        "encoding": "ascii",
+        "text": "CMXF_ExportUnit"
+      },
+      {
+        "rva": "0x56bd60",
+        "va": "0x18056bd60",
+        "encoding": "ascii",
+        "text": "CMXF_ExportUnit2"
+      },
+      {
+        "rva": "0x56bd78",
+        "va": "0x18056bd78",
+        "encoding": "ascii",
+        "text": "CMXF_ExportEnd"
+      },
+      {
+        "rva": "0x56bd88",
+        "va": "0x18056bd88",
+        "encoding": "ascii",
+        "text": "CMXF_ExportCancel"
+      },
+      {
+        "rva": "0x56bda0",
+        "va": "0x18056bda0",
+        "encoding": "ascii",
+        "text": "CMXF_ExportEndEx"
+      },
+      {
+        "rva": "0x56bdb8",
+        "va": "0x18056bdb8",
+        "encoding": "ascii",
+        "text": "CMXF_CreateInfoFile"
+      },
+      {
+        "rva": "0x56bdd0",
+        "va": "0x18056bdd0",
+        "encoding": "ascii",
+        "text": "CMXF_ExportGetFileInfo"
+      },
+      {
+        "rva": "0x56be48",
+        "va": "0x18056be48",
+        "encoding": "ascii",
+        "text": "CMXF_CreateFile"
+      },
+      {
+        "rva": "0x56be58",
+        "va": "0x18056be58",
+        "encoding": "ascii",
+        "text": "CMXF_WriteFile"
+      },
+      {
+        "rva": "0x56be68",
+        "va": "0x18056be68",
+        "encoding": "ascii",
+        "text": "CMXF_CloseFile"
+      },
+      {
+        "rva": "0x56be78",
+        "va": "0x18056be78",
+        "encoding": "ascii",
+        "text": "CMXF_AddExData"
+      },
+      {
+        "rva": "0x56be88",
+        "va": "0x18056be88",
+        "encoding": "ascii",
+        "text": "CMXF_CreateFileEx"
+      },
+      {
+        "rva": "0x56bea0",
+        "va": "0x18056bea0",
+        "encoding": "ascii",
+        "text": "CMXF_GetProgressInfo"
+      },
+      {
+        "rva": "0x56beb8",
+        "va": "0x18056beb8",
+        "encoding": "ascii",
+        "text": "CMXF_GetCurrentStatus"
+      },
+      {
+        "rva": "0x56bed0",
+        "va": "0x18056bed0",
+        "encoding": "ascii",
+        "text": "CMXF_SetPDProxyDuration"
+      },
+      {
+        "rva": "0x56c170",
+        "va": "0x18056c170",
+        "encoding": "ascii",
+        "text": "D:\\Agent\\vsts-agent-win-x64-2.210.1\\_work\\28\\s\\src\\work\\PlugIn\\MXF\\MxfPlugIn\\MxfExporter.cpp"
+      },
+      {
+        "rva": "0x56bde8",
+        "va": "0x18056bde8",
+        "encoding": "utf-16le",
+        "text": "cmxfapi.dll"
+      },
+      {
+        "rva": "0x56bf18",
+        "va": "0x18056bf18",
+        "encoding": "utf-16le",
+        "text": "    "
+      },
+      {
+        "rva": "0x56c1e0",
+        "va": "0x18056c1e0",
+        "encoding": "utf-16le",
+        "text": "Export Error : 0"
+      },
+      {
+        "rva": "0x585710",
+        "va": "0x180585710",
+        "encoding": "utf-16le",
+        "text": "Grass Valley K.K. XDCAM SourceMedia PlugIn"
+      },
+      {
+        "rva": "0x585770",
+        "va": "0x180585770",
+        "encoding": "utf-16le",
+        "text": "Grass Valley K.K. XAVCS SourceMedia PlugIn"
+      },
+      {
+        "rva": "0x5857f8",
+        "va": "0x1805857f8",
+        "encoding": "utf-16le",
+        "text": "\\MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x585818",
+        "va": "0x180585818",
+        "encoding": "utf-16le",
+        "text": "\\XDROOT\\MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x585848",
+        "va": "0x180585848",
+        "encoding": "utf-16le",
+        "text": "\\PRIVATE\\XDROOT\\MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x585888",
+        "va": "0x180585888",
+        "encoding": "utf-16le",
+        "text": "\\PXROOT\\MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x5858b8",
+        "va": "0x1805858b8",
+        "encoding": "utf-16le",
+        "text": "\\PRIVATE\\PXROOT\\MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x585910",
+        "va": "0x180585910",
+        "encoding": "utf-16le",
+        "text": "\\M4ROOT\\MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x585940",
+        "va": "0x180585940",
+        "encoding": "utf-16le",
+        "text": "\\PRIVATE\\M4ROOT\\MEDIAPRO.XML"
+      },
+      {
+        "rva": "0x585998",
+        "va": "0x180585998",
+        "encoding": "utf-16le",
+        "text": "\\DISCMETA.XML"
+      },
+      {
+        "rva": "0x5859c0",
+        "va": "0x1805859c0",
+        "encoding": "utf-16le",
+        "text": "\\MSSONY\\PRO\\XDCAM\\MEMDISC\\DISCMETA.XML"
+      },
+      {
+        "rva": "0x585a10",
+        "va": "0x180585a10",
+        "encoding": "utf-16le",
+        "text": "\\private"
+      },
+      {
+        "rva": "0x585a40",
+        "va": "0x180585a40",
+        "encoding": "utf-16le",
+        "text": "\\UserData\\XDROOT"
+      },
+      {
+        "rva": "0x585a68",
+        "va": "0x180585a68",
+        "encoding": "utf-16le",
+        "text": "\\UserData\\M4ROOT"
+      },
+      {
+        "rva": "0x585a90",
+        "va": "0x180585a90",
+        "encoding": "utf-16le",
+        "text": "\\UserData\\PXROOT"
+      },
+      {
+        "rva": "0x585ab8",
+        "va": "0x180585ab8",
+        "encoding": "utf-16le",
+        "text": "\\UserData"
+      },
+      {
+        "rva": "0x585ad0",
+        "va": "0x180585ad0",
+        "encoding": "utf-16le",
+        "text": "XDROOT ["
+      },
+      {
+        "rva": "0x585ae8",
+        "va": "0x180585ae8",
+        "encoding": "utf-16le",
+        "text": "M4ROOT ["
+      },
+      {
+        "rva": "0x585b00",
+        "va": "0x180585b00",
+        "encoding": "utf-16le",
+        "text": "PXROOT ["
+      },
+      {
+        "rva": "0x585b18",
+        "va": "0x180585b18",
+        "encoding": "utf-16le",
+        "text": "UserData ["
+      }
+    ]
+  },
+  {
+    "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\cmxfapi.dll",
+    "sha256": "80b68140daad9dedad3ffa3f8a6cc7854ed17aaf0f9dab090976c500272b60f4",
+    "base": "0x180000000",
+    "entry_rva": "0xbb354",
+    "sections": [
+      {
+        "name": ".text",
+        "rva": "0x1000",
+        "entropy": 6.259579455113124
+      },
+      {
+        "name": ".rdata",
+        "rva": "0xcd000",
+        "entropy": 5.991275548108207
+      },
+      {
+        "name": ".data",
+        "rva": "0x12b000",
+        "entropy": 4.781414404459788
+      },
+      {
+        "name": ".pdata",
+        "rva": "0x132000",
+        "entropy": 5.95172983740775
+      },
+      {
+        "name": ".rsrc",
+        "rva": "0x13b000",
+        "entropy": 3.9808883909165007
+      },
+      {
+        "name": ".reloc",
+        "rva": "0x13c000",
+        "entropy": 5.4123105436635335
+      }
+    ],
+    "entry_instructions": [
+      {
+        "va": "0x1800bb354",
+        "instruction": "mov qword ptr [rsp + 8], rbx"
+      },
+      {
+        "va": "0x1800bb359",
+        "instruction": "mov qword ptr [rsp + 0x10], rsi"
+      },
+      {
+        "va": "0x1800bb35e",
+        "instruction": "push rdi"
+      },
+      {
+        "va": "0x1800bb35f",
+        "instruction": "sub rsp, 0x20"
+      },
+      {
+        "va": "0x1800bb363",
+        "instruction": "mov rdi, r8"
+      },
+      {
+        "va": "0x1800bb366",
+        "instruction": "mov ebx, edx"
+      },
+      {
+        "va": "0x1800bb368",
+        "instruction": "mov rsi, rcx"
+      },
+      {
+        "va": "0x1800bb36b",
+        "instruction": "cmp edx, 1"
+      },
+      {
+        "va": "0x1800bb36e",
+        "instruction": "jne 0x1800bb375"
+      },
+      {
+        "va": "0x1800bb370",
+        "instruction": "call 0x1800bb9a0"
+      },
+      {
+        "va": "0x1800bb375",
+        "instruction": "mov r8, rdi"
+      },
+      {
+        "va": "0x1800bb378",
+        "instruction": "mov edx, ebx"
+      },
+      {
+        "va": "0x1800bb37a",
+        "instruction": "mov rcx, rsi"
+      },
+      {
+        "va": "0x1800bb37d",
+        "instruction": "mov rbx, qword ptr [rsp + 0x30]"
+      },
+      {
+        "va": "0x1800bb382",
+        "instruction": "mov rsi, qword ptr [rsp + 0x38]"
+      },
+      {
+        "va": "0x1800bb387",
+        "instruction": "add rsp, 0x20"
+      }
+    ],
+    "strings": []
+  }
+]

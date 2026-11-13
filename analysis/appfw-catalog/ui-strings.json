@@ -1,0 +1,92 @@
+{
+  "0x25865a0": [
+    {
+      "pc": "0x25865f0",
+      "address": "0x4a8eb58",
+      "string": "void model::model_api::detail::get_content_date_by_index(model::content_index_t, uint16_t*, uint8_t*, uint8_t*)"
+    },
+    {
+      "pc": "0x25865f4",
+      "address": "0x4a8b1a8",
+      "string": "model_api.cpp"
+    },
+    {
+      "pc": "0x25866f0",
+      "address": "0x4a8904f",
+      "string": "sidb_GetRootSetGeneralPlayback(%x)=%d err at %d"
+    },
+    {
+      "pc": "0x2586770",
+      "address": "0x4a8ac84",
+      "string": "sidb_Select2(%x,%x) err at %d"
+    }
+  ],
+  "0x2e2c25c": [
+    {
+      "pc": "0x2e2c27c",
+      "address": "0x4b16a80",
+      "string": "model::contents_rootset_type_t model::get_rootset_type_from_order(model::setting_display_order_t)"
+    },
+    {
+      "pc": "0x2e2c284",
+      "address": "0x4af1ae1",
+      "string": "model_data_utility.cpp"
+    }
+  ],
+  "0x318db78": [
+    {
+      "pc": "0x318dd14",
+      "address": "0x4ba8595",
+      "string": "sequence_complex_refine_for_filter refine_out.refined_count = %d"
+    }
+  ],
+  "0x359529c": [
+    {
+      "pc": "0x35957b4",
+      "address": "0x4bf7223",
+      "string": "sequence_update_data_set [filter] root_dataset_non_representative = %d"
+    },
+    {
+      "pc": "0x35957c4",
+      "address": "0x4bf726a",
+      "string": "sequence_update_data_set [filter] playback_filtered_contents_num  = %d"
+    },
+    {
+      "pc": "0x3595860",
+      "address": "0x4bf72b1",
+      "string": "sequence_update_data_set [filter] root_dataset            = %d"
+    },
+    {
+      "pc": "0x3595870",
+      "address": "0x4bf72f0",
+      "string": "sequence_update_data_set [filter] m_play_info.content_num = %d"
+    },
+    {
+      "pc": "0x3596268",
+      "address": "0x4bf732f",
+      "string": "index[%d] num[%d]\n"
+    }
+  ],
+  "0x3604954": [
+    {
+      "pc": "0x3604970",
+      "address": "0x4c1ded7",
+      "string": "sidb_err [0x%x]"
+    },
+    {
+      "pc": "0x3604988",
+      "address": "0x4c23068",
+      "string": "convert_sidb_err_to_model_err"
+    },
+    {
+      "pc": "0x360498c",
+      "address": "0x4b989a0",
+      "string": "[INFRA_WRAPPER]"
+    },
+    {
+      "pc": "0x3604990",
+      "address": "0x4c1dece",
+      "string": "%s%s(%d) sidb_err [0x%x]"
+    }
+  ]
+}

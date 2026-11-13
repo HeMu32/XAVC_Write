@@ -1,0 +1,18 @@
+0028e8e0 stp x29,x30,[sp, #-0x20]!
+0028e8e4 mov x29,sp
+0028e8e8 stp x19,x20,[sp, #0x10]
+0028e8ec mov x20,x0
+0028e8f0 mov x0,#0x18
+0028e8f4 bl 0x0017f030
+0028e8f8 mov x19,x0
+0028e8fc bl 0x00290268
+0028e900 str x19,[x20, #0x18]
+0028e904 mov x0,x19
+0028e908 mov w1,#0x8c9f
+0028e90c bl 0x00290274
+0028e910 cmp w0,#0x0
+0028e914 mov w0,#0x64
+0028e918 csel w0,w0,wzr,ne
+0028e91c ldp x19,x20,[sp, #0x10]
+0028e920 ldp x29,x30,[sp], #0x20
+0028e924 ret

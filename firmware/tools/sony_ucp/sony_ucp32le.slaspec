@@ -1,0 +1,15 @@
+# Analysis-only extension to the installed Apache-licensed Ghidra MIPS language.
+# These names are not vendor mnemonics. Only the repeated rs=7 encodings are
+# modeled; device behavior remains opaque and must not be treated as emulation.
+@include "mips32le.slaspec"
+
+define pcodeop sony_ucp_read7;
+define pcodeop sony_ucp_write7;
+
+:ucp_read7 RT, immed is $(AMODE) & prime=0x1a & rs=7 & RT & immed {
+    RT = sony_ucp_read7(immed:4);
+}
+
+:ucp_write7 immed, RTsrc is $(AMODE) & prime=0x2c & rs=7 & RTsrc & immed {
+    sony_ucp_write7(immed:4, RTsrc);
+}

@@ -1,0 +1,3608 @@
+{
+  "firmware": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\firmware\\m4-v602\\usr\\codec\\vcd_firmware_imola2.bin",
+  "sha256": "15e75a9732e2f9904ada1c919c631dac0da57e605ce3daa4c6fb2ebe98982b5b",
+  "unicorn": "2.1.4",
+  "camera_playback": "NOT_TESTED",
+  "full_decoder_emulated": false,
+  "custom_instructions_emulated": false,
+  "hardware_hooks": false,
+  "cores": {
+    "a_gp": "0x807bf0e0",
+    "b_gp": "0x8096a0e0"
+  },
+  "guards": {
+    "profile_idc": {
+      "address_a": "0x8078eff4",
+      "address_b": "0x80939ff4",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 1,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 2,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 3,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 4,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 5,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 6,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 7,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 8,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 9,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 10,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 11,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 12,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 13,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 14,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 15,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 16,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 17,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 18,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 19,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 20,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 21,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 22,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 23,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 24,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 25,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 26,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 27,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 28,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 29,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 30,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 31,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 32,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 33,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 34,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 35,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 36,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 37,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 38,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 39,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 40,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 41,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 42,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 43,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 44,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 45,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 46,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 47,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 48,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 49,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 50,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 51,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 52,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 53,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 54,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 55,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 56,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 57,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 58,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 59,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 60,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 61,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 62,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 63,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 64,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 65,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 66,
+          "return_u32": 66,
+          "flags_u32": 0
+        },
+        {
+          "input": 67,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 68,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 69,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 70,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 71,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 72,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 73,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 74,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 75,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 76,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 77,
+          "return_u32": 77,
+          "flags_u32": 0
+        },
+        {
+          "input": 78,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 79,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 80,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 81,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 82,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 83,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 84,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 85,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 86,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 87,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 88,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 89,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 90,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 91,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 92,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 93,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 94,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 95,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 96,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 97,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 98,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 99,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 100,
+          "return_u32": 100,
+          "flags_u32": 0
+        },
+        {
+          "input": 101,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 102,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 103,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 104,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 105,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 106,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 107,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 108,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 109,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 110,
+          "return_u32": 110,
+          "flags_u32": 0
+        },
+        {
+          "input": 111,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 112,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 113,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 114,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 115,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 116,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 117,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 118,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 119,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 120,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 121,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 122,
+          "return_u32": 122,
+          "flags_u32": 0
+        },
+        {
+          "input": 123,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 124,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 125,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 126,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 127,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 128,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 129,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 130,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 131,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 132,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 133,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 134,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 135,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 136,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 137,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 138,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 139,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 140,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 141,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 142,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 143,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 144,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 145,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 146,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 147,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 148,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 149,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 150,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 151,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 152,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 153,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 154,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 155,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 156,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 157,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 158,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 159,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 160,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 161,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 162,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 163,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 164,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 165,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 166,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 167,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 168,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 169,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 170,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 171,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 172,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 173,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 174,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 175,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 176,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 177,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 178,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 179,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 180,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 181,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 182,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 183,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 184,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 185,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 186,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 187,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 188,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 189,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 190,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 191,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 192,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 193,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 194,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 195,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 196,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 197,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 198,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 199,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 200,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 201,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 202,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 203,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 204,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 205,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 206,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 207,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 208,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 209,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 210,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 211,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 212,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 213,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 214,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 215,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 216,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 217,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 218,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 219,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 220,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 221,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 222,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 223,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 224,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 225,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 226,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 227,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 228,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 229,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 230,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 231,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 232,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 233,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 234,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 235,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 236,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 237,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 238,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 239,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 240,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 241,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 242,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 243,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 244,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 245,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 246,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 247,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 248,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 249,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 250,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 251,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 252,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 253,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 254,
+          "return_u32": 100,
+          "flags_u32": 4
+        },
+        {
+          "input": 255,
+          "return_u32": 100,
+          "flags_u32": 4
+        }
+      ]
+    },
+    "level_idc": {
+      "address_a": "0x8078f04c",
+      "address_b": "0x8093a04c",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        },
+        {
+          "input": 2,
+          "return_u32": 2,
+          "flags_u32": 0
+        },
+        {
+          "input": 3,
+          "return_u32": 3,
+          "flags_u32": 0
+        },
+        {
+          "input": 4,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 5,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 6,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 7,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 8,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 9,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 10,
+          "return_u32": 10,
+          "flags_u32": 0
+        },
+        {
+          "input": 11,
+          "return_u32": 11,
+          "flags_u32": 0
+        },
+        {
+          "input": 12,
+          "return_u32": 12,
+          "flags_u32": 0
+        },
+        {
+          "input": 13,
+          "return_u32": 13,
+          "flags_u32": 0
+        },
+        {
+          "input": 14,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 15,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 16,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 17,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 18,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 19,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 20,
+          "return_u32": 20,
+          "flags_u32": 0
+        },
+        {
+          "input": 21,
+          "return_u32": 21,
+          "flags_u32": 0
+        },
+        {
+          "input": 22,
+          "return_u32": 22,
+          "flags_u32": 0
+        },
+        {
+          "input": 23,
+          "return_u32": 23,
+          "flags_u32": 0
+        },
+        {
+          "input": 24,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 25,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 26,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 27,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 28,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 29,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 30,
+          "return_u32": 30,
+          "flags_u32": 0
+        },
+        {
+          "input": 31,
+          "return_u32": 31,
+          "flags_u32": 0
+        },
+        {
+          "input": 32,
+          "return_u32": 32,
+          "flags_u32": 0
+        },
+        {
+          "input": 33,
+          "return_u32": 33,
+          "flags_u32": 0
+        },
+        {
+          "input": 34,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 35,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 36,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 37,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 38,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 39,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 40,
+          "return_u32": 40,
+          "flags_u32": 0
+        },
+        {
+          "input": 41,
+          "return_u32": 41,
+          "flags_u32": 0
+        },
+        {
+          "input": 42,
+          "return_u32": 42,
+          "flags_u32": 0
+        },
+        {
+          "input": 43,
+          "return_u32": 43,
+          "flags_u32": 0
+        },
+        {
+          "input": 44,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 45,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 46,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 47,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 48,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 49,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 50,
+          "return_u32": 50,
+          "flags_u32": 0
+        },
+        {
+          "input": 51,
+          "return_u32": 51,
+          "flags_u32": 0
+        },
+        {
+          "input": 52,
+          "return_u32": 52,
+          "flags_u32": 0
+        },
+        {
+          "input": 53,
+          "return_u32": 53,
+          "flags_u32": 0
+        },
+        {
+          "input": 54,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 55,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 56,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 57,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 58,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 59,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 60,
+          "return_u32": 60,
+          "flags_u32": 0
+        },
+        {
+          "input": 61,
+          "return_u32": 61,
+          "flags_u32": 0
+        },
+        {
+          "input": 62,
+          "return_u32": 62,
+          "flags_u32": 0
+        },
+        {
+          "input": 63,
+          "return_u32": 63,
+          "flags_u32": 0
+        },
+        {
+          "input": 64,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 65,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 66,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 67,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 68,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 69,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 70,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 71,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 72,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 73,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 74,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 75,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 76,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 77,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 78,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 79,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 80,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 81,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 82,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 83,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 84,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 85,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 86,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 87,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 88,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 89,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 90,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 91,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 92,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 93,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 94,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 95,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 96,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 97,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 98,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 99,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 100,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 101,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 102,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 103,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 104,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 105,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 106,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 107,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 108,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 109,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 110,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 111,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 112,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 113,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 114,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 115,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 116,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 117,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 118,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 119,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 120,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 121,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 122,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 123,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 124,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 125,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 126,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 127,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 128,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 129,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 130,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 131,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 132,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 133,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 134,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 135,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 136,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 137,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 138,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 139,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 140,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 141,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 142,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 143,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 144,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 145,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 146,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 147,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 148,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 149,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 150,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 151,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 152,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 153,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 154,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 155,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 156,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 157,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 158,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 159,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 160,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 161,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 162,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 163,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 164,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 165,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 166,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 167,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 168,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 169,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 170,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 171,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 172,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 173,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 174,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 175,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 176,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 177,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 178,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 179,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 180,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 181,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 182,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 183,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 184,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 185,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 186,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 187,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 188,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 189,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 190,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 191,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 192,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 193,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 194,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 195,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 196,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 197,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 198,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 199,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 200,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 201,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 202,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 203,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 204,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 205,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 206,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 207,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 208,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 209,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 210,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 211,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 212,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 213,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 214,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 215,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 216,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 217,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 218,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 219,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 220,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 221,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 222,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 223,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 224,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 225,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 226,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 227,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 228,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 229,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 230,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 231,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 232,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 233,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 234,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 235,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 236,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 237,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 238,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 239,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 240,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 241,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 242,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 243,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 244,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 245,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 246,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 247,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 248,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 249,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 250,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 251,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 252,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 253,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 254,
+          "return_u32": 52,
+          "flags_u32": 8
+        },
+        {
+          "input": 255,
+          "return_u32": 52,
+          "flags_u32": 8
+        }
+      ]
+    },
+    "seq_parameter_set_id": {
+      "address_a": "0x8078f0a0",
+      "address_b": "0x8093a0a0",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        },
+        {
+          "input": 31,
+          "return_u32": 31,
+          "flags_u32": 0
+        },
+        {
+          "input": 32,
+          "return_u32": 0,
+          "flags_u32": 16
+        },
+        {
+          "input": 255,
+          "return_u32": 0,
+          "flags_u32": 16
+        },
+        {
+          "input": 4294967295,
+          "return_u32": 0,
+          "flags_u32": 16
+        }
+      ]
+    },
+    "chroma_format_idc": {
+      "address_a": "0x8078f0c4",
+      "address_b": "0x8093a0c4",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 1,
+          "flags_u32": 32
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        },
+        {
+          "input": 2,
+          "return_u32": 2,
+          "flags_u32": 0
+        },
+        {
+          "input": 3,
+          "return_u32": 1,
+          "flags_u32": 32
+        },
+        {
+          "input": 4,
+          "return_u32": 1,
+          "flags_u32": 32
+        },
+        {
+          "input": 4294967295,
+          "return_u32": 1,
+          "flags_u32": 32
+        }
+      ]
+    },
+    "log2_max_frame_num_minus4": {
+      "address_a": "0x8078f13c",
+      "address_b": "0x8093a13c",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 4,
+          "return_u32": 4,
+          "flags_u32": 0
+        },
+        {
+          "input": 12,
+          "return_u32": 12,
+          "flags_u32": 0
+        },
+        {
+          "input": 13,
+          "return_u32": 0,
+          "flags_u32": 256
+        },
+        {
+          "input": 31,
+          "return_u32": 0,
+          "flags_u32": 256
+        },
+        {
+          "input": 4294967295,
+          "return_u32": 0,
+          "flags_u32": 256
+        }
+      ]
+    },
+    "pic_order_cnt_type": {
+      "address_a": "0x8078f160",
+      "address_b": "0x8093a160",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        },
+        {
+          "input": 2,
+          "return_u32": 2,
+          "flags_u32": 0
+        },
+        {
+          "input": 3,
+          "return_u32": 0,
+          "flags_u32": 512
+        },
+        {
+          "input": 4,
+          "return_u32": 0,
+          "flags_u32": 512
+        },
+        {
+          "input": 4294967295,
+          "return_u32": 0,
+          "flags_u32": 512
+        }
+      ]
+    },
+    "log2_max_pic_order_cnt_lsb_minus4": {
+      "address_a": "0x8078f184",
+      "address_b": "0x8093a184",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 4,
+          "return_u32": 4,
+          "flags_u32": 0
+        },
+        {
+          "input": 12,
+          "return_u32": 12,
+          "flags_u32": 0
+        },
+        {
+          "input": 13,
+          "return_u32": 0,
+          "flags_u32": 512
+        },
+        {
+          "input": 31,
+          "return_u32": 0,
+          "flags_u32": 512
+        },
+        {
+          "input": 4294967295,
+          "return_u32": 0,
+          "flags_u32": 512
+        }
+      ]
+    },
+    "pic_width_in_mbs_minus1": {
+      "address_a": "0x8078f1cc",
+      "address_b": "0x8093a1cc",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 5,
+          "flags_u32": 4096
+        },
+        {
+          "input": 4,
+          "return_u32": 5,
+          "flags_u32": 4096
+        },
+        {
+          "input": 5,
+          "return_u32": 5,
+          "flags_u32": 0
+        },
+        {
+          "input": 119,
+          "return_u32": 119,
+          "flags_u32": 0
+        },
+        {
+          "input": 239,
+          "return_u32": 239,
+          "flags_u32": 0
+        },
+        {
+          "input": 511,
+          "return_u32": 511,
+          "flags_u32": 0
+        },
+        {
+          "input": 512,
+          "return_u32": 511,
+          "flags_u32": 4096
+        },
+        {
+          "input": 1023,
+          "return_u32": 511,
+          "flags_u32": 4096
+        }
+      ]
+    },
+    "pic_parameter_set_id": {
+      "address_a": "0x8078ee7c",
+      "address_b": "0x80939e7c",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        },
+        {
+          "input": 255,
+          "return_u32": 255,
+          "flags_u32": 0
+        },
+        {
+          "input": 256,
+          "return_u32": 0,
+          "flags_u32": 16384
+        },
+        {
+          "input": 1023,
+          "return_u32": 0,
+          "flags_u32": 16384
+        },
+        {
+          "input": 4294967295,
+          "return_u32": 0,
+          "flags_u32": 16384
+        }
+      ]
+    },
+    "num_slice_groups_minus1": {
+      "address_a": "0x8078eea0",
+      "address_b": "0x80939ea0",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 0,
+          "flags_u32": 32768
+        },
+        {
+          "input": 2,
+          "return_u32": 0,
+          "flags_u32": 32768
+        },
+        {
+          "input": 7,
+          "return_u32": 0,
+          "flags_u32": 32768
+        },
+        {
+          "input": 255,
+          "return_u32": 0,
+          "flags_u32": 32768
+        }
+      ]
+    },
+    "num_ref_idx_l0_default_active_minus1": {
+      "address_a": "0x8078eebc",
+      "address_b": "0x80939ebc",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        },
+        {
+          "input": 15,
+          "return_u32": 15,
+          "flags_u32": 0
+        },
+        {
+          "input": 31,
+          "return_u32": 31,
+          "flags_u32": 0
+        },
+        {
+          "input": 32,
+          "return_u32": 0,
+          "flags_u32": 65536
+        },
+        {
+          "input": 255,
+          "return_u32": 0,
+          "flags_u32": 65536
+        }
+      ]
+    },
+    "num_ref_idx_l1_default_active_minus1": {
+      "address_a": "0x8078eee4",
+      "address_b": "0x80939ee4",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        },
+        {
+          "input": 15,
+          "return_u32": 15,
+          "flags_u32": 0
+        },
+        {
+          "input": 31,
+          "return_u32": 31,
+          "flags_u32": 0
+        },
+        {
+          "input": 32,
+          "return_u32": 0,
+          "flags_u32": 131072
+        },
+        {
+          "input": 255,
+          "return_u32": 0,
+          "flags_u32": 131072
+        }
+      ]
+    },
+    "chroma_qp_index_offset": {
+      "address_a": "0x8078ef7c",
+      "address_b": "0x80939f7c",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": -14,
+          "return_u32": 0,
+          "flags_u32": 524288
+        },
+        {
+          "input": -13,
+          "return_u32": 0,
+          "flags_u32": 524288
+        },
+        {
+          "input": -12,
+          "return_u32": 4294967284,
+          "flags_u32": 0
+        },
+        {
+          "input": -11,
+          "return_u32": 4294967285,
+          "flags_u32": 0
+        },
+        {
+          "input": -10,
+          "return_u32": 4294967286,
+          "flags_u32": 0
+        },
+        {
+          "input": -9,
+          "return_u32": 4294967287,
+          "flags_u32": 0
+        },
+        {
+          "input": -8,
+          "return_u32": 4294967288,
+          "flags_u32": 0
+        },
+        {
+          "input": -7,
+          "return_u32": 4294967289,
+          "flags_u32": 0
+        },
+        {
+          "input": -6,
+          "return_u32": 4294967290,
+          "flags_u32": 0
+        },
+        {
+          "input": -5,
+          "return_u32": 4294967291,
+          "flags_u32": 0
+        },
+        {
+          "input": -4,
+          "return_u32": 4294967292,
+          "flags_u32": 0
+        },
+        {
+          "input": -3,
+          "return_u32": 4294967293,
+          "flags_u32": 0
+        },
+        {
+          "input": -2,
+          "return_u32": 4294967294,
+          "flags_u32": 0
+        },
+        {
+          "input": -1,
+          "return_u32": 4294967295,
+          "flags_u32": 0
+        },
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        },
+        {
+          "input": 2,
+          "return_u32": 2,
+          "flags_u32": 0
+        },
+        {
+          "input": 3,
+          "return_u32": 3,
+          "flags_u32": 0
+        },
+        {
+          "input": 4,
+          "return_u32": 4,
+          "flags_u32": 0
+        },
+        {
+          "input": 5,
+          "return_u32": 5,
+          "flags_u32": 0
+        },
+        {
+          "input": 6,
+          "return_u32": 6,
+          "flags_u32": 0
+        },
+        {
+          "input": 7,
+          "return_u32": 7,
+          "flags_u32": 0
+        },
+        {
+          "input": 8,
+          "return_u32": 8,
+          "flags_u32": 0
+        },
+        {
+          "input": 9,
+          "return_u32": 9,
+          "flags_u32": 0
+        },
+        {
+          "input": 10,
+          "return_u32": 10,
+          "flags_u32": 0
+        },
+        {
+          "input": 11,
+          "return_u32": 11,
+          "flags_u32": 0
+        },
+        {
+          "input": 12,
+          "return_u32": 12,
+          "flags_u32": 0
+        },
+        {
+          "input": 13,
+          "return_u32": 0,
+          "flags_u32": 524288
+        },
+        {
+          "input": 14,
+          "return_u32": 0,
+          "flags_u32": 524288
+        }
+      ]
+    },
+    "redundant_pic_cnt_present_flag": {
+      "address_a": "0x8078efa8",
+      "address_b": "0x80939fa8",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 0,
+          "flags_u32": 1048576
+        }
+      ]
+    },
+    "second_chroma_qp_index_offset": {
+      "address_a": "0x8078efc8",
+      "address_b": "0x80939fc8",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": -14,
+          "return_u32": 0,
+          "flags_u32": 2097152
+        },
+        {
+          "input": -13,
+          "return_u32": 0,
+          "flags_u32": 2097152
+        },
+        {
+          "input": -12,
+          "return_u32": 4294967284,
+          "flags_u32": 0
+        },
+        {
+          "input": -11,
+          "return_u32": 4294967285,
+          "flags_u32": 0
+        },
+        {
+          "input": -10,
+          "return_u32": 4294967286,
+          "flags_u32": 0
+        },
+        {
+          "input": -9,
+          "return_u32": 4294967287,
+          "flags_u32": 0
+        },
+        {
+          "input": -8,
+          "return_u32": 4294967288,
+          "flags_u32": 0
+        },
+        {
+          "input": -7,
+          "return_u32": 4294967289,
+          "flags_u32": 0
+        },
+        {
+          "input": -6,
+          "return_u32": 4294967290,
+          "flags_u32": 0
+        },
+        {
+          "input": -5,
+          "return_u32": 4294967291,
+          "flags_u32": 0
+        },
+        {
+          "input": -4,
+          "return_u32": 4294967292,
+          "flags_u32": 0
+        },
+        {
+          "input": -3,
+          "return_u32": 4294967293,
+          "flags_u32": 0
+        },
+        {
+          "input": -2,
+          "return_u32": 4294967294,
+          "flags_u32": 0
+        },
+        {
+          "input": -1,
+          "return_u32": 4294967295,
+          "flags_u32": 0
+        },
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        },
+        {
+          "input": 2,
+          "return_u32": 2,
+          "flags_u32": 0
+        },
+        {
+          "input": 3,
+          "return_u32": 3,
+          "flags_u32": 0
+        },
+        {
+          "input": 4,
+          "return_u32": 4,
+          "flags_u32": 0
+        },
+        {
+          "input": 5,
+          "return_u32": 5,
+          "flags_u32": 0
+        },
+        {
+          "input": 6,
+          "return_u32": 6,
+          "flags_u32": 0
+        },
+        {
+          "input": 7,
+          "return_u32": 7,
+          "flags_u32": 0
+        },
+        {
+          "input": 8,
+          "return_u32": 8,
+          "flags_u32": 0
+        },
+        {
+          "input": 9,
+          "return_u32": 9,
+          "flags_u32": 0
+        },
+        {
+          "input": 10,
+          "return_u32": 10,
+          "flags_u32": 0
+        },
+        {
+          "input": 11,
+          "return_u32": 11,
+          "flags_u32": 0
+        },
+        {
+          "input": 12,
+          "return_u32": 12,
+          "flags_u32": 0
+        },
+        {
+          "input": 13,
+          "return_u32": 0,
+          "flags_u32": 2097152
+        },
+        {
+          "input": 14,
+          "return_u32": 0,
+          "flags_u32": 2097152
+        }
+      ]
+    },
+    "vui_parameters_present_flag": {
+      "address_a": "0x8078f24c",
+      "address_b": "0x8093a24c",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        }
+      ]
+    },
+    "nal_hrd_parameters_present_flag": {
+      "address_a": "0x8078f254",
+      "address_b": "0x8093a254",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        }
+      ]
+    },
+    "vcl_hrd_parameters_present_flag": {
+      "address_a": "0x8078f25c",
+      "address_b": "0x8093a25c",
+      "both_copies_equal": true,
+      "cases": [
+        {
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0
+        },
+        {
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0
+        }
+      ]
+    }
+  },
+  "traces": [
+    {
+      "trace": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\avc-coherent-all-sei.json",
+      "checks": [
+        {
+          "field": "profile_idc",
+          "input": 100,
+          "return_u32": 100,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "level_idc",
+          "input": 42,
+          "return_u32": 42,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "seq_parameter_set_id",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "chroma_format_idc",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "log2_max_frame_num_minus4",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "pic_order_cnt_type",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "log2_max_pic_order_cnt_lsb_minus4",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "pic_width_in_mbs_minus1",
+          "input": 119,
+          "return_u32": 119,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "pic_parameter_set_id",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "num_slice_groups_minus1",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "num_ref_idx_l0_default_active_minus1",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "num_ref_idx_l1_default_active_minus1",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "chroma_qp_index_offset",
+          "input": -2,
+          "return_u32": 4294967294,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "redundant_pic_cnt_present_flag",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "second_chroma_qp_index_offset",
+          "input": -2,
+          "return_u32": 4294967294,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "vui_parameters_present_flag",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "nal_hrd_parameters_present_flag",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "vcl_hrd_parameters_present_flag",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        }
+      ],
+      "trace_sha256": "d897516cea3c1a5b13c124377b0765209618a0c6ee572d6ba634b117935e633a",
+      "missing_trace_fields": [],
+      "passed_selected_guards": true,
+      "scope": "Selected scalar helpers only; not full syntax or decode"
+    },
+    {
+      "trace": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\avc-generic-cat-all-sei.json",
+      "checks": [
+        {
+          "field": "profile_idc",
+          "input": 100,
+          "return_u32": 100,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "level_idc",
+          "input": 42,
+          "return_u32": 42,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "seq_parameter_set_id",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "chroma_format_idc",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "log2_max_frame_num_minus4",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "pic_order_cnt_type",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "log2_max_pic_order_cnt_lsb_minus4",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "pic_width_in_mbs_minus1",
+          "input": 119,
+          "return_u32": 119,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "pic_parameter_set_id",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "num_slice_groups_minus1",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "num_ref_idx_l0_default_active_minus1",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "num_ref_idx_l1_default_active_minus1",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "chroma_qp_index_offset",
+          "input": -2,
+          "return_u32": 4294967294,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "redundant_pic_cnt_present_flag",
+          "input": 0,
+          "return_u32": 0,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "second_chroma_qp_index_offset",
+          "input": -2,
+          "return_u32": 4294967294,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "vui_parameters_present_flag",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "nal_hrd_parameters_present_flag",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        },
+        {
+          "field": "vcl_hrd_parameters_present_flag",
+          "input": 1,
+          "return_u32": 1,
+          "flags_u32": 0,
+          "not_corrected_or_flagged": true
+        }
+      ],
+      "trace_sha256": "04bf64e04de4dfe59cff772c1e2ed5d5cc48b6717828a2f48b785e0dd0b4f9f1",
+      "missing_trace_fields": [],
+      "passed_selected_guards": true,
+      "scope": "Selected scalar helpers only; not full syntax or decode"
+    }
+  ]
+}

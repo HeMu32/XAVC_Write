@@ -1,0 +1,183 @@
+STATIC DISASSEMBLY OF CODE CAPTURED FROM EDIUS PID 47056
+Not a dynamic export/write trace. No inferred file-commit semantics.
+Normalized PE SHA256 b610fd1440b389324c0513219b1930743947d977fe1d4342f489ec95ccbb83f4
+Preferred base 0x180000000; live capture base 0x7ffc5b300000
+All addresses below use preferred VA. Live VA = actual base + RVA.
+
+=== Restored code sample, previously transformed on disk ===
+RVA 0x215df0; captured live VA 0x7ffc5b515df0
+0x180215df0  48 83 ec 28                        sub rsp, 0x28
+0x180215df4  ff 15 7e c8 4d 00                  call qword ptr [rip + 0x4dc87e]
+0x180215dfa  90                                 nop 
+0x180215dfb  48 83 c4 28                        add rsp, 0x28
+0x180215dff  c3                                 ret 
+0x180215e00  48 83 ec 28                        sub rsp, 0x28
+0x180215e04  ff 15 6e c8 4d 00                  call qword ptr [rip + 0x4dc86e]
+0x180215e0a  90                                 nop 
+0x180215e0b  48 83 c4 28                        add rsp, 0x28
+0x180215e0f  c3                                 ret 
+
+=== CExportXAVCS vtable installation references ===
+RVA 0x234559; captured live VA 0x7ffc5b534559
+0x180234559  48 8d 05 a0 d2 4d 00               lea rax, [rip + 0x4dd2a0]
+0x180234560  48 89 03                           mov qword ptr [rbx], rax
+0x180234563  48 8d 05 de d2 4d 00               lea rax, [rip + 0x4dd2de]
+0x18023456a  48 89 43 10                        mov qword ptr [rbx + 0x10], rax
+0x18023456e  48 8d 05 13 d3 4d 00               lea rax, [rip + 0x4dd313]
+0x180234575  48 89 43 18                        mov qword ptr [rbx + 0x18], rax
+0x180234579  48 8b 07                           mov rax, qword ptr [rdi]
+0x18023457c  48 63 48 04                        movsxd rcx, dword ptr [rax + 4]
+0x180234580  48 8d 05 29 d3 4d 00               lea rax, [rip + 0x4dd329]
+0x180234587  48 89 44 19 20                     mov qword ptr [rcx + rbx + 0x20], rax
+0x18023458c  48 8b 07                           mov rax, qword ptr [rdi]
+0x18023458f  48 63 48 08                        movsxd rcx, dword ptr [rax + 8]
+0x180234593  48 8d 05 3e d3 4d 00               lea rax, [rip + 0x4dd33e]
+0x18023459a  48 89 44 19 20                     mov qword ptr [rcx + rbx + 0x20], rax
+0x18023459f  48 8b 07                           mov rax, qword ptr [rdi]
+0x1802345a2  48 63 48 0c                        movsxd rcx, dword ptr [rax + 0xc]
+0x1802345a6  48 8d 05 ab d3 4d 00               lea rax, [rip + 0x4dd3ab]
+0x1802345ad  48 89 44 19 20                     mov qword ptr [rcx + rbx + 0x20], rax
+0x1802345b2  48 8b 07                           mov rax, qword ptr [rdi]
+0x1802345b5  48 63 48 10                        movsxd rcx, dword ptr [rax + 0x10]
+0x1802345b9  48 8d 05 30 d4 4d 00               lea rax, [rip + 0x4dd430]
+0x1802345c0  48 89 44 19 20                     mov qword ptr [rcx + rbx + 0x20], rax
+0x1802345c5  48 8b 07                           mov rax, qword ptr [rdi]
+0x1802345c8  48 63 48 14                        movsxd rcx, dword ptr [rax + 0x14]
+0x1802345cc  48 8d 05 55 d4 4d 00               lea rax, [rip + 0x4dd455]
+0x1802345d3  48 89 44 19 20                     mov qword ptr [rcx + rbx + 0x20], rax
+0x1802345d8  48 8b 07                           mov rax, qword ptr [rdi]
+0x1802345db  48 63 48 18                        movsxd rcx, dword ptr [rax + 0x18]
+0x1802345df  48 8d 05 a2 d4 4d 00               lea rax, [rip + 0x4dd4a2]
+
+=== Caller to updater-containing implementation ===
+RVA 0x23bf00; captured live VA 0x7ffc5b53bf00
+0x18023bf00  48 89 5c 24 08                     mov qword ptr [rsp + 8], rbx
+0x18023bf05  48 89 74 24 10                     mov qword ptr [rsp + 0x10], rsi
+0x18023bf0a  48 89 7c 24 18                     mov qword ptr [rsp + 0x18], rdi
+0x18023bf0f  55                                 push rbp
+0x18023bf10  41 54                              push r12
+0x18023bf12  41 55                              push r13
+0x18023bf14  41 56                              push r14
+0x18023bf16  41 57                              push r15
+0x18023bf18  48 8b ec                           mov rbp, rsp
+0x18023bf1b  48 83 ec 70                        sub rsp, 0x70
+0x18023bf1f  4c 8b f1                           mov r14, rcx
+0x18023bf22  48 83 b9 58 01 00 00 00            cmp qword ptr [rcx + 0x158], 0
+0x18023bf2a  0f 84 cb 01 00 00                  je 0x18023c0fb
+0x18023bf30  0f 57 c0                           xorps xmm0, xmm0
+0x18023bf33  f3 0f 7f 45 c0                     movdqu xmmword ptr [rbp - 0x40], xmm0
+0x18023bf38  45 33 ed                           xor r13d, r13d
+0x18023bf3b  4c 89 6d d0                        mov qword ptr [rbp - 0x30], r13
+0x18023bf3f  48 8d 55 c0                        lea rdx, [rbp - 0x40]
+0x18023bf43  e8 38 bc ff ff                     call 0x180237b80
+0x18023bf48  85 c0                              test eax, eax
+0x18023bf4a  0f 88 4c 01 00 00                  js 0x18023c09c
+0x18023bf50  48 8b 5d c8                        mov rbx, qword ptr [rbp - 0x38]
+
+=== CPDMediaProfileUpdater object setup and conditional helper ===
+RVA 0x238510; captured live VA 0x7ffc5b538510
+0x180238510  48 8b c8                           mov rcx, rax
+0x180238513  e8 28 51 f9 ff                     call 0x1801cd640
+0x180238518  90                                 nop 
+0x180238519  48 8d 05 90 92 4d 00               lea rax, [rip + 0x4d9290]
+0x180238520  48 89 07                           mov qword ptr [rdi], rax
+0x180238523  4c 89 67 20                        mov qword ptr [rdi + 0x20], r12
+0x180238527  4c 89 67 28                        mov qword ptr [rdi + 0x28], r12
+0x18023852b  4c 89 67 30                        mov qword ptr [rdi + 0x30], r12
+0x18023852f  48 8d 4f 38                        lea rcx, [rdi + 0x38]
+0x180238533  ff 15 e7 ad 4b 00                  call qword ptr [rip + 0x4bade7]
+0x180238539  90                                 nop 
+0x18023853a  48 8d 05 8f 95 4d 00               lea rax, [rip + 0x4d958f]
+0x180238541  48 89 07                           mov qword ptr [rdi], rax
+0x180238544  c7 47 40 0a 00 02 00               mov dword ptr [rdi + 0x40], 0x2000a
+0x18023854b  48 8d 4f 48                        lea rcx, [rdi + 0x48]
+0x18023854f  ff 15 cb ad 4b 00                  call qword ptr [rip + 0x4badcb]
+0x180238555  90                                 nop 
+0x180238556  48 8d 05 a3 95 4d 00               lea rax, [rip + 0x4d95a3]
+0x18023855d  48 89 07                           mov qword ptr [rdi], rax
+0x180238560  4c 89 67 50                        mov qword ptr [rdi + 0x50], r12
+0x180238564  4c 89 67 58                        mov qword ptr [rdi + 0x58], r12
+0x180238568  4c 89 67 60                        mov qword ptr [rdi + 0x60], r12
+0x18023856c  48 8d 4f 68                        lea rcx, [rdi + 0x68]
+0x180238570  ff 15 aa ad 4b 00                  call qword ptr [rip + 0x4badaa]
+0x180238576  90                                 nop 
+0x180238577  48 8d 4f 70                        lea rcx, [rdi + 0x70]
+0x18023857b  ff 15 9f ad 4b 00                  call qword ptr [rip + 0x4bad9f]
+0x180238581  90                                 nop 
+0x180238582  48 8d 4f 78                        lea rcx, [rdi + 0x78]
+0x180238586  ff 15 94 ad 4b 00                  call qword ptr [rip + 0x4bad94]
+0x18023858c  90                                 nop 
+0x18023858d  48 8d 8f 80 00 00 00               lea rcx, [rdi + 0x80]
+0x180238594  ff 15 86 ad 4b 00                  call qword ptr [rip + 0x4bad86]
+0x18023859a  90                                 nop 
+0x18023859b  48 8d 8f 88 00 00 00               lea rcx, [rdi + 0x88]
+0x1802385a2  ff 15 78 ad 4b 00                  call qword ptr [rip + 0x4bad78]
+0x1802385a8  90                                 nop 
+0x1802385a9  c6 87 90 00 00 00 01               mov byte ptr [rdi + 0x90], 1
+0x1802385b0  eb 03                              jmp 0x1802385b5
+0x1802385b2  49 8b fc                           mov rdi, r12
+0x1802385b5  4c 8d 35 6c a1 4d 00               lea r14, [rip + 0x4da16c]
+0x1802385bc  49 8b c6                           mov rax, r14
+0x1802385bf  48 89 44 24 40                     mov qword ptr [rsp + 0x40], rax
+0x1802385c4  4c 89 64 24 48                     mov qword ptr [rsp + 0x48], r12
+0x1802385c9  48 85 ff                           test rdi, rdi
+0x1802385cc  74 09                              je 0x1802385d7
+0x1802385ce  f0 ff 47 08                        lock inc dword ptr [rdi + 8]
+0x1802385d2  48 8b 44 24 40                     mov rax, qword ptr [rsp + 0x40]
+0x1802385d7  48 8d 4c 24 40                     lea rcx, [rsp + 0x40]
+0x1802385dc  ff 50 08                           call qword ptr [rax + 8]
+0x1802385df  48 89 7c 24 48                     mov qword ptr [rsp + 0x48], rdi
+0x1802385e4  48 8b 44 24 70                     mov rax, qword ptr [rsp + 0x70]
+0x1802385e9  48 63 48 f0                        movsxd rcx, dword ptr [rax - 0x10]
+0x1802385ed  48 89 45 08                        mov qword ptr [rbp + 8], rax
+0x1802385f1  48 89 4d 10                        mov qword ptr [rbp + 0x10], rcx
+0x1802385f5  48 8d 4d 08                        lea rcx, [rbp + 8]
+0x1802385f9  e8 22 6f 20 00                     call 0x18043f520
+0x1802385fe  44 0f b6 f8                        movzx r15d, al
+0x180238602  84 c0                              test al, al
+0x180238604  74 21                              je 0x180238627
+0x180238606  48 8b 54 24 70                     mov rdx, qword ptr [rsp + 0x70]
+0x18023860b  48 8b 4c 24 48                     mov rcx, qword ptr [rsp + 0x48]
+0x180238610  e8 db 00 f8 ff                     call 0x1801b86f0
+0x180238615  85 c0                              test eax, eax
+0x180238617  0f 89 76 01 00 00                  jns 0x180238793
+0x18023861d  4c 89 74 24 40                     mov qword ptr [rsp + 0x40], r14
+0x180238622  e9 62 04 00 00                     jmp 0x180238a89
+0x180238627  48 8b 44 24 48                     mov rax, qword ptr [rsp + 0x48]
+0x18023862c  c7 40 40 0a 00 02 00               mov dword ptr [rax + 0x40], 0x2000a
+0x180238633  48 8d 4d 08                        lea rcx, [rbp + 8]
+0x180238637  e8 a4 b7 1d 00                     call 0x180413de0
+0x18023863c  90                                 nop 
+
+=== Updater vtable slot 3 helper delegation ===
+RVA 0x1c4360; captured live VA 0x7ffc5b4c4360
+0x1801c4360  48 89 5c 24 08                     mov qword ptr [rsp + 8], rbx
+0x1801c4365  48 89 54 24 10                     mov qword ptr [rsp + 0x10], rdx
+0x1801c436a  57                                 push rdi
+0x1801c436b  48 83 ec 20                        sub rsp, 0x20
+0x1801c436f  48 8b fa                           mov rdi, rdx
+0x1801c4372  48 8b d9                           mov rbx, rcx
+0x1801c4375  48 8d 44 24 40                     lea rax, [rsp + 0x40]
+0x1801c437a  48 89 44 24 48                     mov qword ptr [rsp + 0x48], rax
+0x1801c437f  48 8b 0a                           mov rcx, qword ptr [rdx]
+0x1801c4382  48 89 4c 24 40                     mov qword ptr [rsp + 0x40], rcx
+0x1801c4387  48 85 c9                           test rcx, rcx
+0x1801c438a  74 07                              je 0x1801c4393
+0x1801c438c  48 8b 01                           mov rax, qword ptr [rcx]
+0x1801c438f  ff 50 08                           call qword ptr [rax + 8]
+0x1801c4392  90                                 nop 
+0x1801c4393  41 b8 01 00 00 00                  mov r8d, 1
+0x1801c4399  48 8d 54 24 40                     lea rdx, [rsp + 0x40]
+0x1801c439e  48 8b cb                           mov rcx, rbx
+0x1801c43a1  e8 fa ad ff ff                     call 0x1801bf1a0
+0x1801c43a6  8b d8                              mov ebx, eax
+0x1801c43a8  48 8b 0f                           mov rcx, qword ptr [rdi]
+0x1801c43ab  48 85 c9                           test rcx, rcx
+0x1801c43ae  74 08                              je 0x1801c43b8
+0x1801c43b0  48 8b 11                           mov rdx, qword ptr [rcx]
+0x1801c43b3  ff 52 10                           call qword ptr [rdx + 0x10]
+0x1801c43b6  8b c3                              mov eax, ebx
+0x1801c43b8  48 8b 5c 24 30                     mov rbx, qword ptr [rsp + 0x30]
+0x1801c43bd  48 83 c4 20                        add rsp, 0x20
+0x1801c43c1  5f                                 pop rdi
+0x1801c43c2  c3                                 ret 

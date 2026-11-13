@@ -1,0 +1,12 @@
+The user explicitly authorized consulting this existing DSH chat for Sony firmware research.
+I am working in C:\Users\HeMu\Desktop\XAVC_Write on ffmpeg-generated XAVC-S HD
+1920x1080 60000/1001 progressive, 25 Mbps, AVC High 8-bit 4:2:0, playable on
+ILCE-7M4, with SD card M4ROOT cataloging (not CFExpress).
+Please provide a focused handoff of existing firmware binaries, extracted trees,
+Ghidra projects, symbol indexes, parsing and headless tools and findings.
+Prioritize AVC playback admission checks, Sony MP4 PROF/VPRF parsing,
+SD PRIVATE/DATABASE/DATABASE.BIN and MEDIAPRO.XML generation or repair.
+Which ELF libraries / functions should I inspect? Distinguish proven facts from guesses.
+No camera access, firmware flashing, card changes, or changes to your project.
+Please write your handoff to a uniquely named docs/handoff-dsh-<project>.md under
+C:\Users\HeMu\Desktop\XAVC_Write and finish. You need not send any reply to another chat.

@@ -1,0 +1,379 @@
+{
+  "status": "closed",
+  "closed_at": "2026-11-12T22:43:53.214690+08:00",
+  "hash_verification": "PASS",
+  "original_installed_module_unchanged": true,
+  "evidence_summary": {
+    "capture_manifest": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\live-mpeg-47056-20261112T134903Z\\capture.json",
+    "hashes_verified": true,
+    "pid_at_capture": 47056,
+    "capture_start_utc": "2026-11-12T13:49:03.919881+00:00",
+    "actual_base": "0x7ffc5b300000",
+    "preferred_base": "0x180000000",
+    "memory_sha256": "f9516794f40a502796ae5b2129d2f77955bc01334987c10f4145910f56300abd",
+    "analysis_pe_sha256": "b610fd1440b389324c0513219b1930743947d977fe1d4342f489ec95ccbb83f4",
+    "read_failures": 0,
+    "access": "PROCESS_QUERY_INFORMATION | PROCESS_VM_READ only",
+    "scope": "Existing module capture only; no new process read, GUI, export, or card access.",
+    "evidence_grade": "Runtime-captured bytes, statically decoded; not observed export execution.",
+    "rtti": {
+      "CExportXAVCS": {
+        "type_descriptor": "0x18094ab90",
+        "vtables": [
+          {
+            "col": "0x1807fc7a0",
+            "object_offset": 0,
+            "vtable": "0x180711800",
+            "entries": [
+              "0x18023cae0",
+              "0x1802358a0",
+              "0x18023cd40",
+              "0x180239870",
+              "0x180239880",
+              "0x180239ba0",
+              "0x180239200",
+              "0x180235580"
+            ]
+          },
+          {
+            "col": "0x1807fcc90",
+            "object_offset": 16,
+            "vtable": "0x180711848",
+            "entries": [
+              "0x18023caec",
+              "0x1802358ac",
+              "0x18023cd4c",
+              "0x180239bc0",
+              "0x180239770",
+              "0x180239180",
+              "0x180239a30"
+            ]
+          },
+          {
+            "col": "0x1807fccb8",
+            "object_offset": 24,
+            "vtable": "0x180711888",
+            "entries": [
+              "0x18023caf8",
+              "0x1802358b8",
+              "0x18023cd58",
+              "0x180235960"
+            ]
+          },
+          {
+            "col": "0x1807fcce0",
+            "object_offset": 608,
+            "vtable": "0x1807118b0",
+            "entries": [
+              "0x18023c890",
+              "0x18023581c",
+              "0x18023ccc0",
+              "0x18023c5f4"
+            ]
+          },
+          {
+            "col": "0x1807fcd08",
+            "object_offset": 624,
+            "vtable": "0x1807118d8",
+            "entries": [
+              "0x18023c8a4",
+              "0x180235830",
+              "0x18023ccd4",
+              "0x18023a018",
+              "0x180239664",
+              "0x18023a2b4",
+              "0x1802395f0",
+              "0x180239218",
+              "0x18023a02c",
+              "0x18023a090",
+              "0x180239650",
+              "0x180239ff8",
+              "0x180236720",
+              "0x180239574",
+              "0x1802396ec"
+            ]
+          },
+          {
+            "col": "0x1807fcd30",
+            "object_offset": 640,
+            "vtable": "0x180711958",
+            "entries": [
+              "0x18023c8b8",
+              "0x180235844",
+              "0x18023cce8",
+              "0x180236cf8",
+              "0x18023d448",
+              "0x180236e00",
+              "0x18023d658",
+              "0x180236bec",
+              "0x1802392b4",
+              "0x18023b4b4",
+              "0x180236ff8",
+              "0x180236e78",
+              "0x180237518",
+              "0x18023939c",
+              "0x1802395c4",
+              "0x18023d2b8",
+              "0x18023a158",
+              "0x180238f64"
+            ]
+          },
+          {
+            "col": "0x1807fcd58",
+            "object_offset": 656,
+            "vtable": "0x1807119f0",
+            "entries": [
+              "0x18023c8cc",
+              "0x180235858",
+              "0x18023ccfc",
+              "0x180239190",
+              "0x180239700",
+              "0x180239678"
+            ]
+          },
+          {
+            "col": "0x1807fcd80",
+            "object_offset": 672,
+            "vtable": "0x180711a28",
+            "entries": [
+              "0x18023c8e0",
+              "0x18023586c",
+              "0x18023cd10",
+              "0x180239558",
+              "0x180239540",
+              "0x180239580",
+              "0x180239518",
+              "0x18023d018",
+              "0x180239848",
+              "0x180239e68",
+              "0x1802358e4"
+            ]
+          },
+          {
+            "col": "0x1807fcda8",
+            "object_offset": 688,
+            "vtable": "0x180711a88",
+            "entries": [
+              "0x18023c8f4",
+              "0x180235880",
+              "0x18023cd24",
+              "0x1802392c4"
+            ]
+          }
+        ]
+      },
+      "CPDMediaProfileUpdater": {
+        "type_descriptor": "0x18094ab20",
+        "vtables": [
+          {
+            "col": "0x1807fc660",
+            "object_offset": 0,
+            "vtable": "0x180711b00",
+            "entries": [
+              "0x1802356a0",
+              "0x1801c3070",
+              "0x1801c1ab0",
+              "0x1801c4360",
+              "0x1801b86e0"
+            ]
+          }
+        ]
+      },
+      "CPDMediaProfile": {
+        "type_descriptor": "0x18094aad0",
+        "vtables": [
+          {
+            "col": "0x1807fc560",
+            "object_offset": 0,
+            "vtable": "0x180711ad0",
+            "entries": [
+              "0x180235630",
+              "0x1801c3070",
+              "0x1801b91e0",
+              "0x1801b9210",
+              "0x1801b86e0"
+            ]
+          }
+        ]
+      },
+      "CXdcamExMp4ClipWriter": {
+        "type_descriptor": "0x18094afa0",
+        "vtables": [
+          {
+            "col": "0x1807fd778",
+            "object_offset": 0,
+            "vtable": "0x180713788",
+            "entries": [
+              "0x180245f50",
+              "0x180246be0",
+              "0x180247890",
+              "0x180246930",
+              "0x1802469f0",
+              "0x1802469d0",
+              "0x1802461a0"
+            ]
+          }
+        ]
+      }
+    },
+    "confirmed_direct_calls": [
+      {
+        "from": "0x1801c43a1",
+        "function": "0x1801c4360",
+        "target": "0x1801bf1a0",
+        "mnemonic": "call",
+        "import": null
+      },
+      {
+        "from": "0x180238610",
+        "function": "0x180237b80",
+        "target": "0x1801b86f0",
+        "mnemonic": "call",
+        "import": null
+      },
+      {
+        "from": "0x18023bf43",
+        "function": "0x18023bf00",
+        "target": "0x180237b80",
+        "mnemonic": "call",
+        "import": null
+      }
+    ],
+    "confirmed_vtable_references": [
+      {
+        "from": "0x180234559",
+        "function": "0x180234480",
+        "target": "0x180711800",
+        "kind": "vtable",
+        "name": "CExportXAVCS",
+        "instruction": "lea rax, [rip + 0x4dd2a0]"
+      },
+      {
+        "from": "0x18023853a",
+        "function": "0x180237b80",
+        "target": "0x180711ad0",
+        "kind": "vtable",
+        "name": "CPDMediaProfile",
+        "instruction": "lea rax, [rip + 0x4d958f]"
+      },
+      {
+        "from": "0x180238556",
+        "function": "0x180237b80",
+        "target": "0x180711b00",
+        "kind": "vtable",
+        "name": "CPDMediaProfileUpdater",
+        "instruction": "lea rax, [rip + 0x4d95a3]"
+      }
+    ],
+    "explicit_non_claims": [
+      "No verified complete CExportXAVCS entry-to-filesystem-write chain.",
+      "No verified meaning assigned to the unnamed updater methods.",
+      "No observed file creation, XML save, rename, flush, or DATABASE.BIN write.",
+      "No claim that all transformed code in the module has been recovered."
+    ]
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\live-mpeg-47056-20261112T134903Z\\capture.json",
+      "bytes": 5188,
+      "sha256": "e6a04bcab5928acc65ca749ec74da8ca74190c51cd9eda68142a72f6963bd569"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\live-mpeg-47056-20261112T134903Z\\CtsMpegPlugIn.loaded-memory.bin",
+      "bytes": 12577792,
+      "sha256": "f9516794f40a502796ae5b2129d2f77955bc01334987c10f4145910f56300abd"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\live-mpeg-47056-20261112T134903Z\\CtsMpegPlugIn.loaded-normalized-pe.bin",
+      "bytes": 12541416,
+      "sha256": "b610fd1440b389324c0513219b1930743947d977fe1d4342f489ec95ccbb83f4"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\live-mpeg-47056-20261112T134903Z\\loaded-callgraph.json",
+      "bytes": 31692337,
+      "sha256": "7c72ced3989b7540d35c4a7e1721280ab3297659a11957b084f5c31794f935d0"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\live-mpeg-47056-20261112T134903Z\\loaded-rtti.json",
+      "bytes": 4583,
+      "sha256": "297ed9d47cba95abebb81bff9756ef18d5d31a3e7848795d23de5c7ca6b5a96c"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\live-mpeg-47056-20261112T134903Z\\runtime-evidence-summary.json",
+      "bytes": 7342,
+      "sha256": "2e74e61b21136d77957ff3b3b7a9ad69207ac59c295798f9773612439aea19f9"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\live-mpeg-47056-20261112T134903Z\\runtime-anchor-disassembly.txt",
+      "bytes": 12487,
+      "sha256": "15c00c386397fa2a29e855b346c8db22429d07bd31c9abfe128719489921e731"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\capture_loaded_mpeg.py",
+      "bytes": 9061,
+      "sha256": "0b895c4db563aabb253460fcd4df0d567b1bec6e79d83acc8f1f48213d694c27"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\trace_loaded_writer.py",
+      "bytes": 6812,
+      "sha256": "b5f13fac31ad0f61f18a2179b1154fcf48c4abff08d6e33baa48f142b3095076"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\runtime_evidence_packet.py",
+      "bytes": 4237,
+      "sha256": "6a7994f515c057468809d815e1df6a8ce1be2f21ab64a05bb6d89dd7caa07ca8"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\finalize_runtime_evidence.py",
+      "bytes": 4694,
+      "sha256": "76a8b2d9d5100a61ace596f96058e3683be2bb426a9ed72e012c3b93ce501b65"
+    },
+    {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\docs\\edius-writer-catalog-notes.md",
+      "bytes": 21348,
+      "sha256": "24517127fcc32f329b27fe444c8a04569602b4351c05c54160d101afae8fc08b"
+    }
+  ],
+  "process_audit": {
+    "temporary_analysis_processes": [],
+    "retained_application_processes": [
+      {
+        "ProcessId": 47056,
+        "ParentProcessId": 24416,
+        "Name": "EDIUS.exe",
+        "CreationDate": "/Date(1794491177345)/",
+        "CommandLine": "\"C:\\Program Files\\Grass Valley\\EDIUS 11\\EDIUS.exe\" "
+      },
+      {
+        "ProcessId": 44560,
+        "ParentProcessId": 47056,
+        "Name": "EHRenderEngine.exe",
+        "CreationDate": "/Date(1794491180463)/",
+        "CommandLine": "EHRenderEngine.exe --child"
+      },
+      {
+        "ProcessId": 6316,
+        "ParentProcessId": 44560,
+        "Name": "EHRenderWorker.exe",
+        "CreationDate": "/Date(1794491191069)/",
+        "CommandLine": "EHRenderWorker.exe --child --no-gui"
+      },
+      {
+        "ProcessId": 40220,
+        "ParentProcessId": 44560,
+        "Name": "EHRenderWorker.exe",
+        "CreationDate": "/Date(1794491191074)/",
+        "CommandLine": "EHRenderWorker.exe --child --no-gui"
+      }
+    ],
+    "policy": "No EDIUS application or render child terminated; unsaved state preserved.",
+    "inspection_only": true
+  },
+  "capture_session": "Exited normally; OpenProcess handle closed in finally.",
+  "headless_session": "Previously terminated after Computer Use stop; no finished decompilation.",
+  "limits": [
+    "No complete CExportXAVCS entry-to-filesystem-write chain established.",
+    "Runtime image capture, not a dynamic write-operation trace.",
+    "No additional GUI or live process-memory operation during finalization."
+  ]
+}

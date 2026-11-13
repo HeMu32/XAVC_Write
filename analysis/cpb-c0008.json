@@ -1,0 +1,261 @@
+{
+  "input": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-25m-coherent\\C0008.MP4",
+  "sha256": "27ebf88812469b9d5156e32acbfdd189b234ff2712f358d463447792984716b2",
+  "timing_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\timing-c0008.json",
+  "conformance_point": "NAL unit stream; MP4 length prefixes and Annex B bytes excluded",
+  "scope": "Selected CBR CPB conditions only; no DPB/reference or full conformance check",
+  "nal_bytes_by_type": {
+    "1": 43350503,
+    "5": 37528903,
+    "6": 12219,
+    "9": 3068
+  },
+  "schedules": {
+    "nal": {
+      "rate_bits_per_second": 25000000,
+      "capacity_bits": 25000000,
+      "initialization_points": 52,
+      "access_unit_checks": 39988,
+      "peak_occupancy_bits_exact": "214175000/9",
+      "minimum_arrival_margin_seconds_exact": "30793301/112500000",
+      "failure_counts": {
+        "C16_initial_delay_rounding": 1326
+      },
+      "failure_examples": [
+        {
+          "initialization_sample": 0,
+          "sample_index": 30,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "53539934/625",
+          "signaled_initial_delay": 85670
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 60,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "53335877/625",
+          "signaled_initial_delay": 85327
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 90,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "51932966/625",
+          "signaled_initial_delay": 83066
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 120,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "51682271/625",
+          "signaled_initial_delay": 82648
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 150,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "49664624/625",
+          "signaled_initial_delay": 79404
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 180,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "48065189/625",
+          "signaled_initial_delay": 76828
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 210,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "44464568/625",
+          "signaled_initial_delay": 71051
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 240,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "43622501/625",
+          "signaled_initial_delay": 69687
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 270,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "42877616/625",
+          "signaled_initial_delay": 68479
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 300,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "38574221/625",
+          "signaled_initial_delay": 61577
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 330,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "35337398/625",
+          "signaled_initial_delay": 56382
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 360,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "32638811/625",
+          "signaled_initial_delay": 52048
+        }
+      ],
+      "passed_selected_cpb_checks": false
+    },
+    "vcl": {
+      "rate_bits_per_second": 25000000,
+      "capacity_bits": 25000000,
+      "initialization_points": 52,
+      "access_unit_checks": 39988,
+      "peak_occupancy_bits_exact": "214234400/9",
+      "minimum_arrival_margin_seconds_exact": "30794453/112500000",
+      "failure_counts": {
+        "C16_initial_delay_rounding": 1326
+      },
+      "failure_examples": [
+        {
+          "initialization_sample": 0,
+          "sample_index": 30,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "2142344/25",
+          "signaled_initial_delay": 85670
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 60,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "10671931/125",
+          "signaled_initial_delay": 85327
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 90,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "51961856/625",
+          "signaled_initial_delay": 83066
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 120,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "51716273/625",
+          "signaled_initial_delay": 82648
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 150,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "49703738/625",
+          "signaled_initial_delay": 79404
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 180,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "9621883/125",
+          "signaled_initial_delay": 76828
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 210,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "44513906/625",
+          "signaled_initial_delay": 71051
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 240,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "43676951/625",
+          "signaled_initial_delay": 69687
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 270,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "42937178/625",
+          "signaled_initial_delay": 68479
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 300,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "7727779/125",
+          "signaled_initial_delay": 61577
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 330,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "35407184/625",
+          "signaled_initial_delay": 56382
+        },
+        {
+          "initialization_sample": 0,
+          "sample_index": 360,
+          "errors": [
+            "C16_initial_delay_rounding"
+          ],
+          "expected_delay_exact": "32713709/625",
+          "signaled_initial_delay": 52048
+        }
+      ],
+      "passed_selected_cpb_checks": false
+    }
+  },
+  "passed_selected_cpb_checks": false,
+  "camera_playback": "NOT_TESTED"
+}

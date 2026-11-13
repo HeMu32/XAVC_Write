@@ -1,0 +1,84 @@
+{
+  "scope": "workspace only; camera card not accessed",
+  "applied": true,
+  "total_bytes": 113343213,
+  "actions": [
+    {
+      "path": "output/generic-smoke-01/delayed_mono_nonzero_start",
+      "bytes": 13261980,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-01/report.json",
+      "evidence_sha256": "9efd260f673d9fe0fe58647e83d6a21abf9903889e5f43f1f3dede6abffa49ca"
+    },
+    {
+      "path": "output/generic-smoke-01/interlaced_sd",
+      "bytes": 11458763,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-01/report.json",
+      "evidence_sha256": "9efd260f673d9fe0fe58647e83d6a21abf9903889e5f43f1f3dede6abffa49ca"
+    },
+    {
+      "path": "output/generic-smoke-01/portrait_silent",
+      "bytes": 7665257,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-01/report.json",
+      "evidence_sha256": "9efd260f673d9fe0fe58647e83d6a21abf9903889e5f43f1f3dede6abffa49ca"
+    },
+    {
+      "path": "output/generic-smoke-01/short_mono",
+      "bytes": 10145792,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-01/report.json",
+      "evidence_sha256": "9efd260f673d9fe0fe58647e83d6a21abf9903889e5f43f1f3dede6abffa49ca"
+    },
+    {
+      "path": "output/generic-smoke-01/vfr",
+      "bytes": 10709692,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-01/report.json",
+      "evidence_sha256": "9efd260f673d9fe0fe58647e83d6a21abf9903889e5f43f1f3dede6abffa49ca"
+    },
+    {
+      "path": "output/generic-smoke-02/delayed_mono_nonzero_start",
+      "bytes": 13167814,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-02/report.json",
+      "evidence_sha256": "61e8eddf7eefb2cf7b78160c012c2e28bb4cf037303bfd3d19352461bc013aca"
+    },
+    {
+      "path": "output/generic-smoke-02/interlaced_sd",
+      "bytes": 11684533,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-02/report.json",
+      "evidence_sha256": "61e8eddf7eefb2cf7b78160c012c2e28bb4cf037303bfd3d19352461bc013aca"
+    },
+    {
+      "path": "output/generic-smoke-02/portrait_silent",
+      "bytes": 7665581,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-02/report.json",
+      "evidence_sha256": "61e8eddf7eefb2cf7b78160c012c2e28bb4cf037303bfd3d19352461bc013aca"
+    },
+    {
+      "path": "output/generic-smoke-02/rgb_silent",
+      "bytes": 7011420,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-02/report.json",
+      "evidence_sha256": "61e8eddf7eefb2cf7b78160c012c2e28bb4cf037303bfd3d19352461bc013aca"
+    },
+    {
+      "path": "output/generic-smoke-02/short_mono",
+      "bytes": 10086562,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-02/report.json",
+      "evidence_sha256": "61e8eddf7eefb2cf7b78160c012c2e28bb4cf037303bfd3d19352461bc013aca"
+    },
+    {
+      "path": "output/generic-smoke-02/vfr",
+      "bytes": 10485819,
+      "reason": "historical smoke intermediate; report retained",
+      "evidence": "output/generic-smoke-02/report.json",
+      "evidence_sha256": "61e8eddf7eefb2cf7b78160c012c2e28bb4cf037303bfd3d19352461bc013aca"
+    }
+  ]
+}

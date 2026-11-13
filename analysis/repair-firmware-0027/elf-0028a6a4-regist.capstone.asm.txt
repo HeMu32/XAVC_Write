@@ -1,0 +1,56 @@
+// ELF SHA256: 1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532
+// Symbol: _ZN4sidb8sidbhash6registEtj
+// Range authority: .dynsym st_value/st_size; ELF VMAs, no Ghidra body
+// Complete range: [0x28a6a4, 0x28a76c), size 0xc8
+// Section: .text; symbol bytes SHA256: e9724d3b557ad0c85f8d30ece82b8eecb9921b2d99684b269d11409c31476250
+// Capstone: 5.0.7; AArch64 little-endian; no skipdata
+0028a6a4 213c0053 uxth w1, w1
+0028a6a8 3ff00f71 cmp w1, #0x3fc
+0028a6ac c8050054 b.hi #0x28a764
+0028a6b0 fd7bbda9 stp x29, x30, [sp, #-0x30]!
+0028a6b4 fd030091 mov x29, sp
+0028a6b8 f35301a9 stp x19, x20, [sp, #0x10]
+0028a6bc 333c7dd3 ubfiz x19, x1, #3, #0x10
+0028a6c0 f55b02a9 stp x21, x22, [sp, #0x20]
+0028a6c4 f40300aa mov x20, x0
+0028a6c8 1600138b add x22, x0, x19
+0028a6cc f503022a mov w21, w2
+0028a6d0 006873f8 ldr x0, [x0, x19]
+0028a6d4 a00100b5 cbnz x0, #0x28a708
+0028a6d8 002080d2 mov x0, #0x100
+0028a6dc a1dbf797 bl #0x81560
+0028a6e0 806a33f8 str x0, [x20, x19]
+0028a6e4 022080d2 mov x2, #0x100
+0028a6e8 e11f8052 mov w1, #0xff
+0028a6ec bdcaf797 bl #0x7d1e0
+0028a6f0 150000b9 str w21, [x0]
+0028a6f4 00008052 mov w0, #0
+0028a6f8 f35341a9 ldp x19, x20, [sp, #0x10]
+0028a6fc f55b42a9 ldp x21, x22, [sp, #0x20]
+0028a700 fd7bc3a8 ldp x29, x30, [sp], #0x30
+0028a704 c0035fd6 ret
+0028a708 01008052 mov w1, #0
+0028a70c c00240f9 ldr x0, [x22]
+0028a710 227c7ed3 ubfiz x2, x1, #2, #0x20
+0028a714 34008052 mov w20, #1
+0028a718 036862b8 ldr w3, [x0, x2]
+0028a71c 7f040031 cmn w3, #1
+0028a720 61000054 b.ne #0x28a72c
+0028a724 156822b8 str w21, [x0, x2]
+0028a728 14008052 mov w20, #0
+0028a72c 33040011 add w19, w1, #1
+0028a730 7f1640f2 tst x19, #0x3f
+0028a734 21010054 b.ne #0x28a758
+0028a738 21040111 add w1, w1, #0x41
+0028a73c 21f47ed3 lsl x1, x1, #2
+0028a740 b4cbf797 bl #0x7d610
+0028a744 c00200f9 str x0, [x22]
+0028a748 0048338b add x0, x0, w19, uxtw #2
+0028a74c 022080d2 mov x2, #0x100
+0028a750 e11f8052 mov w1, #0xff
+0028a754 a3caf797 bl #0x7d1e0
+0028a758 f4fcff34 cbz w20, #0x28a6f4
+0028a75c e103132a mov w1, w19
+0028a760 ebffff17 b #0x28a70c
+0028a764 e0808052 mov w0, #0x407
+0028a768 c0035fd6 ret

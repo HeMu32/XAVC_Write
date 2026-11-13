@@ -1,0 +1,96 @@
+{
+  "0x36111b4": [
+    {
+      "pc": "0x3611278",
+      "address": "0x4c1d94f",
+      "string": "CONTENTS_DATASET_ROOT_FOR_SEARCH_MEDIA_1 size [%d]"
+    },
+    {
+      "pc": "0x36112d8",
+      "address": "0x4c1d982",
+      "string": "CONTENTS_DATASET_ROOT_FOR_SEARCH_MEDIA_2 size [%d]"
+    },
+    {
+      "pc": "0x36112f4",
+      "address": "0x4c1d9b5",
+      "string": "GetRootSet CONTENTS_DATASET_ROOT_FOR_SEARCH_MEDIA_1 or _2 err1[0x%x] err2[0x%x]"
+    }
+  ],
+  "0x361166c": [
+    {
+      "pc": "0x361175c",
+      "address": "0x4c1fcd8",
+      "string": "void infra_wrapper_mpr::detail::sidb_GetRootSetGeneral(const infra_wrapper_mpr::sidb_GetRootSetGeneral_in_t&, infra_wrapper_mpr::sidb_GetRootSetGeneral_out_t&)"
+    },
+    {
+      "pc": "0x3611760",
+      "address": "0x4c1dc96",
+      "string": "infra_wrapper_mpr.cpp"
+    }
+  ],
+  "0x3611774": [
+    {
+      "pc": "0x3611864",
+      "address": "0x4c20180",
+      "string": "void infra_wrapper_mpr::detail::sidb_GetRootSetGeneralPlayback(const infra_wrapper_mpr::sidb_GetRootSetGeneralPlayback_in_t&, infra_wrapper_mpr::sidb_GetRootSetGeneralPlayback_out_t&)"
+    },
+    {
+      "pc": "0x3611868",
+      "address": "0x4c1dc96",
+      "string": "infra_wrapper_mpr.cpp"
+    }
+  ],
+  "0x361187c": [
+    {
+      "pc": "0x3611954",
+      "address": "0x4c20320",
+      "string": "void infra_wrapper_mpr::detail::sidb_GetRootSetGeneralFtpTransfer(const infra_wrapper_mpr::sidb_GetRootSetGeneralFtpTransfer_in_t&, infra_wrapper_mpr::sidb_GetRootSetGeneralFtpTransfer_out_t&)"
+    },
+    {
+      "pc": "0x3611958",
+      "address": "0x4c1dc96",
+      "string": "infra_wrapper_mpr.cpp"
+    }
+  ],
+  "0x361196c": [
+    {
+      "pc": "0x3611a5c",
+      "address": "0x4c207b0",
+      "string": "void infra_wrapper_mpr::detail::sidb_GetRootSetGeneralBackgroundTransfer(const infra_wrapper_mpr::sidb_GetRootSetGeneralBackgroundTransfer_in_t&, infra_wrapper_mpr::sidb_GetRootSetGeneralBackgroundTransfer_out_t&)"
+    },
+    {
+      "pc": "0x3611a60",
+      "address": "0x4c1dc96",
+      "string": "infra_wrapper_mpr.cpp"
+    }
+  ],
+  "0x3611a74": [
+    {
+      "pc": "0x3611b18",
+      "address": "0x4c1def0",
+      "string": "mpr_err [0x%x]"
+    },
+    {
+      "pc": "0x3611b7c",
+      "address": "0x4c20668",
+      "string": "void infra_wrapper_mpr::detail::sidb_GetRootSetGeneralDeleteTargetMedia(const infra_wrapper_mpr::sidb_GetRootSetGeneralDeleteTargetMedia_in_t&, infra_wrapper_mpr::sidb_GetRootSetGeneralDeleteTargetMedia_out_t&)"
+    },
+    {
+      "pc": "0x3611b80",
+      "address": "0x4c1dc96",
+      "string": "infra_wrapper_mpr.cpp"
+    }
+  ],
+  "0x3611b94": [
+    {
+      "pc": "0x3611c84",
+      "address": "0x4c20598",
+      "string": "void infra_wrapper_mpr::detail::sidb_GetRootSetGeneralSendToSmartphone(const infra_wrapper_mpr::sidb_GetRootSetGeneralSendToSmartphone_in_t&, infra_wrapper_mpr::sidb_GetRootSetGeneralSendToSmartphone_out_t&)"
+    },
+    {
+      "pc": "0x3611c88",
+      "address": "0x4c1dc96",
+      "string": "infra_wrapper_mpr.cpp"
+    }
+  ]
+}

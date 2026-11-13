@@ -1,0 +1,119 @@
+{
+  "reference": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\C0001-reference-0026.MP4",
+  "profile": "uhd60_2997",
+  "half_step": false,
+  "reference_file_sha256": "927fb7c9a622943bfbde54a976a89b05da5de28740012e2d4b93b1c7b857d8bd",
+  "reference_stat": {
+    "size": 22086323,
+    "mtime_ns": 1782271238000000000,
+    "ctime_ns": 1794546325685872000
+  },
+  "samples": 90,
+  "packet_sizes": [
+    1024
+  ],
+  "track": {
+    "timescale": 30000,
+    "duration": 90090,
+    "duration_seconds": 3.003,
+    "stts": [
+      [
+        90,
+        1001
+      ]
+    ]
+  },
+  "template_sha256": "7ec477629be6fa671defbe194e121db1fc7045813026006bd22c77be913c4810",
+  "template_start_timecode_hex": "51140100",
+  "reference_end_timecode_hex": "50170100",
+  "template_start_header_time_fields_hex": "00010e000b",
+  "mismatch_count": 0,
+  "first_mismatches": [],
+  "generated_sha256": "d7fc2dd50b4d9648f3fac040f9928602b970f910b9b5d5bd98e63279bd4ee6d5",
+  "reference_sha256": "d7fc2dd50b4d9648f3fac040f9928602b970f910b9b5d5bd98e63279bd4ee6d5",
+  "observed_varying_offsets": [
+    15,
+    17,
+    20,
+    21
+  ],
+  "rewritten_offsets": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    20,
+    21,
+    22,
+    23
+  ],
+  "opaque_mismatch_count": 0,
+  "examples": [
+    {
+      "frame": 0,
+      "reference_first32_hex": "001c010000500394f00100100100010e000b001e5114010000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f00100100100010e000b001e5114010000000000060e2b34",
+      "reference_timecode_hex": "51140100",
+      "reference_header_time_fields_hex": "00010e000b"
+    },
+    {
+      "frame": 1,
+      "reference_first32_hex": "001c010000500394f00100100100010e000c001e5214010000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f00100100100010e000c001e5214010000000000060e2b34",
+      "reference_timecode_hex": "52140100",
+      "reference_header_time_fields_hex": "00010e000c"
+    },
+    {
+      "frame": 2,
+      "reference_first32_hex": "001c010000500394f00100100100010e000d001e5314010000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f00100100100010e000d001e5314010000000000060e2b34",
+      "reference_timecode_hex": "53140100",
+      "reference_header_time_fields_hex": "00010e000d"
+    },
+    {
+      "frame": 29,
+      "reference_first32_hex": "001c010000500394f00100100100010f000a001e5015010000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f00100100100010f000a001e5015010000000000060e2b34",
+      "reference_timecode_hex": "50150100",
+      "reference_header_time_fields_hex": "00010f000a"
+    },
+    {
+      "frame": 30,
+      "reference_first32_hex": "001c010000500394f00100100100010f000b001e5115010000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f00100100100010f000b001e5115010000000000060e2b34",
+      "reference_timecode_hex": "51150100",
+      "reference_header_time_fields_hex": "00010f000b"
+    },
+    {
+      "frame": 59,
+      "reference_first32_hex": "001c010000500394f001001001000110000a001e5016010000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f001001001000110000a001e5016010000000000060e2b34",
+      "reference_timecode_hex": "50160100",
+      "reference_header_time_fields_hex": "000110000a"
+    },
+    {
+      "frame": 60,
+      "reference_first32_hex": "001c010000500394f001001001000110000b001e5116010000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f001001001000110000b001e5116010000000000060e2b34",
+      "reference_timecode_hex": "51160100",
+      "reference_header_time_fields_hex": "000110000b"
+    },
+    {
+      "frame": 89,
+      "reference_first32_hex": "001c010000500394f001001001000111000a001e5017010000000000060e2b34",
+      "generated_first32_hex": "001c010000500394f001001001000111000a001e5017010000000000060e2b34",
+      "reference_timecode_hex": "50170100",
+      "reference_header_time_fields_hex": "000111000a"
+    }
+  ],
+  "limitations": [
+    "All rtmd packets in this local reference were compared, not video or audio payloads.",
+    "Opaque bytes are copied from sample zero; their semantics and validity are not established.",
+    "Profile selects timecode cadence only, not bitrate or complete profile conformance.",
+    "29.97p retains the template starting timecode; default 59.94p requires a zero start.",
+    "This comparison spans 90 packets (3.003 seconds); only transitions inside the measured starting/ending timecode interval are reference evidence.",
+    "Unobserved boundaries are covered by synthetic unit tests, not reference evidence.",
+    "Byte equality to these EDIUS references does not establish full rtmd validity or successful camera playback; no card was accessed."
+  ]
+}

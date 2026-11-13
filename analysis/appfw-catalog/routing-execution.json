@@ -1,0 +1,503 @@
+{
+  "scope": "Original appFw caller/wrapper instructions; DB/UI calls mocked; NOT camera playback.",
+  "card_access": false,
+  "caller_cases": [
+    {
+      "flags": {
+        "plus10": 0,
+        "plus84": 0,
+        "group_condition": false,
+        "mock_property_1bd4": 0
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000000000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 0,
+        "plus84": 0,
+        "group_condition": false,
+        "mock_property_1bd4": 1
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000000000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 0,
+        "plus84": 0,
+        "group_condition": true,
+        "mock_property_1bd4": 0
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000010000000100000001000000"
+        },
+        {
+          "pc": "0x359543c",
+          "target": "0x35a928c",
+          "request": "02000000563412002143650000000000010000000100000001000000010000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 0,
+        "plus84": 0,
+        "group_condition": true,
+        "mock_property_1bd4": 1
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000010000000100000001000000"
+        },
+        {
+          "pc": "0x359543c",
+          "target": "0x35a928c",
+          "request": "02000000563412002143650000000000010000000100000001000000010000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 0,
+        "plus84": 1,
+        "group_condition": false,
+        "mock_property_1bd4": 0
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000000000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 0,
+        "plus84": 1,
+        "group_condition": false,
+        "mock_property_1bd4": 1
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000000000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 0,
+        "plus84": 1,
+        "group_condition": true,
+        "mock_property_1bd4": 0
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000010000000100000001000000"
+        },
+        {
+          "pc": "0x359543c",
+          "target": "0x35a928c",
+          "request": "02000000563412002143650000000000010000000100000001000000010000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 0,
+        "plus84": 1,
+        "group_condition": true,
+        "mock_property_1bd4": 1
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000010000000100000001000000"
+        },
+        {
+          "pc": "0x359543c",
+          "target": "0x35a928c",
+          "request": "02000000563412002143650000000000010000000100000001000000010000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 1,
+        "plus84": 0,
+        "group_condition": false,
+        "mock_property_1bd4": 0
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000000000000100000001000000"
+        },
+        {
+          "pc": "0x3595690",
+          "target": "0x35a964c",
+          "mode": 22,
+          "compare_byte": 0,
+          "input_handle": 0,
+          "output_handle": 57,
+          "tail_byte_a018": 0
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 1,
+        "plus84": 0,
+        "group_condition": false,
+        "mock_property_1bd4": 1
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000000000000100000001000000"
+        },
+        {
+          "pc": "0x3595690",
+          "target": "0x35a964c",
+          "mode": 22,
+          "compare_byte": 0,
+          "input_handle": 0,
+          "output_handle": 57,
+          "tail_byte_a018": 1
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 1,
+        "plus84": 0,
+        "group_condition": true,
+        "mock_property_1bd4": 0
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000010000000100000001000000"
+        },
+        {
+          "pc": "0x359543c",
+          "target": "0x35a928c",
+          "request": "02000000563412002143650000000000010000000100000001000000010000000100000001000000"
+        },
+        {
+          "pc": "0x3595500",
+          "target": "0x35a964c",
+          "mode": 22,
+          "compare_byte": 0,
+          "input_handle": 1,
+          "output_handle": 57,
+          "tail_byte_a018": 0
+        },
+        {
+          "pc": "0x3595690",
+          "target": "0x35a964c",
+          "mode": 22,
+          "compare_byte": 0,
+          "input_handle": 0,
+          "output_handle": 57,
+          "tail_byte_a018": 0
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 1,
+        "plus84": 0,
+        "group_condition": true,
+        "mock_property_1bd4": 1
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000010000000100000001000000"
+        },
+        {
+          "pc": "0x359543c",
+          "target": "0x35a928c",
+          "request": "02000000563412002143650000000000010000000100000001000000010000000100000001000000"
+        },
+        {
+          "pc": "0x3595500",
+          "target": "0x35a964c",
+          "mode": 22,
+          "compare_byte": 0,
+          "input_handle": 1,
+          "output_handle": 57,
+          "tail_byte_a018": 1
+        },
+        {
+          "pc": "0x3595690",
+          "target": "0x35a964c",
+          "mode": 22,
+          "compare_byte": 0,
+          "input_handle": 0,
+          "output_handle": 57,
+          "tail_byte_a018": 1
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 1,
+        "plus84": 1,
+        "group_condition": false,
+        "mock_property_1bd4": 0
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000000000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 1,
+        "plus84": 1,
+        "group_condition": false,
+        "mock_property_1bd4": 1
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000000000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 1,
+        "plus84": 1,
+        "group_condition": true,
+        "mock_property_1bd4": 0
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000010000000100000001000000"
+        },
+        {
+          "pc": "0x359543c",
+          "target": "0x35a928c",
+          "request": "02000000563412002143650000000000010000000100000001000000010000000100000001000000"
+        }
+      ]
+    },
+    {
+      "flags": {
+        "plus10": 1,
+        "plus84": 1,
+        "group_condition": true,
+        "mock_property_1bd4": 1
+      },
+      "events": [
+        {
+          "pc": "0x3595340",
+          "target": "0x35a924c",
+          "request": "02000000563412002143650000000000010000000100000000000000010000000100000001000000"
+        },
+        {
+          "pc": "0x359543c",
+          "target": "0x35a928c",
+          "request": "02000000563412002143650000000000010000000100000001000000010000000100000001000000"
+        }
+      ]
+    }
+  ],
+  "wrapper_cases": [
+    {
+      "input_type": 0,
+      "override": 0,
+      "root_call": {
+        "count": 2,
+        "media_ids": [
+          1193046,
+          6636321
+        ],
+        "root_type": 0,
+        "require_record6_bit4": 1,
+        "include_onmem_bit1": 1,
+        "cancellable": 0,
+        "result_set": "0x8a9a180"
+      }
+    },
+    {
+      "input_type": 0,
+      "override": 1,
+      "root_call": {
+        "count": 2,
+        "media_ids": [
+          1193046,
+          6636321
+        ],
+        "root_type": 5,
+        "require_record6_bit4": 1,
+        "include_onmem_bit1": 1,
+        "cancellable": 0,
+        "result_set": "0x8a9a180"
+      }
+    },
+    {
+      "input_type": 1,
+      "override": 0,
+      "root_call": {
+        "count": 2,
+        "media_ids": [
+          1193046,
+          6636321
+        ],
+        "root_type": 1,
+        "require_record6_bit4": 1,
+        "include_onmem_bit1": 1,
+        "cancellable": 0,
+        "result_set": "0x8a9a180"
+      }
+    },
+    {
+      "input_type": 1,
+      "override": 1,
+      "root_call": {
+        "count": 2,
+        "media_ids": [
+          1193046,
+          6636321
+        ],
+        "root_type": 5,
+        "require_record6_bit4": 1,
+        "include_onmem_bit1": 1,
+        "cancellable": 0,
+        "result_set": "0x8a9a180"
+      }
+    },
+    {
+      "input_type": 2,
+      "override": 0,
+      "root_call": {
+        "count": 2,
+        "media_ids": [
+          1193046,
+          6636321
+        ],
+        "root_type": 5,
+        "require_record6_bit4": 1,
+        "include_onmem_bit1": 1,
+        "cancellable": 0,
+        "result_set": "0x8a9a180"
+      }
+    },
+    {
+      "input_type": 2,
+      "override": 1,
+      "root_call": {
+        "count": 2,
+        "media_ids": [
+          1193046,
+          6636321
+        ],
+        "root_type": 5,
+        "require_record6_bit4": 1,
+        "include_onmem_bit1": 1,
+        "cancellable": 0,
+        "result_set": "0x8a9a180"
+      }
+    },
+    {
+      "input_type": 3,
+      "override": 0,
+      "root_call": {
+        "count": 2,
+        "media_ids": [
+          1193046,
+          6636321
+        ],
+        "root_type": 6,
+        "require_record6_bit4": 1,
+        "include_onmem_bit1": 1,
+        "cancellable": 0,
+        "result_set": "0x8a9a180"
+      }
+    },
+    {
+      "input_type": 3,
+      "override": 1,
+      "root_call": {
+        "count": 2,
+        "media_ids": [
+          1193046,
+          6636321
+        ],
+        "root_type": 5,
+        "require_record6_bit4": 1,
+        "include_onmem_bit1": 1,
+        "cancellable": 0,
+        "result_set": "0x8a9a180"
+      }
+    },
+    {
+      "input_type": 4,
+      "override": 0,
+      "root_call": {
+        "count": 2,
+        "media_ids": [
+          1193046,
+          6636321
+        ],
+        "root_type": 7,
+        "require_record6_bit4": 1,
+        "include_onmem_bit1": 1,
+        "cancellable": 0,
+        "result_set": "0x8a9a180"
+      }
+    },
+    {
+      "input_type": 4,
+      "override": 1,
+      "root_call": {
+        "count": 2,
+        "media_ids": [
+          1193046,
+          6636321
+        ],
+        "root_type": 5,
+        "require_record6_bit4": 1,
+        "include_onmem_bit1": 1,
+        "cancellable": 0,
+        "result_set": "0x8a9a180"
+      }
+    }
+  ],
+  "assertions": "32 caller cases + 10 root-wrapper cases passed"
+}

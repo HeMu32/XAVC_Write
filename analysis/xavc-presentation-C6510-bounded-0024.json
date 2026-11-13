@@ -1,0 +1,484 @@
+{
+  "media": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\cat-minimal-C6510\\C6510.MP4",
+  "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "card_access": false,
+  "scope": "Original MP4 read-side parser, modeled libc/Fsys; not camera playback",
+  "root_cause_established": false,
+  "media_sha256": "18a2bc5e6a0c5839579304711b9177692494bff501dafecbe1eaf69b89a3890d",
+  "emulation_error": "Reader probe wall-time budget exhausted during {'label': 'presentation_query', 'entry_elf_vma': '0x228170'}",
+  "error_kind": "TimeoutError",
+  "steps": [
+    {
+      "label": "file_object_constructor",
+      "entry_elf_vma": "0x22a730",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "reader_constructor",
+      "entry_elf_vma": "0x222994",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "file_buffer_setup",
+      "entry_elf_vma": "0x22a774",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "readonly_file_open",
+      "entry_elf_vma": "0x22af44",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_mp4_open",
+      "entry_elf_vma": "0x22a380",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "original_movie_property_query",
+      "entry_elf_vma": "0x228fa8",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "selected_start_position_probe",
+      "entry_elf_vma": "0x227714",
+      "return_u32": 0,
+      "void_return_ignored": false
+    }
+  ],
+  "calls": [
+    {
+      "entry_elf_vma": "0x22a730",
+      "return_u32": 1342966704,
+      "modeled_externals": []
+    },
+    {
+      "entry_elf_vma": "0x222994",
+      "return_u32": 1,
+      "modeled_externals": [
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22a774",
+      "return_u32": 0,
+      "modeled_externals": [
+        "calloc"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22af44",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Open",
+        "Fsys_Read",
+        "Fsys_Seek"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x22a380",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "_ZdlPv",
+        "_Znwm",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memmove",
+        "memset",
+        "read_side_diagnostic_message_sink"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x228fa8",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Read",
+        "Fsys_Seek",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memset"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x227714",
+      "return_u32": 0,
+      "modeled_externals": [
+        "Fsys_Seek",
+        "malloc",
+        "memcpy",
+        "memset",
+        "read_side_diagnostic_message_sink"
+      ]
+    }
+  ],
+  "io": [
+    {
+      "operation": "Fsys_Open",
+      "path": "A:/PRIVATE/M4ROOT/CLIP/TEST.MP4",
+      "readonly": true
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18804
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18788
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 131072
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18372
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18564
+    },
+    {
+      "operation": "Fsys_Read",
+      "count": 18672
+    }
+  ],
+  "diagnostic_packets": [
+    "012300030200000001000000fe050000",
+    "0123050302000000e90300000a000000",
+    "01230f0304000000",
+    "01231003020000000100000000000000",
+    "012313030300000000000000",
+    "01231f030300000001000000"
+  ],
+  "original_stdcpp_sha256": "28f2d082aea5206c42ba15664f39e2eaf7febed8f6264305e7e16aa44c878389",
+  "selected_original_runtime_helpers": [
+    {
+      "symbol": "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_",
+      "entry": "0x610a6350"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base",
+      "entry": "0x610a6288"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base",
+      "entry": "0x610a6280"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base",
+      "entry": "0x610a6278"
+    },
+    {
+      "symbol": "_ZSt20_Rb_tree_black_countPKSt18_Rb_tree_node_baseS1_",
+      "entry": "0x610a6b20"
+    },
+    {
+      "symbol": "_ZSt20_Rb_tree_rotate_leftPSt18_Rb_tree_node_baseRS0_",
+      "entry": "0x610a6290"
+    },
+    {
+      "symbol": "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base",
+      "entry": "0x610a6210"
+    },
+    {
+      "symbol": "_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_",
+      "entry": "0x610a65e8"
+    },
+    {
+      "symbol": "_ZSt21_Rb_tree_rotate_rightPSt18_Rb_tree_node_baseRS0_",
+      "entry": "0x610a62f0"
+    }
+  ],
+  "heap_bytes_used": 982912,
+  "last_instructions": [
+    "0x1de570",
+    "0x1de574",
+    "0x1de578",
+    "0x1de57c",
+    "0x1de580",
+    "0x1de584",
+    "0x1de588",
+    "0x1de5b8",
+    "0x1de5bc",
+    "0x1de5c0",
+    "0x1de5c4",
+    "0x1de5c8",
+    "0x1de5cc",
+    "0x1de5d0",
+    "0x1de5d4",
+    "0x1de5d8",
+    "0x1de5ac",
+    "0x1de5b0",
+    "0x1de5b4",
+    "0x1dfa74"
+  ],
+  "last_boundaries": [
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memcpy"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    },
+    {
+      "kind": "modeled_libc",
+      "symbol": "memset"
+    }
+  ],
+  "instruction_count": 688128,
+  "active_step": {
+    "label": "presentation_query",
+    "entry_elf_vma": "0x228170"
+  },
+  "original_entry_trace": {
+    "sample_info": {
+      "calls": 359,
+      "first_args": [
+        "0x500e1078",
+        "0x1",
+        "0x1",
+        "0x0",
+        "0x500c0998",
+        "0x0",
+        "0x0"
+      ],
+      "last_args": [
+        "0x500e1078",
+        "0x2",
+        "0x5b48",
+        "0x0",
+        "0x3000eef8",
+        "0x0",
+        "0x0"
+      ]
+    },
+    "sample_decode_timestamp": {
+      "calls": 348,
+      "first_args": [
+        "0x500e1078",
+        "0x1",
+        "0x1",
+        "0x3000eee0",
+        "0x3000eedc",
+        "0x3000efe0",
+        "0x3000efba"
+      ],
+      "last_args": [
+        "0x500e1078",
+        "0x2",
+        "0x5b47",
+        "0x3000ee48",
+        "0x3000ee34",
+        "0x1",
+        "0x5b47"
+      ]
+    },
+    "presentation_boundary_scan": {
+      "calls": 1,
+      "first_args": [
+        "0x500c07b0",
+        "0x500e1078",
+        "0x500c0978",
+        "0x1",
+        "0x500c0838",
+        "0x3000ef40",
+        "0x3000ef58"
+      ],
+      "last_args": [
+        "0x500c07b0",
+        "0x500e1078",
+        "0x500c0978",
+        "0x1",
+        "0x500c0838",
+        "0x3000ef40",
+        "0x3000ef58"
+      ]
+    },
+    "sync_sample_search": {
+      "calls": 1,
+      "first_args": [
+        "0x500e1078",
+        "0x1",
+        "0x1",
+        "0x1",
+        "0x3000eecc",
+        "0x3000eed8",
+        "0x4"
+      ],
+      "last_args": [
+        "0x500e1078",
+        "0x1",
+        "0x1",
+        "0x1",
+        "0x3000eecc",
+        "0x3000eed8",
+        "0x4"
+      ]
+    }
+  },
+  "guest_registers_at_failure": {
+    "x0": "0x0",
+    "x1": "0x1",
+    "x2": "0x1",
+    "x3": "0x126344",
+    "x4": "0x3000ec40",
+    "x5": "0x5b47",
+    "x6": "0x4",
+    "x7": "0x3000ecec",
+    "x8": "0x500e0fd0",
+    "x9": "0x500c0bb0",
+    "x10": "0x1",
+    "x11": "0x1",
+    "x12": "0x3000ec4c",
+    "x13": "0x3000ec50",
+    "x14": "0x0",
+    "x15": "0x0",
+    "x16": "0x0",
+    "x17": "0x0",
+    "x18": "0x0",
+    "x19": "0x500e2798",
+    "x20": "0x5b48",
+    "x21": "0x0",
+    "x22": "0x3000ed48",
+    "x23": "0x500e0fd0",
+    "x24": "0x500c0bb0",
+    "x25": "0x500e2b78",
+    "x26": "0x0",
+    "x27": "0x3000ec40",
+    "x28": "0x0"
+  },
+  "original_executable_sections_unchanged_after_all_probes": true,
+  "passed_selected_reader_checks": false
+}

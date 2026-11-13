@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-11-13T07:37:28.203845+00:00",
+  "card": "F:\\",
+  "packages": [
+    {
+      "clip": "C6519",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\profiles-0028-hd50-2997\\package",
+      "profile": "encoded_avc",
+      "schema": 5,
+      "frames": 767,
+      "media_sha256": "e217178184cf7104cc6efa2fdfd15ce5b06db1820129bfef5816ab030b15c0cb"
+    },
+    {
+      "clip": "C6520",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\profiles-0028-hd16-2997\\package",
+      "profile": "encoded_avc",
+      "schema": 5,
+      "frames": 767,
+      "media_sha256": "bd191099d30e7bc3921a0f4f3e18aba71d095f924d20458180fbf2a67e9f377b"
+    }
+  ],
+  "checks": {
+    "all_clip_assets_and_final_catalogs_match_verified_files": true,
+    "only_expected_files_added": true,
+    "no_missing_old_files": true,
+    "old_metadata_changes_limited_to_two_catalogs": true,
+    "old_media_sizes_and_write_times_unchanged": true,
+    "control_sources_and_bound_observations_still_bit_exact": true
+  },
+  "passed": true,
+  "readback": {
+    "PRIVATE/M4ROOT/CLIP/C6519.MP4": true,
+    "PRIVATE/M4ROOT/CLIP/C6519M01.XML": true,
+    "PRIVATE/M4ROOT/THMBNL/C6519T01.JPG": true,
+    "PRIVATE/DATABASE/DATABASE.BIN": true,
+    "PRIVATE/M4ROOT/MEDIAPRO.XML": true,
+    "PRIVATE/M4ROOT/CLIP/C6520.MP4": true,
+    "PRIVATE/M4ROOT/CLIP/C6520M01.XML": true,
+    "PRIVATE/M4ROOT/THMBNL/C6520T01.JPG": true
+  },
+  "before_snapshot_audit": {
+    "card": "F:\\",
+    "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T151407",
+    "checked_at_utc": "2026-11-13T07:37:28.039910+00:00",
+    "missing": [],
+    "added": [
+      "PRIVATE/M4ROOT/CLIP/C6519.MP4",
+      "PRIVATE/M4ROOT/CLIP/C6519M01.XML",
+      "PRIVATE/M4ROOT/CLIP/C6520.MP4",
+      "PRIVATE/M4ROOT/CLIP/C6520M01.XML",
+      "PRIVATE/M4ROOT/THMBNL/C6519T01.JPG",
+      "PRIVATE/M4ROOT/THMBNL/C6520T01.JPG"
+    ],
+    "changed_metadata_hashes": [
+      "PRIVATE/DATABASE/DATABASE.BIN",
+      "PRIVATE/M4ROOT/MEDIAPRO.XML"
+    ],
+    "changed_media_size_or_mtime": [],
+    "metadata_files": 71,
+    "media_files": 141,
+    "media_content_hashes_checked": false,
+    "unchanged": false
+  },
+  "camera_listing": "NOT_TESTED",
+  "camera_playback": "NOT_TESTED",
+  "scope": "Metadata hashes and selected media hashes; all other old media use size/mtime"
+}

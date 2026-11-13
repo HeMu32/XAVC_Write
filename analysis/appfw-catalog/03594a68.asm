@@ -1,0 +1,20 @@
+03594a68: fd7bbea9 stp x29, x30, [sp, #-0x20]!
+03594a6c: fd030091 mov x29, sp
+03594a70: f30b00f9 str x19, [sp, #0x10]
+03594a74: f30300aa mov x19, x0
+03594a78: 000440f9 ldr x0, [x0, #8]
+03594a7c: 400000b4 cbz x0, #0x3594a84
+03594a80: 6d430694 bl #0x3725834
+03594a84: e00313aa mov x0, x19
+03594a88: f30b40f9 ldr x19, [sp, #0x10]
+03594a8c: fd7bc2a8 ldp x29, x30, [sp], #0x20
+03594a90: 0d49e517 b #0x2ee6ec4
+03594a94: 7f1c0072 tst w3, #0xff
+03594a98: 00008052 mov w0, #0
+03594a9c: c1000054 b.ne #0x3594ab4
+03594aa0: 3f000071 cmp w1, #0
+03594aa4: e0179f1a cset w0, eq
+03594aa8: 5f040071 cmp w2, #1
+03594aac: e1179f1a cset w1, eq
+03594ab0: 0000010a and w0, w0, w1
+03594ab4: c0035fd6 ret 

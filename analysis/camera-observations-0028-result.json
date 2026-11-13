@@ -1,0 +1,58 @@
+{
+  "reported_date_local": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "source": "Direct user report after physical experiment 0028",
+  "raw_user_report": "看起来都正常. 记录.",
+  "report_scope": "Both newly prepared candidates C6519 and C6520; general normal behavior, not separately itemized feature tests",
+  "camera_body": "ILCE-7M4",
+  "camera_body_basis": "Earlier direct user clarification; no change of body reported",
+  "installed_camera_firmware": null,
+  "prepared_test_sheet": "analysis/camera-test-round-0028.json",
+  "pre_camera_audit": "analysis/sd-test-round-0028.json",
+  "evidence_binding": "Local media SHA256, build manifest, deployment, verification and saved card readback hashes agree for both candidates. No post-camera card readback is claimed.",
+  "card_access_this_result_recording_turn": false,
+  "card_writes_this_result_recording_turn": false,
+  "results": [
+    {
+      "clip": "C6519",
+      "package": "output/profiles-0028-hd50-2997/package",
+      "sony_profile": "hd50_2997",
+      "video": "1920x1080 30000/1001p High@4.1 8-bit 4:2:0 50Mbps",
+      "media_sha256": "e217178184cf7104cc6efa2fdfd15ce5b06db1820129bfef5816ab030b15c0cb",
+      "playback": "SUCCESS_USER_REPORTED",
+      "listed": true,
+      "listing_evidence": "Implied by general normal behavior in the requested physical playback test",
+      "thumbnail_normal": null,
+      "seek": "NOT_SEPARATELY_REPORTED",
+      "full_duration_playback": "NOT_SEPARATELY_REPORTED",
+      "audio": "NOT_SEPARATELY_REPORTED",
+      "camera_error_text": null
+    },
+    {
+      "clip": "C6520",
+      "package": "output/profiles-0028-hd16-2997/package",
+      "sony_profile": "hd16_2997",
+      "video": "1920x1080 30000/1001p High@4.0 8-bit 4:2:0 16Mbps",
+      "media_sha256": "bd191099d30e7bc3921a0f4f3e18aba71d095f924d20458180fbf2a67e9f377b",
+      "playback": "SUCCESS_USER_REPORTED",
+      "listed": true,
+      "listing_evidence": "Implied by general normal behavior in the requested physical playback test",
+      "thumbnail_normal": null,
+      "seek": "NOT_SEPARATELY_REPORTED",
+      "full_duration_playback": "NOT_SEPARATELY_REPORTED",
+      "audio": "NOT_SEPARATELY_REPORTED",
+      "camera_error_text": null
+    }
+  ],
+  "conclusions": {
+    "Cat_1080p2997_nominal50M_8bit420_SD_playback": "ACHIEVED_USER_REPORTED",
+    "Cat_1080p2997_nominal16M_8bit420_SD_playback": "ACHIEVED_USER_REPORTED",
+    "fresh_repaired_baseline_with_independent_sparse_template": "SUCCESS_USER_REPORTED_FOR_THESE_TWO_CANDIDATES",
+    "five_explicit_profiles_have_Cat_physical_playback_evidence": true,
+    "bounded_inference": "The two documented Cat candidates behave normally on the user's camera. This supports the two profile combinations and the additive catalog workflow on the repaired baseline, not arbitrary-input compatibility or necessity of each individual field.",
+    "existing_C6515_control_freshly_reconfirmed": false,
+    "thumbnail_seek_full_duration_and_audio_separately_verified": false,
+    "arbitrary_input_exhaustive_compatibility_verified": false,
+    "normative_conformance_claim": false
+  }
+}

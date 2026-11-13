@@ -1,0 +1,172 @@
+{
+  "path": "C:\\Program Files\\Grass Valley\\EDIUS 11\\PlugIn\\CtsMpegPlugIn.tpi",
+  "sha256": "8c39ea4f83e272a083f7cdc90b3bfe9d4e9ae02a49158091a14914ba1b508d81",
+  "base": "0x180000000",
+  "entry": "0x18058fc20",
+  "instruction_limit": 50000000,
+  "native_execution": false,
+  "instructions": 36936041,
+  "import_policy": "Simulate only GetSystemInfo, VirtualQuery, VirtualProtect and FlushInstructionCache in isolated Unicorn memory; stop at all other imports.",
+  "stubbed_imports": [
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetSystemInfo",
+      "iat": "0x1806f1360"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualQuery",
+      "iat": "0x1806f1350"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": "0x1806f1358"
+    }
+  ],
+  "last_rip": "0x180a3960f",
+  "recent_addresses": [
+    "0x180af7a44",
+    "0x180a3960f",
+    "0x180a39613",
+    "0x180a39617",
+    "0x180a3961a",
+    "0x180a3961c",
+    "0x180a39620",
+    "0x180a39625",
+    "0x180a3962a",
+    "0x180a3962d",
+    "0x180a39630",
+    "0x180a39632",
+    "0x180a3960f",
+    "0x180a39613",
+    "0x180a39617",
+    "0x180a3961a",
+    "0x180a3961c",
+    "0x180a39620",
+    "0x180a39625",
+    "0x180a3962a",
+    "0x180a3962d",
+    "0x180a39630",
+    "0x180a39632",
+    "0x180a3960f"
+  ],
+  "executable_sections": [
+    {
+      "rva": "0x1000",
+      "size": 7273472,
+      "changed_bytes": 8,
+      "before_sha256": "ab72bbe04ab2ef7c283bae88ab093a96537b60bfd9b133e665631e696f8cef41",
+      "after_sha256": "b269ddf6c3a1a90b1d1ff6cfebe5d171af97591e555ff9f5be580e1733af1822"
+    },
+    {
+      "rva": "0xa21000",
+      "size": 1956864,
+      "changed_bytes": 0,
+      "before_sha256": "53c85ce400162f4bbc7791f6d4f3615141ebb4089f133acdb4609d129f86dd30",
+      "after_sha256": "53c85ce400162f4bbc7791f6d4f3615141ebb4089f133acdb4609d129f86dd30"
+    }
+  ],
+  "probe_image": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\edius-catalog\\CtsMpegPlugIn.tpi.probe-image.dll",
+  "probe_image_sha256": "53d991802dc1f4cb3c903e66b47abd7cc4bc6f906cf21224152a2857a671a99f"
+}

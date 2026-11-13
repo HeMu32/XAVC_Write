@@ -1,0 +1,36 @@
+0028e0d0 stp x29,x30,[sp, #-0x20]!
+0028e0d4 mov x29,sp
+0028e0d8 str x19,[sp, #0x10]
+0028e0dc mov x19,x0
+0028e0e0 ldr x0,[x0, #0x58]
+0028e0e4 bl 0x00291490
+0028e0e8 mov w0,#0x1
+0028e0ec bl 0x00180070
+0028e0f0 ldr x0,[x19, #0x60]
+0028e0f4 mov x2,#0xea5c
+0028e0f8 mov w1,#0x0
+0028e0fc strb wzr,[x0, #0x4]
+0028e100 str wzr,[x0]
+0028e104 stp wzr,wzr,[x0, #0x8]
+0028e108 stp wzr,wzr,[x0, #0x10]
+0028e10c stp wzr,wzr,[x0, #0x18]
+0028e110 add x0,x0,#0x20
+0028e114 bl 0x0017d1e0
+0028e118 mov w0,#0x1
+0028e11c bl 0x00180070
+0028e120 ldr x0,[x19, #0x60]
+0028e124 mov x3,#0xea84
+0028e128 mov x2,#0x26c
+0028e12c add x1,x0,#0xe, LSL #12
+0028e130 add x0,x0,x3
+0028e134 str wzr,[x1, #0xa7c]
+0028e138 str wzr,[x1, #0xa80]
+0028e13c mov w1,#0x0
+0028e140 bl 0x0017d1e0
+0028e144 ldr x0,[x19, #0x60]
+0028e148 ldr x19,[sp, #0x10]
+0028e14c add x0,x0,#0xe, LSL #12
+0028e150 strb wzr,[x0, #0xcf0]
+0028e154 mov w0,#0x1
+0028e158 ldp x29,x30,[sp], #0x20
+0028e15c b 0x00180070
