@@ -1,0 +1,516 @@
+{
+  "bitrate_pair_schema": 1,
+  "kind": "bitrate_pair_comparison",
+  "checks": {
+    "ordered_variants_A_B": true,
+    "coding_fields_identical": true,
+    "different_clip_names": true,
+    "same_base_and_encoder_assumptions": true,
+    "reciprocal_peer_and_shared_pair_report": true,
+    "other_manifest_fields_identical": true,
+    "top_level_layout_identical": true,
+    "moov_exact": true,
+    "complete_mdat_boxes_exact": true,
+    "three_track_layout": true,
+    "every_track_payload_sha_equal": true,
+    "sample_descriptions_tables_and_mappings_exact": true,
+    "unique_uuid4_umids": true,
+    "xml_structures_equal_except_target_umid": true,
+    "allowed_field_offsets_identical": true,
+    "entire_mp4_equal_after_precise_masks": true,
+    "other_top_boxes_exact": true,
+    "sidecar_equal_after_precise_umid_mask": true,
+    "thumbnails_exact": true,
+    "actual_rates_identical": true,
+    "bound_inputs_stable_during_comparison": true
+  },
+  "passed": true,
+  "errors": [],
+  "camera_playback": "NOT_TESTED",
+  "scope": "Offline pair isolation only; no decoder/HRD or hardware acceptance proof",
+  "a": {
+    "build": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A",
+    "manifest": {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\build-manifest.json",
+      "size": 69400,
+      "sha256": "46c47ea670a000b0ac71ca725f24da0fea0327c058686aea6289a1e44d5f8c0c"
+    },
+    "experiment_spec": {
+      "schema": 1,
+      "kind": "bitrate_diagnostic",
+      "experiment_id": "0030",
+      "pair_id": "0030-mux-29",
+      "variant": "A",
+      "base_profile": "hd16_2997",
+      "coded_bitrate_kbps": 4000,
+      "hrd_bitrate_kbps": 4000,
+      "cpb_size_kbits": 4000,
+      "prof_average_kbps": 16000,
+      "prof_maximum_kbps": 16000,
+      "creation_time": "2026-11-13T21:31:35+08:00"
+    },
+    "experiment_spec_sha256": "c3f074b9e8af386728f22b32ec57ae1c5e08e927e7436b83bcc51d189b3444ba",
+    "coding_fields": {
+      "schema": 1,
+      "kind": "bitrate_diagnostic",
+      "experiment_id": "0030",
+      "pair_id": "0030-mux-29",
+      "base_profile": "hd16_2997",
+      "coded_bitrate_kbps": 4000,
+      "hrd_bitrate_kbps": 4000,
+      "cpb_size_kbits": 4000,
+      "creation_time": "2026-11-13T21:31:35+08:00"
+    },
+    "coding_fields_sha256": "d26c23a120244aa513b538ecd8dbfaeba0b0c89f322cb2ff334d362ffb272410",
+    "coding_profile": {
+      "name": "bitrate_diagnostic_hd16_2997",
+      "width": 1920,
+      "height": 1080,
+      "fps_num": 30000,
+      "fps_den": 1001,
+      "nominal_bitrate_kbps": 4000,
+      "vbv_buffer_kbits": 4000,
+      "level_idc": 40,
+      "pixel_format": "yuv420p",
+      "gop_frames": 30,
+      "half_step": false,
+      "nal_length_size": 4
+    },
+    "files": {
+      "C0000.MP4": {
+        "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\C0000.MP4",
+        "size": 127259457,
+        "sha256": "64ce29c6561a91e52c7c0116bf2d2c08bae6336f048c3845a6778868ee6329fd"
+      },
+      "C0000M01.XML": {
+        "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\C0000M01.XML",
+        "size": 1376,
+        "sha256": "fae9c59d00f044d466f1787eb0aef326cc32f57f52bc53f622974d165d7ddb57"
+      },
+      "C0000T01.JPG": {
+        "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\C0000T01.JPG",
+        "size": 70617,
+        "sha256": "b6026eb9129c33119cc90c921c27559ab1ac5dbf70e3484cafe5e1dcce539f1c"
+      }
+    },
+    "base": {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\encode\\base.mov",
+      "size": 121956319,
+      "sha256": "3f386cdbd3d77e7a854ace755b7a03cd3ecfe33baf76c4c30c736f1ce93547f8"
+    },
+    "source_spec": {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0030-29-A.json",
+      "size": 346,
+      "sha256": "e0effdc13de651a52baa012b01a0ffb6c65a6d24afb8654673027794ebe8bfba"
+    },
+    "encoder_assumptions": {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\encode\\input-assumptions.json",
+      "size": 836,
+      "sha256": "0b0f93f3ca006228c60442d4c49ed74fee16883fadcd5bfb8947ec0158374ee2"
+    },
+    "diagnostic_evidence": {
+      "peer_build": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\B",
+      "pair_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0030-pair-29.json",
+      "reader_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0030-reader-local-A.json"
+    }
+  },
+  "b": {
+    "build": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\B",
+    "manifest": {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\B\\build-manifest.json",
+      "size": 69398,
+      "sha256": "c38bdfd69e322f024f8f209166a0163383de19ac2aa3c6f927c00ccbc86c5b41"
+    },
+    "experiment_spec": {
+      "schema": 1,
+      "kind": "bitrate_diagnostic",
+      "experiment_id": "0030",
+      "pair_id": "0030-mux-29",
+      "variant": "B",
+      "base_profile": "hd16_2997",
+      "coded_bitrate_kbps": 4000,
+      "hrd_bitrate_kbps": 4000,
+      "cpb_size_kbits": 4000,
+      "prof_average_kbps": 4000,
+      "prof_maximum_kbps": 4000,
+      "creation_time": "2026-11-13T21:31:35+08:00"
+    },
+    "experiment_spec_sha256": "57a491ff488afd46a19b13a0fda13d4985c54f8b43612b498b897a2b4e5cfea3",
+    "coding_fields": {
+      "schema": 1,
+      "kind": "bitrate_diagnostic",
+      "experiment_id": "0030",
+      "pair_id": "0030-mux-29",
+      "base_profile": "hd16_2997",
+      "coded_bitrate_kbps": 4000,
+      "hrd_bitrate_kbps": 4000,
+      "cpb_size_kbits": 4000,
+      "creation_time": "2026-11-13T21:31:35+08:00"
+    },
+    "coding_fields_sha256": "d26c23a120244aa513b538ecd8dbfaeba0b0c89f322cb2ff334d362ffb272410",
+    "coding_profile": {
+      "name": "bitrate_diagnostic_hd16_2997",
+      "width": 1920,
+      "height": 1080,
+      "fps_num": 30000,
+      "fps_den": 1001,
+      "nominal_bitrate_kbps": 4000,
+      "vbv_buffer_kbits": 4000,
+      "level_idc": 40,
+      "pixel_format": "yuv420p",
+      "gop_frames": 30,
+      "half_step": false,
+      "nal_length_size": 4
+    },
+    "files": {
+      "C9999.MP4": {
+        "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\B\\C9999.MP4",
+        "size": 127259457,
+        "sha256": "f65a2b713b64da15d243e41b6f37b9f6d67f618931bbe3df996c54658dde2810"
+      },
+      "C9999M01.XML": {
+        "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\B\\C9999M01.XML",
+        "size": 1376,
+        "sha256": "5b38276b2fda6e0b821231ffe4453f230807a11f45139ecd0789e05380705abd"
+      },
+      "C9999T01.JPG": {
+        "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\B\\C9999T01.JPG",
+        "size": 70617,
+        "sha256": "b6026eb9129c33119cc90c921c27559ab1ac5dbf70e3484cafe5e1dcce539f1c"
+      }
+    },
+    "base": {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\encode\\base.mov",
+      "size": 121956319,
+      "sha256": "3f386cdbd3d77e7a854ace755b7a03cd3ecfe33baf76c4c30c736f1ce93547f8"
+    },
+    "source_spec": {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0030-29-B.json",
+      "size": 344,
+      "sha256": "720832dc9fe16fda32fcb974418278df7d71702f69462a8234769847872655f9"
+    },
+    "encoder_assumptions": {
+      "path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\encode\\input-assumptions.json",
+      "size": 836,
+      "sha256": "0b0f93f3ca006228c60442d4c49ed74fee16883fadcd5bfb8947ec0158374ee2"
+    },
+    "diagnostic_evidence": {
+      "peer_build": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A",
+      "pair_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0030-pair-29.json",
+      "reader_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0030-reader-local-B.json"
+    }
+  },
+  "complete_mdat_boxes": {
+    "a": [
+      {
+        "offset": 176,
+        "size": 127202578,
+        "sha256": "234df6959279a6c7d71004370e277a3d704ed03d3fb137d7574e2d84c831abef"
+      }
+    ],
+    "b": [
+      {
+        "offset": 176,
+        "size": 127202578,
+        "sha256": "234df6959279a6c7d71004370e277a3d704ed03d3fb137d7574e2d84c831abef"
+      }
+    ]
+  },
+  "tracks": {
+    "a": [
+      {
+        "handler": "vide",
+        "codec": "avc1",
+        "samples": 5276,
+        "payload_sha256": "9e9a05456d4b54e9ce23453700af4c1062a42e90304e4ae9fb7a6951b9355c38",
+        "sample_description_sha256": "9aa43bcb91826efe8b4050b407d1d3d26aa73b679373d3001fbdf229124f93c3",
+        "sample_tables_sha256": "11d84081dd32c008190a231da799d438fa121c025e7998a093df4da40ada18f1"
+      },
+      {
+        "handler": "soun",
+        "codec": "twos",
+        "samples": 8450041,
+        "payload_sha256": "16f4578312fbcb27c268630d8994ab36b1b5ceb4bef7151a6bcccf9e894d0baf",
+        "sample_description_sha256": "2b88231294495e314bc5e3847482f80ec0ed1f8678f3f9af947c7eac9c3f9213",
+        "sample_tables_sha256": "b2289ccf1b28ef9bf91ae18523c9b738f55c362450e9e493f689bbf5febb053c"
+      },
+      {
+        "handler": "meta",
+        "codec": "rtmd",
+        "samples": 5276,
+        "payload_sha256": "190045cc5a7240e0f900a0283a9c8810f9738d43d6dff70785a28f6aa102b09f",
+        "sample_description_sha256": "0d2f7f3a0a3b97700c0a092e001fa89e46f9545ffbda7f2bc3e967e2b3b20a22",
+        "sample_tables_sha256": "8a60206fd90cf43df25a4c6a3c4b116f326c18aca78519f35d4b967fe31995fa"
+      }
+    ],
+    "b": [
+      {
+        "handler": "vide",
+        "codec": "avc1",
+        "samples": 5276,
+        "payload_sha256": "9e9a05456d4b54e9ce23453700af4c1062a42e90304e4ae9fb7a6951b9355c38",
+        "sample_description_sha256": "9aa43bcb91826efe8b4050b407d1d3d26aa73b679373d3001fbdf229124f93c3",
+        "sample_tables_sha256": "11d84081dd32c008190a231da799d438fa121c025e7998a093df4da40ada18f1"
+      },
+      {
+        "handler": "soun",
+        "codec": "twos",
+        "samples": 8450041,
+        "payload_sha256": "16f4578312fbcb27c268630d8994ab36b1b5ceb4bef7151a6bcccf9e894d0baf",
+        "sample_description_sha256": "2b88231294495e314bc5e3847482f80ec0ed1f8678f3f9af947c7eac9c3f9213",
+        "sample_tables_sha256": "b2289ccf1b28ef9bf91ae18523c9b738f55c362450e9e493f689bbf5febb053c"
+      },
+      {
+        "handler": "meta",
+        "codec": "rtmd",
+        "samples": 5276,
+        "payload_sha256": "190045cc5a7240e0f900a0283a9c8810f9738d43d6dff70785a28f6aa102b09f",
+        "sample_description_sha256": "0d2f7f3a0a3b97700c0a092e001fa89e46f9545ffbda7f2bc3e967e2b3b20a22",
+        "sample_tables_sha256": "8a60206fd90cf43df25a4c6a3c4b116f326c18aca78519f35d4b967fe31995fa"
+      }
+    ]
+  },
+  "allowed_diff_regions": [
+    {
+      "file": "MP4",
+      "field": "VPRF.prof_average_kbps",
+      "offset": 108,
+      "length": 4,
+      "a_hex": "00003e80",
+      "b_hex": "00000fa0"
+    },
+    {
+      "file": "MP4",
+      "field": "VPRF.prof_maximum_kbps",
+      "offset": 112,
+      "length": 4,
+      "a_hex": "00003e80",
+      "b_hex": "00000fa0"
+    },
+    {
+      "file": "MP4",
+      "field": "meta.xml.TargetMaterial.umidRef",
+      "offset": 127258266,
+      "length": 64,
+      "a_hex": "30363041324233343031303130313035303130313044323331333030303030303031413238303741454445383442374538363838423944434646394232343435",
+      "b_hex": "30363041324233343031303130313035303130313044323331333030303030303935413443333543343338443442303539463831463839453641384539444341"
+    },
+    {
+      "file": "XML",
+      "field": "TargetMaterial.umidRef",
+      "offset": 185,
+      "length": 64,
+      "a_hex": "30363041324233343031303130313035303130313044323331333030303030303031413238303741454445383442374538363838423944434646394232343435",
+      "b_hex": "30363041324233343031303130313035303130313044323331333030303030303935413443333543343338443442303539463831463839453641384539444341"
+    }
+  ],
+  "mp4_diff": {
+    "size_a": 127259457,
+    "size_b": 127259457,
+    "actual_changed_bytes": 32,
+    "unexpected_changed_bytes": 0,
+    "changed_regions": [
+      {
+        "offset": 110,
+        "length": 2,
+        "allowed": true,
+        "a_hex": "3e80",
+        "b_hex": "0fa0",
+        "hex_truncated": false
+      },
+      {
+        "offset": 114,
+        "length": 2,
+        "allowed": true,
+        "a_hex": "3e80",
+        "b_hex": "0fa0",
+        "hex_truncated": false
+      },
+      {
+        "offset": 127258298,
+        "length": 2,
+        "allowed": true,
+        "a_hex": "3031",
+        "b_hex": "3935",
+        "hex_truncated": false
+      },
+      {
+        "offset": 127258301,
+        "length": 9,
+        "allowed": true,
+        "a_hex": "323830374145444538",
+        "b_hex": "344333354334333844",
+        "hex_truncated": false
+      },
+      {
+        "offset": 127258312,
+        "length": 4,
+        "allowed": true,
+        "a_hex": "37453836",
+        "b_hex": "30353946",
+        "hex_truncated": false
+      },
+      {
+        "offset": 127258317,
+        "length": 13,
+        "allowed": true,
+        "a_hex": "38423944434646394232343435",
+        "b_hex": "31463839453641384539444341",
+        "hex_truncated": false
+      }
+    ],
+    "equal_after_precise_masks": true
+  },
+  "xml_diff": {
+    "size_a": 1376,
+    "size_b": 1376,
+    "actual_changed_bytes": 28,
+    "unexpected_changed_bytes": 0,
+    "changed_regions": [
+      {
+        "offset": 217,
+        "length": 2,
+        "allowed": true,
+        "a_hex": "3031",
+        "b_hex": "3935",
+        "hex_truncated": false
+      },
+      {
+        "offset": 220,
+        "length": 9,
+        "allowed": true,
+        "a_hex": "323830374145444538",
+        "b_hex": "344333354334333844",
+        "hex_truncated": false
+      },
+      {
+        "offset": 231,
+        "length": 4,
+        "allowed": true,
+        "a_hex": "37453836",
+        "b_hex": "30353946",
+        "hex_truncated": false
+      },
+      {
+        "offset": 236,
+        "length": 13,
+        "allowed": true,
+        "a_hex": "38423944434646394232343435",
+        "b_hex": "31463839453641384539444341",
+        "hex_truncated": false
+      }
+    ],
+    "equal_after_precise_masks": true
+  },
+  "rates": {
+    "a": {
+      "timescale": 30000,
+      "duration_ticks": 5281276,
+      "duration_seconds": 176.04253333333332,
+      "samples": 5276,
+      "byte_totals": {
+        "video": 87999774,
+        "nal": 87871174,
+        "vcl": 85236364,
+        "filler": 2589388
+      },
+      "nal_type_counts": {
+        "6": 5453,
+        "9": 5276,
+        "5": 704,
+        "1": 20400,
+        "12": 317
+      },
+      "average_bps": {
+        "video": 3999023.2966427053,
+        "nal": 3993179.2544074575,
+        "vcl": 3873444.0994941373,
+        "filler": 117671.01738292034
+      },
+      "one_second_decode_window_peak": {
+        "video": {
+          "bytes": 699550,
+          "start_decode_tick": 8008,
+          "bps": 5596400
+        },
+        "nal": {
+          "bytes": 698818,
+          "start_decode_tick": 8008,
+          "bps": 5590544
+        },
+        "vcl": {
+          "bytes": 689892,
+          "start_decode_tick": 4813809,
+          "bps": 5519136
+        },
+        "filler": {
+          "bytes": 495974,
+          "start_decode_tick": 5211206,
+          "bps": 3967792
+        }
+      },
+      "accounting": {
+        "video": "MP4 video samples including four-byte NAL length prefixes",
+        "nal": "All NAL bytes including NAL headers, excluding MP4 prefixes",
+        "vcl": "NAL types 1-5,19-21; filler excluded",
+        "filler": "NAL type 12 only",
+        "window": "Whole samples at DTS in [start,start+1s); tail zero padded to 1s"
+      }
+    },
+    "b": {
+      "timescale": 30000,
+      "duration_ticks": 5281276,
+      "duration_seconds": 176.04253333333332,
+      "samples": 5276,
+      "byte_totals": {
+        "video": 87999774,
+        "nal": 87871174,
+        "vcl": 85236364,
+        "filler": 2589388
+      },
+      "nal_type_counts": {
+        "6": 5453,
+        "9": 5276,
+        "5": 704,
+        "1": 20400,
+        "12": 317
+      },
+      "average_bps": {
+        "video": 3999023.2966427053,
+        "nal": 3993179.2544074575,
+        "vcl": 3873444.0994941373,
+        "filler": 117671.01738292034
+      },
+      "one_second_decode_window_peak": {
+        "video": {
+          "bytes": 699550,
+          "start_decode_tick": 8008,
+          "bps": 5596400
+        },
+        "nal": {
+          "bytes": 698818,
+          "start_decode_tick": 8008,
+          "bps": 5590544
+        },
+        "vcl": {
+          "bytes": 689892,
+          "start_decode_tick": 4813809,
+          "bps": 5519136
+        },
+        "filler": {
+          "bytes": 495974,
+          "start_decode_tick": 5211206,
+          "bps": 3967792
+        }
+      },
+      "accounting": {
+        "video": "MP4 video samples including four-byte NAL length prefixes",
+        "nal": "All NAL bytes including NAL headers, excluding MP4 prefixes",
+        "vcl": "NAL types 1-5,19-21; filler excluded",
+        "filler": "NAL type 12 only",
+        "window": "Whole samples at DTS in [start,start+1s); tail zero padded to 1s"
+      }
+    }
+  },
+  "actual_changed_bytes": 60
+}

@@ -1,5 +1,13 @@
 # DATABASE.BIN — reverse-engineered field map (Experiment 0001)
 
+**Historical field map, not current write instructions (2026-11-14).**
+Later firmware-backed record indexing, references, checksums and packed dates
+supersede several tables below. Use `tools/sony_db.py`, `tools/sony_umid.py`,
+`tools/stage_sd_catalog.py` and experiments0021/0027/0031 with current snapshots.
+For example, current movie numbers are at record+0x0e and records are addressed
+from0x10000 with160-byte stride; do not use the old relative clip start as the base.
+Current status and safety limits: `docs/current-status.md`.
+
 Source: byte-diff of `backup\baseline\PRIVATE\DATABASE\DATABASE.BIN`
 vs `backup\after\DATABASE.BIN` after recording 2 clips (C5850, C5851).
 File size is constant at **9,670,656 bytes**. 137 bytes changed in 44 regions.

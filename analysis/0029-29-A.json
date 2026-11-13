@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "kind": "bitrate_diagnostic",
+  "experiment_id": "0029",
+  "pair_id": "0029-29",
+  "variant": "A",
+  "base_profile": "hd16_2997",
+  "coded_bitrate_kbps": 4000,
+  "hrd_bitrate_kbps": 4000,
+  "cpb_size_kbits": 4000,
+  "prof_average_kbps": 16000,
+  "prof_maximum_kbps": 16000,
+  "creation_time": "2026-11-13T17:03:26+08:00"
+}

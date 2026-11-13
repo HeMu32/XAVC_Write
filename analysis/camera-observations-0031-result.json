@@ -1,0 +1,45 @@
+{
+  "reported_date_local": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "source": "Direct user report after authorized 0031 metadata and catalog correction",
+  "raw_user_report": "C6520、C6521现在能被相机列出. 看起来是时候用近几轮获取的信息更新工作区内容包括文档了",
+  "camera_body": "ILCE-7M4",
+  "camera_body_basis": "Prior direct user clarification; no different body reported",
+  "installed_camera_firmware": null,
+  "binding": {
+    "deployment_audit": "analysis/0031-repair-final-audit.json",
+    "deployment_audit_sha256": "1c1f80d919c8710d93322aa17eace24adcf65ddd2ffb0dec48e56f686dd20136",
+    "last_verified_deployment_snapshot": "backup/snap_20261114T002832",
+    "meaning": "The report refers to the corrected clip identities. Hashes below identify the last verified deployment, not a new hash measurement made by the camera."
+  },
+  "results": [
+    {
+      "clip": "C6520",
+      "corrected_media_sha256": "6d24dfaba2b31722e147ead025487a5d1cf94a5b66234d151372036977e55b6a",
+      "deployment_package": "output/repair-0031/C6520",
+      "listed": true,
+      "listing_evidence": "EXPLICIT_USER_REPORT",
+      "thumbnail_normal": null,
+      "starts_playback": null,
+      "full_duration_playback": null,
+      "audio": null,
+      "seek": null,
+      "survives_another_database_repair": null
+    },
+    {
+      "clip": "C6521",
+      "corrected_media_sha256": "6d02f8ac45278da9e51993a0c5b3531cea216b22b705768611b9ebb8f5d46c99",
+      "deployment_package": "output/repair-0031/C6521",
+      "listed": true,
+      "listing_evidence": "EXPLICIT_USER_REPORT",
+      "thumbnail_normal": null,
+      "starts_playback": null,
+      "full_duration_playback": null,
+      "audio": null,
+      "seek": null,
+      "survives_another_database_repair": null
+    }
+  ],
+  "scope": "Listing recovery confirmed. Do not promote to corrected-file playback success or survival of another database repair. Historical pre-correction playback reports remain separate.",
+  "historical_preparation_and_deployment_reports_rewritten": false
+}

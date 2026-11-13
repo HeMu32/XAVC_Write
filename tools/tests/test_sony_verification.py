@@ -34,6 +34,16 @@ class VerificationContractTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             require_current_verification(report)
 
+    def test_pre_xml_semantic_gate_report_cannot_be_reused(self):
+        report = self.valid_report()
+        report["verification_schema"] = 5
+        with self.assertRaises(ValueError):
+            require_current_verification(report)
+        report = self.valid_report()
+        del report["checks"]["sony_xml_codec_name_supported"]
+        with self.assertRaises(ValueError):
+            require_current_verification(report)
+
     def test_rejects_false_or_nonboolean_checks(self):
         for value in (False, 1, "true", None):
             report = self.valid_report()

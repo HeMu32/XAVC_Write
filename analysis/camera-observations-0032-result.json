@@ -1,0 +1,38 @@
+{
+  "reported_date_local": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "raw_user_report": "C0010 正确播放。我又执行了一次修复数据库。存储卡连接，制作snapshot，观察和更新结论；如果有文件疑似不再能被列出也不需要你修改存储卡让它们重新被列出。完成后更新记录和创建提交。",
+  "camera_body": "ILCE-7M4",
+  "camera_body_basis": "Prior direct user clarification; no different body reported",
+  "installed_camera_firmware": null,
+  "binding": {
+    "deployment_summary": "analysis/camera-test-round-0032.json",
+    "deployment_summary_sha256": "c5a9961f69baf1bb14186c6bd09a74fa266566429d68e078571f0d962b72e665",
+    "last_verified_deployment_snapshot": "backup/snap_20261114T011354",
+    "post_repair_snapshot": "backup/snap_20261114T013129"
+  },
+  "results": [
+    {
+      "clip": "C0010",
+      "media_sha256": "5c30633d67fafab81af53c366df9d7194b558ac7a866933505862c3dc032bff5",
+      "phase": "BEFORE_SUBSEQUENT_DATABASE_REPAIR",
+      "plays_normally": true,
+      "playback_evidence": "EXPLICIT_USER_REPORT",
+      "listed": true,
+      "listing_evidence": "IMPLIED_BY_REPORTED_PLAYBACK",
+      "starts_playback": true,
+      "thumbnail_normal": null,
+      "full_duration_playback": null,
+      "audio": null,
+      "seek": null,
+      "post_repair_listed": null,
+      "post_repair_playback": null
+    }
+  ],
+  "current_listing_positive_examples_not_exhaustive": [],
+  "current_listing_negative_confirmed": [],
+  "current_listing_fields_scope": "Post-repair physical UI observations only; none reported. Used as empty labels by the offline record converter, not to negate pre-repair playback.",
+  "historical_preparation_and_deployment_reports_rewritten": false,
+  "card_modifications_authorized_this_round": false,
+  "scope": "Playback success precedes the newly reported database repair. Post-repair catalog retention is a disk observation, not a new physical playback or listing report."
+}

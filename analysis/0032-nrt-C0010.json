@@ -1,0 +1,280 @@
+{
+  "media": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0032-29\\A\\C0010.MP4",
+  "media_sha256": "5c30633d67fafab81af53c366df9d7194b558ac7a866933505862c3dc032bff5",
+  "original_xml_sha256": "52ce07efe08d6931b37782d183e7ef1a0d6db1791dcce0ad28dda6c26fe96d8f",
+  "probe_xml_sha256": "52ce07efe08d6931b37782d183e7ef1a0d6db1791dcce0ad28dda6c26fe96d8f",
+  "in_memory_replacement": null,
+  "card_access": false,
+  "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "expat_sha256": "3d1e4818ad4c83228f2cad6496f6e46324c063c91713feb421544394c54be654",
+  "original_stdcpp_sha256": "28f2d082aea5206c42ba15664f39e2eaf7febed8f6264305e7e16aa44c878389",
+  "probe_implementation_sha256": "8e49eb5e162b1a9cdf5629bf02d2c9f4175bbdf4eb57e252eeb643a5d6aa6cd6",
+  "scope": "Original NRT semantic parsing/basic-information extraction; not full camera repair",
+  "runtime_model": "Bounded GNU ABI strings, classic C-locale ctype/collation, decimal output stringstreams, libc/allocator; Sony validation functions are not stubbed",
+  "load_return_u32": 0,
+  "basic_information_return_u32": 0,
+  "basic_information_hex": "e001ea070b0d151f2300060a2b340101010501010d23130000008a48224d696d408091a0b878c33c71940000000000400002556930750000e90300001500000001000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "mark_count_return_u32": 0,
+  "mark_count": 0,
+  "clip_status_return_u32": 0,
+  "steps": [
+    {
+      "label": "original_xml_schema_static_initialization",
+      "entry_elf_vma": "0x8c3e0",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "original_nrt_static_initialization",
+      "entry_elf_vma": "0x8cff4",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "nrt_wrapper_constructor",
+      "entry_elf_vma": "0x252de0",
+      "return_u32": null,
+      "void_return_ignored": true
+    },
+    {
+      "label": "load_embedded_xml",
+      "entry_elf_vma": "0x253e8c",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "get_basic_information",
+      "entry_elf_vma": "0x2543fc",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "get_mark_count",
+      "entry_elf_vma": "0x254f88",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "get_clip_status",
+      "entry_elf_vma": "0x254304",
+      "return_u32": 0,
+      "void_return_ignored": false
+    },
+    {
+      "label": "nrt_wrapper_destructor",
+      "entry_elf_vma": "0x252bb4",
+      "return_u32": null,
+      "void_return_ignored": true
+    }
+  ],
+  "active_step": {
+    "label": "nrt_wrapper_destructor",
+    "entry_elf_vma": "0x252bb4"
+  },
+  "calls": [
+    {
+      "entry_elf_vma": "0x8c3e0",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_ZdlPv",
+        "_Znwm",
+        "deferred_destructor_registration_no_process_exit",
+        "memcpy",
+        "memmove"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x8cff4",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_Znwm",
+        "deferred_destructor_registration_no_process_exit",
+        "iostream_initialization_unused_by_xml_probe",
+        "memcpy",
+        "standard_string_capacity_allocation",
+        "standard_string_copy_exact_range_void",
+        "standard_string_deep_copy_constructor_void",
+        "standard_string_release_heap_not_reused",
+        "strlen"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x252de0",
+      "return_u32": 1345361088,
+      "modeled_externals": [
+        "_ZdlPv",
+        "_Znwm",
+        "memmove",
+        "standard_string_append_exact_bytes",
+        "standard_string_assign_exact_bytes_void",
+        "standard_string_capacity_allocation",
+        "standard_string_copy_exact_range_void",
+        "standard_string_release_heap_not_reused",
+        "strlen"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x253e8c",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_ZdlPv",
+        "_ZdlPvm",
+        "_Znwm",
+        "classic_ctype_lower",
+        "classic_ctype_lower_range",
+        "classic_ctype_narrow",
+        "free",
+        "getenv",
+        "getrandom",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memmove",
+        "memset",
+        "standard_atoi_decimal",
+        "standard_classic_ascii_ctype_facet",
+        "standard_classic_collate_facet",
+        "standard_classic_collation_identity_transform",
+        "standard_classic_ctype_facet_id",
+        "standard_classic_locale_constructor",
+        "standard_classic_locale_copy",
+        "standard_classic_locale_release",
+        "standard_decimal_output_stream_insert",
+        "standard_decimal_stringstream_constructor",
+        "standard_decimal_stringstream_destructor",
+        "standard_integer_input_stream_extract",
+        "standard_integer_istringstream_constructor",
+        "standard_integer_istringstream_destructor",
+        "standard_output_stream_setfill",
+        "standard_snprintf_timezone",
+        "standard_string_append_exact_bytes",
+        "standard_string_append_range",
+        "standard_string_assign_c_string",
+        "standard_string_assign_count_char",
+        "standard_string_assign_exact_bytes_void",
+        "standard_string_capacity_allocation",
+        "standard_string_compare_exact_bytes",
+        "standard_string_copy_exact_range_void",
+        "standard_string_count_char_12_M_constructEmc",
+        "standard_string_deep_copy_constructor_void",
+        "standard_string_erase_position_count",
+        "standard_string_find_exact_bytes",
+        "standard_string_move_assignment_heap_not_reused",
+        "standard_string_move_constructor_void",
+        "standard_string_push_back_void",
+        "standard_string_release_heap_not_reused",
+        "standard_string_substring_copy",
+        "standard_stringbuf_copy_contents",
+        "standard_strtol_classic_locale_bounded",
+        "strchr",
+        "strlen"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x2543fc",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_ZdlPv",
+        "_ZdlPvm",
+        "_Znwm",
+        "classic_ctype_lower",
+        "classic_ctype_lower_range",
+        "memcmp",
+        "memcpy",
+        "memmove",
+        "standard_atoi_decimal",
+        "standard_classic_ascii_ctype_facet",
+        "standard_classic_collate_facet",
+        "standard_classic_collation_identity_transform",
+        "standard_classic_ctype_facet_id",
+        "standard_classic_locale_constructor",
+        "standard_classic_locale_copy",
+        "standard_classic_locale_release",
+        "standard_string_append_exact_bytes",
+        "standard_string_assign_count_char",
+        "standard_string_assign_exact_bytes_void",
+        "standard_string_capacity_allocation",
+        "standard_string_compare_exact_bytes",
+        "standard_string_copy_exact_range_void",
+        "standard_string_deep_copy_constructor_void",
+        "standard_string_erase_position_count",
+        "standard_string_find_exact_bytes",
+        "standard_string_move_assignment_heap_not_reused",
+        "standard_string_push_back_void",
+        "standard_string_release_heap_not_reused",
+        "standard_string_substring_copy",
+        "standard_strtol_classic_locale_bounded",
+        "strchr",
+        "strlen"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x254f88",
+      "return_u32": 0,
+      "modeled_externals": [
+        "standard_string_append_exact_bytes",
+        "standard_string_compare_exact_bytes",
+        "standard_string_deep_copy_constructor_void",
+        "standard_string_release_heap_not_reused"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x254304",
+      "return_u32": 0,
+      "modeled_externals": [
+        "standard_string_append_exact_bytes",
+        "standard_string_compare_exact_bytes",
+        "standard_string_deep_copy_constructor_void",
+        "standard_string_release_heap_not_reused",
+        "standard_string_substring_copy"
+      ]
+    },
+    {
+      "entry_elf_vma": "0x252bb4",
+      "return_u32": 0,
+      "modeled_externals": [
+        "_ZdlPv",
+        "_ZdlPvm",
+        "standard_string_release_heap_not_reused"
+      ]
+    }
+  ],
+  "semantic_trace": [
+    {
+      "entry_elf_vma": "0x23d394",
+      "return_u32": 0
+    },
+    {
+      "entry_elf_vma": "0x24bf44",
+      "codec_literal": "AVC_1920_1080_HP@L4",
+      "return_u32": 76
+    },
+    {
+      "entry_elf_vma": "0x23a018",
+      "nrt_status_input": 0,
+      "return_u32": 0
+    },
+    {
+      "entry_elf_vma": "0x24bf44",
+      "codec_literal": "AVC_1920_1080_HP@L4",
+      "return_u32": 76
+    },
+    {
+      "entry_elf_vma": "0x23a018",
+      "nrt_status_input": 0,
+      "return_u32": 0
+    },
+    {
+      "entry_elf_vma": "0x23a018",
+      "nrt_status_input": 0
+    },
+    {
+      "entry_elf_vma": "0x23a018",
+      "nrt_status_input": 0,
+      "return_u32": 0
+    }
+  ],
+  "instruction_count": 8050152,
+  "original_executable_sections_unchanged": true,
+  "local_media_unchanged": true
+}

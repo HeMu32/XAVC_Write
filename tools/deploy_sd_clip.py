@@ -16,6 +16,7 @@ import subprocess
 import sys
 from pathlib import Path
 from sony_verification import require_current_verification, require_package_hashes
+from bitrate_experiment import package_profile, require_diagnostic_evidence
 
 
 def digest(path):
@@ -49,15 +50,19 @@ def main():
     ap.add_argument("--card", default="F:/")
     ap.add_argument("--build", default="output/cat-25m")
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--allow-diagnostic", action="store_true",
+                    help="Explicitly admit a strictly verified bitrate diagnostic, including its bound expected reader rejection")
     args = ap.parse_args()
     root = Path(__file__).resolve().parent.parent
     card, build = Path(args.card).resolve(), Path(args.build).resolve()
     manifest = json.loads((build / "build-manifest.json").read_text(encoding="utf-8"))
     transaction = json.loads((build / "catalog/transaction.json").read_text(encoding="utf-8"))
     verification = json.loads((build / "verification.json").read_text(encoding="utf-8"))
+    package_profile(manifest)
     require_current_verification(verification, manifest.get("package_kind", "encoded_avc"),
                                  manifest.get("acquisition", "unspecified"),
-                                 transaction.get("catalog_representation", "native_reuse"))
+                                 transaction.get("catalog_representation", "native_reuse"),
+                                 allow_diagnostic=args.allow_diagnostic)
     if manifest.get("package_kind") == "native_control" and digest(Path(manifest["base"])) != manifest["native_source_sha256"]:
         raise RuntimeError("Native source changed after control preparation")
     if manifest.get("package_kind") == "source_control":
@@ -67,6 +72,7 @@ def main():
             raise RuntimeError("Historical source observation changed")
     clip = manifest["clip"]
     require_package_hashes(verification, build, clip)
+    require_diagnostic_evidence(verification, build, manifest)
     files = {
         f"PRIVATE/M4ROOT/CLIP/{clip}.MP4": build / (clip + ".MP4"),
         f"PRIVATE/M4ROOT/CLIP/{clip}M01.XML": build / (clip + "M01.XML"),

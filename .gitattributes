@@ -1,0 +1,21 @@
+# Preserve exact bytes of newly recorded, SHA-256-bound research evidence.
+analysis/0029-*.json -text
+analysis/003[0-3]-*.json -text
+analysis/camera-observations-0029-before-repair.json -text
+analysis/camera-observations-0031-result.json -text
+analysis/camera-observations-0032-result.json -text
+analysis/camera-test-round-0029*.json -text
+analysis/camera-test-round-0032.json -text
+analysis/sd-test-round-0029.json -text
+analysis/sd-test-round-0032.json -text
+analysis/prepared-media-0030.json -text
+analysis/0029-regression.log -text
+analysis/0030-regression.log -text
+analysis/0031-regression-final.log -text
+analysis/0032-regression.log -text
+analysis/0033-regression.log -text
+# CRLF is part of these saved evidence bytes, not trailing whitespace.
+analysis/*.json whitespace=cr-at-eol
+analysis/*.log whitespace=cr-at-eol
+# Ghidra exports remain verbatim, including its blank-line formatting.
+analysis/decompile-mpr/*.c -whitespace

@@ -17,7 +17,10 @@ from xml.etree import ElementTree as ET
 from build_sony_clip import MPF, NRT
 from sony_db import check_regions, inventory
 from sony_mp4 import MP4, ConstantSizes
-from sony_profiles import DEFAULT_PROFILE, manifest_profile
+from sony_profiles import DEFAULT_PROFILE
+from sony_nrt_codec import codec_name_matches, nrt_codec_matches
+from bitrate_experiment import (ExperimentSpec, load_spec, package_profile, package_spec,
+                                require_diagnostic_evidence)
 from sony_rtmd import make_packet, timecode
 from sony_umid import restore_umid
 from sony_verification import SCHEMA, digest, equal_ranges, run_media_checks
@@ -58,12 +61,14 @@ def rec709_stream_matches(probe):
                 "color_primaries": "bt709"}.items())
 
 
-def prof_profile_matches(fields, selected):
+def prof_profile_matches(fields, selected, average_kbps=None, maximum_kbps=None):
     return (
         len(fields) == 44 and fields[:8] == bytes.fromhex("0000000000000001") and
         fields[8:16] == b"avc1\x01\x64\x00" + bytes([selected.level_idc]) and
         struct.unpack_from(">4I", fields, 20) ==
-        (selected.bitrate_kbps, selected.bitrate_kbps, selected.prof_fps, selected.prof_fps) and
+        (selected.bitrate_kbps if average_kbps is None else average_kbps,
+         selected.bitrate_kbps if maximum_kbps is None else maximum_kbps,
+         selected.prof_fps, selected.prof_fps) and
         struct.unpack_from(">HH", fields, 36) == (selected.width, selected.height))
 
 
@@ -134,6 +139,7 @@ def xml_profile_matches(root, selected, frames):
              "status": "end"},
         ]
         return (
+            nrt_codec_matches(root, selected) and
             video.get("videoCodec") == selected.video_codec and
             video.get("captureFps") == video.get("formatFps") == selected.xml_fps and
             layout.get("pixel") == str(selected.width) and
@@ -149,7 +155,8 @@ def xml_profile_matches(root, selected, frames):
 
 
 def material_profile_matches(material, selected):
-    return (material.get("videoType") == selected.video_codec and
+    return (codec_name_matches(material.get("videoType"), selected) and
+            material.get("videoType") == selected.video_codec and
             material.get("fps") == selected.xml_fps)
 
 
@@ -251,13 +258,16 @@ def track_profile_checks(media, selected, info):
 
 
 def selected_profile_checks(info, media, probe, root, material, timing_report, rtmd_template, base=None):
-    selected = manifest_profile(info)
+    selected = package_profile(info)
+    spec = package_spec(info)
     checks = track_profile_checks(media, selected, info)
     checks.update(edit_origin_checks(media, base))
     prof = media.one(media.top, "uuid")
     fields = media.payload(media.one(media.boxes(prof.data + 24, prof.end), "VPRF"))
     checks.update({
-        "profile_prof_descriptor": prof_profile_matches(fields, selected),
+        "profile_prof_descriptor": prof_profile_matches(
+            fields, selected, spec.prof_average_kbps if spec else None,
+            spec.prof_maximum_kbps if spec else None),
         "profile_probed_avc": probe_profile_matches(probe, selected),
         "profile_sps_and_hrd": sps_profile_matches(timing_report.get("sps", {}), selected),
         "profile_xml": xml_profile_matches(root, selected, info["frames"]),
@@ -359,9 +369,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--build", default="output/cat-25m")
     ap.add_argument("--card")
+    ap.add_argument("--experiment-spec")
     args = ap.parse_args()
     build = Path(args.build)
     info = json.loads((build / "build-manifest.json").read_text(encoding="utf-8"))
+    spec = package_spec(info)
+    if (spec is not None) != (args.experiment_spec is not None):
+        ap.error("Diagnostic verification requires explicit --experiment-spec; ordinary packages forbid it")
+    if spec and load_spec(args.experiment_spec) != spec:
+        ap.error("Verification experiment spec differs from build")
     transaction = json.loads((build / "catalog/transaction.json").read_text(encoding="utf-8"))
     selected = catalog_profile(info, transaction.get("catalog_representation", "native_reuse"))
     clip = info["clip"]
@@ -373,7 +389,7 @@ def main():
     checks["audio_bit_exact"] = hash_audio(m) == hash_audio(base, info["audio_samples"])
     profile = info.get("package_kind", "encoded_avc")
     framing_width = (m.tracks[0].avcc()[4] & 3) + 1
-    if profile == "encoded_avc":
+    if profile in {"encoded_avc", "bitrate_diagnostic"}:
         checks["qualified_candidate_nal_framing"] = framing_width == 4
     elif profile == "framing_control":
         checks["explicit_diagnostic_framing_control"] = (
@@ -408,6 +424,7 @@ def main():
     else:
         checks["embedded_xml_matches_sidecar"] = xml == sidecar
     nr = ET.fromstring(xml.rstrip(b" \x00"))
+    checks["sony_xml_codec_name_supported"] = nrt_codec_matches(nr, selected)
     ns = nr.tag.split("}")[0][1:]
     checks["sidecar_umid"] = nr.find(f"{{{ns}}}TargetMaterial").get("umidRef") == info["umid"]
     checks["sidecar_duration"] = int(nr.find(f"{{{ns}}}Duration").get("value")) == info["frames"]
@@ -518,7 +535,7 @@ def main():
     checks["mediapro_identity"] = (
         added.get("uri") == f"./CLIP/{clip}.MP4" and added.get("umid") == info["umid"] and
         added.get("dur") == str(info["frames"]))
-    if profile in {"encoded_avc", "framing_control"}:
+    if profile in {"encoded_avc", "framing_control", "bitrate_diagnostic"}:
         try:
             timing_report = json.loads((Path(proof["directory"]) / "timing.json").read_text(encoding="utf-8"))
         except (OSError, ValueError):
@@ -548,8 +565,34 @@ def main():
               "acquisition": expected_acquisition,
               "frames": info["frames"], "video_bitrate": info["video_bitrate"],
               "verification_schema": SCHEMA, "fresh_media_evidence": proof}
-    if profile in {"encoded_avc", "framing_control"}:
+    if profile in {"encoded_avc", "framing_control", "bitrate_diagnostic"}:
         report.update(sony_profile=selected.name, profile_parameters=selected.manifest_fields())
+    if spec:
+        evidence = info["diagnostic_evidence"]
+        report["diagnostic_evidence"] = {
+            key + "_sha256": digest(evidence[key]) for key in ("pair_report", "reader_report")}
+        assumptions_path = Path(info["base"]).parent / "input-assumptions.json"
+        assumptions = json.loads(assumptions_path.read_text(encoding="utf-8"))
+        checks["diagnostic_spec_and_encoder_bound"] = (
+            digest(info["base"]) == info["base_sha256"] and
+            digest(assumptions_path) == info["encoder_assumptions_sha256"] and
+            ExperimentSpec.from_dict(assumptions.get("experiment_spec")).coding_fields() ==
+            spec.coding_fields() and
+            assumptions.get("profile_parameters") == selected.manifest_fields() and
+            digest(info["experiment_spec_path"]) == info["experiment_spec_sha256"] and
+            load_spec(info["experiment_spec_path"]) == spec)
+        try:
+            report["original_reader_assessment"] = require_diagnostic_evidence(report, build, info)
+            checks["diagnostic_pair_proof_bound"] = True
+            checks["diagnostic_reader_outcome_matches_exact_expectation"] = True
+        except (ValueError, OSError, KeyError) as error:
+            checks["diagnostic_pair_proof_bound"] = False
+            checks["diagnostic_reader_outcome_matches_exact_expectation"] = False
+            report["diagnostic_evidence_error"] = str(error)
+        report["experiment_spec"] = spec.to_dict()
+        report["camera_format_claim"] = "BITRATE_DIAGNOSTIC_NOT_CAMERA_VALIDATED"
+        report["reader_expected_property_status"] = spec.expected_reader_status
+        report["passed"] = all(checks.values())
     if profile == "source_control":
         report["prof_interpretation"] = {
             "classification": "observed_source_opaque",

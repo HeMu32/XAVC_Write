@@ -1,0 +1,42 @@
+{
+  "deployment_id": "0032",
+  "source": "mux_playfull_ytb_1080.mp4",
+  "source_sha256": "57bd6825af7966ebd042ff15746382cbf10ba5b1577ba720c8c043c9c836f7f2",
+  "encoded_base_reused": "output/mux-0030-29/encode/base.mov",
+  "encoded_base_sha256": "3f386cdbd3d77e7a854ace755b7a03cd3ecfe33baf76c4c30c736f1ce93547f8",
+  "reencode": false,
+  "source_experiment_spec_A": "analysis/0030-29-A.json",
+  "source_experiment_spec_B": "analysis/0030-29-B.json",
+  "preserve_encoder_experiment_identity_and_creation_time": true,
+  "why": "Rebuild from the exact existing encode and its original specification; do not falsify encoder provenance to assign a new experiment id or timestamp",
+  "card": "F:/",
+  "allocation_snapshot": "backup/snap_20261114T010407",
+  "resources_checked": 230,
+  "clip": "C0010",
+  "numbering_strategy": "First completely unused number strictly after C0007, checking every snapshot resource plus DATABASE and MEDIAPRO",
+  "occupied_low_numbers": [1, 4, 5, 7, 8, 9],
+  "superseded_local_plan": {
+    "clip": "C6525",
+    "card_files_written": [],
+    "reason": "User explicitly requested trying numbering after C0007"
+  },
+  "build_A": "output/mux-0032-29/A",
+  "build_B_local_control_only": "output/mux-0032-29/B",
+  "B_local_placeholder": "C9999",
+  "deploy_B": false,
+  "video": "1920x1080 30000/1001p High4.0 8-bit420, 4Mbps video/HRD, 4Mbit buffer",
+  "A_prof_average_maximum_kbps": [16000, 16000],
+  "xml_codec_name": "AVC_1920_1080_HP@L4",
+  "expected_card_new_files": [
+    "PRIVATE/M4ROOT/CLIP/C0010.MP4",
+    "PRIVATE/M4ROOT/CLIP/C0010M01.XML",
+    "PRIVATE/M4ROOT/THMBNL/C0010T01.JPG"
+  ],
+  "expected_card_updated_catalogs": [
+    "PRIVATE/M4ROOT/MEDIAPRO.XML",
+    "PRIVATE/DATABASE/DATABASE.BIN"
+  ],
+  "existing_clip_assets_must_remain_unchanged": true,
+  "card_deletes_allowed": false,
+  "camera_playback": "NOT_TESTED"
+}

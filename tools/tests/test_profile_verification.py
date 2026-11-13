@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from build_sony_clip import NRT, table
 from sony_mp4 import MP4, box, fullbox
 from sony_profiles import PROFILES, get_profile, manifest_profile
+from sony_nrt_codec import codec_name_matches, nrt_codec_matches
 from sony_rtmd import make_packet, timecode
 from stage_sd_catalog import material_attributes
 from verify_sony_package import (
@@ -136,6 +137,23 @@ def media_fixture(profile, info, packets):
 
 
 class ProfileVerificationTests(unittest.TestCase):
+    def test_xml_codec_oracle_is_independent_of_the_builder_spelling(self):
+        profile = get_profile("hd16_2997")
+        root = xml_fixture(profile, 30)
+        self.assertTrue(nrt_codec_matches(root, profile))
+        root.find(f".//{{{NRT}}}VideoFrame").set("videoCodec", "AVC_1920_1080_HP@L40")
+        self.assertFalse(nrt_codec_matches(root, profile))
+        wrong = SimpleNamespace(**{
+            key: getattr(profile, key) for key in
+            ("width", "height", "level_idc", "xml_fps", "half_step")},
+            video_codec="AVC_1920_1080_HP@L40")
+        self.assertFalse(xml_profile_matches(root, wrong, 30))
+        material = ET.Element("Material", videoType=wrong.video_codec, fps=wrong.xml_fps)
+        self.assertFalse(material_profile_matches(material, wrong))
+        self.assertFalse(codec_name_matches(None, profile))
+        self.assertFalse(codec_name_matches("AVC_1920_1080_HP@L4",
+                                           SimpleNamespace(width=1920, height=1080, level_idc=41)))
+
     def test_legacy_profile_and_explicit_parameter_contradictions(self):
         self.assertEqual(manifest_profile({}).name, "hd25_5994")
         for profile in PROFILES.values():

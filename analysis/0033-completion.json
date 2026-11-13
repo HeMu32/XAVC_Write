@@ -1,0 +1,38 @@
+{
+  "episode": "0033",
+  "date_local": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "snapshot": "backup/snap_20261114T013129",
+  "snapshot_metadata_files": 78,
+  "snapshot_skipped_media_entries": 155,
+  "snapshot_errors": [],
+  "camera_feedback_scope": "C0010 user-reported normal playback BEFORE the subsequent repair; no post-repair physical UI/playback report",
+  "card_writes": false,
+  "card_deletions": false,
+  "observed_movie_count_before_after": [58, 58],
+  "database_changed_bytes": 225,
+  "selected_full_mp4_hashes_checked": 9,
+  "last_successful_live_card_audit_utc": "2026-11-13T17:36:26.339217+00:00",
+  "additional_live_card_check_after_regression": {
+    "status": "NOT_COMPLETED_CARD_UNAVAILABLE",
+    "card": "F:/",
+    "audit_tool_result": "Not the expected Sony card",
+    "volume_query_result": "No volume found for drive letter F",
+    "new_successful_live_audit_report_created": false,
+    "scope": "Does not negate the earlier saved audit; no guarantee about card state after that audit"
+  },
+  "regression": {
+    "command": "E:/anaconda3/envs/test311/python.exe -m unittest discover -s tools/tests -v",
+    "tests": 308,
+    "duration_seconds": 227.828,
+    "passed": true,
+    "log": "analysis/0033-regression.log",
+    "log_sha256": "4a30fd491b2da2a9504f0e193d91d8d7e5ce5e94d93c47f852dbb775fa97d186"
+  },
+  "bound_reports_sha256": {
+    "analysis/0033-repair-observations.json": "f7fe0ceeea1813bc079be2c64e3f37d1018f364be8716ea04019579ae8cae767",
+    "analysis/camera-observations-0032-result.json": "7b4d64be17896a1c7bffb92f1ea729d7bb3697815f6311376026880c3087d369"
+  },
+  "historical_preparation_and_deployment_reports_rewritten": false,
+  "scope": "Read-only investigation and documentation, with prior 0029-0032 implementation/evidence included in the requested checkpoint. No new deployment or format certification."
+}

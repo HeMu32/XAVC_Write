@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "expected_rejection": true,
+  "expected_query_status": 3,
+  "media_sha256": "b52bdc76cd17ff6f33313f391c285215dc7c67c3c9467bc879094ef941c455c1",
+  "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "experiment_spec": {
+    "schema": 1,
+    "kind": "bitrate_diagnostic",
+    "experiment_id": "0030",
+    "pair_id": "0030-mux-29",
+    "variant": "B",
+    "base_profile": "hd16_2997",
+    "coded_bitrate_kbps": 4000,
+    "hrd_bitrate_kbps": 4000,
+    "cpb_size_kbits": 4000,
+    "prof_average_kbps": 4000,
+    "prof_maximum_kbps": 4000,
+    "creation_time": "2026-11-13T21:31:35+08:00"
+  },
+  "probe_mode": null,
+  "probe_mode_observed": false,
+  "scope": "Original property-query rejection only; downstream probes not reached",
+  "checks": {
+    "media_hash_bound": true,
+    "firmware_hash_bound": true,
+    "runtime_hash_bound": true,
+    "original_code_unchanged": true,
+    "exact_call_sequence_and_statuses": true,
+    "no_emulator_errors": true,
+    "original_reader_verdict_preserved": true,
+    "exact_expected_property_rejection": true
+  },
+  "requested_probe_mode": {
+    "seek_probe": true,
+    "seek_mode": 1,
+    "sample_batches": 1,
+    "decode_table_probe": true,
+    "rtmd_probe": true,
+    "max_runtime_seconds": 180
+  },
+  "original_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0032-reader-local-B.json",
+  "original_report_sha256": "dd30a9b1bbf4a369376192b84834257893b0940a2e2874aeb97c614c09d8adb2"
+}

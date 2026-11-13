@@ -1,0 +1,1510 @@
+{
+  "episode": "0033",
+  "checked_at_utc": "2026-11-13T17:36:26.339217+00:00",
+  "before_snapshot": "backup/snap_20261114T011354",
+  "after_snapshot": "backup/snap_20261114T013129",
+  "card_writes": false,
+  "card_deletions": false,
+  "checks": {
+    "saved_snapshot_metadata_intact": true,
+    "live_card_matches_new_snapshot": true,
+    "only_database_metadata_changed": true,
+    "media_size_mtime_inventory_unchanged": true,
+    "all_58_movie_numbers_preserved": true,
+    "mediapro_all_materials_unchanged": true,
+    "header_and_active_record_checksums_valid": true,
+    "selected_nine_full_media_hashes_match_references": true,
+    "original_converter_all_116_records_return_zero": true,
+    "all_after_conversion_labels_unknown": true,
+    "selected_sdk_properties_match_completed_catalog": true,
+    "completed_timecodes_and_identities_match_original_readers": true,
+    "array_reference_counts_and_occupied_slots_valid": true
+  },
+  "passed": true,
+  "saved_snapshot_integrity": [
+    {
+      "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261114T011354",
+      "metadata_files_checked": 78,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261114T013129",
+      "metadata_files_checked": 78,
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "live_card_audit": {
+    "card": "F:\\",
+    "snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261114T013129",
+    "checked_at_utc": "2026-11-13T17:36:26.339217+00:00",
+    "missing": [],
+    "added": [],
+    "changed_metadata_hashes": [],
+    "changed_media_size_or_mtime": [],
+    "metadata_files": 78,
+    "media_files": 155,
+    "media_content_hashes_checked": false,
+    "unchanged": true
+  },
+  "selected_media": [
+    {
+      "clip": "C0007",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C0007.MP4",
+      "reference": "analysis/C0007-reference-0023.MP4",
+      "reference_sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+      "sha256": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+      "matches_reference": true
+    },
+    {
+      "clip": "C0010",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C0010.MP4",
+      "reference": "output/mux-0032-29/A/C0010.MP4",
+      "reference_sha256": "5c30633d67fafab81af53c366df9d7194b558ac7a866933505862c3dc032bff5",
+      "sha256": "5c30633d67fafab81af53c366df9d7194b558ac7a866933505862c3dc032bff5",
+      "matches_reference": true
+    },
+    {
+      "clip": "C6501",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6501.MP4",
+      "reference": "analysis/C6501-reference-0028.MP4",
+      "reference_sha256": "7297184cefed4dd34f3219cc8f8de116fba3724c748979405352769ca1ac0aaf",
+      "sha256": "7297184cefed4dd34f3219cc8f8de116fba3724c748979405352769ca1ac0aaf",
+      "matches_reference": true
+    },
+    {
+      "clip": "C6519",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6519.MP4",
+      "reference": "output/profiles-0028-hd50-2997/package/C6519.MP4",
+      "reference_sha256": "e217178184cf7104cc6efa2fdfd15ce5b06db1820129bfef5816ab030b15c0cb",
+      "sha256": "e217178184cf7104cc6efa2fdfd15ce5b06db1820129bfef5816ab030b15c0cb",
+      "matches_reference": true
+    },
+    {
+      "clip": "C6520",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6520.MP4",
+      "reference": "output/repair-0031/C6520/C6520.MP4",
+      "reference_sha256": "6d24dfaba2b31722e147ead025487a5d1cf94a5b66234d151372036977e55b6a",
+      "sha256": "6d24dfaba2b31722e147ead025487a5d1cf94a5b66234d151372036977e55b6a",
+      "matches_reference": true
+    },
+    {
+      "clip": "C6521",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6521.MP4",
+      "reference": "output/repair-0031/C6521/C6521.MP4",
+      "reference_sha256": "6d02f8ac45278da9e51993a0c5b3531cea216b22b705768611b9ebb8f5d46c99",
+      "sha256": "6d02f8ac45278da9e51993a0c5b3531cea216b22b705768611b9ebb8f5d46c99",
+      "matches_reference": true
+    },
+    {
+      "clip": "C6522",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6522.MP4",
+      "reference": "output/bitrate-0029-29/B/C6522.MP4",
+      "reference_sha256": "958e22dc27d263d8ac04ec521fc3581b778976f6e2548f1119bc3f4f792243d1",
+      "sha256": "958e22dc27d263d8ac04ec521fc3581b778976f6e2548f1119bc3f4f792243d1",
+      "matches_reference": true
+    },
+    {
+      "clip": "C6523",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6523.MP4",
+      "reference": "output/bitrate-0029-59/A/C6523.MP4",
+      "reference_sha256": "a6ef2fb65f488207765e35ccb0d437ba20c2a18aad9204506fd4cad5e104ff27",
+      "sha256": "a6ef2fb65f488207765e35ccb0d437ba20c2a18aad9204506fd4cad5e104ff27",
+      "matches_reference": true
+    },
+    {
+      "clip": "C6524",
+      "relative_path": "PRIVATE/M4ROOT/CLIP/C6524.MP4",
+      "reference": "output/bitrate-0029-59/B/C6524.MP4",
+      "reference_sha256": "4716e26da8fae65e410b1d64557ffd1d1a4ff71712110d334a4159a04c13a856",
+      "sha256": "4716e26da8fae65e410b1d64557ffd1d1a4ff71712110d334a4159a04c13a856",
+      "matches_reference": true
+    }
+  ],
+  "database": {
+    "before_sha256": "25e4fbee8f9d1515dc3c345dfa23815244b4e17a6375fd81aca66aae5897cf75",
+    "after_sha256": "8bfbbd805d20db23974d5c103ba335dca979c4fb0c790311c3756c3e5ff7f14f",
+    "changed_byte_count": 225,
+    "active_records_before": 125,
+    "active_records_after": 126,
+    "activated_record_indices": [
+      131,
+      132
+    ],
+    "deactivated_record_indices": [
+      129
+    ],
+    "modified_record_indices": [
+      126,
+      127,
+      128,
+      130
+    ]
+  },
+  "movie_count_before_after": [
+    58,
+    58
+  ],
+  "header_movie_counts": [
+    58,
+    58
+  ],
+  "movie_transitions": [
+    {
+      "clip": "C0010",
+      "status": "UPDATED_IN_PLACE",
+      "record_before": 130,
+      "record_after": 130,
+      "flags_before_after": [
+        "0x18",
+        "0x14"
+      ],
+      "video_reference_before_after": [
+        28,
+        131
+      ],
+      "umid_reference_before_after": [
+        0,
+        126
+      ],
+      "post_repair_physical_listing": null,
+      "post_repair_physical_playback": null
+    },
+    {
+      "clip": "C6520",
+      "status": "UPDATED_IN_PLACE",
+      "record_before": 127,
+      "record_after": 127,
+      "flags_before_after": [
+        "0x18",
+        "0x14"
+      ],
+      "video_reference_before_after": [
+        28,
+        131
+      ],
+      "umid_reference_before_after": [
+        0,
+        126
+      ],
+      "post_repair_physical_listing": null,
+      "post_repair_physical_playback": null
+    },
+    {
+      "clip": "C6521",
+      "status": "UPDATED_IN_PLACE",
+      "record_before": 128,
+      "record_after": 128,
+      "flags_before_after": [
+        "0x18",
+        "0x14"
+      ],
+      "video_reference_before_after": [
+        28,
+        131
+      ],
+      "umid_reference_before_after": [
+        0,
+        126
+      ],
+      "post_repair_physical_listing": null,
+      "post_repair_physical_playback": null
+    },
+    {
+      "clip": "C6522",
+      "status": "RELOCATED",
+      "record_before": 129,
+      "record_after": 132,
+      "flags_before_after": [
+        "0x18",
+        "0x18"
+      ],
+      "video_reference_before_after": [
+        28,
+        28
+      ],
+      "umid_reference_before_after": [
+        0,
+        0
+      ],
+      "post_repair_physical_listing": null,
+      "post_repair_physical_playback": null
+    }
+  ],
+  "completed_movies": [
+    {
+      "clip": "C0010",
+      "original_converter": {
+        "video_present": 1,
+        "audio_present": 1,
+        "video_enums_28_to_40": [
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          3
+        ],
+        "nominal_bitrate_u16_at_44": 16,
+        "acquisition_enums_50_to_58": [
+          53,
+          49,
+          2
+        ],
+        "audio_enums_98_to_a4": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "ltc_little_endian_at_48": "0000004000025569",
+        "main_umid_at_4f8": "060A2B340101010501010D2313000000AA18D0EE5713068091A0B878C33C7194",
+        "repair_fields_619_61a": [
+          1,
+          0
+        ]
+      },
+      "umid_array": 126,
+      "umid_slot": 3,
+      "catalog_umid_matches_original_converter": true,
+      "catalog_umid_equals_xml": false,
+      "non_time_identity_bytes_match_xml": true,
+      "identity_scope": "Firmware reconstructs time bytes; UUID-style XML material bytes need not be identical. Not evidence of rejection.",
+      "xml_first_last_timecodes": [
+        "40000000",
+        "69550200"
+      ],
+      "catalog_first_last_timecodes": [
+        "40000000",
+        "69550200"
+      ],
+      "timecodes_match_xml": true
+    },
+    {
+      "clip": "C6520",
+      "original_converter": {
+        "video_present": 1,
+        "audio_present": 1,
+        "video_enums_28_to_40": [
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          3
+        ],
+        "nominal_bitrate_u16_at_44": 16,
+        "acquisition_enums_50_to_58": [
+          53,
+          49,
+          2
+        ],
+        "audio_enums_98_to_a4": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "ltc_little_endian_at_48": "0000004000002556",
+        "main_umid_at_4f8": "060A2B340101010501010D2313000000F2FD7A19571306D8B2C68AFA6B9D7A04",
+        "repair_fields_619_61a": [
+          1,
+          0
+        ]
+      },
+      "umid_array": 126,
+      "umid_slot": 1,
+      "catalog_umid_matches_original_converter": true,
+      "catalog_umid_equals_xml": false,
+      "non_time_identity_bytes_match_xml": true,
+      "identity_scope": "Firmware reconstructs time bytes; UUID-style XML material bytes need not be identical. Not evidence of rejection.",
+      "xml_first_last_timecodes": [
+        "40000000",
+        "56250000"
+      ],
+      "catalog_first_last_timecodes": [
+        "40000000",
+        "56250000"
+      ],
+      "timecodes_match_xml": true
+    },
+    {
+      "clip": "C6521",
+      "original_converter": {
+        "video_present": 1,
+        "audio_present": 1,
+        "video_enums_28_to_40": [
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          3
+        ],
+        "nominal_bitrate_u16_at_44": 16,
+        "acquisition_enums_50_to_58": [
+          53,
+          49,
+          2
+        ],
+        "audio_enums_98_to_a4": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "ltc_little_endian_at_48": "0000004000002556",
+        "main_umid_at_4f8": "060A2B340101010501010D2313000000B1785E62571306568D61A8EF88AB2838",
+        "repair_fields_619_61a": [
+          1,
+          0
+        ]
+      },
+      "umid_array": 126,
+      "umid_slot": 2,
+      "catalog_umid_matches_original_converter": true,
+      "catalog_umid_equals_xml": false,
+      "non_time_identity_bytes_match_xml": true,
+      "identity_scope": "Firmware reconstructs time bytes; UUID-style XML material bytes need not be identical. Not evidence of rejection.",
+      "xml_first_last_timecodes": [
+        "40000000",
+        "56250000"
+      ],
+      "catalog_first_last_timecodes": [
+        "40000000",
+        "56250000"
+      ],
+      "timecodes_match_xml": true
+    }
+  ],
+  "selected_sdk_comparisons": [
+    {
+      "clip": "C0010",
+      "source_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0032-reader-C0010.json",
+      "source_report_sha256": "ab691f9d82e19316e5fac7533f17c8d82d69fd9ea861fd9a00fb4c2ca0834dc7",
+      "media_sha256": "5c30633d67fafab81af53c366df9d7194b558ac7a866933505862c3dc032bff5",
+      "catalog_video_record": 131,
+      "property_video_enums": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        3
+      ],
+      "property_nominal_bitrate": 16,
+      "enums_match": true,
+      "bitrate_match": true,
+      "scope": "Original read-side property output versus repaired catalog conversion; not playback"
+    },
+    {
+      "clip": "C6520",
+      "source_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0031-reader-C6520-staged.json",
+      "source_report_sha256": "e85e3fa3d85ca4f23f7f40a4bd0de63d8ca872684f66a067a6488095a0d54d93",
+      "media_sha256": "6d24dfaba2b31722e147ead025487a5d1cf94a5b66234d151372036977e55b6a",
+      "catalog_video_record": 131,
+      "property_video_enums": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        3
+      ],
+      "property_nominal_bitrate": 16,
+      "enums_match": true,
+      "bitrate_match": true,
+      "scope": "Original read-side property output versus repaired catalog conversion; not playback"
+    },
+    {
+      "clip": "C6521",
+      "source_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0031-reader-C6521-staged.json",
+      "source_report_sha256": "e768d57ea54c275c5ae784eaa64a3ba7ccb2531a5682e78f7976bb20e1fd991d",
+      "media_sha256": "6d02f8ac45278da9e51993a0c5b3531cea216b22b705768611b9ebb8f5d46c99",
+      "catalog_video_record": 131,
+      "property_video_enums": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        3
+      ],
+      "property_nominal_bitrate": 16,
+      "enums_match": true,
+      "bitrate_match": true,
+      "scope": "Original read-side property output versus repaired catalog conversion; not playback"
+    }
+  ],
+  "array_inventory_after": {
+    "arrays": [
+      {
+        "record": 63,
+        "subtype": 2,
+        "entry_length": 32,
+        "slot_bitmap": "0x1",
+        "stored_reference_count": 1,
+        "all_content_owner_count": 1,
+        "reference_count_matches": true,
+        "owners_point_to_occupied_slots": true,
+        "slots": [
+          {
+            "slot": 0,
+            "payload_hex": "060a2b340101010501010d431300000000000000000000009c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 61,
+                "content_type": 2,
+                "number": 6359,
+                "field": "umid",
+                "reference": 63,
+                "slot": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "record": 69,
+        "subtype": 2,
+        "entry_length": 32,
+        "slot_bitmap": "0x1",
+        "stored_reference_count": 1,
+        "all_content_owner_count": 1,
+        "reference_count_matches": true,
+        "owners_point_to_occupied_slots": true,
+        "slots": [
+          {
+            "slot": 0,
+            "payload_hex": "060a2b340101010501010d431300000000000000000000009c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 67,
+                "content_type": 2,
+                "number": 8,
+                "field": "umid",
+                "reference": 69,
+                "slot": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "record": 72,
+        "subtype": 2,
+        "entry_length": 32,
+        "slot_bitmap": "0xf",
+        "stored_reference_count": 23,
+        "all_content_owner_count": 23,
+        "reference_count_matches": true,
+        "owners_point_to_occupied_slots": true,
+        "slots": [
+          {
+            "slot": 0,
+            "payload_hex": "060a2b340101010501010d431300000000000000000000009c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 70,
+                "content_type": 2,
+                "number": 9,
+                "field": "umid",
+                "reference": 72,
+                "slot": 0
+              }
+            ]
+          },
+          {
+            "slot": 1,
+            "payload_hex": "060a2b340101010501010d431300000000000000000000009c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 73,
+                "content_type": 2,
+                "number": 6499,
+                "field": "umid",
+                "reference": 72,
+                "slot": 1
+              },
+              {
+                "record": 75,
+                "content_type": 2,
+                "number": 6500,
+                "field": "umid",
+                "reference": 72,
+                "slot": 1
+              },
+              {
+                "record": 76,
+                "content_type": 2,
+                "number": 6501,
+                "field": "umid",
+                "reference": 72,
+                "slot": 1
+              },
+              {
+                "record": 78,
+                "content_type": 2,
+                "number": 6502,
+                "field": "umid",
+                "reference": 72,
+                "slot": 1
+              },
+              {
+                "record": 80,
+                "content_type": 2,
+                "number": 6503,
+                "field": "umid",
+                "reference": 72,
+                "slot": 1
+              },
+              {
+                "record": 82,
+                "content_type": 2,
+                "number": 6504,
+                "field": "umid",
+                "reference": 72,
+                "slot": 1
+              },
+              {
+                "record": 88,
+                "content_type": 2,
+                "number": 6507,
+                "field": "umid",
+                "reference": 72,
+                "slot": 1
+              },
+              {
+                "record": 89,
+                "content_type": 2,
+                "number": 6508,
+                "field": "umid",
+                "reference": 72,
+                "slot": 1
+              }
+            ]
+          },
+          {
+            "slot": 2,
+            "payload_hex": "060a2b340101010501010d4313000000000000000000000010322cfffe7c5466",
+            "owners": [
+              {
+                "record": 84,
+                "content_type": 2,
+                "number": 6505,
+                "field": "umid",
+                "reference": 72,
+                "slot": 2
+              },
+              {
+                "record": 86,
+                "content_type": 2,
+                "number": 6506,
+                "field": "umid",
+                "reference": 72,
+                "slot": 2
+              }
+            ]
+          },
+          {
+            "slot": 3,
+            "payload_hex": "060a2b3401010105010101431300000000000000000000009c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 10,
+                "content_type": 1,
+                "number": 8,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 12,
+                "content_type": 1,
+                "number": 9,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 13,
+                "content_type": 1,
+                "number": 10,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 14,
+                "content_type": 1,
+                "number": 11,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 15,
+                "content_type": 1,
+                "number": 12,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 16,
+                "content_type": 1,
+                "number": 13,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 17,
+                "content_type": 1,
+                "number": 14,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 18,
+                "content_type": 1,
+                "number": 15,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 19,
+                "content_type": 1,
+                "number": 16,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 20,
+                "content_type": 1,
+                "number": 17,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 21,
+                "content_type": 1,
+                "number": 18,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              },
+              {
+                "record": 22,
+                "content_type": 1,
+                "number": 19,
+                "field": "umid",
+                "reference": 72,
+                "slot": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "record": 101,
+        "subtype": 3,
+        "entry_length": 16,
+        "slot_bitmap": "0xff",
+        "stored_reference_count": 15,
+        "all_content_owner_count": 15,
+        "reference_count_matches": true,
+        "owners_point_to_occupied_slots": true,
+        "slots": [
+          {
+            "slot": 0,
+            "payload_hex": "9d2b5b7a860506d39c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 10,
+                "content_type": 1,
+                "number": 8,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 0
+              }
+            ]
+          },
+          {
+            "slot": 1,
+            "payload_hex": "8967917b860506d09c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 12,
+                "content_type": 1,
+                "number": 9,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 1
+              }
+            ]
+          },
+          {
+            "slot": 2,
+            "payload_hex": "ef33690f860506c39c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 13,
+                "content_type": 1,
+                "number": 10,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 2
+              }
+            ]
+          },
+          {
+            "slot": 3,
+            "payload_hex": "e8963255860506c29c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 14,
+                "content_type": 1,
+                "number": 11,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 3
+              }
+            ]
+          },
+          {
+            "slot": 4,
+            "payload_hex": "789e5624860506c59c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 15,
+                "content_type": 1,
+                "number": 12,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 4
+              },
+              {
+                "record": 16,
+                "content_type": 1,
+                "number": 13,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 4
+              },
+              {
+                "record": 17,
+                "content_type": 1,
+                "number": 14,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 4
+              }
+            ]
+          },
+          {
+            "slot": 5,
+            "payload_hex": "acd1892b860506da9c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 18,
+                "content_type": 1,
+                "number": 15,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 5
+              }
+            ]
+          },
+          {
+            "slot": 6,
+            "payload_hex": "59b6a13c860506dc9c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 19,
+                "content_type": 1,
+                "number": 16,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 6
+              },
+              {
+                "record": 20,
+                "content_type": 1,
+                "number": 17,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 6
+              },
+              {
+                "record": 21,
+                "content_type": 1,
+                "number": 18,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 6
+              },
+              {
+                "record": 22,
+                "content_type": 1,
+                "number": 19,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 6
+              }
+            ]
+          },
+          {
+            "slot": 7,
+            "payload_hex": "0a2964c3131206d29c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 24,
+                "content_type": 1,
+                "number": 1,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 7
+              },
+              {
+                "record": 25,
+                "content_type": 1,
+                "number": 2,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 7
+              },
+              {
+                "record": 26,
+                "content_type": 1,
+                "number": 3,
+                "field": "image_unique_id",
+                "reference": 101,
+                "slot": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "record": 104,
+        "subtype": 2,
+        "entry_length": 32,
+        "slot_bitmap": "0xf",
+        "stored_reference_count": 31,
+        "all_content_owner_count": 31,
+        "reference_count_matches": true,
+        "owners_point_to_occupied_slots": true,
+        "slots": [
+          {
+            "slot": 0,
+            "payload_hex": "060a2b3401010105010106431300000000000000000000009c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 24,
+                "content_type": 1,
+                "number": 1,
+                "field": "umid",
+                "reference": 104,
+                "slot": 0
+              },
+              {
+                "record": 25,
+                "content_type": 1,
+                "number": 2,
+                "field": "umid",
+                "reference": 104,
+                "slot": 0
+              },
+              {
+                "record": 26,
+                "content_type": 1,
+                "number": 3,
+                "field": "umid",
+                "reference": 104,
+                "slot": 0
+              }
+            ]
+          },
+          {
+            "slot": 1,
+            "payload_hex": "060a2b340101010501010d431300000000000000000000009c50d1fffec4f949",
+            "owners": [
+              {
+                "record": 33,
+                "content_type": 2,
+                "number": 5850,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 34,
+                "content_type": 2,
+                "number": 5852,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 35,
+                "content_type": 2,
+                "number": 5853,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 36,
+                "content_type": 2,
+                "number": 5854,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 37,
+                "content_type": 2,
+                "number": 5855,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 38,
+                "content_type": 2,
+                "number": 5856,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 39,
+                "content_type": 2,
+                "number": 5857,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 40,
+                "content_type": 2,
+                "number": 5858,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 41,
+                "content_type": 2,
+                "number": 5859,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 42,
+                "content_type": 2,
+                "number": 5860,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 43,
+                "content_type": 2,
+                "number": 5861,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 44,
+                "content_type": 2,
+                "number": 5862,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 45,
+                "content_type": 2,
+                "number": 5865,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 48,
+                "content_type": 2,
+                "number": 6349,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 49,
+                "content_type": 2,
+                "number": 6350,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 50,
+                "content_type": 2,
+                "number": 6351,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 51,
+                "content_type": 2,
+                "number": 6352,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 53,
+                "content_type": 2,
+                "number": 6353,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 54,
+                "content_type": 2,
+                "number": 6354,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 55,
+                "content_type": 2,
+                "number": 6355,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 56,
+                "content_type": 2,
+                "number": 6356,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 57,
+                "content_type": 2,
+                "number": 6357,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 58,
+                "content_type": 2,
+                "number": 6358,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 90,
+                "content_type": 2,
+                "number": 6509,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              },
+              {
+                "record": 91,
+                "content_type": 2,
+                "number": 6510,
+                "field": "umid",
+                "reference": 104,
+                "slot": 1
+              }
+            ]
+          },
+          {
+            "slot": 2,
+            "payload_hex": "060a2b340101010501010d231300000000000000000000008eef373744b23884",
+            "owners": [
+              {
+                "record": 27,
+                "content_type": 2,
+                "number": 1,
+                "field": "umid",
+                "reference": 104,
+                "slot": 2
+              }
+            ]
+          },
+          {
+            "slot": 3,
+            "payload_hex": "060a2b340101010501010d4313000000000000000000000010322cfffe7c5466",
+            "owners": [
+              {
+                "record": 46,
+                "content_type": 2,
+                "number": 6347,
+                "field": "umid",
+                "reference": 104,
+                "slot": 3
+              },
+              {
+                "record": 47,
+                "content_type": 2,
+                "number": 6348,
+                "field": "umid",
+                "reference": 104,
+                "slot": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "record": 111,
+        "subtype": 2,
+        "entry_length": 32,
+        "slot_bitmap": "0xf",
+        "stored_reference_count": 4,
+        "all_content_owner_count": 4,
+        "reference_count_matches": true,
+        "owners_point_to_occupied_slots": true,
+        "slots": [
+          {
+            "slot": 0,
+            "payload_hex": "060a2b340101010501010d23130000000000000000000000aae53b7130a4466c",
+            "owners": [
+              {
+                "record": 60,
+                "content_type": 2,
+                "number": 4,
+                "field": "umid",
+                "reference": 111,
+                "slot": 0
+              }
+            ]
+          },
+          {
+            "slot": 1,
+            "payload_hex": "060a2b340101010501010d2313000000000000000000000093847fae15329c04",
+            "owners": [
+              {
+                "record": 64,
+                "content_type": 2,
+                "number": 5,
+                "field": "umid",
+                "reference": 111,
+                "slot": 1
+              }
+            ]
+          },
+          {
+            "slot": 2,
+            "payload_hex": "060a2b340101010501010d23130000000000000000000000ace7bb28181271b5",
+            "owners": [
+              {
+                "record": 66,
+                "content_type": 2,
+                "number": 7,
+                "field": "umid",
+                "reference": 111,
+                "slot": 2
+              }
+            ]
+          },
+          {
+            "slot": 3,
+            "payload_hex": "060a2b340101010501010d2313000000000000000000000094d5e2742196b89b",
+            "owners": [
+              {
+                "record": 93,
+                "content_type": 2,
+                "number": 6512,
+                "field": "umid",
+                "reference": 111,
+                "slot": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "record": 112,
+        "subtype": 2,
+        "entry_length": 32,
+        "slot_bitmap": "0xf",
+        "stored_reference_count": 4,
+        "all_content_owner_count": 4,
+        "reference_count_matches": true,
+        "owners_point_to_occupied_slots": true,
+        "slots": [
+          {
+            "slot": 0,
+            "payload_hex": "060a2b340101010501010d2313000000000000000000000081e0ad859a8beeca",
+            "owners": [
+              {
+                "record": 94,
+                "content_type": 2,
+                "number": 6513,
+                "field": "umid",
+                "reference": 112,
+                "slot": 0
+              }
+            ]
+          },
+          {
+            "slot": 1,
+            "payload_hex": "060a2b340101010501010d23130000000000000000000000a123ee46033fe98c",
+            "owners": [
+              {
+                "record": 95,
+                "content_type": 2,
+                "number": 6514,
+                "field": "umid",
+                "reference": 112,
+                "slot": 1
+              }
+            ]
+          },
+          {
+            "slot": 2,
+            "payload_hex": "060a2b340101010501010d2313000000000000000000000090e6bf52328e49d8",
+            "owners": [
+              {
+                "record": 96,
+                "content_type": 2,
+                "number": 6515,
+                "field": "umid",
+                "reference": 112,
+                "slot": 2
+              }
+            ]
+          },
+          {
+            "slot": 3,
+            "payload_hex": "060a2b340101010501010d23130000000000000000000000b35b86927b6b9776",
+            "owners": [
+              {
+                "record": 92,
+                "content_type": 2,
+                "number": 6511,
+                "field": "umid",
+                "reference": 112,
+                "slot": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "record": 114,
+        "subtype": 2,
+        "entry_length": 32,
+        "slot_bitmap": "0xf",
+        "stored_reference_count": 4,
+        "all_content_owner_count": 4,
+        "reference_count_matches": true,
+        "owners_point_to_occupied_slots": true,
+        "slots": [
+          {
+            "slot": 0,
+            "payload_hex": "060a2b340101010501010d23130000000000000000000000aecc43dd7d2e1db6",
+            "owners": [
+              {
+                "record": 97,
+                "content_type": 2,
+                "number": 6517,
+                "field": "umid",
+                "reference": 114,
+                "slot": 0
+              }
+            ]
+          },
+          {
+            "slot": 1,
+            "payload_hex": "060a2b340101010501010d23130000000000000000000000aa4d2ff11446d4f6",
+            "owners": [
+              {
+                "record": 98,
+                "content_type": 2,
+                "number": 6518,
+                "field": "umid",
+                "reference": 114,
+                "slot": 1
+              }
+            ]
+          },
+          {
+            "slot": 2,
+            "payload_hex": "060a2b340101010501010d23130000000000000000000000abc51116088f4404",
+            "owners": [
+              {
+                "record": 118,
+                "content_type": 2,
+                "number": 6519,
+                "field": "umid",
+                "reference": 114,
+                "slot": 2
+              }
+            ]
+          },
+          {
+            "slot": 3,
+            "payload_hex": "060a2b340101010501010d23130000000000000000000000819c6f9eaa3b4dc1",
+            "owners": [
+              {
+                "record": 122,
+                "content_type": 2,
+                "number": 6523,
+                "field": "umid",
+                "reference": 114,
+                "slot": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "record": 126,
+        "subtype": 2,
+        "entry_length": 32,
+        "slot_bitmap": "0xf",
+        "stored_reference_count": 4,
+        "all_content_owner_count": 4,
+        "reference_count_matches": true,
+        "owners_point_to_occupied_slots": true,
+        "slots": [
+          {
+            "slot": 0,
+            "payload_hex": "060a2b340101010501010d23130000000000000000000000a4010905c75397c3",
+            "owners": [
+              {
+                "record": 123,
+                "content_type": 2,
+                "number": 6524,
+                "field": "umid",
+                "reference": 126,
+                "slot": 0
+              }
+            ]
+          },
+          {
+            "slot": 1,
+            "payload_hex": "060a2b340101010501010d23130000000000000000000000b2c68afa6b9d7a04",
+            "owners": [
+              {
+                "record": 127,
+                "content_type": 2,
+                "number": 6520,
+                "field": "umid",
+                "reference": 126,
+                "slot": 1
+              }
+            ]
+          },
+          {
+            "slot": 2,
+            "payload_hex": "060a2b340101010501010d231300000000000000000000008d61a8ef88ab2838",
+            "owners": [
+              {
+                "record": 128,
+                "content_type": 2,
+                "number": 6521,
+                "field": "umid",
+                "reference": 126,
+                "slot": 2
+              }
+            ]
+          },
+          {
+            "slot": 3,
+            "payload_hex": "060a2b340101010501010d2313000000000000000000000091a0b878c33c7194",
+            "owners": [
+              {
+                "record": 130,
+                "content_type": 2,
+                "number": 10,
+                "field": "umid",
+                "reference": 126,
+                "slot": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "duplicate_payload_groups": [
+      {
+        "subtype": 2,
+        "entry_length": 32,
+        "payload_hex": "060a2b340101010501010d431300000000000000000000009c50d1fffec4f949",
+        "locations": [
+          {
+            "record": 63,
+            "slot": 0
+          },
+          {
+            "record": 69,
+            "slot": 0
+          },
+          {
+            "record": 72,
+            "slot": 0
+          },
+          {
+            "record": 72,
+            "slot": 1
+          },
+          {
+            "record": 104,
+            "slot": 1
+          }
+        ]
+      },
+      {
+        "subtype": 2,
+        "entry_length": 32,
+        "payload_hex": "060a2b340101010501010d4313000000000000000000000010322cfffe7c5466",
+        "locations": [
+          {
+            "record": 72,
+            "slot": 2
+          },
+          {
+            "record": 104,
+            "slot": 3
+          }
+        ]
+      }
+    ]
+  },
+  "bound_reports_sha256": {
+    "analysis/0033-original-converter.json": "52c8cfa52b870eb1c0da5611453ceaeddcb9cd530f865dd8c5060caa2ef8208d",
+    "analysis/camera-observations-0032-result.json": "7b4d64be17896a1c7bffb92f1ea729d7bb3697815f6311376026880c3087d369",
+    "analysis/camera-test-round-0032.json": "c5a9961f69baf1bb14186c6bd09a74fa266566429d68e078571f0d962b72e665",
+    "analysis/0033-repair-snapshot-diff.json": "d1796b73fa686f56276a6f69a5a4f3ed5e91d9280985bf33f5e0d4c431dd59b9"
+  },
+  "conclusion": "C0010/C6520/C6521 retained and populated; C6522 relocated to a new sparse slot, not removed from clip membership. No new physical post-repair UI/playback verdict.",
+  "scope": "Metadata hashes, all active records, original converter and nine selected full MP4 hashes. Other media use membership/size/mtime. No full repair emulation or hardware decoding."
+}

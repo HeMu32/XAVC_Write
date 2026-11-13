@@ -1,3 +1,9 @@
+# 项目最初背景（历史记录）
+
+本文件保留最初任务，不代表最新进展。2026-11-14起请先读README.md、
+docs/current-status.md和docs/sd-xavcs-reproduction.md。
+已有多种SD配置实机成功；4M实验、XML名称修正和未确认项目有独立证据记录。
+
 Code会话CAppRemake和DSH会话CAppRev, a7m4-fl23-works, SonyLooks_IEDT 各自包含一些对Sony相机固件的逆向工程工作. 你可以向那些会话询问和收集需要的信息. 还可以从那里复制任何需要的文件和工具到工作区. 
 工作区中包含一点对Sony XAVC格式的初步研究. 我们希望推进它, 因为目前并没有真正解释如果从任意输入, 使用ffmpeg编码器构建一个合法的数据流, 按照Sony期望的数据结构写入相机存储卡, 并在相机上正确回放.
 
@@ -5,4 +11,4 @@ Code会话CAppRemake和DSH会话CAppRev, a7m4-fl23-works, SonyLooks_IEDT 各自�
 
 tools/dsh_web_cli.ps1 是一个用来访问deepseek harness 会话的控制台工具. 
 
-你运行在一个管理员权限的账户上, 被允许使用管理员身份执行应用程序; 被允许下载所需的工具, MCP, 插件; 被允许逆向分析相机固件和以上提到的应用程序. 
+你运行在一个管理员权限的账户上, 被允许使用管理员身份执行应用程序; 被允许下载所需的工具, MCP, 插件; 被允许逆向分析相机固件和以上提到的应用程序.

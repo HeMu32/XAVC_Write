@@ -14,13 +14,13 @@ import sys
 import tempfile
 from pathlib import Path
 
-SCHEMA = 5
+SCHEMA = 6
 REQUIRED_CHECKS = {"decoded_frames_and_timestamps_bit_exact", "audio_bit_exact",
                    "sei_container_timing", "progressive_slice_order", "selected_cbr_cpb",
                    "sd_only_declared_native_catalog_changes",
                    "xml_acquisition_matches_manifest", "sd_acquisition_matches_xml",
                    "catalog_baseline_hashes_bound", "qualified_candidate_nal_framing",
-                   "selected_profile_consistent"}
+                   "selected_profile_consistent", "sony_xml_codec_name_supported"}
 FRAMING_CHECKS = (REQUIRED_CHECKS - {"qualified_candidate_nal_framing"}) | {
     "explicit_diagnostic_framing_control"}
 NATIVE_CHECKS = {"decoded_frames_and_timestamps_bit_exact", "audio_bit_exact",
@@ -28,7 +28,7 @@ NATIVE_CHECKS = {"decoded_frames_and_timestamps_bit_exact", "audio_bit_exact",
                  "native_track_configuration_bit_exact", "native_source_identity_verified",
                  "sd_only_declared_native_catalog_changes",
                  "xml_acquisition_matches_manifest", "sd_acquisition_matches_xml",
-                 "catalog_baseline_hashes_bound"}
+                 "catalog_baseline_hashes_bound", "sony_xml_codec_name_supported"}
 SOURCE_CHECKS = (NATIVE_CHECKS - {
     "native_mdat_bit_exact", "native_track_payloads_bit_exact",
     "native_track_configuration_bit_exact", "native_source_identity_verified"}) | {
@@ -37,19 +37,25 @@ SOURCE_CHECKS = (NATIVE_CHECKS - {
         "source_playback_observation_bound", "source_identity_verified",
         "source_container_changes_limited_to_identity_and_dates",
         "source_sidecar_changes_limited_to_identity_and_dates"}
+BITRATE_CHECKS = REQUIRED_CHECKS | {
+    "diagnostic_spec_and_encoder_bound", "diagnostic_pair_proof_bound",
+    "diagnostic_reader_outcome_matches_exact_expectation"}
 
 
 def require_current_verification(report, expected_profile="encoded_avc", expected_acquisition="unspecified",
-                                 expected_catalog="native_reuse"):
+                                 expected_catalog="native_reuse", allow_diagnostic=False):
     checks = report.get("checks", {})
     required = {"encoded_avc": REQUIRED_CHECKS, "native_control": NATIVE_CHECKS,
-                "source_control": SOURCE_CHECKS, "framing_control": FRAMING_CHECKS}.get(expected_profile)
+                "source_control": SOURCE_CHECKS, "framing_control": FRAMING_CHECKS,
+                "bitrate_diagnostic": BITRATE_CHECKS}.get(expected_profile)
     if expected_catalog == "observed_minimal" and required is not None:
         required = required - {"sd_acquisition_matches_xml"} | {
             "sd_metadata_omission_matches_positive_template",
             "sd_minimal_catalog_rebuilt_exactly", "sd_positive_template_observation_bound"}
     if (report.get("verification_schema") != SCHEMA or report.get("passed") is not True or
             required is None or
+            (expected_profile == "bitrate_diagnostic" and
+             (allow_diagnostic is not True or expected_catalog != "observed_minimal")) or
             (expected_profile == "source_control" and expected_catalog != "observed_minimal") or
             expected_catalog not in {"native_reuse", "observed_minimal"} or
             report.get("catalog_representation", "native_reuse") != expected_catalog or
@@ -145,7 +151,8 @@ def native_payload_checks(source, target, prefix="native"):
 
 
 def run_media_checks(build, clip, base, expected_frames, profile="encoded_avc"):
-    if profile not in {"encoded_avc", "native_control", "source_control", "framing_control"}:
+    if profile not in {"encoded_avc", "native_control", "source_control", "framing_control",
+                       "bitrate_diagnostic"}:
         raise ValueError("Unknown media verification profile")
     build, base = Path(build).resolve(), Path(base).resolve()
     media = build / (clip + ".MP4")

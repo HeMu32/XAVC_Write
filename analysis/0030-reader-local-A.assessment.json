@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "expected_rejection": false,
+  "expected_query_status": 0,
+  "media_sha256": "64ce29c6561a91e52c7c0116bf2d2c08bae6336f048c3845a6778868ee6329fd",
+  "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+  "experiment_spec": {
+    "schema": 1,
+    "kind": "bitrate_diagnostic",
+    "experiment_id": "0030",
+    "pair_id": "0030-mux-29",
+    "variant": "A",
+    "base_profile": "hd16_2997",
+    "coded_bitrate_kbps": 4000,
+    "hrd_bitrate_kbps": 4000,
+    "cpb_size_kbits": 4000,
+    "prof_average_kbps": 16000,
+    "prof_maximum_kbps": 16000,
+    "creation_time": "2026-11-13T21:31:35+08:00"
+  },
+  "probe_mode": {
+    "seek_probe": true,
+    "seek_mode": 1,
+    "sample_batches": 1,
+    "decode_table_probe": true,
+    "rtmd_probe": true
+  },
+  "probe_mode_observed": true,
+  "scope": "Selected original reader probes: 1 of 5276 video samples checked; no full-stream decode or camera playback",
+  "checks": {
+    "media_hash_bound": true,
+    "firmware_hash_bound": true,
+    "runtime_hash_bound": true,
+    "original_code_unchanged": true,
+    "exact_call_sequence_and_statuses": true,
+    "no_emulator_errors": true,
+    "original_reader_verdict_preserved": true,
+    "independent_sample_table_crosscheck": true,
+    "rtmd_first_second_last_consistent": true,
+    "probe_mode_bound": true
+  },
+  "rtmd_frame_indices": [
+    0,
+    1,
+    5275
+  ],
+  "video_frames_checked": 1,
+  "total_video_frames": 5276,
+  "full_stream_decode": false,
+  "camera_playback_proven": false,
+  "requested_probe_mode": {
+    "seek_probe": true,
+    "seek_mode": 1,
+    "sample_batches": 1,
+    "decode_table_probe": true,
+    "rtmd_probe": true,
+    "max_runtime_seconds": 180
+  },
+  "original_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0030-reader-local-A.json",
+  "original_report_sha256": "ea22359963cb757132018a575177749c3db47f4b900eea39ccc0d2e466eabaf3"
+}

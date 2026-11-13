@@ -19,7 +19,8 @@ from xml.etree import ElementTree as ET
 
 from build_sony_clip import MPF, timecode
 from sony_db import check_regions, checksum, fix_checksums, inventory
-from sony_profiles import DEFAULT_PROFILE, manifest_profile
+from sony_profiles import DEFAULT_PROFILE
+from bitrate_experiment import package_profile
 
 
 def digest(data):
@@ -58,14 +59,14 @@ def acquisition_bytes(manifest):
 
 
 def catalog_profile(manifest, representation):
-    profile = manifest_profile(manifest)
+    profile = package_profile(manifest)
     if representation == "native_reuse" and profile.name != DEFAULT_PROFILE:
         raise ValueError("native_reuse only supports hd25_5994; use observed_minimal for other profiles")
     return profile
 
 
 def material_attributes(manifest):
-    profile = manifest_profile(manifest)
+    profile = package_profile(manifest)
     clip = manifest["clip"]
     return {
         "uri": f"./CLIP/{clip}.MP4", "type": "MP4", "videoType": profile.video_codec,

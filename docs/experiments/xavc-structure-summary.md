@@ -1,5 +1,24 @@
 # XAVC directory & recording-file data structure (consolidated)
 
+## Historical Document Notice,2026-11-14
+
+The body below is the original experiment0001 synthesis, not the current writer
+specification. Read `docs/current-status.md` and `docs/sd-xavcs-reproduction.md`
+first. In particular, later firmware evidence supersedes these early claims:
+
+- Active record addressing uses `0x10000 + index *160`, not the presumed
+  first-movie address as a database-wide table base.
+- Movie number is decoded at record+0x0e; path/video/UMID references are explicit.
+  UMID reconstruction is not inferred from clip-number ordering.
+- Type2 support records carry video properties; old "sentinels" are not a proven
+  power-cycle event mechanism.
+- Header/record checksums and packed calendar times have actual implementations;
+  the body below's1024Hz/session-counter explanation is not a writing rule.
+- Embedded non-real-time XML is an MP4 metadata box, distinct from the per-frame
+  `rtmd` track. Canonical `HP@L4` spelling matters during database repair.
+
+Preserved historical analysis follows; do not copy its field offsets into tools.
+
 Synthesized from Experiment 0001 (29 clips across 3 Sony devices: ILCE-7M4,
 ILCE-7RM5, FDR-AX700, 11 DB snapshots). Field-level detail lives in
 `database_bin-offsets.md`; this document is the architectural overview.

@@ -1,0 +1,635 @@
+{
+  "experiment": "0029",
+  "kind": "bitrate_diagnostic",
+  "state": "PREPARED_FOR_PHYSICAL_TEST_NOT_YET_CAMERA_VERIFIED",
+  "recorded_at_utc": "2026-11-13T09:28:11.169258+00:00",
+  "card": "F:\\",
+  "source": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\Cat_25-12-25.mp4",
+  "source_sha256": "9f42e1e5356f9e1623f6a6b5681f165b3aa5fc167a815c1b4b9594964ca0351e",
+  "before_snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T165324",
+  "final_snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T172719",
+  "before_database_sha256": "0c2283876e6ddf8386fb4d60dda9f2898867997b01c14bd40c0298382caa2650",
+  "final_database_sha256": "89fed18ee745c739ee59ef11e0aecc1a4d0a3a16f13c8ae75748e5b9dd27888a",
+  "audit": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\sd-test-round-0029.json",
+  "audit_sha256": "a8e4c408b7ec827ef650b11e3ee6131eb43073f569a5b3b3dc8fbed22066cd62",
+  "regression": {
+    "tests": 279,
+    "seconds": 244.128,
+    "log": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0029-regression-final.log",
+    "log_sha256": "663b596f0b90bace0eb9efec49067f6a7456c6c79010ab869c06e4cef8f26289",
+    "passed": true
+  },
+  "old_record_count": 117,
+  "final_record_count": 121,
+  "added_records": [
+    120,
+    121,
+    122,
+    123
+  ],
+  "all_old_records_bit_exact": true,
+  "existing_controls": {
+    "C6520": {
+      "sha256": "bd191099d30e7bc3921a0f4f3e18aba71d095f924d20458180fbf2a67e9f377b",
+      "unchanged": true,
+      "historical_playback": "USER_REPORTED_SUCCESS",
+      "current_round_playback": "NOT_TESTED"
+    },
+    "C6515": {
+      "sha256": "f6815df190cda04a3dcd500aba0df6c4ac1859f22838297b337c3b2f1b0f63e5",
+      "unchanged": true,
+      "historical_playback": "USER_REPORTED_SUCCESS",
+      "current_round_playback": "NOT_TESTED"
+    }
+  },
+  "clips": [
+    {
+      "label": "29-A",
+      "clip": "C6521",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\bitrate-0029-29\\A",
+      "media_sha256": "cf0c6b5fee60e164e4b7824679b0fced0c8b2b11d6d7139bc58fe16de242ee3c",
+      "media_size": 18577164,
+      "total_file_bitrate_bps": 5807125.547203774,
+      "experiment_spec": {
+        "schema": 1,
+        "kind": "bitrate_diagnostic",
+        "experiment_id": "0029",
+        "pair_id": "0029-29",
+        "variant": "A",
+        "base_profile": "hd16_2997",
+        "coded_bitrate_kbps": 4000,
+        "hrd_bitrate_kbps": 4000,
+        "cpb_size_kbits": 4000,
+        "prof_average_kbps": 16000,
+        "prof_maximum_kbps": 16000,
+        "creation_time": "2026-11-13T17:03:26+08:00"
+      },
+      "frames": 767,
+      "duration_seconds": 25.592233333333333,
+      "audio_samples": 1228427,
+      "catalog_record": 120,
+      "staging_snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T165324",
+      "pair_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0029-pair-29.json",
+      "pair_report_sha256": "37a3ffc8528e825dd9a7332aeaaf8e54f2200069253c93435b1a0e3e5683f233",
+      "rates": {
+        "timescale": 30000,
+        "duration_ticks": 767767,
+        "duration_seconds": 25.592233333333333,
+        "samples": 767,
+        "byte_totals": {
+          "video": 12866839,
+          "nal": 12848271,
+          "vcl": 12705372,
+          "filler": 135649
+        },
+        "nal_type_counts": {
+          "6": 794,
+          "9": 767,
+          "5": 104,
+          "1": 2964,
+          "12": 13
+        },
+        "average_bps": {
+          "video": 4022107.436240422,
+          "nal": 4016303.1753123016,
+          "vcl": 3971633.6857405957,
+          "filler": 42403.17700552381
+        },
+        "one_second_decode_window_peak": {
+          "video": {
+            "bytes": 539843,
+            "start_decode_tick": 15015,
+            "bps": 4318744
+          },
+          "nal": {
+            "bytes": 539095,
+            "start_decode_tick": 15015,
+            "bps": 4312760
+          },
+          "vcl": {
+            "bytes": 530402,
+            "start_decode_tick": 410410,
+            "bps": 4243216
+          },
+          "filler": {
+            "bytes": 62846,
+            "start_decode_tick": 0,
+            "bps": 502768
+          }
+        },
+        "accounting": {
+          "video": "MP4 video samples including four-byte NAL length prefixes",
+          "nal": "All NAL bytes including NAL headers, excluding MP4 prefixes",
+          "vcl": "NAL types 1-5,19-21; filler excluded",
+          "filler": "NAL type 12 only",
+          "window": "Whole samples at DTS in [start,start+1s); tail zero padded to 1s"
+        }
+      },
+      "reader_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0029-reader-C6521.json",
+      "reader_report_sha256": "231de08ff37902f389d2062b980412503c340eeee1b02a083810b894e02fd8fd",
+      "reader_original_passed": true,
+      "reader_property_query_status": 0,
+      "reader_assessment": {
+        "passed": true,
+        "expected_rejection": false,
+        "expected_query_status": 0,
+        "media_sha256": "cf0c6b5fee60e164e4b7824679b0fced0c8b2b11d6d7139bc58fe16de242ee3c",
+        "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+        "experiment_spec": {
+          "schema": 1,
+          "kind": "bitrate_diagnostic",
+          "experiment_id": "0029",
+          "pair_id": "0029-29",
+          "variant": "A",
+          "base_profile": "hd16_2997",
+          "coded_bitrate_kbps": 4000,
+          "hrd_bitrate_kbps": 4000,
+          "cpb_size_kbits": 4000,
+          "prof_average_kbps": 16000,
+          "prof_maximum_kbps": 16000,
+          "creation_time": "2026-11-13T17:03:26+08:00"
+        },
+        "probe_mode": {
+          "seek_probe": true,
+          "seek_mode": 1,
+          "sample_batches": 1,
+          "decode_table_probe": true,
+          "rtmd_probe": true
+        },
+        "probe_mode_observed": true,
+        "scope": "Selected original reader probes: 1 of 767 video samples checked; no full-stream decode or camera playback",
+        "checks": {
+          "media_hash_bound": true,
+          "firmware_hash_bound": true,
+          "runtime_hash_bound": true,
+          "original_code_unchanged": true,
+          "exact_call_sequence_and_statuses": true,
+          "no_emulator_errors": true,
+          "original_reader_verdict_preserved": true,
+          "independent_sample_table_crosscheck": true,
+          "rtmd_first_second_last_consistent": true,
+          "probe_mode_bound": true
+        },
+        "rtmd_frame_indices": [
+          0,
+          1,
+          766
+        ],
+        "video_frames_checked": 1,
+        "total_video_frames": 767,
+        "full_stream_decode": false,
+        "camera_playback_proven": false
+      },
+      "verification_sha256": "8ec9b496728665ed5e821b277fc7943080a301cfda3784e0c4c3535309355f67",
+      "firmware_catalog_verification_sha256": "c93306dd633c2013c23731fe3c529b16acd7a7a8a1dd9e992689948f26db66ce",
+      "camera": {
+        "listed": null,
+        "thumbnail": null,
+        "starts_playback": null,
+        "full_duration": null,
+        "audio": null,
+        "seek": null,
+        "message": null
+      }
+    },
+    {
+      "label": "29-B",
+      "clip": "C6522",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\bitrate-0029-29\\B",
+      "media_sha256": "958e22dc27d263d8ac04ec521fc3581b778976f6e2548f1119bc3f4f792243d1",
+      "media_size": 18577164,
+      "total_file_bitrate_bps": 5807125.547203774,
+      "experiment_spec": {
+        "schema": 1,
+        "kind": "bitrate_diagnostic",
+        "experiment_id": "0029",
+        "pair_id": "0029-29",
+        "variant": "B",
+        "base_profile": "hd16_2997",
+        "coded_bitrate_kbps": 4000,
+        "hrd_bitrate_kbps": 4000,
+        "cpb_size_kbits": 4000,
+        "prof_average_kbps": 4000,
+        "prof_maximum_kbps": 4000,
+        "creation_time": "2026-11-13T17:03:26+08:00"
+      },
+      "frames": 767,
+      "duration_seconds": 25.592233333333333,
+      "audio_samples": 1228427,
+      "catalog_record": 121,
+      "staging_snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T171735",
+      "pair_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0029-pair-29.json",
+      "pair_report_sha256": "37a3ffc8528e825dd9a7332aeaaf8e54f2200069253c93435b1a0e3e5683f233",
+      "rates": {
+        "timescale": 30000,
+        "duration_ticks": 767767,
+        "duration_seconds": 25.592233333333333,
+        "samples": 767,
+        "byte_totals": {
+          "video": 12866839,
+          "nal": 12848271,
+          "vcl": 12705372,
+          "filler": 135649
+        },
+        "nal_type_counts": {
+          "6": 794,
+          "9": 767,
+          "5": 104,
+          "1": 2964,
+          "12": 13
+        },
+        "average_bps": {
+          "video": 4022107.436240422,
+          "nal": 4016303.1753123016,
+          "vcl": 3971633.6857405957,
+          "filler": 42403.17700552381
+        },
+        "one_second_decode_window_peak": {
+          "video": {
+            "bytes": 539843,
+            "start_decode_tick": 15015,
+            "bps": 4318744
+          },
+          "nal": {
+            "bytes": 539095,
+            "start_decode_tick": 15015,
+            "bps": 4312760
+          },
+          "vcl": {
+            "bytes": 530402,
+            "start_decode_tick": 410410,
+            "bps": 4243216
+          },
+          "filler": {
+            "bytes": 62846,
+            "start_decode_tick": 0,
+            "bps": 502768
+          }
+        },
+        "accounting": {
+          "video": "MP4 video samples including four-byte NAL length prefixes",
+          "nal": "All NAL bytes including NAL headers, excluding MP4 prefixes",
+          "vcl": "NAL types 1-5,19-21; filler excluded",
+          "filler": "NAL type 12 only",
+          "window": "Whole samples at DTS in [start,start+1s); tail zero padded to 1s"
+        }
+      },
+      "reader_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0029-reader-C6522.json",
+      "reader_report_sha256": "c1e838efd9c168fa2c764c01fa73e5f1f20fb7f8680f4116c9db321050415dfc",
+      "reader_original_passed": false,
+      "reader_property_query_status": 3,
+      "reader_assessment": {
+        "passed": true,
+        "expected_rejection": true,
+        "expected_query_status": 3,
+        "media_sha256": "958e22dc27d263d8ac04ec521fc3581b778976f6e2548f1119bc3f4f792243d1",
+        "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+        "experiment_spec": {
+          "schema": 1,
+          "kind": "bitrate_diagnostic",
+          "experiment_id": "0029",
+          "pair_id": "0029-29",
+          "variant": "B",
+          "base_profile": "hd16_2997",
+          "coded_bitrate_kbps": 4000,
+          "hrd_bitrate_kbps": 4000,
+          "cpb_size_kbits": 4000,
+          "prof_average_kbps": 4000,
+          "prof_maximum_kbps": 4000,
+          "creation_time": "2026-11-13T17:03:26+08:00"
+        },
+        "probe_mode": null,
+        "probe_mode_observed": false,
+        "scope": "Original property-query rejection only; downstream probes not reached",
+        "checks": {
+          "media_hash_bound": true,
+          "firmware_hash_bound": true,
+          "runtime_hash_bound": true,
+          "original_code_unchanged": true,
+          "exact_call_sequence_and_statuses": true,
+          "no_emulator_errors": true,
+          "original_reader_verdict_preserved": true,
+          "exact_expected_property_rejection": true
+        }
+      },
+      "verification_sha256": "1b79f9da6557040299c3a199db6d47a2411f0ab417c41b5a4c8be1a112381bae",
+      "firmware_catalog_verification_sha256": "8302b010e0ccba1257363a79cadfe379e82f387f66089044f3e2af6773e2ac62",
+      "camera": {
+        "listed": null,
+        "thumbnail": null,
+        "starts_playback": null,
+        "full_duration": null,
+        "audio": null,
+        "seek": null,
+        "message": null
+      }
+    },
+    {
+      "label": "59-A",
+      "clip": "C6523",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\bitrate-0029-59\\A",
+      "media_sha256": "a6ef2fb65f488207765e35ccb0d437ba20c2a18aad9204506fd4cad5e104ff27",
+      "media_size": 19457503,
+      "total_file_bitrate_bps": 6082314.97316243,
+      "experiment_spec": {
+        "schema": 1,
+        "kind": "bitrate_diagnostic",
+        "experiment_id": "0029",
+        "pair_id": "0029-59",
+        "variant": "A",
+        "base_profile": "hd25_5994",
+        "coded_bitrate_kbps": 4000,
+        "hrd_bitrate_kbps": 4000,
+        "cpb_size_kbits": 4000,
+        "prof_average_kbps": 25000,
+        "prof_maximum_kbps": 25000,
+        "creation_time": "2026-11-13T17:03:26+08:00"
+      },
+      "frames": 1534,
+      "duration_seconds": 25.592233333333333,
+      "audio_samples": 1228427,
+      "catalog_record": 122,
+      "staging_snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T172037",
+      "pair_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0029-pair-59.json",
+      "pair_report_sha256": "df8e1fa6f5ee9d88c5c2f7952a729c75f768d53dbad9271fda2c162a66a8b65d",
+      "rates": {
+        "timescale": 60000,
+        "duration_ticks": 1535534,
+        "duration_seconds": 25.592233333333333,
+        "samples": 1534,
+        "byte_totals": {
+          "video": 12953989,
+          "nal": 12916961,
+          "vcl": 12901677,
+          "filler": 0
+        },
+        "nal_type_counts": {
+          "6": 1587,
+          "9": 1534,
+          "5": 208,
+          "1": 5928
+        },
+        "average_bps": {
+          "video": 4049350.0762601155,
+          "nal": 4037775.3146462403,
+          "vcl": 4032997.6151618916,
+          "filler": 0.0
+        },
+        "one_second_decode_window_peak": {
+          "video": {
+            "bytes": 566769,
+            "start_decode_tick": 161161,
+            "bps": 4534152
+          },
+          "nal": {
+            "bytes": 565321,
+            "start_decode_tick": 161161,
+            "bps": 4522568
+          },
+          "vcl": {
+            "bytes": 564753,
+            "start_decode_tick": 161161,
+            "bps": 4518024
+          },
+          "filler": {
+            "bytes": 0,
+            "start_decode_tick": 0,
+            "bps": 0
+          }
+        },
+        "accounting": {
+          "video": "MP4 video samples including four-byte NAL length prefixes",
+          "nal": "All NAL bytes including NAL headers, excluding MP4 prefixes",
+          "vcl": "NAL types 1-5,19-21; filler excluded",
+          "filler": "NAL type 12 only",
+          "window": "Whole samples at DTS in [start,start+1s); tail zero padded to 1s"
+        }
+      },
+      "reader_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0029-reader-C6523.json",
+      "reader_report_sha256": "968db5f594a4366e69b62713d186bc4f651eb8bcc1fc1d8e1849140cc9e91cc8",
+      "reader_original_passed": true,
+      "reader_property_query_status": 0,
+      "reader_assessment": {
+        "passed": true,
+        "expected_rejection": false,
+        "expected_query_status": 0,
+        "media_sha256": "a6ef2fb65f488207765e35ccb0d437ba20c2a18aad9204506fd4cad5e104ff27",
+        "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+        "experiment_spec": {
+          "schema": 1,
+          "kind": "bitrate_diagnostic",
+          "experiment_id": "0029",
+          "pair_id": "0029-59",
+          "variant": "A",
+          "base_profile": "hd25_5994",
+          "coded_bitrate_kbps": 4000,
+          "hrd_bitrate_kbps": 4000,
+          "cpb_size_kbits": 4000,
+          "prof_average_kbps": 25000,
+          "prof_maximum_kbps": 25000,
+          "creation_time": "2026-11-13T17:03:26+08:00"
+        },
+        "probe_mode": {
+          "seek_probe": true,
+          "seek_mode": 1,
+          "sample_batches": 1,
+          "decode_table_probe": true,
+          "rtmd_probe": true
+        },
+        "probe_mode_observed": true,
+        "scope": "Selected original reader probes: 1 of 1534 video samples checked; no full-stream decode or camera playback",
+        "checks": {
+          "media_hash_bound": true,
+          "firmware_hash_bound": true,
+          "runtime_hash_bound": true,
+          "original_code_unchanged": true,
+          "exact_call_sequence_and_statuses": true,
+          "no_emulator_errors": true,
+          "original_reader_verdict_preserved": true,
+          "independent_sample_table_crosscheck": true,
+          "rtmd_first_second_last_consistent": true,
+          "probe_mode_bound": true
+        },
+        "rtmd_frame_indices": [
+          0,
+          1,
+          1533
+        ],
+        "video_frames_checked": 1,
+        "total_video_frames": 1534,
+        "full_stream_decode": false,
+        "camera_playback_proven": false
+      },
+      "verification_sha256": "ce09ea31796a9c4e06cb40b86ca97605378d3ee21da233ac34c0298d77a1a079",
+      "firmware_catalog_verification_sha256": "d688165da063f35d770ced84b85fd01344aa441d83b861326830070bb41381c6",
+      "camera": {
+        "listed": null,
+        "thumbnail": null,
+        "starts_playback": null,
+        "full_duration": null,
+        "audio": null,
+        "seek": null,
+        "message": null
+      }
+    },
+    {
+      "label": "59-B",
+      "clip": "C6524",
+      "package": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\bitrate-0029-59\\B",
+      "media_sha256": "4716e26da8fae65e410b1d64557ffd1d1a4ff71712110d334a4159a04c13a856",
+      "media_size": 19457503,
+      "total_file_bitrate_bps": 6082314.97316243,
+      "experiment_spec": {
+        "schema": 1,
+        "kind": "bitrate_diagnostic",
+        "experiment_id": "0029",
+        "pair_id": "0029-59",
+        "variant": "B",
+        "base_profile": "hd25_5994",
+        "coded_bitrate_kbps": 4000,
+        "hrd_bitrate_kbps": 4000,
+        "cpb_size_kbits": 4000,
+        "prof_average_kbps": 4000,
+        "prof_maximum_kbps": 4000,
+        "creation_time": "2026-11-13T17:03:26+08:00"
+      },
+      "frames": 1534,
+      "duration_seconds": 25.592233333333333,
+      "audio_samples": 1228427,
+      "catalog_record": 123,
+      "staging_snapshot": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\backup\\snap_20261113T172412",
+      "pair_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0029-pair-59.json",
+      "pair_report_sha256": "df8e1fa6f5ee9d88c5c2f7952a729c75f768d53dbad9271fda2c162a66a8b65d",
+      "rates": {
+        "timescale": 60000,
+        "duration_ticks": 1535534,
+        "duration_seconds": 25.592233333333333,
+        "samples": 1534,
+        "byte_totals": {
+          "video": 12953989,
+          "nal": 12916961,
+          "vcl": 12901677,
+          "filler": 0
+        },
+        "nal_type_counts": {
+          "6": 1587,
+          "9": 1534,
+          "5": 208,
+          "1": 5928
+        },
+        "average_bps": {
+          "video": 4049350.0762601155,
+          "nal": 4037775.3146462403,
+          "vcl": 4032997.6151618916,
+          "filler": 0.0
+        },
+        "one_second_decode_window_peak": {
+          "video": {
+            "bytes": 566769,
+            "start_decode_tick": 161161,
+            "bps": 4534152
+          },
+          "nal": {
+            "bytes": 565321,
+            "start_decode_tick": 161161,
+            "bps": 4522568
+          },
+          "vcl": {
+            "bytes": 564753,
+            "start_decode_tick": 161161,
+            "bps": 4518024
+          },
+          "filler": {
+            "bytes": 0,
+            "start_decode_tick": 0,
+            "bps": 0
+          }
+        },
+        "accounting": {
+          "video": "MP4 video samples including four-byte NAL length prefixes",
+          "nal": "All NAL bytes including NAL headers, excluding MP4 prefixes",
+          "vcl": "NAL types 1-5,19-21; filler excluded",
+          "filler": "NAL type 12 only",
+          "window": "Whole samples at DTS in [start,start+1s); tail zero padded to 1s"
+        }
+      },
+      "reader_report": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\analysis\\0029-reader-C6524.json",
+      "reader_report_sha256": "df48b97b14ecbd4009447a68d82ddf37d32e4825888eec6b897286d0ceb3b3fb",
+      "reader_original_passed": true,
+      "reader_property_query_status": 0,
+      "reader_assessment": {
+        "passed": true,
+        "expected_rejection": false,
+        "expected_query_status": 0,
+        "media_sha256": "4716e26da8fae65e410b1d64557ffd1d1a4ff71712110d334a4159a04c13a856",
+        "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+        "experiment_spec": {
+          "schema": 1,
+          "kind": "bitrate_diagnostic",
+          "experiment_id": "0029",
+          "pair_id": "0029-59",
+          "variant": "B",
+          "base_profile": "hd25_5994",
+          "coded_bitrate_kbps": 4000,
+          "hrd_bitrate_kbps": 4000,
+          "cpb_size_kbits": 4000,
+          "prof_average_kbps": 4000,
+          "prof_maximum_kbps": 4000,
+          "creation_time": "2026-11-13T17:03:26+08:00"
+        },
+        "probe_mode": {
+          "seek_probe": true,
+          "seek_mode": 1,
+          "sample_batches": 1,
+          "decode_table_probe": true,
+          "rtmd_probe": true
+        },
+        "probe_mode_observed": true,
+        "scope": "Selected original reader probes: 1 of 1534 video samples checked; no full-stream decode or camera playback",
+        "checks": {
+          "media_hash_bound": true,
+          "firmware_hash_bound": true,
+          "runtime_hash_bound": true,
+          "original_code_unchanged": true,
+          "exact_call_sequence_and_statuses": true,
+          "no_emulator_errors": true,
+          "original_reader_verdict_preserved": true,
+          "independent_sample_table_crosscheck": true,
+          "rtmd_first_second_last_consistent": true,
+          "probe_mode_bound": true
+        },
+        "rtmd_frame_indices": [
+          0,
+          1,
+          1533
+        ],
+        "video_frames_checked": 1,
+        "total_video_frames": 1534,
+        "full_stream_decode": false,
+        "camera_playback_proven": false
+      },
+      "verification_sha256": "d540ed39ae0e6e4ca44c5b7bbe1c35440de93bb991b6c39fbe47939af1c6e9d0",
+      "firmware_catalog_verification_sha256": "cf925119c6547cdf8e91d8e47c8712121230f5d625f87e8a6774ee36b5b82fd0",
+      "camera": {
+        "listed": null,
+        "thumbnail": null,
+        "starts_playback": null,
+        "full_duration": null,
+        "audio": null,
+        "seek": null,
+        "message": null
+      }
+    }
+  ],
+  "test_order": [
+    "C6520",
+    "C6515",
+    "C6521",
+    "C6522",
+    "C6523",
+    "C6524"
+  ],
+  "files_deleted": [],
+  "existing_clip_assets_replaced": false,
+  "scope": "PROF declaration isolation on identical 4M payload pairs; not proof of a universal minimum rate"
+}

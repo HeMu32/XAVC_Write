@@ -23,6 +23,7 @@ from sony_mp4 import MP4, ConstantSizes, box, fullbox, u32
 from sony_umid import make_umid
 from sony_rtmd import timecode, make_packet
 from sony_profiles import DEFAULT_PROFILE, PROFILES, get_profile
+from bitrate_experiment import ExperimentSpec, load_spec
 
 NRT = "urn:schemas-professionalDisc:nonRealTimeMeta:ver.2.00"
 MPF = "http://xmlns.sony.net/pro/metadata/mediaprofile"
@@ -193,7 +194,7 @@ def validate_pcm_entry(track):
         raise ValueError("Expected stereo 16-bit big-endian PCM at 48 kHz in every audio description")
 
 
-def profile_descriptor(camera, selected):
+def profile_descriptor(camera, selected, average_kbps=None, maximum_kbps=None):
     prof = camera.one(camera.top, "uuid")
     payload = bytearray(camera.payload(prof))
     if payload[:16] != bytes.fromhex("50524f46 21d24fce bb88695c fac9c740"):
@@ -206,7 +207,9 @@ def profile_descriptor(camera, selected):
             data[16:20] != bytes.fromhex("00030002")):
         raise ValueError("Expected valid single High 4:2:0 VPRF; opaque patched PROF is not a template")
     data[15] = selected.level_idc
-    struct.pack_into(">4IHH", data, 20, selected.bitrate_kbps, selected.bitrate_kbps,
+    struct.pack_into(">4IHH", data, 20,
+                     selected.bitrate_kbps if average_kbps is None else average_kbps,
+                     selected.bitrate_kbps if maximum_kbps is None else maximum_kbps,
                      selected.prof_fps, selected.prof_fps, selected.width, selected.height)
     start = vprf.data - prof.data
     payload[start:start + len(data)] = data
@@ -228,9 +231,32 @@ def main():
                     default="camera_aligned")
     ap.add_argument("--nal-length-size", type=int, choices=(3, 4), default=4)
     ap.add_argument("--diagnostic-framing-control", action="store_true")
-    ap.add_argument("--profile", choices=PROFILES, default=DEFAULT_PROFILE)
+    ap.add_argument("--profile", choices=PROFILES)
+    ap.add_argument("--experiment-spec")
+    ap.add_argument("--diagnostic-peer")
+    ap.add_argument("--pair-report")
+    ap.add_argument("--reader-report")
     args = ap.parse_args()
-    selected = get_profile(args.profile)
+    spec = load_spec(args.experiment_spec) if args.experiment_spec else None
+    if spec and args.profile is not None and args.profile != spec.base_profile:
+        ap.error("--profile disagrees with --experiment-spec baseline")
+    args.profile = spec.base_profile if spec else (args.profile or DEFAULT_PROFILE)
+    selected = spec.coding_profile() if spec else get_profile(args.profile)
+    baseline = spec.base_profile if spec else args.profile
+    if spec:
+        if (args.diagnostic_framing_control or args.nal_length_size != 4 or
+                not args.retime_hrd or args.umid_mode != "edius_uuid4" or
+                args.payload_layout != "structure_template" or args.acquisition != "rec709" or
+                not all((args.diagnostic_peer, args.pair_report, args.reader_report))):
+            ap.error("Bitrate diagnostic requires fixed four-byte/HRD/UUID4/Rec709 layout and evidence paths")
+        assumptions_path = Path(args.base).parent / "input-assumptions.json"
+        assumptions = json.loads(assumptions_path.read_text(encoding="utf-8"))
+        encoded_spec = ExperimentSpec.from_dict(assumptions.get("experiment_spec"))
+        if (encoded_spec.coding_fields() != spec.coding_fields() or
+                assumptions.get("profile_parameters") != selected.manifest_fields()):
+            raise ValueError("Base encoder experiment differs from requested coding settings")
+    elif any((args.diagnostic_peer, args.pair_report, args.reader_report)):
+        ap.error("Diagnostic evidence requires --experiment-spec")
     if (args.nal_length_size == 3) != args.diagnostic_framing_control:
         ap.error("Three-byte framing requires --diagnostic-framing-control; candidates use four bytes")
     out = Path(args.output)
@@ -274,8 +300,9 @@ def main():
     audio = b"".join(base.buf[p:p + n * ba.sizes[0]] for p, n in zip(ba.chunks, ba.chunk_samples))
     source_audio_samples = len(audio) // 4
     samples_audio = selected.audio_boundary(frames)
-    audio = align_pcm(audio, frames, args.profile)
-    stamp_dt = datetime.now(timezone(timedelta(hours=8)))
+    audio = align_pcm(audio, frames, baseline)
+    stamp_dt = (datetime.fromisoformat(spec.creation_time) if spec else
+                datetime.now(timezone(timedelta(hours=8))))
     stamp = stamp_dt.isoformat(timespec="seconds")
     qt_stamp = int(stamp_dt.timestamp()) + 2082844800
     identity_source = edius if args.umid_mode == "edius_uuid4" else cam
@@ -286,12 +313,14 @@ def main():
     node = bytes.fromhex(source_umid)[24:]
     umid = (ediustype_umid(source_umid) if args.umid_mode == "edius_uuid4" else
             make_umid(datetime.fromisoformat(stamp), node).hex().upper())
-    xml = nrt_xml(umid, frames, stamp, args.acquisition, args.profile)
+    xml = nrt_xml(umid, frames, stamp, args.acquisition, baseline)
     (out / (args.clip + "M01.XML")).write_bytes(xml)
     ftyp = structure.raw(structure.one(structure.top, "ftyp"))
     payload_start = (structure.one(structure.top, "mdat").data
                      if args.payload_layout == "structure_template" else 131072)
-    prefix = payload_prefix(ftyp, profile_descriptor(cam, selected), payload_start)
+    prefix = payload_prefix(ftyp, profile_descriptor(
+        cam, selected, spec.prof_average_kbps if spec else None,
+        spec.prof_maximum_kbps if spec else None), payload_start)
     payload = bytearray()
     offsets = [[], [], []]
     counts = [[], [], []]
@@ -337,10 +366,12 @@ def main():
         f.write(box("moov", moov))
         f.write(nrt)
     manifest = {"clip": args.clip, "umid": umid, "frames": frames, "duration_ticks": duration,
-                "package_kind": "framing_control" if args.diagnostic_framing_control else "encoded_avc",
-                "test_role": "diagnostic_framing_control" if args.diagnostic_framing_control else "camera_candidate",
+                "package_kind": ("bitrate_diagnostic" if spec else
+                                 "framing_control" if args.diagnostic_framing_control else "encoded_avc"),
+                "test_role": ("bitrate_diagnostic" if spec else
+                              "diagnostic_framing_control" if args.diagnostic_framing_control else "camera_candidate"),
                 "acquisition": args.acquisition,
-                "sony_profile": selected.name, "profile_parameters": selected.manifest_fields(),
+                "sony_profile": baseline, "profile_parameters": selected.manifest_fields(),
                 "timescale": selected.timescale, "audio_samples": samples_audio, "stamp": stamp,
                 "source_audio_samples": source_audio_samples,
                 "audio_alignment": {"trimmed_samples": max(0, source_audio_samples - samples_audio),
@@ -363,6 +394,16 @@ def main():
                 "profile_descriptor_source": str(cam.path.resolve()),
                 "video_bitrate": sum(map(len, video)) * 8 * selected.timescale / duration,
                 "sha256": hashlib.sha256(destination.read_bytes()).hexdigest()}
+    if spec:
+        manifest.update(
+            experiment_spec=spec.to_dict(),
+            experiment_spec_path=str(Path(args.experiment_spec).resolve()),
+            experiment_spec_sha256=hashlib.sha256(Path(args.experiment_spec).read_bytes()).hexdigest(),
+            base_sha256=hashlib.sha256(base.buf).hexdigest(),
+            encoder_assumptions_sha256=hashlib.sha256(assumptions_path.read_bytes()).hexdigest(),
+            diagnostic_evidence={"peer_build": str(Path(args.diagnostic_peer).resolve()),
+                                 "pair_report": str(Path(args.pair_report).resolve()),
+                                 "reader_report": str(Path(args.reader_report).resolve())})
     (out / "build-manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
     if structure is not cam:
         structure.close()

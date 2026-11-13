@@ -1,0 +1,80 @@
+{
+  "experiment": "0029",
+  "phase": "FIRST_PHYSICAL_TEST_BEFORE_USER_DATABASE_REPAIR",
+  "date_local": "2026-11-13",
+  "camera_context": "ILCE-7M4 from prior user context",
+  "raw_user_report": "6521~6524只有6522无法播放.",
+  "evidence_source": "Direct user report, not inferred from software validation",
+  "pre_experiment_commit": "83c597a",
+  "preparation_record": "analysis/camera-test-round-0029.json",
+  "preparation_record_sha256": "f278aa7cebddd09156491618cab38a726a68cba665577dc56ef973445359fdd0",
+  "card": "F:/",
+  "before_database_repair_snapshot": {
+    "path": "backup/snap_20261113T180914",
+    "metadata_files": 77,
+    "skipped_media_inventory_entries": 153,
+    "errors": [],
+    "scope": "Metadata copied and hashed; media timestamps and sizes inventoried, not a media backup"
+  },
+  "selected_card_media_rehashed_after_snapshot": true,
+  "all_four_match_prepared_media": true,
+  "clips": [
+    {
+      "clip": "C6521",
+      "label": "29-A",
+      "media_sha256": "cf0c6b5fee60e164e4b7824679b0fced0c8b2b11d6d7139bc58fe16de242ee3c",
+      "playback": "SUCCESS_USER_REPORTED",
+      "listed": true,
+      "listing_evidence": "Implied by reported playback success",
+      "thumbnail": null,
+      "full_duration": null,
+      "audio": null,
+      "seek": null,
+      "camera_message": null
+    },
+    {
+      "clip": "C6522",
+      "label": "29-B",
+      "media_sha256": "958e22dc27d263d8ac04ec521fc3581b778976f6e2548f1119bc3f4f792243d1",
+      "playback": "FAILURE_USER_REPORTED",
+      "listed": null,
+      "listing_evidence": "Not explicitly reported; do not infer failure stage",
+      "thumbnail": null,
+      "full_duration": null,
+      "audio": null,
+      "seek": null,
+      "camera_message": null,
+      "failure_class": "UNSPECIFIED_UNABLE_TO_PLAY"
+    },
+    {
+      "clip": "C6523",
+      "label": "59-A",
+      "media_sha256": "a6ef2fb65f488207765e35ccb0d437ba20c2a18aad9204506fd4cad5e104ff27",
+      "playback": "SUCCESS_USER_REPORTED",
+      "listed": true,
+      "listing_evidence": "Implied by reported playback success",
+      "thumbnail": null,
+      "full_duration": null,
+      "audio": null,
+      "seek": null,
+      "camera_message": null
+    },
+    {
+      "clip": "C6524",
+      "label": "59-B",
+      "media_sha256": "4716e26da8fae65e410b1d64557ffd1d1a4ff71712110d334a4159a04c13a856",
+      "playback": "SUCCESS_USER_REPORTED",
+      "listed": true,
+      "listing_evidence": "Implied by reported playback success",
+      "thumbnail": null,
+      "full_duration": null,
+      "audio": null,
+      "seek": null,
+      "camera_message": null
+    }
+  ],
+  "card_writes_by_agent_this_turn": [],
+  "next_action": "Await user database repair, post-repair playback feedback and card reconnection before further research",
+  "post_repair_results": null,
+  "root_cause_established": false
+}

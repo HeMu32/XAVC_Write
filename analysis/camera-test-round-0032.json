@@ -1,0 +1,128 @@
+{
+  "deployment_id": "0032",
+  "date_local": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "state": "DEPLOYED_READBACK_VERIFIED_AWAITING_CAMERA",
+  "card": "F:/",
+  "clip": "C0010",
+  "source": "mux_playfull_ytb_1080.mp4",
+  "source_sha256": "57bd6825af7966ebd042ff15746382cbf10ba5b1577ba720c8c043c9c836f7f2",
+  "encoded_base_reused": "output/mux-0030-29/encode/base.mov",
+  "encoded_base_sha256": "3f386cdbd3d77e7a854ace755b7a03cd3ecfe33baf76c4c30c736f1ce93547f8",
+  "reencoded_this_round": false,
+  "numbering": {
+    "strategy": "First unoccupied number after C0007",
+    "C0008_and_C0009_already_occupied": true,
+    "all_230_snapshot_resources_database_and_mediapro_checked": true,
+    "C6525_plan_superseded_without_card_write": true,
+    "database_record": 130
+  },
+  "package": "output/mux-0032-29/A",
+  "media_sha256": "5c30633d67fafab81af53c366df9d7194b558ac7a866933505862c3dc032bff5",
+  "media_bytes": 127259456,
+  "frames": 5276,
+  "duration_seconds": 176.04253333333332,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "30000/1001",
+    "bit_depth": 8,
+    "chroma": "4:2:0",
+    "codec": "AVC High4.0",
+    "coded_target_kbps": 4000,
+    "actual_video_bps": 3999023.2966427053,
+    "hrd_input_bps": 4000000,
+    "buffer_bits": 4000000,
+    "prof_average_maximum_kbps": [16000, 16000],
+    "xml_codec": "AVC_1920_1080_HP@L4"
+  },
+  "audio": {
+    "codec": "PCM16BE",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 8450041
+  },
+  "total_file_bitrate_bps": 5783123.139180759,
+  "snapshots": {
+    "allocation": "backup/snap_20261114T010407",
+    "immediate_pre_write": "backup/snap_20261114T011334",
+    "post_write": "backup/snap_20261114T011354"
+  },
+  "verification": {
+    "schema": 6,
+    "all_55_package_checks_passed": true,
+    "full_software_frame_and_timestamp_comparison": true,
+    "pcm_exact_to_aligned_encoder_output": true,
+    "dual_buffer_checks": true,
+    "original_mp4_property_query": 0,
+    "original_xml_basic_information": 0,
+    "original_reader_video_samples_checked": 1,
+    "original_reader_total_video_samples": 5276,
+    "original_reader_is_not_full_hardware_decode": true,
+    "original_catalog_reader_checks_passed": true,
+    "regression_tests": 302,
+    "regression_passed": true
+  },
+  "payload_preservation": {
+    "complete_mdat_equals_original_0030_preparation": true,
+    "all_three_track_payload_hashes_equal_original_0030_preparation": true,
+    "comparison_source": "output/mux-0030-29/A/C0000.MP4",
+    "old_noncanonical_xml_package_not_deployed": true
+  },
+  "card_changes": {
+    "new_files": [
+      "PRIVATE/M4ROOT/CLIP/C0010.MP4",
+      "PRIVATE/M4ROOT/CLIP/C0010M01.XML",
+      "PRIVATE/M4ROOT/THMBNL/C0010T01.JPG"
+    ],
+    "updated": [
+      "PRIVATE/M4ROOT/MEDIAPRO.XML",
+      "PRIVATE/DATABASE/DATABASE.BIN"
+    ],
+    "deleted": [],
+    "old_active_records_preserved": 124,
+    "new_records": [130],
+    "old_records_modified_or_removed": [],
+    "movie_count_before_after": [57, 58],
+    "post_snapshot_metadata_files": 78,
+    "post_snapshot_media_inventory_entries": 155
+  },
+  "post_write_selected_media_match_preserved_references": {
+    "C0007": "8b0d2c7794ec633b508da6bc93043b009b5468dd3aa0ac38a5e5e292261f773a",
+    "C6520": "6d24dfaba2b31722e147ead025487a5d1cf94a5b66234d151372036977e55b6a",
+    "C6521": "6d02f8ac45278da9e51993a0c5b3531cea216b22b705768611b9ebb8f5d46c99",
+    "C6522": "958e22dc27d263d8ac04ec521fc3581b778976f6e2548f1119bc3f4f792243d1"
+  },
+  "other_old_media_preservation_scope": "Snapshot membership, size and mtime; not a full-card before/after content hash",
+  "local_B_control": {
+    "clip": "C9999",
+    "package": "output/mux-0032-29/B",
+    "deployed": false,
+    "original_mp4_property_query": 3,
+    "raw_original_reader_passed": false,
+    "expected_rejection_preserved": true
+  },
+  "bound_reports_sha256": {
+    "analysis/0032-preparation-plan.json": "7fb4513a3f0b4b3243e99f3a07fc53bd74a333ca3a8858318151ea0da6e7af0e",
+    "analysis/sd-test-round-0032.json": "d05a3a4aa35a2f9793f0d37300bb3483d41a274f6eb828c50796934390a2ed69",
+    "analysis/0032-final-card-diff.json": "6426e15405f7a7ab7d293af145920486760e21c8e4bf5968e8dbbbcef8cd62c1",
+    "analysis/0032-pair-29.json": "466e06a6c8079f3dec0fe0611f33d04fd0d36e2a65f64ebf0b4b921a41c89537",
+    "analysis/0032-reader-C0010.json": "ab691f9d82e19316e5fac7533f17c8d82d69fd9ea861fd9a00fb4c2ca0834dc7",
+    "analysis/0032-nrt-C0010.json": "fcb4db5387c379a37487d9c4b716d564e6308c1ba225382d8ccb600d0137e4c9",
+    "analysis/0032-regression.log": "cce3f12bd9192c22e3c46e589433fe1482c32666c75907ea6aa2da01228d727e",
+    "output/mux-0032-29/A/build-manifest.json": "2d52f946c4fbefd8c95eb33d5c5c1939a95ecba7a1ea77655bbc766ed2d933fc",
+    "output/mux-0032-29/A/verification.json": "77da0dde2d899fd8926a9196462af859f4d4f42d055a02ef1360f26dc250af4b",
+    "output/mux-0032-29/A/firmware-catalog-verification.json": "28bc50565ec0ab07de5e2499ffed0dab5027e23ddd54ebf3cbb2e0672f6465c1",
+    "output/mux-0032-29/A/deployment.json": "5272ce65b8a9d0f4433712d6153fc3c9d8398c3bd65ed4ba8d62f9faefc8d19e"
+  },
+  "camera": {
+    "listed": null,
+    "thumbnail": null,
+    "starts_playback": null,
+    "full_duration": null,
+    "audio": null,
+    "seek": null,
+    "survives_database_repair": null
+  },
+  "scope": "New source and low-number deployment awaiting physical verification; not a number-only controlled comparison"
+}

@@ -15,6 +15,7 @@ from pathlib import Path
 from audit_card_snapshot import audit
 from deploy_sd_clip import digest
 from sony_verification import require_current_verification, require_package_hashes
+from bitrate_experiment import package_profile, require_diagnostic_evidence
 
 
 def main():
@@ -23,6 +24,7 @@ def main():
     ap.add_argument("--before", required=True)
     ap.add_argument("--build", action="append", required=True)
     ap.add_argument("--output", required=True)
+    ap.add_argument("--allow-diagnostic", action="store_true")
     args = ap.parse_args()
     card, output = Path(args.card).resolve(), Path(args.output).resolve()
     if output == card or card in output.parents:
@@ -36,13 +38,16 @@ def main():
         report = json.loads((build / "verification.json").read_text(encoding="utf-8"))
         deployment = json.loads((build / "deployment.json").read_text(encoding="utf-8"))
         transaction = json.loads((build / "catalog/transaction.json").read_text(encoding="utf-8"))
+        package_profile(manifest)
         require_current_verification(report, manifest.get("package_kind", "encoded_avc"),
                                      manifest.get("acquisition", "unspecified"),
-                                     transaction.get("catalog_representation", "native_reuse"))
+                                     transaction.get("catalog_representation", "native_reuse"),
+                                     allow_diagnostic=args.allow_diagnostic)
         if deployment.get("status") != "deployed":
             raise ValueError("Expected a successful deployment")
         clip = manifest["clip"]
         require_package_hashes(report, build, clip)
+        require_diagnostic_evidence(report, build, manifest)
         mapping = {clip + ".MP4": f"PRIVATE/M4ROOT/CLIP/{clip}.MP4",
                    clip + "M01.XML": f"PRIVATE/M4ROOT/CLIP/{clip}M01.XML",
                    clip + "T01.JPG": f"PRIVATE/M4ROOT/THMBNL/{clip}T01.JPG",

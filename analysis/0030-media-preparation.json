@@ -1,0 +1,258 @@
+{
+  "media_verification_schema": 1,
+  "scope": "MEDIA_ONLY_NO_CURRENT_CARD_CATALOG",
+  "passed_media_checks": true,
+  "deployment_admitted": false,
+  "catalog_staged": false,
+  "camera_playback": "NOT_TESTED",
+  "clip_name_is_local_placeholder": true,
+  "checks": {
+    "decoded_frames_and_timestamps_bit_exact": true,
+    "sei_container_timing": true,
+    "progressive_slice_order": true,
+    "selected_cbr_cpb": true,
+    "media_unchanged_during_verification": true,
+    "profile_manifest_cadence": true,
+    "profile_track_cadence": true,
+    "profile_movie_duration": true,
+    "profile_edit_durations": true,
+    "profile_sample_entry_dimensions": true,
+    "profile_track_dimensions": true,
+    "profile_avcc": true,
+    "profile_pcm_format_and_count": true,
+    "profile_audio_metadata_edit_origins": true,
+    "profile_video_edit_origin": true,
+    "audio_pcm_bit_exact_to_aligned_encoder_output": true,
+    "all_coded_vcl_nals_preserved_by_packaging": true,
+    "embedded_xml_bit_exact_to_sidecar": true,
+    "xml_profile_and_duration": true,
+    "xml_umid": true,
+    "xml_dates": true,
+    "container_dates": true,
+    "prof_matches_explicit_declarations": true,
+    "probed_avc_matches_profile": true,
+    "rec709_limited_range": true,
+    "dual_hrd_rates_and_buffers": true,
+    "rtmd_every_packet": true,
+    "four_slices_every_frame": true,
+    "gop_sync_samples": true,
+    "reference_and_reorder_configuration": true,
+    "structure_template_still_bound": true,
+    "media_still_matches_build": true,
+    "encoder_base_still_bound": true,
+    "pair_and_exact_original_reader_evidence_bound": true
+  },
+  "frames": 5276,
+  "duration_seconds": 176.04253333333332,
+  "audio_samples": 8450041,
+  "audio_alignment": {
+    "trimmed_samples": 1,
+    "silent_samples_added": 0
+  },
+  "media_path": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\C0000.MP4",
+  "media_sha256": "64ce29c6561a91e52c7c0116bf2d2c08bae6336f048c3845a6778868ee6329fd",
+  "media_bytes": 127259457,
+  "experiment_spec": {
+    "schema": 1,
+    "kind": "bitrate_diagnostic",
+    "experiment_id": "0030",
+    "pair_id": "0030-mux-29",
+    "variant": "A",
+    "base_profile": "hd16_2997",
+    "coded_bitrate_kbps": 4000,
+    "hrd_bitrate_kbps": 4000,
+    "cpb_size_kbits": 4000,
+    "prof_average_kbps": 16000,
+    "prof_maximum_kbps": 16000,
+    "creation_time": "2026-11-13T21:31:35+08:00"
+  },
+  "rates": {
+    "timescale": 30000,
+    "duration_ticks": 5281276,
+    "duration_seconds": 176.04253333333332,
+    "samples": 5276,
+    "byte_totals": {
+      "video": 87999774,
+      "nal": 87871174,
+      "vcl": 85236364,
+      "filler": 2589388
+    },
+    "nal_type_counts": {
+      "6": 5453,
+      "9": 5276,
+      "5": 704,
+      "1": 20400,
+      "12": 317
+    },
+    "average_bps": {
+      "video": 3999023.2966427053,
+      "nal": 3993179.2544074575,
+      "vcl": 3873444.0994941373,
+      "filler": 117671.01738292034
+    },
+    "one_second_decode_window_peak": {
+      "video": {
+        "bytes": 699550,
+        "start_decode_tick": 8008,
+        "bps": 5596400
+      },
+      "nal": {
+        "bytes": 698818,
+        "start_decode_tick": 8008,
+        "bps": 5590544
+      },
+      "vcl": {
+        "bytes": 689892,
+        "start_decode_tick": 4813809,
+        "bps": 5519136
+      },
+      "filler": {
+        "bytes": 495974,
+        "start_decode_tick": 5211206,
+        "bps": 3967792
+      }
+    },
+    "accounting": {
+      "video": "MP4 video samples including four-byte NAL length prefixes",
+      "nal": "All NAL bytes including NAL headers, excluding MP4 prefixes",
+      "vcl": "NAL types 1-5,19-21; filler excluded",
+      "filler": "NAL type 12 only",
+      "window": "Whole samples at DTS in [start,start+1s); tail zero padded to 1s"
+    }
+  },
+  "original_reader_assessment": {
+    "passed": true,
+    "expected_rejection": false,
+    "expected_query_status": 0,
+    "media_sha256": "64ce29c6561a91e52c7c0116bf2d2c08bae6336f048c3845a6778868ee6329fd",
+    "firmware_sha256": "1a7a8007828810f948eb4fb95b9a269176355553a69977f6d8f2ae59516f5532",
+    "experiment_spec": {
+      "schema": 1,
+      "kind": "bitrate_diagnostic",
+      "experiment_id": "0030",
+      "pair_id": "0030-mux-29",
+      "variant": "A",
+      "base_profile": "hd16_2997",
+      "coded_bitrate_kbps": 4000,
+      "hrd_bitrate_kbps": 4000,
+      "cpb_size_kbits": 4000,
+      "prof_average_kbps": 16000,
+      "prof_maximum_kbps": 16000,
+      "creation_time": "2026-11-13T21:31:35+08:00"
+    },
+    "probe_mode": {
+      "seek_probe": true,
+      "seek_mode": 1,
+      "sample_batches": 1,
+      "decode_table_probe": true,
+      "rtmd_probe": true
+    },
+    "probe_mode_observed": true,
+    "scope": "Selected original reader probes: 1 of 5276 video samples checked; no full-stream decode or camera playback",
+    "checks": {
+      "media_hash_bound": true,
+      "firmware_hash_bound": true,
+      "runtime_hash_bound": true,
+      "original_code_unchanged": true,
+      "exact_call_sequence_and_statuses": true,
+      "no_emulator_errors": true,
+      "original_reader_verdict_preserved": true,
+      "independent_sample_table_crosscheck": true,
+      "rtmd_first_second_last_consistent": true,
+      "probe_mode_bound": true
+    },
+    "rtmd_frame_indices": [
+      0,
+      1,
+      5275
+    ],
+    "video_frames_checked": 1,
+    "total_video_frames": 5276,
+    "full_stream_decode": false,
+    "camera_playback_proven": false
+  },
+  "diagnostic_evidence": {
+    "pair_report_sha256": "f5318867257ec86b839bce57a27a17ad8867b951171b1b62d92fc2b2dcbac3d4",
+    "reader_report_sha256": "ea22359963cb757132018a575177749c3db47f4b900eea39ccc0d2e466eabaf3"
+  },
+  "fresh_media_evidence": {
+    "directory": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t",
+    "media_sha256": "64ce29c6561a91e52c7c0116bf2d2c08bae6336f048c3845a6778868ee6329fd",
+    "base_sha256": "3f386cdbd3d77e7a854ace755b7a03cd3ecfe33baf76c4c30c736f1ce93547f8",
+    "runs": [
+      {
+        "command": [
+          "ffmpeg",
+          "-hide_banner",
+          "-v",
+          "error",
+          "-nostdin",
+          "-n",
+          "-i",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\encode\\base.mov",
+          "-map",
+          "0:v:0",
+          "-f",
+          "framemd5",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\base.framemd5"
+        ],
+        "log": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\base-decode-process.log",
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "ffmpeg",
+          "-hide_banner",
+          "-v",
+          "error",
+          "-nostdin",
+          "-n",
+          "-i",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\C0000.MP4",
+          "-map",
+          "0:v:0",
+          "-f",
+          "framemd5",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\C0000.framemd5"
+        ],
+        "log": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\C0000-decode-process.log",
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "E:\\anaconda3\\envs\\test311\\python.exe",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\tools\\check_avc_timing.py",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\C0000.MP4",
+          "--output",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\timing.json"
+        ],
+        "log": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\timing-process.log",
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "E:\\anaconda3\\envs\\test311\\python.exe",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\tools\\check_avc_slice_order.py",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\C0000.MP4",
+          "--output",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\slice-order.json"
+        ],
+        "log": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\slice-order-process.log",
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "E:\\anaconda3\\envs\\test311\\python.exe",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\tools\\check_avc_cpb.py",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\C0000.MP4",
+          "--output",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\cpb.json",
+          "--timing",
+          "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\timing.json"
+        ],
+        "log": "C:\\Users\\HeMu\\Desktop\\XAVC_Write\\output\\mux-0030-29\\A\\verification_runs\\run-fcy1er8t\\cpb-process.log",
+        "exit_code": 0
+      }
+    ]
+  }
+}

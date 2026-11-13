@@ -50,6 +50,18 @@ def fake_track(profile, avcc=None):
 
 
 class ProfileTests(unittest.TestCase):
+    def test_xml_whole_number_level_spelling_is_not_the_numeric_avc_level(self):
+        expected = {
+            "hd16_2997": "AVC_1920_1080_HP@L4",
+            "hd50_2997": "AVC_1920_1080_HP@L41",
+            "hd25_5994": "AVC_1920_1080_HP@L42",
+            "hd50_5994": "AVC_1920_1080_HP@L42",
+            "uhd60_2997": "AVC_3840_2160_HP@L51",
+        }
+        for key, literal in expected.items():
+            self.assertEqual(get_profile(key).video_codec, literal)
+        self.assertEqual(get_profile("hd16_2997").level_idc, 40)
+
     def test_explicit_profiles_and_legacy_default(self):
         self.assertEqual(manifest_profile({}).name, DEFAULT_PROFILE)
         for name in PROFILES:

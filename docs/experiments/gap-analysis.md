@@ -1,5 +1,13 @@
 # Gap analysis: which fields are understood, flagged, or blind
 
+**Historical audit notice,2026-11-14:** this is the original early snapshot
+assessment, not the present task list or permission to write guessed fields.
+Later firmware-backed tools resolve bitmap/record/header checksums, explicit
+record references, UMID reconstruction and packed dates. Partial SD write and
+camera-playback paths now exist. Do not follow the body below's "safe to
+replicate", zero-fill recommendations, old field offsets or1024Hz timer model.
+Current capabilities, remaining questions and evidence: `docs/current-status.md`.
+
 Date: 2026-06-21.  Covers all 11 snapshots (baseline → after10).
 
 Method: cross-referenced every documented offset against the actual hex dumps of

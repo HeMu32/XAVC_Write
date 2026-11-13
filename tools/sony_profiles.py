@@ -37,7 +37,8 @@ class SonyProfile:
 
     @property
     def video_codec(self):
-        return f"AVC_{self.width}_{self.height}_HP@L{self.level_idc}"
+        level = self.level_idc // 10 if self.level_idc % 10 == 0 else self.level_idc
+        return f"AVC_{self.width}_{self.height}_HP@L{level}"
 
     @property
     def timescale(self):
@@ -93,6 +94,10 @@ def get_profile(name=DEFAULT_PROFILE):
 
 def manifest_profile(manifest):
     """Keep legacy 25M manifests readable, but bind every declared profile field."""
+    if manifest.get("package_kind") == "bitrate_diagnostic" or any(
+            key in manifest for key in ("experiment_spec", "diagnostic_evidence",
+                                       "experiment_spec_path", "experiment_spec_sha256")):
+        raise ValueError("Diagnostic package requires the separate experiment resolver")
     profile = get_profile(manifest.get("sony_profile", DEFAULT_PROFILE))
     if "profile_parameters" in manifest and manifest["profile_parameters"] != profile.manifest_fields():
         raise ValueError("Manifest profile parameters disagree with selected Sony profile")
