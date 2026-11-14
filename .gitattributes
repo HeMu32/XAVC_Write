@@ -4,6 +4,9 @@ analysis/003[0-3]-*.json -text
 analysis/camera-observations-0029-before-repair.json -text
 analysis/camera-observations-0031-result.json -text
 analysis/camera-observations-0032-result.json -text
+analysis/camera-observations-0033-result.json -text
+analysis/deliverables-inventory-*.json -text
+analysis/deliverables-validation-*.json -text
 analysis/camera-test-round-0029*.json -text
 analysis/camera-test-round-0032.json -text
 analysis/sd-test-round-0029.json -text

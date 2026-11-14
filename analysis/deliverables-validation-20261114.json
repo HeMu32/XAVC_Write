@@ -1,0 +1,22 @@
+{
+  "card_access": false,
+  "card_writes": false,
+  "new_commit_created": false,
+  "test_patterns": [
+    "test_deliverables.py",
+    "test_repair_0033.py",
+    "test_current_status_evidence.py"
+  ],
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "full_regression_rerun": false,
+  "inventory_text_hashes_rechecked": 1501,
+  "inventory_hash_mismatches": [],
+  "bound_reports_sha256": {
+    "analysis/deliverables-inventory-20261114.json": "6a04bfe4ebc4e6b4cd893ac23920c8b9bfb6de7f73f2202cea855b9ef631b231",
+    "analysis/camera-observations-0033-result.json": "d6df851ca68cb27d4e43ce6cbc3366b60376a26c2d25da77cbae62c019961672"
+  }
+}

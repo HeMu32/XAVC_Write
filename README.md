@@ -5,6 +5,7 @@
 
 ## 从哪里开始
 
+- 全部产出、可复用工具、成功样本和交付边界：`docs/deliverables.md`。
 - 当前结论、各配置实机结果和未解决问题：`docs/current-status.md`。
 - 一个新片段需要的全部文件与编录操作：`docs/sd-xavcs-reproduction.md`。
 - 码率控制的职责划分：`docs/bitrate-control-explained.md`。
@@ -13,6 +14,8 @@
 - 最新列出反馈：`analysis/camera-observations-0031-result.json`。
 - 长片段复用已有编码、接续C0007空号写为C0010：
   `docs/experiments/0032_mux_low_number_sd.md`，用户已确认正确播放。
+  后续用户明确补充修复数据库后也正常播放：
+  `analysis/camera-observations-0033-result.json`。
 - 再次修复数据库后的只读观察：
   `docs/experiments/0033_second_repair_observation.md`；58个视频编号全部保留，
   C0010、C6520、C6521记录得到补全，C6522迁移到新的稀疏槽位。
@@ -24,8 +27,8 @@
 
 软件能解码、原厂库能读取、机身能列出、机身能播放是不同证据。
 C6520/C6521修正后曾确认“能列出”；本次再次修复后，其数据库记录仍在且已补全。
-C0010的“正确播放”反馈发生在本次修复之前。修复后的界面列出、播放，
-以及各阶段未单独报告的完整时长/音频/跳转不能由磁盘记录代替。
+C0010已另外获得本次数据库修复后仍正常播放的明确反馈。
+该反馈不扩展到C6520/C6521；各阶段未单独报告的完整时长/音频/跳转不能补填。
 
 `docs/experiments/`中的早期字段表保留研究历史，不是当前写卡规范。
 记录起点、UMID、时间和校验等旧推断须以当前工具及后续固件证据为准。

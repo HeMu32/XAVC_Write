@@ -1,6 +1,6 @@
 {
   "preparation_id": "0030",
-  "state": "CORRECTED_SUCCESSOR_PLAYBACK_CONFIRMED_BEFORE_SECOND_REPAIR",
+  "state": "CORRECTED_SUCCESSOR_PLAYBACK_CONFIRMED_AFTER_REPORTED_DATABASE_REPAIR",
   "historical_package_state": "BLOCKED_NONCANONICAL_SONY_XML_CODEC",
   "legacy_fields_scope": "The original target_package/media/sidecar/verification/card_preparation fields below preserve the 0030 preparation. Current corrected deployment is recorded separately in current_deployment.",
   "correction_0031": {
@@ -117,9 +117,10 @@
     "camera_feedback": "analysis/camera-observations-0032-result.json",
     "post_repair_disk_observation": "analysis/0033-repair-observations.json",
     "post_repair_catalog_record_retained_and_populated": true,
-    "post_repair_physical_listing_and_playback": "NOT_SEPARATELY_REPORTED"
+    "post_repair_physical_listing_and_playback": "USER_REPORTED_NORMAL_C0010",
+    "post_repair_camera_feedback": "analysis/camera-observations-0033-result.json"
   },
-  "camera_playback": "CORRECTED_SUCCESSOR_C0010_USER_REPORTED_NORMAL_BEFORE_SECOND_REPAIR",
+  "camera_playback": "CORRECTED_SUCCESSOR_C0010_USER_REPORTED_NORMAL_AFTER_DATABASE_REPAIR",
   "database_repair_followup_from_round_0029": "C6520/C6521 were removed from listing after the first repair; corrected/re-cataloged versions were user-confirmed listed, then retained and populated in the second-repair disk snapshot. Post-second-repair physical UI/playback is not separately reported. See experiments0031/0033 and separate observation reports.",
   "production_profile_registry_changed": false
 }
